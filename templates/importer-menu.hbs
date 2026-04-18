@@ -1,0 +1,35 @@
+<section class="animu-exxet-importer">
+  <p class="animu-exxet-importer__lead">{{localize "ANIMU_EXXET.ui.description"}}</p>
+
+  <label class="animu-exxet-importer__options">
+    <input type="checkbox" name="rebuildExisting" {{checked rebuildExisting}}>
+    <span>{{localize "ANIMU_EXXET.ui.rebuildLabel"}}</span>
+  </label>
+  <p class="animu-exxet-importer__hint">{{localize "ANIMU_EXXET.ui.rebuildHint"}}</p>
+
+  <div class="animu-exxet-importer__list">
+    {{#each datasets}}
+      <article class="animu-exxet-importer__card">
+        <div class="animu-exxet-importer__row">
+          <div>
+            <h3>{{label}}</h3>
+            <div class="animu-exxet-importer__meta">
+              {{localize "ANIMU_EXXET.ui.datasetCount" count=count}}
+              ·
+              {{sourceBook}}
+            </div>
+          </div>
+          <button type="button" data-action="import-one" data-dataset-id="{{id}}">
+            {{localize "ANIMU_EXXET.ui.importOne"}}
+          </button>
+        </div>
+      </article>
+    {{/each}}
+  </div>
+
+  <div class="animu-exxet-importer__footer">
+    <button type="button" data-action="import-all">
+      {{localize "ANIMU_EXXET.ui.importAll"}}
+    </button>
+  </div>
+</section>

@@ -1,0 +1,41 @@
+{
+  "id": "animu-exxet",
+  "title": "Animu Exxet",
+  "description": "Addon para Anima Beyond Foundry que importa bestiarios de Core Exxet y Los que caminaron con nosotros como compendios de actores.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.359"
+  },
+  "authors": [
+    {
+      "name": "OpenAI Codex"
+    }
+  ],
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/animu-exxet.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "animabf",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.2.1",
+          "verified": "2.2.1"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/AnimaBeyondDevelop/AnimaBeyondFoundry"
+}

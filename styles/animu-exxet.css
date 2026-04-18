@@ -1,0 +1,61 @@
+.animu-exxet-importer {
+  display: grid;
+  gap: 1rem;
+  padding: 0.25rem;
+}
+
+.animu-exxet-importer__lead {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.animu-exxet-importer__options {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--color-border-light-primary);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--color-bg-option) 86%, #d3b16c 14%);
+}
+
+.animu-exxet-importer__hint {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-12);
+}
+
+.animu-exxet-importer__list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.animu-exxet-importer__card {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0.85rem;
+  border: 1px solid var(--color-border-light-primary);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--color-bg-option) 92%, #7f6441 8%);
+}
+
+.animu-exxet-importer__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.animu-exxet-importer__meta {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-12);
+}
+
+.animu-exxet-importer__footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.animu-exxet-directory-button {
+  margin-top: 0.5rem;
+}
