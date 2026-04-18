@@ -1,8 +1,8 @@
 {
   "id": "animu-exxet",
   "title": "Animu Exxet",
-  "description": "Addon para Anima Beyond Foundry que importa bestiarios de Core Exxet y Los que caminaron con nosotros como compendios de actores.",
-  "version": "0.1.0",
+  "description": "Addon para Anima Beyond Foundry que importa bestiarios, criaturas y PNJ desde Core Exxet, Los que caminaron con nosotros y otros manuales como compendios de actores.",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14.359"
@@ -30,6 +30,7 @@
       {
         "id": "animabf",
         "type": "system",
+        "manifest": "https://raw.githubusercontent.com/AnimaBeyondDevelop/AnimaBeyondFoundry/main/src/system.json",
         "compatibility": {
           "minimum": "2.2.1",
           "verified": "2.2.1"
@@ -37,5 +38,11 @@
       }
     ]
   },
-  "url": "https://github.com/AnimaBeyondDevelop/AnimaBeyondFoundry"
+  "url": "https://github.com/tisken/caminarus-exxet",
+  "manifest": "https://raw.githubusercontent.com/tisken/caminarus-exxet/main/module.json",
+  "download": "https://raw.githubusercontent.com/tisken/caminarus-exxet/main/dist/animu-exxet.zip",
+  "readme": "https://raw.githubusercontent.com/tisken/caminarus-exxet/main/README.md",
+  "bugs": "https://github.com/tisken/caminarus-exxet/issues",
+  "license": "https://raw.githubusercontent.com/tisken/caminarus-exxet/main/LICENSE",
+  "changelog": "https://github.com/tisken/caminarus-exxet/releases"
 }

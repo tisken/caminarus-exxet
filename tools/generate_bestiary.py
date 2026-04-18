@@ -15,6 +15,14 @@ MODULE_ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE_PATH = MODULE_ROOT / "data/reference/animabf-template.json"
 OUTPUT_DIR = MODULE_ROOT / "data/generated"
 
+
+def default_candidates(filename: str) -> list[Path]:
+    return [
+        Path("/animu/data/docs_md") / filename,
+        MODULE_ROOT.parent / "data/docs_md" / filename,
+    ]
+
+
 BOOKS = {
     "core-exxet": {
         "label": "Core Exxet",
@@ -22,13 +30,10 @@ BOOKS = {
         "compendium_label": "Animu Exxet · Core Exxet",
         "filename": "core-exxet.actors.json",
         "records_filename": "core-exxet.records.json",
-        "default_candidates": [
-            Path("/animu/data/docs_md/Anima Beyond Fantasy - Core Exxet.md"),
-            MODULE_ROOT.parent.parent
-            / "data/docs_md/Anima Beyond Fantasy - Core Exxet.md",
-        ],
+        "default_candidates": default_candidates("Anima Beyond Fantasy - Core Exxet.md"),
         "start_marker": "### Capítulo 27 Compendio de Seres",
         "end_marker": "### Reglas Adicionales",
+        "mode": "headed",
     },
     "caminaron-con-nosotros": {
         "label": "Los que caminaron con nosotros",
@@ -36,15 +41,177 @@ BOOKS = {
         "compendium_label": "Animu Exxet · Los que caminaron con nosotros",
         "filename": "caminaron-con-nosotros.actors.json",
         "records_filename": "caminaron-con-nosotros.records.json",
-        "default_candidates": [
-            Path(
-                "/animu/data/docs_md/Anima Beyond Fantasy - Los que caminaron con nosotros_unlocked.md"
-            ),
-            MODULE_ROOT.parent.parent
-            / "data/docs_md/Anima Beyond Fantasy - Los que caminaron con nosotros_unlocked.md",
-        ],
+        "default_candidates": default_candidates(
+            "Anima Beyond Fantasy - Los que caminaron con nosotros_unlocked.md"
+        ),
         "start_marker": "## Capítulo 1 hijos de Gaïa",
         "end_marker": "## Capítulo 2",
+        "mode": "headed",
+    },
+    "complemento-web-vol-1": {
+        "label": "Complemento Web Vol. 1",
+        "source_book": "ABF Complemento Web Vol. 1",
+        "compendium_label": "Animu Exxet · Complemento Web Vol. 1",
+        "filename": "complemento-web-vol-1.actors.json",
+        "records_filename": "complemento-web-vol-1.records.json",
+        "default_candidates": default_candidates("ABF_Complemento_Web_Vol1.md"),
+        "start_marker": "COMPENDIO",
+        "end_marker": "ÍNDICE DE CONJUROS",
+        "mode": "flat",
+    },
+    "guia-del-mundo-perfecto": {
+        "label": "Guía del Mundo Perfecto",
+        "source_book": "Anima Gate of Memories - Guía del Mundo Perfecto",
+        "compendium_label": "Animu Exxet · Guía del Mundo Perfecto",
+        "filename": "guia-del-mundo-perfecto.actors.json",
+        "records_filename": "guia-del-mundo-perfecto.records.json",
+        "default_candidates": default_candidates(
+            "Anima Gate of Memories - Guia_del_Mundo_Perfecto.md"
+        ),
+        "start_marker": "ÍNDICE MARIONETAS DE LOS RECUERDOS",
+        "end_marker": None,
+        "mode": "flat",
+        "page_title_overrides": {
+            3: ["Marioneta"],
+            4: ["Marioneta de Fuego"],
+            5: ["Guardián de los Recuerdos"],
+            7: ["Sello Defensor"],
+            9: ["Noth"],
+            10: ["Ophanim"],
+            13: ["Noth Principado"],
+            15: ["Noth Potestas"],
+            19: ["Guardián del Nexo"],
+            21: ["Hidra Reina"],
+            22: ["Caballero Dorado"],
+            25: ["Striborg"],
+            27: ["Elemental Básico"],
+            28: ["Pesadilla Viviente"],
+            30: ["Lúgubre"],
+            32: ["Marioneta de Nascal", "Marioneta de Ghestal"],
+            34: ["Prototipo de Nascal"],
+            37: ["Tótem Guardián"],
+            39: ["Dron Menor", "Dron Mayor", "Drones de Combate de Sólomon"],
+            41: ["Procasian"],
+            42: ["Procasian Menor", "Procasian Mayor"],
+            43: ["Dama Roja"],
+            45: ["Malekith, Príncipe de los Cuervos", "Mensajeros"],
+            48: ["Druaga, El Caído"],
+            50: ["Jonathan Kappel"],
+            52: ["Nascal"],
+            54: ["El Sin Nombre"],
+            56: ["Baal, La Puerta del Infierno"],
+            59: ["Ergo Mundus, El Monstruo Definitivo"],
+        },
+    },
+    "dramatis-personae": {
+        "label": "Dramatis Personae",
+        "source_book": "Dramatis Personae",
+        "compendium_label": "Animu Exxet · Dramatis Personae",
+        "filename": "dramatis-personae.actors.json",
+        "records_filename": "dramatis-personae.records.json",
+        "default_candidates": default_candidates("Dramatis personae.md"),
+        "start_marker": "## Dramatis Personae",
+        "end_marker": None,
+        "mode": "flat",
+        "page_title_overrides": {
+            1: ["XII"],
+            6: ["Kali"],
+            8: ["El Coronel"],
+            10: ["Anna Never"],
+            12: ["Romeo Exxet"],
+            16: ["Nerelas Ul del Sylvanus"],
+            18: ["Griever"],
+            20: ["Yuri Olson"],
+            22: ["Ophiel"],
+            26: ["Kujaku"],
+            28: ["Alastor"],
+        },
+    },
+    "dramatis-personae-vol-2": {
+        "label": "Dramatis Personae Vol. 2",
+        "source_book": "Dramatis Personae Vol. 2",
+        "compendium_label": "Animu Exxet · Dramatis Personae Vol. 2",
+        "filename": "dramatis-personae-vol-2.actors.json",
+        "records_filename": "dramatis-personae-vol-2.records.json",
+        "default_candidates": default_candidates("DramatisPersonaeVolumen2.md"),
+        "start_marker": "## Dramatispersonaevolumen2",
+        "end_marker": None,
+        "mode": "flat",
+        "page_title_overrides": {
+            1: ["Balthassar, el Monstruo"],
+            8: ["Killrayne, Ejecutor Imperial Supremo"],
+            12: ["Ilumina, Ángel Oscuro"],
+            14: ["Seline Luna, Señora de las Pesadillas"],
+            18: ["Matthew Gaul, Arconte Supremo"],
+            23: ["Konrad Von Rikker, Comandante de Campo de Tol Rauko"],
+            26: ["Ángel Fantasma, Du Mah Type-1.000"],
+            29: ["Hringham, Rey de la No Vida"],
+            34: ["Valis Ul del Vilfain, Princesa de las Arias"],
+            39: ["Kishidan, Caballero de la Orden del 7º Cielo"],
+        },
+    },
+    "pantalla-del-director": {
+        "label": "Pantalla del Director",
+        "source_book": "Anima Pantalla del Director",
+        "compendium_label": "Animu Exxet · Pantalla del Director",
+        "filename": "pantalla-del-director.actors.json",
+        "records_filename": "pantalla-del-director.records.json",
+        "default_candidates": default_candidates("Anima_Pantalla_del_Director_unlocked.md"),
+        "start_marker": "## Capítulo 3 personajesgenerados",
+        "end_marker": "## Apéndice Ayudas de Juego",
+        "mode": "flat",
+    },
+    "dravenor-parte-1": {
+        "label": "Dravenor · Parte 1",
+        "source_book": "DRAVENOR Ejército regular de La Máquina · Parte 1",
+        "compendium_label": "Animu Exxet · Dravenor Parte 1",
+        "filename": "dravenor-parte-1.actors.json",
+        "records_filename": "dravenor-parte-1.records.json",
+        "default_candidates": default_candidates("DRAVENOR_Ejercito_regular_de_La_Maquina_Parte_1.md"),
+        "start_marker": "## Dravenorejercito Regular de la Maquina Parte 1",
+        "end_marker": None,
+        "mode": "flat",
+        "sequential_title_overrides": [
+            "Araña de Tierra (La Máquina · Varna menor)",
+            "Sabueso (La Máquina · Varna menor)",
+            "Alfa (La Máquina · Varna intermedia)",
+            "Cangrejo (La Máquina · Varna intermedia)",
+            "Colosal (La Máquina · Varna mayor)",
+        ],
+    },
+    "dravenor-parte-2": {
+        "label": "Dravenor · Parte 2",
+        "source_book": "DRAVENOR Ejército regular de La Máquina · Parte 2",
+        "compendium_label": "Animu Exxet · Dravenor Parte 2",
+        "filename": "dravenor-parte-2.actors.json",
+        "records_filename": "dravenor-parte-2.records.json",
+        "default_candidates": default_candidates("DRAVENOR_Ejercito_regular_de_La_Maquina_Parte_2.md"),
+        "start_marker": "## Dravenorejercito Regular de la Maquina Parte 2",
+        "end_marker": None,
+        "mode": "flat",
+        "sequential_title_overrides": [
+            "Fundidor (La Máquina · Varna intermedia)",
+            "Cascarón (La Máquina · Varna menor)",
+            "Camaleón (La Máquina · Varna menor)",
+            "Leviatán (La Máquina · Varna intermedia)",
+            "Orbe (La Máquina · Varna menor)",
+        ],
+    },
+    "dravenor-parte-3": {
+        "label": "Dravenor · Parte 3",
+        "source_book": "DRAVENOR Ejército regular de La Máquina · Parte 3",
+        "compendium_label": "Animu Exxet · Dravenor Parte 3",
+        "filename": "dravenor-parte-3.actors.json",
+        "records_filename": "dravenor-parte-3.records.json",
+        "default_candidates": default_candidates("DRAVENOR_Ejercito_regular_de_La_Maquina_Parte_3.md"),
+        "start_marker": "## Dravenorejercito Regular de la Maquina Parte 3",
+        "end_marker": None,
+        "mode": "flat",
+        "sequential_title_overrides": [
+            "Portador Leviatán (La Máquina · Varna mayor)",
+            "Portador Abisal (La Máquina · Varna mayor)",
+            "Dálcal (La Máquina · Varna suprema)",
+        ],
     },
 }
 
@@ -53,6 +220,11 @@ PAGE_RE = re.compile(r"_Página\s+(\d+)_", re.IGNORECASE)
 ORDER_RE = re.compile(r"\(order\s+#\d+\)", re.IGNORECASE)
 TAG_COMMENT_RE = re.compile(r"<!--.*?-->", re.DOTALL)
 NUMBER_RE = re.compile(r"-?\d+(?:\.\d+)?")
+LEVEL_MARKER_RE = re.compile(r"(?:[sl]?Nivel|Nivell)\s*:", re.IGNORECASE)
+POINTS_MARKER_RE = re.compile(
+    r"(?:Puntos\s+de\s+Vida|Putos\s+de\s+Vida|de\s+Vida|Vida)\s*:",
+    re.IGNORECASE,
+)
 PRIMARY_STAT_RE = re.compile(
     r"Fue\s*:\s*([^\s]+).*?"
     r"Des\s*:\s*([^\s]+).*?"
@@ -308,6 +480,14 @@ def merge_ocr_title_fragments(text: str) -> str:
             and merged[-1].islower()
         ):
             merged[-1] += token
+        elif (
+            merged
+            and len(token) <= 3
+            and token[:1].isupper()
+            and token[1:].islower()
+            and merged[-1].islower()
+        ):
+            merged[-1] += token.lower()
         else:
             merged.append(token)
 
@@ -389,7 +569,7 @@ def discover_path(explicit: str | None, candidates: list[Path]) -> Path:
             return candidate.resolve()
 
     raise FileNotFoundError(
-        "No se encontró el manual fuente. Pasa la ruta con --core o --walking."
+        "No se encontró el manual fuente en ninguna de las rutas candidatas."
     )
 
 
@@ -422,7 +602,7 @@ def iter_sections(text: str) -> list[dict]:
 
 
 def find_profile_windows(section_body: str) -> list[tuple[int, int]]:
-    matches = list(re.finditer(r"Nivel\s*:", section_body, flags=re.IGNORECASE))
+    matches = list(LEVEL_MARKER_RE.finditer(section_body))
     if not matches:
         return []
 
@@ -502,16 +682,61 @@ def extract_variant(section_title: str, section_body: str, position: int) -> str
     return cleanup_variant_label(section_title, lines[-1])
 
 
+def extract_flat_title(source_text: str, position: int) -> str | None:
+    window = source_text[max(0, position - 180) : position]
+    window = TAG_COMMENT_RE.sub("\n", window)
+    window = PAGE_RE.sub("\n", window)
+    window = ORDER_RE.sub("\n", window)
+    window = re.sub(r"(?<=[a-záéíóúüñ])(?=[A-ZÁÉÍÓÚÜÑ])", " ", window)
+    window = re.sub(r"(?<=\d)(?=[A-Za-zÀ-ÿ])", " ", window)
+
+    lines = [collapse_spaces(line) for line in window.splitlines() if collapse_spaces(line)]
+    candidate = lines[-1] if lines else collapse_spaces(window)
+    candidate = re.sub(r"^#+\s*", "", candidate)
+    candidate = re.sub(
+        r".*(?:Descripci[óo]n|Posesiones|Consejos de interpretaci[óo]n|Notas y curiosidades)\s*:\s*",
+        "",
+        candidate,
+        flags=re.IGNORECASE,
+    )
+    if "indice" in normalize_key(candidate):
+        candidate = re.split(r"ÍNDICE", candidate, flags=re.IGNORECASE)[-1]
+    else:
+        fragments = [fragment.strip() for fragment in re.split(r"[.!?]", candidate) if fragment.strip()]
+        if fragments:
+            candidate = fragments[-1]
+
+    digit_fragments = [fragment.strip() for fragment in re.split(r"\d+", candidate) if fragment.strip()]
+    if digit_fragments:
+        tail = digit_fragments[-1]
+        if re.search(r"[A-Za-zÀ-ÿ]", tail):
+            candidate = tail
+
+    tokens = re.findall(r"[A-Za-zÀ-ÿ'´`-]+", candidate)
+    if not tokens:
+        return None
+
+    candidate = " ".join(tokens[-8:])
+    candidate = merge_ocr_title_fragments(candidate)
+    candidate = collapse_spaces(candidate.strip(" -,:;."))
+    if not candidate:
+        return None
+
+    return smart_title(candidate)
+
+
 def extract_labeled_fields(chunk: str) -> dict[str, str]:
     flat = normalize_flat(chunk)
     patterns = {
-        "level": r"Nivel\s*:",
-        "points": r"(?:Puntos\s+de\s+Vida|de\s+Vida|Vida)\s*:",
+        "level": r"(?:[sl]?Nivel|Nivell)\s*:",
+        "points": r"(?:Puntos\s+de\s+Vida|Putos\s+de\s+Vida|de\s+Vida|Vida)\s*:",
+        "class": r"Clase\s*:",
         "category": r"(?:Categor[íi]a|Profesi[óo]n)\s*:",
-        "turn": r"Turno\s*:",
-        "attack": r"Habilidad\s+de\s+ataque\s*:",
-        "defense": r"Habilidad\s+de\s+defensa\s*:",
-        "damage": r"Da[ñn]o\s*:",
+        "race": r"Raza\s*:",
+        "turn": r"(?:Turno|Iniciativa)\s*:",
+        "attack": r"(?:Habilidad|Hab\.)\s+de\s+ataque\s*:",
+        "defense": r"(?:Habilidad|Hab\.)\s+de\s+(?:defensa|esquiva)\s*:",
+        "damage": r"(?:Da[ñn]o|Damage)\s*:",
         "wear_armor": r"Llevar\s+armadura\s*:",
         "ta": r"TA\s*:",
         "act": r"(?:ACT|Act)\s*:",
@@ -519,17 +744,26 @@ def extract_labeled_fields(chunk: str) -> dict[str, str]:
         "magic_projection": r"Proyecci[óo]n\s+M[áa]gica\s*:",
         "magic_level": r"Nivel\s+de\s+magia\s*:",
         "summon": r"Convocar\s*:",
-        "control": r"(?:Dominaci[óo]n|Control)\s*:",
+        "control": r"(?:Dominaci[óo]n|Control(?:ar)?)\s*:",
         "bind": r"(?:Atadura|Atar)\s*:",
         "banish": r"Desconvocar\s*:",
-        "psychic_potential": r"Potencial\s+Ps[íi]quico\s*:",
-        "cv": r"CV\s+Libres\s*:",
+        "psychic_potential": r"Potencial(?:\s+Ps[íi]quico)?\s*:",
+        "cv": r"CVs?\s*Libres\s*:",
         "disciplines": r"Disciplinas(?:\s*:)?",
         "innate": r"Innatos\s*:",
         "psychic_projection": r"Proyecci[óo]n\s+Ps[íi]quica\s*:",
+        "psychic_powers": r"Poderes\s+Ps[íi]quicos\s*:",
         "natural_abilities": r"Habilidades\s+naturales\s*:",
         "essentials": r"Habilidades\s+esenciales\s*:",
-        "powers": r"Poderes\s*:",
+        "powers": r"Poderes(?!\s+Ps[íi]quicos)\s*:",
+        "advantages": r"Ventajas\s+y\s+desventajas\s*:",
+        "ki": r"Ki\s*:",
+        "accumulations": r"Acumulaciones(?:\s+de\s+Ki)?\s*:",
+        "techniques": r"T[ée]cnicas\s*:",
+        "martial_arts": r"Artes\s+Marciales\s*:",
+        "invocations": r"Invocaciones\s*:",
+        "metamagic": r"Metamagia\s*:",
+        "elan": r"Elan\s*:",
         "size": r"Tama[ñn]o\s*:",
         "regen": r"Regeneraci[óo]n\s*:",
         "movement": r"(?:Tipo\s+de\s+movimiento|de\s+movimiento)\s*:",
@@ -576,7 +810,7 @@ def split_level_and_class(level_fragment: str) -> tuple[int | None, str | None, 
 def parse_primary_stats(fields: dict[str, str]) -> dict[str, int]:
     joined = " ".join(
         fields.get(key, "")
-        for key in ["category", "turn", "attack", "defense", "damage", "ta"]
+        for key in ["class", "category", "race", "turn", "attack", "defense", "damage", "ta"]
     )
     match = PRIMARY_STAT_RE.search(normalize_flat(joined))
     if not match:
@@ -596,7 +830,7 @@ def parse_primary_stats(fields: dict[str, str]) -> dict[str, int]:
 def parse_resistances(fields: dict[str, str]) -> dict[str, int]:
     joined = " ".join(
         fields.get(key, "")
-        for key in ["category", "turn", "attack", "defense", "damage", "ta"]
+        for key in ["class", "category", "race", "turn", "attack", "defense", "damage", "ta"]
     )
     match = RESISTANCE_RE.search(normalize_flat(joined))
     if not match:
@@ -740,6 +974,22 @@ def html_paragraph(text: str | None) -> str:
     return f"<p>{escaped}</p>"
 
 
+def is_viable_record(record: dict) -> bool:
+    if not record.get("life_points"):
+        return False
+    if not record.get("primary_stats"):
+        return False
+    if not record.get("resistances"):
+        return False
+
+    normalized_name = normalize_key(record.get("name", ""))
+    if not normalized_name:
+        return False
+    if normalized_name in {"nivel", "cm", "efectos"}:
+        return False
+    return True
+
+
 def build_description(record: dict) -> str:
     source_bits = [
         f"<p><strong>Fuente:</strong> {html.escape(record['source_book'])}</p>",
@@ -756,6 +1006,10 @@ def build_description(record: dict) -> str:
         )
 
     summary_bits = []
+    if record.get("race"):
+        summary_bits.append(
+            f"<p><strong>Raza:</strong> {html.escape(record['race'])}</p>"
+        )
     if record.get("creature_class"):
         summary_bits.append(
             f"<p><strong>Clase:</strong> {html.escape(record['creature_class'])}</p>"
@@ -763,6 +1017,10 @@ def build_description(record: dict) -> str:
     if record.get("category"):
         summary_bits.append(
             f"<p><strong>Categoría:</strong> {html.escape(record['category'])}</p>"
+        )
+    if record.get("advantages"):
+        summary_bits.append(
+            f"<p><strong>Ventajas y desventajas:</strong> {html.escape(record['advantages'])}</p>"
         )
     if record.get("natural_abilities"):
         summary_bits.append(
@@ -846,6 +1104,41 @@ def apply_ui_flags(system: dict, joined_text: str) -> None:
             system["general"]["settings"][key]["value"] = True
 
 
+NOTE_FIELDS = [
+    ("advantages", "Ventajas y desventajas"),
+    ("natural_abilities", "Habilidades naturales"),
+    ("essentials", "Habilidades esenciales"),
+    ("powers", "Poderes"),
+    ("psychic_powers", "Poderes psíquicos"),
+    ("disciplines", "Disciplinas"),
+    ("ki", "Ki"),
+    ("accumulations", "Acumulaciones"),
+    ("techniques", "Técnicas"),
+    ("martial_arts", "Artes marciales"),
+    ("invocations", "Invocaciones"),
+    ("metamagic", "Metamagia"),
+    ("elan", "Elan"),
+]
+
+
+def build_note_entries(record: dict) -> list[dict]:
+    notes = []
+    base_slug = slugify(record.get("name", "criatura"))[:32] or "criatura"
+    for index, (field_name, label) in enumerate(NOTE_FIELDS, start=1):
+        raw_value = collapse_spaces(record.get(field_name) or "")
+        if not raw_value:
+            continue
+        notes.append(
+            {
+                "_id": f"note-{base_slug}-{index}",
+                "type": "note",
+                "name": f"{label}: {raw_value}",
+                "system": {},
+            }
+        )
+    return notes
+
+
 def build_actor_document(record: dict, template: dict) -> dict:
     system = copy.deepcopy(template["Actor"]["character"])
     stats = record["primary_stats"]
@@ -877,10 +1170,13 @@ def build_actor_document(record: dict, template: dict) -> dict:
         }
     ]
     system["general"]["presence"]["special"]["value"] = 0
-    system["general"]["aspect"]["race"]["value"] = record.get("creature_class") or ""
+    system["general"]["aspect"]["race"]["value"] = (
+        record.get("race") or record.get("creature_class") or ""
+    )
     system["general"]["aspect"]["appearance"]["value"] = record.get("variant") or ""
     system["general"]["aspect"]["size"]["value"] = record.get("size_value") or 0
     system["general"]["description"]["value"] = build_description(record)
+    system["general"]["notes"] = build_note_entries(record)
 
     life_points = record.get("life_points") or 0
     fatigue = record.get("fatigue") or 0
@@ -984,17 +1280,26 @@ def build_actor_document(record: dict, template: dict) -> dict:
         system["ui"]["tabVisibility"]["psychic"]["value"] = True
         system["psychic"]["innatePsychicPower"]["amount"]["value"] = innate_psychic
 
+    if record.get("psychic_powers") or record.get("disciplines"):
+        system["ui"]["tabVisibility"]["psychic"]["value"] = True
+
     domine_text = " ".join(
         value
         for value in [
             record.get("raw_chunk", ""),
             record.get("powers", ""),
             record.get("natural_abilities", ""),
+            record.get("ki", ""),
+            record.get("techniques", ""),
+            record.get("martial_arts", ""),
         ]
         if value
     )
     if any(term in normalize_key(domine_text) for term in ("ki", "tecnicas", "ars magnus", "acumulaciones")):
         system["ui"]["tabVisibility"]["domine"]["value"] = True
+
+    if record.get("invocations") or record.get("metamagic"):
+        system["ui"]["tabVisibility"]["mystic"]["value"] = True
 
     apply_ui_flags(
         system,
@@ -1005,6 +1310,7 @@ def build_actor_document(record: dict, template: dict) -> dict:
                 record.get("essentials", ""),
                 record.get("powers", ""),
                 record.get("disciplines", ""),
+                record.get("advantages", ""),
             ]
             if value
         ),
@@ -1054,6 +1360,8 @@ def make_record(
 
     warnings: list[str] = []
     level, creature_class, gnosis = split_level_and_class(fields.get("level", ""))
+    if fields.get("class"):
+        creature_class = fields.get("class")
     life_points_raw = fields.get("points")
     life_points = parse_all_ints(life_points_raw)[0] if parse_all_ints(life_points_raw) else None
 
@@ -1088,6 +1396,7 @@ def make_record(
         "life_points_raw": life_points_raw,
         "life_points": life_points,
         "category": fields.get("category"),
+        "race": fields.get("race"),
         "primary_stats": primary_stats,
         "resistances": resistances,
         "initiative_raw": fields.get("turn"),
@@ -1125,9 +1434,18 @@ def make_record(
         "innate": max(parse_all_ints(fields.get("innate")), default=None),
         "psychic_projection_raw": fields.get("psychic_projection"),
         "psychic_projection": max(parse_all_ints(fields.get("psychic_projection")), default=None),
+        "psychic_powers": fields.get("psychic_powers"),
         "natural_abilities": fields.get("natural_abilities"),
         "essentials": fields.get("essentials"),
         "powers": fields.get("powers"),
+        "advantages": fields.get("advantages"),
+        "ki": fields.get("ki"),
+        "accumulations": fields.get("accumulations"),
+        "techniques": fields.get("techniques"),
+        "martial_arts": fields.get("martial_arts"),
+        "invocations": fields.get("invocations"),
+        "metamagic": fields.get("metamagic"),
+        "elan": fields.get("elan"),
         "size_raw": fields.get("size"),
         "size_value": parse_all_ints(fields.get("size"))[0] if parse_all_ints(fields.get("size")) else None,
         "regeneration_raw": fields.get("regen"),
@@ -1177,18 +1495,75 @@ def dedupe_names(records: list[dict]) -> None:
         record["name"] = f"{base_name} ({seen[base_name]})"
 
 
+def extract_records_from_flat_text(book_id: str, source_text: str) -> list[dict]:
+    config = BOOKS[book_id]
+    page_title_overrides = config.get("page_title_overrides", {})
+    sequential_title_overrides = config.get("sequential_title_overrides", [])
+    page_hits: dict[int, int] = {}
+    matches = list(LEVEL_MARKER_RE.finditer(source_text))
+    records = []
+
+    for profile_index, match in enumerate(matches, start=1):
+        start = match.start()
+        end = matches[profile_index].start() if profile_index < len(matches) else len(source_text)
+        chunk = source_text[start:end].strip()
+        if not POINTS_MARKER_RE.search(chunk):
+            continue
+
+        page = extract_page(source_text, start)
+        section_title = None
+        consumed_page_override = False
+        if page in page_title_overrides:
+            page_index = page_hits.get(page, 0)
+            titles = page_title_overrides[page]
+            if page_index < len(titles):
+                section_title = titles[page_index]
+                consumed_page_override = True
+        if not section_title:
+            section_title = extract_flat_title(source_text, start)
+        if not section_title:
+            continue
+
+        record = make_record(
+            book_id,
+            section_title,
+            source_text,
+            chunk,
+            start,
+            profile_index,
+        )
+        record["variant"] = None
+        record["name"] = record["source_heading"]
+
+        if not is_viable_record(record):
+            continue
+        if len(records) < len(sequential_title_overrides):
+            record["source_heading"] = sequential_title_overrides[len(records)]
+            record["variant"] = None
+            record["name"] = record["source_heading"]
+        if consumed_page_override and page is not None:
+            page_hits[page] = page_hits.get(page, 0) + 1
+        records.append(record)
+
+    dedupe_names(records)
+    return records
+
+
 def extract_records(book_id: str, source_text: str) -> list[dict]:
     config = BOOKS[book_id]
     scoped_text = slice_section(source_text, config["start_marker"], config["end_marker"])
+    if config.get("mode") == "flat":
+        return extract_records_from_flat_text(book_id, scoped_text)
+
     records = []
 
     for section in iter_sections(scoped_text):
-        if "Nivel:" not in section["body"]:
+        if not LEVEL_MARKER_RE.search(section["body"]):
             continue
 
         for profile_index, (start, end) in enumerate(find_profile_windows(section["body"]), start=1):
             chunk = section["body"][start:end].strip()
-            if "Puntos de Vida" not in chunk:
+            if not POINTS_MARKER_RE.search(chunk):
                 continue
             record = make_record(
                 book_id,
@@ -1198,11 +1573,7 @@ def extract_records(book_id: str, source_text: str) -> list[dict]:
                 start,
                 profile_index,
             )
-            if (
-                record.get("life_points") is None
-                and not record.get("primary_stats")
-                and not record.get("resistances")
-            ):
+            if not is_viable_record(record):
                 continue
             records.append(record)
 
@@ -1263,12 +1634,13 @@ def main() -> int:
     output_dir = Path(args.output_dir).expanduser().resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    overrides = {
+        "core-exxet": args.core,
+        "caminaron-con-nosotros": args.walking,
+    }
     source_paths = {
-        "core-exxet": discover_path(args.core, BOOKS["core-exxet"]["default_candidates"]),
-        "caminaron-con-nosotros": discover_path(
-            args.walking,
-            BOOKS["caminaron-con-nosotros"]["default_candidates"],
-        ),
+        book_id: discover_path(overrides.get(book_id), config["default_candidates"])
+        for book_id, config in BOOKS.items()
     }
 
     dataset_index = {
