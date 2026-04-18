@@ -582,13 +582,32 @@ def stable_id(*parts: str, length: int = 16) -> str:
     return digest[:length]
 
 
-def build_prototype_token(name: str, image_path: str) -> dict:
+def token_dimensions_for_size(size_value: int | None) -> float:
+    if size_value is None or size_value <= 0:
+        return 1
+    if size_value <= 3:
+        return 0.25
+    if size_value <= 8:
+        return 0.5
+    if size_value <= 22:
+        return 1
+    if size_value <= 24:
+        return 2
+    if size_value <= 28:
+        return 3
+    if size_value <= 33:
+        return 4
+    return 5
+
+
+def build_prototype_token(name: str, image_path: str, size_value: int | None = None) -> dict:
+    token_dimensions = token_dimensions_for_size(size_value)
     return {
         "name": name,
         "displayName": 0,
         "actorLink": False,
-        "width": 1,
-        "height": 1,
+        "width": token_dimensions,
+        "height": token_dimensions,
         "lockRotation": False,
         "rotation": 0,
         "alpha": 1,
@@ -1494,7 +1513,11 @@ def build_actor_document(record: dict, template: dict) -> dict:
         "name": record["name"],
         "type": "character",
         "img": "icons/svg/mystery-man.svg",
-        "prototypeToken": build_prototype_token(record["name"], "icons/svg/mystery-man.svg"),
+        "prototypeToken": build_prototype_token(
+            record["name"],
+            "icons/svg/mystery-man.svg",
+            record.get("size_value"),
+        ),
         "items": prepared_items,
         "effects": [],
         "folder": None,

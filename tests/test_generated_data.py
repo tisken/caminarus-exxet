@@ -18,6 +18,24 @@ def load_json(path: Path | str):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def expected_token_dimensions(size_value: int | None) -> float:
+    if size_value is None or size_value <= 0:
+        return 1
+    if size_value <= 3:
+        return 0.25
+    if size_value <= 8:
+        return 0.5
+    if size_value <= 22:
+        return 1
+    if size_value <= 24:
+        return 2
+    if size_value <= 28:
+        return 3
+    if size_value <= 33:
+        return 4
+    return 5
+
+
 class GeneratedDataTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -128,7 +146,7 @@ class GeneratedDataTest(unittest.TestCase):
 
     def test_manifest_is_installable_from_github(self):
         self.assertEqual(self.manifest["id"], "animu-exxet")
-        self.assertEqual(self.manifest["version"], "0.2.4")
+        self.assertEqual(self.manifest["version"], "0.2.5")
         self.assertTrue(DIST_ZIP.exists())
         self.assertEqual(
             self.manifest["manifest"],
@@ -183,6 +201,31 @@ class GeneratedDataTest(unittest.TestCase):
         self.assertIn("texture", sample["prototypeToken"])
         self.assertIn("light", sample["prototypeToken"])
         self.assertEqual(sample["prototypeToken"]["texture"]["src"], sample["img"])
+
+        for actor_path in actor_entries:
+            actor = json.loads(actor_path.read_text(encoding="utf-8"))
+            size_value = actor["system"]["general"]["aspect"]["size"]["value"]
+            expected_dimensions = expected_token_dimensions(size_value)
+            with self.subTest(actor=actor["name"], size_value=size_value):
+                self.assertEqual(actor["prototypeToken"]["width"], expected_dimensions)
+                self.assertEqual(actor["prototypeToken"]["height"], expected_dimensions)
+
+    def test_token_size_table_matches_requested_ranges(self):
+        self.assertEqual(expected_token_dimensions(None), 1)
+        self.assertEqual(expected_token_dimensions(0), 1)
+        self.assertEqual(expected_token_dimensions(1), 0.25)
+        self.assertEqual(expected_token_dimensions(3), 0.25)
+        self.assertEqual(expected_token_dimensions(4), 0.5)
+        self.assertEqual(expected_token_dimensions(8), 0.5)
+        self.assertEqual(expected_token_dimensions(9), 1)
+        self.assertEqual(expected_token_dimensions(22), 1)
+        self.assertEqual(expected_token_dimensions(23), 2)
+        self.assertEqual(expected_token_dimensions(24), 2)
+        self.assertEqual(expected_token_dimensions(25), 3)
+        self.assertEqual(expected_token_dimensions(28), 3)
+        self.assertEqual(expected_token_dimensions(29), 4)
+        self.assertEqual(expected_token_dimensions(33), 4)
+        self.assertEqual(expected_token_dimensions(34), 5)
 
 
 if __name__ == "__main__":
