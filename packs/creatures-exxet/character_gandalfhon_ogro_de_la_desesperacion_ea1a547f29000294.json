@@ -1,0 +1,1182 @@
+{
+  "_id": "ea1a547f29000294",
+  "name": "Gandalfhon Ogro de la Desesperación",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Gandalfhon Ogro de la Desesperación"
+  },
+  "items": [
+    {
+      "name": "Fragmento + Natural",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 14
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 14
+        },
+        "thrust": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "heat": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "electricity": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "cold": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "energy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "integrity": {
+          "base": {
+            "value": 38
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 38
+        },
+        "presence": {
+          "base": {
+            "value": 90
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 90
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "19165bd89f80fc51",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ea1a547f29000294.19165bd89f80fc51"
+    }
+  ],
+  "effects": [],
+  "folder": "c6f51a3bccb2d48a",
+  "sort": 30,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "ABF Complemento Web Vol. 1",
+      "sourceHeading": "Gandalfhon Ogro de la Desesperación",
+      "page": 11,
+      "variant": null,
+      "rawClass": "Entre mundos 25",
+      "rawDamage": "130 Angurolax CON / ELE, 120 Garras de cuchilla PEN, 100 Rayo ELE.",
+      "rawTA": "Fragmento + Natural: Fil 6 Con 5 Pen 5 Cal 5 Ele 5 Fri 5 Ene 0 es 6 Agi 4 Con 14 Pod 8 Vol 10 Per 8 Acumulación de",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": true
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": true
+        },
+        "perceivePsychic": {
+          "value": true
+        },
+        "inmaterial": {
+          "value": false
+        },
+        "inhuman": {
+          "value": true
+        },
+        "zen": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre mundos 25"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": 25
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> ABF Complemento Web Vol. 1</p><p><strong>Página:</strong> 11</p><p><strong>Entrada:</strong> Gandalfhon Ogro de la Desesperación</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 25</p><p><strong>Categoría:</strong> Guerrero Fue: 13 Des: 6 Agi: 4 Con: 12 Pod: 8 Int: 6 Vol: 10 Per: 8 RF 75 RM 65 RP 70 RV 75 RE 75</p><p><strong>Habilidades esenciales:</strong> Características físicas sobrehumanas, Inhumanidad, Ambidiestro, Sin inconsciencia, Inmunidad.</p><p><strong>Poderes:</strong> Angurolax, Arma natural; Garras de cuchillas (Armadura -2, Crítico incrementado +20, Daña energía), Angurolax, Llamar el rayo, Barrera de daño 60, Armadura física 4, Ojos de la Desesperación (Ver lo sobrenatural, Visión extrasensorial). Especial: Tabla de agarre, Combate desarmado.</p><p><strong>Daño:</strong> 130 Angurolax CON / ELE, 120 Garras de cuchilla PEN, 100 Rayo ELE.</p><p><strong>TA:</strong> Fragmento + Natural: Fil 6 Con 5 Pen 5 Cal 5 Ele 5 Fri 5 Ene 0 es 6 Agi 4 Con 14 Pod 8 Vol 10 Per 8 Acumulación de</p><p><strong>Habilidades secundarias:</strong> Advertir 50, Buscar 30, Rastrear 15, Saltar 70, Proezas de fuerza 110, Resistir el dolor 50</p><p><strong>Descripción breve:</strong> Un Galdalfhon es una terrible clase de ogro oriental que se alimenta de la desesperación de los mortales. Físicamente, es una descomunal mole humanoide de cinco o seis metros de altura, con largos brazos y el cuerpo lleno de afiladas espinas y cuchillas. No tienen ojos, pero sienten todo lo que hay a su alrededor gracias a una extraña percepción extrasensorial. Se dice que estas criaturas nacen a partir de la unión entre una mujer y con otra de ellas, aunque se ignora cual pudiera ser su origen inicial. En cualquier caso, llevan miles de años pululando en el mundo y sembrando la destrucción por donde van. Son monstruos de naturaleza solitaria, que no guardan relación los unos con los otros ni les interesa relacionarse con otros seres si no es para divertirse y saciarse con su desesperación. No son demasiado inteligentes, pero se sabe que tienen la capacidad de hablar diversos idiomas del hombre, aunque rara es la vez en la que lo hacen. Extrañamente, sienten una insuperable fascinación por los enigmas, y se sabe que en muchísimas ocasiones han perdonado a sus victimas si estas les proponían un acertijo interesante que el ogro fuera incapaz de responder. A pesar de no ser elementales, tienen cierta afinidad con los relámpagos y la electricidad. Siempre llevan unas enormes mazas de metal que construyen utilizando las espinas de metal que salen de sus cuerpos. Para confeccionarlas, reúnen una gran cantidad de estas afiladas cuchillas, las bañan en sangre y las levantan en el aire en mitad de una tormenta hasta que una gran cantidad de rayos cae sobre ellas. El resultado es un artefacto sobrenatural al que llaman Argurolax. Su habitual ámbito de actuación es la Vigilia donde vagan a sus anchas en busca de victimas con las que divertirse, aunque siempre que pueden tratan de colarse en nuestro plano de existencia durante un tiempo limitado. También hay un reducido número viviendo en el mundo real, principalmente en territorios orientales. En estos casos, se esconden en zonas deshabitadas y cada cierto tiempo buscan algún poblado apartado, se presentan ante los aterrados aldeanos y les anuncian que dentro de siete lunas arrasarán el pueblo entero. A veces cumplen sus promesas y otras no, pero de un modo u otro, siempre se divierten mucho observando la desesperada reacción de la gente. Se sabe que la Señora de las Pesadillas que gobierna en Oriente, Tsukiyomi, tiene a varias de estas entidades en su ejército como soldados de elite. _Página 12_ Modus operandi A pesar de su increíble brutalidad y salvajismo, los Gandalfhon son unas criaturas dotadas con una insospechada habilidad para el combate. Artistas marciales natos, combinan su destreza manual con el uso de sus descomunales armas de combate. En la lucha hacen dos ataques por asalto; siempre empiezan golpeando con un puño (recubiertos por enorme aristas de metal) y después rematan utilizando su maza pesada. Su estrategia predilecta es agarrar una de sus adversarios con su enorme mano, alzarlo en el aire y luego aplastarlo de un solo mazazo. En caso de que se enfrenten a un considerable número de enemigos o a alguien de prodigiosa habilidad, usarán su capacidad de llamar el rayo o su Técnica de Ki para facilitar las cosas. Su punto vulnerable es la cabeza, ya que no tienen corazón. Angurolax, Maza de la desesperación: El arma que portan siempre los Gandalfhon es equivalente a una maza pesada de combate enorme de calidad +5, con la salvedad de que solo pueden ser usadas a una mano. Ataca indistintamente en la Tabla de CONtundente o de ELEctricidad, pero de un modo u otro, todo el daño que originan tiene naturaleza eléctrica y por tanto produce shock. En combate, suelen atacar siempre con Angurolax después de haber golpeado o agarrado con sus puños. Si el ogro muere, el arma puede ser usada por otra persona, pero pierde sus habilidades eléctricas. Angurolax tiene Rotura 19 y Entereza 32. Garra de cuchillas: Habitualmente el Gandalfhon comienza sus ataques lanzado un puñetazo con una de sus extremidades repleta de afiladas cuchillas. Por naturaleza, estos impactos disminuyen dos puntos la Armadura del defensor y aplican un modificador de +20 a la hora de calcular su nivel de crítico. A pesar de su tamaño, no se considera un ataque con Área de acción. Las garras tienen una Rotura natural de 14. Agarrón: Debido a su tamaño y metodología de combate, un Gandalfhon tiende a tratar de agarrar a sus enemigos con una de sus manos para a continuación aplastarlos con su maza. El agarrón es un ataque de presa especializado, que utiliza las reglas generales de la maniobra de Presa usando la Fuerza 13 del ogro. No obstante, dado sus enormes dimensiones, puede mantener la inmovilización sin aplicar el penalizador de Parálisis menor, ya que al fin y al cabo, solo emplea su mano. Esta regla solo se aplica contre adversarios de tamaño Medio o menores. Llamar el rayo: Concentrando sus energías, el ogro puede desencadenar un potente rayo eléctrico desde el Angurolax que, tras impactar al primer blanco designado, comienza a saltar una y otra vez hacia los individuos más cercanos. El rayo rebota un máximo de tres veces a hasta una distancia no superior a 15 metros. Llamar el rayo requiere un asalto de preparatoria, durante el cual la maza se recubre de runas azules. El Gadalfhon pude seguir igualmente luchando ese turno, pero aplica un -20 a su habilidad ofensiva. Esta habilidad no puede ser usada más de tres o cuatro veces al día. Ojos de la desesperación: A pesar de no tener ojos, estas criaturas tienen la capacidad sobrenatural de ver sus inmediaciones. Este poder, denominado comúnmente Ojos de la desesperación, le permite sentir su entorno al igual que percibir entidades espirituales. Barrera de daño: La criatura tiene una barrera de daño natural de 60 puntos. Inmunidad: Los ataques basados en Electricidad producen la mitad de daño en los Gandalfhon. Despedazador Un Gandalfhon utiliza esta Técnica para destrozar a sus adversarios más poderosos. Estas criaturas la conocen innatamente desde el mismo momento en el que nacen, sin la necesidad de que nadie se la enseñe. Cuando se están preparando para usarla, el Angurolax se ilumina con una tonalidad rojiza mientras todas sus runas crepitan de poder. Al golpear, producen una inmensa explosión, que despedaza casi literalmente todo lo que toca. El Despedazador dobla el daño base del Angurolax hasta 260, y añade un bono de 25 a la Habilidad de ataque del Galdalfhon. El ogro requiere tener en sus manos su arma para realizar esta Técnica. CM necesario: 25</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entre mundos 25 Puntos de Vida: 250 Categoría: Guerrero Fue: 1 3 Des: 6 Agi: 4 Con: 12 Pod: 8 Int: 6 Vol: 10 Per: 8 RF 75 RM 65 RP 70 RV 75 RE 75 Habilidad de defensa: 1 75 Angulorax, 1 50 Garras de cuchilla Daño: 1 30 Angurolax CON / ELE, 120 Garras de cuchilla PEN, 100 Rayo ELE. TA: Fragmento + Natural: Fil 6 Con 5 Pen 5 Cal 5 Ele 5 Fri 5 Ene 0 es 6 Agi 4 Con 1 4 Pod 8 Vol 10 Per 8 Acumulación de Habilidades esenciales: Características físicas sobrehumanas, Inhumanidad, Ambidiestro, Sin inconsciencia, Inmunidad. Poderes: Angurolax, Arma natural; Garras de cuchillas (Armadura -2, Crítico incrementado +20, Daña energía), Angurolax, Llamar el rayo, Barrera de daño 60, Armadura física 4, Ojos de la Desesperación (Ver lo sobrenatural, Visión extrasensorial). Especial: Tabla de agarre, Combate desarmado.\n\nTamaño: 25 Enorme Regeneración: 4 Tipo de movimiento: 5 Cansancio: 12 Habilidades Secundarias: Advertir 50, Buscar 30, Rastrear 1 5, Saltar 70, Proezas de fuerza 1 10, Resistir el dolor 50. Un Galdalfhon es una terrible clase de ogro oriental que se alimenta de la desesperación de los mortales. Físicamente, es una descomunal mole humanoide de cinco o seis metros de altura, con largos brazos y el cuerpo lleno de afiladas espinas y cuchillas. No tienen ojos, pero sienten todo lo que hay a su alrededor gracias a una extraña percepción extrasensorial. Se dice que estas criaturas nacen a partir de la unión entre una mujer y con otra de ellas, aunque se ignora cual pudiera ser su origen inicial. En cualquier caso, llevan miles de años pululando en el mundo y sembrando la destrucción por donde van.\n\nSon monstruos de naturaleza solitaria, que no guardan relación los unos con los otros ni les interesa relacionarse con otros seres si no es para divertirse y saciarse con su desesperación. No son demasiado inteligentes, pero se sabe que tienen la capacidad de hablar diversos idiomas del hombre, aunque rara es la vez en la que lo hacen. Extrañamente, sienten una insuperable fascinación por los enigmas, y se sabe que en muchísimas ocasiones han perdonado a sus victimas si estas les proponían un acertijo interesante que el ogro fuera incapaz de responder. A pesar de no ser elementales, tienen cierta afinidad con los relámpagos y la electricidad. Siempre llevan unas enormes mazas de metal que construyen utilizando las espinas de metal que salen de sus cuerpos.\n\nPara confeccionarlas, reúnen una gran cantidad de estas afiladas cuchillas, las bañan en sangre y las levantan en el aire en mitad de una tormenta hasta que una gran cantidad de rayos cae sobre ellas. El resultado es un artefacto sobrenatural al que llaman Argurolax. Su habitual ámbito de actuación es la Vigilia donde vagan a sus anchas en busca de victimas con las que divertirse, aunque siempre que pueden tratan de colarse en nuestro plano de existencia durante un tiempo limitado. También hay un reducido número viviendo en el mundo real, principalmente en territorios orientales. En estos casos, se esconden en zonas deshabitadas y cada cierto tiempo buscan algún poblado apartado, se presentan ante los aterrados aldeanos y les anuncian que dentro de siete lunas arrasarán el pueblo entero.\n\nA veces cumplen sus promesas y otras no, pero de un modo u otro, siempre se divierten mucho observando la desesperada reacción de la gente. Se sabe que la Señora de las Pesadillas que gobierna en Oriente, Tsukiyomi, tiene a varias de estas entidades en su ejército como soldados de elite.\n\n&lt;!-- tags: @personaje, @localizacion, @regla --&gt;\n\n_Página 12_\n\nModus operandi A pesar de su increíble brutalidad y salvajismo, los Gandalfhon son unas criaturas dotadas con una insospechada habilidad para el combate. Artistas marciales natos, combinan su destreza manual con el uso de sus descomunales armas de combate. En la lucha hacen dos ataques por asalto; siempre empiezan golpeando con un puño (recubiertos por enorme aristas de metal) y después rematan utilizando su maza pesada. Su estrategia predilecta es agarrar una de sus adversarios con su enorme mano, alzarlo en el aire y luego aplastarlo de un solo mazazo. En caso de que se enfrenten a un considerable número de enemigos o a alguien de prodigiosa habilidad, usarán su capacidad de llamar el rayo o su Técnica de Ki para facilitar las cosas. Su punto vulnerable es la cabeza, ya que no tienen corazón.\n\nAngurolax, Maza de la desesperación: El arma que portan siempre los Gandalfhon es equivalente a una maza pesada de combate enorme de calidad +5, con la salvedad de que solo pueden ser usadas a una mano. Ataca indistintamente en la Tabla de CONtundente o de ELEctricidad, pero de un modo u otro, todo el daño que originan tiene naturaleza eléctrica y por tanto produce shock. En combate, suelen atacar siempre con Angurolax después de haber golpeado o agarrado con sus puños. Si el ogro muere, el arma puede ser usada por otra persona, pero pierde sus habilidades eléctricas. Angurolax tiene Rotura 1 9 y Entereza 32. Garra de cuchillas: Habitualmente el Gandalfhon comienza sus ataques lanzado un puñetazo con una de sus extremidades repleta de afiladas cuchillas.\n\nPor naturaleza, estos impactos disminuyen dos puntos la Armadura del defensor y aplican un modificador de +20 a la hora de calcular su nivel de crítico. A pesar de su tamaño, no se considera un ataque con Área de acción. Las garras tienen una Rotura natural de 1 4. Agarrón: Debido a su tamaño y metodología de combate, un Gandalfhon tiende a tratar de agarrar a sus enemigos con una de sus manos para a continuación aplastarlos con su maza. El agarrón es un ataque de presa especializado, que utiliza las reglas generales de la maniobra de Presa usando la Fuerza 1 3 del ogro. No obstante, dado sus enormes dimensiones, puede mantener la inmovilización sin aplicar el penalizador de Parálisis menor, ya que al fin y al cabo, solo emplea su mano. Esta regla solo se aplica contre adversarios de tamaño Medio o menores.\n\nLlamar el rayo: Concentrando sus energías, el ogro puede desencadenar un potente rayo eléctrico desde el Angurolax que, tras impactar al primer blanco designado, comienza a saltar una y otra vez hacia los individuos más cercanos. El rayo rebota un máximo de tres veces a hasta una distancia no superior a 1 5 metros. Llamar el rayo requiere un asalto de preparatoria, durante el cual la maza se recubre de runas azules. El Gadalfhon pude seguir igualmente luchando ese turno, pero aplica un -20 a su habilidad ofensiva. Esta habilidad no puede ser usada más de tres o cuatro veces al día. Ojos de la desesperación: A pesar de no tener ojos, estas criaturas tienen la capacidad sobrenatural de ver sus inmediaciones. Este poder, denominado comúnmente Ojos de la desesperación, le permite sentir su entorno al igual que percibir entidades espirituales.\n\nBarrera de daño: La criatura tiene una barrera de daño natural de 60 puntos. Inmunidad: Los ataques basados en Electricidad producen la mitad de daño en los Gandalfhon. Despedazador Un Gandalfhon utiliza esta Técnica para destrozar a sus adversarios más poderosos. Estas criaturas la conocen innatamente desde el mismo momento en el que nacen, sin la necesidad de que nadie se la enseñe. Cuando se están preparando para usarla, el Angurolax se ilumina con una tonalidad rojiza mientras todas sus runas crepitan de poder. Al golpear, producen una inmensa explosión, que despedaza casi literalmente todo lo que toca. El Despedazador dobla el daño base del Angurolax hasta 260, y añade un bono de 25 a la Habilidad de ataque del Galdalfhon. El ogro requiere tener en sus manos su arma para realizar esta Técnica. CM necesario: 25</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-gandalfhon-ogro-de-la-de",
+          "type": "level",
+          "name": "Gandalfhon Ogro de la Desesperación",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 6
+          }
+        }
+      ],
+      "level": {
+        "value": 6
+      },
+      "notes": [
+        {
+          "_id": "note-gandalfhon-ogro-de-la-desesperac-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características físicas sobrehumanas, Inhumanidad, Ambidiestro, Sin inconsciencia, Inmunidad.",
+          "system": {}
+        },
+        {
+          "_id": "note-gandalfhon-ogro-de-la-desesperac-4",
+          "type": "note",
+          "name": "Poderes: Angurolax, Arma natural; Garras de cuchillas (Armadura -2, Crítico incrementado +20, Daña energía), Angurolax, Llamar el rayo, Barrera de daño 60, Armadura física 4, Ojos de la Desesperación (Ver lo sobrenatural, Visión extrasensorial). Especial: Tabla de agarre, Combate desarmado.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 4
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 250,
+          "max": 250
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 12,
+          "max": 12
+        },
+        "regenerationType": {
+          "mod": {
+            "value": -1
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 1
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 75100
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 70
+          }
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 110
+          }
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
+          "base": {
+            "value": 50
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 50
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 30
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
+          "base": {
+            "value": 15
+          }
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 175
+        }
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!ea1a547f29000294"
+}

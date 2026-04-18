@@ -1,0 +1,1188 @@
+{
+  "_id": "0f98adf29ebb6603",
+  "name": "Oni Ashura",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Oni Ashura"
+  },
+  "items": [
+    {
+      "name": "Tanko",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 4
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 4
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 2
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 2
+        },
+        "thrust": {
+          "base": {
+            "value": 3
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 3
+        },
+        "heat": {
+          "base": {
+            "value": 1
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 1
+        },
+        "electricity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "cold": {
+          "base": {
+            "value": 1
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 1
+        },
+        "energy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "integrity": {
+          "base": {
+            "value": 18
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 18
+        },
+        "presence": {
+          "base": {
+            "value": 40
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 40
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "d468c4c5eb504873",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!0f98adf29ebb6603.d468c4c5eb504873"
+    }
+  ],
+  "effects": [],
+  "folder": "0b28d5ee8c291c4e",
+  "sort": 680,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "Anima Beyond Fantasy - Los que caminaron con nosotros",
+      "sourceHeading": "Oni Ashura",
+      "page": 125,
+      "variant": null,
+      "rawClass": "Entre mundos 25",
+      "rawDamage": "85 / 125 Ikusaguruma (Con), o como arma",
+      "rawTA": "Tanko Fil 4 Con 2 Pen 3 Cal 1 Fri 1 Ene 0 Ele 0",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": false
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": false
+        },
+        "inhuman": {
+          "value": false
+        },
+        "zen": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre mundos 25"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": 18
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 125</p><p><strong>Entrada:</strong> Oni Ashura</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 25</p><p><strong>Categoría:</strong> Maestro en armas Fue: 13 Des: 12 Agi: 8 Con: 13 Pod: 10 Int: 5 Vol: 7 Per: 6 RF 130 RM 80 (120) RP 70 (110) RV 130 RE 130</p><p><strong>Habilidades naturales:</strong> Tabla de Tipología (Variable), Tabla de Área.</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Tamaño Innatural, No Respira, No Duerme, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Inmunidad Psicológica, Resistencia al Cansancio.</p><p><strong>Poderes:</strong> Armas Naturales: Ikusaguruma (+50 al daño, Condicionado), Daña energía, Ola de Violencia (RM 120, Condicionado), Espíritu Imperturbable (Resistencia Mística +40, Resistencia Psíquica +40, Condicionada), Cuerpo de Guerra (Resistencia Física +40, Barrera de Daño 100), Kanshakudama.</p><p><strong>Daño:</strong> 85 / 125 Ikusaguruma (Con), o como arma</p><p><strong>TA:</strong> Tanko Fil 4 Con 2 Pen 3 Cal 1 Fri 1 Ene 0 Ele 0</p><p><strong>Habilidades secundarias:</strong> Intimidar 90, Advertir 30, Buscar 25, Proezas de Fuerza 85, Resistir el Dolor 180</p><p><strong>Descripción breve:</strong> El enfrentamiento, el combate, la guerra… esos son los conceptos que dan sentido a los Oni Ashura. Estas criaturas son poderosos espíritus nacidos en el Ashura-gati, la realidad de la guerra eterna del Samsara, a partir de los reflejos de todos los seres violentos que fallecieron en Varja. Curiosamente, los Oni son especiales y se diferencian de otros habitantes de su plano de existencia por el hecho de que, pese a ser originariamente sombras incorpóreas de difuntos, sus emociones se han solidificado convirtiéndolos en seres de carne y metal; encarnaciones físicas de la violencia de su mundo. Dado que cada uno es una entidad diferente, su aspecto, así como su tamaño, son muy variables, pero su piel es siempre negra como el ébano y está recubierta de mantras tatuados con la sangre de sus enemigos. Además, normalmente llevan decoraciones o partes de armadura de origen oriental, lo que les da un aspecto de samurais o shoguns oscuros. Los Oni Ashura son relativamente inteligentes y tienen la capacidad de hablar, si bien están siempre tan cegados por la violencia que únicamente usan monosílabos para expresar sus emociones. A veces, incluso conservan atisbos de su antigua personalidad, pero son meros retazos de quienes fueron antes de convertirse en espectros de La Vigilia. Por supuesto, el combate es todo cuanto les importa; desean luchar con la misma ansia que un gourmet espera el mas exquisito de los platos. Dan la bienvenida a cualquier enfrentamiento, pero son las grandes guerras y los retos personales con adversarios poderosos lo que verdaderamente les deleita. No dañan a los seres inofensivos o incapaces de defenderse, aunque no por piedad, sino porque acabar con ellos no les despierta ninguna emoción. Estos Onis actúan independientemente o al servicio de alguno de los Kami Ashura, los señores de la guerra que dominan la realidad en la que residen. Allí están en lucha continua los unos contra los otros, pero ansían entrar en el mundo real y medirse con los mortales. Amenudo, consiguen llegar hasta Gaïa colándose a través de alguna de las brechas que se forman en la isla de Varja, pero últimamente se han dado casos inexplicables en los que han llegado a manifestarse en otros lugares atraídos por el “fervor” de una batalla. m oduS oPerandiUnOni buscará el combate por encima de todo y, nada más manifestarse en el mundo, atacará sin dudarlo a todo aquel con el que se encuentre, empezando por aquel que aparente ser más poderoso. Sólo hay una cosa que puede detenerle; la posibilidad de luchar contra un adversario mejor. Sin embargo, su paciencia es tan limitada que a estos seres no les sirven vagas promesas de enfrentamientos futuros. Si sus adversarios no están prácticamente delante de ellos, primero lucharan con quienes están presentes y luego buscarán a esos “grandes enemigos” por su cuenta. Un Oni tiene como punto vulnerable su corazón, que está situado en el mismo centro de su pecho. c laSeS de o ni aSHuraLos poderes de los Oni alcanzan escalas muy diferentes, por lo que están diferenciados en dos apartados diferentes, menores y mayores, dependiendo de si se trata de una sola alma poderosa o esta ha incrementado sus capacidades alimentándose de otros espíritus similares. Cuerpo de guerra: La forma física de un Ashura es una perfecta máquina de muerte forjada en infinitos combates en el interior del Ashura-gati. Cualquier ataque convencional cuyo daño base sea inferior a 100 simplemente es inútil contra él; los golpes rebotan inofensivamente como si el Oni fuera un muro intranspasable. Ola de Violencia: El espíritu de un Ashura está puramente enfocado a la guerra y el combate. Cualquiera que intente manipular su voluntad o su alma descubrirá no sólo que el único sentimiento de la criatura es ira, sino que corre el peligro de ser afectado por la infinita violencia de su interior. Todo aquel que lance un conjuro de esencia contra el Oni o emplee un poder mental sobre este, ha de realizar automáticamente un control de RM contra 120 o su hechizo o poder se dispersa inofensivamente sin afectar al Ashura, mientras que el lanzador queda sometido a un estado de Ira. Si el nivel de fracaso de dicho control es superior a 20, la rabia es tan intensa que no le permite distinguir entre amigos y enemigos. Espíritu Imperturbable: El Ashura puede usar las Resistencias entre paréntesis contra cualquier poder sobrenatural que afecte su estado de ánimo o pueda provocarle penalizadores a la acción. Ikusaguruma: Los Ashura se alimentan de la esencia del mismo combate, lo que refuerza sus energías cuando luchan contra rivales poderosos. Cuanto más combatan y más fuertes sean sus adversarios, el poder de estos Onis crece exponencialmente. Cada turno que la criatura luche contra un rival cuyas habilidades igualen o superen la suya, obtiene un +5 a su Ataque o Parada, o un +10 a su Daño Base (hasta un máximo de +25 en sus habilidades de combate y de +50 a su daño). Aconsideración del Director de Juego, es posible que el Ashura también obtenga estos bonos si se enfrenta a un conjunto de enemigos cuyas habilidades combinadas sean rivales para la suya. En el momento en el que el Oni deje de encontrarse en combate, pierde automáticamente todos estos modificadores. Armas: Los Ashura pueden usar tanto sus manos como cualquier clase de arma con la que se sientan afines (si bien normalmente eligen las más grandes y destructivas). Por lo general, son siempre de calidad +5 o +10 y dañan energía como una extensión del poder del Oni. Estas armas también obtienen los bonos al daño del Ikusaguruma, pero su incremento se ve reducido a sólo +5 por asalto (hasta el mismo máximo de +50). En ocasiones, aunque sólo en el caso los Oni mayores, es posible que utilicen artefactos sobrenaturales dotados de poderes especiales. Kanshakudama: Cuando los Puntos de Vida de un Ashura se reducen por debajo de la mitad en un combate, entran en un estado de euforia violenta que les otorga un bono de +30 a su Habilidad de Ataque y su Turno, aunque a la vez aplican un -20 a su defensa.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Entre mundos 25 Puntos de Vida: 440 Categoría: Maestro en armas Fue: 13 Des: 12 Agi: 8 Con: 13 Pod: 10 Int: 5 Vol: 7 Per: 6 RF 130 RM 80 (1 20) RP 70 (1 10) RV 130 RE 130\n\nTurno: 1 10 Natural Habilidad de ataque: 220 Ikusaguruma Habilidad de defensa: 225 Ikusaguruma Daño: 85 / 125 Ikusaguruma (Con), o como arma TA: Tanko Fil 4 Con 2 Pen 3 Cal 1 Fri 1 Ene 0 Ele 0 Habilidades naturales: Tabla de Tipología (Variable), Tabla de Área. Habilidades esenciales: Características Físicas Sobrehumanas, Tamaño Innatural, No Respira, No Duerme, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Inmunidad Psicológica, Resistencia al Cansancio. Poderes: Armas Naturales: Ikusaguruma (+50 al daño, Condicionado), Daña energía, Ola de Violencia (RM 120, Condicionado), Espíritu Imperturbable (Resistencia Mística +40, Resistencia Psíquica +40, Condicionada), Cuerpo de Guerra (Resistencia Física +40, Barrera de Daño 100), Kanshakudama.\n\nTamaño: 18-30 Variable Regeneración: 6 Tipo de movimiento: 7-8 Variable Cansancio: 19 Habilidades Secundarias: Intimidar 90, Advertir 30, Buscar 25, Proezas de Fuerza 85, Resistir el Dolor 180. El enfrentamiento, el combate, la guerra… esos son los conceptos que dan sentido a los Oni Ashura. Estas criaturas son poderosos espíritus nacidos en el Ashura-gati, la realidad de la guerra eterna del Samsara, a partir de los reflejos de todos los seres violentos que fallecieron en Varja. Curiosamente, los Oni son especiales y se diferencian de otros habitantes de su plano de existencia por el hecho de que, pese a ser originariamente sombras incorpóreas de difuntos, sus emociones se han solidificado convirtiéndolos en seres de carne y metal; encarnaciones físicas de la violencia de su mundo.\n\nDado que cada uno es una entidad diferente, su aspecto, así como su tamaño, son muy variables, pero su piel es siempre negra como el ébano y está recubierta de mantras tatuados con la sangre de sus enemigos. Además, normalmente llevan decoraciones o partes de armadura de origen oriental, lo que les da un aspecto de samurais o shoguns oscuros. Los Oni Ashura son relativamente inteligentes y tienen la capacidad de hablar, si bien están siempre tan cegados por la violencia que únicamente usan monosílabos para expresar sus emociones. A veces, incluso conservan atisbos de su antigua personalidad, pero son meros retazos de quienes fueron antes de convertirse en espectros de La Vigilia. Por supuesto, el combate es todo cuanto les importa; desean luchar con la misma ansia que un gourmet espera el mas exquisito de los platos.\n\nDan la bienvenida a cualquier enfrentamiento, pero son las grandes guerras y los retos personales con adversarios poderosos lo que verdaderamente les deleita. No dañan a los seres inofensivos o incapaces de defenderse, aunque no por piedad, sino porque acabar con ellos no les despierta ninguna emoción. Estos Onis actúan independientemente o al servicio de alguno de los Kami Ashura, los señores de la guerra que dominan la realidad en la que residen. Allí están en lucha continua los unos contra los otros, pero ansían entrar en el mundo real y medirse con los mortales. Amenudo, consiguen llegar hasta Gaïa colándose a través de alguna de las brechas que se forman en la isla de Varja, pero últimamente se han dado casos inexplicables en los que han llegado a manifestarse en otros lugares atraídos por el “fervor” de una batalla.\n\n(order #3443007) m oduS oPerandiUnOni buscará el combate por encima de todo y, nada más manifestarse en el mundo, atacará sin dudarlo a todo aquel con el que se encuentre, empezando por aquel que aparente ser más poderoso. Sólo hay una cosa que puede detenerle; la posibilidad de luchar contra un adversario mejor. Sin embargo, su paciencia es tan limitada que a estos seres no les sirven vagas promesas de enfrentamientos futuros. Si sus adversarios no están prácticamente delante de ellos, primero lucharan con quienes están presentes y luego buscarán a esos “grandes enemigos” por su cuenta. Un Oni tiene como punto vulnerable su corazón, que está situado en el mismo centro de su pecho.\n\nc laSeS de o ni aSHuraLos poderes de los Oni alcanzan escalas muy diferentes, por lo que están diferenciados en dos apartados diferentes, menores y mayores, dependiendo de si se trata de una sola alma poderosa o esta ha incrementado sus capacidades alimentándose de otros espíritus similares. Cuerpo de guerra: La forma física de un Ashura es una perfecta máquina de muerte forjada en infinitos combates en el interior del Ashura-gati. Cualquier ataque convencional cuyo daño base sea inferior a 100 simplemente es inútil contra él; los golpes rebotan inofensivamente como si el Oni fuera un muro intranspasable. Ola de Violencia: El espíritu de un Ashura está puramente enfocado a la guerra y el combate.\n\nCualquiera que intente manipular su voluntad o su alma descubrirá no sólo que el único sentimiento de la criatura es ira, sino que corre el peligro de ser afectado por la infinita violencia de su interior. Todo aquel que lance un conjuro de esencia contra el Oni o emplee un poder mental sobre este, ha de realizar automáticamente un control de RM contra 120 o su hechizo o poder se dispersa inofensivamente sin afectar al Ashura, mientras que el lanzador queda sometido a un estado de Ira. Si el nivel de fracaso de dicho control es superior a 20, la rabia es tan intensa que no le permite distinguir entre amigos y enemigos. Espíritu Imperturbable: El Ashura puede usar las Resistencias entre paréntesis contra cualquier poder sobrenatural que afecte su estado de ánimo o pueda provocarle penalizadores a la acción.\n\nIkusaguruma: Los Ashura se alimentan de la esencia del mismo combate, lo que refuerza sus energías cuando luchan contra rivales poderosos. Cuanto más combatan y más fuertes sean sus adversarios, el poder de estos Onis crece exponencialmente. Cada turno que la criatura luche contra un rival cuyas habilidades igualen o superen la suya, obtiene un +5 a su Ataque o Parada, o un +10 a su Daño Base (hasta un máximo de +25 en sus habilidades de combate y de +50 a su daño). Aconsideración del Director de Juego, es posible que el Ashura también obtenga estos bonos si se enfrenta a un conjunto de enemigos cuyas habilidades combinadas sean rivales para la suya. En el momento en el que el Oni deje de encontrarse en combate, pierde automáticamente todos estos modificadores.\n\nArmas: Los Ashura pueden usar tanto sus manos como cualquier clase de arma con la que se sientan afines (si bien normalmente eligen las más grandes y destructivas). Por lo general, son siempre de calidad +5 o +10 y dañan energía como una extensión del poder del Oni. Estas armas también obtienen los bonos al daño del Ikusaguruma, pero su incremento se ve reducido a sólo +5 por asalto (hasta el mismo máximo de +50). En ocasiones, aunque sólo en el caso los Oni mayores, es posible que utilicen artefactos sobrenaturales dotados de poderes especiales. Kanshakudama: Cuando los Puntos de Vida de un Ashura se reducen por debajo de la mitad en un combate, entran en un estado de euforia violenta que les otorga un bono de +30 a su Habilidad de Ataque y su Turno, aunque a la vez aplican un -20 a su defensa. (order #3443007)</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-oni-ashura",
+          "type": "level",
+          "name": "Oni Ashura",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 8
+          }
+        }
+      ],
+      "level": {
+        "value": 8
+      },
+      "notes": [
+        {
+          "_id": "note-oni-ashura-2",
+          "type": "note",
+          "name": "Habilidades naturales: Tabla de Tipología (Variable), Tabla de Área.",
+          "system": {}
+        },
+        {
+          "_id": "note-oni-ashura-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características Físicas Sobrehumanas, Tamaño Innatural, No Respira, No Duerme, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Inmunidad Psicológica, Resistencia al Cansancio.",
+          "system": {}
+        },
+        {
+          "_id": "note-oni-ashura-4",
+          "type": "note",
+          "name": "Poderes: Armas Naturales: Ikusaguruma (+50 al daño, Condicionado), Daña energía, Ola de Violencia (RM 120, Condicionado), Espíritu Imperturbable (Resistencia Mística +40, Resistencia Psíquica +40, Condicionada), Cuerpo de Guerra (Resistencia Física +40, Barrera de Daño 100), Kanshakudama.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 5
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 7
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 440,
+          "max": 440
+        },
+        "initiative": {
+          "base": {
+            "value": 110
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 19,
+          "max": 19
+        },
+        "regenerationType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": -1
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 40
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 40
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 130020
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 85
+          }
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
+          "base": {
+            "value": 180
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 30
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 25
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
+          "base": {
+            "value": 90
+          }
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 220
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 225
+        }
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!0f98adf29ebb6603"
+}

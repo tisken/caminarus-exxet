@@ -1,0 +1,1197 @@
+{
+  "_id": "87c8d0a163ca8e86",
+  "name": "Arhiman (Alto Elemental)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Arhiman (Alto Elemental)"
+  },
+  "items": [
+    {
+      "name": "Placas Sombrías",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 2
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 2
+        },
+        "thrust": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "heat": {
+          "base": {
+            "value": 4
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 4
+        },
+        "electricity": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "cold": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "energy": {
+          "base": {
+            "value": 2
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 2
+        },
+        "integrity": {
+          "base": {
+            "value": 22
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 22
+        },
+        "presence": {
+          "base": {
+            "value": 50
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 50
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "aa16efadfd5adfc9",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!87c8d0a163ca8e86.aa16efadfd5adfc9"
+    }
+  ],
+  "effects": [],
+  "folder": "0b28d5ee8c291c4e",
+  "sort": 70,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "Anima Beyond Fantasy - Los que caminaron con nosotros",
+      "sourceHeading": "Arhiman",
+      "page": 22,
+      "variant": "Alto Elemental",
+      "rawClass": "Entre mundos, Elemental 30",
+      "rawDamage": "80 Garras de sombra (Fil), 60 Cuchillas Oscuras (Pen)",
+      "rawTA": "Placas Sombrías Fil 5 Con 5 Pen 5 Cal 4 Fri 6 Ele 5 Ene 2 es 16 Agi 16 Con 14 Pod 12 Vol 12 Total: 84 Acumulaciones de es 2 Agi 2 Con 2 Pod 2 Vol 2 Habilidades del",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": true
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": true
+        },
+        "inhuman": {
+          "value": true
+        },
+        "zen": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre mundos, Elemental 30"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": "Alto Elemental"
+        },
+        "size": {
+          "value": 24
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 22</p><p><strong>Entrada:</strong> Arhiman</p><p><strong>Variante:</strong> Alto Elemental</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 30</p><p><strong>Categoría:</strong> Sombra Fue: 12 Des: 13 Agi: 13 Con: 12 Pod: 11 Int: 10 Vol: 11 Per: 13 RF 85 RM 85 RP 85 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inhumanidad, Exención Física, Ambidiestro.</p><p><strong>Poderes:</strong> Armas Naturales: Garras de Sombra (Ataque Elemental, -3 a la TA Defensora), Dañar Energía, Cuchillas Oscuras (Distancia 25 Metros, Ataque Adicional -30, Daño Base 60, RV 140, Veneno Oscuro, Debilidad, Ataque por Sombra), Forma de Sombras (Forma Elemental, Condicionada, Forma Física aVoluntad, Indetección Mística +100), Placas Sombrías (Armadura Física 5, Armadura Mística 2).</p><p><strong>Daño:</strong> 80 Garras de sombra (Fil), 60 Cuchillas Oscuras (Pen)</p><p><strong>TA:</strong> Placas Sombrías Fil 5 Con 5 Pen 5 Cal 4 Fri 6 Ele 5 Ene 2 es 16 Agi 16 Con 14 Pod 12 Vol 12 Total: 84 Acumulaciones de es 2 Agi 2 Con 2 Pod 2 Vol 2 Habilidades del</p><p><strong>Habilidades secundarias:</strong> Estilo 120, Intimidar 30, Ocultarse 160 (210), Sigilo 245 (295), Advertir 125, Buscar 115, Arte 60, Ocultación del Ki 220 (245)</p><p><strong>Descripción breve:</strong> Arhiman es el nombre que recibe una clase de alto elemental de la misma jerarquía que los Señores de las Tinieblas. No obstante, al contrario que sus hermanos se especializan en el combate cuerpo a cuerpo, desdeñando el uso de conjuros y sortilegios en favor de una maestría sin igual en la lucha. Por ello se los considera los “guerreros” oscuros, los campeones definitivos de las sombras que no temen enfrentarse a nada para conseguir sus fines. Su apariencia es muy similar a la de los Señores, pues también están compuestos por la más pura oscuridad, pero al contrario que estos tanto su rostro como su cuerpo son mucho más “humanos”. Por lo general visten ornamentadas armaduras llenas de lazos y cuchillas que utilizan como armas, pudiendo llegar a ser confundido con personas normales en caso de llevar yelmo. Los Arhiman están habitualmente ligados a las doctrinas de los Shajads Abbadon, Jedah o Meseguis, actuando por su cuenta para conseguir los ideales de sus señores. Irónicamente, sus personalidades están llenas de contradicciones, pues son crueles a la vez que compasivos y tan violentos como sutiles a la hora de actuar. Como parte de sus continuas discordancias de carácter, tienden a detestar y admirar la humanidad, a la que consideran la más fascinante aberración que jamás ha pisado el mundo. A veces establecen vinculaciones con personas que consideran interesantes, aunque sólo sea para ver como pueden llegar a sorprenderlos de los modos más inesperados. Sus variadas personalidades los vuelven imprevisibles a la hora de determinar pautas de conducta generales, pero normalmente prefieren no mezclarse con los hombres y residir en los lugares más recónditos de la Vigilia. Únicamente algunos actúan entre los mortales como parte de ejércitos mercenarios o actuando en colaboración con algún Señor de las Tinieblas con el que tenga afinidad. m oduS oPerandiIncluso sin los poderes mágicos de los Señores de las Tinieblas, los Arhiman son los mejores guerreros entre los elementales oscuros. Suelen moverse en la penumbra, aprovechando su maestría como asesinos y el poder de atacar a través de las sombras para acabar con sus enemigos con insultante facilidad. Además, se mueven con semejante gracia y belleza que cada uno de sus golpes parece ser parte de una interminable sinfonía de muerte tan fascinante como aterradora. No tienen puntos vulnerables, salvo su corazón, donde reside el núcleo de su esencia.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Entre mundos, Elemental 30 Puntos de Vida: 200 Categoría: Sombra Fue: 12 Des: 13 Agi: 13 Con: 12 Pod: 11 Int: 10 Vol: 11 Per: 13 RF 85 RM 85 RP 85 RV 85 RE 85 Habilidad de defensa: 225 Esquiva Daño: 80 Garras de sombra (Fil), 60 Cuchillas Oscuras (Pen) TA: Placas Sombrías Fil 5 Con 5 Pen 5 Cal 4 Fri 6 Ele 5 Ene 2 es 1 6 Agi 1 6 Con 1 4 Pod 12 Vol 12 Total: 84 Acumulaciones de es 2 Agi 2 Con 2 Pod 2 Vol 2 Habilidades del\n\nKi: Uso del Ki, Control del Ki, Uso de la energía necesaria, Ocultación del Ki, Aura de Ocultación. Técnicas: Obscuritas; Oculus, Luctus, Ego. Habilidades esenciales: Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inhumanidad, Exención Física, Ambidiestro. Poderes: Armas Naturales: Garras de Sombra (Ataque Elemental, -3 a la TA Defensora), Dañar Energía, Cuchillas Oscuras (Distancia 25 Metros, Ataque Adicional -30, Daño Base 60, RV 1 40, Veneno Oscuro, Debilidad, Ataque por Sombra), Forma de Sombras (Forma Elemental, Condicionada, Forma Física aVoluntad, Indetección Mística +100), Placas Sombrías (Armadura Física 5, Armadura Mística 2).\n\nTamaño: 24 Grande Regeneración: 6 Tipo de movimiento: 13 Cansancio: Incansable Habilidades Secundarias: Estilo 1 20, Intimidar 30, Ocultarse 1 60 (2 10), Sigilo 245 (295), Advertir 125, Buscar 1 1 5, Arte 60, Ocultación del Ki 220 (245). Arhiman es el nombre que recibe una clase de alto elemental de la misma jerarquía que los Señores de las Tinieblas. No obstante, al contrario que sus hermanos se especializan en el combate cuerpo a cuerpo, desdeñando el uso de conjuros y sortilegios en favor de una maestría sin igual en la lucha. Por ello se los considera los “guerreros” oscuros, los campeones definitivos de las sombras que no temen enfrentarse a nada para conseguir sus fines. Su apariencia es muy similar a la de los Señores, pues también están compuestos por la más pura oscuridad, pero al contrario que estos tanto su rostro como su cuerpo son mucho más “humanos”.\n\nPor lo general visten ornamentadas armaduras llenas de lazos y cuchillas que utilizan como armas, pudiendo llegar a ser confundido con personas normales en caso de llevar yelmo. Los Arhiman están habitualmente ligados a las doctrinas de los Shajads Abbadon, Jedah o Meseguis, actuando por su cuenta para conseguir los ideales de sus señores. Irónicamente, sus personalidades están llenas de contradicciones, pues son crueles a la vez que compasivos y tan violentos como sutiles a la hora de actuar. Como parte de sus continuas discordancias de carácter, tienden a detestar y admirar la humanidad, a la que consideran la más fascinante aberración que jamás ha pisado el mundo. A veces establecen vinculaciones con personas que consideran interesantes, aunque sólo sea para ver como pueden llegar a sorprenderlos de los modos más inesperados.\n\nSus variadas personalidades los vuelven imprevisibles a la hora de determinar pautas de conducta generales, pero normalmente prefieren no mezclarse con los hombres y residir en los lugares más recónditos de la Vigilia. Únicamente algunos actúan entre los mortales como parte de ejércitos mercenarios o actuando en colaboración con algún Señor de las Tinieblas con el que tenga afinidad. m oduS oPerandiIncluso sin los poderes mágicos de los Señores de las Tinieblas, los Arhiman son los mejores guerreros entre los elementales oscuros. Suelen moverse en la penumbra, aprovechando su maestría como asesinos y el poder de atacar a través de las sombras para acabar con sus enemigos con insultante facilidad. Además, se mueven con semejante gracia y belleza que cada uno de sus golpes parece ser parte de una interminable sinfonía de muerte tan fascinante como aterradora.\n\nNo tienen puntos vulnerables, salvo su corazón, donde reside el núcleo de su esencia. (order #3443007)</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-arhiman-alto-elemental",
+          "type": "level",
+          "name": "Arhiman (Alto Elemental)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 8
+          }
+        }
+      ],
+      "level": {
+        "value": 8
+      },
+      "notes": [
+        {
+          "_id": "note-arhiman-alto-elemental-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inhumanidad, Exención Física, Ambidiestro.",
+          "system": {}
+        },
+        {
+          "_id": "note-arhiman-alto-elemental-4",
+          "type": "note",
+          "name": "Poderes: Armas Naturales: Garras de Sombra (Ataque Elemental, -3 a la TA Defensora), Dañar Energía, Cuchillas Oscuras (Distancia 25 Metros, Ataque Adicional -30, Daño Base 60, RV 140, Veneno Oscuro, Debilidad, Ataque por Sombra), Forma de Sombras (Forma Elemental, Condicionada, Forma Física aVoluntad, Indetección Mística +100), Placas Sombrías (Armadura Física 5, Armadura Mística 2).",
+          "system": {}
+        },
+        {
+          "_id": "note-arhiman-alto-elemental-7",
+          "type": "note",
+          "name": "Ki: Uso del Ki, Control del Ki, Uso de la energía necesaria, Ocultación del Ki, Aura de Ocultación.",
+          "system": {}
+        },
+        {
+          "_id": "note-arhiman-alto-elemental-9",
+          "type": "note",
+          "name": "Técnicas: Obscuritas; Oculus, Luctus, Ego.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 11
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 11
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 200,
+          "max": 200
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": 1
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 85140
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 125
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 115
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
+          "base": {
+            "value": 120
+          }
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
+          "base": {
+            "value": 30
+          }
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 160
+          }
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
+          "base": {
+            "value": 245
+          }
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
+          "base": {
+            "value": 60
+          }
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
+        "base": {
+          "value": 225
+        }
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!87c8d0a163ca8e86"
+}

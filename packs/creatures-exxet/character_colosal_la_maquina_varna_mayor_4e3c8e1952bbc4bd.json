@@ -1,0 +1,1173 @@
+{
+  "_id": "4e3c8e1952bbc4bd",
+  "name": "Colosal (La Máquina · Varna mayor)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Colosal (La Máquina · Varna mayor)"
+  },
+  "items": [
+    {
+      "name": "Natural + Armazón",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "thrust": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "heat": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "electricity": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "cold": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "energy": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "integrity": {
+          "base": {
+            "value": 34
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 34
+        },
+        "presence": {
+          "base": {
+            "value": 80
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 80
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "6de02637ca4ea18b",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!4e3c8e1952bbc4bd.6de02637ca4ea18b"
+    }
+  ],
+  "effects": [],
+  "folder": "84aac687e34f20fa",
+  "sort": 40,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "DRAVENOR Ejército regular de La Máquina · Parte 1",
+      "sourceHeading": "Colosal (La Máquina · Varna mayor)",
+      "page": 1,
+      "variant": null,
+      "rawClass": "Entre Mundos Especial",
+      "rawDamage": "90 Extremidades (CON), 150 Extremidades con equipo de Ariete (CON), 200 Cañón de Impacto Psíquico (ELE), 120 Baterías de Descarga (PEN), 200 Cañón de Artillería (CAL), 80 Sistema de Fuego Automático (PEN)",
+      "rawTA": "Natural + Armazón Fil 12 Con 12 Pen 12 Cal 12 Fri 12 Ele 6 Ene 6",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": true
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": true
+        },
+        "inhuman": {
+          "value": false
+        },
+        "zen": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre Mundos Especial"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": 29
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 1</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Colosal (La Máquina · Varna mayor)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Maestro en Armas Fue: 15 Des: 8 Agi: 5 Con: 14 Pod: 4 Int: 5 Vol: 8 Per: 10 RF 120 RM 25 RP 75 RV 120 RE 120</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrenaturales, Exención física, Inmunidad Psicológica, Inmune al Dolor.</p><p><strong>Poderes:</strong> Armas Naturales (Limitada); Extremidades (-1 TA Defensora), Armazón (Armadura Física TA 4, Limitada, Barrera de Daño 160, Resistencia Física +30), Visión Nocturna Completa, Sistemas de Armas Colosales, Cuerpo Artificial (Regeneración 0), Vulnerabilidad a la Magia.</p><p><strong>Daño:</strong> 90 Extremidades (CON), 150 Extremidades con equipo de Ariete (CON), 200 Cañón de Impacto Psíquico (ELE), 120 Baterías de Descarga (PEN), 200 Cañón de Artillería (CAL), 80 Sistema de Fuego Automático (PEN)</p><p><strong>TA:</strong> Natural + Armazón Fil 12 Con 12 Pen 12 Cal 12 Fri 12 Ele 6 Ene 6</p><p><strong>Habilidades secundarias:</strong> Advertir 140, Buscar 120, Memorizar 110, P</p><p><strong>Descripción breve:</strong> Fuerza 180. Los colosales son las más terroríficas “armas de asalto” de La Máquina. Estas enormes masas de carne y metal, formadas de ingentes cantidades de cuerpos y equipadas con potente armamento pesado, son una tropa de choque increíblemente eficaz gracias a su desmedida resistencia y su capacidad de echar abajo las murallas más pesadas con un simple embate. Su aspecto es el de un ser vagamente humanoide de entre ocho y veinte metros de altura, recubiertos completamente de una pesada y gruesa exoarmadura metálica. Tienen los brazos ligeramente más largos de lo normal, lo que, sumado al inmenso grosor de su cuello, le confiere una apariencia aún más monstruosa. Sus enormes extremidades son de por sí un peligro lo suficientemente grande como para temerlos, pero llevan incrustadas además grandes cañones (u otras armas aún más especializadas) que los hace incluso más letales. La creación de un Colosal es considerablemente costosa para La Madre, pues igual que los portadores su construcción requiere centenares de cadáveres que se funden con metal y cables. Posteriormente, se incrusta en la carne una pesada exoarmadura de metal que incrementa su ya de por sí inmenso aguante al daño. Los Colosales ni son demasiado inteligentes ni actúan independientemente, limitándose a ejecutar las órdenes que reciben del modo más directo que conciben. La Máquina no suele desplegarlos sin una buena razón, reservándolos para batallas de gran envergadura. Sus siluetas oscuras, que normalmente sobresalen en el horizonte de los campos de combate, son una visión sobrecogedora; pocos son los soldados que, tras ver una de estas criaturas y sobrevivir, han sido capaces de volver a dormir bien en mucho tiempo. No obstante, en raras ocasiones puede haber uno o dos colosales actuando como apoyo de ciertas misiones secundarias, aunque generalmente bajo la supervisión de un tecnócrita. MODUS OPERANDIDebido no sólo a su inmenso aguante al daño sino también a su poder, los Colosales suelen encontrarse en lo más crudo de las batallas desencadenado sin cesar sus destructivos ataques. Aunque carecen de la capacidad de desarrollar estrategias complejas, estos seres son perfectamente capaces de discernir cual es el mejor uso de cada una de sus habilidades y en sacar provecho de sus sistemas ofensivos. Por ello, aquellos equipados con armas de largo alcance tratarán siempre de mantener la distancia y bombardear en cuanto sean capaces de detectar enemigos a su alcance, mientras que los que utilicen sistemas de menor rango se dedicarán a avanzar hasta estar cerca de sus objetivos. Dado el enorme valor que los Colosales poseen para las fuerzas de La Máquina, La Madre siempre se intenta preservarlos lo más posible, y está más que dispuesta a sacrificar algunas de sus otras tropas con tal de mantener a salvo a estos titanes de los ataques sobrenaturales. Extremidades: Los Colosales no están particularmente preparados para luchar cuerpo a cuerpo, pero su tamaño, fuerza y su peso hacen de sus extremidades armas muy efectivas. Por ello, sus manotazos y pisotones reducen en 1 la TA del defensor y provocan un impacto automático de Fuerza 12 a las criaturas de tamaño grande o inferior, independientemente de si el Colosal trata o no de realizar embate. Armazón: La descomunal estructura de los Colosales está recubierta de un armazón metálico que dota a estas criaturas de un aspecto tecnificado. Esta especie de exoesqueleto, combinado a su tamaño, les otorga una Barrera de Daño 160, un incremento de +30 a sus resistencias Físicas (ya reflejado en su ficha) y una TA de 12 contra ataques físicos. Sin embargo, el punto débil de estas exoarmaduras es la electricidad, ya que las aleaciones que se usan para crearlas son un gran conductor y distribuye la corriente por todo el cuerpo de la criatura. Por ello, contra ataques eléctricos reduce su TA a la mitad e ignoran su Barrera de Daño. Cuerpo Artificial: El cuerpo de los colosales necesita reparaciones extensivas en instalaciones especialmente preparadas para poder recuperarse de los daños, por lo que efectivamente no tienen ningún tipo de regeneración natural. Vulnerabilidad a la Magia: La vulnerabilidad mística de todas las tropas de La Máquina también se mantiene en los Colosales. No sólo poseen una RM de 25, sino que toda descarga de energía mística les produce doble daño. s istemas de a rmas CoLosaLesPor su naturaleza como tropas de asalto o asedio, los Colosales suelen estar equipados siempre con un armamento especializado en la función que vaya a cumplir (de hecho, no sería muy equivocado llamarlos “plataformas de armas móviles”). Cada Colosal posee uno de estos sistemas que sabe utilizar de un modo instintivo. Teóricamente es posible reemplazar estos sistemas, pero es algo que sólo puede hacerse en las cadenas de montaje más importantes de La Máquina. A continuación, se presentan las cinco configuraciones más comunes, aunque potencialmente existen más: -Cañones de Impacto Psíquico: Los Colosales armados con estos cañones tienen incrustado en la parte inferior de uno de sus brazos una descomunal arma de casi doce metros de longitud que les permite, cada dos asaltos, llevar a cabo un ataque a distancia con un alcance máximo de un kilómetro y un área de efecto de 10 metros en el lugar del impacto. El disparo tiene Daño Base 200 y ataca en la TA de Electricidad reduciendo 3 puntos la TA defensora. Posee además tal potencia que puede incluso dañar residualmente a criaturas intangibles, pero reduciendo su daño base a una cuarta parte (es decir, 50 puntos). Usar un Cañón de Impacto Psíquico requiere que el Colosal emplee sus dos brazos, por lo que es incapaz de atacar físicamente y disparar en el mismo asalto. Gracias a los sistemas de apuntado del Cañón, la criatura no recibe penalizadores de ningún tipo al disparar a blancos en movimiento y no necesita sacar un mínimo en su tirada de ataque para alcanzar a objetivos a más de cierto alcance. Las descargas de estas armas, que son similares a un relámpago atronador, son consideradas equivalentes a un Poder Psíquico de Potencial Imposible, por lo que un efecto capaz de anular matrices de ese Potencial sería capaz de impedir que se realizara el disparo de uno de estos cañones. Si en lugar de anular simplemente se reduce el Potencial Psíquico del cañón (por ejemplo, mediante Némesis), este pierde 10 puntos de Daño Base y 100 metros de Alcance por cada -10 a su Potencial Psíquico, quedando inutilizable si se reduce el potencial 100 o más puntos. -Baterías de Descarga: Estos Colosales poseen una ristra de protuberancias a lo largo de sus brazos que disparan mediante impulsos electromagnéticos veloces barras de metal, lo que les confiere una enorme cadencia de fuego y un vasto poder destructivo. Este sistema permite realizar por asalto un ataque a distancia con un alcance de 100 metros y con un daño de 120 puntos (PENetrante). Si el Colosal lo desea, las Baterías de Descarga permiten realizar dos disparos por asalto en lugar de uno (cada ataque puede tener un objetivo diferente sin aplicar penalizador alguno), aunque la criatura sufre un penalizador de -20 a su habilidad con ambos ataques. Alternativamente también es posible disparar a la vez que El Colosal ataca físicamente con sus extremidades, pero en este caso sólo puede realizar un único disparo aplicando un -20 a su habilidad. Pese a que las Baterías de Descarga son consideradas disparos, los Colosales no sufren penalizador por el tamaño de sus objetivos y ven reducidos a la mitad cualquier penalizador que deberían sufrir por atacar con ellas a blancos en movimiento. -Cañón de Artillería: Normalmente vistas entre los Colosales de mayor tamaño, estas enormes piezas de artillería son acopladas en sus espaldas, que deben colocarse de rodillas, con las manos apoyadas en el suelo, para poderlas disparar de forma efectiva. Estas armas tienen un alcance máximo de diez kilómetros y un alcance mínimo de uno, e impactan creando una inmensa explosión con un radio de 50 metros. Atacan con un daño base de 200 en la TA de Calor, reduciendo en 3 puntos la TA defensora. Para disparar un Cañón de Artillería el Colosal debe permanecer quieto, sin poder llevar a cabo otras acciones, entre 3 y 5 turnos (se requiere más tiempo de preparación cuanto más lejos esté el objetivo). Los Colosales equipados con Cañones de Artillería poseen generalmente una conexión mucho más potente con las tropas de La Máquina cercanas puesto que, para fijar bien el blanco del arma, esta requiere una señal externa que le diga donde disparar. En consecuencia, para atacar un Cañón de Artillería correctamente, es necesario que haya un miembro de La Máquina a una distancia no mayor a 75 metros del objetivo que transmita información al Colosal de posicionamiento o, de lo contario, la criatura aplicará un penalizar de -100 a su habilidad ofensiva. Aunque el Cañón es un arma de disparo, cuando recibe información de posicionamiento este ataque no aplica penalizadores por tomar como objetivos blancos pequeños o en movimiento, o de distancia para alcanzar el blanco. Cada Colosal lleva normalmente munición para seis disparos, siendo el proceso de recarga tras gastar esta munición tan complejo que normalmente lleva unos 10 minutos en instalaciones especializadas de La Máquina, o 20 minutos en el campo de batalla. -Sistema de Fuego Automático: Este sistema toma la forma de dos cañones gemelos colocados en los hombros del Colosal que disparan automáticamente metralla de alta velocidad contra múltiples objetivos. Tienen un alcance de 800 metros, un Daño de 80 (PENetrante), y reducen 4 puntos la Armadura del defensor. Gracias a sus sistemas de apuntado la criatura puede disparar hasta a dos objetivos diferentes por asalto sin penalizador alguno a su habilidad, reduce a la mitad los penalizadores por atacar a blancos en movimiento y no tiene la necesidad de pasar una dificultad mínima en su tirada de ataque para alcanzar sus objetivos. Adicionalmente, dado que fueron creados para atacar principalmente a objetivos aéreos, el sistema otorga un bono especial de +20 a la Habilidad ofensiva del Colosal contra enemigos voladores. El ataque del Sistema de Fuego Automático no puede realizarse en el mismo turno en el que el Colosal ataca físicamente. -Equipo de Ariete: Quizás el más simple, pero no por ello menos efectivo, de los sistemas de armas de los Colosales. Toma la forma de un armazón reforzado en las extremidades, que se vuelven más voluminosas y pesadas incrementando su efectivad en combate cuerpo a cuerpo (especialmente contra los objetivos de gran tamaño). Por ello, el Colosal obtiene armas naturales incrementa 40 puntos su daño contra los seres de tamaño Enorme o superior y la fuerza de sus Impactos hasta 13. Adicionalmente, los Colosales con este sistema son capaces de realizar cargas devastadoras, por lo que doblan su bono de Fuerza e incrementan en +20 su Habilidad de Ataque al realizar un ataque de Carga. Los cañones usados por estos seres, así como todas sus variantes, guardan un increíble parecido con las armas del antiguo y ya extinto Imperio de Sólomon. Estos fueron los primeros indicios que nos llevaron a crear la hoy día muy aceptada teoría de que, en alguna parte del archipiélago de Dravenor, se encuentra algún lugar repleto de tecnología de Sólomon que La Máquina ha intentado, sin éxito, emular. Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Los gigantes de metal son los monstruos más terribles que uno puede ver un campo de batalla. Conocimiento Intermedio Son especialmente vulnerables a la electricidad. Si se está atento, es posible reconocer que tipo de Colosal es atendiendo a las armas que tienen equipadas. Los Colosales son generalmente transportados a las batallas por un Portador; los llevan en volandas sostenidos por cientos de cadenas y los dejan caer en sus posiciones. Verlos caer arrodillados y levantarse lentamente a la distancia es algo aterrador. Conocimiento Avanzado Se pueden anular los efectos de los cañones de los Colosales con contramedidas psíquicas. Si ves a un miembro de varna menor de La Máquina cerca sin hacer nada mientras hay un Colosal a la distancia, es necesario destruirlo tan rápido como sea posible; va a transmitir información al Colosal de tu posición para que el gigante ejecute un devastador ataque a distancia.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Entre Mundos Especial Puntos de Vida: 6.485 Categoría: Maestro en Armas Fue: 15 Des: 8 Agi: 5 Con: 14 Pod: 4 Int: 5 Vol: 8 Per: 10 RF 120 RM 25 RP 75 RV 120 RE 120\n\nTurno: 60 Natural, 10 Cañón de Impacto Psíquico, 30 Baterías de Descarga, 50 Sistema de Fuego Automático. Habilidad de ataque: 2 10 Extremidades / 2 10 Cañón de Impacto Psíquico / 2 10 Baterías de Descarga; o 1 90 Batería de Descarga + 1 90 Baterías de Descarga; o 2 10 Extremidades + 1 90 Baterías de Descarga / 2 10 Cañón de Artillería / 2 10 Sistema de Fuego Automático Habilidad de defensa: Acumulación Daño: 90 Extremidades (CON), 1 50 Extremidades con equipo de Ariete (CON), 200 Cañón de Impacto Psíquico (ELE), 120 Baterías de Descarga (PEN), 200 Cañón de Artillería (CAL), 80 Sistema de Fuego Automático (PEN) TA: Natural + Armazón Fil 12 Con 12 Pen 12 Cal 12 Fri 12 Ele 6 Ene 6 Habilidades Esenciales: Características Físicas Sobrenaturales, Exención física, Inmunidad Psicológica, Inmune al Dolor. Poderes: Armas Naturales (Limitada); Extremidades (-1 TA Defensora), Armazón (Armadura Física TA 4, Limitada, Barrera de Daño 1 60, Resistencia Física +30), Visión Nocturna Completa, Sistemas de Armas Colosales, Cuerpo Artificial (Regeneración 0), Vulnerabilidad a la Magia.\n\nTamaño: 29 Gigantesco Regeneración: 0 Tipo de movimiento: 7 Cansancio: Incansable Habilidades Secundarias: Advertir 1 40, Buscar 120, Memorizar 1 10, P . Fuerza 180. Los colosales son las más terroríficas “armas de asalto” de La Máquina. Estas enormes masas de carne y metal, formadas de ingentes cantidades de cuerpos y equipadas con potente armamento pesado, son una tropa de choque increíblemente eficaz gracias a su desmedida resistencia y su capacidad de echar abajo las murallas más pesadas con un simple embate. Su aspecto es el de un ser vagamente humanoide de entre ocho y veinte metros de altura, recubiertos completamente de una pesada y gruesa exoarmadura metálica. Tienen los brazos ligeramente más largos de lo normal, lo que, sumado al inmenso grosor de su cuello, le confiere una apariencia aún más monstruosa.\n\nSus enormes extremidades son de por sí un peligro lo suficientemente grande como para temerlos, pero llevan incrustadas además grandes cañones (u otras armas aún más especializadas) que los hace incluso más letales. La creación de un Colosal es considerablemente costosa para La Madre, pues igual que los portadores su construcción requiere centenares de cadáveres que se funden con metal y cables. Posteriormente, se incrusta en la carne una pesada exoarmadura de metal que incrementa su ya de por sí inmenso aguante al daño. Los Colosales ni son demasiado inteligentes ni actúan independientemente, limitándose a ejecutar las órdenes que reciben del modo más directo que conciben. La Máquina no suele desplegarlos sin una buena razón, reservándolos para batallas de gran envergadura.\n\nSus siluetas oscuras, que normalmente sobresalen en el horizonte de los campos de combate, son una visión sobrecogedora; pocos son los soldados que, tras ver una de estas criaturas y sobrevivir, han sido capaces de volver a dormir bien en mucho tiempo. No obstante, en raras ocasiones puede haber uno o dos colosales actuando como apoyo de ciertas misiones secundarias, aunque generalmente bajo la supervisión de un tecnócrita. MODUS OPERANDIDebido no sólo a su inmenso aguante al daño sino también a su poder, los Colosales suelen encontrarse en lo más crudo de las batallas desencadenado sin cesar sus destructivos ataques. Aunque carecen de la capacidad de desarrollar estrategias complejas, estos seres son perfectamente capaces de discernir cual es el mejor uso de cada una de sus habilidades y en sacar provecho de sus sistemas ofensivos.\n\nPor ello, aquellos equipados con armas de largo alcance tratarán siempre de mantener la distancia y bombardear en cuanto sean capaces de detectar enemigos a su alcance, mientras que los que utilicen sistemas de menor rango se dedicarán a avanzar hasta estar cerca de sus objetivos. Dado el enorme valor que los Colosales poseen para las fuerzas de La Máquina, La Madre siempre se intenta preservarlos lo más posible, y está más que dispuesta a sacrificar algunas de sus otras tropas con tal de mantener a salvo a estos titanes de los ataques sobrenaturales. Extremidades: Los Colosales no están particularmente preparados para luchar cuerpo a cuerpo, pero su tamaño, fuerza y su peso hacen de sus extremidades armas muy efectivas.\n\nPor ello, sus manotazos y pisotones reducen en 1 la TA del defensor y provocan un impacto automático de Fuerza 12 a las criaturas de tamaño grande o inferior, independientemente de si el Colosal trata o no de realizar embate. Armazón: La descomunal estructura de los Colosales está recubierta de un armazón metálico que dota a estas criaturas de un aspecto tecnificado. Esta especie de exoesqueleto, combinado a su tamaño, les otorga una Barrera de Daño 1 60, un incremento de +30 a sus resistencias Físicas (ya reflejado en su ficha) y una TA de 12 contra ataques físicos. Sin embargo, el punto débil de estas exoarmaduras es la electricidad, ya que las aleaciones que se usan para crearlas son un gran conductor y distribuye la corriente por todo el cuerpo de la criatura. Por ello, contra ataques eléctricos reduce su TA a la mitad e ignoran su Barrera de Daño.\n\nCuerpo Artificial: El cuerpo de los colosales necesita reparaciones extensivas en instalaciones especialmente preparadas para poder recuperarse de los daños, por lo que efectivamente no tienen ningún tipo de regeneración natural. Vulnerabilidad a la Magia: La vulnerabilidad mística de todas las tropas de La Máquina también se mantiene en los Colosales. No sólo poseen una RM de 25, sino que toda descarga de energía mística les produce doble daño. s istemas de a rmas CoLosaLesPor su naturaleza como tropas de asalto o asedio, los Colosales suelen estar equipados siempre con un armamento especializado en la función que vaya a cumplir (de hecho, no sería muy equivocado llamarlos “plataformas de armas móviles”). Cada Colosal posee uno de estos sistemas que sabe utilizar de un modo instintivo.\n\nTeóricamente es posible reemplazar estos sistemas, pero es algo que sólo puede hacerse en las cadenas de montaje más importantes de La Máquina. A continuación, se presentan las cinco configuraciones más comunes, aunque potencialmente existen más: -Cañones de Impacto Psíquico: Los Colosales armados con estos cañones tienen incrustado en la parte inferior de uno de sus brazos una descomunal arma de casi doce metros de longitud que les permite, cada dos asaltos, llevar a cabo un ataque a distancia con un alcance máximo de un kilómetro y un área de efecto de 10 metros en el lugar del impacto. El disparo tiene Daño Base 200 y ataca en la TA de Electricidad reduciendo 3 puntos la TA defensora. Posee además tal potencia que puede incluso dañar residualmente a criaturas intangibles, pero reduciendo su daño base a una cuarta parte (es decir, 50 puntos).\n\nUsar un Cañón de Impacto Psíquico requiere que el Colosal emplee sus dos brazos, por lo que es incapaz de atacar físicamente y disparar en el mismo asalto. Gracias a los sistemas de apuntado del Cañón, la criatura no recibe penalizadores de ningún tipo al disparar a blancos en movimiento y no necesita sacar un mínimo en su tirada de ataque para alcanzar a objetivos a más de cierto alcance. Las descargas de estas armas, que son similares a un relámpago atronador, son consideradas equivalentes a un Poder Psíquico de Potencial Imposible, por lo que un efecto capaz de anular matrices de ese Potencial sería capaz de impedir que se realizara el disparo de uno de estos cañones.\n\nSi en lugar de anular simplemente se reduce el Potencial Psíquico del cañón (por ejemplo, mediante Némesis), este pierde 10 puntos de Daño Base y 100 metros de Alcance por cada -10 a su Potencial Psíquico, quedando inutilizable si se reduce el potencial 100 o más puntos. -Baterías de Descarga: Estos Colosales poseen una ristra de protuberancias a lo largo de sus brazos que disparan mediante impulsos electromagnéticos veloces barras de metal, lo que les confiere una enorme cadencia de fuego y un vasto poder destructivo. Este sistema permite realizar por asalto un ataque a distancia con un alcance de 100 metros y con un daño de 120 puntos (PENetrante).\n\nSi el Colosal lo desea, las Baterías de Descarga permiten realizar dos disparos por asalto en lugar de uno (cada ataque puede tener un objetivo diferente sin aplicar penalizador alguno), aunque la criatura sufre un penalizador de -20 a su habilidad con ambos ataques. Alternativamente también es posible disparar a la vez que El Colosal ataca físicamente con sus extremidades, pero en este caso sólo puede realizar un único disparo aplicando un -20 a su habilidad. Pese a que las Baterías de Descarga son consideradas disparos, los Colosales no sufren penalizador por el tamaño de sus objetivos y ven reducidos a la mitad cualquier penalizador que deberían sufrir por atacar con ellas a blancos en movimiento.\n\n-Cañón de Artillería: Normalmente vistas entre los Colosales de mayor tamaño, estas enormes piezas de artillería son acopladas en sus espaldas, que deben colocarse de rodillas, con las manos apoyadas en el suelo, para poderlas disparar de forma efectiva. Estas armas tienen un alcance máximo de diez kilómetros y un alcance mínimo de uno, e impactan creando una inmensa explosión con un radio de 50 metros. Atacan con un daño base de 200 en la TA de Calor, reduciendo en 3 puntos la TA defensora. Para disparar un Cañón de Artillería el Colosal debe permanecer quieto, sin poder llevar a cabo otras acciones, entre 3 y 5 turnos (se requiere más tiempo de preparación cuanto más lejos esté el objetivo).\n\nLos Colosales equipados con Cañones de Artillería poseen generalmente una conexión mucho más potente con las tropas de La Máquina cercanas puesto que, para fijar bien el blanco del arma, esta requiere una señal externa que le diga donde disparar. En consecuencia, para atacar un Cañón de Artillería correctamente, es necesario que haya un miembro de La Máquina a una distancia no mayor a 75 metros del objetivo que transmita información al Colosal de posicionamiento o, de lo contario, la criatura aplicará un penalizar de -100 a su habilidad ofensiva. Aunque el Cañón es un arma de disparo, cuando recibe información de posicionamiento este ataque no aplica penalizadores por tomar como objetivos blancos pequeños o en movimiento, o de distancia para alcanzar el blanco.\n\nCada Colosal lleva normalmente munición para seis disparos, siendo el proceso de recarga tras gastar esta munición tan complejo que normalmente lleva unos 10 minutos en instalaciones especializadas de La Máquina, o 20 minutos en el campo de batalla. -Sistema de Fuego Automático: Este sistema toma la forma de dos cañones gemelos colocados en los hombros del Colosal que disparan automáticamente metralla de alta velocidad contra múltiples objetivos. Tienen un alcance de 800 metros, un Daño de 80 (PENetrante), y reducen 4 puntos la Armadura del defensor. Gracias a sus sistemas de apuntado la criatura puede disparar hasta a dos objetivos diferentes por asalto sin penalizador alguno a su habilidad, reduce a la mitad los penalizadores por atacar a blancos en movimiento y no tiene la necesidad de pasar una dificultad mínima en su tirada de ataque para alcanzar sus objetivos.\n\nAdicionalmente, dado que fueron creados para atacar principalmente a objetivos aéreos, el sistema otorga un bono especial de +20 a la Habilidad ofensiva del Colosal contra enemigos voladores. El ataque del Sistema de Fuego Automático no puede realizarse en el mismo turno en el que el Colosal ataca físicamente. -Equipo de Ariete: Quizás el más simple, pero no por ello menos efectivo, de los sistemas de armas de los Colosales. Toma la forma de un armazón reforzado en las extremidades, que se vuelven más voluminosas y pesadas incrementando su efectivad en combate cuerpo a cuerpo (especialmente contra los objetivos de gran tamaño). Por ello, el Colosal obtiene armas naturales incrementa 40 puntos su daño contra los seres de tamaño Enorme o superior y la fuerza de sus Impactos hasta 1 3.\n\nAdicionalmente, los Colosales con este sistema son capaces de realizar cargas devastadoras, por lo que doblan su bono de Fuerza e incrementan en +20 su Habilidad de Ataque al realizar un ataque de Carga. Los cañones usados por estos seres, así como todas sus variantes, guardan un increíble parecido con las armas del antiguo y ya extinto Imperio de Sólomon. Estos fueron los primeros indicios que nos llevaron a crear la hoy día muy aceptada teoría de que, en alguna parte del archipiélago de Dravenor, se encuentra algún lugar repleto de tecnología de Sólomon que La Máquina ha intentado, sin éxito, emular. Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Los gigantes de metal son los monstruos más terribles que uno puede ver un campo de batalla. Conocimiento Intermedio Son especialmente vulnerables a la electricidad.\n\nSi se está atento, es posible reconocer que tipo de Colosal es atendiendo a las armas que tienen equipadas. Los Colosales son generalmente transportados a las batallas por un Portador; los llevan en volandas sostenidos por cientos de cadenas y los dejan caer en sus posiciones. Verlos caer arrodillados y levantarse lentamente a la distancia es algo aterrador. Conocimiento Avanzado Se pueden anular los efectos de los cañones de los Colosales con contramedidas psíquicas. Si ves a un miembro de varna menor de La Máquina cerca sin hacer nada mientras hay un Colosal a la distancia, es necesario destruirlo tan rápido como sea posible; va a transmitir información al Colosal de tu posición para que el gigante ejecute un devastador ataque a distancia.</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-colosal-la-maquina-varna",
+          "type": "level",
+          "name": "Colosal (La Máquina · Varna mayor)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 8
+          }
+        }
+      ],
+      "level": {
+        "value": 8
+      },
+      "notes": [
+        {
+          "_id": "note-colosal-la-maquina-varna-mayor-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características Físicas Sobrenaturales, Exención física, Inmunidad Psicológica, Inmune al Dolor.",
+          "system": {}
+        },
+        {
+          "_id": "note-colosal-la-maquina-varna-mayor-4",
+          "type": "note",
+          "name": "Poderes: Armas Naturales (Limitada); Extremidades (-1 TA Defensora), Armazón (Armadura Física TA 4, Limitada, Barrera de Daño 160, Resistencia Física +30), Visión Nocturna Completa, Sistemas de Armas Colosales, Cuerpo Artificial (Regeneración 0), Vulnerabilidad a la Magia.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 5
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 14
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 15
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 5
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 4
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 6485,
+          "max": 6485
+        },
+        "initiative": {
+          "base": {
+            "value": 60
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": -7
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 2
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 30
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 30
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 11970
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": -35
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 140
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 120
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 110
+          }
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 210
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!4e3c8e1952bbc4bd"
+}

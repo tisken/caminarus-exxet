@@ -1,0 +1,1191 @@
+{
+  "_id": "b86ba4a102488932",
+  "name": "Dragón de Gaira la Simiente de las Tinieblas",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Dragón de Gaira la Simiente de las Tinieblas"
+  },
+  "items": [
+    {
+      "name": "Escamas de acero negro + Natural",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "thrust": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "heat": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "electricity": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "cold": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "energy": {
+          "base": {
+            "value": 10
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 10
+        },
+        "integrity": {
+          "base": {
+            "value": 34
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 34
+        },
+        "presence": {
+          "base": {
+            "value": 80
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 80
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "4dea0705b05d8be0",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!b86ba4a102488932.4dea0705b05d8be0"
+    }
+  ],
+  "effects": [],
+  "folder": "c6f51a3bccb2d48a",
+  "sort": 40,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "ABF Complemento Web Vol. 1",
+      "sourceHeading": "Dragón de Gaira la Simiente de las Tinieblas",
+      "page": 12,
+      "variant": null,
+      "rawClass": "Entre mundos, elemental 35",
+      "rawDamage": "170 Garras FIL, 210 Mordisco PEN, 150 Coletazo CON, 150 Aliento PEN",
+      "rawTA": "Escamas de acero negro + Natural: Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 10",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": true
+        },
+        "domine": {
+          "value": true
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": true
+        },
+        "perceivePsychic": {
+          "value": true
+        },
+        "inmaterial": {
+          "value": false
+        },
+        "inhuman": {
+          "value": false
+        },
+        "zen": {
+          "value": true
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre mundos, elemental 35"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": 34
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> ABF Complemento Web Vol. 1</p><p><strong>Página:</strong> 12</p><p><strong>Entrada:</strong> Dragón de Gaira la Simiente de las Tinieblas</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, elemental 35</p><p><strong>Categoría:</strong> Warlock Fue: 17 Des: 10 Agi: 6 Con: 17 Pod: 15 Int: 12 Vol: 13 Per: 13 RF 145 RM 160 RP 120 RV 145 RE 145</p><p><strong>Habilidades esenciales:</strong> Don, Zen, Inmunidad natural, Inutilidad somática, Inutilidad oral, VulnerabilidadCaracterísticas físicas divinas, Características anímicas sobrehumanas.</p><p><strong>Poderes:</strong> Arma natural: Garras, Mordisco (Ataque adicional -20, Daño incrementado +40, Armadura -4) y Cola, Ataque elemental, Aliento (1 kilómetro, 50 metros de radio, presa 16), Daña energía, Armadura (TA 4),Vuelo natural 12, Batir de alas, Resistencias incrementadas +20, RM incrementada +40, Barrera de daño 160, Ojo de Gaira (Ver lo sobrenatural, Visión extrasensorial). Especial: Proyección mágica como ataque.</p><p><strong>Daño:</strong> 170 Garras FIL, 210 Mordisco PEN, 150 Coletazo CON, 150 Aliento PEN</p><p><strong>TA:</strong> Escamas de acero negro + Natural: Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 10</p><p><strong>Habilidades secundarias:</strong> Advertir 210, Buscar 60, Historia 100, Memorizar 150, Ocultismo 150, Valoración mágica 175, Proezas de fuerza 150, Resistir el dolor 120, Persuasión 80</p><p><strong>Descripción breve:</strong> Los dragones de Gaira, los llamados siete wryms oscuros, son unas entidades de descomunal poder que han llegado a ser consideradas deidades menores. Al contrario que los otros dragones, cuyas esencias nacen de los cuatro elementos básicos, la naturaleza de los siete depende de las mismas sombras. Hace miles de años, durante el periodo conocido como la El nacimiento de Gaïa, Shajads y Beryls caminaron en el mundo junto a dioses y demonios. En esa época los dragones aún eran muy jóvenes, pero a pesar de su corta edad, la naturaleza única de estos seres llamó la atención de los señores de la Luz y las Tinieblas. Intrigados por aquellas bestias que nacieron de la mismas raíces de la creación, durante siglos los observaron interesándose por el rumbo que el futuro les deparaba. Finalmente, los Shajads eligieron a siete de ellos, los más afines a sus propias filosofías personales, y les ofrecieron unirse a las tinieblas. Fascinados por esas entidades que empequeñecían a los dioses, las grandes sierpes entregaron su _Página 13_ vista a la oscuridad, y a cambio de su sacrificio, se les otorgó un ojo que cambiaría para siempre su visión del mundo. A continuación los Shajads les dieron nuevos nombres y así renacieron como seres nuevos, bautizados por el puro poder de las tinieblas. Esta unión produjo profundos cambios en sus cuerpos. Aunque siguieron manteniendo la apariencia de descomunales reptiles, sus escamas se tornaron completamente negras y todo su lomo se recubrió de afiladas aristas de metal llenas de runas rojas. También tienen las fauces repletas de garfios, las cuencas de los ojos cosidas y, en la frente, llevan incrustado el Ojo de Gaira, una gema que reluce con pura oscuridad. Al contrario de lo que muchos brujos y ocultistas han afirmado durante décadas, los dragones de Gaira no son unas entidades de naturaleza maligna. Aunque es cierto que tienen fuertes instintos destructivos, sus motivaciones suelen ser mucho más profundas e insondables. Cada uno actúa con un talante afín a las ideas del Shajad que les dio nombre; de ese modo, uno puede manejar desde las sombras una poderosa red de influencias sobrenaturales, mientras otro preocuparse solo por promover conflictos y guerras. Al igual que los otros dragones más ancestrales, la activación de la maquina de Rah les produjo un serio deterioro, obligándoles a entrar el letargo durante siglos enteros. No obstante, a menudo sus vastas conciencias entran en contacto con la mente de individuos especialmente receptivos, normalmente bajo la forma de sueños o visiones, a quienes utilizan como herramientas. Modus operandi El poder de los siete es incontenible. En combate, son una potencia destructiva que arrasa todo lo que encuentra sin dejar nada con vida. Se mueven con la misma habilidad en el suelo o volando, aunque habitualmente prefieren luchar en el aire. Son capaces de realizar dos ataques por asalto, el primero con sus garras y el segundo con las fauces; aunque también gozan de un amplio repertorio de habilidades adicionales. A pesar de que sus capacidades físicas son muchísimo más poderosas que las sobrenaturales, sus considerables conocimientos místicos les proporcionan una amplia gama de posibilidades. Dado que para ellos la magia es algo innato, no necesitan usar ensalmos o gesticular, por lo que siempre acumulan sus energías al máximo de su ACT. Al contrario que otras clases de dragón, solo suelen emplean su inusual aliento contra adversarios de gran tamaño, paralizándolos para atraerlos después a sus descomunales fauces. Por su naturaleza sobrenatural, los dragones de Gaira no tienen puntos vulnerables, ni siquiera en la cabeza. Naturaleza oscura: Todos los ataques que realice un dragón de Gaira se consideran basados en oscuridad y son capaces de afectar a criaturas sobrenaturales y seres intangibles. Mordisco: Sus fauces, repletas de dientes de metal negro y garfios, son capaces de atravesar con la misma facilidad carne o metal. A causa de su potencia, tiene daño incrementado y disminuye cuatro puntos la TA de sus adversarios. El mordisco cuenta como un ataque adicional natural, por lo que el dragón puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. El mordisco tiene rotura 28. Coletazo: Como otros dragones, al enfrentarse a un gran número de adversarios, puede utilizar su cola para realizar un ataque en área de gran magnitud que cubre una zona de 100 metros. Si la usa en combate, el dragón no puede usar sus garras o fauces durante ese asalto. Aliento de cadenas: Los dragones de Gaira no son capaces de lanzar alientos de fuego, electricidad o frió como sus congéneres. Por el contrario, desde sus bocas desencadenan una tormenta de cadenas acabadas en garfios y cuchillas, que avanzan envolviendo y desgarrando a sus adversarios. El aliento tiene un daño base de 150 puntos, alcanza una distancia máxima de un kilómetro de longitud y se extiende en forma de cono afectando a todos los blancos que estén en un radio de 50 metros. Las cadenas inmovilizan a cualquiera a las que impacten automáticamente utilizando las reglas de Presa con el equivalente de una Fuerza 16. Una vez tiene sujeta a su víctima, el dragón puede retraerlas arrastrándola hasta sus fauces. Las cadenas son de carácter sobrenatural, por lo que afectan por igual a seres intangibles como materiales. Vuelo natural: Las enormes alas de los dragones de Gaira les permiten volar con un tipo 12. Al contrario que los demás, solo pierden un punto de cansancio por cada dos horas de vuelo. Batir de alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval en un área de 100 metros en forma cono delante de él. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire automático de dificultad Casi Imposible, o recibirá un impacto de Fuerza 9 que lo lanzará por los aires. Ojo de Gaira: Los poderes de las tinieblas que les han sido conferidos a estas criaturas se manifiesta en todo su apogeo en el Ojo de Gaira, una piedra de cristal negro que se encuentra incrustada en su frente. Este objeto actúa como sustituto de sus ojos perdidos, confiriéndoles una visión global de todo lo que hay a su alrededor. Con él, los dragones pueden ver radialmente, incluso a través de paredes u obstáculos que no sean de naturaleza sobrenatural. Además de esta virtud, el Ojo de Gaira posee enormes poderes sobrenaturales. Para empezar, proporciona un bonificador de +20 al ACT en conjuros oscuros y un +20 a la Proyección Mágica del dragón, ambos ya reflejados en sus estadísticas. También produce un aura tenebrosa que le permite someter a cualquier ser sobrenatural basado en oscuridad con Gnosis 20 o inferior. Mientras el dragón esta vivo es completamente imposible dañar o arrebatarle el Ojo de ningún modo y solo en el caso de que el muera, se desprende de él. Quienquiera que este en posesión del Ojo obtiene los mismos bonos a su ACT y a su Proyección, al igual que un bono de +40 a todas sus capacidades perceptivas. A veces, puede desarrollar también otros poderes, relacionados al Shajad que les dio nombre. El corazón de las Tinieblas: A pesar de que sus cuerpos son mortales, la esencia de los siete wryms no puede ser destruida. Por ello, en el momento en el que su forma terrenal muere, su alma transmigra al flujo de almas haciéndose una con la oscuridad. El dragón permanece allí hasta que su Ojo sea introducido en el corazón de un ser vivo que nació bajo la profecía de ser su nuevo huésped. Solo aparece un individuo augurado por generación, por lo que si el ritual no se cumple, el dragón permanece sumido en las tinieblas durante un siglo entero. Elan oscuro: Cada uno de ellos posee dones del Shajad al que se hallan unidos equivalentes a un ser con Elan 80. Inmunidad: Los dragones de Gaira son completamente inmunes a cualquier ataque que reciban basado oscuridad. Vulnerabilidad: Cualquier ataque basado en luz les produce doble daño. Sugerencias para partidas Hace apenas dos años, en una pequeña isla a diez kilómetros al oeste de la costa occidental de Remo, se ha encontrado un amplio territorio repleto de extraños monolitos de metal negro recubiertos de runas. Naturalmente, semejante descubrimiento no ha dejado a nadie indiferente. Varios señores feudales han organizado una excavación bajo la excusa de que pueden tratarse de importantes yacimientos arqueológicos del Imperio, aunque en realidad su verdadero interés es consolidar su poder en la isla. Esperan localizar algo de verdadero valor antes de que T ol Rauko sea capaz de intervenir y sellen por completo el lugar. Los personajes pueden ser contratados por uno de estos señores como exploradores o mercenarios, cuyo objetivo es proteger la misión de otros nobles y de los indígenas de la isla que mantienen que ese sitio es un lugar maldito. Por desgracia, dichos pilares no forman parte de ninguna construcción, sino que pertenecen al espinazo de un dragón de Gaira que lleva dormido allí desde que Rah activó su máquina. De hecho, si las excavaciones prosiguen durante un tiempo prolongado, existe la muy seria posibilidad de que despierte, produciendo caos y devastación a su paso. De ese modo, en el caso de que los personajes no se den cuenta de lo que ocurre realmente y lo impidan, pueden verse inmersos en un verdadero infierno tratando de escapar de la pesadilla que se ha desencadenado. _Página 14_ ÚTILES VARIOSUtilesCostePesoDisp. Aceite 5 MC 1 Antorcha 2 MC 1 Arcón pequeño 15 MP 2 Arcón grande 25 MP 10 Arpón 50 MP 3 Barril 10 MP 2 Bastón normal 2 MC 3 Bolsa pequeña 2 MP 0,25 Bolsa grande 5 MP 1 Botella de cristal pequeña 20 MO 1 BBotella de cristal grande 50 MO 3 BCadena ligera (1 metro) 1 MO 1 Cadena pesada (1 metro) 2 MO 3 Carcaj de flechas 20 MP 1 Caja 5 MP 1 Campana 25 MP 1 Catalejo 250 MO 0,5 BCepo pequeño 50 MP 3 Cepo grande 1 MO 5 Cerradura normal 10 MP 1 Cerradura buena 5 MO 0,5 BCerradura excelente 80 MO 0,5 BCesto pequeño 5 MC 0,5 Cesto grande 1 MP 1 Cruz 1 MP 0,2 Cubo 1 MP 1 Cuerda normal (10 m) 5 MP 2 Cuerda buena (10 m) 25 MP 2 Cuerda excelente (10 m) 5 MO 6 Escalera de cuerda (10 m) 20 MP 6 Espejo pequeño de metal 1 MO 1 Espejo pequeño de cristal 200 MO 0,5 BGafas 180 MO 0,5 Ganzúas 1 MO 0,5 Garfio 15 MP 0,5 Jabón 1 MP 0,5 Libro en blanco pequeño 20 MO 1 BLibro en blanco grande 100 MO 2 BLiga de caza 25 MP 1 Linterna de velas 50 MP 0,25 Linterna de aceite 20 MP 2 BLona (1 m cuadrado) 20 MP 1 Manta 1 MP 0,2 Mochila 30 MP 1 Monóculo 200 MO 0,1 Odre 2 MP 0,2 Papel 1 MO NA BPapiro 20 MP NA Perfume normal 35 MP 0,2 Perfume bueno 2 MO 0,2 Perfume excelente 100 MO 0,5 BPergamino 50 MP NA Piedra de afilar 5 MC 0,3 Red de pesca (1 m) 10 MP 0,5 Reloj de arena 2 MO 1 BReloj de engranaje 300 MO 20 ASaco grande 1 MP 0,4 Saco pequeño 2 MC 0,2 Silbato 10 MP 0,1 Tienda de lujo 200 MO 4 BTienda grande 20 MO 6 Tienda pabellón 150 MO 14 Tienda pequeña 1 MO 1 Tinta de escribir 1 MO 0,3 Tiza 5 MC 0,2 Yesca y pedernal 1 MP 0,3 ARMAS Y ESCUDOSArmaCostePesoDisp. Alabarda 12 MO 3 Arpón 50 MP Cadena 50 MP Cestus 3 MO Cimitarra 10 MO 1 BDaga 50 MP 0,5 Daga de parada 10 MO 0,6 BEspada ancha 4 MO 1,5 Espada bastarda 20 MO 2 BEspada corta 2 MO 0,8 Espada larga 5 MO 1,4 Estilete 60 MP 0,4 Estoque 25 MO 1,2 BFlagelo 3 MO 2 Florete 15 MO 1 BGarfio 1 MO Garrote 50 MP 1,5 Gran martillo de guerra 15 MO 5 Guadaña 20 MP Hacha a dos manos 40 MO 5 Hacha de batalla 15 MO 1,5 BHacha de mano 2 MO 1 Jabalina 2 MO Lanza 4 MO 3 Lanza de caballería 20 MO 2 BLátigo 5 MO Lazo 20 MP Mandoble 50 MO 2,5 BMangual 15 MO 1 Martillo de guerra 4 MO 1,2 Mayal 12 MO 1,2 Maza 2 MO 1,8 Maza pesada 15 MO 2,5 Red de gladiador 1 MO Sable 20 MO 1 BTridente 3 MO 2 Vara 40 MP 1 _Página 15_ Escudos Coste Peso Disp. Escudo 20 MO 2 Escudo corporal 50 MO 6 Rodela 5 MO 1 Orientales Coste Peso Disp. Abanico de combate 5 MO 0,2 BAnciano de primavera 15 MO 3 BCuervo 5 MO 0,5 BKatana 50 MO 1 BKatana de doble hoja 75 MO 2 BKusari. Gama 10 MO 1 B No. Dachi 70 MO 1,5 BNunchaku 2 MO 0,6 BSai 1 MO 0,4 BShuriken 50 MP 0,1 BShuko 3 MO 0,3 BTanto 20 MO 0,5 BTonfa 1 MO 0,3 BExóticasCostePesoDisp. Bumerán 3 MO 0,6 BGarras 3 MO 0,5 BQuebradora 30 MO 1 BKatar 40 MO 0,6 BProyectilesCostePesoDisp. Arcabuz 500 MO 4,5 AArco corto 5 MO 0,8 Arco largo 20 MO 1,4 Arco largo compuesto 80 MO 1,8 BBala 20 MP NA BBala de cañón 10 MO 15 ABalista ligera 100 MO 180 Balista pesada 250 MO 350 BBallesta 50 MO 2,5 BBallesta de mano 250 MO 1,5 BBallesta de repetición 200 MO 4 ABallesta pesada 70 MO 3 BBolas 1 MO 0,2 Boleadoras 2 MO 1 Cañón 5.000 MO 400 ACerbatana 1 MO 0,4 Dardo de cerbatana 20 MP 0,1 Dardos de mano 50 MP 0,1 Flecha de descarga 2 MP 0,1 Flecha de fajo 1 MP 0,1 Flecha de mella 50 MP 0,1 Pistola de mecha 600 MO 2 APólvora (2 disparos) 100 MO 0,1 APólvora (10 disparos) 100 MO 0,5 ASaeta 1 MP 0,1 BSaeta ligera 2 MP 0,1 ASaeta pesada 1 MP 0,2 BTurcus 5 MO 0,8 BVirote ligero 10 MP 2 Virote pesado 50 MP 5 BPrecioArma -51/2 Arma +0 x1 Arma +5 x20 AARMADURASArmadurasCostePesoDisp. Acolchada 1 MO 3 Anillas 50 MO 9 Completa 400 MO 20 BCompleta de cuero 5 MO 7 Completa de campaña 800 MO 25 ACompleta pesada 700 MO 30 ACota de cuero 1 MO 3 Cuero endurecido 15 MO 4 Cuero tachonado 25 MO 4,5 Escamas 120 MO 9 BGabardina 5 MP 1,5 BMallas 70 MO 13 Peto 40 MO 4 BPiel 5 MO 2 Piezas 40 MO 6 BPlacas 300 MO 18 Semicompleta 100 MO 13 Para animales Coste Disp. Barda ligera 20 MO BBarda pesada 150 MO BPrecioArmadura -51/2 Armadura +0 x1 Armadura +5 x20 AYELMOSYelmoCostePesoDisp. Anilla 50 MP 0,5 Frentón 80 MP 0,8 Capucha de cuero 40 MP 0,5 Coronilla 1 MO 1 Capucha de mallas 5 MO 0,5 Completo abierto 20 MO 1,5 BCompleto cerrado 40 MO 2 B _Página 16_ Luz Crear Luz 2 Libre Acceso (1-10) 4 Imbuir Calma 6 Flash Cegador 8 Escudo de Luz 10 Percibir 12 Libre Acceso (1-20) 14 Armadura de Luz 16 Destrucción de Sombras 18 Detectar lo Negativo 20 Descarga de Luz 22 Libre Acceso (1-30) 24 Holograma 26 Lazos de Luz 28 Dominio Lumínico 30 Detectar Vida 32 Libre Acceso (1-40) 34 Espía de Luz 36 Éxtasis 38 Destruir Sentim. Negativos 40 Luz Sanadora 42 Libre Acceso (1-50) 44 Esfera Buscadora 46 Zona de Detección 48 Introducirse en los Sueños 50 Cuerpo aLuz 52 Libre Acceso (1-60) 54 Bendición 56 Crear Sentimientos Positivos 58 Ver Realmente 60 Escudar Contra lo Negativo 62 Libre Acceso (1-70) 64 Encontrar 66 Restituir 68 Esquema Hipnótico 70 Luz Catastrófica 72 Libre Acceso (1-80) 74 Objetos Luminosos Materiales 76 Transmisión por Luz 78 Señor de los Sueños 80 Creación de Luz 82 Libre Acceso (1-90) 84 Prisma Reflectante 86 Omnisciencia Radial 88 Predecir 90 Prisión de Luz 92 Libre Acceso (1-100) 94 Esencia de Luz 96 Ascensión 98 Holocausto de Luz 100 Oscuridad Crear Oscuridad 2 Libre Acceso (1-10) 4 Imbuir Miedo 6 Ver en la Oscuridad 8 Escudo Oscuro 10 Sombra 12 Libre Acceso (1-20) 14 Armadura Oscura 16 Destrucción de Luz 18 Ocultación de Magia 20 Descarga Oscura 22 Libre Acceso (1-30) 24 Oscuridad Ambiental 26 Lazos Oscuros 28 Dominio Oscuro 30 Ocultación 32 Libre Acceso (1-40) 34 Ofuscar 36 Rabia 38 Destruir Sentim. Positivos 40 Noche 42 Libre Acceso (1-50) 44 Esfera Oscura 46 Zona de Ocultación 48 Introducirse en las Pesadillas 50 Cuerpo aOscuridad 52 Libre Acceso (1-60) 54 Perdición 56 Crear Sentim. Negativos 58 Eliminar Residuos 60 Escudar Contra lo Positivo 62 Libre Acceso (1-70) 64 Oscuridad Devoradora 66 Destrozar 68 Marca del Miedo 70 Oscuridad Catastrófica 72 Libre Acceso (1-80) 74 Objetos Oscuros 76 Transmisión por Sombras 78 Rey de Pesadillas 80 Creación Oscura 82 Libre Acceso (1-90) 84 Ocultarse Ante la Magia 86 Reino de Tinieblas 88 Indetección 90 Prisión de Oscuridad 92 Libre Acceso (1-100) 94 Esencia Oscura 96 Ascensión Oscura 98 Holocausto de Oscuridad 100 Creación Creación Menor 2 Libre Acceso (1-10) 4 Reconstruir 6 Crear Energía 8 Regeneración 10 Modificación Inorgánica 12 Libre Acceso (1-20) 14 Aumentar Resistencias 16 Escudo Real 18 Curación 20 Barrera de Daño 22 Libre Acceso (1-30) 24 Crear Homúnculo 26 Cambio Menor 28 Imitar 30 Inmunidad 32 Libre Acceso (1-40) 34 Reducción de Daño 36 Control Físico 38 Adquirir Habilidades 40 Fusionar 42 Libre Acceso (1-50) 48 Crear Recuerdos 46 Recuperar 48 Adquirir Poderes 50 Crear Engendro 52 Libre Acceso (1-60) 54 Aura de Protección 56 Estancar Esencia 58 Escudo Perfecto 60 Vitalidad 62 Libre Acceso (1-70) 64 Creación Completa 66 Potenciar Magia 68 Transmutar 70 Metamorfismo 72 Libre Acceso (1-80) 74 Recrear 76 Crear Ser 78 Quimera 80 Zona de Salvaguardia 82 Libre Acceso (1-90) 84 Mantenimiento 86 Otorgar Alma 88 Creación Mayor 90 Magia eterna 92 Libre Acceso (1-100) 94 La Barrera 96 Crear la Vida 98 Crear 100 Destrucción Fragilidad 2 Libre Acceso (1-10) 4 Desmantelar 6 Destruir Intensidades 8 Destrucción Menor 10 Esfera de Destrucción 12 Libre Acceso (1-20) 14 Incrementar Debilidad 16 Destrucción de Magia 18 Agravar Daño 20 Destrucción de Matrices 22 Libre Acceso (1-30) 24 Herir 26 Destrucción de Ki 28 Producir Daño 30 Destrucción de Sentidos 32 Libre Acceso (1-40) 34 Descarga 36 Desatar Vínculos 38 Destruir Resistencias 40 Deshacer Estados 42 Libre Acceso (1-50) 44 Cúpula de Destrucción 46 Área de Decaimiento 48 Aura de Destrucción 50 Destruir Recuerdos 52 Libre Acceso (1-60) 54 Bloquear Aprendizaje 56 Negar 58 Destruir Poderes 60 Descarga Mayor 62 Libre Acceso (1-70) 64 Destruir la Voluntad 66 Zona de Debilidad 68 Esencia de Destrucción 70 Muerte 72 Libre Acceso (1-80) 74 Zona Devoradora 76 Destruir Capacidades 78 Sesgar la Existencia 80 Lluvia de Destrucción 82 Libre Acceso (1-90) 84 Destrucción de Zeon 86 Arrojar de los Cielos 88 Vacío 90 Destrucción Mayor 92 Libre Acceso (1-100) 94 Destruir Almas 96 Caos 98 Descrear 100 Aire Crear Viento 2 Libre Acceso (1-10) 4 Mover 6 Libre Acceso (1-10) 8 Reducir Peso 10 No Respirar 12 Libre Acceso (1-20) 14 Movimiento Libre 16 Libre Acceso (1-20) 18 Golpe de Aire 20 Pantalla de Aire 22 Libre Acceso (1-30) 24 Transporte Automático 26 Libre Acceso (1-30) 28 Vuelo 30 Incremento de Reacción 32 Libre Acceso (1-40) 34 Electrificar 36 Libre Acceso (1-40) 38 Tajo de Aire 40 Velocidad 42 Libre Acceso (1-50) 48 Rayo 46 Libre Acceso (1-50) 48 Remolino 50 Forma etérea 52 Libre Acceso (1-60) 54 Control del Aire 56 Libre Acceso (1-60) 58 Control de la Electricidad 60 Movimiento Defensivo 62 Libre Acceso (1-70) 64 Teletransportación 66 Libre Acceso (1-70) 68 Inmaterialidad 70 Huracán 72 Libre Acceso (1-80) 74 Aire Sólido 76 Libre Acceso (1-80) 78 Control del Clima 80 Crear Silfo 82 Libre Acceso (1-90) 84 Telequinesis Superior 86 Libre Acceso (1-90) 88 Ubicar Magia 90 Magia Pasiva 92 Libre Acceso (1-100) 94 Señor del Aire 96 Libre Acceso (1-100) 98 Un Lugar en el Mundo 100 Agua Manantial 2 Libre Acceso (1-10) 4 Crear Frío 6 Libre Acceso (1-10) 8 Capacidad Acuática 10 Inmunidad al Frío 12 Libre Acceso (1-20) 14 Burbuja Protectora 16 Libre Acceso (1-20) 18 Impacto de Agua 20 Control sobre los Líquidos 22 Libre Acceso (1-30) 24 Congelar las Emociones 26 Libre Acceso (1-30) 28 Controlar el Frío 30 Congelar 32</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 3\n\nClase: Entre mundos, elemental 35 Puntos de Vida: 8.550 Acumulación Categoría: Warlock Fue: 1 7 Des: 10 Agi: 6 Con: 1 7 Pod: 1 5 Int: 1 2 Vol: 1 3 Per: 1 3 RF 1 45 RM 1 60 RP 120 RV 1 45 RE 1 45\n\nTurno: 85 Natural Habilidad de ataque: 260 Garras + 240 Mordisco; o 260 Aliento; o 2 10 Coletazo Habilidad de defensa: Acumulación Daño: 1 70 Garras FIL, 2 10 Mordisco PEN, 1 50 Coletazo CON, 1 50 Aliento PEN TA: Escamas de acero negro + Natural: Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 10 Act: 100 Conjuros de Oscuridad, 80 Otras\n\nZeon: 955\n\nProyección mágica: 230 Ofensiva Nivel de magia: 90 Oscuridad Habilidades esenciales: Don, Zen, Inmunidad natural, Inutilidad somática, Inutilidad oral, VulnerabilidadCaracterísticas físicas divinas, Características anímicas sobrehumanas. Poderes: Arma natural: Garras, Mordisco (Ataque adicional -20, Daño incrementado +40, Armadura -4) y Cola, Ataque elemental, Aliento (1 kilómetro, 50 metros de radio, presa 1 6), Daña energía, Armadura (TA 4),Vuelo natural 12, Batir de alas, Resistencias incrementadas +20, RM incrementada +40, Barrera de daño 1 60, Ojo de Gaira (Ver lo sobrenatural, Visión extrasensorial). Especial: Proyección mágica como ataque.\n\nTamaño: 34 Colosal Regeneración: 10 Tipo de movimiento: 9/1 2 Cansancio: 1 7 Habilidades Secundarias: Advertir 2 10, Buscar 60, Historia 100, Memorizar 1 50, Ocultismo 1 50, Valoración mágica 1 75, Proezas de fuerza 1 50, Resistir el dolor 120, Persuasión 80. Los dragones de Gaira, los llamados siete wryms oscuros, son unas entidades de descomunal poder que han llegado a ser consideradas deidades menores. Al contrario que los otros dragones, cuyas esencias nacen de los cuatro elementos básicos, la naturaleza de los siete depende de las mismas sombras. Hace miles de años, durante el periodo conocido como la El nacimiento de Gaïa, Shajads y Beryls caminaron en el mundo junto a dioses y demonios. En esa época los dragones aún eran muy jóvenes, pero a pesar de su corta edad, la naturaleza única de estos seres llamó la atención de los señores de la Luz y las Tinieblas.\n\nIntrigados por aquellas bestias que nacieron de la mismas raíces de la creación, durante siglos los observaron interesándose por el rumbo que el futuro les deparaba. Finalmente, los Shajads eligieron a siete de ellos, los más afines a sus propias filosofías personales, y les ofrecieron unirse a las tinieblas. Fascinados por esas entidades que empequeñecían a los dioses, las grandes sierpes entregaron su\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 13_\n\nvista a la oscuridad, y a cambio de su sacrificio, se les otorgó un ojo que cambiaría para siempre su visión del mundo. A continuación los Shajads les dieron nuevos nombres y así renacieron como seres nuevos, bautizados por el puro poder de las tinieblas. Esta unión produjo profundos cambios en sus cuerpos. Aunque siguieron manteniendo la apariencia de descomunales reptiles, sus escamas se tornaron completamente negras y todo su lomo se recubrió de afiladas aristas de metal llenas de runas rojas. También tienen las fauces repletas de garfios, las cuencas de los ojos cosidas y, en la frente, llevan incrustado el Ojo de Gaira, una gema que reluce con pura oscuridad. Al contrario de lo que muchos brujos y ocultistas han afirmado durante décadas, los dragones de Gaira no son unas entidades de naturaleza maligna.\n\nAunque es cierto que tienen fuertes instintos destructivos, sus motivaciones suelen ser mucho más profundas e insondables. Cada uno actúa con un talante afín a las ideas del Shajad que les dio nombre; de ese modo, uno puede manejar desde las sombras una poderosa red de influencias sobrenaturales, mientras otro preocuparse solo por promover conflictos y guerras. Al igual que los otros dragones más ancestrales, la activación de la maquina de Rah les produjo un serio deterioro, obligándoles a entrar el letargo durante siglos enteros. No obstante, a menudo sus vastas conciencias entran en contacto con la mente de individuos especialmente receptivos, normalmente bajo la forma de sueños o visiones, a quienes utilizan como herramientas. Modus operandi El poder de los siete es incontenible. En combate, son una potencia destructiva que arrasa todo lo que encuentra sin dejar nada con vida.\n\nSe mueven con la misma habilidad en el suelo o volando, aunque habitualmente prefieren luchar en el aire. Son capaces de realizar dos ataques por asalto, el primero con sus garras y el segundo con las fauces; aunque también gozan de un amplio repertorio de habilidades adicionales. A pesar de que sus capacidades físicas son muchísimo más poderosas que las sobrenaturales, sus considerables conocimientos místicos les proporcionan una amplia gama de posibilidades. Dado que para ellos la magia es algo innato, no necesitan usar ensalmos o gesticular, por lo que siempre acumulan sus energías al máximo de su ACT. Al contrario que otras clases de dragón, solo suelen emplean su inusual aliento contra adversarios de gran tamaño, paralizándolos para atraerlos después a sus descomunales fauces.\n\nPor su naturaleza sobrenatural, los dragones de Gaira no tienen puntos vulnerables, ni siquiera en la cabeza. Naturaleza oscura: Todos los ataques que realice un dragón de Gaira se consideran basados en oscuridad y son capaces de afectar a criaturas sobrenaturales y seres intangibles. Mordisco: Sus fauces, repletas de dientes de metal negro y garfios, son capaces de atravesar con la misma facilidad carne o metal. A causa de su potencia, tiene daño incrementado y disminuye cuatro puntos la TA de sus adversarios. El mordisco cuenta como un ataque adicional natural, por lo que el dragón puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. El mordisco tiene rotura 28.\n\nColetazo: Como otros dragones, al enfrentarse a un gran número de adversarios, puede utilizar su cola para realizar un ataque en área de gran magnitud que cubre una zona de 100 metros. Si la usa en combate, el dragón no puede usar sus garras o fauces durante ese asalto. Aliento de cadenas: Los dragones de Gaira no son capaces de lanzar alientos de fuego, electricidad o frió como sus congéneres. Por el contrario, desde sus bocas desencadenan una tormenta de cadenas acabadas en garfios y cuchillas, que avanzan envolviendo y desgarrando a sus adversarios. El aliento tiene un daño base de 1 50 puntos, alcanza una distancia máxima de un kilómetro de longitud y se extiende en forma de cono afectando a todos los blancos que estén en un radio de 50 metros. Las cadenas inmovilizan a cualquiera a las que impacten automáticamente utilizando las reglas de Presa con el equivalente de una Fuerza 1 6.\n\nUna vez tiene sujeta a su víctima, el dragón puede retraerlas arrastrándola hasta sus fauces. Las cadenas son de carácter sobrenatural, por lo que afectan por igual a seres intangibles como materiales. Vuelo natural: Las enormes alas de los dragones de Gaira les permiten volar con un tipo 12. Al contrario que los demás, solo pierden un punto de cansancio por cada dos horas de vuelo. Batir de alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval en un área de 100 metros en forma cono delante de él. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire automático de dificultad Casi Imposible, o recibirá un impacto de Fuerza 9 que lo lanzará por los aires.\n\nOjo de Gaira: Los poderes de las tinieblas que les han sido conferidos a estas criaturas se manifiesta en todo su apogeo en el Ojo de Gaira, una piedra de cristal negro que se encuentra incrustada en su frente. Este objeto actúa como sustituto de sus ojos perdidos, confiriéndoles una visión global de todo lo que hay a su alrededor. Con él, los dragones pueden ver radialmente, incluso a través de paredes u obstáculos que no sean de naturaleza sobrenatural. Además de esta virtud, el Ojo de Gaira posee enormes poderes sobrenaturales. Para empezar, proporciona un bonificador de +20 al ACT en conjuros oscuros y un +20 a la Proyección Mágica del dragón, ambos ya reflejados en sus estadísticas. También produce un aura tenebrosa que le permite someter a cualquier ser sobrenatural basado en oscuridad con Gnosis 20 o inferior.\n\nMientras el dragón esta vivo es completamente imposible dañar o arrebatarle el Ojo de ningún modo y solo en el caso de que el muera, se desprende de él. Quienquiera que este en posesión del Ojo obtiene los mismos bonos a su ACT y a su Proyección, al igual que un bono de +40 a todas sus capacidades perceptivas. A veces, puede desarrollar también otros poderes, relacionados al Shajad que les dio nombre. El corazón de las Tinieblas: A pesar de que sus cuerpos son mortales, la esencia de los siete wryms no puede ser destruida. Por ello, en el momento en el que su forma terrenal muere, su alma transmigra al flujo de almas haciéndose una con la oscuridad. El dragón permanece allí hasta que su Ojo sea introducido en el corazón de un ser vivo que nació bajo la profecía de ser su nuevo huésped.\n\nSolo aparece un individuo augurado por generación, por lo que si el ritual no se cumple, el dragón permanece sumido en las tinieblas durante un siglo entero. Elan oscuro: Cada uno de ellos posee dones del Shajad al que se hallan unidos equivalentes a un ser con Elan 80. Inmunidad: Los dragones de Gaira son completamente inmunes a cualquier ataque que reciban basado oscuridad. Vulnerabilidad: Cualquier ataque basado en luz les produce doble daño. Sugerencias para partidas Hace apenas dos años, en una pequeña isla a diez kilómetros al oeste de la costa occidental de Remo, se ha encontrado un amplio territorio repleto de extraños monolitos de metal negro recubiertos de runas. Naturalmente, semejante descubrimiento no ha dejado a nadie indiferente.\n\nVarios señores feudales han organizado una excavación bajo la excusa de que pueden tratarse de importantes yacimientos arqueológicos del Imperio, aunque en realidad su verdadero interés es consolidar su poder en la isla. Esperan localizar algo de verdadero valor antes de que T ol Rauko sea capaz de intervenir y sellen por completo el lugar. Los personajes pueden ser contratados por uno de estos señores como exploradores o mercenarios, cuyo objetivo es proteger la misión de otros nobles y de los indígenas de la isla que mantienen que ese sitio es un lugar maldito. Por desgracia, dichos pilares no forman parte de ninguna construcción, sino que pertenecen al espinazo de un dragón de Gaira que lleva dormido allí desde que Rah activó su máquina.\n\nDe hecho, si las excavaciones prosiguen durante un tiempo prolongado, existe la muy seria posibilidad de que despierte, produciendo caos y devastación a su paso. De ese modo, en el caso de que los personajes no se den cuenta de lo que ocurre realmente y lo impidan, pueden verse inmersos en un verdadero infierno tratando de escapar de la pesadilla que se ha desencadenado.\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 14_\n\nÚTILES VARIOSUtilesCostePesoDisp.\n\nAceite 5 MC 1 Antorcha 2 MC 1 Arcón pequeño 1 5 MP 2 Arcón grande 25 MP 10 Arpón 50 MP 3 Barril 10 MP 2 Bastón normal 2 MC 3 Bolsa pequeña 2 MP 0,25 Bolsa grande 5 MP 1 Botella de cristal pequeña 20 MO 1 BBotella de cristal grande 50 MO 3 BCadena ligera (1 metro) 1 MO 1 Cadena pesada (1 metro) 2 MO 3 Carcaj de flechas 20 MP 1 Caja 5 MP 1 Campana 25 MP 1 Catalejo 250 MO 0,5 BCepo pequeño 50 MP 3 Cepo grande 1 MO 5 Cerradura normal 10 MP 1 Cerradura buena 5 MO 0,5 BCerradura excelente 80 MO 0,5 BCesto pequeño 5 MC 0,5 Cesto grande 1 MP 1 Cruz 1 MP 0,2 Cubo 1 MP 1 Cuerda normal (10 m) 5 MP 2 Cuerda buena (10 m) 25 MP 2 Cuerda excelente (10 m) 5 MO 6 Escalera de cuerda (10 m) 20 MP 6 Espejo pequeño de metal 1 MO 1 Espejo pequeño de cristal 200 MO 0,5 BGafas 180 MO 0,5 Ganzúas 1 MO 0,5 Garfio 1 5 MP 0,5 Jabón 1 MP 0,5 Libro en blanco pequeño 20 MO 1 BLibro en blanco grande 100 MO 2 BLiga de caza 25 MP 1 Linterna de velas 50 MP 0,25 Linterna de aceite 20 MP 2 BLona (1 m cuadrado) 20 MP 1 Manta 1 MP 0,2 Mochila 30 MP 1 Monóculo 200 MO 0,1 Odre 2 MP 0,2 Papel 1 MO NA BPapiro 20 MP NA Perfume normal 35 MP 0,2 Perfume bueno 2 MO 0,2 Perfume excelente 100 MO 0,5 BPergamino 50 MP NA Piedra de afilar 5 MC 0,3 Red de pesca (1 m) 10 MP 0,5 Reloj de arena 2 MO 1 BReloj de engranaje 300 MO 20 ASaco grande 1 MP 0,4 Saco pequeño 2 MC 0,2 Silbato 10 MP 0,1 Tienda de lujo 200 MO 4 BTienda grande 20 MO 6 Tienda pabellón 1 50 MO 1 4 Tienda pequeña 1 MO 1 Tinta de escribir 1 MO 0,3 Tiza 5 MC 0,2 Yesca y pedernal 1 MP 0,3 ARMAS Y ESCUDOSArmaCostePesoDisp.\n\nAlabarda 12 MO 3 Arpón 50 MP Cadena 50 MP Cestus 3 MO Cimitarra 10 MO 1 BDaga 50 MP 0,5 Daga de parada 10 MO 0,6 BEspada ancha 4 MO 1,5 Espada bastarda 20 MO 2 BEspada corta 2 MO 0,8 Espada larga 5 MO 1,4 Estilete 60 MP 0,4 Estoque 25 MO 1,2 BFlagelo 3 MO 2 Florete 1 5 MO 1 BGarfio 1 MO Garrote 50 MP 1,5 Gran martillo de guerra 1 5 MO 5 Guadaña 20 MP Hacha a dos manos 40 MO 5 Hacha de batalla 1 5 MO 1,5 BHacha de mano 2 MO 1 Jabalina 2 MO Lanza 4 MO 3 Lanza de caballería 20 MO 2 BLátigo 5 MO Lazo 20 MP Mandoble 50 MO 2,5 BMangual 1 5 MO 1 Martillo de guerra 4 MO 1,2 Mayal 12 MO 1,2 Maza 2 MO 1,8 Maza pesada 1 5 MO 2,5 Red de gladiador 1 MO Sable 20 MO 1 BTridente 3 MO 2 Vara 40 MP 1\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 15_\n\nEscudos Coste Peso Disp. Escudo 20 MO 2 Escudo corporal 50 MO 6 Rodela 5 MO 1 Orientales Coste Peso Disp. Abanico de combate 5 MO 0,2 BAnciano de primavera 1 5 MO 3 BCuervo 5 MO 0,5 BKatana 50 MO 1 BKatana de doble hoja 75 MO 2 BKusari. Gama 10 MO 1 B No. Dachi 70 MO 1,5 BNunchaku 2 MO 0,6 BSai 1 MO 0,4 BShuriken 50 MP 0,1 BShuko 3 MO 0,3 BTanto 20 MO 0,5 BTonfa 1 MO 0,3 BExóticasCostePesoDisp. Bumerán 3 MO 0,6 BGarras 3 MO 0,5 BQuebradora 30 MO 1 BKatar 40 MO 0,6 BProyectilesCostePesoDisp.\n\nArcabuz 500 MO 4,5 AArco corto 5 MO 0,8 Arco largo 20 MO 1,4 Arco largo compuesto 80 MO 1,8 BBala 20 MP NA BBala de cañón 10 MO 1 5 ABalista ligera 100 MO 180 Balista pesada 250 MO 350 BBallesta 50 MO 2,5 BBallesta de mano 250 MO 1,5 BBallesta de repetición 200 MO 4 ABallesta pesada 70 MO 3 BBolas 1 MO 0,2 Boleadoras 2 MO 1 Cañón 5.000 MO 400 ACerbatana 1 MO 0,4 Dardo de cerbatana 20 MP 0,1 Dardos de mano 50 MP 0,1 Flecha de descarga 2 MP 0,1 Flecha de fajo 1 MP 0,1 Flecha de mella 50 MP 0,1 Pistola de mecha 600 MO 2 APólvora (2 disparos) 100 MO 0,1 APólvora (10 disparos) 100 MO 0,5 ASaeta 1 MP 0,1 BSaeta ligera 2 MP 0,1 ASaeta pesada 1 MP 0,2 BTurcus 5 MO 0,8 BVirote ligero 10 MP 2 Virote pesado 50 MP 5 BPrecioArma -5 1/2 Arma +0 x1 Arma +5 x20 AARMADURASArmadurasCostePesoDisp.\n\nAcolchada 1 MO 3 Anillas 50 MO 9 Completa 400 MO 20 BCompleta de cuero 5 MO 7 Completa de campaña 800 MO 25 ACompleta pesada 700 MO 30 ACota de cuero 1 MO 3 Cuero endurecido 1 5 MO 4 Cuero tachonado 25 MO 4,5 Escamas 120 MO 9 BGabardina 5 MP 1,5 BMallas 70 MO 1 3 Peto 40 MO 4 BPiel 5 MO 2 Piezas 40 MO 6 BPlacas 300 MO 18 Semicompleta 100 MO 1 3 Para animales Coste Disp. Barda ligera 20 MO BBarda pesada 1 50 MO BPrecioArmadura -5 1/2 Armadura +0 x1 Armadura +5 x20 AYELMOSYelmoCostePesoDisp. Anilla 50 MP 0,5 Frentón 80 MP 0,8 Capucha de cuero 40 MP 0,5 Coronilla 1 MO 1 Capucha de mallas 5 MO 0,5 Completo abierto 20 MO 1,5 BCompleto cerrado 40 MO 2 B\n\n&lt;!-- tags: @sistema, @magia --&gt;\n\n_Página 16_\n\nLuz Crear Luz 2 Libre Acceso (1-10) 4 Imbuir Calma 6 Flash Cegador 8 Escudo de Luz 10 Percibir 12 Libre Acceso (1-20) 14 Armadura de Luz 1 6 Destrucción de Sombras 18 Detectar lo Negativo 20 Descarga de Luz 22 Libre Acceso (1-30) 24 Holograma 2 6 Lazos de Luz 28 Dominio Lumínico 30 Detectar Vida 32 Libre Acceso (1-40) 34 Espía de Luz 36 Éxtasis 38 Destruir Sentim.\n\nNegativos 40 Luz Sanadora 42 Libre Acceso (1-50) 44 Esfera Buscadora 46 Zona de Detección 48 Introducirse en los Sueños 50 Cuerpo aLuz 52 Libre Acceso (1-60) 54 Bendición 56 Crear Sentimientos Positivos 58 Ver Realmente 60 Escudar Contra lo Negativo 62 Libre Acceso (1-70) 64 Encontrar 66 Restituir 68 Esquema Hipnótico 70 Luz Catastrófica 72 Libre Acceso (1-80) 7 4 Objetos Luminosos Materiales 7 6 Transmisión por Luz 78 Señor de los Sueños 80 Creación de Luz 82 Libre Acceso (1-90) 84 Prisma Reflectante 86 Omnisciencia Radial 88 Predecir 90 Prisión de Luz 92 Libre Acceso (1-100) 94 Esencia de Luz 96 Ascensión 98 Holocausto de Luz 100 Oscuridad Crear Oscuridad 2 Libre Acceso (1-10) 4 Imbuir Miedo 6 Ver en la Oscuridad 8 Escudo Oscuro 10 Sombra 12 Libre Acceso (1-20) 14 Armadura Oscura 1 6 Destrucción de Luz 18 Ocultación de Magia 20 Descarga Oscura 22 Libre Acceso (1-30) 24 Oscuridad Ambiental 2 6 Lazos Oscuros 28 Dominio Oscuro 30 Ocultación 32 Libre Acceso (1-40) 34 Ofuscar 36 Rabia 38 Destruir Sentim.\n\nPositivos 40 Noche 42 Libre Acceso (1-50) 44 Esfera Oscura 46 Zona de Ocultación 48 Introducirse en las Pesadillas 50 Cuerpo aOscuridad 52 Libre Acceso (1-60) 54 Perdición 56 Crear Sentim.\n\nNegativos 58 Eliminar Residuos 60 Escudar Contra lo Positivo 62 Libre Acceso (1-70) 64 Oscuridad Devoradora 66 Destrozar 68 Marca del Miedo 70 Oscuridad Catastrófica 72 Libre Acceso (1-80) 7 4 Objetos Oscuros 7 6 Transmisión por Sombras 78 Rey de Pesadillas 80 Creación Oscura 82 Libre Acceso (1-90) 84 Ocultarse Ante la Magia 86 Reino de Tinieblas 88 Indetección 90 Prisión de Oscuridad 92 Libre Acceso (1-100) 94 Esencia Oscura 96 Ascensión Oscura 98 Holocausto de Oscuridad 100 Creación Creación Menor 2 Libre Acceso (1-10) 4 Reconstruir 6 Crear Energía 8 Regeneración 10 Modificación Inorgánica 12 Libre Acceso (1-20) 14 Aumentar Resistencias 1 6 Escudo Real 18 Curación 20 Barrera de Daño 22 Libre Acceso (1-30) 24 Crear Homúnculo 2 6 Cambio Menor 28 Imitar 30 Inmunidad 32 Libre Acceso (1-40) 34 Reducción de Daño 36 Control Físico 38 Adquirir Habilidades 40 Fusionar 42 Libre Acceso (1-50) 48 Crear Recuerdos 46 Recuperar 48 Adquirir Poderes 50 Crear Engendro 52 Libre Acceso (1-60) 54 Aura de Protección 56 Estancar Esencia 58 Escudo Perfecto 60 Vitalidad 62 Libre Acceso (1-70) 64 Creación Completa 66 Potenciar Magia 68 Transmutar 70 Metamorfismo 72 Libre Acceso (1-80) 7 4 Recrear 7 6 Crear Ser 78 Quimera 80 Zona de Salvaguardia 82 Libre Acceso (1-90) 84 Mantenimiento 86 Otorgar Alma 88 Creación Mayor 90 Magia eterna 92 Libre Acceso (1-100) 94 La Barrera 96 Crear la Vida 98 Crear 100 Destrucción Fragilidad 2 Libre Acceso (1-10) 4 Desmantelar 6 Destruir Intensidades 8 Destrucción Menor 10 Esfera de Destrucción 12 Libre Acceso (1-20) 14 Incrementar Debilidad 1 6 Destrucción de Magia 18 Agravar Daño 20 Destrucción de Matrices 22 Libre Acceso (1-30) 24 Herir 2 6 Destrucción de Ki 28 Producir Daño 30 Destrucción de Sentidos 32 Libre Acceso (1-40) 34 Descarga 36 Desatar Vínculos 38 Destruir Resistencias 40 Deshacer Estados 42 Libre Acceso (1-50) 44 Cúpula de Destrucción 46 Área de Decaimiento 48 Aura de Destrucción 50 Destruir Recuerdos 52 Libre Acceso (1-60) 54 Bloquear Aprendizaje 56 Negar 58 Destruir Poderes 60 Descarga Mayor 62 Libre Acceso (1-70) 64 Destruir la Voluntad 66 Zona de Debilidad 68 Esencia de Destrucción 70 Muerte 72 Libre Acceso (1-80) 7 4 Zona Devoradora 7 6 Destruir Capacidades 78 Sesgar la Existencia 80 Lluvia de Destrucción 82 Libre Acceso (1-90) 84 Destrucción de Zeon 86 Arrojar de los Cielos 88 Vacío 90 Destrucción Mayor 92 Libre Acceso (1-100) 94 Destruir Almas 96 Caos 98 Descrear 100 Aire Crear Viento 2 Libre Acceso (1-10) 4 Mover 6 Libre Acceso (1-10) 8 Reducir Peso 10 No Respirar 12 Libre Acceso (1-20) 14 Movimiento Libre 1 6 Libre Acceso (1-20) 18 Golpe de Aire 20 Pantalla de Aire 22 Libre Acceso (1-30) 24 Transporte Automático 2 6 Libre Acceso (1-30) 28 Vuelo 30 Incremento de Reacción 32 Libre Acceso (1-40) 34 Electrificar 36 Libre Acceso (1-40) 38 Tajo de Aire 40 Velocidad 42 Libre Acceso (1-50) 48 Rayo 46 Libre Acceso (1-50) 48 Remolino 50 Forma etérea 52 Libre Acceso (1-60) 54 Control del Aire 56 Libre Acceso (1-60) 58 Control de la Electricidad 60 Movimiento Defensivo 62 Libre Acceso (1-70) 64 Teletransportación 66 Libre Acceso (1-70) 68 Inmaterialidad 70 Huracán 72 Libre Acceso (1-80) 7 4 Aire Sólido 7 6 Libre Acceso (1-80) 78 Control del Clima 80 Crear Silfo 82 Libre Acceso (1-90) 84 Telequinesis Superior 86 Libre Acceso (1-90) 88 Ubicar Magia 90 Magia Pasiva 92 Libre Acceso (1-100) 94 Señor del Aire 96 Libre Acceso (1-100) 98 Un Lugar en el Mundo 100 Agua Manantial 2 Libre Acceso (1-10) 4 Crear Frío 6 Libre Acceso (1-10) 8 Capacidad Acuática 10 Inmunidad al Frío 12 Libre Acceso (1-20) 14 Burbuja Protectora 1 6 Libre Acceso (1-20) 18 Impacto de Agua 20 Control sobre los Líquidos 22 Libre Acceso (1-30) 24 Congelar las Emociones 2 6 Libre Acceso (1-30) 28 Controlar el Frío 30 Congelar 32</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-dragon-de-gaira-la-simie",
+          "type": "level",
+          "name": "Dragón de Gaira la Simiente de las Tinieblas",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 13
+          }
+        }
+      ],
+      "level": {
+        "value": 13
+      },
+      "notes": [
+        {
+          "_id": "note-dragon-de-gaira-la-simiente-de-l-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Don, Zen, Inmunidad natural, Inutilidad somática, Inutilidad oral, VulnerabilidadCaracterísticas físicas divinas, Características anímicas sobrehumanas.",
+          "system": {}
+        },
+        {
+          "_id": "note-dragon-de-gaira-la-simiente-de-l-4",
+          "type": "note",
+          "name": "Poderes: Arma natural: Garras, Mordisco (Ataque adicional -20, Daño incrementado +40, Armadura -4) y Cola, Ataque elemental, Aliento (1 kilómetro, 50 metros de radio, presa 16), Daña energía, Armadura (TA 4),Vuelo natural 12, Batir de alas, Resistencias incrementadas +20, RM incrementada +40, Barrera de daño 160, Ojo de Gaira (Ver lo sobrenatural, Visión extrasensorial). Especial: Proyección mágica como ataque.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 17
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 17
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 15
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 8550,
+          "max": 8550
+        },
+        "initiative": {
+          "base": {
+            "value": 85
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 17,
+          "max": 17
+        },
+        "regenerationType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 3
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 20
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 20
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 14460
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 40
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 5
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 150
+          }
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
+          "base": {
+            "value": 120
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 210
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 60
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 100
+          }
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 150
+          }
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 150
+          }
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
+          "base": {
+            "value": 175
+          }
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 80
+          }
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 260
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 100
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 955,
+        "max": 955
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 230
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 230
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 230
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!b86ba4a102488932"
+}

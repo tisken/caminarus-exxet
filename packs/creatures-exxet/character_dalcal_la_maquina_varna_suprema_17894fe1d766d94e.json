@@ -1,0 +1,1200 @@
+{
+  "_id": "17894fe1d766d94e",
+  "name": "Dálcal (La Máquina · Varna suprema)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Dálcal (La Máquina · Varna suprema)"
+  },
+  "items": [
+    {
+      "name": "Armadura natural",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "thrust": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "heat": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "electricity": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "cold": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "energy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "integrity": {
+          "base": {
+            "value": 22
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 22
+        },
+        "presence": {
+          "base": {
+            "value": 50
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 50
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "80422ebddd53568f",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!17894fe1d766d94e.80422ebddd53568f"
+    }
+  ],
+  "effects": [],
+  "folder": "4fbf29ea4e8d5274",
+  "sort": 20,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "DRAVENOR Ejército regular de La Máquina · Parte 3",
+      "sourceHeading": "Dálcal (La Máquina · Varna suprema)",
+      "page": 1,
+      "variant": null,
+      "rawClass": "Entre Mundos Especial",
+      "rawDamage": "140 (145) Arma Viviente (Fil/Pen)",
+      "rawTA": "Natural Fil 6 Con 6 Pen 6 Cal6 Fri 6 Ele 6 Ene 0",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": false
+        },
+        "psychic": {
+          "value": true
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": true
+        },
+        "inhuman": {
+          "value": false
+        },
+        "zen": {
+          "value": true
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre Mundos Especial"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": 22
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 3</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Dálcal (La Máquina · Varna suprema)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Guerrero Mentalista Fue: 13 (15) Des: 13 (15) Agi: 12 Con: 13 Pod: 4 Int: 12 Vol: 16 Per: 10 RF 100 RM 35 RP 110 RV 100 RE 100</p><p><strong>Habilidades naturales:</strong> Tabla de Proyección Psíquica.</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Características Anímicas Sobrenaturales, Exención Física, Tamaño Innatural, Acceso aDisciplinasPsíquicas, Zen, Mantenimiento Añadido, Consumición Psíquica, Extenuación Psíquica.</p><p><strong>Poderes:</strong> Armas Naturales; Arma Viviente (+20 al Daño, -5 a la TA Defensora, Variable), Mente Sistemática, Vórtice, Reestructuración, Armadura Física 6, Transformación Completa, Núcleo, Mejoras de Alta Tecnología, Vulnerabilidad a la Magia.</p><p><strong>Disciplinas:</strong> Psíquicas: Telepatía, Telequinesis, Incremento Físico</p><p><strong>Daño:</strong> 140 (145) Arma Viviente (Fil/Pen)</p><p><strong>TA:</strong> Natural Fil 6 Con 6 Pen 6 Cal6 Fri 6 Ele 6 Ene 0</p><p><strong>Habilidades secundarias:</strong> Advertir 180, Buscar 80, Rastrear 40, Ciencia 200, Táctica 280, Memorizar 280 Las habilidades secundarias en cursiva deben su puntuación a su pertenencia a La Máquina, o bien al poder de Pretoriano Praefectus “Mente Singular”</p><p><strong>Descripción breve:</strong> Las puntuaciones que aparecen entre paréntesis son las que utiliza cuando mantiene los poderes psíquicos innatos que usualmente mantiene activos. “El informe es muy preciso, pero… ¿En serio? Es una máquina de matar, un arma de guerra. No le haces ningún favor a nuestros hombres presentándola con un aspecto tan… Tan de niña.” General Phorcys Claudia Dalca nació en tiempos de una Dravenor aún pacífica. Primogénita de una renombrada familia de militares, fue entrenada para honrar su apellido desde que pudo ponerse en pie. En cuanto alcanzó la edad necesaria, Claudia entró en el ejército, demostrando no solo buenas habilidades de combate, sino un don para leer las intenciones del enemigo en batalla y contrarrestarlas por completo con estrategias arriesgadas basadas en tender trampas. Esta habilidad le valió una serie de rápidos ascensos, alcanzando el rango de comandante a una edad sorprendentemente temprana. Pero mientras esto ocurría, La Máquina se preparaba para la guerra. Nada más iniciarse la Década del Alzamiento Claudia fue destinada a uno de los frentes para tratar de frenar a aquel enemigo desconocido, cuando éste aún no era considerado la amenaza de cataclísmicas proporciones que realmente era. El trabajo de la joven (acababa de cumplir veinte años) fue realmente ejemplar y, aunque sus tropas perdían terreno, eran de las pocas que lo hacían lentamente y con escaso número de bajas. En aquellos días logró lo imposible; ralentizar notablemente el avance del enemigo. Por desgracia, este “milagro” no duró demasiado. En cierto momento La Máquina simuló una retirada para reorganizarse, estrategia que Claudia fue capaz de vislumbrar y ordenó mantener posiciones. No obstante, no muy lejos de allí, varios comandantes del ejército cayeron de lleno en la trampa. La masacre fue brutal, y las tropas de La Máquina penetraron la línea con el Imperio de Dravenor. Desconociendo esos últimos acontecimientos, Claudia no esperó verse súbitamente rodeada. Pese a todo, logró plantar batalla hasta el final y sus enemigos pagaron cada vida que se llevaron en aquella batalla… hasta que lo inevitable tuvo lugar. Claudia fue derrotada y capturada con el menor daño posible; lo cierto es que aquellos combates habían logrado que la joven despertara el interés de Mazikeen. Quien, valorando sus capacidades, decidió hacer buen uso de ella y transformarla en una de sus más letales armas. Fue así como la joven pasó a ser la tercera Pretoriana Praefectus, adoptando el título de La Estratega. Durante décadas tras su “renacer”, Claudia permaneció en las sombras, muy apartada de la mayoría de campos de batalla mientras ayudaba a organizar las fuerzas de La Máquina y perfeccionaba sus estrategias. A veces se veía su silueta en la lejanía, por lo que se convirtió en un rumor dentro de un rumor, una leyenda entre los soldados a la que no se le dio demasiada veracidad. Hubo incluso quienes, irónicamente, pensaron que se trataba de La Madre. Fuese como fuese, Claudia no fue vista de nuevo hasta la batalla de Xeros. Allí, irónicamente, se enfrentó a los batallones que lideraban su padre y su hermano. Todos fueron masacrados. Desde entonces, las apariciones de la Pretoriana han sido muy escasas, y cada una de ellas siempre ha representado grandes derrotas para Dravenor. La única excepción fue el momento en que dirigió un asalto aCarre, donde el general Phorcys fue capaz de hacerla retroceder con un ataque frontal dirigido por él mismo. Puede que, por primera vez en su existencia, Claudia menospreció la fiereza y capacidad de su rival, que conllevaría la que hasta la fecha ha sido su única derrota. La apariencia de la Praefectus tiene muchas similitudes a la que tenía en vida, pues sigue teniendo la apariencia de una adolescente atlética con facciones aniñadas y grandes ojos oscuros. Posee una larga cabellera negra, hechas de centenares de cables y finas fibras metálicas que brillan con un tenue resplandor oscuro. Las piezas de metal de su cuerpo simulan una especie de traje o toga, lo que le da un aspecto refinado y diferente a la de cualquier otro Pretoriano. Además, tiene una estatura bastante reducida y estilizada, lo que le da a su vez un aire casi infantil. Aunque era altiva en vida, vanagloriándose de su don natural, el sentimiento de soberbia se ha exacerbado al carecer de limitaciones morales. Incluso en su absoluta frialdad contempla todo cuanto la rodea, incluso otros miembros de La Máquina (de los que es completamente consciente de que carecen de sentimientos), con absoluto desdén. Actualmente Claudia se encuentra en el corazón de las Zonas Asimiladas, pero viaja continuamente de un lugar a otro preparando posibles escenarios de combate y diseñando (y a veces probando) nuevas estrategias. En ocasiones, incluso está presente (eso sí, siempre a cierta distancia) mientras organiza pequeñas escaramuzas contra las fuerzas de Dravenor, que utiliza para medir la efectividad de sus tácticas. MODUS OPERANDIPese a sus brutales capacidades de combate, Claudia no es tanto una guerrera como una estratega. Prefiere quedarse a distancia en las batallas, planificando y controlando los movimientos de sus tropas desde una posición segura. Va normalmente acompañada de dos Sabuesos Alfa, que por regla general son más que suficiente para acabar con cualquier amenaza cercana. Aún así, Claudia está preparada en todo momento para luchar si es necesario, ya sea ante un ataque inesperado o porque se vea forzada a ello. Por esa causa suele mantener activos los poderes psíquicos Incrementar Fuerza, Incrementar Habilidad e Incremento de Reacción, lo que le permite enfrentarse a cualquier posible amenaza con rapidez y brutal contundencia. Aunque al igual que otros Pretorianos su cuerpo entero es un arma viviente, en combate suele dar preferencia al uso de su cabello, que actúa como una maraña de eficaces monofilos. Cuando se enfrenta a grupos, su táctica más habitual es la de presar a varios enemigos con su pelo y hacer que sus sabuesos los rematen, o usar los monofilos para encadenar decenas de ataques. Claudia es extremadamente planificadora y astuta. Sopesa cualquier amenaza y calcula todos los medios posibles para neutralizarla, así como las estratagemas que pueden usar en su contra, y lo cierto es que en muy rara ocasión se equivoca. Por tanto, es extremadamente complicado conseguir que caiga en una trampa, y quien trata de hacerlo suele encontrarse que ha sido él quien ha acabado siendo víctima de la manipulación de la Pretoriana. Pretoriana: La Estratega es una Pretoriana de La Máquina, y como tal, posee las habilidades Arma Viviente, Vórtice, Transformación Completa, Mente Sistemática, Reestructuración, Núcleo y Vulnerabilidad a la Magia descritas en Los Que Caminaron con Nosotros. Mejoras de Alta Tecnología: Claudia se beneficia de los efectos de las Mejoras de Alta Tecnología Sistemas Monofilos y Sistema Comandante. notas Curiosas - Era originariamente humana. - Claudia tiene un extraño tic residual de cuando estaba “viva”: cuando piensa algo importante gesticula con la mano derecha, igual que si estuviera escribiendo. - Aunque no le gustan demasiado los otros Praefectus, pues los considera “conceptualmente” inferiores a ella, detesta particularmente aRom, quien le genera un rechazo natural. A veces, se ha encontrado a sí misma “pensando” que, si éste fuera destruido, La Máquina sería un “poco mejor”. Quizás se deba a que Rom estuvo directamente involucrado en la muerte de sus soldados y su captura. - La única excepción a la anotación anterior es Itanium. La Estratega siente admiración por el Praefectus, al que considera el primero entre iguales. - Le gustan los libros. Los considera un sistema de conocimiento obsoleto, pero conocimiento, al fin y al cabo. Nunca los destruye, si puede evitarlo. - Siente algo parecido a “respeto” hacia Phorcys, considerando que, con sus limitados recursos, ha logrado retrasar lo inevitable más de una vez. - Tras su derrota en Carre se quiere asegurar de que sea ella, personalmente, quien tome finalmente la fortaleza cuando llegue el momento. Hasta la fecha, tiene más de un centenar de planes para hacerlo. - Aunque en teoría sólo los Pretorianos poseen denominaciones diferentes, Dalca siempre llama Alfa y Beta a los dos sabuesos que la acompañan. - Dalca tiene una extraña relación con Mazikeen. Aunque es una extensión de la voluntad de su señora, lo cierto es que a la Pretoriana no le gusta demasiado pensar en ello. -Los soldados de Dravenor la temen particularmente, pues dicen que es más espectro que máquina, y la llaman la Mujer de Negro.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: Entre Mundos Especial Puntos de Vida: 275 Categoría: Guerrero Mentalista Fue: 1 3 (1 5) Des: 1 3 (1 5) Agi: 12 Con: 13 Pod: 4 Int: 12 Vol: 16 Per: 10 RF 100 RM 35 RP 110 RV 100 RE 100\n\nTurno: 1 35 (200) Natural Habilidad de ataque: 250 (255) Arma Viviente Habilidad de defensa: 250 (255) Arma Viviente Daño: 1 40 (1 45) Arma Viviente (Fil/Pen) TA: Natural Fil 6 Con 6 Pen 6 Cal6 Fri 6 Ele 6 Ene 0 Proyección Psíquica: 200 (205) Potencial: 14 0 CVsLibres: 7 Innatos: 5 Disciplinas Psíquicas: Telepatía, Telequinesis, Incremento Físico Poderes Psíquicos: Ilusión psíquica, Lectura mental, Localización psíquica, Área (Telepatía), Escudo telequinético, Presa telequinética, Balística, Vuelo telequinético, Incrementar fuerza, Incrementar habilidad, Incremento de reacción. Habilidades Esenciales: Características Físicas Sobrehumanas, Características Anímicas Sobrenaturales, Exención Física, Tamaño Innatural, Acceso aDisciplinasPsíquicas, Zen, Mantenimiento Añadido, Consumición Psíquica, Extenuación Psíquica.\n\nPoderes: Armas Naturales; Arma Viviente (+20 al Daño, -5 a la TA Defensora, Variable), Mente Sistemática, Vórtice, Reestructuración, Armadura Física 6, Transformación Completa, Núcleo, Mejoras de Alta Tecnología, Vulnerabilidad a la Magia. Habilidades Naturales: Tabla de Proyección Psíquica.\n\nTamaño: 22 Medio Regeneración: Especial Tipo de movimiento: 12 Cansancio: Incansable Habilidades Secundarias: Advertir 180, Buscar 80, Rastrear 40, Ciencia 200, Táctica 280, Memorizar 280 Las habilidades secundarias en cursiva deben su puntuación a su pertenencia a La Máquina, o bien al poder de Pretoriano Praefectus “Mente Singular”. Las puntuaciones que aparecen entre paréntesis son las que utiliza cuando mantiene los poderes psíquicos innatos que usualmente mantiene activos. “El informe es muy preciso, pero… ¿En serio? Es una máquina de matar, un arma de guerra. No le haces ningún favor a nuestros hombres presentándola con un aspecto tan… Tan de niña.” General Phorcys Claudia Dalca nació en tiempos de una Dravenor aún pacífica. Primogénita de una renombrada familia de militares, fue entrenada para honrar su apellido desde que pudo ponerse en pie.\n\nEn cuanto alcanzó la edad necesaria, Claudia entró en el ejército, demostrando no solo buenas habilidades de combate, sino un don para leer las intenciones del enemigo en batalla y contrarrestarlas por completo con estrategias arriesgadas basadas en tender trampas. Esta habilidad le valió una serie de rápidos ascensos, alcanzando el rango de comandante a una edad sorprendentemente temprana. Pero mientras esto ocurría, La Máquina se preparaba para la guerra. Nada más iniciarse la Década del Alzamiento Claudia fue destinada a uno de los frentes para tratar de frenar a aquel enemigo desconocido, cuando éste aún no era considerado la amenaza de cataclísmicas proporciones que realmente era. El trabajo de la joven (acababa de cumplir veinte años) fue realmente ejemplar y, aunque sus tropas perdían terreno, eran de las pocas que lo hacían lentamente y con escaso número de bajas.\n\nEn aquellos días logró lo imposible; ralentizar notablemente el avance del enemigo. Por desgracia, este “milagro” no duró demasiado. En cierto momento La Máquina simuló una retirada para reorganizarse, estrategia que Claudia fue capaz de vislumbrar y ordenó mantener posiciones. No obstante, no muy lejos de allí, varios comandantes del ejército cayeron de lleno en la trampa. La masacre fue brutal, y las tropas de La Máquina penetraron la línea con el Imperio de Dravenor. Desconociendo esos últimos acontecimientos, Claudia no esperó verse súbitamente rodeada. Pese a todo, logró plantar batalla hasta el final y sus enemigos pagaron cada vida que se llevaron en aquella batalla… hasta que lo inevitable tuvo lugar. Claudia fue derrotada y capturada con el menor daño posible; lo cierto es que aquellos combates habían logrado que la joven despertara el interés de Mazikeen.\n\nQuien, valorando sus capacidades, decidió hacer buen uso de ella y transformarla en una de sus más letales armas. Fue así como la joven pasó a ser la tercera Pretoriana Praefectus, adoptando el título de La Estratega. Durante décadas tras su “renacer”, Claudia permaneció en las sombras, muy apartada de la mayoría de campos de batalla mientras ayudaba a organizar las fuerzas de La Máquina y perfeccionaba sus estrategias. A veces se veía su silueta en la lejanía, por lo que se convirtió en un rumor dentro de un rumor, una leyenda entre los soldados a la que no se le dio demasiada veracidad. Hubo incluso quienes, irónicamente, pensaron que se trataba de La Madre. Fuese como fuese, Claudia no fue vista de nuevo hasta la batalla de Xeros. Allí, irónicamente, se enfrentó a los batallones que lideraban su padre y su hermano. Todos fueron masacrados.\n\nDesde entonces, las apariciones de la Pretoriana han sido muy escasas, y cada una de ellas siempre ha representado grandes derrotas para Dravenor. La única excepción fue el momento en que dirigió un asalto aCarre, donde el general Phorcys fue capaz de hacerla retroceder con un ataque frontal dirigido por él mismo. Puede que, por primera vez en su existencia, Claudia menospreció la fiereza y capacidad de su rival, que conllevaría la que hasta la fecha ha sido su única derrota. La apariencia de la Praefectus tiene muchas similitudes a la que tenía en vida, pues sigue teniendo la apariencia de una adolescente atlética con facciones aniñadas y grandes ojos oscuros. Posee una larga cabellera negra, hechas de centenares de cables y finas fibras metálicas que brillan con un tenue resplandor oscuro.\n\nLas piezas de metal de su cuerpo simulan una especie de traje o toga, lo que le da un aspecto refinado y diferente a la de cualquier otro Pretoriano. Además, tiene una estatura bastante reducida y estilizada, lo que le da a su vez un aire casi infantil. Aunque era altiva en vida, vanagloriándose de su don natural, el sentimiento de soberbia se ha exacerbado al carecer de limitaciones morales. Incluso en su absoluta frialdad contempla todo cuanto la rodea, incluso otros miembros de La Máquina (de los que es completamente consciente de que carecen de sentimientos), con absoluto desdén. Actualmente Claudia se encuentra en el corazón de las Zonas Asimiladas, pero viaja continuamente de un lugar a otro preparando posibles escenarios de combate y diseñando (y a veces probando) nuevas estrategias.\n\nEn ocasiones, incluso está presente (eso sí, siempre a cierta distancia) mientras organiza pequeñas escaramuzas contra las fuerzas de Dravenor, que utiliza para medir la efectividad de sus tácticas. MODUS OPERANDIPese a sus brutales capacidades de combate, Claudia no es tanto una guerrera como una estratega. Prefiere quedarse a distancia en las batallas, planificando y controlando los movimientos de sus tropas desde una posición segura. Va normalmente acompañada de dos Sabuesos Alfa, que por regla general son más que suficiente para acabar con cualquier amenaza cercana. Aún así, Claudia está preparada en todo momento para luchar si es necesario, ya sea ante un ataque inesperado o porque se vea forzada a ello.\n\nPor esa causa suele mantener activos los poderes psíquicos Incrementar Fuerza, Incrementar Habilidad e Incremento de Reacción, lo que le permite enfrentarse a cualquier posible amenaza con rapidez y brutal contundencia. Aunque al igual que otros Pretorianos su cuerpo entero es un arma viviente, en combate suele dar preferencia al uso de su cabello, que actúa como una maraña de eficaces monofilos. Cuando se enfrenta a grupos, su táctica más habitual es la de presar a varios enemigos con su pelo y hacer que sus sabuesos los rematen, o usar los monofilos para encadenar decenas de ataques. Claudia es extremadamente planificadora y astuta. Sopesa cualquier amenaza y calcula todos los medios posibles para neutralizarla, así como las estratagemas que pueden usar en su contra, y lo cierto es que en muy rara ocasión se equivoca.\n\nPor tanto, es extremadamente complicado conseguir que caiga en una trampa, y quien trata de hacerlo suele encontrarse que ha sido él quien ha acabado siendo víctima de la manipulación de la Pretoriana. Pretoriana: La Estratega es una Pretoriana de La Máquina, y como tal, posee las habilidades Arma Viviente, Vórtice, Transformación Completa, Mente Sistemática, Reestructuración, Núcleo y Vulnerabilidad a la Magia descritas en Los Que Caminaron con Nosotros. Mejoras de Alta Tecnología: Claudia se beneficia de los efectos de las Mejoras de Alta Tecnología Sistemas Monofilos y Sistema Comandante. notas Curiosas - Era originariamente humana. - Claudia tiene un extraño tic residual de cuando estaba “viva”: cuando piensa algo importante gesticula con la mano derecha, igual que si estuviera escribiendo.\n\n- Aunque no le gustan demasiado los otros Praefectus, pues los considera “conceptualmente” inferiores a ella, detesta particularmente aRom, quien le genera un rechazo natural. A veces, se ha encontrado a sí misma “pensando” que, si éste fuera destruido, La Máquina sería un “poco mejor”. Quizás se deba a que Rom estuvo directamente involucrado en la muerte de sus soldados y su captura. - La única excepción a la anotación anterior es Itanium. La Estratega siente admiración por el Praefectus, al que considera el primero entre iguales. - Le gustan los libros. Los considera un sistema de conocimiento obsoleto, pero conocimiento, al fin y al cabo. Nunca los destruye, si puede evitarlo. - Siente algo parecido a “respeto” hacia Phorcys, considerando que, con sus limitados recursos, ha logrado retrasar lo inevitable más de una vez.\n\n- Tras su derrota en Carre se quiere asegurar de que sea ella, personalmente, quien tome finalmente la fortaleza cuando llegue el momento. Hasta la fecha, tiene más de un centenar de planes para hacerlo. - Aunque en teoría sólo los Pretorianos poseen denominaciones diferentes, Dalca siempre llama Alfa y Beta a los dos sabuesos que la acompañan. - Dalca tiene una extraña relación con Mazikeen. Aunque es una extensión de la voluntad de su señora, lo cierto es que a la Pretoriana no le gusta demasiado pensar en ello. -Los soldados de Dravenor la temen particularmente, pues dicen que es más espectro que máquina, y la llaman la Mujer de Negro.</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-dalcal-la-maquina-varna-",
+          "type": "level",
+          "name": "Dálcal (La Máquina · Varna suprema)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 10
+          }
+        }
+      ],
+      "level": {
+        "value": 10
+      },
+      "notes": [
+        {
+          "_id": "note-dalcal-la-maquina-varna-suprema-2",
+          "type": "note",
+          "name": "Habilidades naturales: Tabla de Proyección Psíquica.",
+          "system": {}
+        },
+        {
+          "_id": "note-dalcal-la-maquina-varna-suprema-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características Físicas Sobrehumanas, Características Anímicas Sobrenaturales, Exención Física, Tamaño Innatural, Acceso aDisciplinasPsíquicas, Zen, Mantenimiento Añadido, Consumición Psíquica, Extenuación Psíquica.",
+          "system": {}
+        },
+        {
+          "_id": "note-dalcal-la-maquina-varna-suprema-4",
+          "type": "note",
+          "name": "Poderes: Armas Naturales; Arma Viviente (+20 al Daño, -5 a la TA Defensora, Variable), Mente Sistemática, Vórtice, Reestructuración, Armadura Física 6, Transformación Completa, Núcleo, Mejoras de Alta Tecnología, Vulnerabilidad a la Magia.",
+          "system": {}
+        },
+        {
+          "_id": "note-dalcal-la-maquina-varna-suprema-5",
+          "type": "note",
+          "name": "Poderes psíquicos: Ilusión psíquica, Lectura mental, Localización psíquica, Área (Telepatía), Escudo telequinético, Presa telequinética, Balística, Vuelo telequinético, Incrementar fuerza, Incrementar habilidad, Incremento de reacción.",
+          "system": {}
+        },
+        {
+          "_id": "note-dalcal-la-maquina-varna-suprema-6",
+          "type": "note",
+          "name": "Disciplinas: Psíquicas: Telepatía, Telequinesis, Incremento Físico",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 4
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 16
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 275,
+          "max": 275
+        },
+        "initiative": {
+          "base": {
+            "value": 135
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": -6
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 100035
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": -35
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 180
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 80
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
+          "base": {
+            "value": 40
+          }
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 200
+          }
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 280
+          }
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 255
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 255
+        }
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 140
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 205
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 205
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 205
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 7,
+        "max": 7
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 5
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!17894fe1d766d94e"
+}

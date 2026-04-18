@@ -1,0 +1,1185 @@
+{
+  "_id": "53db845bd4f21c27",
+  "name": "Degollador (Quimera no muerta)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Degollador (Quimera no muerta)"
+  },
+  "items": [
+    {
+      "name": "Armadura natural",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "thrust": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "heat": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "electricity": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "cold": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "energy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "integrity": {
+          "base": {
+            "value": 22
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 22
+        },
+        "presence": {
+          "base": {
+            "value": 50
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 50
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "9a935e20e542db2e",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!53db845bd4f21c27.9a935e20e542db2e"
+    }
+  ],
+  "effects": [],
+  "folder": "18bcccdad36e696c",
+  "sort": 150,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "Anima Beyond Fantasy - Core Exxet",
+      "sourceHeading": "Degollador",
+      "page": 330,
+      "variant": "Quimera no muerta",
+      "rawClass": "no muerto",
+      "rawDamage": "100 Garras y huesos FIL / CON",
+      "rawTA": "Natural Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 0",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": false
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": true
+        },
+        "inhuman": {
+          "value": true
+        },
+        "zen": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "no muerto"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": "Quimera no muerta"
+        },
+        "size": {
+          "value": 24
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 330</p><p><strong>Entrada:</strong> Degollador</p><p><strong>Variante:</strong> Quimera no muerta</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> no muerto</p><p><strong>Categoría:</strong> Maestro en armas Fue: 13 Des: 6 Agi: 8 Con: 12 Pod: 8 Int: 5 Vol: 6 Per: 7 RF 70 RM 60 RP 55 RV 70 RE 70</p><p><strong>Habilidades esenciales:</strong> Inhumanidad, Exención física, Características físicas inhumanas, Inmunidad psicológica, Tamaño innatural.</p><p><strong>Poderes:</strong> Arma natural: Garras y huesos (Daño incrementado), Daña energía, Resistencia incrementada +20, Armadura física 6 Abierta, Barrera de daño 60, Regeneración 16 Limitada, Visión extrasensorial.</p><p><strong>Daño:</strong> 100 Garras y huesos FIL / CON</p><p><strong>TA:</strong> Natural Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 0</p><p><strong>Habilidades secundarias:</strong> Trepar 65, Advertir 100, Buscar 85, Rastreas 60, Proezas de fuerza 135, Saltar 40</p><p><strong>Descripción breve:</strong> Esta criatura, apodada Degollador por su necesidad de descuartizar seres vivos, es una de las creaciones artificiales descritas en el Libro de los Muertos. Se trata de un terrorífico experimento que tiene como objetivo la construcción de un poderoso tipo de muerto viviente, dotado de enormes capacidades destructivas. Un Degollador es una pesadilla humanoide de más de tres metros de altura. Todo su cuerpo está lleno de llagas y huesos; la columna vertebral le parte en dos la espalda y, como rostro, tiene una macabra calavera. Posee brazos desproporcionados como los de un gorila gigante, y las piernas extrañamente invertidas a partir de la cadera, por lo que anda de un modo muy raro. Su creación requiere bastos conocimientos médicos y sobrenaturales. Primero, se forja como base un esqueleto metálico con un cráneo humano reforzado, añadiendo después encima distintas capas de musculatura, tanto humana como animal. Finalmente, se emplean rituales, alquimia y sacrificios para animarlo. Tras años de investigación, la organización Sol Negro ha desarrollado a varias de dichas criaturas, cuyo número en la actualidad es desconocido. Las utilizan como armas de destrucción o guardianes de sus bases, a pesar de que su violencia natural a veces los descontrola, comenzando a matar todo lo que encuentran. m odus operandi Un Degollador es un verdadero prodigio en lo que se refiere a matar. Incluso empleando sólo su mera fuerza bruta, está dotado de un instinto sobrenatural para la muerte, que incrementa enormemente su habilidad en la lucha. Cuando golpea a sus oponentes, es capaz de partirlos en pedazos con un mero roce de sus garras o puños. Una vez que ha encontrado una posible víctima, la persigue inexorablemente y sin descanso hasta acabar con ella. Lo único que puede retrasar su persecución es la presencia de una presa cercana, de la que pueda alimentarse para sanar. Armadura (abierta): Todos los músculos de los Degolladores están reforzados con estrechos filamentos de acero negro templado. Por tanto, gozan naturalmente de una eficaz armadura contra todo tipo de ataque no basado en energía. No obstante, su esquelética cabeza no está protegida como el resto, por lo que los golpes apuntados al cráneo no obtienen esta protección. Visión extrasensorial: Incluso sin tener ojos, los Degolladores pueden sentir su entorno gracias a los poderes sobrenaturales que se han utilizado para crearlos. No obstante, no son capaces de percibir habilidades mágicas, psíquicas o a seres espirituales. Regeneración (limitada): Aunque su organismo muerto no es capaz de sanarse por sí solo, un Degollador puede alimentarse de carne viva (o que haya muerto hace menos de cinco minutos) para sanar cualquier clase de daño. Mientras se encuentre comiendo, su nivel de Regeneración aumenta temporalmente hasta 16. Como referencia, devorando un cuerpo humano completamente, son capaces de regenerarse durante 15 asaltos a un ritmo de 10 PV cada uno. Zombis y Degolladores</p></section><details><summary>Texto extraído</summary><pre>Nivel: 5 , no muerto 20 Puntos de Vida: 380 Categoría: Maestro en armas Fue: 13 Des: 6 Agi: 8 Con: 12 Pod: 8 Int: 5 Vol: 6 Per: 7 RF 70 RM 60 RP 55 RV 70 RE 70\n\nTurno: 70 Natural Habilidad de ataque: 1 60 Garras y huesos Habilidad de defensa: 1 40 Garras y huesos Daño: 100 Garras y huesos FIL / CON TA: Natural Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 0 Habilidades esenciales: Inhumanidad, Exención física, Características físicas inhumanas, Inmunidad psicológica, Tamaño innatural. Poderes: Arma natural: Garras y huesos (Daño incrementado), Daña energía, Resistencia incrementada +20, Armadura física 6 Abierta, Barrera de daño 60, Regeneración 1 6 Limitada, Visión extrasensorial.\n\nTamaño: 24 Grande Regeneración: 0 / 1 6 Tipo de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Trepar 65, Advertir 100, Buscar 85, Rastreas 60, Proezas de fuerza 1 35, Saltar 40. Esta criatura, apodada Degollador por su necesidad de descuartizar seres vivos, es una de las creaciones artificiales descritas en el Libro de los Muertos. Se trata de un terrorífico experimento que tiene como objetivo la construcción de un poderoso tipo de muerto viviente, dotado de enormes capacidades destructivas. Un Degollador es una pesadilla humanoide de más de tres metros de altura. Todo su cuerpo está lleno de llagas y huesos; la columna vertebral le parte en dos la espalda y, como rostro, tiene una macabra calavera. Posee brazos desproporcionados como los de un gorila gigante, y las piernas extrañamente invertidas a partir de la cadera, por lo que anda de un modo muy raro.\n\nSu creación requiere bastos conocimientos médicos y sobrenaturales. Primero, se forja como base un esqueleto metálico con un cráneo humano reforzado, añadiendo después encima distintas capas de musculatura, tanto humana como animal. Finalmente, se emplean rituales, alquimia y sacrificios para animarlo. Tras años de investigación, la organización Sol Negro ha desarrollado a varias de dichas criaturas, cuyo número en la actualidad es desconocido. Las utilizan como armas de destrucción o guardianes de sus bases, a pesar de que su violencia natural a veces los descontrola, comenzando a matar todo lo que encuentran. m odus operandi Un Degollador es un verdadero prodigio en lo que se refiere a matar. Incluso empleando sólo su mera fuerza bruta, está dotado de un instinto sobrenatural para la muerte, que incrementa enormemente su habilidad en la lucha.\n\nCuando golpea a sus oponentes, es capaz de partirlos en pedazos con un mero roce de sus garras o puños. Una vez que ha encontrado una posible víctima, la persigue inexorablemente y sin descanso hasta acabar con ella. Lo único que puede retrasar su persecución es la presencia de una presa cercana, de la que pueda alimentarse para sanar. Armadura (abierta): Todos los músculos de los Degolladores están reforzados con estrechos filamentos de acero negro templado. Por tanto, gozan naturalmente de una eficaz armadura contra todo tipo de ataque no basado en energía. No obstante, su esquelética cabeza no está protegida como el resto, por lo que los golpes apuntados al cráneo no obtienen esta protección. Visión extrasensorial: Incluso sin tener ojos, los Degolladores pueden sentir su entorno gracias a los poderes sobrenaturales que se han utilizado para crearlos.\n\nNo obstante, no son capaces de percibir habilidades mágicas, psíquicas o a seres espirituales. Regeneración (limitada): Aunque su organismo muerto no es capaz de sanarse por sí solo, un Degollador puede alimentarse de carne viva (o que haya muerto hace menos de cinco minutos) para sanar cualquier clase de daño. Mientras se encuentre comiendo, su nivel de Regeneración aumenta temporalmente hasta 1 6. Como referencia, devorando un cuerpo humano completamente, son capaces de regenerarse durante 1 5 asaltos a un ritmo de 10 PV cada uno. Zombis y Degolladores</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-degollador-quimera-no-mu",
+          "type": "level",
+          "name": "Degollador (Quimera no muerta)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 5
+          }
+        }
+      ],
+      "level": {
+        "value": 5
+      },
+      "notes": [
+        {
+          "_id": "note-degollador-quimera-no-muerta-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Inhumanidad, Exención física, Características físicas inhumanas, Inmunidad psicológica, Tamaño innatural.",
+          "system": {}
+        },
+        {
+          "_id": "note-degollador-quimera-no-muerta-4",
+          "type": "note",
+          "name": "Poderes: Arma natural: Garras y huesos (Daño incrementado), Daña energía, Resistencia incrementada +20, Armadura física 6 Abierta, Barrera de daño 60, Regeneración 16 Limitada, Visión extrasensorial.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 5
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 7
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 380,
+          "max": 380
+        },
+        "initiative": {
+          "base": {
+            "value": 70
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": 11
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 7000
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 65
+          }
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 40
+          }
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 135
+          }
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 100
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 85
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
+          "base": {
+            "value": 60
+          }
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 160
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 140
+        }
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!53db845bd4f21c27"
+}

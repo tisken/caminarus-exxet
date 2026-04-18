@@ -1,0 +1,1167 @@
+{
+  "_id": "4cc7a5bba61722f3",
+  "name": "Filisnogos (Espíritu de la caza)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Filisnogos (Espíritu de la caza)"
+  },
+  "items": [
+    {
+      "name": "Armadura natural",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "thrust": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "heat": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "electricity": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "cold": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "energy": {
+          "base": {
+            "value": 3
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 3
+        },
+        "integrity": {
+          "base": {
+            "value": 22
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 22
+        },
+        "presence": {
+          "base": {
+            "value": 50
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 50
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "1c301fa80a54f2d9",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!4cc7a5bba61722f3.1c301fa80a54f2d9"
+    }
+  ],
+  "effects": [],
+  "folder": "18bcccdad36e696c",
+  "sort": 160,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "Anima Beyond Fantasy - Core Exxet",
+      "sourceHeading": "Filisnogos",
+      "page": 331,
+      "variant": "Espíritu de la caza",
+      "rawClass": "Ánima 20",
+      "rawDamage": "60 Garras y fauces",
+      "rawTA": "Natural Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": false
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": true
+        },
+        "inhuman": {
+          "value": true
+        },
+        "zen": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Ánima 20"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": "Espíritu de la caza"
+        },
+        "size": {
+          "value": 0
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 331</p><p><strong>Entrada:</strong> Filisnogos</p><p><strong>Variante:</strong> Espíritu de la caza</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 20</p><p><strong>Categoría:</strong> Asesino Fue: 6 Des: 8 Agi: 8 Con: 6 Pod: 8 Int: 6 Vol: 8 Per: 9 RF 55 RM 55 RP 55 RV 55 RE 55</p><p><strong>Habilidades esenciales:</strong> Inhumanidad, Exención física, Características físicas inhumanas especiales, Sentidos agudizados: olfato y oído, Afinidad.</p><p><strong>Poderes:</strong> Posesión Condicionada, Forma de bestia (Metamorfismo básico Condicionado, Arma natural: Garras y fauces, Reacción incrementada +20), La senda de las bestias (Movimiento +2, Movimiento libre por la naturaleza), Inmunidad física 80 Condicionada, Debilidad. Las Asagiri son iracundos espíritus femeninos de la naturaleza, dominadas por un fuerte instinto depredador. Dado que no tienen cuerpo, son incapaces de intervenir en el mundo físico, por lo que necesitan poseer a otros para sentir la emoción de la caza y el sabor de la sangre. Como ánimas, únicamente pueden tomar posesión de mujeres que aún sigan siendo doncellas. Una vez encuentran un huésped apropiado, anidan en su alma aletargadas hasta que llega la primera noche de luna llena. En ese instante, obtienen el control del cuerpo, transformándolo en una bestia sanguinaria. Irónicamente, el espíritu conserva vagos recuerdos de su anfitriona y siente deseos de matar a quienes esta más ame u odie. Aun así, no desprecia a ninguna presa, especialmente las humanas. Cuando vuelve a ser de día, la mujer recupera el control y su apariencia, siendo incapaz de recordar nada de lo que ocurrió la noche anterior, hasta que la historia se repite en la siguiente luna llena. Las personas dotadas con la capacidad de ver a una Asagiri mientras se encuentra en forma espiritual, la percibirán como una sombra turbulenta y en continuo movimiento, con algunos rasgos animales y otros de mujer. Bajo su apariencia física bestial conservan características femeninas, pero sus cuerpos se recubren de un denso pelaje negro, con las extremidades acabadas en afiladas garras y el rostro deformado como el de cualquier depredador: panteras, lobos u otros tipos de animal. El espíritu puede abandonar a su anfitriona en cualquier momento, salvo mientras está convertido en bestia. Cuando muere su huésped, queda atrapado en el interior del cadáver hasta que llega la siguiente luna llena; entonces puede liberarse y buscar otro cuerpo. Si durante ese tiempo alguien deposita flores en la boca de la difunta, la Asagiri permanece atada a ella y desaparece completamente al llegar la noche. Algunos rituales místicos extremadamente complejos son también capaces de exorcizarlas. m odus operandi La cacería es lo único que da sentido a la existencia de las Asagiri. En las noches de luna llena, se arrastran sigilosas en pos de víctimas que puedan saciar sus instintos. Desde las sombras, saltan sobre sus desprotegidas presas y acaban con ellas sin darles la oportunidad de reaccionar. Mientras están en forma espiritual rehuyen completamente cualquier enfrentamiento, al no ser capaces de contraatacar. Por el contrario, como bestias no temen combatir, aunque generalmente prefieren usar el subterfugio. El cuerpo físico y el alma de la Asagiri reciben daño independiente si son atacados por medios que no sean capaces de dañar a espíritus. De hecho, es posible matar a la bestia sin afectar al espíritu, empleando armas de plata o impactos de gran potencia. No obstante, los ataques capaces de dañar energía con presencia suficiente les afectan por igual a ambas. En forma bestial, tiene los mismos puntos vulnerables que el animal imitado. Posesión (condicionada): La habilidad para tomar posesión de un cuerpo sólo tiene efecto sobre mujeres que aún sean vírgenes. Para colarse en el interior de su alma, la Asagiri ha de realizar un ataque con éxito sobre su víctima, y esta debe fallar una RM contra 100. Si supera la Resistencia o el espíritu abandona el cuerpo posteriormente, esa mujer jamás puede volver a ser poseída por una de ellas. Mantener relaciones sexuales posteriormente, no afecta en absoluto a la posesión. Forma de bestia: Una vez se ha introducido en un cuerpo, el espíritu puede alterarlo durante las noches de luna llena dándole la apariencia de una bestia. En ese estado, incrementa las características físicas de su huésped considerablemente (dos puntos su Destreza y Agilidad, y uno su Fuerza y Constitución), al igual que su velocidad de reacción. Además, obtiene afiladas garras y fauces que puede usar como armas. Las estadísticas reflejadas en la ficha representan la posesión de una mujer normal; por tanto, las características en cursiva pueden alterarse, dependiendo de su anfitrión. Afinidad: Mientras estén transformadas, las Asagiri tienen afinidad con lobos, panteras y otros grandes depredadores. La senda de las bestias: En forma de bestia, su comunión con la naturaleza les permite avanzar a través de zonas boscosas o selváticas sin ningún penalizador a su velocidad. Además, su movimiento aumenta dos puntos cuando se trasladan en semejantes entornos. Inmunidad física (condicionada): Durante las noches de luna llena, las Asagiri son completamente inmunes a cualquier ataque incapaz de dañar energía con una presencia inferior a 80. Esta habilidad no funciona contra armas de plata, que producirán daños en sus cuerpos con normalidad. Debilidad: Si se colocan flores en la boca de un cadáver poseído por una Asagiri, el espíritu perecerá de manera inmediata al llegar la noche _Página 331_ a v enganza de la a ntigüed ad</p><p><strong>Daño:</strong> 60 Garras y fauces</p><p><strong>TA:</strong> Natural Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3</p></section><details><summary>Texto extraído</summary><pre>Nivel: 4\n\nClase: Ánima 2 0 Puntos de Vida: 105 Bestia / 1 30 Espíritu Categoría: Asesino Fue: 6 Des: 8 Agi: 8 Con: 6 Pod: 8 Int: 6 Vol: 8 Per: 9 RF 55 RM 55 RP 55 RV 55 RE 55\n\nTurno: 120 Bestia / 100 Espíritu Habilidad de ataque: 1 40 Garras y fauces Habilidad de defensa: 1 10 Esquiva Daño: 60 Garras y fauces TA: Natural Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3 Habilidades esenciales: Inhumanidad, Exención física, Características físicas inhumanas especiales, Sentidos agudizados: olfato y oído, Afinidad. Poderes: Posesión Condicionada, Forma de bestia (Metamorfismo básico Condicionado, Arma natural: Garras y fauces, Reacción incrementada +20), La senda de las bestias (Movimiento +2, Movimiento libre por la naturaleza), Inmunidad física 80 Condicionada, Debilidad. Las Asagiri son iracundos espíritus femeninos de la naturaleza, dominadas por un fuerte instinto depredador. Dado que no tienen cuerpo, son incapaces de intervenir en el mundo físico, por lo que necesitan poseer a otros para sentir la emoción de la caza y el sabor de la sangre.\n\nComo ánimas, únicamente pueden tomar posesión de mujeres que aún sigan siendo doncellas. Una vez encuentran un huésped apropiado, anidan en su alma aletargadas hasta que llega la primera noche de luna llena. En ese instante, obtienen el control del cuerpo, transformándolo en una bestia sanguinaria. Irónicamente, el espíritu conserva vagos recuerdos de su anfitriona y siente deseos de matar a quienes esta más ame u odie. Aun así, no desprecia a ninguna presa, especialmente las humanas. Cuando vuelve a ser de día, la mujer recupera el control y su apariencia, siendo incapaz de recordar nada de lo que ocurrió la noche anterior, hasta que la historia se repite en la siguiente luna llena.\n\nLas personas dotadas con la capacidad de ver a una Asagiri mientras se encuentra en forma espiritual, la percibirán como una sombra turbulenta y en continuo movimiento, con algunos rasgos animales y otros de mujer. Bajo su apariencia física bestial conservan características femeninas, pero sus cuerpos se recubren de un denso pelaje negro, con las extremidades acabadas en afiladas garras y el rostro deformado como el de cualquier depredador: panteras, lobos u otros tipos de animal. El espíritu puede abandonar a su anfitriona en cualquier momento, salvo mientras está convertido en bestia. Cuando muere su huésped, queda atrapado en el interior del cadáver hasta que llega la siguiente luna llena; entonces puede liberarse y buscar otro cuerpo.\n\nSi durante ese tiempo alguien deposita flores en la boca de la difunta, la Asagiri permanece atada a ella y desaparece completamente al llegar la noche. Algunos rituales místicos extremadamente complejos son también capaces de exorcizarlas. m odus operandi La cacería es lo único que da sentido a la existencia de las Asagiri. En las noches de luna llena, se arrastran sigilosas en pos de víctimas que puedan saciar sus instintos. Desde las sombras, saltan sobre sus desprotegidas presas y acaban con ellas sin darles la oportunidad de reaccionar. Mientras están en forma espiritual rehuyen completamente cualquier enfrentamiento, al no ser capaces de contraatacar. Por el contrario, como bestias no temen combatir, aunque generalmente prefieren usar el subterfugio.\n\nEl cuerpo físico y el alma de la Asagiri reciben daño independiente si son atacados por medios que no sean capaces de dañar a espíritus. De hecho, es posible matar a la bestia sin afectar al espíritu, empleando armas de plata o impactos de gran potencia. No obstante, los ataques capaces de dañar energía con presencia suficiente les afectan por igual a ambas. En forma bestial, tiene los mismos puntos vulnerables que el animal imitado. Posesión (condicionada): La habilidad para tomar posesión de un cuerpo sólo tiene efecto sobre mujeres que aún sean vírgenes. Para colarse en el interior de su alma, la Asagiri ha de realizar un ataque con éxito sobre su víctima, y esta debe fallar una RM contra 100. Si supera la Resistencia o el espíritu abandona el cuerpo posteriormente, esa mujer jamás puede volver a ser poseída por una de ellas.\n\nMantener relaciones sexuales posteriormente, no afecta en absoluto a la posesión. Forma de bestia: Una vez se ha introducido en un cuerpo, el espíritu puede alterarlo durante las noches de luna llena dándole la apariencia de una bestia. En ese estado, incrementa las características físicas de su huésped considerablemente (dos puntos su Destreza y Agilidad, y uno su Fuerza y Constitución), al igual que su velocidad de reacción. Además, obtiene afiladas garras y fauces que puede usar como armas. Las estadísticas reflejadas en la ficha representan la posesión de una mujer normal; por tanto, las características en cursiva pueden alterarse, dependiendo de su anfitrión. Afinidad: Mientras estén transformadas, las Asagiri tienen afinidad con lobos, panteras y otros grandes depredadores.\n\nLa senda de las bestias: En forma de bestia, su comunión con la naturaleza les permite avanzar a través de zonas boscosas o selváticas sin ningún penalizador a su velocidad. Además, su movimiento aumenta dos puntos cuando se trasladan en semejantes entornos. Inmunidad física (condicionada): Durante las noches de luna llena, las Asagiri son completamente inmunes a cualquier ataque incapaz de dañar energía con una presencia inferior a 80. Esta habilidad no funciona contra armas de plata, que producirán daños en sus cuerpos con normalidad. Debilidad: Si se colocan flores en la boca de un cadáver poseído por una Asagiri, el espíritu perecerá de manera inmediata al llegar la noche\n\n&lt;!-- tags: @personaje, @magia, @localizacion, @regla --&gt;\n\n_Página 331_\n\na v enganza de la a ntigüed ad</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-filisnogos-espiritu-de-l",
+          "type": "level",
+          "name": "Filisnogos (Espíritu de la caza)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 4
+          }
+        }
+      ],
+      "level": {
+        "value": 4
+      },
+      "notes": [
+        {
+          "_id": "note-filisnogos-espiritu-de-la-caza-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Inhumanidad, Exención física, Características físicas inhumanas especiales, Sentidos agudizados: olfato y oído, Afinidad.",
+          "system": {}
+        },
+        {
+          "_id": "note-filisnogos-espiritu-de-la-caza-4",
+          "type": "note",
+          "name": "Poderes: Posesión Condicionada, Forma de bestia (Metamorfismo básico Condicionado, Arma natural: Garras y fauces, Reacción incrementada +20), La senda de las bestias (Movimiento +2, Movimiento libre por la naturaleza), Inmunidad física 80 Condicionada, Debilidad. Las Asagiri son iracundos espíritus femeninos de la naturaleza, dominadas por un fuerte instinto depredador. Dado que no tienen cuerpo, son incapaces de intervenir en el mundo físico, por lo que necesitan poseer a otros para sentir la emoción de la caza y el sabor de la sangre. Como ánimas, únicamente pueden tomar posesión de mujeres que aún sigan siendo doncellas. Una vez encuentran un huésped apropiado, anidan en su alma aletargadas hasta que llega la primera noche de luna llena. En ese instante, obtienen el control del cuerpo, transformándolo en una bestia sanguinaria. Irónicamente, el espíritu conserva vagos recuerdos de su anfitriona y siente deseos de matar a quienes esta más ame u odie. Aun así, no desprecia a ninguna presa, especialmente las humanas. Cuando vuelve a ser de día, la mujer recupera el control y su apariencia, siendo incapaz de recordar nada de lo que ocurrió la noche anterior, hasta que la historia se repite en la siguiente luna llena. Las personas dotadas con la capacidad de ver a una Asagiri mientras se encuentra en forma espiritual, la percibirán como una sombra turbulenta y en continuo movimiento, con algunos rasgos animales y otros de mujer. Bajo su apariencia física bestial conservan características femeninas, pero sus cuerpos se recubren de un denso pelaje negro, con las extremidades acabadas en afiladas garras y el rostro deformado como el de cualquier depredador: panteras, lobos u otros tipos de animal. El espíritu puede abandonar a su anfitriona en cualquier momento, salvo mientras está convertido en bestia. Cuando muere su huésped, queda atrapado en el interior del cadáver hasta que llega la siguiente luna llena; entonces puede liberarse y buscar otro cuerpo. Si durante ese tiempo alguien deposita flores en la boca de la difunta, la Asagiri permanece atada a ella y desaparece completamente al llegar la noche. Algunos rituales místicos extremadamente complejos son también capaces de exorcizarlas. m odus operandi La cacería es lo único que da sentido a la existencia de las Asagiri. En las noches de luna llena, se arrastran sigilosas en pos de víctimas que puedan saciar sus instintos. Desde las sombras, saltan sobre sus desprotegidas presas y acaban con ellas sin darles la oportunidad de reaccionar. Mientras están en forma espiritual rehuyen completamente cualquier enfrentamiento, al no ser capaces de contraatacar. Por el contrario, como bestias no temen combatir, aunque generalmente prefieren usar el subterfugio. El cuerpo físico y el alma de la Asagiri reciben daño independiente si son atacados por medios que no sean capaces de dañar a espíritus. De hecho, es posible matar a la bestia sin afectar al espíritu, empleando armas de plata o impactos de gran potencia. No obstante, los ataques capaces de dañar energía con presencia suficiente les afectan por igual a ambas. En forma bestial, tiene los mismos puntos vulnerables que el animal imitado. Posesión (condicionada): La habilidad para tomar posesión de un cuerpo sólo tiene efecto sobre mujeres que aún sean vírgenes. Para colarse en el interior de su alma, la Asagiri ha de realizar un ataque con éxito sobre su víctima, y esta debe fallar una RM contra 100. Si supera la Resistencia o el espíritu abandona el cuerpo posteriormente, esa mujer jamás puede volver a ser poseída por una de ellas. Mantener relaciones sexuales posteriormente, no afecta en absoluto a la posesión. Forma de bestia: Una vez se ha introducido en un cuerpo, el espíritu puede alterarlo durante las noches de luna llena dándole la apariencia de una bestia. En ese estado, incrementa las características físicas de su huésped considerablemente (dos puntos su Destreza y Agilidad, y uno su Fuerza y Constitución), al igual que su velocidad de reacción. Además, obtiene afiladas garras y fauces que puede usar como armas. Las estadísticas reflejadas en la ficha representan la posesión de una mujer normal; por tanto, las características en cursiva pueden alterarse, dependiendo de su anfitrión. Afinidad: Mientras estén transformadas, las Asagiri tienen afinidad con lobos, panteras y otros grandes depredadores. La senda de las bestias: En forma de bestia, su comunión con la naturaleza les permite avanzar a través de zonas boscosas o selváticas sin ningún penalizador a su velocidad. Además, su movimiento aumenta dos puntos cuando se trasladan en semejantes entornos. Inmunidad física (condicionada): Durante las noches de luna llena, las Asagiri son completamente inmunes a cualquier ataque incapaz de dañar energía con una presencia inferior a 80. Esta habilidad no funciona contra armas de plata, que producirán daños en sus cuerpos con normalidad. Debilidad: Si se colocan flores en la boca de un cadáver poseído por una Asagiri, el espíritu perecerá de manera inmediata al llegar la noche _Página 331_ a v enganza de la a ntigüed ad",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 9
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 105,
+          "max": 105
+        },
+        "initiative": {
+          "base": {
+            "value": 120
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": -1
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": -8
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 5
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 5
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 55070
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 140
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
+        "base": {
+          "value": 110
+        }
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!4cc7a5bba61722f3"
+}

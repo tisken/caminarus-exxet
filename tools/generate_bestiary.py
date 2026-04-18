@@ -20,6 +20,8 @@ PACKS_DIR = MODULE_ROOT / "packs"
 ANIMABF_SYSTEM_ID = "animabf"
 ANIMABF_SYSTEM_VERSION = "2.2.1"
 FOUNDRY_CORE_VERSION = "14.359"
+STATIC_PACK_ID = "creatures-exxet"
+STATIC_PACK_LABEL = "Creatures Exxet"
 
 
 def default_candidates(filename: str) -> list[Path]:
@@ -584,14 +586,43 @@ def pack_filename(document: dict) -> str:
     return f"{document['type']}_{base_name}_{document['_id']}.json"
 
 
-def write_pack_source(book_id: str, documents: list[dict]) -> None:
-    pack_dir = PACKS_DIR / book_id
-    if pack_dir.exists():
-        shutil.rmtree(pack_dir)
+def folder_filename(folder: dict) -> str:
+    base_name = slugify(folder.get("name", "folder")).replace("-", "_")[:80] or "folder"
+    return f"folders_{base_name}_{folder['_id']}.json"
+
+
+def build_folder_document(name: str, folder_id: str, sort: int) -> dict:
+    return {
+        "color": "#000000",
+        "name": name,
+        "sorting": "a",
+        "type": "Actor",
+        "folder": None,
+        "_id": folder_id,
+        "sort": sort,
+        "flags": {},
+        "_stats": build_stats_block(),
+        "_key": f"!folders!{folder_id}",
+    }
+
+
+def write_pack_source(datasets: list[tuple[str, str, list[dict]]]) -> None:
+    if PACKS_DIR.exists():
+        shutil.rmtree(PACKS_DIR)
+
+    pack_dir = PACKS_DIR / STATIC_PACK_ID
     pack_dir.mkdir(parents=True, exist_ok=True)
 
-    for document in documents:
-        write_json(pack_dir / pack_filename(document), document)
+    for dataset_index, (book_id, label, documents) in enumerate(datasets):
+        folder_id = stable_id("folder", STATIC_PACK_ID, book_id)
+        folder = build_folder_document(label, folder_id, dataset_index * 10)
+        write_json(pack_dir / folder_filename(folder), folder)
+
+        for document_index, document in enumerate(documents):
+            payload = copy.deepcopy(document)
+            payload["folder"] = folder_id
+            payload["sort"] = document_index * 10
+            write_json(pack_dir / pack_filename(payload), payload)
 
 
 def discover_path(explicit: str | None, candidates: list[Path]) -> Path:
@@ -1657,7 +1688,8 @@ def build_dataset(book_id: str, records: list[dict], template: dict) -> tuple[di
         "label": config["label"],
         "sourceBook": config["source_book"],
         "compendiumLabel": config["compendium_label"],
-        "packPath": f"packs/{book_id}",
+        "packPath": f"packs/{STATIC_PACK_ID}",
+        "folderName": config["label"],
         "count": len(documents),
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "documents": documents,
@@ -1706,9 +1738,12 @@ def main() -> int:
 
     dataset_index = {
         "moduleId": MODULE_ID,
+        "packId": STATIC_PACK_ID,
+        "packLabel": STATIC_PACK_LABEL,
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "datasets": [],
     }
+    pack_datasets: list[tuple[str, str, list[dict]]] = []
 
     for book_id, source_path in source_paths.items():
         source_text = source_path.read_text(encoding="utf-8")
@@ -1717,7 +1752,7 @@ def main() -> int:
 
         write_json(output_dir / BOOKS[book_id]["filename"], dataset)
         write_json(output_dir / BOOKS[book_id]["records_filename"], debug_records)
-        write_pack_source(book_id, dataset["documents"])
+        pack_datasets.append((book_id, dataset["label"], dataset["documents"]))
 
         dataset_index["datasets"].append(
             {
@@ -1727,6 +1762,7 @@ def main() -> int:
                 "filename": BOOKS[book_id]["filename"],
                 "recordsFilename": BOOKS[book_id]["records_filename"],
                 "packPath": dataset["packPath"],
+                "folderName": dataset["folderName"],
                 "count": dataset["count"],
                 "sourcePath": str(source_path),
             }
@@ -1734,6 +1770,7 @@ def main() -> int:
 
         print(f"{dataset['label']}: {dataset['count']} fichas generadas")
 
+    write_pack_source(pack_datasets)
     write_json(output_dir / "index.json", dataset_index)
     print(f"Índice actualizado en {output_dir / 'index.json'}")
     return 0

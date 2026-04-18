@@ -128,7 +128,7 @@ class GeneratedDataTest(unittest.TestCase):
 
     def test_manifest_is_installable_from_github(self):
         self.assertEqual(self.manifest["id"], "animu-exxet")
-        self.assertEqual(self.manifest["version"], "0.2.1")
+        self.assertEqual(self.manifest["version"], "0.2.2")
         self.assertTrue(DIST_ZIP.exists())
         self.assertEqual(
             self.manifest["manifest"],
@@ -143,25 +143,38 @@ class GeneratedDataTest(unittest.TestCase):
         self.assertIn("manifest", dependency)
 
     def test_manifest_declares_static_packs(self):
-        pack_names = [pack["name"] for pack in self.manifest["packs"]]
-        self.assertEqual(
-            pack_names,
-            [dataset["id"] for dataset in self.index["datasets"]],
-        )
+        self.assertEqual(len(self.manifest["packs"]), 1)
+        pack = self.manifest["packs"][0]
+        self.assertEqual(pack["name"], "creatures-exxet")
+        self.assertEqual(pack["label"], "Creatures Exxet")
+        self.assertEqual(pack["path"], "./packs/creatures-exxet")
 
     def test_pack_directories_match_generated_counts(self):
-        for dataset in self.index["datasets"]:
-            with self.subTest(dataset_id=dataset["id"]):
-                pack_dir = PACKS / dataset["id"]
-                self.assertTrue(pack_dir.exists())
-                entries = sorted(pack_dir.glob("*.json"))
-                self.assertEqual(len(entries), dataset["count"])
+        pack_dir = PACKS / "creatures-exxet"
+        self.assertTrue(pack_dir.exists())
 
-                sample = json.loads(entries[0].read_text(encoding="utf-8"))
-                self.assertEqual(sample["type"], "character")
-                self.assertIn("_id", sample)
-                self.assertEqual(sample["ownership"]["default"], 0)
-                self.assertEqual(sample["_stats"]["systemId"], "animabf")
+        entries = sorted(pack_dir.glob("*.json"))
+        actor_entries = [path for path in entries if path.name.startswith("character_")]
+        folder_entries = [path for path in entries if path.name.startswith("folders_")]
+
+        self.assertEqual(len(folder_entries), len(self.index["datasets"]))
+        self.assertEqual(
+            len(actor_entries),
+            sum(dataset["count"] for dataset in self.index["datasets"]),
+        )
+
+        folders = [json.loads(path.read_text(encoding="utf-8")) for path in folder_entries]
+        folder_ids = {folder["_id"] for folder in folders}
+        folder_names = {folder["name"] for folder in folders}
+        self.assertEqual(folder_names, {dataset["label"] for dataset in self.index["datasets"]})
+        self.assertTrue(all(folder["folder"] is None for folder in folders))
+
+        sample = json.loads(actor_entries[0].read_text(encoding="utf-8"))
+        self.assertEqual(sample["type"], "character")
+        self.assertIn("_id", sample)
+        self.assertEqual(sample["ownership"]["default"], 0)
+        self.assertEqual(sample["_stats"]["systemId"], "animabf")
+        self.assertIn(sample["folder"], folder_ids)
 
 
 if __name__ == "__main__":

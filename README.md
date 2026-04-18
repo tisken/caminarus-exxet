@@ -11,12 +11,12 @@ Addon para Foundry VTT orientado al sistema `animabf` que importa fichas de cria
 - `Anima Pantalla del Director`
 - `DRAVENOR Ejército regular de La Máquina` partes `1`, `2` y `3`
 
-El proyecto publica compendios del módulo listos para usar y además incluye JSON generados a partir de los manuales para poder copiar esas fichas a compendios de mundo si hace falta.
+El proyecto publica un compendio del módulo llamado `Creatures Exxet`, con una carpeta interna por manual, y además incluye JSON generados a partir de los manuales para poder copiar esas fichas a compendios de mundo si hace falta.
 
 ## Qué hace ahora
 
 - Genera documentos de actor compatibles con `animabf`.
-- Publica compendios del módulo separados por libro, visibles al activar el addon.
+- Publica un compendio del módulo `Creatures Exxet` con subcarpetas por libro, visible al activar el addon.
 - Permite copiar esas fichas a compendios de mundo independientes desde el importador.
 - Conserva el bloque original extraído y metadatos de fuente dentro de cada ficha.
 - Intenta mapear automáticamente atributos, resistencias, iniciativa, vida, movimiento, regeneración, habilidades secundarias y parte de lo sobrenatural.
@@ -42,8 +42,9 @@ Después instala el addon con esta `Manifest URL`:
 
 1. Asegúrate de tener instalado y activado el sistema `Anima Beyond Fantasy` (`animabf`).
 2. Activa el módulo `Animu Exxet` en tu mundo.
-3. Abre la pestaña de compendios: deberían aparecer directamente los packs del módulo, uno por manual.
-4. Si quieres versiones de mundo editables o reconstruibles, abre el importador del módulo y copia allí uno o varios libros.
+3. Abre la pestaña de compendios: debería aparecer directamente el pack `Creatures Exxet`.
+4. Dentro verás una carpeta por manual y, dentro de cada una, sus criaturas.
+5. Si quieres versiones de mundo editables o reconstruibles, abre el importador del módulo y copia allí uno o varios libros.
 
 ## Regenerar los datos
 
@@ -63,7 +64,7 @@ Tras regenerar los datos, el script vuelve a escribir tanto `data/generated/` co
 
 - `data/generated/`: datasets JSON listos para importar a compendios de mundo.
 - `data/reference/animabf-template.json`: plantilla de datos del sistema fuente.
-- `packs/`: compendios estáticos del módulo que Foundry muestra directamente.
+- `packs/`: compendio estático del módulo con carpetas internas por manual.
 - `scripts/`: lógica del módulo dentro de Foundry.
 - `templates/`: interfaz Handlebars del importador.
 - `tools/`: utilidades de generación y mantenimiento.
