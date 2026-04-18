@@ -128,7 +128,7 @@ class GeneratedDataTest(unittest.TestCase):
 
     def test_manifest_is_installable_from_github(self):
         self.assertEqual(self.manifest["id"], "animu-exxet")
-        self.assertEqual(self.manifest["version"], "0.2.2")
+        self.assertEqual(self.manifest["version"], "0.2.4")
         self.assertTrue(DIST_ZIP.exists())
         self.assertEqual(
             self.manifest["manifest"],
@@ -157,7 +157,7 @@ class GeneratedDataTest(unittest.TestCase):
         actor_entries = [path for path in entries if path.name.startswith("character_")]
         folder_entries = [path for path in entries if path.name.startswith("folders_")]
 
-        self.assertEqual(len(folder_entries), len(self.index["datasets"]))
+        self.assertEqual(len(folder_entries), len(self.index["datasets"]) + 1)
         self.assertEqual(
             len(actor_entries),
             sum(dataset["count"] for dataset in self.index["datasets"]),
@@ -165,9 +165,14 @@ class GeneratedDataTest(unittest.TestCase):
 
         folders = [json.loads(path.read_text(encoding="utf-8")) for path in folder_entries]
         folder_ids = {folder["_id"] for folder in folders}
-        folder_names = {folder["name"] for folder in folders}
-        self.assertEqual(folder_names, {dataset["label"] for dataset in self.index["datasets"]})
-        self.assertTrue(all(folder["folder"] is None for folder in folders))
+        root_folder = next(folder for folder in folders if folder["name"] == "Creatures Exxet")
+        child_folders = [folder for folder in folders if folder["_id"] != root_folder["_id"]]
+        self.assertIsNone(root_folder["folder"])
+        self.assertEqual(
+            {folder["name"] for folder in child_folders},
+            {dataset["label"] for dataset in self.index["datasets"]},
+        )
+        self.assertTrue(all(folder["folder"] == root_folder["_id"] for folder in child_folders))
 
         sample = json.loads(actor_entries[0].read_text(encoding="utf-8"))
         self.assertEqual(sample["type"], "character")
@@ -175,6 +180,9 @@ class GeneratedDataTest(unittest.TestCase):
         self.assertEqual(sample["ownership"]["default"], 0)
         self.assertEqual(sample["_stats"]["systemId"], "animabf")
         self.assertIn(sample["folder"], folder_ids)
+        self.assertIn("texture", sample["prototypeToken"])
+        self.assertIn("light", sample["prototypeToken"])
+        self.assertEqual(sample["prototypeToken"]["texture"]["src"], sample["img"])
 
 
 if __name__ == "__main__":

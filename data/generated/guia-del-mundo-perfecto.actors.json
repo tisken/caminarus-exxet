@@ -6,7 +6,7 @@
   "packPath": "packs/creatures-exxet",
   "folderName": "Guía del Mundo Perfecto",
   "count": 20,
-  "generatedAt": "2026-04-18T23:41:59.120101+00:00",
+  "generatedAt": "2026-04-18T23:54:07.845743+00:00",
   "documents": [
     {
       "_id": "71e694f9c863a289",
@@ -14,7 +14,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Marioneta de Fuego"
+        "name": "Marioneta de Fuego",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -177,6 +243,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Marioneta de Fuego",
@@ -1187,7 +1254,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Guardián de los Recuerdos"
+        "name": "Guardián de los Recuerdos",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -1350,6 +1483,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Guardián de los Recuerdos",
@@ -2378,13 +2512,80 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "O"
+        "name": "O",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [],
       "effects": [],
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "O",
@@ -3398,13 +3599,80 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Noth"
+        "name": "Noth",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [],
       "effects": [],
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Noth",
@@ -4424,13 +4692,80 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Desgarrar la Realidad Vórtice Recuperación Antinatural Nothpotestas"
+        "name": "Desgarrar la Realidad Vórtice Recuperación Antinatural Nothpotestas",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [],
       "effects": [],
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Desgarrar la Realidad Vórtice Recuperación Antinatural Nothpotestas",
@@ -5450,7 +5785,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Hidra Reina"
+        "name": "Hidra Reina",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -5613,6 +6014,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Hidra Reina",
@@ -6629,7 +7031,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "El Agua Ypuede Sobrevivir Sumergida Durante Horas"
+        "name": "El Agua Ypuede Sobrevivir Sumergida Durante Horas",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -6792,6 +7260,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "El Agua Ypuede Sobrevivir Sumergida Durante Horas",
@@ -7823,13 +8292,80 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Aura de Miedo Cuchillas Sombrías Control Ambiental Variaciones"
+        "name": "Aura de Miedo Cuchillas Sombrías Control Ambiental Variaciones",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [],
       "effects": [],
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Aura de Miedo Cuchillas Sombrías Control Ambiental Variaciones",
@@ -8849,7 +9385,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Energía Calor Infernal Inmune al Fuego Cuerpo Construido"
+        "name": "Energía Calor Infernal Inmune al Fuego Cuerpo Construido",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -9012,6 +9614,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Energía Calor Infernal Inmune al Fuego Cuerpo Construido",
@@ -10046,7 +10649,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Puedenno Títeres los Artificiales Construcciones Seral"
+        "name": "Puedenno Títeres los Artificiales Construcciones Seral",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -10209,6 +10878,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Puedenno Títeres los Artificiales Construcciones Seral",
@@ -11216,13 +11886,80 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Hidra Reina (2)"
+        "name": "Hidra Reina (2)",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [],
       "effects": [],
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Hidra Reina",
@@ -12242,7 +12979,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Armas Físicas Movimiento Libre Cuerpo de Metal"
+        "name": "Armas Físicas Movimiento Libre Cuerpo de Metal",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -12405,6 +13208,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Armas Físicas Movimiento Libre Cuerpo de Metal",
@@ -13433,7 +14237,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Caballero Dorado"
+        "name": "Caballero Dorado",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -13596,6 +14466,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Caballero Dorado",
@@ -14624,7 +15495,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Procasian Mayor Alfa"
+        "name": "Procasian Mayor Alfa",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -14787,6 +15724,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Procasian Mayor Alfa",
@@ -15815,13 +16753,80 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Malekith Señor"
+        "name": "Malekith Señor",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [],
       "effects": [],
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Malekith Señor",
@@ -16871,7 +17876,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Druagael Caído"
+        "name": "Druagael Caído",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -17034,6 +18105,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Druagael Caído",
@@ -18068,7 +19140,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Pesadilla Viviente"
+        "name": "Pesadilla Viviente",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -18231,6 +19369,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Pesadilla Viviente",
@@ -19274,7 +20413,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Como Conocido Mensajero Enigmático del Sabese Poco"
+        "name": "Como Conocido Mensajero Enigmático del Sabese Poco",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -19437,6 +20642,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Como Conocido Mensajero Enigmático del Sabese Poco",
@@ -20501,13 +21707,80 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Lúgubre"
+        "name": "Lúgubre",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [],
       "effects": [],
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Lúgubre",
@@ -21518,7 +22791,73 @@
       "type": "character",
       "img": "icons/svg/mystery-man.svg",
       "prototypeToken": {
-        "name": "Ergo Mundus el Monstruo Definitivo"
+        "name": "Ergo Mundus el Monstruo Definitivo",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "characteristics.secondaries.lifePoints"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "flags": {
+          "levels": {
+            "tokenHeight": 0
+          }
+        },
+        "randomImg": false,
+        "light": {
+          "dim": 0,
+          "bright": 0,
+          "angle": 360,
+          "color": null,
+          "alpha": 0.25,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "type": null,
+            "reverse": false
+          },
+          "coloration": 1,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "appendNumber": false,
+        "prependAdjective": false,
+        "detectionModes": []
       },
       "items": [
         {
@@ -21681,6 +23020,7 @@
       "folder": null,
       "sort": 0,
       "flags": {
+        "core": {},
         "animu-exxet": {
           "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
           "sourceHeading": "Ergo Mundus el Monstruo Definitivo",

@@ -4,7 +4,73 @@
   "type": "character",
   "img": "icons/svg/mystery-man.svg",
   "prototypeToken": {
-    "name": "Killrayne, Ejecutor Imperial Supremo"
+    "name": "Killrayne, Ejecutor Imperial Supremo",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "characteristics.secondaries.lifePoints"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "levels": {
+        "tokenHeight": 0
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "detectionModes": []
   },
   "items": [
     {
@@ -167,6 +233,7 @@
   "folder": "4479be63d095c638",
   "sort": 10,
   "flags": {
+    "core": {},
     "animu-exxet": {
       "sourceBook": "Dramatis Personae Vol. 2",
       "sourceHeading": "Killrayne, Ejecutor Imperial Supremo",
@@ -176,6 +243,10 @@
       "rawDamage": "110 / 130 Kokindenju (Katana +15), 140 / 160 Abdalmalek (Mandoble +10), 90 / 110 Solaris (Lanza +10), 105 Hrotti (Hacha de Mano +15), 80 Vilen (Daga de Parada +10), 85 Cadena de Gaira (Cadena +15), 100 Drakengard (Martillo de Guerra +10).",
       "rawTA": "Piezas +10 y Gabardina +15 FIL 8 CON 6 PEN 7 CAL 7 ELE 7 FRI 7 ENE 0 Acumulaciones de es 6 Agi 3 Con 2 Pod 2 Vol 2 es 36 Agi 32 Con 12 Pod 30 Vol 10 Genérico: 132 Habilidades del",
       "warnings": []
+    },
+    "cf": {
+      "id": "temp_4479be63d095c638",
+      "color": "#000000"
     }
   },
   "system": {

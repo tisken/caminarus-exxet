@@ -22,6 +22,7 @@ ANIMABF_SYSTEM_VERSION = "2.2.1"
 FOUNDRY_CORE_VERSION = "14.359"
 STATIC_PACK_ID = "creatures-exxet"
 STATIC_PACK_LABEL = "Creatures Exxet"
+STATIC_PACK_ROOT_FOLDER = STATIC_PACK_LABEL
 
 
 def default_candidates(filename: str) -> list[Path]:
@@ -581,6 +582,74 @@ def stable_id(*parts: str, length: int = 16) -> str:
     return digest[:length]
 
 
+def build_prototype_token(name: str, image_path: str) -> dict:
+    return {
+        "name": name,
+        "displayName": 0,
+        "actorLink": False,
+        "width": 1,
+        "height": 1,
+        "lockRotation": False,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {"attribute": "characteristics.secondaries.lifePoints"},
+        "bar2": {"attribute": None},
+        "flags": {
+            "levels": {
+                "tokenHeight": 0
+            }
+        },
+        "randomImg": False,
+        "light": {
+            "dim": 0,
+            "bright": 0,
+            "angle": 360,
+            "color": None,
+            "alpha": 0.25,
+            "animation": {
+                "speed": 5,
+                "intensity": 5,
+                "type": None,
+                "reverse": False,
+            },
+            "coloration": 1,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1,
+            },
+        },
+        "texture": {
+            "src": image_path,
+            "tint": None,
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+        },
+        "sight": {
+            "angle": 360,
+            "enabled": False,
+            "range": 0,
+            "brightness": 1,
+            "visionMode": "basic",
+            "attenuation": 0.1,
+            "saturation": 0,
+            "contrast": 0,
+        },
+        "appendNumber": False,
+        "prependAdjective": False,
+        "detectionModes": [],
+    }
+
+
 def pack_filename(document: dict) -> str:
     base_name = slugify(document.get("name", "entry")).replace("-", "_")[:80] or "entry"
     return f"{document['type']}_{base_name}_{document['_id']}.json"
@@ -591,13 +660,15 @@ def folder_filename(folder: dict) -> str:
     return f"folders_{base_name}_{folder['_id']}.json"
 
 
-def build_folder_document(name: str, folder_id: str, sort: int) -> dict:
+def build_folder_document(
+    name: str, folder_id: str, sort: int, parent_folder_id: str | None = None
+) -> dict:
     return {
         "color": "#000000",
         "name": name,
         "sorting": "a",
         "type": "Actor",
-        "folder": None,
+        "folder": parent_folder_id,
         "_id": folder_id,
         "sort": sort,
         "flags": {},
@@ -613,15 +684,30 @@ def write_pack_source(datasets: list[tuple[str, str, list[dict]]]) -> None:
     pack_dir = PACKS_DIR / STATIC_PACK_ID
     pack_dir.mkdir(parents=True, exist_ok=True)
 
+    root_folder_id = stable_id("folder", STATIC_PACK_ID, "root")
+    root_folder = build_folder_document(STATIC_PACK_ROOT_FOLDER, root_folder_id, 0)
+    write_json(pack_dir / folder_filename(root_folder), root_folder)
+
     for dataset_index, (book_id, label, documents) in enumerate(datasets):
         folder_id = stable_id("folder", STATIC_PACK_ID, book_id)
-        folder = build_folder_document(label, folder_id, dataset_index * 10)
+        folder = build_folder_document(
+            label,
+            folder_id,
+            (dataset_index + 1) * 10,
+            parent_folder_id=root_folder_id,
+        )
         write_json(pack_dir / folder_filename(folder), folder)
 
         for document_index, document in enumerate(documents):
             payload = copy.deepcopy(document)
             payload["folder"] = folder_id
             payload["sort"] = document_index * 10
+            payload.setdefault("flags", {})
+            payload["flags"]["core"] = payload["flags"].get("core", {})
+            payload["flags"]["cf"] = {
+                "id": f"temp_{folder_id}",
+                "color": "#000000",
+            }
             write_json(pack_dir / pack_filename(payload), payload)
 
 
@@ -1408,14 +1494,13 @@ def build_actor_document(record: dict, template: dict) -> dict:
         "name": record["name"],
         "type": "character",
         "img": "icons/svg/mystery-man.svg",
-        "prototypeToken": {
-            "name": record["name"]
-        },
+        "prototypeToken": build_prototype_token(record["name"], "icons/svg/mystery-man.svg"),
         "items": prepared_items,
         "effects": [],
         "folder": None,
         "sort": 0,
         "flags": {
+            "core": {},
             MODULE_ID: {
                 "sourceBook": record["source_book"],
                 "sourceHeading": record["source_heading"],

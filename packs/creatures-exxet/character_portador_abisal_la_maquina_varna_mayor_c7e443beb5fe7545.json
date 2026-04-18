@@ -4,7 +4,73 @@
   "type": "character",
   "img": "icons/svg/mystery-man.svg",
   "prototypeToken": {
-    "name": "Portador Abisal (La Máquina · Varna mayor)"
+    "name": "Portador Abisal (La Máquina · Varna mayor)",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "characteristics.secondaries.lifePoints"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "levels": {
+        "tokenHeight": 0
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "detectionModes": []
   },
   "items": [
     {
@@ -167,6 +233,7 @@
   "folder": "4fbf29ea4e8d5274",
   "sort": 10,
   "flags": {
+    "core": {},
     "animu-exxet": {
       "sourceBook": "DRAVENOR Ejército regular de La Máquina · Parte 3",
       "sourceHeading": "Portador Abisal (La Máquina · Varna mayor)",
@@ -176,6 +243,10 @@
       "rawDamage": "150 Fauces Trituradoras (Fil), 100 Embestida (Con)",
       "rawTA": "Natural Fil 10 Con 10 Pen 10 Cal 10 Fri 10 Ele 10 Ene 8",
       "warnings": []
+    },
+    "cf": {
+      "id": "temp_4fbf29ea4e8d5274",
+      "color": "#000000"
     }
   },
   "system": {

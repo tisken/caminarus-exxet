@@ -4,13 +4,80 @@
   "type": "character",
   "img": "icons/svg/mystery-man.svg",
   "prototypeToken": {
-    "name": "Los Tres Lobos Oscuros"
+    "name": "Los Tres Lobos Oscuros",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "characteristics.secondaries.lifePoints"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "levels": {
+        "tokenHeight": 0
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "detectionModes": []
   },
   "items": [],
   "effects": [],
   "folder": "c929c65b43b0b07d",
   "sort": 310,
   "flags": {
+    "core": {},
     "animu-exxet": {
       "sourceBook": "Anima Pantalla del Director",
       "sourceHeading": "Los Tres Lobos Oscuros",
@@ -20,6 +87,10 @@
       "rawDamage": "50 Garras y fauces PEN",
       "rawTA": null,
       "warnings": []
+    },
+    "cf": {
+      "id": "temp_c929c65b43b0b07d",
+      "color": "#000000"
     }
   },
   "system": {
