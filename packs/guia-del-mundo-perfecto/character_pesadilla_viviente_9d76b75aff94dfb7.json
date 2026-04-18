@@ -1,0 +1,1206 @@
+{
+  "_id": "9d76b75aff94dfb7",
+  "name": "Pesadilla Viviente",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Pesadilla Viviente"
+  },
+  "items": [
+    {
+      "name": "8 Natural",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 8
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 8
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 8
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 8
+        },
+        "thrust": {
+          "base": {
+            "value": 8
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 8
+        },
+        "heat": {
+          "base": {
+            "value": 8
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 8
+        },
+        "electricity": {
+          "base": {
+            "value": 8
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 8
+        },
+        "cold": {
+          "base": {
+            "value": 8
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 8
+        },
+        "energy": {
+          "base": {
+            "value": 8
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 8
+        },
+        "integrity": {
+          "base": {
+            "value": 26
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 26
+        },
+        "presence": {
+          "base": {
+            "value": 60
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 60
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "b3d08f7fc2ad33ba",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!9d76b75aff94dfb7.b3d08f7fc2ad33ba"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
+      "sourceHeading": "Pesadilla Viviente",
+      "page": 28,
+      "variant": null,
+      "rawClass": "Nóvel Fue: 14 Des: 13 Agi: 9 Con: 15 Pod: 13 Int: 13 Vol: 12 Per: 12 RF 120 RM 115 RP 110 RV 120 RE 120",
+      "rawDamage": "145 Arma Natural",
+      "rawTA": "8 Natural",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": false
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": true
+        },
+        "inhuman": {
+          "value": false
+        },
+        "zen": {
+          "value": true
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Nóvel Fue: 14 Des: 13 Agi: 9 Con: 15 Pod: 13 Int: 13 Vol: 12 Per: 12 RF 120 RM 115 RP 110 RV 120 RE 120"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": 29
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 28</p><p><strong>Entrada:</strong> Pesadilla Viviente</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Nóvel Fue: 14 Des: 13 Agi: 9 Con: 15 Pod: 13 Int: 13 Vol: 12 Per: 12 RF 120 RM 115 RP 110 RV 120 RE 120</p><p><strong>Categoría:</strong> Entre Mundos, Creación 25</p><p><strong>Habilidades esenciales:</strong> Características Físicas Divinas, Características Anímicas Sobrenaturales, Zen, Exención Física.</p><p><strong>Poderes:</strong> Arma Natural, Cañon Ígneo, Alas de Espadas, Extremidades, Terminales, Punto Vulnerable.</p><p><strong>Daño:</strong> 145 Arma Natural</p><p><strong>TA:</strong> 8 Natural</p><p><strong>Habilidades secundarias:</strong> Montar 110, Trepar 110, Saltar 115, Frialdad 110, Proeza de Fuerza 115, Advertir 130, Buscar 110, Ciencia 285, Herbolaria 35, Historia 110, Medicina 175, Memorizar 110, Ocultismo 265, Arte 275, Forja 275</p><p><strong>Descripción breve:</strong> Cañon Ígneo: Alas de Espadas: Nascal tiene dos Extremidades: Terminales: Punto Vulnerable: Marionetas: eL SIN NOMBREEntre las muchas armas sobrenaturales con las que Nascal está equipado, los Cañones Ígneos son los más peligrosos con diferencia. Son generadores de hechizos de fuego que desencadenan enormes explosiones que incineran todo en grandes áreas. Esta habilidad le permite al maestro marionetista crear ataques de explosión basados en fuego sobrenatural que afectan a todos en un área con un radio de 25 metros. No es posible elegir objetivos dentro del área de efecto del ataque, pero el propio Nascal no se ve afectado por las llamas. Para usar esta habilidad, Nascal debe sacrificar uno de sus ataques en ese asalto. Por lo general, los Cañones Ígneos tienen suficiente munición para activarse doce veces antes de necesitar energía adicional. grandes apéndices con cuchillas en la parte superior de la espalda que puede usar para atacar, ya sea de forma independiente o en combinación con sus extremidades. Estos ataques son menos precisos y afectan a un solo objetivo cada uno, pero su daño es mucho mayor y reducen en 4 puntos del Tipo de Armadura del defensor. Dado su tamaño, Nascal a menudo usa sus extremidades para atacar, ya sea aplastando o pisoteando a los enemigos. Los ataques tienen un área de efecto de cinco metros centrados en el punto donde golpean. Todos los títeres de Nascal están conectados a él y puede ver y escuchar a través de ellos como si estuviera presente. Esta habilidad no es innata, y Nascal debe decidir cuándo quiere usarla y con qué “terminal” se conectará. Este enlace también le permite comandar y organizar remotamente sus títeres a voluntad, como un verdadero titiritero. Si bien casi todo el cuerpo de Nascal es extremadamente resistente al daño, los ataques dirigidos a su cabeza son extremadamente efectivos, ya que ese punto es donde tiene la maquinaria más vulnerable y menos protegida. Así que si alguien consigue llegar hasta allí (algo difícil, ya que la cabeza suele estar a algo más de 20 metros de altura), los ataques dirigidos a este punto ignoran la armadura física de Nascal. Nascal suele tener dentro de su cuerpo varias marionetas de combate que puede liberar a su antojo para luchar si es necesario. Normalmente lleva dentro veinte de ellas, de diferentes modelos. Parcas. Tres las a posición su cedió y mortal volvió se misión, eterna su de cansada quien, original, Muerte la es que dicen Otros vida. segar cualquier de poder el con Mundos Entre Ser un en convirtiéndolo cuerpo), su en misma Muerte la a atraparon que dicen versiones (algunas Muerte la de Dios un de restos los usando vida su salvar logró Etheldrea amante ex su muerte, la de borde al Destrozadoy combate. en cayó y esclavos los de revolución última la durante pueblo su contra levantó se quien Yehudah, de emperador primer del pequeño hermano el era que dice historia vieja Una manera. alguna de Muerte la a ligado intrínsecamente está derecho brazo su que en coinciden todos pero no, o verdad de algo tiene ellos de alguno si saber difícil Es camino. su en cruzado han se quienes por inventadas leyendas y mitos de decenas de rodeado está Nombre Sin El que es cierto Lo tarea. su en prisa tener no parece pero pasado), el en ellos de varios a destruido haber tras Iglesia la por incluido sido ha que el en (grupo Fin del Mensajeros los de busca en hombres los de mundo el por camina Nombre Sin El piedad. tiene tampoco pero amenaza, una representar para débil demasiado considere que nadie a lastima Nunca necesita. lo si alguien con interactuar en problema tiene no pero habla, vez Rara silenciosa. y reflexiva entidad una es Nombre Sin El espalda. la a encadenado derecho brazo el tiene siempre pero diferentes, maneras muchas de viste Se negro. y largo cabello con pálido hombre un es vista primera Atodo. temblar hace que olvidado poder un con ser un sino mortal, simple un es no que inmediato de sabe auras sentir pueda que cualquiera humana, es apariencia su Aunque Baal. contra humanidad la de lado del Sombras las en Guerra Tercera la durante vez primera por Apareció Nombre. Sin El como conocido Mensajero enigmático del sabe se Poco _Página 29_</p></section><details><summary>Texto extraído</summary><pre>Nivel: 13 Categoría: Entre Mundos, Creación 25 Puntos de Vida: 6.250\n\nClase: Nóvel Fue: 14 Des: 13 Agi: 9 Con: 15 Pod: 13 Int: 13 Vol: 12 Per: 12 RF 120 RM 115 RP 110 RV 120 RE 120\n\nTurno: 110 Natural Habilidad de Ataque: 275 Arma Natural Habilidad de Defensa: Acumulación Daño: 145 Arma Natural TA: 8 Natural Habilidades Esenciales: Características Físicas Divinas, Características Anímicas Sobrenaturales, Zen, Exención Física. Poderes: Arma Natural, Cañon Ígneo, Alas de Espadas, Extremidades, Terminales, Punto Vulnerable.\n\nTamaño: 29 Gigante Regeneración: 0 Tipo de movimiento: 11 Cansancio: Incansable Habilidades Secundarias: Montar 110, Trepar 110, Saltar 115, Frialdad 110, Proeza de Fuerza 115, Advertir 130, Buscar 110, Ciencia 285, Herbolaria 35, Historia 110, Medicina 175, Memorizar 110, Ocultismo 265, Arte 275, Forja 275. Cañon Ígneo: Alas de Espadas: Nascal tiene dos Extremidades: Terminales: Punto Vulnerable: Marionetas: eL SIN NOMBREEntre las muchas armas sobrenaturales con las que Nascal está equipado, los Cañones Ígneos son los más peligrosos con diferencia. Son generadores de hechizos de fuego que desencadenan enormes explosiones que incineran todo en grandes áreas. Esta habilidad le permite al maestro marionetista crear ataques de explosión basados en fuego sobrenatural que afectan a todos en un área con un radio de 25 metros.\n\nNo es posible elegir objetivos dentro del área de efecto del ataque, pero el propio Nascal no se ve afectado por las llamas. Para usar esta habilidad, Nascal debe sacrificar uno de sus ataques en ese asalto. Por lo general, los Cañones Ígneos tienen suficiente munición para activarse doce veces antes de necesitar energía adicional. grandes apéndices con cuchillas en la parte superior de la espalda que puede usar para atacar, ya sea de forma independiente o en combinación con sus extremidades. Estos ataques son menos precisos y afectan a un solo objetivo cada uno, pero su daño es mucho mayor y reducen en 4 puntos del Tipo de Armadura del defensor. Dado su tamaño, Nascal a menudo usa sus extremidades para atacar, ya sea aplastando o pisoteando a los enemigos. Los ataques tienen un área de efecto de cinco metros centrados en el punto donde golpean.\n\nTodos los títeres de Nascal están conectados a él y puede ver y escuchar a través de ellos como si estuviera presente. Esta habilidad no es innata, y Nascal debe decidir cuándo quiere usarla y con qué “terminal” se conectará. Este enlace también le permite comandar y organizar remotamente sus títeres a voluntad, como un verdadero titiritero. Si bien casi todo el cuerpo de Nascal es extremadamente resistente al daño, los ataques dirigidos a su cabeza son extremadamente efectivos, ya que ese punto es donde tiene la maquinaria más vulnerable y menos protegida. Así que si alguien consigue llegar hasta allí (algo difícil, ya que la cabeza suele estar a algo más de 20 metros de altura), los ataques dirigidos a este punto ignoran la armadura física de Nascal. Nascal suele tener dentro de su cuerpo varias marionetas de combate que puede liberar a su antojo para luchar si es necesario.\n\nNormalmente lleva dentro veinte de ellas, de diferentes modelos. Parcas. Tres las a posición su cedió y mortal volvió se misión, eterna su de cansada quien, original, Muerte la es que dicen Otros vida. segar cualquier de poder el con Mundos Entre Ser un en convirtiéndolo cuerpo), su en misma Muerte la a atraparon que dicen versiones (algunas Muerte la de Dios un de restos los usando vida su salvar logró Etheldrea amante ex su muerte, la de borde al Destrozadoy combate. en cayó y esclavos los de revolución última la durante pueblo su contra levantó se quien Yehudah, de emperador primer del pequeño hermano el era que dice historia vieja Una manera. alguna de Muerte la a ligado intrínsecamente está derecho brazo su que en coinciden todos pero no, o verdad de algo tiene ellos de alguno si saber difícil Es camino.\n\nsu en cruzado han se quienes por inventadas leyendas y mitos de decenas de rodeado está Nombre Sin El que es cierto Lo tarea. su en prisa tener no parece pero pasado), el en ellos de varios a destruido haber tras Iglesia la por incluido sido ha que el en (grupo Fin del Mensajeros los de busca en hombres los de mundo el por camina Nombre Sin El piedad. tiene tampoco pero amenaza, una representar para débil demasiado considere que nadie a lastima Nunca necesita. lo si alguien con interactuar en problema tiene no pero habla, vez Rara silenciosa. y reflexiva entidad una es Nombre Sin El espalda. la a encadenado derecho brazo el tiene siempre pero diferentes, maneras muchas de viste Se negro. y largo cabello con pálido hombre un es vista primera Atodo.\n\ntemblar hace que olvidado poder un con ser un sino mortal, simple un es no que inmediato de sabe auras sentir pueda que cualquiera humana, es apariencia su Aunque Baal. contra humanidad la de lado del Sombras las en Guerra Tercera la durante vez primera por Apareció Nombre. Sin El como conocido Mensajero enigmático del sabe se Poco\n\n&lt;!-- tags: @personaje, @magia, @regla --&gt;\n\n_Página 29_</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-pesadilla-viviente",
+          "type": "level",
+          "name": "Pesadilla Viviente",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 13
+          }
+        }
+      ],
+      "level": {
+        "value": 13
+      },
+      "notes": [
+        {
+          "_id": "note-pesadilla-viviente-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características Físicas Divinas, Características Anímicas Sobrenaturales, Zen, Exención Física.",
+          "system": {}
+        },
+        {
+          "_id": "note-pesadilla-viviente-4",
+          "type": "note",
+          "name": "Poderes: Arma Natural, Cañon Ígneo, Alas de Espadas, Extremidades, Terminales, Punto Vulnerable.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 9
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 15
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 14
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 6250,
+          "max": 6250
+        },
+        "initiative": {
+          "base": {
+            "value": 110
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": -8
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 2
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}",
+          "base": {
+            "value": 110
+          }
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 110
+          }
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 115
+          }
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
+          "base": {
+            "value": 110
+          }
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 130
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 110
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 285
+          }
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 35
+          }
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 110
+          }
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 175
+          }
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 110
+          }
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 265
+          }
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
+          "base": {
+            "value": 275
+          }
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
+          "base": {
+            "value": 275
+          }
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 275
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!9d76b75aff94dfb7"
+}

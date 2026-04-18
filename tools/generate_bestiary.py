@@ -3,9 +3,11 @@ from __future__ import annotations
 
 import argparse
 import copy
+import hashlib
 import html
 import json
 import re
+import shutil
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
@@ -14,6 +16,10 @@ MODULE_ID = "animu-exxet"
 MODULE_ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE_PATH = MODULE_ROOT / "data/reference/animabf-template.json"
 OUTPUT_DIR = MODULE_ROOT / "data/generated"
+PACKS_DIR = MODULE_ROOT / "packs"
+ANIMABF_SYSTEM_ID = "animabf"
+ANIMABF_SYSTEM_VERSION = "2.2.1"
+FOUNDRY_CORE_VERSION = "14.359"
 
 
 def default_candidates(filename: str) -> list[Path]:
@@ -555,6 +561,37 @@ def write_json(path: Path, payload: dict | list) -> None:
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+
+
+def build_stats_block() -> dict:
+    return {
+        "systemId": ANIMABF_SYSTEM_ID,
+        "systemVersion": ANIMABF_SYSTEM_VERSION,
+        "coreVersion": FOUNDRY_CORE_VERSION,
+        "createdTime": None,
+        "modifiedTime": None,
+        "lastModifiedBy": None,
+    }
+
+
+def stable_id(*parts: str, length: int = 16) -> str:
+    digest = hashlib.sha1("::".join(parts).encode("utf-8")).hexdigest()
+    return digest[:length]
+
+
+def pack_filename(document: dict) -> str:
+    base_name = slugify(document.get("name", "entry")).replace("-", "_")[:80] or "entry"
+    return f"{document['type']}_{base_name}_{document['_id']}.json"
+
+
+def write_pack_source(book_id: str, documents: list[dict]) -> None:
+    pack_dir = PACKS_DIR / book_id
+    if pack_dir.exists():
+        shutil.rmtree(pack_dir)
+    pack_dir.mkdir(parents=True, exist_ok=True)
+
+    for document in documents:
+        write_json(pack_dir / pack_filename(document), document)
 
 
 def discover_path(explicit: str | None, candidates: list[Path]) -> Path:
@@ -1140,6 +1177,7 @@ def build_note_entries(record: dict) -> list[dict]:
 
 
 def build_actor_document(record: dict, template: dict) -> dict:
+    actor_id = stable_id(record["id"])
     system = copy.deepcopy(template["Actor"]["character"])
     stats = record["primary_stats"]
     resistances = record["resistances"]
@@ -1321,15 +1359,31 @@ def build_actor_document(record: dict, template: dict) -> dict:
     if armor_item:
         items.append(armor_item)
 
+    prepared_items = []
+    for index, item in enumerate(items):
+        item_id = stable_id(actor_id, item["type"], item["name"], str(index))
+        prepared_item = copy.deepcopy(item)
+        prepared_item["_id"] = item_id
+        prepared_item.setdefault("folder", None)
+        prepared_item.setdefault("sort", index * 10)
+        prepared_item.setdefault("flags", {})
+        prepared_item.setdefault("ownership", {"default": 0})
+        prepared_item["_stats"] = build_stats_block()
+        prepared_item["_key"] = f"!actors.items!{actor_id}.{item_id}"
+        prepared_items.append(prepared_item)
+
     return {
+        "_id": actor_id,
         "name": record["name"],
         "type": "character",
         "img": "icons/svg/mystery-man.svg",
         "prototypeToken": {
             "name": record["name"]
         },
-        "items": items,
+        "items": prepared_items,
         "effects": [],
+        "folder": None,
+        "sort": 0,
         "flags": {
             MODULE_ID: {
                 "sourceBook": record["source_book"],
@@ -1343,6 +1397,11 @@ def build_actor_document(record: dict, template: dict) -> dict:
             }
         },
         "system": system,
+        "_stats": build_stats_block(),
+        "ownership": {
+            "default": 0
+        },
+        "_key": f"!actors!{actor_id}",
     }
 
 
@@ -1598,6 +1657,7 @@ def build_dataset(book_id: str, records: list[dict], template: dict) -> tuple[di
         "label": config["label"],
         "sourceBook": config["source_book"],
         "compendiumLabel": config["compendium_label"],
+        "packPath": f"packs/{book_id}",
         "count": len(documents),
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "documents": documents,
@@ -1633,6 +1693,7 @@ def main() -> int:
     template = read_json(TEMPLATE_PATH)
     output_dir = Path(args.output_dir).expanduser().resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
+    PACKS_DIR.mkdir(parents=True, exist_ok=True)
 
     overrides = {
         "core-exxet": args.core,
@@ -1656,6 +1717,7 @@ def main() -> int:
 
         write_json(output_dir / BOOKS[book_id]["filename"], dataset)
         write_json(output_dir / BOOKS[book_id]["records_filename"], debug_records)
+        write_pack_source(book_id, dataset["documents"])
 
         dataset_index["datasets"].append(
             {
@@ -1664,6 +1726,7 @@ def main() -> int:
                 "sourceBook": dataset["sourceBook"],
                 "filename": BOOKS[book_id]["filename"],
                 "recordsFilename": BOOKS[book_id]["records_filename"],
+                "packPath": dataset["packPath"],
                 "count": dataset["count"],
                 "sourcePath": str(source_path),
             }

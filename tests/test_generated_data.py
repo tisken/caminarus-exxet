@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parent.parent
 GENERATED = ROOT / "data/generated"
 MANIFEST = ROOT / "module.json"
 DIST_ZIP = ROOT / "dist/animu-exxet.zip"
+PACKS = ROOT / "packs"
 
 
 def load_json(path: Path | str):
@@ -127,7 +128,7 @@ class GeneratedDataTest(unittest.TestCase):
 
     def test_manifest_is_installable_from_github(self):
         self.assertEqual(self.manifest["id"], "animu-exxet")
-        self.assertEqual(self.manifest["version"], "0.2.0")
+        self.assertEqual(self.manifest["version"], "0.2.1")
         self.assertTrue(DIST_ZIP.exists())
         self.assertEqual(
             self.manifest["manifest"],
@@ -140,6 +141,27 @@ class GeneratedDataTest(unittest.TestCase):
         dependency = self.manifest["relationships"]["systems"][0]
         self.assertEqual(dependency["id"], "animabf")
         self.assertIn("manifest", dependency)
+
+    def test_manifest_declares_static_packs(self):
+        pack_names = [pack["name"] for pack in self.manifest["packs"]]
+        self.assertEqual(
+            pack_names,
+            [dataset["id"] for dataset in self.index["datasets"]],
+        )
+
+    def test_pack_directories_match_generated_counts(self):
+        for dataset in self.index["datasets"]:
+            with self.subTest(dataset_id=dataset["id"]):
+                pack_dir = PACKS / dataset["id"]
+                self.assertTrue(pack_dir.exists())
+                entries = sorted(pack_dir.glob("*.json"))
+                self.assertEqual(len(entries), dataset["count"])
+
+                sample = json.loads(entries[0].read_text(encoding="utf-8"))
+                self.assertEqual(sample["type"], "character")
+                self.assertIn("_id", sample)
+                self.assertEqual(sample["ownership"]["default"], 0)
+                self.assertEqual(sample["_stats"]["systemId"], "animabf")
 
 
 if __name__ == "__main__":

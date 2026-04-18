@@ -2,7 +2,7 @@
   "id": "animu-exxet",
   "title": "Animu Exxet",
   "description": "Addon para Anima Beyond Foundry que importa bestiarios, criaturas y PNJ desde Core Exxet, Los que caminaron con nosotros y otros manuales como compendios de actores.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "compatibility": {
     "minimum": "13",
     "verified": "14.359"
@@ -23,6 +23,98 @@
       "lang": "es",
       "name": "Español",
       "path": "lang/es.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "core-exxet",
+      "label": "Animu Exxet · Core Exxet",
+      "system": "animabf",
+      "path": "./packs/core-exxet",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "caminaron-con-nosotros",
+      "label": "Animu Exxet · Los que caminaron con nosotros",
+      "system": "animabf",
+      "path": "./packs/caminaron-con-nosotros",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "complemento-web-vol-1",
+      "label": "Animu Exxet · Complemento Web Vol. 1",
+      "system": "animabf",
+      "path": "./packs/complemento-web-vol-1",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "guia-del-mundo-perfecto",
+      "label": "Animu Exxet · Guía del Mundo Perfecto",
+      "system": "animabf",
+      "path": "./packs/guia-del-mundo-perfecto",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "dramatis-personae",
+      "label": "Animu Exxet · Dramatis Personae",
+      "system": "animabf",
+      "path": "./packs/dramatis-personae",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "dramatis-personae-vol-2",
+      "label": "Animu Exxet · Dramatis Personae Vol. 2",
+      "system": "animabf",
+      "path": "./packs/dramatis-personae-vol-2",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pantalla-del-director",
+      "label": "Animu Exxet · Pantalla del Director",
+      "system": "animabf",
+      "path": "./packs/pantalla-del-director",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "dravenor-parte-1",
+      "label": "Animu Exxet · Dravenor Parte 1",
+      "system": "animabf",
+      "path": "./packs/dravenor-parte-1",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "dravenor-parte-2",
+      "label": "Animu Exxet · Dravenor Parte 2",
+      "system": "animabf",
+      "path": "./packs/dravenor-parte-2",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "dravenor-parte-3",
+      "label": "Animu Exxet · Dravenor Parte 3",
+      "system": "animabf",
+      "path": "./packs/dravenor-parte-3",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
     }
   ],
   "relationships": {

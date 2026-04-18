@@ -1,0 +1,1197 @@
+{
+  "_id": "25110cb70800791d",
+  "name": "Dragón de Gaira",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Dragón de Gaira"
+  },
+  "items": [
+    {
+      "name": "Escamas de Acero Negro + Natural",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "thrust": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "heat": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "electricity": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "cold": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "energy": {
+          "base": {
+            "value": 10
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 10
+        },
+        "integrity": {
+          "base": {
+            "value": 34
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 34
+        },
+        "presence": {
+          "base": {
+            "value": 80
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 80
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "25f6ded9ea22279c",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!25110cb70800791d.25f6ded9ea22279c"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "Anima Beyond Fantasy - Los que caminaron con nosotros",
+      "sourceHeading": "Dragón de Gaira",
+      "page": 60,
+      "variant": null,
+      "rawClass": "Entre mundos, Elemental 35",
+      "rawDamage": "170 Garras FIL, 210 Mordisco PEN, 150 Coletazo CON, 150 Aliento PEN",
+      "rawTA": "Escamas de Acero Negro + Natural Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 10",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": true
+        },
+        "domine": {
+          "value": true
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": true
+        },
+        "perceivePsychic": {
+          "value": true
+        },
+        "inmaterial": {
+          "value": false
+        },
+        "inhuman": {
+          "value": false
+        },
+        "zen": {
+          "value": true
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre mundos, Elemental 35"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": 34
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 60</p><p><strong>Entrada:</strong> Dragón de Gaira</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 35</p><p><strong>Categoría:</strong> Warlock Fue: 17 Des: 10 Agi: 6 Con: 17 Pod: 15 Int: 12 Vol: 13 Per: 13 RF 145 RM 160 RP 120 RV 145 RE 145</p><p><strong>Habilidades naturales:</strong> Proyección Mágica Como Ataque.</p><p><strong>Habilidades esenciales:</strong> Características Físicas Divinas, Características Anímicas Sobrehumanas, Don, Zen, Inmunidad Natural a un Elemento (Completa, Oscuridad), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad.</p><p><strong>Poderes:</strong> Arma Natural: Garras, Mordisco (Ataque Adicional -20, +40 al Daño, -4 a la TA Defensora) y Cola, Naturaleza Oscura (Ataque Elemental), Aliento de Cadenas (Distancia 1 Km, Área 50 Metros, Presa 16), Daña Energía, Armadura Física 4,Vuelo Natural 12, Batir de Alas, Resistencia Física +20, Resistencia Mística +40, Barrera de Daño 160, Ojo de Gaira (Ver lo Sobrenatural, Visión Extrasensorial), El Corazón de las Tinieblas.</p><p><strong>Daño:</strong> 170 Garras FIL, 210 Mordisco PEN, 150 Coletazo CON, 150 Aliento PEN</p><p><strong>TA:</strong> Escamas de Acero Negro + Natural Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 10</p><p><strong>Habilidades secundarias:</strong> Advertir 210, Buscar 60, Historia 100, Memorizar 150, Ocultismo 150, Valoración mágica 175, Proezas de Fuerza 150, Resistir el Dolor 120, Persuasión 80</p><p><strong>Descripción breve:</strong> Los Dragones de Gaira, los llamados Siete Wryms Oscuros, son unas entidades de descomunal poder existencial que han llegado a ser consideradas prácticamente deidades menores. Al contrario que los otros dragones, cuyas esencias nacen de los cuatro elementos básicos, la naturaleza de Los Siete depende de las mismas sombras, pura oscuridad que da forma a sus almas eternas e inmortales. Su origen es tan antiguo que el mundo lo olvidó hace mucho. De hecho, puede que no quede nadie que recuerde que en realidad provienen del periodo conocido como El Nacimiento de Gaïa, en el que Shajads y Beryls caminaron por la tierra junto a mortales, dioses y demonios. En esa época los dragones aún eran muy jóvenes pero su naturaleza única llamó la atención de los señores de la Luz y las Tinieblas. Intrigados por aquellas bestias surgidas de las mismas raíces de la creación, durante siglos los observaron con agrado, interesándose por el destino que el futuro podría depararles. Finalmente serían los Shajads los que darían el primer paso al inmiscuirse en su existencia. Eligieron a siete de ellos, los más afines a sus propias filosofías personales, y les ofrecieron unirse a las tinieblas. Nadie sabe porque semejantes entes decidirían hacer algo así, ya fuera curiosidad, diversión, u otro concepto inexplicable para la mente de los mortales. José María Solano Albares , las grandes sierpes firmaron el pacto sacrificando su vista a la oscuridad. Acambio recibieron nuevos nombres y un don que transformaría para siempre su visión del mundo, renaciendo como seres bautizados por el puro poder de las tinieblas. Esta “unión” también produjo profundos cambios en sus cuerpos. Aunque siguieron manteniendo la apariencia de descomunales reptiles, sus escamas se tornaron completamente negras y todo su lomo se recubrió de afiladas aristas de metal llenas de runas rojas. Sus fauces se plagaron de garfios, sus cuencas oculares fueron cosidas por alambre de espino y, en la frente, se les incrustó el Ojo de Gaira, una gema que relucía con pura oscuridad. Es precisamente en este “Ojo” donde se encuentra el mayor de sus poderes; es un objeto imperecedero e indestructible en el que reside su esencia. Por ello, pese a haber muerto incontables veces a lo largo de la historia, los Wryms Oscuros renacen una y otra vez a través de los cuerpos de quienes poseen el artefacto. Al contrario de lo que muchos brujos y ocultistas han afirmado durante siglos, los Dragones de Gaira no son unas entidades de naturaleza maligna. Aunque es cierto que tienen fuertes instintos destructivos, sus motivaciones suelen ser mucho más profundas e insondables. Cada uno actúa con un talante afín a las ideas del Shajad que les dio su nueva existencia; de ese modo, uno puede manejar desde las sombras una poderosa red de influencias sobrenaturales, mientras otro preocuparse solo por promover conflictos y guerras. Como a los otros dragones mas ancestrales, la activación de la maquina de Rah les produjo un serio deterioro, obligándoles a entrar en letargo durante siglos enteros. No obstante, a menudo sus vastas conciencias entran en contacto con la mente de individuos especialmente receptivos, normalmente bajo la forma de sueños o visiones, a quienes utilizan como herramientas. l oS Siete Sólo existen siete Dragones de Gaira, pero únicamente cinco de ellos están en Gaïa. Los otros están o bien perdidos en los Interregnos o en Khalis y Lunaris. A continuación hay un listado con los Shajad a los que están ligados así como sus nombres originales; j eD ah : Legión Ramses (Macho) e rebus : Manah Razz (Hembra) n oah : Orgus Zangros (Macho) m eseguis : Arhiman Obscura (Hembra) z emial : Svalkistalazar, El Juicio Final (Macho) m oduS oPerandiEl poder de Los Siete es incontenible. En combate, son una potencia destructiva que arrasa todo lo que encuentra sin dejar nada con vida. Se mueven con la misma habilidad en el suelo o volando, aunque habitualmente prefieren luchar en el aire. Son capaces de realizar dos ataques por asalto, el primero con sus garras y el segundo con las fauces; aunque también gozan de un amplio repertorio de habilidades adicionales. A pesar de que sus capacidades físicas son muchísimo más poderosas que las sobrenaturales, sus considerables conocimientos místicos les proporcionan una amplia gama de posibilidades. Dado que para ellos la magia es algo innato, no necesitan usar ensalmos o gesticular, por lo que siempre acumulan sus energías al máximo de su ACT. Al contrario que otras clases de dragón, solo suelen emplean su inusual aliento contra adversarios de gran tamaño, paralizándolos para atraerlos después a sus descomunales fauces. Por su naturaleza sobrenatural, los dragones de Gaira no tienen puntos vulnerables, ni siquiera en la cabeza. Orgus Zangros José María Solano Albares Naturaleza Oscura: Todos los ataques que realice un dragón de Gaira se consideran basados en oscuridad y son capaces de afectar a criaturas sobrenaturales y seres intangibles. Mordisco: Sus fauces, repletas de dientes de metal negro y garfios, son capaces de atravesar con la misma facilidad carne o metal. A causa de su potencia, tiene daño incrementado y disminuye cuatro puntos la TA de sus adversarios. El mordisco cuenta como un ataque adicional natural, por lo que el dragón puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. El mordisco tiene rotura 28. Coletazo: Como otros dragones, al enfrentarse a un gran número de adversarios puede utilizar su cola para realizar un ataque en área de gran magnitud que cubre una zona de 100 metros. Si la usa en combate, el dragón no puede usar sus garras o fauces durante ese asalto. Aliento de Cadenas: Los dragones de Gaira no son capaces de lanzar alientos de fuego, electricidad o frío como sus congéneres. Por el contrario, desde sus bocas desencadenan una tormenta de cadenas acabadas en garfios y cuchillas afiladas, que avanzan envolviendo y desgarrando a sus adversarios. Aparentan ser de metal, pero en realidad son de oscuridad solidificada, por lo que afectan incluso a las criaturas sobrenaturales. El aliento tiene un Daño Base de 150 puntos, alcanza una distancia máxima de un kilómetro de longitud y se extiende en forma de cono afectando a todos los blancos que estén en un radio de 50 metros. Las cadenas inmovilizan a cualquiera al que impacten automáticamente utilizando las reglas de Presa con el equivalente de una Fuerza 16. Una vez tiene sujeta a su víctima, el dragón puede retraerlas arrastrándola hasta sus fauces para desgarrarlas con ellas. Vuelo natural: Las enormes alas de los dragones de Gaira les permiten volar con un Tipo 12 y aguantan mucho tiempo en el aire; solo pierden un punto de cansancio por cada dos horas que surquen los cielos. Batir de Alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval en un área de 100 metros en forma cono delante de él. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire de dificultad Casi Imposible, o recibirá un impacto de Fuerza 9 que lo lanzará por los aires. Ojo de Gaira: Los poderes de las tinieblas que les han sido conferidos a estas criaturas se manifiestan en todo su apogeo en el Ojo de Gaira, una piedra de cristal negro que se encuentra incrustada en su frente. Este objeto actúa como sustituto de sus ojos perdidos, confiriéndoles una visión global de todo lo que hay a su alrededor. Con él, los dragones pueden ver radialmente, incluso a través de paredes u obstáculos que no sean de naturaleza sobrenatural. Además de esta virtud, el Ojo de Gaira posee enormes poderes sobrenaturales. Para empezar, proporciona un bonificador de +20 al ACT en conjuros oscuros y un +20 a la Proyección Mágica del dragón, ambos ya reflejados en sus estadísticas. También produce un aura tenebrosa que le permite someter automáticamente a cualquier ser sobrenatural basado en oscuridad con Gnosis 20 o inferior. Mientras el dragón está vivo es completamente imposible arrebatarle el Ojo de ningún modo y solo en el caso de que el muera, se desprende de él. Quienquiera que este en posesión del Ojo obtiene los mismos bonos a su ACT y a su Proyección, al igual que un bono de +40 a todas sus capacidades perceptivas. A veces, puede desarrollar también otros poderes, relacionados al Shajad que les dio nombre. El Corazón de las Tinieblas: A pesar de que sus cuerpos son mortales, la esencia de los siete wryms no puede ser destruida. Por ello, en el momento en el que su forma terrenal muere su espíritu transmigra al flujo de almas haciéndose uno con la oscuridad. El dragón permanece allí hasta que su Ojo de Gaira sea introducido en el corazón de un ser vivo que nació bajo la profecía de ser su nuevo huésped. Solo aparece un individuo augurado por generación, por lo que si el ritual no se cumple, el dragón permanece sumido en las tinieblas durante un siglo entero. Elan Oscuro: Cada uno de ellos posee dones del Shajad al que se hallan unidos equivalentes a un ser con Elan 80. Inmunidad: Los dragones de Gaira son completamente inmunes a cualquier ataque que reciban basado en oscuridad. Vulnerabilidad: Cualquier ataque basado en luz les produce doble daño. l a i sla Del Fin Hace apenas dos años, en una pequeña isla a diez kilómetros al oeste de la costa occidental de Remo, se ha encontrado un amplio territorio repleto de extraños monolitos de metal negro recubiertos de runas. Naturalmente semejante descubrimiento no ha dejado a nadie indiferente. Varios señores feudales han organizado una excavación bajo la excusa de que pueden tratarse de importantes yacimientos arqueológicos del Imperio, aunque en realidad su verdadero interés es consolidar su poder en la isla. Esperan localizar algo de verdadero valor antes de que Tol Rauko sea capaz de intervenir y sellen por completo el lugar. Los personajes pueden ser contratados por uno de estos señores como exploradores o mercenarios, cuyo objetivo es proteger la misión de otros nobles y de los indígenas de la isla que mantienen que ese sitio es un lugar maldito. Por desgracia, dichos pilares no forman parte de ninguna construcción, sino que pertenecen al espinazo de un dragón de Gaira que lleva dormido allí desde que Rah activó su máquina. De hecho, si las excavaciones prosiguen durante un tiempo prolongado, existe la muy seria posibilidad de que despierte, produciendo caos y devastación a su paso. De ese modo, en el caso de que los personajes no se den cuenta de lo que ocurre realmente y lo impidan, pueden verse inmersos en un verdadero infierno tratando de escapar de la pesadilla. l egión r amses Legión, el Wrym afiliado al Señor de las Marionetas, es uno de los más inusuales de Los Siete. Tras ser destruido generaciones atrás, pudo renacer utilizando el cuerpo de un viejo Faraón de Estígia, Ramses. Sin embargo, en lugar de tomar posesión completa de su huésped, quedó tan intrigado por la personalidad de su anfitrión que prefirió fusionarse con él, deteniendo el proceso de transformación a mitad del mismo. Por ello, en lugar de adquirir las descomunales dimensiones de un dragón ancestral se ha quedado a medio camino, siendo un enorme ser draconiano que mantiene su aspecto humanoide. Legión Ramses, como ahora se hace llamar, es curiosamente uno de los Ángeles Caídos de Samael más importantes, que actúa regulando la organización y asegurándose de que todo funcione bien en ella. Es inteligente, manipulador y detesta la violencia, pero delante de todos se comporta como si fuera un monstruo aterrador; a fin de cuentas, le conviene ser temido.</p></section><details><summary>Texto extraído</summary><pre>SNivel: 13\n\nClase: Entre mundos, Elemental 35 Puntos de Vida: 8.550 Acumulación Categoría: Warlock Fue: 17 Des: 10 Agi: 6 Con: 17 Pod: 15 Int: 12 Vol: 13 Per: 13 RF 145 RM 160 RP 120 RV 145 RE 145\n\nTurno: 85 Natural Habilidad de ataque: 260 Garras + 240 Mordisco; o 260 Aliento; o 2 10 Coletazo Habilidad de defensa: Acumulación Daño: 1 70 Garras FIL, 2 10 Mordisco PEN, 1 50 Coletazo CON, 1 50 Aliento PEN TA: Escamas de Acero Negro + Natural Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 10 Act: 1 10 Conjuros de Oscuridad, 90 Otras\n\nZeon: 955\n\nProyección mágica: 230 Ofensiva Nivel de magia: 90 Oscuridad Habilidades naturales: Proyección Mágica Como Ataque. Habilidades esenciales: Características Físicas Divinas, Características Anímicas Sobrehumanas, Don, Zen, Inmunidad Natural a un Elemento (Completa, Oscuridad), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad. Poderes: Arma Natural: Garras, Mordisco (Ataque Adicional -20, +40 al Daño, -4 a la TA Defensora) y Cola, Naturaleza Oscura (Ataque Elemental), Aliento de Cadenas (Distancia 1 Km, Área 50 Metros, Presa 1 6), Daña Energía, Armadura Física 4,Vuelo Natural 12, Batir de Alas, Resistencia Física +20, Resistencia Mística +40, Barrera de Daño 1 60, Ojo de Gaira (Ver lo Sobrenatural, Visión Extrasensorial), El Corazón de las Tinieblas.\n\nTamaño: 34 Colosal Regeneración: 10 Tipo de movimiento: 9/12 Cansancio: 17 Habilidades Secundarias: Advertir 2 10, Buscar 60, Historia 100, Memorizar 1 50, Ocultismo 1 50, Valoración mágica 1 75, Proezas de Fuerza 1 50, Resistir el Dolor 1 20, Persuasión 80. Los Dragones de Gaira, los llamados Siete Wryms Oscuros, son unas entidades de descomunal poder existencial que han llegado a ser consideradas prácticamente deidades menores. Al contrario que los otros dragones, cuyas esencias nacen de los cuatro elementos básicos, la naturaleza de Los Siete depende de las mismas sombras, pura oscuridad que da forma a sus almas eternas e inmortales. Su origen es tan antiguo que el mundo lo olvidó hace mucho.\n\nDe hecho, puede que no quede nadie que recuerde que en realidad provienen del periodo conocido como El Nacimiento de Gaïa, en el que Shajads y Beryls caminaron por la tierra junto a mortales, dioses y demonios. En esa época los dragones aún eran muy jóvenes pero su naturaleza única llamó la atención de los señores de la Luz y las Tinieblas. Intrigados por aquellas bestias surgidas de las mismas raíces de la creación, durante siglos los observaron con agrado, interesándose por el destino que el futuro podría depararles. Finalmente serían los Shajads los que darían el primer paso al inmiscuirse en su existencia. Eligieron a siete de ellos, los más afines a sus propias filosofías personales, y les ofrecieron unirse a las tinieblas. Nadie sabe porque semejantes entes decidirían hacer algo así, ya fuera curiosidad, diversión, u otro concepto inexplicable para la mente de los mortales.\n\nJosé María Solano Albares (order #3443007) (order #3443007) , las grandes sierpes firmaron el pacto sacrificando su vista a la oscuridad. Acambio recibieron nuevos nombres y un don que transformaría para siempre su visión del mundo, renaciendo como seres bautizados por el puro poder de las tinieblas. Esta “unión” también produjo profundos cambios en sus cuerpos. Aunque siguieron manteniendo la apariencia de descomunales reptiles, sus escamas se tornaron completamente negras y todo su lomo se recubrió de afiladas aristas de metal llenas de runas rojas. Sus fauces se plagaron de garfios, sus cuencas oculares fueron cosidas por alambre de espino y, en la frente, se les incrustó el Ojo de Gaira, una gema que relucía con pura oscuridad. Es precisamente en este “Ojo” donde se encuentra el mayor de sus poderes; es un objeto imperecedero e indestructible en el que reside su esencia.\n\nPor ello, pese a haber muerto incontables veces a lo largo de la historia, los Wryms Oscuros renacen una y otra vez a través de los cuerpos de quienes poseen el artefacto. Al contrario de lo que muchos brujos y ocultistas han afirmado durante siglos, los Dragones de Gaira no son unas entidades de naturaleza maligna. Aunque es cierto que tienen fuertes instintos destructivos, sus motivaciones suelen ser mucho más profundas e insondables. Cada uno actúa con un talante afín a las ideas del Shajad que les dio su nueva existencia; de ese modo, uno puede manejar desde las sombras una poderosa red de influencias sobrenaturales, mientras otro preocuparse solo por promover conflictos y guerras. Como a los otros dragones mas ancestrales, la activación de la maquina de Rah les produjo un serio deterioro, obligándoles a entrar en letargo durante siglos enteros.\n\nNo obstante, a menudo sus vastas conciencias entran en contacto con la mente de individuos especialmente receptivos, normalmente bajo la forma de sueños o visiones, a quienes utilizan como herramientas. l oS Siete Sólo existen siete Dragones de Gaira, pero únicamente cinco de ellos están en Gaïa. Los otros están o bien perdidos en los Interregnos o en Khalis y Lunaris. A continuación hay un listado con los Shajad a los que están ligados así como sus nombres originales; j eD ah : Legión Ramses (Macho) e rebus : Manah Razz (Hembra) n oah : Orgus Zangros (Macho) m eseguis : Arhiman Obscura (Hembra) z emial : Svalkistalazar, El Juicio Final (Macho) m oduS oPerandiEl poder de Los Siete es incontenible. En combate, son una potencia destructiva que arrasa todo lo que encuentra sin dejar nada con vida.\n\nSe mueven con la misma habilidad en el suelo o volando, aunque habitualmente prefieren luchar en el aire. Son capaces de realizar dos ataques por asalto, el primero con sus garras y el segundo con las fauces; aunque también gozan de un amplio repertorio de habilidades adicionales. A pesar de que sus capacidades físicas son muchísimo más poderosas que las sobrenaturales, sus considerables conocimientos místicos les proporcionan una amplia gama de posibilidades. Dado que para ellos la magia es algo innato, no necesitan usar ensalmos o gesticular, por lo que siempre acumulan sus energías al máximo de su ACT. Al contrario que otras clases de dragón, solo suelen emplean su inusual aliento contra adversarios de gran tamaño, paralizándolos para atraerlos después a sus descomunales fauces.\n\nPor su naturaleza sobrenatural, los dragones de Gaira no tienen puntos vulnerables, ni siquiera en la cabeza. Orgus Zangros José María Solano Albares (order #3443007) Naturaleza Oscura: Todos los ataques que realice un dragón de Gaira se consideran basados en oscuridad y son capaces de afectar a criaturas sobrenaturales y seres intangibles. Mordisco: Sus fauces, repletas de dientes de metal negro y garfios, son capaces de atravesar con la misma facilidad carne o metal. A causa de su potencia, tiene daño incrementado y disminuye cuatro puntos la TA de sus adversarios. El mordisco cuenta como un ataque adicional natural, por lo que el dragón puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. El mordisco tiene rotura 28.\n\nColetazo: Como otros dragones, al enfrentarse a un gran número de adversarios puede utilizar su cola para realizar un ataque en área de gran magnitud que cubre una zona de 100 metros. Si la usa en combate, el dragón no puede usar sus garras o fauces durante ese asalto. Aliento de Cadenas: Los dragones de Gaira no son capaces de lanzar alientos de fuego, electricidad o frío como sus congéneres. Por el contrario, desde sus bocas desencadenan una tormenta de cadenas acabadas en garfios y cuchillas afiladas, que avanzan envolviendo y desgarrando a sus adversarios. Aparentan ser de metal, pero en realidad son de oscuridad solidificada, por lo que afectan incluso a las criaturas sobrenaturales. El aliento tiene un Daño Base de 1 50 puntos, alcanza una distancia máxima de un kilómetro de longitud y se extiende en forma de cono afectando a todos los blancos que estén en un radio de 50 metros.\n\nLas cadenas inmovilizan a cualquiera al que impacten automáticamente utilizando las reglas de Presa con el equivalente de una Fuerza 1 6. Una vez tiene sujeta a su víctima, el dragón puede retraerlas arrastrándola hasta sus fauces para desgarrarlas con ellas. Vuelo natural: Las enormes alas de los dragones de Gaira les permiten volar con un Tipo 12 y aguantan mucho tiempo en el aire; solo pierden un punto de cansancio por cada dos horas que surquen los cielos. Batir de Alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval en un área de 100 metros en forma cono delante de él. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire de dificultad Casi Imposible, o recibirá un impacto de Fuerza 9 que lo lanzará por los aires.\n\nOjo de Gaira: Los poderes de las tinieblas que les han sido conferidos a estas criaturas se manifiestan en todo su apogeo en el Ojo de Gaira, una piedra de cristal negro que se encuentra incrustada en su frente. Este objeto actúa como sustituto de sus ojos perdidos, confiriéndoles una visión global de todo lo que hay a su alrededor. Con él, los dragones pueden ver radialmente, incluso a través de paredes u obstáculos que no sean de naturaleza sobrenatural. Además de esta virtud, el Ojo de Gaira posee enormes poderes sobrenaturales. Para empezar, proporciona un bonificador de +20 al ACT en conjuros oscuros y un +20 a la Proyección Mágica del dragón, ambos ya reflejados en sus estadísticas. También produce un aura tenebrosa que le permite someter automáticamente a cualquier ser sobrenatural basado en oscuridad con Gnosis 20 o inferior.\n\nMientras el dragón está vivo es completamente imposible arrebatarle el Ojo de ningún modo y solo en el caso de que el muera, se desprende de él. Quienquiera que este en posesión del Ojo obtiene los mismos bonos a su ACT y a su Proyección, al igual que un bono de +40 a todas sus capacidades perceptivas. A veces, puede desarrollar también otros poderes, relacionados al Shajad que les dio nombre. El Corazón de las Tinieblas: A pesar de que sus cuerpos son mortales, la esencia de los siete wryms no puede ser destruida. Por ello, en el momento en el que su forma terrenal muere su espíritu transmigra al flujo de almas haciéndose uno con la oscuridad. El dragón permanece allí hasta que su Ojo de Gaira sea introducido en el corazón de un ser vivo que nació bajo la profecía de ser su nuevo huésped.\n\nSolo aparece un individuo augurado por generación, por lo que si el ritual no se cumple, el dragón permanece sumido en las tinieblas durante un siglo entero. Elan Oscuro: Cada uno de ellos posee dones del Shajad al que se hallan unidos equivalentes a un ser con Elan 80. Inmunidad: Los dragones de Gaira son completamente inmunes a cualquier ataque que reciban basado en oscuridad. Vulnerabilidad: Cualquier ataque basado en luz les produce doble daño. l a i sla Del Fin Hace apenas dos años, en una pequeña isla a diez kilómetros al oeste de la costa occidental de Remo, se ha encontrado un amplio territorio repleto de extraños monolitos de metal negro recubiertos de runas. Naturalmente semejante descubrimiento no ha dejado a nadie indiferente.\n\nVarios señores feudales han organizado una excavación bajo la excusa de que pueden tratarse de importantes yacimientos arqueológicos del Imperio, aunque en realidad su verdadero interés es consolidar su poder en la isla. Esperan localizar algo de verdadero valor antes de que Tol Rauko sea capaz de intervenir y sellen por completo el lugar. Los personajes pueden ser contratados por uno de estos señores como exploradores o mercenarios, cuyo objetivo es proteger la misión de otros nobles y de los indígenas de la isla que mantienen que ese sitio es un lugar maldito. Por desgracia, dichos pilares no forman parte de ninguna construcción, sino que pertenecen al espinazo de un dragón de Gaira que lleva dormido allí desde que Rah activó su máquina.\n\nDe hecho, si las excavaciones prosiguen durante un tiempo prolongado, existe la muy seria posibilidad de que despierte, produciendo caos y devastación a su paso. De ese modo, en el caso de que los personajes no se den cuenta de lo que ocurre realmente y lo impidan, pueden verse inmersos en un verdadero infierno tratando de escapar de la pesadilla. l egión r amses Legión, el Wrym afiliado al Señor de las Marionetas, es uno de los más inusuales de Los Siete. Tras ser destruido generaciones atrás, pudo renacer utilizando el cuerpo de un viejo Faraón de Estígia, Ramses. Sin embargo, en lugar de tomar posesión completa de su huésped, quedó tan intrigado por la personalidad de su anfitrión que prefirió fusionarse con él, deteniendo el proceso de transformación a mitad del mismo.\n\nPor ello, en lugar de adquirir las descomunales dimensiones de un dragón ancestral se ha quedado a medio camino, siendo un enorme ser draconiano que mantiene su aspecto humanoide. Legión Ramses, como ahora se hace llamar, es curiosamente uno de los Ángeles Caídos de Samael más importantes, que actúa regulando la organización y asegurándose de que todo funcione bien en ella. Es inteligente, manipulador y detesta la violencia, pero delante de todos se comporta como si fuera un monstruo aterrador; a fin de cuentas, le conviene ser temido. (order #3443007)</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-dragon-de-gaira",
+          "type": "level",
+          "name": "Dragón de Gaira",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 13
+          }
+        }
+      ],
+      "level": {
+        "value": 13
+      },
+      "notes": [
+        {
+          "_id": "note-dragon-de-gaira-2",
+          "type": "note",
+          "name": "Habilidades naturales: Proyección Mágica Como Ataque.",
+          "system": {}
+        },
+        {
+          "_id": "note-dragon-de-gaira-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características Físicas Divinas, Características Anímicas Sobrehumanas, Don, Zen, Inmunidad Natural a un Elemento (Completa, Oscuridad), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad.",
+          "system": {}
+        },
+        {
+          "_id": "note-dragon-de-gaira-4",
+          "type": "note",
+          "name": "Poderes: Arma Natural: Garras, Mordisco (Ataque Adicional -20, +40 al Daño, -4 a la TA Defensora) y Cola, Naturaleza Oscura (Ataque Elemental), Aliento de Cadenas (Distancia 1 Km, Área 50 Metros, Presa 16), Daña Energía, Armadura Física 4,Vuelo Natural 12, Batir de Alas, Resistencia Física +20, Resistencia Mística +40, Barrera de Daño 160, Ojo de Gaira (Ver lo Sobrenatural, Visión Extrasensorial), El Corazón de las Tinieblas.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 17
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 17
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 15
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 8550,
+          "max": 8550
+        },
+        "initiative": {
+          "base": {
+            "value": 85
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 17,
+          "max": 17
+        },
+        "regenerationType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 3
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 20
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 20
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 14460
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 40
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 5
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 150
+          }
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
+          "base": {
+            "value": 120
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 210
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 60
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 100
+          }
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 150
+          }
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 150
+          }
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
+          "base": {
+            "value": 175
+          }
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 80
+          }
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 260
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 110
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 955,
+        "max": 955
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 230
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 230
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 230
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!25110cb70800791d"
+}

@@ -11,12 +11,13 @@ Addon para Foundry VTT orientado al sistema `animabf` que importa fichas de cria
 - `Anima Pantalla del Director`
 - `DRAVENOR Ejército regular de La Máquina` partes `1`, `2` y `3`
 
-El proyecto no empaqueta compendios binarios. En su lugar incluye JSON generados a partir de los manuales y una utilidad dentro de Foundry para crear o recrear compendios de mundo con esos actores.
+El proyecto publica compendios del módulo listos para usar y además incluye JSON generados a partir de los manuales para poder copiar esas fichas a compendios de mundo si hace falta.
 
 ## Qué hace ahora
 
 - Genera documentos de actor compatibles con `animabf`.
-- Crea compendios de mundo separados por libro.
+- Publica compendios del módulo separados por libro, visibles al activar el addon.
+- Permite copiar esas fichas a compendios de mundo independientes desde el importador.
 - Conserva el bloque original extraído y metadatos de fuente dentro de cada ficha.
 - Intenta mapear automáticamente atributos, resistencias, iniciativa, vida, movimiento, regeneración, habilidades secundarias y parte de lo sobrenatural.
 - Coloca ventajas, técnicas, Ki, invocaciones, poderes y otros campos no estructurados en las notas internas de `animabf`.
@@ -41,8 +42,8 @@ Después instala el addon con esta `Manifest URL`:
 
 1. Asegúrate de tener instalado y activado el sistema `Anima Beyond Fantasy` (`animabf`).
 2. Activa el módulo `Animu Exxet` en tu mundo.
-3. Abre el importador del módulo desde Foundry.
-4. Importa uno o varios libros; cada fuente se crea como compendio de mundo independiente.
+3. Abre la pestaña de compendios: deberían aparecer directamente los packs del módulo, uno por manual.
+4. Si quieres versiones de mundo editables o reconstruibles, abre el importador del módulo y copia allí uno o varios libros.
 
 ## Regenerar los datos
 
@@ -56,12 +57,13 @@ python3 tools/generate_bestiary.py \
 
 Si estás trabajando dentro del entorno de desarrollo original de este proyecto, el script intenta descubrir esos ficheros automáticamente.
 
-Tras regenerar los datos, conviene volver a empaquetar `dist/animu-exxet.zip`, ya que es el artefacto que usa Foundry para instalar o actualizar el módulo desde el manifest.
+Tras regenerar los datos, el script vuelve a escribir tanto `data/generated/` como `packs/`. Después conviene volver a empaquetar `dist/animu-exxet.zip`, ya que es el artefacto que usa Foundry para instalar o actualizar el módulo desde el manifest.
 
 ## Estructura
 
-- `data/generated/`: datasets listos para importar.
+- `data/generated/`: datasets JSON listos para importar a compendios de mundo.
 - `data/reference/animabf-template.json`: plantilla de datos del sistema fuente.
+- `packs/`: compendios estáticos del módulo que Foundry muestra directamente.
 - `scripts/`: lógica del módulo dentro de Foundry.
 - `templates/`: interfaz Handlebars del importador.
 - `tools/`: utilidades de generación y mantenimiento.

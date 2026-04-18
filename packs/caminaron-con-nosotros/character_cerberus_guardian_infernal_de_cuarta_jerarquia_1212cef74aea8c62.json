@@ -1,0 +1,1203 @@
+{
+  "_id": "1212cef74aea8c62",
+  "name": "Cerberus (Guardián Infernal de Cuarta Jerarquía)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Cerberus (Guardián Infernal de Cuarta Jerarquía)"
+  },
+  "items": [
+    {
+      "name": "Ninguna es 14 Agi 12",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 2
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 2
+        },
+        "thrust": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "heat": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "electricity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "cold": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "energy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "integrity": {
+          "base": {
+            "value": 14
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 14
+        },
+        "presence": {
+          "base": {
+            "value": 30
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 30
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "caf532b0f7c48f82",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1212cef74aea8c62.caf532b0f7c48f82"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "Anima Beyond Fantasy - Los que caminaron con nosotros",
+      "sourceHeading": "Cerberus",
+      "page": 44,
+      "variant": "Guardián Infernal de Cuarta Jerarquía",
+      "rawClass": "Entre mundos, 25",
+      "rawDamage": "110 Garras (Fil), 90 Fauces (Pen), 80 Cola (Con), 100 Fuego del Hades (Cal)",
+      "rawTA": "Ninguna es 14 Agi 12 Con 14 Pod 8 Vol 7 Total: 68 Acumulaciones de es 2 Agi 2 Con 2 Pod 1 Vol 1 Habilidades del",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": true
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": false
+        },
+        "inhuman": {
+          "value": true
+        },
+        "zen": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre mundos, 25"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": "Guardián Infernal de Cuarta Jerarquía"
+        },
+        "size": {
+          "value": 24
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 44</p><p><strong>Entrada:</strong> Cerberus</p><p><strong>Variante:</strong> Guardián Infernal de Cuarta Jerarquía</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, 25</p><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 12 Des: 12 Agi: 11 Con: 12 Pod: 8 Int: 6 Vol: 7 Per: 9 RF 80 RM 70 RP 65 RV 80 RE 80</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Inhumanidad, Inmunidad Natural a un Elemento (Completa, Fuego), No se alimenta.</p><p><strong>Poderes:</strong> Armas Naturales: Garras, Fauces y Cola (+20 al daño, +30 al Turno), Tres Cabezas, Sinergia, Frenesí Infernal, Fuego del Hades (Distancia 50 Metros, Área 25 Metros, Sin Límite), Atados, Devorador de Técnicas, Visión Extrasensorial, Pureza.</p><p><strong>Daño:</strong> 110 Garras (Fil), 90 Fauces (Pen), 80 Cola (Con), 100 Fuego del Hades (Cal)</p><p><strong>TA:</strong> Ninguna es 14 Agi 12 Con 14 Pod 8 Vol 7 Total: 68 Acumulaciones de es 2 Agi 2 Con 2 Pod 1 Vol 1 Habilidades del</p><p><strong>Habilidades secundarias:</strong> Atletismo 55, Saltar 100, Trepar 60, Intimidar 100, Advertir 240, Buscar 30, Rastrear 120, Resistir el Dolor 25</p><p><strong>Descripción breve:</strong> Al contrario de lo que muchos ocultistas opinan, Cerberus o Guardián del Hades no es un ente único, sino una inusual categoría de demonio de alto poder. T al como su título sugiere, estas entidades sirven siempre como guardianes de lugares que están particularmente cargados de maldad o de puertas de tránsito hacia las partes más lúgubres de la Vigilia. Los Cerberus pueden tener formas diferentes (algunos son vagamente humanoides mientras que otros poseen un cuerpo canino), pero todos ellos se caracterizan siempre por tener tres demoníacas cabezas de sabueso que actúan y piensan independientemente de las otras dos. Carecen de piel y en su lugar poseen por una áspera musculatura rojiza llena de marcas similares a runas demoníacas. Su tamaño es siempre considerable; miden entre tres y cinco metros de altura, dependiendo de si caminan erguidos o sobre cuatro patas. Como demonios que son, los Cerberus son entidades maléficas y salvajes que no sienten el más mínimo aprecio por nada; lo único que realmente les importa es cumplir correctamente su función como guardianes. No obstante, aunque no necesitan comer propiamente para vivir, tienen un fuerte deseo de devorar cuerpos muertos y siempre consumen la carne de todas sus víctimas. Por ello, no es de extrañar que sus cubiles estén repletos de los huesos de todos aquellos a quienes han matado. Hoy en día es prácticamente imposible encontrar ni a una sola de estas criaturas en la superficie de Gaïa. Por lo general residen en La Vigilia y se manifiestan en el mundo únicamente durante los momentos en los que alguien se acerca al lugar u objeto que están custodiando. No obstante, sitios donde existe una gran alteración existencial o que sirven de portal entre diferentes capas de existencia pueden ser su residencia continua. m oduS oPerandiCruzarse en el camino de un guardián infernal suele acabar automáticamente en conflicto, puesto que estas belicosas entidades destruyen a todo aquel que se les acerque y vean como una amenaza. Al luchar, pese a ser tres seres compartiendo un cuerpo, actúan con una aterradora coordinación que convierte a estos demonios en autenticas armas de matar; luchar contra ellos es casi como enfrentarse a un verdadero ejército de demonios. Sinergia: Cerberus posee tres cabezas que, pese a tener el mismo cuerpo, piensan y actúan de forma independiente coordinando a la perfección las acciones de cada extremidad. Para representar esta capacidad el guardián infernal puede realizar tres acciones sin aplicar ningún penalizador. Por ejemplo, una cabeza podría controlar parte del cuerpo para moverse a su máxima velocidad, otra realizar un ataque físico y la tercera desencadenar Fuego del Hades. Si las tres cabezas se centran en atacar físicamente son capaces de realizar hasta dos ataques adicionales sin aplicar ningún penalizador, pero dado que están limitadas por su cuerpo, no pueden dividir ataques de modo convencional. Cada uno de estos debe de estar basado en un método diferente de ataque; Garras, Fauces o Cola. Tres Cabezas: Las tres cabezas de Cerberus están ligadas al estado general del cuerpo de la criatura, por lo que si recibe mucho daño estas quedan inutilizadas. Cada 100 Puntos de Vida que pierda Cerberus inutiliza una de sus cabezas, perdiendo así una de las acciones adicionales de su habilidad Sinergia. También es posible realizar un ataque apuntado a cualquiera de las cabezas, en cuyo caso, el atacante debe de aplicar un penalizador de -40 a su habilidad y producir un resultado de crítico superior a 20 para eliminar una cabeza. Frenesí Infernal: Cuando únicamente queda activa una de las cabezas de Cerberus el guardián infernal entra en un estado de frenesí que incrementa en +20 su habilidad ofensiva. Fuego del Hades: Al enfrentarse con numerosos adversarios Cerberus utiliza las llamas del infierno para destruirlos, desatando columnas de fuego que los deja reducidos a cenizas. Cuando ejecuta esta habilidad el guardián infernal ha de centrar la atención de una de sus cabezas en crear una esfera de crepitante energía infernal en una de sus manos o bocas, que lanza contra sus objetivos y estalla. Fuego del Hades tiene un alcance máximo de 50 metros y un radio de acción de 25 metros. Cada cabeza ha de esperar cinco asaltos antes de poder volver a activar Fuego de Hades, pero nada les impide usar tres de ellos en un solo asalto simultáneamente. Naturaleza Infernal: Cerberus es inmune a los efectos y daños producidos por el fuego. Demonios José María Solano Albares DEm onios Técnicas de Ki: Los Cerberus son maestros en el uso del Ki y dominan sus propias Técnicas de combate. p uerta Del i nFierno</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos, 25 Puntos de Vida: 300 Categoría: Guerrero Acróbata Fue: 12 Des: 12 Agi: 11 Con: 12 Pod: 8 Int: 6 Vol: 7 Per: 9 RF 80 RM 70 RP 65 RV 80 RE 80\n\nTurno: 1 70 Natural Habilidad de ataque: 2 10 Garras, Fauces y Cola Habilidad de defensa: 200 Esquiva Daño: 1 10 Garras (Fil), 90 Fauces (Pen), 80 Cola (Con), 100 Fuego del Hades (Cal) TA: Ninguna es 1 4 Agi 12 Con 1 4 Pod 8 Vol 7 Total: 68 Acumulaciones de es 2 Agi 2 Con 2 Pod 1 Vol 1 Habilidades del\n\nKi: Uso del Ki, Control del Ki, Extrusión de Presencia, Extensión del Aura al Arma. Técnicas: Puerta del Infierno Habilidades esenciales: Características Físicas Sobrehumanas, Inhumanidad, Inmunidad Natural a un Elemento (Completa, Fuego), No se alimenta. Poderes: Armas Naturales: Garras, Fauces y Cola (+20 al daño, +30 al Turno), Tres Cabezas, Sinergia, Frenesí Infernal, Fuego del Hades (Distancia 50 Metros, Área 25 Metros, Sin Límite), Atados, Devorador de Técnicas, Visión Extrasensorial, Pureza.\n\nTamaño: 24 Grande Regeneración: 5 Tipo de movimiento: 11 Cansancio: 12 Habilidades Secundarias: Atletismo 55, Saltar 100, Trepar 60, Intimidar 100, Advertir 240, Buscar 30, Rastrear 1 20, Resistir el Dolor 25. Al contrario de lo que muchos ocultistas opinan, Cerberus o Guardián del Hades no es un ente único, sino una inusual categoría de demonio de alto poder. T al como su título sugiere, estas entidades sirven siempre como guardianes de lugares que están particularmente cargados de maldad o de puertas de tránsito hacia las partes más lúgubres de la Vigilia. Los Cerberus pueden tener formas diferentes (algunos son vagamente humanoides mientras que otros poseen un cuerpo canino), pero todos ellos se caracterizan siempre por tener tres demoníacas cabezas de sabueso que actúan y piensan independientemente de las otras dos.\n\nCarecen de piel y en su lugar poseen por una áspera musculatura rojiza llena de marcas similares a runas demoníacas. Su tamaño es siempre considerable; miden entre tres y cinco metros de altura, dependiendo de si caminan erguidos o sobre cuatro patas. Como demonios que son, los Cerberus son entidades maléficas y salvajes que no sienten el más mínimo aprecio por nada; lo único que realmente les importa es cumplir correctamente su función como guardianes. No obstante, aunque no necesitan comer propiamente para vivir, tienen un fuerte deseo de devorar cuerpos muertos y siempre consumen la carne de todas sus víctimas. Por ello, no es de extrañar que sus cubiles estén repletos de los huesos de todos aquellos a quienes han matado. Hoy en día es prácticamente imposible encontrar ni a una sola de estas criaturas en la superficie de Gaïa.\n\nPor lo general residen en La Vigilia y se manifiestan en el mundo únicamente durante los momentos en los que alguien se acerca al lugar u objeto que están custodiando. No obstante, sitios donde existe una gran alteración existencial o que sirven de portal entre diferentes capas de existencia pueden ser su residencia continua. m oduS oPerandiCruzarse en el camino de un guardián infernal suele acabar automáticamente en conflicto, puesto que estas belicosas entidades destruyen a todo aquel que se les acerque y vean como una amenaza. Al luchar, pese a ser tres seres compartiendo un cuerpo, actúan con una aterradora coordinación que convierte a estos demonios en autenticas armas de matar; luchar contra ellos es casi como enfrentarse a un verdadero ejército de demonios.\n\nSinergia: Cerberus posee tres cabezas que, pese a tener el mismo cuerpo, piensan y actúan de forma independiente coordinando a la perfección las acciones de cada extremidad. Para representar esta capacidad el guardián infernal puede realizar tres acciones sin aplicar ningún penalizador. Por ejemplo, una cabeza podría controlar parte del cuerpo para moverse a su máxima velocidad, otra realizar un ataque físico y la tercera desencadenar Fuego del Hades. Si las tres cabezas se centran en atacar físicamente son capaces de realizar hasta dos ataques adicionales sin aplicar ningún penalizador, pero dado que están limitadas por su cuerpo, no pueden dividir ataques de modo convencional. Cada uno de estos debe de estar basado en un método diferente de ataque; Garras, Fauces o Cola.\n\nTres Cabezas: Las tres cabezas de Cerberus están ligadas al estado general del cuerpo de la criatura, por lo que si recibe mucho daño estas quedan inutilizadas. Cada 100 Puntos de Vida que pierda Cerberus inutiliza una de sus cabezas, perdiendo así una de las acciones adicionales de su habilidad Sinergia. También es posible realizar un ataque apuntado a cualquiera de las cabezas, en cuyo caso, el atacante debe de aplicar un penalizador de -40 a su habilidad y producir un resultado de crítico superior a 20 para eliminar una cabeza. Frenesí Infernal: Cuando únicamente queda activa una de las cabezas de Cerberus el guardián infernal entra en un estado de frenesí que incrementa en +20 su habilidad ofensiva. Fuego del Hades: Al enfrentarse con numerosos adversarios Cerberus utiliza las llamas del infierno para destruirlos, desatando columnas de fuego que los deja reducidos a cenizas.\n\nCuando ejecuta esta habilidad el guardián infernal ha de centrar la atención de una de sus cabezas en crear una esfera de crepitante energía infernal en una de sus manos o bocas, que lanza contra sus objetivos y estalla. Fuego del Hades tiene un alcance máximo de 50 metros y un radio de acción de 25 metros. Cada cabeza ha de esperar cinco asaltos antes de poder volver a activar Fuego de Hades, pero nada les impide usar tres de ellos en un solo asalto simultáneamente. Naturaleza Infernal: Cerberus es inmune a los efectos y daños producidos por el fuego. Demonios José María Solano Albares (order #3443007) DEm onios Técnicas de\n\nKi: Los Cerberus son maestros en el uso del Ki y dominan sus propias Técnicas de combate. p uerta Del i nFierno</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-cerberus-guardian-infern",
+          "type": "level",
+          "name": "Cerberus (Guardián Infernal de Cuarta Jerarquía)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 7
+          }
+        }
+      ],
+      "level": {
+        "value": 7
+      },
+      "notes": [
+        {
+          "_id": "note-cerberus-guardian-infernal-de-cu-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características Físicas Sobrehumanas, Inhumanidad, Inmunidad Natural a un Elemento (Completa, Fuego), No se alimenta.",
+          "system": {}
+        },
+        {
+          "_id": "note-cerberus-guardian-infernal-de-cu-4",
+          "type": "note",
+          "name": "Poderes: Armas Naturales: Garras, Fauces y Cola (+20 al daño, +30 al Turno), Tres Cabezas, Sinergia, Frenesí Infernal, Fuego del Hades (Distancia 50 Metros, Área 25 Metros, Sin Límite), Atados, Devorador de Técnicas, Visión Extrasensorial, Pureza.",
+          "system": {}
+        },
+        {
+          "_id": "note-cerberus-guardian-infernal-de-cu-7",
+          "type": "note",
+          "name": "Ki: Uso del Ki, Control del Ki, Extrusión de Presencia, Extensión del Aura al Arma.",
+          "system": {}
+        },
+        {
+          "_id": "note-cerberus-guardian-infernal-de-cu-9",
+          "type": "note",
+          "name": "Técnicas: Puerta del Infierno",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 11
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 12
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 9
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 7
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 300,
+          "max": 300
+        },
+        "initiative": {
+          "base": {
+            "value": 170
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 12,
+          "max": 12
+        },
+        "regenerationType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 80090
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 55
+          }
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 60
+          }
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 100
+          }
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
+          "base": {
+            "value": 25
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 240
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 30
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
+          "base": {
+            "value": 120
+          }
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
+          "base": {
+            "value": 100
+          }
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 210
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
+        "base": {
+          "value": 200
+        }
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!1212cef74aea8c62"
+}

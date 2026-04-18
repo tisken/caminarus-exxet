@@ -1,0 +1,1203 @@
+{
+  "_id": "1c68bf7ce0471b18",
+  "name": "Alius (Soldado Sagrado)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Alius (Soldado Sagrado)"
+  },
+  "items": [
+    {
+      "name": "Armadura Completa",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 7
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 7
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 2
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 2
+        },
+        "thrust": {
+          "base": {
+            "value": 7
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 7
+        },
+        "heat": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "electricity": {
+          "base": {
+            "value": 2
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 2
+        },
+        "cold": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "energy": {
+          "base": {
+            "value": 4
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 4
+        },
+        "integrity": {
+          "base": {
+            "value": 24
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 24
+        },
+        "presence": {
+          "base": {
+            "value": 55
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 55
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "5c2eb55bc7dce029",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1c68bf7ce0471b18.5c2eb55bc7dce029"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "Anima Beyond Fantasy - Los que caminaron con nosotros",
+      "sourceHeading": "Alius",
+      "page": 10,
+      "variant": "Soldado Sagrado",
+      "rawClass": "Entre mundos, Elemental 20",
+      "rawDamage": "80 Lanza de luz (Pen), 60 Escudo de Luz (Con)",
+      "rawTA": "Armadura Completa Fil 7 Pen 7 Con 7 Cal 6 Ele 2 Fri 6 Ene 4 es 12 Agi 8 Con 10 Pod 10 Vol 9 Total: 61 Acumulaciones de es 2 Agi 1 Con 2 Pod 2 Vol 1 Habilidades del",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": true
+        },
+        "domine": {
+          "value": true
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": true
+        },
+        "perceivePsychic": {
+          "value": true
+        },
+        "inmaterial": {
+          "value": true
+        },
+        "inhuman": {
+          "value": true
+        },
+        "zen": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre mundos, Elemental 20"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": "Soldado Sagrado"
+        },
+        "size": {
+          "value": 0
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 10</p><p><strong>Entrada:</strong> Alius</p><p><strong>Variante:</strong> Soldado Sagrado</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 20</p><p><strong>Categoría:</strong> Paladín Fue: 11 Des: 11 Agi: 8 Con: 10 Pod: 10 Int: 8 Vol: 9 Per: 9 RF 75 RM 75 RP 70 RV 75 RE 75</p><p><strong>Habilidades naturales:</strong> Magnus: Guardián, Uso de Lanza (Variable).</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Exención Física, Inhumanidad.</p><p><strong>Poderes:</strong> Alas Luminosas (Vuelo Místico 12), Sentido de la Justicia, Pantalla de Escudos, Metal Sacro (Daña Energía, Ataque Elemental), Ver lo Sobrenatural, Incapaz de Pecar.</p><p><strong>Daño:</strong> 80 Lanza de luz (Pen), 60 Escudo de Luz (Con)</p><p><strong>TA:</strong> Armadura Completa Fil 7 Pen 7 Con 7 Cal 6 Ele 2 Fri 6 Ene 4 es 12 Agi 8 Con 10 Pod 10 Vol 9 Total: 61 Acumulaciones de es 2 Agi 1 Con 2 Pod 2 Vol 1 Habilidades del</p><p><strong>Habilidades secundarias:</strong> Estilo 50, Liderazgo 105, Advertir 65, Buscar 25, Ocultismo 50, Resistir el Dolor 100</p><p><strong>Descripción breve:</strong> Los Alius o Soldados Sagrados son elementales que durante milenios han compuesto el grueso de la élite en los ejércitos de la luz. Al servicio de Beryls, Aeones y diversas deidades benignas, estas criaturas han estado presentes en prácticamente todas las guerras sobrenaturales de la historia. Tienen el aspecto de caballeros alados que portan una refulgente armadura plateada que no es otra cosa sino su propio cuerpo. Carecen de extremidades inferiores; en su lugar tienen otro par de alas angelicales que hacen a su vez de piernas. Aunque la mayoría parecen mayoritariamente masculinos, en realidad son asexuados, por lo que a veces sus formas tienden a engaño. Llamativamente, su plumaje puede ser de cualquier color y, como el metal de sus corazas forma parte de ellos, son capaces de alterar la estructura de sus yelmos para expresar muy variadas emociones. Los Soldados Sagrados, como su nombre indica, son luchadores de elite que encarnan los ideales de justicia y rectitud. Luchan incansablemente contra cualquier cosa que amenace la estabilidad del mundo sin importarles el riesgo personal que puedan correr. Aunque poseen una inteligencia media y son capaces de comunicarse en multitud de idiomas, son pocas las veces que tienen tiempo de confraternizar con personas ajenas a sus cruzadas. Más allá de palabras de aliento para los que sufren o funestas advertencias a sus enemigos, no hablan demasiado. Sólo los niños, a los que los Alius tienen un especial cariño, logran que les dediquen parte de su tiempo. En el pasado su número era considerable, pero ahora no quedan más que unas cuantas decenas. Sorprendentemente, están muy bien organizados; un consejo formado por siete de ellos, que reciben el nombre de Caballeros de la Luz (y que representan a las siete Beryls, pese a no tener contacto o relación alguna con estas) dirigen y coordinan las acciones de sus compañeros, enviándoles a donde sean necesarios o su ayuda se precise. Por supuesto actúan completamente en secreto, evitando ser descubiertos por una humanidad que, por lo general, les teme. Afortunadamente su angelical aspecto les abre muchas puertas, y hay quienes los relacionan con ángeles justicieros enviados por los cielos para combatir el mal. Los Alius mantienen buenas relaciones con muchas organizaciones en la sombra, como Samael, Magus o Belasarius, e incluso han llegado a colaborar con agentes de la Inquisición (algo extremadamente inusual dentro de los cánones de la Iglesia). También tienen el apoyo de elementales mayores (algunas Belphe y Elhayms colaboran abiertamente con los Caballeros de la Luz), y de otras criaturas de naturaleza positiva. m oduS oPerandiInteligentes, comprensivos, pero a la vez terriblemente fanáticos en lo que representa combatir todo aquello que contemplan como injusticia, los Alius son criaturas belicosas que existen para luchar. Pese a no tener capacidades mágicas, son extremadamente hábiles exorcizando criaturas oscuras y entes de naturaleza maligna (si bien sus poderes únicamente se especializan en dicha clase de monstruos). Por supuesto, como seres creados para las guerras sobrenaturales, son extremadamente aptos en combate así como en el uso del ki. Pantalla de Escudos: El Soldado Sagrado repliega sus alas y se cubre con ellas como si fueran enormes escudos de energía. A efectos de juego esta habilidad es equivalente a la maniobra Defensa Total, pero al contrario que esta incrementa en +60 la habilidad de defensa del Alius. Naturalmente, el uso de esta habilidad ha de ser declarada antes de determinar la iniciativa del asalto o cuando al elemental le corresponda actuar. Como regla excepcional, pueden usar Pantalla de Escudos en combinación al Magnus Guardián. Metal Sacro: Las armas y la armadura de los Alius nacen de su propia esencia consagrada, ya que en cierta manera son su cuerpo y alma. Por ello el elemental puede manifestar su arma y su escudo en cualquier momento, y únicamente él (o una criatura igualmente sagrada) pueden sostenerlas. Ambos artefactos son siempre de Calidad +10 y tienen la consideración de objetos sacros; dañan energía y doblan daño contra cualquier criatura de naturaleza maligna cuyo Gnosis no sea superior a 35. Armas: Si bien siempre portan un escudo medio y la lanza es su arma preferente, esta última no es la única que los Alius son capaces de enarbolar. Muchos manifiestan artefactos diferentes, como espadas largas, mazas o hachas, manteniendo las reglas de Metal Sacro. Alas Luminosas: Los Alius se mueven siempre por el aire con el equivalente a un Tipo de Vuelo 12. Los modificadores que esto proporciona a sus habilidades de combate ya se encuentran incluidas en sus estadísticas. Sentido de la Justicia: Un Soldado Sagrado siente instintivamente lo que es justo o no. Durante un conflicto siempre sabe cual es el lado que se inclina más hacia la justicia, así como percibe si los actos de una persona están o no equivocados. Este poder es automático; únicamente los acontecimientos en los que están involucradas entidades con Gnosis superior a 35 escapan a esta habilidad. Guardianes: Los Alius tienen una capacidad sobrenatural para proteger a otras personas de ataques, representado por el Magnus Guardián. Es decir, no requiere ganar el Turno o prever un ataque para defender a alguien de un determinado golpe (siempre y cuando se encuentre próximo a él). De igual forma, el Alius aplica únicamente un -10 a su Habilidad de Parada para detener la agresión o apartar a su protegido del impacto, en lugar del -40 habitual. Técnicas de Ki: Los Alius son maestros en el uso del Ki y dominan sus propias Técnicas de combate. A continuación hay un listado de las dos más comunes; s acra s peculum</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos, Elemental 20 Puntos de Vida: 240 Categoría: Paladín Fue: 11 Des: 11 Agi: 8 Con: 10 Pod: 10 Int: 8 Vol: 9 Per: 9 RF 75 RM 75 RP 70 RV 75 RE 75\n\nTurno: 105 Natural; 40 Lanza y Escudo Habilidad de ataque: 200 Lanza +10 Habilidad de defensa: 240 Escudo +10 Daño: 80 Lanza de luz (Pen), 60 Escudo de Luz (Con) Llevar armadura: 95 TA: Armadura Completa Fil 7 Pen 7 Con 7 Cal 6 Ele 2 Fri 6 Ene 4 es 12 Agi 8 Con 10 Pod 10 Vol 9 Total: 61 Acumulaciones de es 2 Agi 1 Con 2 Pod 2 Vol 1 Habilidades del\n\nKi: Uso del Ki, Control del Ki Técnicas: Spiculum, Aegis. Act: 20\n\nZeon: 300 Desconvocar: 120 (Oscuridad) Habilidades naturales: Magnus: Guardián, Uso de Lanza (Variable). Habilidades esenciales: Características Físicas Sobrehumanas, Exención Física, Inhumanidad. Poderes: Alas Luminosas (Vuelo Místico 12), Sentido de la Justicia, Pantalla de Escudos, Metal Sacro (Daña Energía, Ataque Elemental), Ver lo Sobrenatural, Incapaz de Pecar. de movimiento: 6/12 Cansancio: Incansable Habilidades Secundarias: Estilo 50, Liderazgo 105, Advertir 65, Buscar 25, Ocultismo 50, Resistir el Dolor 100. Los Alius o Soldados Sagrados son elementales que durante milenios han compuesto el grueso de la élite en los ejércitos de la luz. Al servicio de Beryls, Aeones y diversas deidades benignas, estas criaturas han estado presentes en prácticamente todas las guerras sobrenaturales de la historia.\n\nTienen el aspecto de caballeros alados que portan una refulgente armadura plateada que no es otra cosa sino su propio cuerpo. Carecen de extremidades inferiores; en su lugar tienen otro par de alas angelicales que hacen a su vez de piernas. Aunque la mayoría parecen mayoritariamente masculinos, en realidad son asexuados, por lo que a veces sus formas tienden a engaño. Llamativamente, su plumaje puede ser de cualquier color y, como el metal de sus corazas forma parte de ellos, son capaces de alterar la estructura de sus yelmos para expresar muy variadas emociones. Los Soldados Sagrados, como su nombre indica, son luchadores de elite que encarnan los ideales de justicia y rectitud. Luchan incansablemente contra cualquier cosa que amenace la estabilidad del mundo sin importarles el riesgo personal que puedan correr.\n\nAunque poseen una inteligencia media y son capaces de comunicarse en multitud de idiomas, son pocas las veces que tienen tiempo de confraternizar con personas ajenas a sus cruzadas. Más allá de palabras de aliento (order #3443007) para los que sufren o funestas advertencias a sus enemigos, no hablan demasiado. Sólo los niños, a los que los Alius tienen un especial cariño, logran que les dediquen parte de su tiempo. En el pasado su número era considerable, pero ahora no quedan más que unas cuantas decenas. Sorprendentemente, están muy bien organizados; un consejo formado por siete de ellos, que reciben el nombre de Caballeros de la Luz (y que representan a las siete Beryls, pese a no tener contacto o relación alguna con estas) dirigen y coordinan las acciones de sus compañeros, enviándoles a donde sean necesarios o su ayuda se precise.\n\nPor supuesto actúan completamente en secreto, evitando ser descubiertos por una humanidad que, por lo general, les teme. Afortunadamente su angelical aspecto les abre muchas puertas, y hay quienes los relacionan con ángeles justicieros enviados por los cielos para combatir el mal. Los Alius mantienen buenas relaciones con muchas organizaciones en la sombra, como Samael, Magus o Belasarius, e incluso han llegado a colaborar con agentes de la Inquisición (algo extremadamente inusual dentro de los cánones de la Iglesia). También tienen el apoyo de elementales mayores (algunas Belphe y Elhayms colaboran abiertamente con los Caballeros de la Luz), y de otras criaturas de naturaleza positiva.\n\nm oduS oPerandiInteligentes, comprensivos, pero a la vez terriblemente fanáticos en lo que representa combatir todo aquello que contemplan como injusticia, los Alius son criaturas belicosas que existen para luchar. Pese a no tener capacidades mágicas, son extremadamente hábiles exorcizando criaturas oscuras y entes de naturaleza maligna (si bien sus poderes únicamente se especializan en dicha clase de monstruos). Por supuesto, como seres creados para las guerras sobrenaturales, son extremadamente aptos en combate así como en el uso del ki. Pantalla de Escudos: El Soldado Sagrado repliega sus alas y se cubre con ellas como si fueran enormes escudos de energía. A efectos de juego esta habilidad es equivalente a la maniobra Defensa Total, pero al contrario que esta incrementa en +60 la habilidad de defensa del Alius.\n\nNaturalmente, el uso de esta habilidad ha de ser declarada antes de determinar la iniciativa del asalto o cuando al elemental le corresponda actuar. Como regla excepcional, pueden usar Pantalla de Escudos en combinación al Magnus Guardián. Metal Sacro: Las armas y la armadura de los Alius nacen de su propia esencia consagrada, ya que en cierta manera son su cuerpo y alma. Por ello el elemental puede manifestar su arma y su escudo en cualquier momento, y únicamente él (o una criatura igualmente sagrada) pueden sostenerlas. Ambos artefactos son siempre de Calidad +10 y tienen la consideración de objetos sacros; dañan energía y doblan daño contra cualquier criatura de naturaleza maligna cuyo Gnosis no sea superior a 35. Armas: Si bien siempre portan un escudo medio y la lanza es su arma preferente, esta última no es la única que los Alius son capaces de enarbolar.\n\nMuchos manifiestan artefactos diferentes, como espadas largas, mazas o hachas, manteniendo las reglas de Metal Sacro. Alas Luminosas: Los Alius se mueven siempre por el aire con el equivalente a un Tipo de Vuelo 12. Los modificadores que esto proporciona a sus habilidades de combate ya se encuentran incluidas en sus estadísticas. Sentido de la Justicia: Un Soldado Sagrado siente instintivamente lo que es justo o no. Durante un conflicto siempre sabe cual es el lado que se inclina más hacia la justicia, así como percibe si los actos de una persona están o no equivocados. Este poder es automático; únicamente los acontecimientos en los que están involucradas entidades con Gnosis superior a 35 escapan a esta habilidad. Guardianes: Los Alius tienen una capacidad sobrenatural para proteger a otras personas de ataques, representado por el Magnus Guardián.\n\nEs decir, no requiere ganar el Turno o prever un ataque para defender a alguien de un determinado golpe (siempre y cuando se encuentre próximo a él). De igual forma, el Alius aplica únicamente un -10 a su Habilidad de Parada para detener la agresión o apartar a su protegido del impacto, en lugar del -40 habitual. Técnicas de\n\nKi: Los Alius son maestros en el uso del Ki y dominan sus propias Técnicas de combate. A continuación hay un listado de las dos más comunes; s acra s peculum</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-alius-soldado-sagrado",
+          "type": "level",
+          "name": "Alius (Soldado Sagrado)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 7
+          }
+        }
+      ],
+      "level": {
+        "value": 7
+      },
+      "notes": [
+        {
+          "_id": "note-alius-soldado-sagrado-2",
+          "type": "note",
+          "name": "Habilidades naturales: Magnus: Guardián, Uso de Lanza (Variable).",
+          "system": {}
+        },
+        {
+          "_id": "note-alius-soldado-sagrado-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características Físicas Sobrehumanas, Exención Física, Inhumanidad.",
+          "system": {}
+        },
+        {
+          "_id": "note-alius-soldado-sagrado-4",
+          "type": "note",
+          "name": "Poderes: Alas Luminosas (Vuelo Místico 12), Sentido de la Justicia, Pantalla de Escudos, Metal Sacro (Daña Energía, Ataque Elemental), Ver lo Sobrenatural, Incapaz de Pecar.",
+          "system": {}
+        },
+        {
+          "_id": "note-alius-soldado-sagrado-7",
+          "type": "note",
+          "name": "Ki: Uso del Ki, Control del Ki",
+          "system": {}
+        },
+        {
+          "_id": "note-alius-soldado-sagrado-9",
+          "type": "note",
+          "name": "Técnicas: Spiculum, Aegis.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 11
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 11
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 9
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 9
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 240,
+          "max": 240
+        },
+        "initiative": {
+          "base": {
+            "value": 105
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": -3
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": -2
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 75030
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
+          "base": {
+            "value": 100
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 65
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 25
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
+          "base": {
+            "value": 50
+          }
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
+          "base": {
+            "value": 50
+          }
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
+          "base": {
+            "value": 105
+          }
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 200
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 240
+        }
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 95
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 20
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 300,
+        "max": 300
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 120
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!1c68bf7ce0471b18"
+}

@@ -1,0 +1,1176 @@
+{
+  "_id": "cf61efb5687aad72",
+  "name": "Fundidor (La Máquina · Varna intermedia)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Fundidor (La Máquina · Varna intermedia)"
+  },
+  "items": [
+    {
+      "name": "Armadura natural",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "thrust": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "heat": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "electricity": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "cold": {
+          "base": {
+            "value": 5
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 5
+        },
+        "energy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "integrity": {
+          "base": {
+            "value": 20
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 20
+        },
+        "presence": {
+          "base": {
+            "value": 45
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 45
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "0fb0c01490a60770",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!cf61efb5687aad72.0fb0c01490a60770"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "DRAVENOR Ejército regular de La Máquina · Parte 2",
+      "sourceHeading": "Fundidor (La Máquina · Varna intermedia)",
+      "page": 1,
+      "variant": null,
+      "rawClass": "Entre Mundos Especial",
+      "rawDamage": "60 Cuchillas Candentes (Fil/Cal) o 140 Cañón Láser (Cal)",
+      "rawTA": "Natural Fil 5 Con 5 Pen 5 Cal 5 Fri 5 Ele 5 Ene 0",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": false
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": true
+        },
+        "inhuman": {
+          "value": true
+        },
+        "zen": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre Mundos Especial"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": 22
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 2</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Fundidor (La Máquina · Varna intermedia)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 11 Des: 11 Agi: 11 Con: 11 Pod: 4 Int: 7 Vol: 10 Per: 6 RF 70 RM 15 RP 65 RV 70 RE 70</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Exención física, Inmunidad psicológica, Inmune al dolor, Inhumanidad.</p><p><strong>Poderes:</strong> Armas Naturales; Cuchillas Candentes (daño por calor, -4 TA defensora y daña energía), Velocidad innatural (+20 al turno), Armadura física 5 Abierta, Movimiento libre, Cañón Láser (Poder psíquico innato: Láser, Absurdo, Sin límite, 2 turnos de preparatoria), Vulnerabilidad a la Magia.</p><p><strong>Daño:</strong> 60 Cuchillas Candentes (Fil/Cal) o 140 Cañón Láser (Cal)</p><p><strong>TA:</strong> Natural Fil 5 Con 5 Pen 5 Cal 5 Fri 5 Ele 5 Ene 0</p><p><strong>Habilidades secundarias:</strong> Acrobacias 200, Saltar 200, Advertir 80, Buscar 80 Los fundidores o trípodes, como también se les conoce, no son las tropas más poderosas de La Máquina pero si se encuentran entre las más efectivas por la precisión y potencia de sus ataques a distancia</p><p><strong>Descripción breve:</strong> Resultan particularmente temidos por todos aquellos combatientes que centran su forma de combate en confiar su protección en gruesas armaduras y resistentes corazas, dado que están equipados con un arma de calor similar a un láser que traspasa cualquier protección con pasmosa facilidad. El cuerpo principal de estos seres tiene forma de esfera ligeramente aplanada de la que surgen un total de tres patas articuladas por múltiples puntos y terminadas en una larga y fina cuchilla. Una de las extremidades sale de la zona trasera, mientras las dos restantes lo hacen en los laterales dejando entre ellas espacio suficiente para que en la parte inferior del cuerpo se extienda un cañón psíquico de considerable tamaño. Los fundidores están hechos mayormente de metal, pero sus extremidades están repletas de músculos y fibras de carne, lo que les da una apariencia verdaderamente dantesca y muy desagradable de ver. Aunque son muy estilizados, llegan a medir hasta cuatro metros de altura. El núcleo de los fundidores, que está en la parte central de la esfera, genera una gran cantidad de energía psíquica que produce un intensísimo calor, el cual proyecta o bien a través de su cañón o a través de las cuchillas que hay al final de sus patas. Esto no sólo les sirve para luchar en el caso de verse forzados a un combate cuerpo a cuerpo, sino que lo emplean para caminar por paredes y techos clavando los filos a través de roca o metal con pasmosa facilidad. Los fundidores son considerablemente numerosos para ser un miembro de La Máquina de Varna intermedia, y su número en Dravenor es similar al de tecnócritas. MODUS OPERANDIEnfrentarse a un fundidor puede ser un verdadero infierno, dado que estas criaturas siempre tratan de mantener la distancia que les resulte más favorable para alcanzar a sus objetivos desde lejos. Su especialidad es atacar con su láser y moverse inmediatamente a gran velocidad hasta una posición apropiada desde la que volver a disparar. De ese modo, en zonas abiertas o contra adversarios especialmente lentos sin la capacidad de atacar a distancia, son prácticamente invencibles. Pese a ser capaces de combatir efectivamente cuerpo a cuerpo, un Fundidor tratará siempre de evitar esta situación, buscando la forma de conseguir la mejor posición para usar su estrategia habitual de atacar a distancia. T an solo combatirá físicamente si no tiene otra opción o en caso de que sea la forma óptima de garantizar la retirada. Pese a que los disparos de sus cañones láser son muy peligrosos, estas armas tienen un pequeño periodo de enfriamiento tras cada disparo, apenas cinco segundos que, sin embargo, pueden significar la derrota del ser. Eso, combinado con la total falta de blindaje en el cañón, puede permitir a un guerrero rápido o un grupo bien coordinado destruir el arma principal del fundidor. Menos conocido aún que la falta de blindaje en el cañón de los fundidores es la misma falta en las juntas de sus patas. Cualquier ataque dirigido a una de las articulaciones del ser podría destrozar su extremidad al instante, privándole así de su superior agilidad. Sin cañón y falto de una de sus extremidades, un fundidor apenas podrá responder a los ataques con torpes cuchilladas de sus extremidades restantes. Cuchillas Candentes: Aunque se especializa en ataques a distancia, de verse forzado a un enfrentamiento cuerpo a cuerpo, el fundidor puede, en apenas un instante, hacer que las cuchillas de sus extremidades alcancen temperaturas increíblemente intensas con el objetivo de usarlas como una efectiva arma capaz de fundir armaduras y cortar carne con la misma facilidad. Consecuentemente, estos ataques disminuyen 4 puntos la armadura de sus contrincantes. Adicionalmente, estas cuchillas le permiten también clavarse en superficies duras para desplazarse con facilidad por paredes y techos, por lo que pueden moverse por ellas a la mitad de su Tipo de Movimiento como si tuviera Movimiento Libre limitado. Es importante puntualizar que, de intentarlo en superficies que pudieran prenderse en fuego, esta habilidad quedaría muy limitada. Cañón Láser: Esta arma se trata de una “interpretación libre” de las torretas ligeras de combate que antaño usara el Imperio de Sólomon, aunque usando cristales psíquicos para alimentar el arma. Por ello, pese a ser tecnología y no un poder psíquico en sí, pueden verse afectados por reducciones al potencial. A efectos de reglas, se considera el poder psíquico Láser lanzado en dificultad Absurdo, con la excepción de que ignora hasta en 60 puntos todo tipo de anulación a su potencial y reduce 4 puntos la TA defensora en lugar de 2. Además, pese a ser un poder psíquico, sufren los modificadores aplicables a ataques de proyectiles, tales como cobertura o cambiar de blanco. Núcleo explosivo: Para usar sus habilidades, el núcleo de un fundidor requiere acumular inmensas cantidades de calor, por lo que un ataque efectivo contra este mientras se está calentando puede provocar una inmensa deflagración. Si el fundidor es destruido en el mismo asalto en el que iba a disparar su cañón láser (pero antes de usarlo) o recibe un crítico en el núcleo (ataque apuntado con un penalizar de -40 a la habilidad) que produce efectos superiores a 50, la criatura estalla el asalto siguiente. Cualquiera que esté cerca de ella recibe un ataque automático de dificultad Absurdo si está a menos de 20 metros, Casi Imposible si está a menos de 5 metros, o de Imposible (si está pegado a él o a bocajarro), basado en Calor y un daño base de 140. Vulnerabilidades Físicas: El cuerpo de los fundidores está fabricado con aleaciones metálicas de gran resistencia, lo que le confiere un elevado Tipo de Armadura contra cualquier ataque que no sea de Energía. Sin embargo, para el correcto funcionamiento de sus cañones láser, éstos deben estar en contacto con el aire, lo que les permite enfriarse tras cada disparo, y es por eso por lo que el blindaje no recubre el arma principal del fundidor. Aefecto de reglas, cualquier ataque apuntado al cañón láser aplicará un negativo de 40 a su habilidad de ataque. El cañón tiene 20 puntos de vida que comparte con el Fundidor, aunque todo daño que exceda esa cantidad es ignorado. Para garantizar una mayor movilidad y capacidad de salto, las placas tampoco recubren las juntas de las extremidades, situadas en las articulaciones, consideradas rodillas a efectos de penalizadores por apuntar. Si se consigue un crítico en ella, el Fundidor sufre automáticamente un -60 a su habilidad de defensa y reduce su tipo de movimiento a la mitad. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los Fundidores poseen una absoluta vulnerabilidad a la magia. No solamente tienen RM 15, sino que cualquier descarga de energía sobrenatural les produce doble daño. CasCarónLaMáquina (Varna Menor )</p></section><details><summary>Texto extraído</summary><pre>Nivel: 5\n\nClase: Entre Mundos Especial Puntos de Vida: 200 Categoría: Guerrero Acróbata Fue: 11 Des: 11 Agi: 11 Con: 11 Pod: 4 Int: 7 Vol: 10 Per: 6 RF 70 RM 15 RP 65 RV 70 RE 70\n\nTurno: 1 50 Natural Habilidad de ataque: 180 Cuchillas Candentes o Cañón Láser Habilidad de defensa: 1 60 Esquiva Daño: 60 Cuchillas Candentes (Fil/Cal) o 1 40 Cañón Láser (Cal) TA: Natural Fil 5 Con 5 Pen 5 Cal 5 Fri 5 Ele 5 Ene 0 Habilidades Esenciales: Características Físicas Sobrehumanas, Exención física, Inmunidad psicológica, Inmune al dolor, Inhumanidad. Poderes: Armas Naturales; Cuchillas Candentes (daño por calor, -4 TA defensora y daña energía), Velocidad innatural (+20 al turno), Armadura física 5 Abierta, Movimiento libre, Cañón Láser (Poder psíquico innato: Láser, Absurdo, Sin límite, 2 turnos de preparatoria), Vulnerabilidad a la Magia.\n\nTamaño: 22 Medio Regeneración: 4 Tipo de movimiento: 11 Cansancio: Incansable Habilidades Secundarias: Acrobacias 200, Saltar 200, Advertir 80, Buscar 80 Los fundidores o trípodes, como también se les conoce, no son las tropas más poderosas de La Máquina pero si se encuentran entre las más efectivas por la precisión y potencia de sus ataques a distancia. Resultan particularmente temidos por todos aquellos combatientes que centran su forma de combate en confiar su protección en gruesas armaduras y resistentes corazas, dado que están equipados con un arma de calor similar a un láser que traspasa cualquier protección con pasmosa facilidad. El cuerpo principal de estos seres tiene forma de esfera ligeramente aplanada de la que surgen un total de tres patas articuladas por múltiples puntos y terminadas en una larga y fina cuchilla.\n\nUna de las extremidades sale de la zona trasera, mientras las dos restantes lo hacen en los laterales dejando entre ellas espacio suficiente para que en la parte inferior del cuerpo se extienda un cañón psíquico de considerable tamaño. Los fundidores están hechos mayormente de metal, pero sus extremidades están repletas de músculos y fibras de carne, lo que les da una apariencia verdaderamente dantesca y muy desagradable de ver. Aunque son muy estilizados, llegan a medir hasta cuatro metros de altura. El núcleo de los fundidores, que está en la parte central de la esfera, genera una gran cantidad de energía psíquica que produce un intensísimo calor, el cual proyecta o bien a través de su cañón o a través de las cuchillas que hay al final de sus patas.\n\nEsto no sólo les sirve para luchar en el caso de verse forzados a un combate cuerpo a cuerpo, sino que lo emplean para caminar por paredes y techos clavando los filos a través de roca o metal con pasmosa facilidad. Los fundidores son considerablemente numerosos para ser un miembro de La Máquina de Varna intermedia, y su número en Dravenor es similar al de tecnócritas. MODUS OPERANDIEnfrentarse a un fundidor puede ser un verdadero infierno, dado que estas criaturas siempre tratan de mantener la distancia que les resulte más favorable para alcanzar a sus objetivos desde lejos. Su especialidad es atacar con su láser y moverse inmediatamente a gran velocidad hasta una posición apropiada desde la que volver a disparar. De ese modo, en zonas abiertas o contra adversarios especialmente lentos sin la capacidad de atacar a distancia, son prácticamente invencibles.\n\nPese a ser capaces de combatir efectivamente cuerpo a cuerpo, un Fundidor tratará siempre de evitar esta situación, buscando la forma de conseguir la mejor posición para usar su estrategia habitual de atacar a distancia. T an solo combatirá físicamente si no tiene otra opción o en caso de que sea la forma óptima de garantizar la retirada. Pese a que los disparos de sus cañones láser son muy peligrosos, estas armas tienen un pequeño periodo de enfriamiento tras cada disparo, apenas cinco segundos que, sin embargo, pueden significar la derrota del ser. Eso, combinado con la total falta de blindaje en el cañón, puede permitir a un guerrero rápido o un grupo bien coordinado destruir el arma principal del fundidor. Menos conocido aún que la falta de blindaje en el cañón de los fundidores es la misma falta en las juntas de sus patas.\n\nCualquier ataque dirigido a una de las articulaciones del ser podría destrozar su extremidad al instante, privándole así de su superior agilidad. Sin cañón y falto de una de sus extremidades, un fundidor apenas podrá responder a los ataques con torpes cuchilladas de sus extremidades restantes. Cuchillas Candentes: Aunque se especializa en ataques a distancia, de verse forzado a un enfrentamiento cuerpo a cuerpo, el fundidor puede, en apenas un instante, hacer que las cuchillas de sus extremidades alcancen temperaturas increíblemente intensas con el objetivo de usarlas como una efectiva arma capaz de fundir armaduras y cortar carne con la misma facilidad. Consecuentemente, estos ataques disminuyen 4 puntos la armadura de sus contrincantes.\n\nAdicionalmente, estas cuchillas le permiten también clavarse en superficies duras para desplazarse con facilidad por paredes y techos, por lo que pueden moverse por ellas a la mitad de su Tipo de Movimiento como si tuviera Movimiento Libre limitado. Es importante puntualizar que, de intentarlo en superficies que pudieran prenderse en fuego, esta habilidad quedaría muy limitada. Cañón Láser: Esta arma se trata de una “interpretación libre” de las torretas ligeras de combate que antaño usara el Imperio de Sólomon, aunque usando cristales psíquicos para alimentar el arma. Por ello, pese a ser tecnología y no un poder psíquico en sí, pueden verse afectados por reducciones al potencial.\n\nA efectos de reglas, se considera el poder psíquico Láser lanzado en dificultad Absurdo, con la excepción de que ignora hasta en 60 puntos todo tipo de anulación a su potencial y reduce 4 puntos la TA defensora en lugar de 2. Además, pese a ser un poder psíquico, sufren los modificadores aplicables a ataques de proyectiles, tales como cobertura o cambiar de blanco. Núcleo explosivo: Para usar sus habilidades, el núcleo de un fundidor requiere acumular inmensas cantidades de calor, por lo que un ataque efectivo contra este mientras se está calentando puede provocar una inmensa deflagración. Si el fundidor es destruido en el mismo asalto en el que iba a disparar su cañón láser (pero antes de usarlo) o recibe un crítico en el núcleo (ataque apuntado con un penalizar de -40 a la habilidad) que produce efectos superiores a 50, la criatura estalla el asalto siguiente.\n\nCualquiera que esté cerca de ella recibe un ataque automático de dificultad Absurdo si está a menos de 20 metros, Casi Imposible si está a menos de 5 metros, o de Imposible (si está pegado a él o a bocajarro), basado en Calor y un daño base de 1 40. Vulnerabilidades Físicas: El cuerpo de los fundidores está fabricado con aleaciones metálicas de gran resistencia, lo que le confiere un elevado Tipo de Armadura contra cualquier ataque que no sea de Energía. Sin embargo, para el correcto funcionamiento de sus cañones láser, éstos deben estar en contacto con el aire, lo que les permite enfriarse tras cada disparo, y es por eso por lo que el blindaje no recubre el arma principal del fundidor. Aefecto de reglas, cualquier ataque apuntado al cañón láser aplicará un negativo de 40 a su habilidad de ataque.\n\nEl cañón tiene 20 puntos de vida que comparte con el Fundidor, aunque todo daño que exceda esa cantidad es ignorado. Para garantizar una mayor movilidad y capacidad de salto, las placas tampoco recubren las juntas de las extremidades, situadas en las articulaciones, consideradas rodillas a efectos de penalizadores por apuntar. Si se consigue un crítico en ella, el Fundidor sufre automáticamente un -60 a su habilidad de defensa y reduce su tipo de movimiento a la mitad. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los Fundidores poseen una absoluta vulnerabilidad a la magia. No solamente tienen RM 1 5, sino que cualquier descarga de energía sobrenatural les produce doble daño. CasCarónLaMáquina (Varna Menor )</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-fundidor-la-maquina-varn",
+          "type": "level",
+          "name": "Fundidor (La Máquina · Varna intermedia)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 5
+          }
+        }
+      ],
+      "level": {
+        "value": 5
+      },
+      "notes": [
+        {
+          "_id": "note-fundidor-la-maquina-varna-interm-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características Físicas Sobrehumanas, Exención física, Inmunidad psicológica, Inmune al dolor, Inhumanidad.",
+          "system": {}
+        },
+        {
+          "_id": "note-fundidor-la-maquina-varna-interm-4",
+          "type": "note",
+          "name": "Poderes: Armas Naturales; Cuchillas Candentes (daño por calor, -4 TA defensora y daña energía), Velocidad innatural (+20 al turno), Armadura física 5 Abierta, Movimiento libre, Cañón Láser (Poder psíquico innato: Láser, Absurdo, Sin límite, 2 turnos de preparatoria), Vulnerabilidad a la Magia.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 11
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 11
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 11
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 11
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 7
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 4
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 200,
+          "max": 200
+        },
+        "initiative": {
+          "base": {
+            "value": 150
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 70080
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": -30
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 200
+          }
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 200
+          }
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 80
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 180
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
+        "base": {
+          "value": 160
+        }
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!cf61efb5687aad72"
+}

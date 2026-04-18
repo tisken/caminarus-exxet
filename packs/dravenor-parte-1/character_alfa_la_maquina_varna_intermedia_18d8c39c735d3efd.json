@@ -1,0 +1,1179 @@
+{
+  "_id": "18d8c39c735d3efd",
+  "name": "Alfa (La Máquina · Varna intermedia)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Alfa (La Máquina · Varna intermedia)"
+  },
+  "items": [
+    {
+      "name": "Armadura natural",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "thrust": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "heat": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "electricity": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "cold": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "energy": {
+          "base": {
+            "value": 2
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 2
+        },
+        "integrity": {
+          "base": {
+            "value": 22
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 22
+        },
+        "presence": {
+          "base": {
+            "value": 50
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 50
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "82d3c903b4b608a2",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!18d8c39c735d3efd.82d3c903b4b608a2"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "DRAVENOR Ejército regular de La Máquina · Parte 1",
+      "sourceHeading": "Alfa (La Máquina · Varna intermedia)",
+      "page": 1,
+      "variant": null,
+      "rawClass": "Entre Mundos Especial",
+      "rawDamage": "120 Fauces y Garras (PEN/FIL), 80 Cola (FIL)",
+      "rawTA": "Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 2",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": false
+        },
+        "domine": {
+          "value": true
+        },
+        "psychic": {
+          "value": false
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": true
+        },
+        "inhuman": {
+          "value": false
+        },
+        "zen": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre Mundos Especial"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": 18
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 1</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Alfa (La Máquina · Varna intermedia)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Sombra Fue: 8 Des: 10 Agi: 10 Con: 10 Pod: 4 Int: 6 Vol: 10 Per: 10 RF 70 RM 10 RP 70 RV 70 RE 70</p><p><strong>Habilidades esenciales:</strong> Exención Física, Inmunidad Psicológica, Inmune al Dolor.</p><p><strong>Poderes:</strong> Armas Naturales; Fauces y Garras de Metal (+40 al Daño y -4 TA Defensora), Cola con Cuchillas (Ataque Adicional, -30 Habilidad de Ataque), Velocidad Innatural (+30 al Turno), Exoesqueleto (Armadura Física 6, Armadura Mística 2), Reparación Continúa Mejorada (Regeneración 16), Adaptaciones Termo-ópticas, Comunicación por Infrasonidos, Sistema de Ocultación, Vulnerabilidad a la Magia.</p><p><strong>Daño:</strong> 120 Fauces y Garras (PEN/FIL), 80 Cola (FIL)</p><p><strong>TA:</strong> Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 2</p><p><strong>Habilidades secundarias:</strong> Acrobacias 120, Saltar 80, Advertir 180, Buscar 160, P</p><p><strong>Descripción breve:</strong> Fuerza 40, Sigilo 160, Ocultarse 180, Ocultación del Ki 195. Estos seres, vistos por primera vez en el último año y medio de la guerra, son una modificación extremadamente poderosa de los Sabuesos convencionales. Su apariencia es similar a la de su antecesor, pero son mucho más grandes y corpulentos (aproximadamente algo más grandes que un león) y están recubiertos en su totalidad por un exoesqueleto grisáceo y liso lleno de venas. Sus afilados colmillos sobresalen aún con las fauces cerradas y en el extremo de su larga cola tienen una afilada cuchilla. Los “Alfa”, como se les conoce, también se manufacturan usando cadáveres de Vetala, aunque en su caso combinándolos a restos muertos de otras bestias sobrenaturales mucho más raras. Dadas las modificaciones del modelo, sus cuerpos son mucho más perfectos y su núcleo se encuentra oculto en el interior de la criatura, lo que disminuye enormemente su debilidad tradicional. Como versión más avanzada de los Sabuesos, los Alfa se comportan de un modo similar a sus antecesores, pero muestran mayor inteligencia y realizan estrategias más refinadas. Aunque cualquiera de ellos puede actuar independientemente para cazar objetivos muy valiosos, su papel más habitual es el de líder de un pequeño grupo de Sabuesos, a los que organiza y dirige en misiones especiales. No obstante, lo cierto es que su armadura mejorada y sus armas potenciadas le sirven para adoptar muy diversos papeles en el organigrama de La Máquina; pueden ser una devastadora tropa de choque o asesinos de precisión quirúrgica. En muchos sentidos, cada uno de ellos es el resultado de décadas y décadas de adaptación por parte de La Máquina para crear una tropa especializada hasta el límite de su efectividad. Dado el poco tiempo que están siendo utilizados y su rareza, las fuerzas de Dravenor apenas tienen datos de ellos, pero ya han aprendido a temerlos por su monstruosa efectividad. MODUS OPERANDIUnAlfa es una pesadilla en combate, pues se mueve con una precisión y una habilidad en nada comparable a los modelos anteriores de Sabuesos. Sabe cómo sacar verdadero provecho a cada una de sus capacidades y percibe instintivamente si debe usar el subterfugio o le basta con hacer uso de su habilidad de combate para prevalecer ante enemigos poderosos. Fauces y Garras de Metal: Los Alfa poseen enormes mandíbulas de metal con aristas muy afiladas e inmensas garras que usan para luchar. Al atacar, estas armas vibran de una manera especial permitiéndoles destrozar casi cualquier protección. Por ello, reducen en 4 la TA del defensor. Cola de Cuchillas: En el extremo de su cola estos modelos disponen de una cuchilla articulada que pueden usar en combinación con sus fauces y garras. Además de sus ataques habituales, el Alfa es capaz de efectuar un ataque adicional con su cola aplicando un penalizador de 30 a su Habilidad de Ataque, aunque no se beneficia del aumento de daño ni la reducción de TA de las Fauces y Garras de Metal. Exoesqueleto: El cuerpo de los Alfa está fabricado con aleaciones metálicas de gran resistencia, lo que le confiere un elevado Tipo de Armadura que, en combinación con su generador, le proporciona también cierta resistencia a la energía. Reparación Continua: Los Alfa están en parte formados por tejido cuasivivo que reparan constantemente sus cuerpos; por ello poseen el equivalente aRegeneración 16 que les permite recuperarse a un ritmo de 10 puntos de daño por turno. Comunicación por Infrasonidos: Esta habilidad es una versión más potente de la que los Sabuesos, dado que es audible en un área de hasta cinco kilómetros. Adaptaciones Termo-ópticas Mejoradas: El exoesqueleto de los Alfa adapta su color y textura al de sus alrededores dotando a la criatura con el equivalente a un Camuflaje Camaleónico más efectivo que el de los Sabuesos convencionales. Por tanto, la dificultad para detectarlos mientras están completamente quietos es de Imposible en Advertir o Casi Imposible en Buscar, o de Absurdo y Muy Difícil si se Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Se dice que hay criaturas con forma de lobo entre los miembros de La Máquina. Conocimiento Intermedio Son las criaturas más bestiales de La Máquina y a menudo les distrae la sangre. Los blancos en movimiento atraen su atención mucho más que los que permanecen estáticos, por lo que si te quedas quieto es posible que ataquen a cualquier otro antes que a ti. Hay diferentes versiones de ellos, y no todos tienen los mismos poderes. Dañar su núcleo incapacita su sistema de regeneración. Se comunican por ultrasonidos, así que es conveniente estar atentos a cuando se escuchan pitidos casi inaudibles. Es conveniente tener perros en los puestos de vigía avanzados porque se ponen nerviosos al notarlos. Conocimiento Avanzado Si se reúnen grandes manadas, siempre es necesario atacar a aquel de ellos que se ponga a aullar en la distancia. Se crean usando cadáveres Vetala. encuentran en movimiento. Además de esto sus ojos, mejorados mediante lentes y sistemas de detección de calor, les permiten ver sin penalizador alguno en la oscuridad natural y reducir a la mitad los penalizadores provocados por oscuridad sobrenatural. Sistema de Ocultación: Aunque los componentes de La Máquina no están propiamente vivos y carecen de habilidades de Ki, los Alfas poseen un sistema que cancela los rastros de energía física que sus cuerpos puedan desprender. Por ello, estos sabuesos poseen el equivalente la habilidad Ocultación del Ki, reflejada en sus habilidades secundarias. Vulnerabilidad a la Magia: Como los Sabuesos, también poseen una absoluta vulnerabilidad a la magia. No solamente tienen una Resistencia Mágica muy reducida, sino que cualquier descarga de energía sobrenatural les produce doble daño. CAngrejoLa m áquina (v arna i ntermedia )</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entre Mundos Especial Puntos de Vida: 165 Categoría: Sombra Fue: 8 Des: 10 Agi: 10 Con: 10 Pod: 4 Int: 6 Vol: 10 Per: 10 RF 70 RM 10 RP 70 RV 70 RE 70\n\nTurno: 1 60 Natural Habilidad de ataque: 200 Fauces y Garras de Metal + 1 70 Cola Habilidad de defensa: 1 50 Esquiva Daño: 120 Fauces y Garras (PEN/FIL), 80 Cola (FIL) TA: Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 2 Habilidades Esenciales: Exención Física, Inmunidad Psicológica, Inmune al Dolor. Poderes: Armas Naturales; Fauces y Garras de Metal (+40 al Daño y -4 TA Defensora), Cola con Cuchillas (Ataque Adicional, -30 Habilidad de Ataque), Velocidad Innatural (+30 al Turno), Exoesqueleto (Armadura Física 6, Armadura Mística 2), Reparación Continúa Mejorada (Regeneración 1 6), Adaptaciones Termo-ópticas, Comunicación por Infrasonidos, Sistema de Ocultación, Vulnerabilidad a la Magia.\n\nTamaño: 18 Medio Regeneración: 16 Tipo de movimiento: 10 Cansancio: Incansable Habilidades Secundarias: Acrobacias 120, Saltar 80, Advertir 180, Buscar 1 60, P . Fuerza 40, Sigilo 1 60, Ocultarse 180, Ocultación del Ki 1 95. Estos seres, vistos por primera vez en el último año y medio de la guerra, son una modificación extremadamente poderosa de los Sabuesos convencionales. Su apariencia es similar a la de su antecesor, pero son mucho más grandes y corpulentos (aproximadamente algo más grandes que un león) y están recubiertos en su totalidad por un exoesqueleto grisáceo y liso lleno de venas. Sus afilados colmillos sobresalen aún con las fauces cerradas y en el extremo de su larga cola tienen una afilada cuchilla.\n\nLos “Alfa”, como se les conoce, también se manufacturan usando cadáveres de Vetala, aunque en su caso combinándolos a restos muertos de otras bestias sobrenaturales mucho más raras. Dadas las modificaciones del modelo, sus cuerpos son mucho más perfectos y su núcleo se encuentra oculto en el interior de la criatura, lo que disminuye enormemente su debilidad tradicional. Como versión más avanzada de los Sabuesos, los Alfa se comportan de un modo similar a sus antecesores, pero muestran mayor inteligencia y realizan estrategias más refinadas. Aunque cualquiera de ellos puede actuar independientemente para cazar objetivos muy valiosos, su papel más habitual es el de líder de un pequeño grupo de Sabuesos, a los que organiza y dirige en misiones especiales.\n\nNo obstante, lo cierto es que su armadura mejorada y sus armas potenciadas le sirven para adoptar muy diversos papeles en el organigrama de La Máquina; pueden ser una devastadora tropa de choque o asesinos de precisión quirúrgica. En muchos sentidos, cada uno de ellos es el resultado de décadas y décadas de adaptación por parte de La Máquina para crear una tropa especializada hasta el límite de su efectividad. Dado el poco tiempo que están siendo utilizados y su rareza, las fuerzas de Dravenor apenas tienen datos de ellos, pero ya han aprendido a temerlos por su monstruosa efectividad. MODUS OPERANDIUnAlfa es una pesadilla en combate, pues se mueve con una precisión y una habilidad en nada comparable a los modelos anteriores de Sabuesos.\n\nSabe cómo sacar verdadero provecho a cada una de sus capacidades y percibe instintivamente si debe usar el subterfugio o le basta con hacer uso de su habilidad de combate para prevalecer ante enemigos poderosos. Fauces y Garras de Metal: Los Alfa poseen enormes mandíbulas de metal con aristas muy afiladas e inmensas garras que usan para luchar. Al atacar, estas armas vibran de una manera especial permitiéndoles destrozar casi cualquier protección. Por ello, reducen en 4 la TA del defensor. Cola de Cuchillas: En el extremo de su cola estos modelos disponen de una cuchilla articulada que pueden usar en combinación con sus fauces y garras. Además de sus ataques habituales, el Alfa es capaz de efectuar un ataque adicional con su cola aplicando un penalizador de 30 a su Habilidad de Ataque, aunque no se beneficia del aumento de daño ni la reducción de TA de las Fauces y Garras de Metal.\n\nExoesqueleto: El cuerpo de los Alfa está fabricado con aleaciones metálicas de gran resistencia, lo que le confiere un elevado Tipo de Armadura que, en combinación con su generador, le proporciona también cierta resistencia a la energía. Reparación Continua: Los Alfa están en parte formados por tejido cuasivivo que reparan constantemente sus cuerpos; por ello poseen el equivalente aRegeneración 1 6 que les permite recuperarse a un ritmo de 10 puntos de daño por turno. Comunicación por Infrasonidos: Esta habilidad es una versión más potente de la que los Sabuesos, dado que es audible en un área de hasta cinco kilómetros. Adaptaciones Termo-ópticas Mejoradas: El exoesqueleto de los Alfa adapta su color y textura al de sus alrededores dotando a la criatura con el equivalente a un Camuflaje Camaleónico más efectivo que el de los Sabuesos convencionales.\n\nPor tanto, la dificultad para detectarlos mientras están completamente quietos es de Imposible en Advertir o Casi Imposible en Buscar, o de Absurdo y Muy Difícil si se Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Se dice que hay criaturas con forma de lobo entre los miembros de La Máquina. Conocimiento Intermedio Son las criaturas más bestiales de La Máquina y a menudo les distrae la sangre. Los blancos en movimiento atraen su atención mucho más que los que permanecen estáticos, por lo que si te quedas quieto es posible que ataquen a cualquier otro antes que a ti. Hay diferentes versiones de ellos, y no todos tienen los mismos poderes. Dañar su núcleo incapacita su sistema de regeneración. Se comunican por ultrasonidos, así que es conveniente estar atentos a cuando se escuchan pitidos casi inaudibles.\n\nEs conveniente tener perros en los puestos de vigía avanzados porque se ponen nerviosos al notarlos. Conocimiento Avanzado Si se reúnen grandes manadas, siempre es necesario atacar a aquel de ellos que se ponga a aullar en la distancia. Se crean usando cadáveres Vetala. encuentran en movimiento. Además de esto sus ojos, mejorados mediante lentes y sistemas de detección de calor, les permiten ver sin penalizador alguno en la oscuridad natural y reducir a la mitad los penalizadores provocados por oscuridad sobrenatural. Sistema de Ocultación: Aunque los componentes de La Máquina no están propiamente vivos y carecen de habilidades de Ki, los Alfas poseen un sistema que cancela los rastros de energía física que sus cuerpos puedan desprender. Por ello, estos sabuesos poseen el equivalente la habilidad Ocultación del Ki, reflejada en sus habilidades secundarias.\n\nVulnerabilidad a la Magia: Como los Sabuesos, también poseen una absoluta vulnerabilidad a la magia. No solamente tienen una Resistencia Mágica muy reducida, sino que cualquier descarga de energía sobrenatural les produce doble daño. CAngrejoLa m áquina (v arna i ntermedia )</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-alfa-la-maquina-varna-in",
+          "type": "level",
+          "name": "Alfa (La Máquina · Varna intermedia)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 6
+          }
+        }
+      ],
+      "level": {
+        "value": 6
+      },
+      "notes": [
+        {
+          "_id": "note-alfa-la-maquina-varna-intermedia-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Exención Física, Inmunidad Psicológica, Inmune al Dolor.",
+          "system": {}
+        },
+        {
+          "_id": "note-alfa-la-maquina-varna-intermedia-4",
+          "type": "note",
+          "name": "Poderes: Armas Naturales; Fauces y Garras de Metal (+40 al Daño y -4 TA Defensora), Cola con Cuchillas (Ataque Adicional, -30 Habilidad de Ataque), Velocidad Innatural (+30 al Turno), Exoesqueleto (Armadura Física 6, Armadura Mística 2), Reparación Continúa Mejorada (Regeneración 16), Adaptaciones Termo-ópticas, Comunicación por Infrasonidos, Sistema de Ocultación, Vulnerabilidad a la Magia.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 6
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 4
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 165,
+          "max": 165
+        },
+        "initiative": {
+          "base": {
+            "value": 160
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": 13
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 70090
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": -40
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 120
+          }
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
+          "base": {
+            "value": 80
+          }
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 180
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 160
+          }
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 200
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
+        "base": {
+          "value": 150
+        }
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!18d8c39c735d3efd"
+}

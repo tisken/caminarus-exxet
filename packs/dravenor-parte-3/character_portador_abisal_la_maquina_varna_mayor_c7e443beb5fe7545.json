@@ -1,0 +1,1191 @@
+{
+  "_id": "c7e443beb5fe7545",
+  "name": "Portador Abisal (La Máquina · Varna mayor)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Portador Abisal (La Máquina · Varna mayor)"
+  },
+  "items": [
+    {
+      "name": "Armadura natural",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 10
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 10
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 10
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 10
+        },
+        "thrust": {
+          "base": {
+            "value": 10
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 10
+        },
+        "heat": {
+          "base": {
+            "value": 10
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 10
+        },
+        "electricity": {
+          "base": {
+            "value": 10
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 10
+        },
+        "cold": {
+          "base": {
+            "value": 10
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 10
+        },
+        "energy": {
+          "base": {
+            "value": 8
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 8
+        },
+        "integrity": {
+          "base": {
+            "value": 30
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 30
+        },
+        "presence": {
+          "base": {
+            "value": 70
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 70
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "hard"
+        },
+        "localization": {
+          "value": "breastplate"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "516b85d12c1eb152",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!c7e443beb5fe7545.516b85d12c1eb152"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "animu-exxet": {
+      "sourceBook": "DRAVENOR Ejército regular de La Máquina · Parte 3",
+      "sourceHeading": "Portador Abisal (La Máquina · Varna mayor)",
+      "page": 1,
+      "variant": null,
+      "rawClass": "Entre Mundos Especial",
+      "rawDamage": "150 Fauces Trituradoras (Fil), 100 Embestida (Con)",
+      "rawTA": "Natural Fil 10 Con 10 Pen 10 Cal 10 Fri 10 Ele 10 Ene 8",
+      "warnings": []
+    }
+  },
+  "system": {
+    "version": 0,
+    "ui": {
+      "contractibleItems": {},
+      "tabVisibility": {
+        "mystic": {
+          "value": true
+        },
+        "domine": {
+          "value": true
+        },
+        "psychic": {
+          "value": true
+        },
+        "effects": {
+          "value": false
+        }
+      }
+    },
+    "automationOptions": {
+      "calculateFatigueModifier": {
+        "value": true
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "perceiveMystic": {
+          "value": false
+        },
+        "perceivePsychic": {
+          "value": false
+        },
+        "inmaterial": {
+          "value": true
+        },
+        "inhuman": {
+          "value": false
+        },
+        "zen": {
+          "value": true
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "diceSettings": {
+        "characteristicDie": {
+          "value": "1d10ControlRoll"
+        },
+        "initiativeDie": {
+          "value": "1d100Initiative"
+        },
+        "resistanceDie": {
+          "value": "1d100"
+        },
+        "abilityDie": {
+          "value": "1d100xa"
+        },
+        "abilityMasteryDie": {
+          "value": "1d100xamastery"
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "unreduced": {
+            "value": 0
+          },
+          "reduction": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "perceptionPenalty": {
+          "base": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        },
+        "automaticCrit": {
+          "value": false
+        },
+        "critDamageBonus": {
+          "__type": "{\"type\":\"NumericalValue\"}"
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "base": {
+          "value": 0
+        },
+        "special": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre Mundos Especial"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": 32
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 3</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Portador Abisal (La Máquina · Varna mayor)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Guerrero Mentalista Fue: 15 Des: 11 Agi: 10 Con: 17 Pod: 4 Int: 8 Vol: 13 Per: 8 RF 100 RM 30 RP 90 RV 100 RE 100</p><p><strong>Habilidades esenciales:</strong> Exención física, Zen, Características físicas divinas, Características anímicas sobrehumanas, Inmunidad psicológica, Inmune al dolor, Acceso a una disciplina psíquica, Mantenimiento añadido, Ciego.</p><p><strong>Poderes:</strong> Portador, Armas naturales; Fauces trituradoras (-3 a la TA defensora), Movimiento subterráneo superior, Cuerpo artificial (Regeneración 0, Barrera de daño 80, TA física 4, Reducción de daño: -20 limitada), Vulnerabilidad a la Magia.</p><p><strong>Disciplinas:</strong> Psíquicas: Telepatía</p><p><strong>Daño:</strong> 150 Fauces Trituradoras (Fil), 100 Embestida (Con)</p><p><strong>TA:</strong> Natural Fil 10 Con 10 Pen 10 Cal 10 Fri 10 Ele 10 Ene 8</p><p><strong>Habilidades secundarias:</strong> Advertir 120</p><p><strong>Descripción breve:</strong> Los Portadores de las profundidades (o simplemente Abisales) son un modelo de transporte y comandancia especialista que tiene como finalidad mover a las fuerzas de La Máquina por las profundidades de la tierra. Su apariencia difiere enormemente de los otros dos modelos de Portadores, pues se trata de un largo gusano metálico dividido en finas secciones que giran las unas con las otras, permitiéndole retorcerse como un gusano real sin sacrificar la resistencia de su cuerpo metálico. En uno de sus extremos se encuentra la “cabeza”, capaz de abrirse en cuatro secciones para mostrar que está compuesta en su totalidad por unas fauces repletas de sierras, colmillos y trituradoras. Los Abisales son muy escasos, no por su indudablemente alto coste en recursos o su elevada dificultad de creación, sino por su uso limitado. Cono Cimientosdedravenor Conocimiento Genérico Existen inmensas monstruosidades en el océano que albergan en su interior cientos de “crías”. Si notan barcos cerca, salen a superficie para destrozarlos. Conocimiento Intermedio Dado que no quedan verdaderamente depredadores marinos, si se ve un gran banco de peces en movimiento es un signo inequívoco de que, en las proximidades (no más de dos o tres kilómetros), hay un Kraken cerca. Conocimiento Avanzado Lo cierto es que una de las formas más efectivas de combatir a estos seres es subirse encima de ellos cuando salen a superficie, dado que no pueden usar sus Tentáculos sin riesgo de dañarse ellos mismos. No obstante, esta táctica tiene el riesgo de que el Kraken decida sumergirse, en cuyo caso, deja en una posición muy desfavorecida a sus “asaltantes”. Y es que trasladarlos de una isla a otra es, si no imposible, al menos extremadamente complejo. En realidad, el único motivo por el que La Madre ha desarrollado estos modelos es probar su eficacia a largo plazo como arma que usar en su debido momento más allá de La Barrera (y lo cierto es que, de momento, las pruebas han resultado ser inconcluyentes). Como los otros modelos de portadores, los Abisales poseen una notable inteligencia lógica, pero nada parecido a una personalidad; su comportamiento es completamente mecánico, actuando más acorde a pautas establecidas más que instinto. Los Abisales carecen por completo del sentido de la vista. En lugar de ello, utilizan sus matrices psíquicas para detectar cualquier mente que se encuentre cerca de ellos, y las utilizan como referencia para desplazarse por las profundidades. En raros casos, también son capaces de acceder a lo que estén viendo en ese momento otros miembros de menor jerarquía de La Máquina. Sin embargo, cuando se ve obligado a utilizar este método, sus capacidades se reducen como consecuencia de una visión que no se adapta a lo que debería percibir habitualmente. Dado que a La Máquina le resulta extremadamente complicado desplazar a los Abisales de una isla a otra, los pocos que hay están siempre en las de mayor tamaño, donde a La Máquina le resulta rentable contar con uno para asegurar la eliminación de cualquier grupo que trate de retomar el territorio. MODUS OPERANDIEl modus operandi del Portador Abisal suele ser bastante simple. Espera pacientemente en las profundidades (o se desplaza, en caso de que esté patrullando o haya recibido órdenes concretas) hasta que detecta objetivos. En ese momento, se acerca hasta dicha posición y emerge por sorpresa desde la tierra, engullendo todo lo que haya en las inmediaciones por completo. Si puede elegir, emergerá siempre en mitad de grupos numerosos, tragándoselo todo y abriendo sus fauces para dejar salir de inmediato sus fuerzas. Portador: Un portador abisal es capaz de albergar un gran número de tropas menores de La Máquina, aunque pueden ser drones, arañas o camaleones. Independientemente del tipo de tropa, puede llevar en su interior hasta 400, a los que puede liberar a ritmo de hasta 50 por asalto a través de sus fauces. Para ello debe encontrarse al menos parcialmente en la superficie, y todo asalto en que libere tropas es incapaz de atacar por sí mismo, ya que las fauces son su método de ataque. Nexo de</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Entre Mundos Especial Puntos de Vida: 6500 Acumulación Categoría: Guerrero Mentalista Fue: 15 Des: 11 Agi: 10 Con: 17 Pod: 4 Int: 8 Vol: 13 Per: 8 RF 100 RM 30 RP 90 RV 100 RE 100\n\nTurno: 85 Natural Habilidad de ataque: 200 Fauces Trituradoras / Embestida. Habilidad de defensa: Acumulación Daño: 1 50 Fauces Trituradoras (Fil), 100 Embestida (Con) TA: Natural Fil 10 Con 10 Pen 10 Cal 10 Fri 10 Ele 10 Ene 8 Proyección Psíquica: 20 Potencial: 120 CVsLibres: 0 Innatos: 3 Disciplinas Psíquicas: Telepatía Poderes Psíquicos: Escaneo de zona (+20), Localización psíquica (+20), Área (+60). Habilidades Esenciales: Exención física, Zen, Características físicas divinas, Características anímicas sobrehumanas, Inmunidad psicológica, Inmune al dolor, Acceso a una disciplina psíquica, Mantenimiento añadido, Ciego. Poderes: Portador, Armas naturales; Fauces trituradoras (-3 a la TA defensora), Movimiento subterráneo superior, Cuerpo artificial (Regeneración 0, Barrera de daño 80, TA física 4, Reducción de daño: -20 limitada), Vulnerabilidad a la Magia.\n\nTamaño: 32 Gigantesco Regeneración: 0 (Especial) Tipo de movimiento: 12 Cansancio: Incansable Habilidades Secundarias: Advertir 120. Los Portadores de las profundidades (o simplemente Abisales) son un modelo de transporte y comandancia especialista que tiene como finalidad mover a las fuerzas de La Máquina por las profundidades de la tierra. Su apariencia difiere enormemente de los otros dos modelos de Portadores, pues se trata de un largo gusano metálico dividido en finas secciones que giran las unas con las otras, permitiéndole retorcerse como un gusano real sin sacrificar la resistencia de su cuerpo metálico. En uno de sus extremos se encuentra la “cabeza”, capaz de abrirse en cuatro secciones para mostrar que está compuesta en su totalidad por unas fauces repletas de sierras, colmillos y trituradoras.\n\nLos Abisales son muy escasos, no por su indudablemente alto coste en recursos o su elevada dificultad de creación, sino por su uso limitado. Cono Cimientosdedravenor Conocimiento Genérico Existen inmensas monstruosidades en el océano que albergan en su interior cientos de “crías”. Si notan barcos cerca, salen a superficie para destrozarlos. Conocimiento Intermedio Dado que no quedan verdaderamente depredadores marinos, si se ve un gran banco de peces en movimiento es un signo inequívoco de que, en las proximidades (no más de dos o tres kilómetros), hay un Kraken cerca. Conocimiento Avanzado Lo cierto es que una de las formas más efectivas de combatir a estos seres es subirse encima de ellos cuando salen a superficie, dado que no pueden usar sus Tentáculos sin riesgo de dañarse ellos mismos.\n\nNo obstante, esta táctica tiene el riesgo de que el Kraken decida sumergirse, en cuyo caso, deja en una posición muy desfavorecida a sus “asaltantes”. Y es que trasladarlos de una isla a otra es, si no imposible, al menos extremadamente complejo. En realidad, el único motivo por el que La Madre ha desarrollado estos modelos es probar su eficacia a largo plazo como arma que usar en su debido momento más allá de La Barrera (y lo cierto es que, de momento, las pruebas han resultado ser inconcluyentes). Como los otros modelos de portadores, los Abisales poseen una notable inteligencia lógica, pero nada parecido a una personalidad; su comportamiento es completamente mecánico, actuando más acorde a pautas establecidas más que instinto. Los Abisales carecen por completo del sentido de la vista.\n\nEn lugar de ello, utilizan sus matrices psíquicas para detectar cualquier mente que se encuentre cerca de ellos, y las utilizan como referencia para desplazarse por las profundidades. En raros casos, también son capaces de acceder a lo que estén viendo en ese momento otros miembros de menor jerarquía de La Máquina. Sin embargo, cuando se ve obligado a utilizar este método, sus capacidades se reducen como consecuencia de una visión que no se adapta a lo que debería percibir habitualmente. Dado que a La Máquina le resulta extremadamente complicado desplazar a los Abisales de una isla a otra, los pocos que hay están siempre en las de mayor tamaño, donde a La Máquina le resulta rentable contar con uno para asegurar la eliminación de cualquier grupo que trate de retomar el territorio. MODUS OPERANDIEl modus operandi del Portador Abisal suele ser bastante simple.\n\nEspera pacientemente en las profundidades (o se desplaza, en caso de que esté patrullando o haya recibido órdenes concretas) hasta que detecta objetivos. En ese momento, se acerca hasta dicha posición y emerge por sorpresa desde la tierra, engullendo todo lo que haya en las inmediaciones por completo. Si puede elegir, emergerá siempre en mitad de grupos numerosos, tragándoselo todo y abriendo sus fauces para dejar salir de inmediato sus fuerzas. Portador: Un portador abisal es capaz de albergar un gran número de tropas menores de La Máquina, aunque pueden ser drones, arañas o camaleones. Independientemente del tipo de tropa, puede llevar en su interior hasta 400, a los que puede liberar a ritmo de hasta 50 por asalto a través de sus fauces.\n\nPara ello debe encontrarse al menos parcialmente en la superficie, y todo asalto en que libere tropas es incapaz de atacar por sí mismo, ya que las fauces son su método de ataque. Nexo de Control: El Portador mantiene un lazo mental con todos los drones, arañas o camaleones que lo rodean en un área de 3 kilómetros, influenciando su comportamiento e incrementando exponencialmente sus capacidades de combate. Mientras estén dentro de su zona de control los drones, arañas o camaleones obtienen un +20 a su habilidad de Ataque y Defensa así como poder ejecutar complejas maniobras tácticas. El Abisal sólo puede hacer uso de esta habilidad mientras se encuentra en la superficie (al menos, su cabeza). Ataque Emergente: El ataque inicial de un Abisal es siempre emergiendo a la superficie y tratando de engullir por completo a sus objetivos con sus enormes fauces.\n\nCualquiera que esté en las inmediaciones del ataque debe de superar un control de Advertir contra Absurdo o de Buscar contra Muy Difícil, o aplicará un penalizador de -40 la defensa a causa de lo inesperado del ataque (lo cierto es que es extremadamente fácil percibir los temblores, pero no tanto darse cuenta de que algo va a salir bajo tus pies y aún menos el momento exacto). En el caso de que ya haya presenciado antes este tipo de ataques, las dificultades se reducen a Difícil y Fácil respectivamente. El ataque emergente afecta a todos los objetivos que se encuentren en un radio de 10 metros del punto donde surge la criatura. Si los blancos son de tamaño grande o inferior, serán sometidos aFaucesTrituradoras. Si por el contrario son de mayor envergadura, sufrirán Embestida. El ataque también puede alcanzar objetivos voladores, siempre que no estén volando a más de 30 metros de altura.\n\nSi quiere repetir un Ataque Emergente, un Abisal necesita retirarse a las profundidades (algo que normalmente le cuesta dos asaltos) y reposicionarse abajo (unos tres asaltos más) antes de poder volver a utilizarlo. Fauces Trituradoras: El extremo de los portadores abisales es unas gigantescas fauces repletas de cuchillas que giran constantemente, convirtiéndose en una perfecta trituradora. Estas armas causan un daño masivo y disminuyen tres puntos el Tipo de Armadura de sus contrincantes. El Abisal usa este ataque cuando sus adversarios son de tamaño grande o inferior. Embestida: En el caso de los objetivos del Abisal durante un ataque emergente sean demasiado grandes para ser engullidos por las fauces trituradoras, en su lugar reciben una embestida de considerable potencia que, en caso de impactar, provoca un embate de Fuerza 1 4.\n\nEl Abisal usa este ataque cuando sus adversarios son de tamaño enorme o superior. Detección Psíquica: Los portadores abisales son completamente ciegos, pero para compensar esa debilidad poseen una poderosa capacidad de detección psíquica que les permite determinar si cualquier mente se encuentra en las inmediaciones. Por ello, un Abisal mantiene en todo momento los poderes psíquicos Área en dificultad Casi Imposible (1 km de radio) y Escaneo de zona en dificultad Absurdo (1 60 RP). Si en algún momento sospechan de la cercanía de un enemigo al cual no han logrado detectar, o detectan un enemigo que más tarde logra zafarse de su detección, usará Localización Psíquica. Ciego: Pese a carecer de visión, el Abisal no aplica los penalizadores de ceguera al combatir, siempre y cuando sea consciente de la posición aproximada de sus adversarios.\n\nMovimiento Subterráneo: Usando sus descomunales fauces, los portadores abisales se abren paso bajo tierra destrozando hasta las más duras rocas. Pueden usar su tipo de movimiento para desplazarse bajo tierra, y solo los más resistentes materiales pueden llegar a ralentizar su avance. Cuerpo Artificial: La estructura metálica de un portador abisal es incapaz de regenerar daños por sí sola. Sólo puede repararse manualmente por otros individuos o miembros de La Máquina. Sin embargo, sus resistentes aleaciones le confieren otras ventajas. No solo disponen de un elevado Tipo de Armadura y barrera de daño 80, sino que todo ataque dirigido a ellos ve reducido su daño base en 20. Esta reducción no afecta a ataques de origen mágico.\n\nVulnerabilidad a la Magia: Los portadores abisales poseen la vulnerabilidad a la magia inherente en La Máquina, por lo que cualquier descarga de energía mística les produce doble daño. Cono Cimientosdedravenor Conocimiento Genérico Hay enormes gusanos de metal recorriendo las profundidades de las islas. Si el suelo tiembla… es que van a salir a devorarte. Conocimiento Intermedio Uno de los planes más efectivos contra estos seres es la de “sacrificar” gente haciendo que carguen con pesados explosivos. Les atraen hasta un lugar apartado y, en el momento en el que están siendo tragados, los hacen reventar desde dentro, donde carecen de protección. Es terriblemente cruel, pero efectivo.\n\nConocimiento Avanzado Si se desea evitar un ataque de uno de estos seres, la experiencia ha demostrado que la forma más eficiente es proteger las mentes de los soldados ante cualquier tipo de detección psíquica. Por supuesto, esto es muy costoso si trata de aplicarse en grupos grandes, por lo que lo mejor es un grupo reducido. Sin embargo, un sólo momento de debilidad puede significar que el Abisal esté atento a su presencia, y ser un blanco potencial de la criatura, que posiblemente enviará a alguna tropa a investigar la zona conectándose a sus sentidos. Pretoriano Praefectus La Máquina (Varna SupreMa ) “Pretorianos mejorados, sistemas de armamento y tecnología que vuelven obsoletas todas las técnicas de guerra convencional y el conocimiento de que lo único que impide los suicidios en masa es que el público no lo sabe. Le hace pensar a uno en lo que no nos cuentan.\n\nLuego se preguntarán por qué la mitad de los oficiales de operaciones especiales acabamos en la bebida o colgándonos de alguna viga en nuestros aposentos.” Teniente Garro “Tal vez la cita del teniente no ayude precisamente a inspirar a los lectores del documento, pero la importancia de sus palabras no puede negarse. Así pues, se mantiene la cita, y se ordena la presentación del teniente Garro para evaluación psicológica en Nueva Elciana a la menor tardanza posible.” Alto Consejero Vojislav Élite entre la élite, la mera existencia de estos seres se ha puesto en duda en varias ocasiones, considerando que no es posible perfeccionar aquello que se considera el culmen de la ciencia de La Máquina. Y que, para muchos habitantes de Dravenor, la mera idea de que La Madre haya sido capaz de desarrollar algo aún más poderoso que un pretoriano… es motivo de absoluto terror.\n\nPero más allá de mitos y leyendas, lo cierto es que estas monstruosidades son terriblemente reales. Se trata de versiones extraordinarias de los Pretorianos, creaciones en las que no sólo se ha logrado una fusión celular de un tejido vivo y tecnología, sino que se ha llegado más allá proporcionándoles características y poderes únicos que los elevan entre el resto. Es difícil determinar con seguridad cómo se crea un Praefectus, pero requiere incluso más que la rara unión entra una Larva Reina con el cuerpo de una persona genéticamente apropiada; para que “nazcan” es necesario que el huésped tenga una voluntad excepcionalmente fuerte y un Gnosis muy elevado. Con ambas condiciones, durante su gestación La Madre puede invertir mayores recursos para crear un ser sin par, uno de los agentes supremos de La Máquina.\n\nPor ello, no es difícil imaginar que el número de Praefectus es increíblemente limitado. Su apariencia es similar a la de otros Pretorianos, pero cada uno de ellos posee distintas peculiaridades que se reflejan en su inusual aspecto físico. Por ese motivo cada uno es un ser único que, si bien tienen similitudes entre sí, son a la vez lo suficientemente diferentes como para distinguirlos con claridad. Como la creación más depurada de La Máquina, los Praefectus son la más alta jerarquía dentro de la Mente Colmena, justo tras la Madre y de la Sakshad. Desde esta posición cumplen el papel de estrategas y generales en las mayores batallas, o bien el de auténticas máquinas de matar con completa autonomía en su toma de decisiones.\n\nLo cierto es que los Praefectus conservan de alguna forma rasgos de la mentalidad y personalidad original de su cuerpo, más allá de los meros atisbos que mantienen los Pretorianos convencionales. Incluso conservan recuerdos de su vida anterior, ya que demostraron reconocer a individuos que conocieron antes de su “renacimiento”, si bien su voluntad es completamente devota a la Madre y carecen por completo de nada parecido a moralidad más allá de los estándares de La Máquina. Por todo ello, son los únicos miembros de La Máquina que tienen “nombre propio”, en lugar de referirse a ellos por su modelo. Actualmente, existen cinco Pretorianos Praefectus en Dravenor, que actúan como generales y coordinadores especiales de las Fuerzas de La Máquina. La Madre también ha enviado más allá de La Barrera a un sexto de ellos, Donis Krieger, con el objetivo de preparar el mundo para su llegada.\n\ne StadíSticaS y r egLaS e SpeciaLeSCadaPretorianoPraefectus es totalmente único, con no sólo personalidades propias y diferenciadas, sino con sus particulares capacidades y estilos de combate. A efectos de juego, la ficha del Pretoriano Praefectus toma como base la de un Pretoriano normal, aunque se ve modificada en los siguientes puntos: Presencia Superior: Un Pretoriano Praefectus posee entre 1 y 3 niveles más que un Pretoriano convencional. No solo el nivel es variable, sino que también lo son a qué se destinan sus PD. Por tanto, la ficha de cada Pretoriano Praefectus siempre es completamente única y diferente del resto, pese a compartir una misma base. Mente Singular: La mente de los Pretorianos Praefectus son únicas e individuales, seres al servicio de La Madre con pensamientos y opiniones propias.\n\nSi bien siguen siendo parte de la mente colmena y su voluntad es la de La Máquina, otorgan también un nuevos y diferentes puntos de vista que puede resultar en estrategias nunca vistas. Es también importante puntualizar que el conservar parcialmente sus recuerdos, permite que los Praefectus posean diversas habilidades, diferentes a las que poseen otros pretorianos. Jerarquía Suprema: Un Pretoriano Praefectus está en lo más alto de la jerarquía de la Mente Colmena, sólo por detrás de la Madre y de la Sakshad, y por lo tanto cualquier otro ser de La Máquina que se encuentre cerca obedecerá sus órdenes que, dada la particular naturaleza de la mente de estos seres, pueden resultar en diferentes y novedosos usos de sus tropas.\n\nCristales Psíquicos Modificados: Pese a tomar como base la ficha de un Pretoriano, los poderes psíquicos de un Pretoriano Praefectus pueden ser muy distintos en cada caso. Si bien todos ellos tienen la disciplina psíquica Incremento Físico, así como los poderes psíquicos Incrementar Fuerza, Incrementar Habilidad e Incremento de Reacción, el resto de sus poderes psíquicos no tienen por qué ser también los normales de un Pretoriano. Cono Cimientosdedravenor Conocimiento Genérico La existencia de estos seres no es conocida por los habitantes comunes de Dravenor. Conocimiento Intermedio Se dice que hay lideres entre La Máquina. Conocimiento Avanzado De momento, la información de que dispone el Alto Consejo sobre estos seres es muy escasa, ya que solo se tienen registros de la existencia de dos de ellos; Claudia Dalca y Rom.\n\nNinguno ha sido destruido hasta el momento para poder investigar su cuerpo; lo más cercano que se ha logrado ha sido forzar a uno de ellos a retirase, para lo cual fue necesaria la intervención directa de miembros del Alto Consejo de Guerra. Más allá de su propia habilidad superior los Pretorianos Praefectus disponen de mejoras exclusivas de enorme poder. Armamentos de inmenso coste de producción, reliquias de Sólomon imposibles de replicar o capacidades solo aprovechables por seres con gran poder personal, son ejemplos de estas mejoras que La Máquina utiliza para incorporar a estos poderosos seres. Todo Pretoriano Praefectus dispondrá de entre 1 a 4 Mejoras de Alta Tecnología. A continuación, se exponen y explican algunas de las posibilidades conocidas, así como sus efectos.\n\nSin embargo, esta no es una lista cerrada y exclusiva, sino que funciona como ejemplos, por lo que es perfectamente posible añadir mejoras distintas a las siguientes. Sistema Dalila El Disruptor por Alteración de Longitud para la Inhibición de Lanzamientos Arcanos, mejor conocido como “Dalila”, es un sistema único en La Máquina. Se trata de una creación del Imperio de Sólomon para eliminar hechiceros altamente poderosos, que La Madre consiguió incorporar recientemente a su ciencia. Cuando está apagado, se trata de un generador de forma cilíndrica, con unos veinte centímetros de longitud y diez de diámetro. Al encenderse, decenas de pequeños cristales psíquicos se extienden desde su interior, conectándose entre sí por una especie de lazo eléctrico que adopta aproximadamente la forma de un crepitante látigo de energía.\n\nEsta “fuerza sobrenatural” se alimenta de la potencia del Vórtice del Pretoriano, otorgando al arma la extraña capacidad de crear una disrupción sobre cualquier ser con capacidades mágicas que impacte. Por lo general, el impacto permite incluso disipar hechizos y conjuros, lo que la vuelve un arma de aterradora eficacia contra hechiceros. El sistema Dalila se incluye generalmente en el antebrazo del pretoriano, el cual se abre por la mitad (partiendo en dos la mano) en el momento en el que se activa. Incorporada: Aefecto de reglas, Dalila es un arma natural del Pretoriano Praefectus, pudiendo usarla en cualquier turno en lugar de Arma Viviente. Tiene un daño base de 120, ataca en la TA de Electricidad, puede usarse para efectuar una Presa con Fuerza 12, es capaz de dañar seres inmateriales y se considera irrompible.\n\nSi el Pretoriano Praefectus que la porta sufre un crítico de efecto superior a 50 en el antebrazo donde se encuentra Dalila, el sistema quedará inutilizado hasta que pueda ser reparado. Disruptor Arcano: La principal utilidad de Dalila es la de romper el vínculo entre un hechicero y sus sortilegios. Cualquier lanzador de conjuros que sufra daño procedente del látigo deberá superar una Resistencia Física contra 100 más la mitad del daño sufrido (hasta un máximo de RF 220), o de lo contrario se desvanecerán todos los hechizos que estuviera manteniendo. Inhibidora de Lanzamientos: Además de disolver conjuros, el sistema Dalila posee la capacidad de evitar que un hechicero pueda volver a lanzarlos.\n\nCualquier persona que se encuentre apresada por el látigo sufrirá un intensísimo dolor por el mero hecho de acumular Zeon o intentar lanzar un conjuro, así como un Daño equivalente a la mitad del Nivel de Fracaso. La RF a superar depende del nivel de presa: RF 1 40 con Parálisis Menor, RF 180 con Parálisis Parcial, y 240 ante Parálisis Completa. De fallar este control, el personaje perderá de inmediato los puntos de Zeon acumulados. Combate en Presa: El Pretoriano puede luchar mientras mantiene una presa con el sistema Dalila aplicando sólo un penalizador de -10 a su habilidad. Sistema de Camuflaje Giges Se trata de una versión altamente sofisticada del sistema que se utiliza con Sabuesos y Camaleones, dado que actúa adaptándose de un modo tan veloz a su entorno que a efectos de juego vuelve al Pretoriano prácticamente invisible en cualquier situación.\n\nEste sistema se implementa en las zonas externas del metal que compone aPraefectus, que para poder hacerlo adecuadamente ha de ser una superficie lisa y metálica. Por tanto, aquellos que lo llevan presentan un aspecto impecable, con un cuerpo recubierto con metal totalmente pulido. En el momento de activar su camuflaje, el sistema tiene que acostumbrarse durante unos segundos al ambiente en que se encuentre, instantes en los que es aún posible ver al Pretoriano Praefectus. Tras ese tiempo, el Giges se activa por completo, y pasa a ser prácticamente imposible localizar a quien lo está usando. Camuflaje Perfecto: El Sistema de Camuflaje Giges vuelve en esencia invisible al Praefectus que lo utilice, aunque al momento de activarlo tarda ligeramente en adaptarse al entorno y alcanzar su utilidad máxima.\n\nEn cualquier asalto, antes de las tiradas de iniciativa, el Pretoriano Praefectus puede activar el Sistema de Camuflaje Giges. En el asalto siguiente, cualquiera que no supere un control de Advertir contra Casi Imposible o de Buscar contra Absurdo, será incapaz de verle. Apartir del segundo asalto y en adelante, ya adaptado el sistema al entorno, ambas dificultades aumentan aInhumano e Imposible, respectivamente. Alimentación Psíquica: El sistema de alimentación modificado por La Máquina permite una mayor autonomía al sistema, pero resulta psíquicamente extenuante para el Praefectus. Cada cinco asaltos consecutivos en los que mantenga activo el Sistema de Camuflaje Giges, consumirá un CV libre del Pretoriano. En caso de no poder pagar este mantenimiento, el sistema se apagará.\n\nCristales de Legión Estos cristales, producidos completamente con la tecnología de La Máquina, han demostrado una eficiencia sólo comparable al descomunal coste que tiene su producción. Un Pretoriano con este sistema está equipado con cristales psíquicos únicos que conectan su consciencia con la de los seres en los que se inoculen. Por esa causa, si uno de ellos se introdujera en un miembro de La Máquina (o se clavara en un ser orgánico), el Pretoriano Praefectus podría actuar a través de dicho cuerpo, controlándolo libremente sin perder en ningún momento por ello el control de su forma original. Atodos los efectos, sería una sola mente ocupando y controlando dos o más cuerpos a la vez. Naturalmente, esto presenta algunos problemas, dado que extender la mente no es sencillo y debilita las capacidades del Pretoriano Praefectus.\n\nAun así, las ventajas de encontrarse en varios lugares a la vez bien compensan estos problemas. Un pretoriano Praefectus puede llevar como máximo hasta veinte Cristales de Legión, generalmente oculto en diversos compartimentos de su cuerpo. Visualmente, son largos y estilizados, similares a una aguija o un estilete hecho de cristal recubierto por completo de venas. Mente Extendida: Gracias a los Cristales de Legión, la mente de un Pretoriano Praefectus puede encontrarse en varios lugares a la vez. Para ello no necesita más que clavar unos de sus cristales en un componente de La Máquina de menor jerarquía que él. Mientras ese miembro de La Máquina lleve el cristal, el Pretoriano Praefectus podrá ver directamente a través de él, hablar a través suyo, dar órdenes a cualquier miembro de la Mente Colmena y usar poderes psíquicos como si se encontrara allí.\n\nMejoras de Alta Tecnología Implante de Control: Si un cristal de control se clava en el cuerpo de un ser vivo sin vinculación con La Máquina, el Pretoriano puede tratar de forzar ese cuerpo como si fuera una marioneta a su servicio. Es importante puntualizar que el sistema legión no controla propiamente a la persona como tal, por lo que el Pretoriano no poseerá las habilidades del individuo dominado. Lo que hace el sistema es anular la voluntad de su objetivo, permitiendo al Pretoriano usar su cuerpo como si fuera una extensión del suyo. A efectos de juego, cualquier ser no asociado con La Máquina en el que se clave una aguja de legión deberá superar una RP contra 1 60 o se convertirá en una marioneta temporal del Pretoriano.\n\nEn el caso de que se vea forzado a realizar algo completamente ajeno a su naturaleza, el individuo dominado podrá realizar un nuevo control de RP contra 1 60 para tratar de liberarse (esta nueva tirada está limitada a una cada 5 asaltos). Una vez clavado en un cuerpo, la aguja de despliega generando multitud de terminaciones por el sistema nervioso de su blanco. Por eso, extraerla de un modo veloz y sin cuidado puede provocar un enorme daño físico al afectado de entre 20 y 120 puntos, dependiendo de su tamaño (los seres más pequeños sufren un daño mayor, mientras que un ser de tamaño humano podría sufrir hasta 40 puntos de Daño). Marionetas: Aunque el enlace directo con el Pretoriano Praefectus hace que las capacidades de cualquier “marioneta” se incrementen enormemente, resulta obvio que las capacidades físicas de los cuerpos dominados no pueden igualar a la del propio Pretoriano.\n\nAún así, cualquier criatura de La Máquina conectada con él obtiene un bono de +60 a su Habilidad Ofensiva y Defensiva (en el caso de que no tenga acumulación de daño) no pudiendo superar una habilidad final de 200. En el caso de que use un cuerpo no relacionado de la Máquina, dependerá generalmente de la capacidad natural del cuerpo, aunque generalmente, el de una persona normal le permitiría usar hasta un máximo de habilidad 1 40, y el del alguien increíblemente capaz hasta un máximo de 180. Dada la tensión que implica dividir su mente, el número de marionetas activas reduce las capacidades del Pretoriano, por lo que aplica un penalizador de -10 a toda acción (que se aplica también a las marionetas) por cada una que tenga activa por encima de dos.\n\nCalidad: Si se quieren lanzar sobre un ser vivo, las agujas cuentan como un estilete de calidad +1 5 si se usan con poderes psíquicos como balística, y para calcular su resistencia. Sistema Monofilos Este sistema de La Máquina es un intento artificial de simular el estilo de combate de Monofilos Cáncer. El Pretoriano tiene a su disposición una masificación de finos hilos que surgen de cabellos o dedos y controla con absoluta precisión. Afilados como diamantes, al momento de atacar, no son más que veloces filos que cortan y despedazan carne y huesos a la velocidad de un pensamiento. Presa: El aguante de estos monofilos es descomunal, lo que permite atrapar a sus enemigos con gran fuerza. Además, al moverse con ese fin, lo hacen como una sola oleada muy difícil de evitar.\n\nCuando el Pretoriano Praefectus escoge la cualidad de Arma Viviente “Cola Prensil” puede usar los Monofilos, obteniendo un bono de +40 a su habilidad y usando una característica de Fuerza 1 4 para apresar, aunque reduce su Daño Base a 20. Monofilos: Al ser usados como medio de ataque directo, los monofilos pasan a moverse de forma independiente y atacan desde varios lugares a la vez. A efectos de juego, a las cualidades de la habilidad Arma Viviente se añade la opción “Monofilos”, que permite realizar cinco ataques en el mismo turno aplicando un penalizador de -30 a la habilidad de todos ellos, aunque reduce su daño a la mitad (es decir, daño 70). Cada ataque puede ser dirigido a un objetivo diferente, o todos al mismo. Por cada objetivo que esté siendo presado, el Pretoriano reduce en uno el número de ataques que pude realizar con esta técnica. Pseudo.\n\nInvisibles: Cuando el pretoriano usa los monofilos para atacar o presar, es necesario superar un control Muy Difícil de Advertir o Difícil en Buscar para no aplicar el penalizador de Cegado. Los seres con un atributo de Percepción de 12 o más no requieren realizar este control. Núcleo Lambda Este sistema imita, de un modo similar al que usan los Hecatondies de Solomon, las habilidades de Ki de un ser vivo. De ese modo, los Pretorianos Praefectus son capaces de emular los efectos del Ki en combate, incrementando considerablemente las capacidades de aquellos que los posean. Simulación de\n\nKi: Pese a las capacidades que otorga un Núcleo Sobrenatural Lambda, los Pretorianos siguen sin disponer realmente de Ki propio, por lo que son incapaces de recuperar los puntos gastados por mucho tiempo que descansen. Por el contrario, estos puntos deben ser recargados en una base de La Máquina. Generador Artificial: Independientemente de sus características, un Pretoriano con este sistema posee los siguientes atributos de Ki; Puntos Genéricos de\n\nKi: 85 Acumulaciones de Ki Fue 3, Des 3, Agi 2, Con 3, Pod 2, Vol 3 Técnicas: Los Pretorianos Praefectus que disponen de esta Mejora son capaces de utilizar las técnicas expuestas a continuación: p rotocoLo o fenSiVo</pre></details>"
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-portador-abisal-la-maqui",
+          "type": "level",
+          "name": "Portador Abisal (La Máquina · Varna mayor)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 8
+          }
+        }
+      ],
+      "level": {
+        "value": 8
+      },
+      "notes": [
+        {
+          "_id": "note-portador-abisal-la-maquina-varna-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Exención física, Zen, Características físicas divinas, Características anímicas sobrehumanas, Inmunidad psicológica, Inmune al dolor, Acceso a una disciplina psíquica, Mantenimiento añadido, Ciego.",
+          "system": {}
+        },
+        {
+          "_id": "note-portador-abisal-la-maquina-varna-4",
+          "type": "note",
+          "name": "Poderes: Portador, Armas naturales; Fauces trituradoras (-3 a la TA defensora), Movimiento subterráneo superior, Cuerpo artificial (Regeneración 0, Barrera de daño 80, TA física 4, Reducción de daño: -20 limitada), Vulnerabilidad a la Magia.",
+          "system": {}
+        },
+        {
+          "_id": "note-portador-abisal-la-maquina-varna-5",
+          "type": "note",
+          "name": "Poderes psíquicos: Escaneo de zona (+20), Localización psíquica (+20), Área (+60).",
+          "system": {}
+        },
+        {
+          "_id": "note-portador-abisal-la-maquina-varna-6",
+          "type": "note",
+          "name": "Disciplinas: Psíquicas: Telepatía",
+          "system": {}
+        },
+        {
+          "_id": "note-portador-abisal-la-maquina-varna-7",
+          "type": "note",
+          "name": "Ki: Pese a las capacidades que otorga un Núcleo Sobrenatural Lambda, los Pretorianos siguen sin disponer realmente de Ki propio, por lo que son incapaces de recuperar los puntos gastados por mucho tiempo que descansen. Por el contrario, estos puntos deben ser recargados en una base de La Máquina. Generador Artificial: Independientemente de sus características, un Pretoriano con este sistema posee los siguientes atributos de Ki; Puntos Genéricos de Ki: 85 Acumulaciones de Ki Fue 3, Des 3, Agi 2, Con 3, Pod 2, Vol 3",
+          "system": {}
+        },
+        {
+          "_id": "note-portador-abisal-la-maquina-varna-9",
+          "type": "note",
+          "name": "Técnicas: Los Pretorianos Praefectus que disponen de esta Mejora son capaces de utilizar las técnicas expuestas a continuación: p rotocoLo o fenSiVo",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 10
+          }
+        },
+        "constitution": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 17
+          }
+        },
+        "dexterity": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 11
+          }
+        },
+        "strength": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 15
+          }
+        },
+        "intelligence": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "perception": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 8
+          }
+        },
+        "power": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 4
+          }
+        },
+        "willPower": {
+          "__type": "{\"type\":\"Characteristic\"}",
+          "base": {
+            "value": 13
+          }
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 6500,
+          "max": 6500
+        },
+        "initiative": {
+          "base": {
+            "value": 85
+          },
+          "special": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": -10
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 2
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 9985
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": -30
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 0
+            },
+            "special": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "athleticism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "ride": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+        },
+        "swim": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+        },
+        "climb": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "jump": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "piloting": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        }
+      },
+      "vigor": {
+        "composure": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "featsOfStrength": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "withstandPain": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        }
+      },
+      "perception": {
+        "notice": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
+          "base": {
+            "value": 120
+          }
+        },
+        "search": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+        },
+        "track": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "science": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "law": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "herbalLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "history": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "tactics": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "medicine": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "memorize": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "navigation": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "occult": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "appraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "magicAppraisal": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "social": {
+        "style": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "intimidate": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+        },
+        "leadership": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "persuasion": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "trading": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "streetwise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "etiquette": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "disguise": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "hide": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "theft": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "stealth": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+        },
+        "trapLore": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "poisons": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        }
+      },
+      "creative": {
+        "art": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "dance": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+        },
+        "forging": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "runes": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "alchemy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+        },
+        "animism": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "music": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        },
+        "sleightOfHand": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "ritualCalligraphy": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "jewelry": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "tailoring": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+        },
+        "puppetMaking": {
+          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
+        "base": {
+          "value": 200
+        }
+      },
+      "block": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+      },
+      "dodge": {
+        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+      },
+      "wearArmor": {
+        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
+        "base": {
+          "value": 0
+        }
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": [],
+      "supernaturalShields": [],
+      "damageReduction": {
+        "__type": "{\"type\":\"NumericalValue\"}"
+      }
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "zeon": {
+        "accumulated": 0,
+        "value": 0,
+        "max": 0
+      },
+      "zeonMaintained": {
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "via": []
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 240
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "mysticSettings": {
+        "aptitudeForMagicDevelopment": false
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": [],
+      "preparedSpells": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        },
+        "major": {
+          "fire": {
+            "isActive": false
+          },
+          "metal": {
+            "isActive": false
+          },
+          "wind": {
+            "isActive": false
+          },
+          "water": {
+            "isActive": false
+          },
+          "wood": {
+            "isActive": false
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 120
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 20
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 20
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 20
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicSettings": {
+        "fatigueResistance": false
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 3
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!c7e443beb5fe7545"
+}
