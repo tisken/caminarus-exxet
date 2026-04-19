@@ -46,20 +46,6 @@ Después instala el addon con esta `Manifest URL`:
 4. Dentro verás una carpeta por manual y, dentro de cada una, sus criaturas.
 5. Si quieres versiones de mundo editables o reconstruibles, abre el importador del módulo y copia allí uno o varios libros.
 
-## Regenerar los datos
-
-El generador usa Python estándar, sin dependencias externas.
-
-```bash
-python3 tools/generate_bestiary.py \
-  --core "/ruta/a/Anima Beyond Fantasy - Core Exxet.md" \
-  --walking "/ruta/a/Anima Beyond Fantasy - Los que caminaron con nosotros_unlocked.md"
-```
-
-Si estás trabajando dentro del entorno de desarrollo original de este proyecto, el script intenta descubrir esos ficheros automáticamente.
-
-Tras regenerar los datos, el script vuelve a escribir tanto `data/generated/` como `packs/`. Después conviene volver a empaquetar `dist/animu-exxet.zip`, ya que es el artefacto que usa Foundry para instalar o actualizar el módulo desde el manifest.
-
 ## Estructura
 
 - `data/generated/`: datasets JSON listos para importar a compendios de mundo.
