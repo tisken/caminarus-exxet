@@ -724,7 +724,8 @@ def write_pack_source(datasets: list[tuple[str, str, list[dict]]]) -> None:
             payload.setdefault("flags", {})
             payload["flags"]["core"] = payload["flags"].get("core", {})
             payload["flags"]["cf"] = {
-                "id": f"temp_{folder_id}",
+                "id": f"temp_{payload['_id'][:10]}",
+                "path": f"{STATIC_PACK_ROOT_FOLDER}#/CF_SEP/{label}",
                 "color": "#000000",
             }
             write_json(pack_dir / pack_filename(payload), payload)

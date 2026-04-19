@@ -146,7 +146,7 @@ class GeneratedDataTest(unittest.TestCase):
 
     def test_manifest_is_installable_from_github(self):
         self.assertEqual(self.manifest["id"], "animu-exxet")
-        self.assertEqual(self.manifest["version"], "0.2.5")
+        self.assertEqual(self.manifest["version"], "0.2.6")
         self.assertTrue(DIST_ZIP.exists())
         self.assertEqual(
             self.manifest["manifest"],
@@ -160,12 +160,8 @@ class GeneratedDataTest(unittest.TestCase):
         self.assertEqual(dependency["id"], "animabf")
         self.assertIn("manifest", dependency)
 
-    def test_manifest_declares_static_packs(self):
-        self.assertEqual(len(self.manifest["packs"]), 1)
-        pack = self.manifest["packs"][0]
-        self.assertEqual(pack["name"], "creatures-exxet")
-        self.assertEqual(pack["label"], "Creatures Exxet")
-        self.assertEqual(pack["path"], "./packs/creatures-exxet")
+    def test_manifest_uses_runtime_compendium_population(self):
+        self.assertEqual(self.manifest["packs"], [])
 
     def test_pack_directories_match_generated_counts(self):
         pack_dir = PACKS / "creatures-exxet"
@@ -201,6 +197,10 @@ class GeneratedDataTest(unittest.TestCase):
         self.assertIn("texture", sample["prototypeToken"])
         self.assertIn("light", sample["prototypeToken"])
         self.assertEqual(sample["prototypeToken"]["texture"]["src"], sample["img"])
+        self.assertEqual(
+            sample["flags"]["cf"]["path"].split("#/CF_SEP/")[0],
+            "Creatures Exxet",
+        )
 
         for actor_path in actor_entries:
             actor = json.loads(actor_path.read_text(encoding="utf-8"))
