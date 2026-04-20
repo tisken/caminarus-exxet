@@ -751,9 +751,9 @@ def build_stats_block() -> dict:
         "systemId": ANIMABF_SYSTEM_ID,
         "systemVersion": ANIMABF_SYSTEM_VERSION,
         "coreVersion": FOUNDRY_CORE_VERSION,
-        "createdTime": None,
-        "modifiedTime": None,
-        "lastModifiedBy": None,
+        "createdTime": 1713571200000,
+        "modifiedTime": 1713571200000,
+        "lastModifiedBy": "animu-exxet-generator",
     }
 
 
