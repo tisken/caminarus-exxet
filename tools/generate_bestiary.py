@@ -85,8 +85,9 @@ BOOKS = {
             4: ["Marioneta de Fuego"],
             5: ["Guardián de los Recuerdos"],
             7: ["Sello Defensor"],
+            8: ["Ophanim"],
             9: ["Noth"],
-            10: ["Ophanim"],
+            10: ["Noth Principado"],
             13: ["Noth Principado"],
             15: ["Noth Potestas"],
             19: ["Guardián del Nexo"],
@@ -1236,7 +1237,8 @@ CRITIC_MAP = {
     "ene": "energy", "energia": "energy", "energ\u00eda": "energy",
 }
 
-DAMAGE_SKIP = {"ninguno", "variable", "como objeto lanzado", "como arma", "especial"}
+DAMAGE_SKIP = {"ninguno", "variable", "como objeto lanzado", "como arma", "especial",
+               "agi", "con", "pod", "vol", "fue", "des", "int", "per"}
 
 
 def _resolve_critic(raw: str) -> tuple[str, str]:
@@ -1251,7 +1253,7 @@ def _resolve_critic(raw: str) -> tuple[str, str]:
 def _clean_weapon_name(name: str) -> str:
     name = re.sub(r"\+\d+", "", name)
     name = re.sub(r"\([^)]*\)", "", name)
-    return collapse_spaces(name.strip(" ,;./"))
+    return collapse_spaces(name.strip(" ,;./+"))
 
 
 def parse_weapons_from_damage(damage_raw: str | None) -> list[dict]:
@@ -1730,8 +1732,11 @@ def build_actor_document(record: dict, template: dict) -> dict:
     armor_item = build_armor_item(record["name"], record.get("ta_raw"))
     if armor_item:
         items.append(armor_item)
+    seen_weapons = set()
     for weapon in parse_weapons_from_damage(record.get("damage_raw")):
-        items.append(build_weapon_item(weapon))
+        if weapon["name"] not in seen_weapons:
+            seen_weapons.add(weapon["name"])
+            items.append(build_weapon_item(weapon))
 
     prepared_items = []
     for index, item in enumerate(items):
@@ -2094,7 +2099,7 @@ def parse_inline_record(book_id: str, block_text: str, title: str, page: int | N
         "attack": attack,
         "defense_raw": he_m.group(0) if he_m else None,
         "defense": defense,
-        "defense_mode": "dodge" if he_m and "esquiva" in (he_m.group(0) or "").lower() else "block",
+        "defense_mode": "dodge" if he_m else "block",
         "damage_raw": f"{inline_damage} {inline_weapon_name}" if inline_damage and inline_weapon_name else (damage_m.group(0) if damage_m else None),
         "wear_armor_raw": None,
         "wear_armor": None,
