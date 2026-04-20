@@ -1665,14 +1665,13 @@ NOTE_FIELDS = [
 
 def build_note_entries(record: dict) -> list[dict]:
     notes = []
-    base_slug = slugify(record.get("name", "criatura"))[:32] or "criatura"
     for index, (field_name, label) in enumerate(NOTE_FIELDS, start=1):
         raw_value = collapse_spaces(record.get(field_name) or "")
         if not raw_value:
             continue
         notes.append(
             {
-                "_id": f"note-{base_slug}-{index}",
+                "_id": stable_id(record["id"], "note", str(index)),
                 "type": "note",
                 "name": f"{label}: {raw_value}",
                 "system": {},
@@ -1705,7 +1704,7 @@ def build_actor_document(record: dict, template: dict) -> dict:
 
     system["general"]["levels"] = [
         {
-            "_id": f"lvl-{slugify(record['name'])[:24] or 'creature'}",
+            "_id": stable_id(record["id"], "level"),
             "type": "level",
             "name": record["name"],
             "flags": {"version": 1},
