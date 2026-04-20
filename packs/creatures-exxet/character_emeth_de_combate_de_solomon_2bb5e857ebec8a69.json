@@ -1,0 +1,1773 @@
+{
+  "_id": "2bb5e857ebec8a69",
+  "name": "Emeth de Combate de Solomon",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Emeth de Combate de Solomon",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "characteristics.secondaries.lifePoints"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "levels": {
+        "tokenHeight": 0
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "detectionModes": []
+  },
+  "items": [
+    {
+      "name": "Exoesqueleto (6 Física 4 Energía)",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "thrust": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "heat": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "electricity": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "cold": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "energy": {
+          "base": {
+            "value": 6
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 6
+        },
+        "integrity": {
+          "base": {
+            "value": 22
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 22
+        },
+        "presence": {
+          "base": {
+            "value": 50
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 50
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "natural"
+        },
+        "localization": {
+          "value": "complete"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "7999f7baa90cf248",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2bb5e857ebec8a69.7999f7baa90cf248"
+    },
+    {
+      "name": "Armas Físicas",
+      "type": "weapon",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "effects": [],
+      "system": {
+        "special": {
+          "value": ""
+        },
+        "integrity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "breaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "attack": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "block": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "damage": {
+          "base": {
+            "value": 50
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "presence": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "size": {
+          "value": "medium"
+        },
+        "strRequired": {
+          "oneHand": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "twoHands": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        },
+        "quality": {
+          "value": 0
+        },
+        "oneOrTwoHanded": {
+          "value": ""
+        },
+        "knowledgeType": {
+          "value": "known"
+        },
+        "manageabilityType": {
+          "value": "one_hand"
+        },
+        "shotType": {
+          "value": "throw"
+        },
+        "isRanged": {
+          "value": false
+        },
+        "range": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "cadence": {
+          "value": ""
+        },
+        "reload": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sizeProportion": {
+          "value": "normal"
+        },
+        "weaponStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "critic": {
+          "primary": {
+            "value": "thrust"
+          },
+          "secondary": {
+            "value": "-"
+          }
+        },
+        "isShield": {
+          "value": false
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "a388d6bd345e0e8b",
+      "folder": null,
+      "sort": 10,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2bb5e857ebec8a69.a388d6bd345e0e8b"
+    },
+    {
+      "name": "Sistema Láser",
+      "type": "weapon",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "effects": [],
+      "system": {
+        "special": {
+          "value": ""
+        },
+        "integrity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "breaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "attack": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "block": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "damage": {
+          "base": {
+            "value": 100
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "presence": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "size": {
+          "value": "medium"
+        },
+        "strRequired": {
+          "oneHand": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "twoHands": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        },
+        "quality": {
+          "value": 0
+        },
+        "oneOrTwoHanded": {
+          "value": ""
+        },
+        "knowledgeType": {
+          "value": "known"
+        },
+        "manageabilityType": {
+          "value": "one_hand"
+        },
+        "shotType": {
+          "value": "throw"
+        },
+        "isRanged": {
+          "value": false
+        },
+        "range": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "cadence": {
+          "value": ""
+        },
+        "reload": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sizeProportion": {
+          "value": "normal"
+        },
+        "weaponStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "critic": {
+          "primary": {
+            "value": "heat"
+          },
+          "secondary": {
+            "value": "-"
+          }
+        },
+        "isShield": {
+          "value": false
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "7370742667581016",
+      "folder": null,
+      "sort": 20,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2bb5e857ebec8a69.7370742667581016"
+    }
+  ],
+  "effects": [],
+  "folder": "78b8ba9691ab5ed0",
+  "sort": 110,
+  "flags": {
+    "core": {},
+    "animu-exxet": {
+      "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
+      "sourceHeading": "Emeth de Combate de Solomon",
+      "page": 21,
+      "variant": null,
+      "rawClass": "Guerrero Acróbata Fue: 8 Des: 8 Agi: 11 Con: 8 Pod: 6 Int: 6 Vol: 5 Per: 8 RF 30 RM 45 RP 35 RV 30 RE 30",
+      "rawDamage": "50 Armas Físicas (PEN), 100 Sistema Láser (CAL)",
+      "rawTA": "Exoesqueleto (6 Física 4 Energía)",
+      "warnings": []
+    },
+    "cf": {
+      "id": "temp_2bb5e857eb",
+      "path": "Creatures Exxet#/CF_SEP/Guía del Mundo Perfecto",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "version": 1,
+    "ui": {
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
+      "tabVisibility": {
+        "mystic": {
+          "value": 0
+        },
+        "domine": {
+          "value": 0
+        },
+        "psychic": {
+          "value": 0
+        }
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        },
+        "inmaterial": {
+          "value": true
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "value": 0
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "byArmors": {
+            "value": 0
+          },
+          "byWearArmorRequirement": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "value": 0
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "value": 0,
+        "base": {
+          "value": 45
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Guerrero Acróbata Fue: 8 Des: 8 Agi: 11 Con: 8 Pod: 6 Int: 6 Vol: 5 Per: 8 RF 30 RM 45 RP 35 RV 30 RE 30"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": "16"
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 21</p><p><strong>Entrada:</strong> Emeth de Combate de Solomon</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Guerrero Acróbata Fue: 8 Des: 8 Agi: 11 Con: 8 Pod: 6 Int: 6 Vol: 5 Per: 8 RF 30 RM 45 RP 35 RV 30 RE 30</p><p><strong>Categoría:</strong> Entre Mundos, Creación 15</p><p><strong>Habilidades esenciales:</strong> Exención Física.</p><p><strong>Poderes:</strong> Arma Natural, Sistema Láser, Sistema de Comando, Exoesqueleto (6 Física 4 Mística, Barrera de Daño 100), Cuerpo de Metal, Punto Vulnerable.</p><p><strong>Daño:</strong> 50 Armas Físicas (PEN), 100 Sistema Láser (CAL)</p><p><strong>TA:</strong> Exoesqueleto (6 Física 4 Energía)</p><p><strong>Habilidades secundarias:</strong> Advertir 85, Buscar 80, Valoración Mágica 60, Sigilo 40, Ocultarse 20, Rastrear 20, Liderazgo 50, Trepar 80</p><p><strong>Descripción breve:</strong> Armas Físicas: Las extremidades de los Drones están preparadas Sistema Lazor: Sistema de Comando: Los Drones Mayores organizan y mejoran las acciones de sus Drones Menores asignados, haciéndolos mucho más competentes en combate. Por lo tanto, mientras no estén a más de 100 metros de distancia del Dron Mayor, reciben un bono de +10 a toda acción y pueden usar el atributo de inteligencia de su controlador. Esta habilidad puede afectar hasta a 12 Dr ones Menores y Exoesqueleto: Punto Vulnerable: Cuerpo de Metal: Drones de Combate de Sólomon Los Drones de Combate de Sólomon son una de las creaciones tecnomágicas más populares del imperio perdido, producidos en su período de expansión como armas móviles para tomar el control de territorios con geografías muy diferentes. Son similares a grandes arañas de metal de tres patas, cuyo tamaño varía considerablemente según se trate de modelos para infiltración y combate masivo (no más grandes que un perro pequeño) o para asalto y mando (más grandes que un ser humano). Dejaron de usarse cuando la ciencia de Sólomon fue más allá y fueron reemplazados por modelos de gólems más poderosos, hay gran cantidad de Drones escondidos en el mundo. Muchos puestos de avanzada perdidos de Solomon tienen Drones como guardianes, esperando a que alguien sin autorización entre en sus dominios. Dron Menor Las extremidades de los Drones están preparadas para funcionar como armas cuerpo a cuerpo efectivas en cualquier superficie y dañan energía. Pueden viajar a través de paredes y techos usando sus extremidades como lo haría una araña. Como son construcciones artificiales, los Drones no pueden recuperarse de los daños por sí mismos. En cambio, deben ser reparados por alguien que tenga la experiencia y los medios apropiados. Dron Mayor para funcionar como armas cuerpo a cuerpo efectivas en cualquier superficie y dañan energía. Permite al Dron fijar un objetivo, si no pierde el contacto visual con él durante 3 asaltos seguidos (durante los cuales el Drone aún puede actuar con normalidad) desata un aluvión de energía sobrenatural a distancia. Este ataque cuenta como una acción completa, si el Drone quiere usarlo, no puede atacar en el mismo turno que lo dispara. Ataca en Calor y disminuye en 3 puntos la TA del defensor. solo si están vinculados a un Dron Mayor. El Dron tiene una Barrera de Daño de 100 contra todos los ataques que no afectan a energía. El cristal del centro de su cabeza no tiene armadura física, aunque sí protege contra ataques basados ​​en energía. Cualquier ataque apuntando a él aplica un -30 a la habilidad del atacante. apropiados. medios los y experiencia la tenga que alguien por reparados ser Deben mismos. sí por daños los de recuperarse pueden no Drones los artificiales, construcciones son Como _Página 22_ Modus Operandi</p></section><details><summary>Texto extraído</summary><pre>Nivel: 4 Categoría: Entre Mundos, Creación 15 Puntos de Vida: 150\n\nClase: Guerrero Acróbata Fue: 8 Des: 8 Agi: 11 Con: 8 Pod: 6 Int: 6 Vol: 5 Per: 8 RF 30 RM 45 RP 35 RV 30 RE 30\n\nTurno: 110 Natural Habilidad de Ataque: 130 Armas Físicas, 170 Sistema Láser Habilidad de Defensa: 120 Esquiva Daño: 50 Armas Físicas (PEN), 100 Sistema Láser (CAL) TA: Exoesqueleto (6 Física 4 Energía) Habilidades Esenciales: Exención Física. Poderes: Arma Natural, Sistema Láser, Sistema de Comando, Exoesqueleto (6 Física 4 Mística, Barrera de Daño 100), Cuerpo de Metal, Punto Vulnerable.\n\nTamaño: 16 Medio Regeneración: 0 Tipo de movimiento: 11 Cansancio: Incansable Habilidades Secundarias: Advertir 85, Buscar 80, Valoración Mágica 60, Sigilo 40, Ocultarse 20, Rastrear 20, Liderazgo 50, Trepar 80. Armas Físicas: Las extremidades de los Drones están preparadas Sistema Lazor: Sistema de Comando: Los Drones Mayores organizan y mejoran las acciones de sus Drones Menores asignados, haciéndolos mucho más competentes en combate. Por lo tanto, mientras no estén a más de 100 metros de distancia del Dron Mayor, reciben un bono de +10 a toda acción y pueden usar el atributo de inteligencia de su controlador.\n\nEsta habilidad puede afectar hasta a 12 Dr ones Menores y Exoesqueleto: Punto Vulnerable: Cuerpo de Metal: Drones de Combate de Sólomon Los Drones de Combate de Sólomon son una de las creaciones tecnomágicas más populares del imperio perdido, producidos en su período de expansión como armas móviles para tomar el control de territorios con geografías muy diferentes. Son similares a grandes arañas de metal de tres patas, cuyo tamaño varía considerablemente según se trate de modelos para infiltración y combate masivo (no más grandes que un perro pequeño) o para asalto y mando (más grandes que un ser humano). Dejaron de usarse cuando la ciencia de Sólomon fue más allá y fueron reemplazados por modelos de gólems más poderosos, hay gran cantidad de Drones escondidos en el mundo.\n\nMuchos puestos de avanzada perdidos de Solomon tienen Drones como guardianes, esperando a que alguien sin autorización entre en sus dominios. Dron Menor Las extremidades de los Drones están preparadas para funcionar como armas cuerpo a cuerpo efectivas en cualquier superficie y dañan energía. Pueden viajar a través de paredes y techos usando sus extremidades como lo haría una araña. Como son construcciones artificiales, los Drones no pueden recuperarse de los daños por sí mismos. En cambio, deben ser reparados por alguien que tenga la experiencia y los medios apropiados. Dron Mayor para funcionar como armas cuerpo a cuerpo efectivas en cualquier superficie y dañan energía. Permite al Dron fijar un objetivo, si no pierde el contacto visual con él durante 3 asaltos seguidos (durante los cuales el Drone aún puede actuar con normalidad) desata un aluvión de energía sobrenatural a distancia.\n\nEste ataque cuenta como una acción completa, si el Drone quiere usarlo, no puede atacar en el mismo turno que lo dispara. Ataca en Calor y disminuye en 3 puntos la TA del defensor. solo si están vinculados a un Dron Mayor. El Dron tiene una Barrera de Daño de 100 contra todos los ataques que no afectan a energía. El cristal del centro de su cabeza no tiene armadura física, aunque sí protege contra ataques basados ​​en energía. Cualquier ataque apuntando a él aplica un -30 a la habilidad del atacante. apropiados. medios los y experiencia la tenga que alguien por reparados ser Deben mismos. sí por daños los de recuperarse pueden no Drones los artificiales, construcciones son Como\n\n&lt;!-- tags: @personaje, @psiquico, @regla --&gt;\n\n_Página 22_\n\nModus Operandi</pre></details>",
+        "enriched": ""
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-emeth-de-combate-de-solo",
+          "type": "level",
+          "name": "Emeth de Combate de Solomon",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 4
+          }
+        }
+      ],
+      "notes": [
+        {
+          "_id": "note-emeth-de-combate-de-solomon-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Exención Física.",
+          "system": {}
+        },
+        {
+          "_id": "note-emeth-de-combate-de-solomon-4",
+          "type": "note",
+          "name": "Poderes: Arma Natural, Sistema Láser, Sistema de Comando, Exoesqueleto (6 Física 4 Mística, Barrera de Daño 100), Cuerpo de Metal, Punto Vulnerable.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "value": 11,
+          "mod": 20
+        },
+        "constitution": {
+          "value": 8,
+          "mod": 10
+        },
+        "dexterity": {
+          "value": 8,
+          "mod": 10
+        },
+        "strength": {
+          "value": 8,
+          "mod": 10
+        },
+        "intelligence": {
+          "value": 6,
+          "mod": 5
+        },
+        "perception": {
+          "value": 8,
+          "mod": 10
+        },
+        "power": {
+          "value": 6,
+          "mod": 5
+        },
+        "willPower": {
+          "value": 5,
+          "mod": 0
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 150,
+          "max": 150
+        },
+        "initiative": {
+          "base": {
+            "value": 110
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": -2
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 30
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 30
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 30
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 45
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 35
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "athleticism": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "ride": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "swim": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "climb": {
+          "base": {
+            "value": 80
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "jump": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "piloting": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "vigor": {
+        "composure": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "featsOfStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "withstandPain": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "base": {
+            "value": 85
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "search": {
+          "base": {
+            "value": 80
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "track": {
+          "base": {
+            "value": 20
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "science": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "law": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "herbalLore": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "history": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "tactics": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "medicine": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "memorize": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "navigation": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "occult": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "appraisal": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "magicAppraisal": {
+          "base": {
+            "value": 60
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "social": {
+        "style": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "intimidate": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "leadership": {
+          "base": {
+            "value": 50
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "persuasion": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "trading": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "streetwise": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "etiquette": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "disguise": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "hide": {
+          "base": {
+            "value": 20
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "theft": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "stealth": {
+          "base": {
+            "value": 40
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "trapLore": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "poisons": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "creative": {
+        "art": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dance": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "forging": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "runes": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "alchemy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "animism": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "music": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sleightOfHand": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "ritualCalligraphy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "jewelry": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "tailoring": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "puppetMaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "base": {
+          "value": 170
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "block": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "dodge": {
+        "base": {
+          "value": 120
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": []
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "zeon": {
+        "accumulated": {
+          "value": null
+        },
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "value": 0
+        },
+        "alternative": {
+          "value": 0
+        }
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "earth": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "metal": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wind": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "water": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wood": {
+            "isActive": {
+              "value": false
+            }
+          }
+        },
+        "major": {
+          "earth": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "metal": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wind": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "water": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wood": {
+            "isActive": {
+              "value": false
+            }
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!2bb5e857ebec8a69"
+}

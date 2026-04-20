@@ -1,0 +1,1609 @@
+{
+  "_id": "1b1e260d3c570fcb",
+  "name": "La Legión de Cuervo",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "La Legión de Cuervo",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "characteristics.secondaries.lifePoints"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "levels": {
+        "tokenHeight": 0
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "detectionModes": []
+  },
+  "items": [
+    {
+      "name": "Pasada rápida",
+      "type": "weapon",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "effects": [],
+      "system": {
+        "special": {
+          "value": ""
+        },
+        "integrity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "breaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "attack": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "block": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "damage": {
+          "base": {
+            "value": 50
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "presence": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "size": {
+          "value": "medium"
+        },
+        "strRequired": {
+          "oneHand": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "twoHands": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        },
+        "quality": {
+          "value": 0
+        },
+        "oneOrTwoHanded": {
+          "value": ""
+        },
+        "knowledgeType": {
+          "value": "known"
+        },
+        "manageabilityType": {
+          "value": "one_hand"
+        },
+        "shotType": {
+          "value": "throw"
+        },
+        "isRanged": {
+          "value": false
+        },
+        "range": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "cadence": {
+          "value": ""
+        },
+        "reload": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sizeProportion": {
+          "value": "normal"
+        },
+        "weaponStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "critic": {
+          "primary": {
+            "value": "thrust"
+          },
+          "secondary": {
+            "value": "-"
+          }
+        },
+        "isShield": {
+          "value": false
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "648a27a198b236dd",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1b1e260d3c570fcb.648a27a198b236dd"
+    },
+    {
+      "name": "Nube picotazos",
+      "type": "weapon",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "effects": [],
+      "system": {
+        "special": {
+          "value": ""
+        },
+        "integrity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "breaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "attack": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "block": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "damage": {
+          "base": {
+            "value": 20
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "presence": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "size": {
+          "value": "medium"
+        },
+        "strRequired": {
+          "oneHand": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "twoHands": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        },
+        "quality": {
+          "value": 0
+        },
+        "oneOrTwoHanded": {
+          "value": ""
+        },
+        "knowledgeType": {
+          "value": "known"
+        },
+        "manageabilityType": {
+          "value": "one_hand"
+        },
+        "shotType": {
+          "value": "throw"
+        },
+        "isRanged": {
+          "value": false
+        },
+        "range": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "cadence": {
+          "value": ""
+        },
+        "reload": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sizeProportion": {
+          "value": "normal"
+        },
+        "weaponStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "critic": {
+          "primary": {
+            "value": "thrust"
+          },
+          "secondary": {
+            "value": "-"
+          }
+        },
+        "isShield": {
+          "value": false
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "b1985adb30f3857e",
+      "folder": null,
+      "sort": 10,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1b1e260d3c570fcb.b1985adb30f3857e"
+    }
+  ],
+  "effects": [],
+  "folder": "c929c65b43b0b07d",
+  "sort": 280,
+  "flags": {
+    "core": {},
+    "animu-exxet": {
+      "sourceBook": "Anima Pantalla del Director",
+      "sourceHeading": "La Legión de Cuervo",
+      "page": 62,
+      "variant": null,
+      "rawClass": null,
+      "rawDamage": "50 Pasada rápida PEN, 20 Nube picotazos PEN.",
+      "rawTA": null,
+      "warnings": []
+    },
+    "cf": {
+      "id": "temp_1b1e260d3c",
+      "path": "Creatures Exxet#/CF_SEP/Pantalla del Director",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "version": 1,
+    "ui": {
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
+      "tabVisibility": {
+        "mystic": {
+          "value": 0
+        },
+        "domine": {
+          "value": 0
+        },
+        "psychic": {
+          "value": 0
+        }
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "value": 0
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "byArmors": {
+            "value": 0
+          },
+          "byWearArmorRequirement": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "value": 0
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "value": 0,
+        "base": {
+          "value": 35
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": ""
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": "0"
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 62</p><p><strong>Entrada:</strong> La Legión de Cuervo</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Novel Fue: 3 Des: 5 Agi: 3 Con: 3 Pod: 5 Int: 2 Vol: 2 Per: 8 RF 25 RM 35 RP 20 RV 25 RE 25</p><p><strong>Poderes:</strong> Arma natural: Garras y pico, Pasada rápida, Nube de picotazos, Legión de aves, Vuelo natural (Tipo 12). Las estadísticas reflejadas en esta ficha se corresponden a la bandada de cuervos Oscuros que se encuentran controlados por el Marqués desde su torre. Dado que actúan como un único enjambre con mente comunal, se les engloba a todos como un solo conjunto. La legión de cuervos emplea dos metodologías de ataque, la Pasada rápida y la Nube de picotazos, dependiendo de lo que le convenga en cada momento. Para pasar de un estilo de combate a otro, los cuervos tienen que reorganizarse, perdiendo un turno entero en el proceso. Pasada rápida: Los cuervos vuelan en línea a toda velocidad, haciendo un picado sobre un individuo en concreto y produciéndole un daño masivo. El daño que producen se corresponde a la totalidad de aves que componen la legión. Nube de picotazos: Los cuervos se dividen, atacando a todos los adversarios que se encuentren dentro de su área de alcance. El daño es considerablemente menor, pero sigue siendo muy efectivo para molestar y no dar la opción de actuar a sus blancos. Legión de aves: Por la naturaleza dispersa de su vuelo, todos los ataques que se realicen contra ella enarbolando armas naturales le producen sólo la mitad de daño. En el caso de que sufra un ataque en área que cubra por completo una amplia zona de terreno (como en el caso de explosiones, o efectos místicos como bolas de fuego), la legión sufre automáticamente doble daño. Además, es completamente inmune a los críticos; para acabar con la bandada, hay que destruir hasta el último de los cuervos. Vuelo natural: Los cuervos se mueven en vuelo 12. No obstante, dada su naturaleza, recibir un crítico no implica que la legión sea derribada en su conjunto. Los bonos del vuelo ya se encuentran añadidos a sus estadísticas. e mil z olt</p><p><strong>Daño:</strong> 50 Pasada rápida PEN, 20 Nube picotazos PEN.</p></section><details><summary>Texto extraído</summary><pre>sNivel: 2 Puntos de Vida: 915 Categoría: Novel Fue: 3 Des: 5 Agi: 3 Con: 3 Pod: 5 Int: 2 Vol: 2 Per: 8 RF 25 RM 35 RP 20 RV 25 RE 25\n\nTurno: 60 Natural Habilidad de ataque: 80 Pasada rápida, 60 nube de picotazos. Habilidad de defensa: Acumulación Daño: 50 Pasada rápida PEN, 20 Nube picotazos PEN. Poderes: Arma natural: Garras y pico, Pasada rápida, Nube de picotazos, Legión de aves, Vuelo natural (Tipo 12). Las estadísticas reflejadas en esta ficha se corresponden a la bandada de cuervos Oscuros que se encuentran controlados por el Marqués desde su torre. Dado que actúan como un único enjambre con mente comunal, se les engloba a todos como un solo conjunto. La legión de cuervos emplea dos metodologías de ataque, la Pasada rápida y la Nube de picotazos, dependiendo de lo que le convenga en cada momento. Para pasar de un estilo de combate a otro, los cuervos tienen que reorganizarse, perdiendo un turno entero en el proceso.\n\nPasada rápida: Los cuervos vuelan en línea a toda velocidad, haciendo un picado sobre un individuo en concreto y produciéndole un daño masivo. El daño que producen se corresponde a la totalidad de aves que componen la legión. Nube de picotazos: Los cuervos se dividen, atacando a todos los adversarios que se encuentren dentro de su área de alcance. El daño es considerablemente menor, pero sigue siendo muy efectivo para molestar y no dar la opción de actuar a sus blancos. Legión de aves: Por la naturaleza dispersa de su vuelo, todos los ataques que se realicen contra ella enarbolando armas naturales le producen sólo la mitad de daño. En el caso de que sufra un ataque en área que cubra por completo una amplia zona de terreno (como en el caso de explosiones, o efectos místicos como bolas de fuego), la legión sufre automáticamente doble daño.\n\nAdemás, es completamente inmune a los críticos; para acabar con la bandada, hay que destruir hasta el último de los cuervos. Vuelo natural: Los cuervos se mueven en vuelo 12. No obstante, dada su naturaleza, recibir un crítico no implica que la legión sea derribada en su conjunto. Los bonos del vuelo ya se encuentran añadidos a sus estadísticas. e mil z olt</pre></details>",
+        "enriched": ""
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-la-legion-de-cuervo",
+          "type": "level",
+          "name": "La Legión de Cuervo",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 2
+          }
+        }
+      ],
+      "notes": [
+        {
+          "_id": "note-la-legion-de-cuervo-4",
+          "type": "note",
+          "name": "Poderes: Arma natural: Garras y pico, Pasada rápida, Nube de picotazos, Legión de aves, Vuelo natural (Tipo 12). Las estadísticas reflejadas en esta ficha se corresponden a la bandada de cuervos Oscuros que se encuentran controlados por el Marqués desde su torre. Dado que actúan como un único enjambre con mente comunal, se les engloba a todos como un solo conjunto. La legión de cuervos emplea dos metodologías de ataque, la Pasada rápida y la Nube de picotazos, dependiendo de lo que le convenga en cada momento. Para pasar de un estilo de combate a otro, los cuervos tienen que reorganizarse, perdiendo un turno entero en el proceso. Pasada rápida: Los cuervos vuelan en línea a toda velocidad, haciendo un picado sobre un individuo en concreto y produciéndole un daño masivo. El daño que producen se corresponde a la totalidad de aves que componen la legión. Nube de picotazos: Los cuervos se dividen, atacando a todos los adversarios que se encuentren dentro de su área de alcance. El daño es considerablemente menor, pero sigue siendo muy efectivo para molestar y no dar la opción de actuar a sus blancos. Legión de aves: Por la naturaleza dispersa de su vuelo, todos los ataques que se realicen contra ella enarbolando armas naturales le producen sólo la mitad de daño. En el caso de que sufra un ataque en área que cubra por completo una amplia zona de terreno (como en el caso de explosiones, o efectos místicos como bolas de fuego), la legión sufre automáticamente doble daño. Además, es completamente inmune a los críticos; para acabar con la bandada, hay que destruir hasta el último de los cuervos. Vuelo natural: Los cuervos se mueven en vuelo 12. No obstante, dada su naturaleza, recibir un crítico no implica que la legión sea derribada en su conjunto. Los bonos del vuelo ya se encuentran añadidos a sus estadísticas. e mil z olt",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "value": 3,
+          "mod": -10
+        },
+        "constitution": {
+          "value": 3,
+          "mod": -10
+        },
+        "dexterity": {
+          "value": 5,
+          "mod": 0
+        },
+        "strength": {
+          "value": 3,
+          "mod": -10
+        },
+        "intelligence": {
+          "value": 2,
+          "mod": -20
+        },
+        "perception": {
+          "value": 8,
+          "mod": 10
+        },
+        "power": {
+          "value": 5,
+          "mod": 0
+        },
+        "willPower": {
+          "value": 2,
+          "mod": -20
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 915,
+          "max": 915
+        },
+        "initiative": {
+          "base": {
+            "value": 60
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": -1
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": -3
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 25
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 25
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 2560
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 35
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 20
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "athleticism": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "ride": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "swim": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "climb": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "jump": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "piloting": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "vigor": {
+        "composure": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "featsOfStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "withstandPain": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "search": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "track": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "science": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "law": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "herbalLore": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "history": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "tactics": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "medicine": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "memorize": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "navigation": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "occult": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "appraisal": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "magicAppraisal": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "social": {
+        "style": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "intimidate": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "leadership": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "persuasion": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "trading": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "streetwise": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "etiquette": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "disguise": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "hide": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "theft": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "stealth": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "trapLore": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "poisons": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "creative": {
+        "art": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dance": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "forging": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "runes": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "alchemy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "animism": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "music": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sleightOfHand": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "ritualCalligraphy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "jewelry": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "tailoring": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "puppetMaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "base": {
+          "value": 80
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "block": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": []
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "zeon": {
+        "accumulated": {
+          "value": null
+        },
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "value": 0
+        },
+        "alternative": {
+          "value": 0
+        }
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "earth": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "metal": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wind": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "water": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wood": {
+            "isActive": {
+              "value": false
+            }
+          }
+        },
+        "major": {
+          "earth": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "metal": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wind": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "water": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wood": {
+            "isActive": {
+              "value": false
+            }
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!1b1e260d3c570fcb"
+}

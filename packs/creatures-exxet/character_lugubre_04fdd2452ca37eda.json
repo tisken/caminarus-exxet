@@ -1,0 +1,1440 @@
+{
+  "_id": "04fdd2452ca37eda",
+  "name": "Lúgubre",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Lúgubre",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 3,
+    "height": 3,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "characteristics.secondaries.lifePoints"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "levels": {
+        "tokenHeight": 0
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "detectionModes": []
+  },
+  "items": [
+    {
+      "name": "Armas Infernales",
+      "type": "weapon",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "effects": [],
+      "system": {
+        "special": {
+          "value": ""
+        },
+        "integrity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "breaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "attack": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "block": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "damage": {
+          "base": {
+            "value": 150
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "presence": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "size": {
+          "value": "medium"
+        },
+        "strRequired": {
+          "oneHand": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "twoHands": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        },
+        "quality": {
+          "value": 0
+        },
+        "oneOrTwoHanded": {
+          "value": ""
+        },
+        "knowledgeType": {
+          "value": "known"
+        },
+        "manageabilityType": {
+          "value": "one_hand"
+        },
+        "shotType": {
+          "value": "throw"
+        },
+        "isRanged": {
+          "value": false
+        },
+        "range": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "cadence": {
+          "value": ""
+        },
+        "reload": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sizeProportion": {
+          "value": "normal"
+        },
+        "weaponStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "critic": {
+          "primary": {
+            "value": "-"
+          },
+          "secondary": {
+            "value": "-"
+          }
+        },
+        "isShield": {
+          "value": false
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "b83ed6485b7353a8",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!04fdd2452ca37eda.b83ed6485b7353a8"
+    }
+  ],
+  "effects": [],
+  "folder": "78b8ba9691ab5ed0",
+  "sort": 180,
+  "flags": {
+    "core": {},
+    "animu-exxet": {
+      "sourceBook": "Anima Gate of Memories - Guía del Mundo Perfecto",
+      "sourceHeading": "Lúgubre",
+      "page": 30,
+      "variant": null,
+      "rawClass": "Warlock Fue: 15 Des: 15 Agi: 15 Con: 17 Pod: 18 Int: 15 Vol: 18 Per: 15 RF 140 RM 150 RP 150 RV 140 RE 140",
+      "rawDamage": "150 Armas Infernales",
+      "rawTA": "Ninguna",
+      "warnings": []
+    },
+    "cf": {
+      "id": "temp_04fdd2452c",
+      "path": "Creatures Exxet#/CF_SEP/Guía del Mundo Perfecto",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "version": 1,
+    "ui": {
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
+      "tabVisibility": {
+        "mystic": {
+          "value": true
+        },
+        "domine": {
+          "value": 0
+        },
+        "psychic": {
+          "value": 0
+        }
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        },
+        "zen": {
+          "value": true
+        },
+        "inmaterial": {
+          "value": true
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "value": 0
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "byArmors": {
+            "value": 0
+          },
+          "byWearArmorRequirement": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "value": 0
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "value": 0,
+        "base": {
+          "value": 110
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Warlock Fue: 15 Des: 15 Agi: 15 Con: 17 Pod: 18 Int: 15 Vol: 18 Per: 15 RF 140 RM 150 RP 150 RV 140 RE 140"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": ""
+        },
+        "size": {
+          "value": "28"
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 30</p><p><strong>Entrada:</strong> Lúgubre</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Warlock Fue: 15 Des: 15 Agi: 15 Con: 17 Pod: 18 Int: 15 Vol: 18 Per: 15 RF 140 RM 150 RP 150 RV 140 RE 140</p><p><strong>Categoría:</strong> Entre Mundos 40</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Características Anímicas Divinas, Características Físicas Sobrenaturales, Zen, Exención Física.</p><p><strong>Poderes:</strong> Armas Infernales, Defensa Existencial, Control del Destino, Barrera Existencial, Conocimiento Absoluto, Regeneración Absoluta, Corrupción, Avatar.</p><p><strong>Daño:</strong> 150 Armas Infernales</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> 200 Todo (Conocimiento Absoluto)</p><p><strong>Descripción breve:</strong> Armas Infernales: Defensa Existencial: Control del Destino: Barrera Existencial: Baal Conocimiento Absoluto: Regeneración Absoluta: Corrupción: Baal tiene la capacidad de corromper y vincular a su propia esencia a cualquier tipo de criatura que tenga suficiente maldad o emociones negativas. Este proceso puede ser más o menos problemático dependiendo de las circunstancias personales de cada individuo, pero una vez que alguien está ligado aBaal, esta unión no puede romperse y el objetivo es influenciado por Baal a voluntad. Cualquier entidad que acepte este enlace obtiene automáticamente un aumento de entre 1 y 3 niveles dependiendo de la atención que le ponga la Puerta del Infierno. Esta transformación Av</p></section><details><summary>Texto extraído</summary><pre>Nivel: 17 Categoría: Entre Mundos 40 Puntos de Vida: 400\n\nClase: Warlock Fue: 15 Des: 15 Agi: 15 Con: 17 Pod: 18 Int: 15 Vol: 18 Per: 15 RF 140 RM 150 RP 150 RV 140 RE 140\n\nTurno: 180 Natural Habilidad de Ataque: 350 Armas Infernales Habilidad de Defensa: 340 Defensa Existencial Daño: 150 Armas Infernales ACT: 200\n\nZeon: 2.250\n\nProyección Mágica: 300 Nivel de Magia: Oscuridad 100, Destrucción 100, Illusión 100, Pecado 100, Caos 100, Tiempo 100 TA: Ninguna Habilidades Naturales: Proyección Mágica como Ataque. Habilidades Esenciales: Características Anímicas Divinas, Características Físicas Sobrenaturales, Zen, Exención Física. Poderes: Armas Infernales, Defensa Existencial, Control del Destino, Barrera Existencial, Conocimiento Absoluto, Regeneración Absoluta, Corrupción, Avatar.\n\nTamaño: 28 Medio Regeneración: Especial Tipo de movimiento: 15 Cansancio: Incansable Habilidades Secundarias: 200 Todo (Conocimiento Absoluto). Armas Infernales: Defensa Existencial: Control del Destino: Barrera Existencial: Baal Conocimiento Absoluto: Regeneración Absoluta: Corrupción: Baal tiene la capacidad de corromper y vincular a su propia esencia a cualquier tipo de criatura que tenga suficiente maldad o emociones negativas. Este proceso puede ser más o menos problemático dependiendo de las circunstancias personales de cada individuo, pero una vez que alguien está ligado aBaal, esta unión no puede romperse y el objetivo es influenciado por Baal a voluntad. Cualquier entidad que acepte este enlace obtiene automáticamente un aumento de entre 1 y 3 niveles dependiendo de la atención que le ponga la Puerta del Infierno.\n\nEsta transformación Avatar: Gate of Memories Todos los ataques físicos de Baal son en realidad deformaciones en la realidad que destruyen la existencia misma de lo que golpean. Todos los ataques ignoran por completo cualquier Tipo de Armadura, excepto aquellas que tienen una presencia sobrenatural extremadamente alta, en cuyo caso se reducen a la mitad. Baal no bloquea ni esquiva de manera convencional. Simplemente, altera la realidad de manera que los ataques no le alcancen ni deteniéndolos ni alejándolos de su camino. Por tanto, Baal no aplica penalización alguna a su habilidad por los negativos que puedan existir por bloqueo o esquiva, ni por defensas adicionales en el mismo asalto. Baal puede repetir una tirada en cada ronda, ya sea una propia o una de sus oponentes. Entidades con mayor Gnosis que Baal no se ven afectados por esta regla.\n\nno puede perder más de 200 puntos de vida en un único asalto. La conexión de Baal con la conciencia humana en el Nexo de Almas le da acceso a una fuente de conocimiento casi infinito. Por lo tanto, puede usar cualquier habilidad secundaria con el valor equivalente a 200. Baal recupera al final de cada asalto la mitad de todos los puntos de vida que perdió en ese asalto. En caso de que no haya perdido ninguno en ese asalto, Baal recupera 10 puntos de vida. permite al objetivo elegir poderes de monstruo como un ser con Gnosis 30. Baal puede forzar esta unión con seres con altas dosis de maldad, obligándolos a superar un control contra 120 RM como acción automática o quedarán vinculados a él. Los demonios y seres cuya naturaleza es innatamente malvada son inmunes a esta habilidad.\n\nAlguien que supera el control se vuelve completamente inmune a la influencia de Baal y no puede vincularse a él más tarde, ni siquiera voluntariamente, por lo que la Puerta del Infierno nunca suele forzar esta unión, ya que espera corromper a sus futuros agentes con el paso del tiempo. puntos de vida. 25 de pérdida una sufre también método este usandoACT a +25 y accióntoda a +50 de bonificador un obtiene Baal turno un si ejemplo, Por día. por puntos 10 de razón a recuperan se vida de puntos los que lo por Sacrificio, un considera se que recibida, bonificación la de mitad la a equivalente daño un sufre cuerpo su hacerlo, Al terrenal. forma su destruir de costa aACT) su a +50 y +5 entre (y toda acción a +100 y +10 entre de bonificador un obtener de capaz es Baal tanto lo Por infierno.\n\nun en convertirlo para entorno el temporalmente alterando terrenal, forma su en mismo sí de más &quot;introducir&quot; puede Baal desesperados,momentos en embargo, Sin destruido. o dañado ser sin soportar puede Baal de cuerpo el que poder de cantidad la representan actuales estadísticas sus aunque turno, cada en Baal infunda le esencia cuanta de dependiendo poder su variar puede Avatar el tanto, lo Por real”. “cuerpo un de carece esencia, verdadera su reside donde es Nexo el en porque real, mundo el en forma su mide Baal de descripción Esta\n\n&lt;!-- tags: @personaje, @magia, @regla --&gt;\n\n_Página 31_\n\nErgo Mundus, El Monstruo Definitivo</pre></details>",
+        "enriched": ""
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-lugubre",
+          "type": "level",
+          "name": "Lúgubre",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 17
+          }
+        }
+      ],
+      "notes": [
+        {
+          "_id": "note-lugubre-2",
+          "type": "note",
+          "name": "Habilidades naturales: Proyección Mágica como Ataque.",
+          "system": {}
+        },
+        {
+          "_id": "note-lugubre-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características Anímicas Divinas, Características Físicas Sobrenaturales, Zen, Exención Física.",
+          "system": {}
+        },
+        {
+          "_id": "note-lugubre-4",
+          "type": "note",
+          "name": "Poderes: Armas Infernales, Defensa Existencial, Control del Destino, Barrera Existencial, Conocimiento Absoluto, Regeneración Absoluta, Corrupción, Avatar.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "value": 15,
+          "mod": 30
+        },
+        "constitution": {
+          "value": 17,
+          "mod": 35
+        },
+        "dexterity": {
+          "value": 15,
+          "mod": 30
+        },
+        "strength": {
+          "value": 15,
+          "mod": 30
+        },
+        "intelligence": {
+          "value": 15,
+          "mod": 30
+        },
+        "perception": {
+          "value": 15,
+          "mod": 30
+        },
+        "power": {
+          "value": 18,
+          "mod": 40
+        },
+        "willPower": {
+          "value": 18,
+          "mod": 40
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 400,
+          "max": 400
+        },
+        "initiative": {
+          "base": {
+            "value": 180
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": -10
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 140
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 140
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 140
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 150
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 150
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "athleticism": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "ride": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "swim": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "climb": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "jump": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "piloting": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "vigor": {
+        "composure": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "featsOfStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "withstandPain": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "search": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "track": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "science": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "law": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "herbalLore": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "history": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "tactics": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "medicine": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "memorize": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "navigation": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "occult": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "appraisal": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "magicAppraisal": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "social": {
+        "style": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "intimidate": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "leadership": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "persuasion": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "trading": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "streetwise": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "etiquette": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "disguise": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "hide": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "theft": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "stealth": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "trapLore": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "poisons": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "creative": {
+        "art": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dance": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "forging": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "runes": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "alchemy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "animism": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "music": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sleightOfHand": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "ritualCalligraphy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "jewelry": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "tailoring": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "puppetMaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "base": {
+          "value": 350
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "block": {
+        "base": {
+          "value": 340
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": []
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 200
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "zeon": {
+        "accumulated": {
+          "value": null
+        },
+        "value": 2250,
+        "max": 2250
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "value": 0
+        },
+        "alternative": {
+          "value": 0
+        }
+      },
+      "magicProjection": {
+        "base": {
+          "value": 300
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 300
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 300
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 100
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 100
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 200
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "earth": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "metal": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wind": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "water": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wood": {
+            "isActive": {
+              "value": false
+            }
+          }
+        },
+        "major": {
+          "earth": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "metal": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wind": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "water": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wood": {
+            "isActive": {
+              "value": false
+            }
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!04fdd2452ca37eda"
+}

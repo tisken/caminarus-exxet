@@ -118,7 +118,7 @@ class GeneratedDataTest(unittest.TestCase):
             "pantalla-del-director": {
                 "Faust Orbatos",
                 "Shion Demeter",
-                "Raptor el Ejecutor Oscuro",
+                "Raptor, el Ejecutor Oscuro",
             },
             "dravenor-parte-1": {
                 "Araña de Tierra (La Máquina · Varna menor)",
