@@ -222,7 +222,66 @@ BOOKS = {
             "Dálcal (La Máquina · Varna suprema)",
         ],
     },
+    "gaia-vol-1": {
+        "label": "Gaia Vol. I",
+        "source_book": "Anima Beyond Fantasy - Gaia Volumen I",
+        "compendium_label": "Animu Exxet · Gaia Vol. I",
+        "filename": "gaia-vol-1.actors.json",
+        "records_filename": "gaia-vol-1.records.json",
+        "default_candidates": default_candidates(
+            "Anima Beyond Fantasy - Gaia Volumen I  - Más Allá de los Sueños_unlocked.md"
+        ),
+        "start_marker": "Arquetipos",
+        "end_marker": None,
+        "mode": "inline",
+    },
+    "gaia-vol-2": {
+        "label": "Gaia Vol. II",
+        "source_book": "Anima Beyond Fantasy - Gaia Volumen II",
+        "compendium_label": "Animu Exxet · Gaia Vol. II",
+        "filename": "gaia-vol-2.actors.json",
+        "records_filename": "gaia-vol-2.records.json",
+        "default_candidates": default_candidates(
+            "Anima Beyond Fantasy - Gaia Volumen II - Más Allá del espejo_unlocked.md"
+        ),
+        "start_marker": "Arquetipos",
+        "end_marker": None,
+        "mode": "inline",
+    },
+    "fichas-sueltas": {
+        "label": "Fichas Sueltas",
+        "source_book": "ABF Fichas Sueltas",
+        "compendium_label": "Animu Exxet · Fichas Sueltas",
+        "filename": "fichas-sueltas.actors.json",
+        "records_filename": "fichas-sueltas.records.json",
+        "default_candidates": [],
+        "start_marker": None,
+        "end_marker": None,
+        "mode": "multi_file",
+        "source_files": [
+            ("ABF_Ficha_Etheldrea.md", "Etheldrea, la Primera Bruja"),
+            ("ABF_Ficha_Jigoku.md", "Jigoku No Kami, el Kami Oscuro"),
+            ("ABF_Ficha_Orochi.md", "Orochi, el Aeon Oscuro"),
+            ("ABF_Ficha_Stravos.md", "Stravos Veritas, el Rey Negro de Ygdramar"),
+            ("ABF_Pazusu.md", "Pazusu, el Demonio de las Moscas"),
+        ],
+    },
 }
+
+INLINE_BLOCK_RE = re.compile(
+    r"Categor[íi]a\s*\w[^;]*?;\s*Nivel\s+\d+.*?Resistencias\s*:\s*RF\s+\d+.*?RP\s+\d+\.?",
+    re.IGNORECASE | re.DOTALL,
+)
+INLINE_STAT_RE = re.compile(
+    r"AGI\s*:\s*(\d+).*?DES\s*:\s*(\d+).*?CON\s*:\s*(\d+).*?"
+    r"FUE\s*:\s*(\d+).*?PER\s*:\s*(\d+).*?INT\s*:\s*(\d+).*?"
+    r"VOL\s*:\s*(\d+).*?POD\s*:\s*(\d+)",
+    re.IGNORECASE | re.DOTALL,
+)
+INLINE_RES_RE = re.compile(
+    r"RF\s+(\d+).*?RE\s+(\d+).*?RV\s+(\d+).*?RM\s+(\d+).*?RP\s+(\d+)",
+    re.IGNORECASE,
+)
 
 HEADING_RE = re.compile(r"(?m)^(#{3,4})\s+(.+?)\s*$")
 PAGE_RE = re.compile(r"_Página\s+(\d+)_", re.IGNORECASE)
@@ -1744,8 +1803,218 @@ def extract_records_from_flat_text(book_id: str, source_text: str) -> list[dict]
     return records
 
 
+def extract_inline_title(source_text: str, block_start: int) -> str:
+    pre = source_text[max(0, block_start - 120) : block_start]
+    pre = TAG_COMMENT_RE.sub(" ", pre)
+    pre = PAGE_RE.sub(" ", pre)
+    m = re.search(r"RP\s+\d+\.?\s*(.+?)$", pre, re.DOTALL)
+    if not m:
+        m = re.search(r"Creación\.?\s*(.+?)$", pre, re.IGNORECASE | re.DOTALL)
+    if not m:
+        lines = [l.strip() for l in pre.split("\n") if l.strip()]
+        raw = lines[-1] if lines else ""
+    else:
+        raw = m.group(1)
+    raw = re.sub(r"\s+", " ", raw).strip(" .,;:\n")
+    if not raw or len(raw) < 2:
+        return "Desconocido"
+    raw = merge_ocr_title_fragments(raw)
+    return smart_title(collapse_spaces(raw.strip(" .,;:")))
+
+
+INLINE_TITLE_RE = re.compile(
+    r"(?:RP\s+\d+\.?\s*|Creación\.?\s*|^)\s*"
+    r"([A-ZÁÉÍÓÚÜÑa-záéíóúüñ][A-ZÁÉÍÓÚÜÑa-záéíóúüñ\s'´`,()-]{1,60}?)"
+    r"\s*Categor[íi]a",
+    re.IGNORECASE,
+)
+
+
+def parse_inline_record(book_id: str, block_text: str, title: str, page: int | None, profile_index: int) -> dict | None:
+    flat = normalize_flat(block_text)
+    level_m = re.search(r"Nivel\s+(\d+)", flat, re.IGNORECASE)
+    level = parse_int(level_m.group(1)) if level_m else None
+    category_m = re.search(r"Categor[íi]a\s*([^;]+)", flat, re.IGNORECASE)
+    category = collapse_spaces(category_m.group(1)) if category_m else None
+    pv_m = re.search(r"Pv\s+(\d[\d\s.]*)", flat, re.IGNORECASE)
+    life_points = parse_int(pv_m.group(1)) if pv_m else None
+    turn_m = re.search(r"Turno\s+([\d/\s]+)", flat, re.IGNORECASE)
+    initiative = parse_all_ints(turn_m.group(1))[0] if turn_m else None
+    ha_m = re.search(r"(?:HA|Hab\.?\s*Ataque)\s+(\d+)", flat, re.IGNORECASE)
+    attack = parse_int(ha_m.group(1)) if ha_m else None
+    he_m = re.search(r"(?:HE|HP|Hab\.?\s*(?:Esquiva|Defensa))\s+(\d+)", flat, re.IGNORECASE)
+    defense = parse_int(he_m.group(1)) if he_m else None
+    damage_m = re.search(r"Da[ñn]o\s+(\d+)", flat, re.IGNORECASE)
+    ta_m = re.search(r"TA\s+([^;]+?)(?:;|HA|HP|HE|AGI|$)", flat, re.IGNORECASE)
+    ta_raw = collapse_spaces(ta_m.group(1)).rstrip(" ;") if ta_m else None
+    if ta_raw and normalize_key(ta_raw) in {"no", "ninguna", "na", ""}:
+        ta_raw = None
+
+    stat_m = INLINE_STAT_RE.search(flat)
+    if not stat_m:
+        return None
+    primary_stats = {
+        "agility": safe_stat(stat_m.group(1)),
+        "dexterity": safe_stat(stat_m.group(2)),
+        "constitution": safe_stat(stat_m.group(3)),
+        "strength": safe_stat(stat_m.group(4)),
+        "perception": safe_stat(stat_m.group(5)),
+        "intelligence": safe_stat(stat_m.group(6)),
+        "willPower": safe_stat(stat_m.group(7)),
+        "power": safe_stat(stat_m.group(8)),
+    }
+
+    res_m = INLINE_RES_RE.search(flat)
+    if not res_m:
+        return None
+    resistances = {
+        "physical": safe_stat(res_m.group(1)),
+        "poison": safe_stat(res_m.group(2)),
+        "disease": safe_stat(res_m.group(3)),
+        "magic": safe_stat(res_m.group(4)),
+        "psychic": safe_stat(res_m.group(5)),
+    }
+
+    skills_m = re.search(r"Habilidades\s*:\s*(.+?)(?:Especial|Resistencias|$)", flat, re.IGNORECASE)
+    secondary_raw, secondary_skills, narrative = parse_secondary_skills(
+        skills_m.group(1) if skills_m else None
+    )
+
+    warnings: list[str] = []
+    if level is None:
+        warnings.append("nivel_no_detectado")
+    if life_points is None:
+        warnings.append("vida_no_detectada")
+
+    record = {
+        "id": f"{book_id}:{slugify(title)}:{profile_index}",
+        "name": title,
+        "variant": None,
+        "source_book": BOOKS[book_id]["source_book"],
+        "source_heading": title,
+        "page": page,
+        "profile_index": profile_index,
+        "level": level,
+        "creature_class": None,
+        "gnosis": None,
+        "life_points_raw": pv_m.group(1) if pv_m else None,
+        "life_points": life_points,
+        "category": category,
+        "race": None,
+        "primary_stats": primary_stats,
+        "resistances": resistances,
+        "initiative_raw": turn_m.group(1) if turn_m else None,
+        "initiative": initiative,
+        "attack_raw": ha_m.group(0) if ha_m else None,
+        "attack": attack,
+        "defense_raw": he_m.group(0) if he_m else None,
+        "defense": defense,
+        "defense_mode": "dodge" if he_m and "esquiva" in (he_m.group(0) or "").lower() else "block",
+        "damage_raw": damage_m.group(0) if damage_m else None,
+        "wear_armor_raw": None,
+        "wear_armor": None,
+        "ta_raw": ta_raw,
+        "act_raw": None, "act": None,
+        "zeon_raw": None, "zeon": None,
+        "magic_projection_raw": None, "magic_projection": None,
+        "magic_level_raw": None,
+        "summon_raw": None, "summon": None,
+        "control_raw": None, "control": None,
+        "bind_raw": None, "bind": None,
+        "banish_raw": None, "banish": None,
+        "psychic_potential_raw": None, "psychic_potential": None,
+        "cv_raw": None, "cv": None,
+        "disciplines": None,
+        "innate_raw": None, "innate": None,
+        "psychic_projection_raw": None, "psychic_projection": None,
+        "psychic_powers": None,
+        "natural_abilities": None,
+        "essentials": None,
+        "powers": None,
+        "advantages": None,
+        "ki": None,
+        "accumulations": None,
+        "techniques": None,
+        "martial_arts": None,
+        "invocations": None,
+        "metamagic": None,
+        "elan": None,
+        "size_raw": None, "size_value": None,
+        "regeneration_raw": None, "regeneration": 0,
+        "movement_raw": None, "movement": 0,
+        "fatigue_raw": None, "fatigue": 0,
+        "secondary_skills_raw": secondary_raw,
+        "secondary_skills": secondary_skills,
+        "narrative": narrative,
+        "raw_chunk": block_text,
+        "warnings": warnings,
+    }
+    if not is_viable_record(record):
+        return None
+    return record
+
+
+def extract_records_inline(book_id: str, source_text: str) -> list[dict]:
+    config = BOOKS[book_id]
+    start_marker = config.get("start_marker")
+    start_pos = source_text.find(start_marker) if start_marker else 0
+    if start_pos == -1:
+        start_pos = 0
+    scoped = source_text[start_pos:]
+
+    matches = list(INLINE_BLOCK_RE.finditer(scoped))
+    records = []
+    for profile_index, m in enumerate(matches, start=1):
+        abs_pos = start_pos + m.start()
+        page = extract_page(source_text, abs_pos)
+        pre = scoped[max(0, m.start() - 300) : m.start()]
+        title_m = INLINE_TITLE_RE.search(pre + " Categor")
+        if title_m:
+            raw_title = collapse_spaces(title_m.group(1).strip())
+            raw_title = merge_ocr_title_fragments(raw_title)
+            title = smart_title(collapse_spaces(raw_title.strip(" .,;:")))
+        else:
+            title = extract_inline_title(scoped, m.start())
+        if not title or title == "Desconocido" or len(title) > 80:
+            title = extract_inline_title(scoped, m.start())
+        record = parse_inline_record(book_id, m.group(0), title, page, profile_index)
+        if record:
+            records.append(record)
+
+    dedupe_names(records)
+    return records
+
+
+def extract_records_multi_file(book_id: str) -> list[dict]:
+    config = BOOKS[book_id]
+    all_records: list[dict] = []
+    for filename, default_title in config["source_files"]:
+        path = discover_path(None, default_candidates(filename))
+        source_text = path.read_text(encoding="utf-8")
+        matches = list(LEVEL_MARKER_RE.finditer(source_text))
+        for profile_index, match in enumerate(matches, start=1):
+            start = match.start()
+            end = matches[profile_index].start() if profile_index < len(matches) else len(source_text)
+            chunk = source_text[start:end].strip()
+            if not POINTS_MARKER_RE.search(chunk):
+                continue
+            page = extract_page(source_text, start)
+            title = extract_flat_title(source_text, start) or default_title
+            record = make_record(book_id, title, source_text, chunk, start, profile_index)
+            record["variant"] = None
+            record["name"] = record["source_heading"]
+            if is_viable_record(record):
+                all_records.append(record)
+    dedupe_names(all_records)
+    return all_records
+
+
 def extract_records(book_id: str, source_text: str) -> list[dict]:
     config = BOOKS[book_id]
+    if config.get("mode") == "inline":
+        return extract_records_inline(book_id, source_text)
+    if config.get("mode") == "multi_file":
+        return extract_records_multi_file(book_id)
     scoped_text = slice_section(source_text, config["start_marker"], config["end_marker"])
     if config.get("mode") == "flat":
         return extract_records_from_flat_text(book_id, scoped_text)
@@ -1836,10 +2105,12 @@ def main() -> int:
         "core-exxet": args.core,
         "caminaron-con-nosotros": args.walking,
     }
-    source_paths = {
-        book_id: discover_path(overrides.get(book_id), config["default_candidates"])
-        for book_id, config in BOOKS.items()
-    }
+    source_paths = {}
+    for book_id, config in BOOKS.items():
+        if config.get("mode") == "multi_file":
+            source_paths[book_id] = None
+        else:
+            source_paths[book_id] = discover_path(overrides.get(book_id), config["default_candidates"])
 
     dataset_index = {
         "moduleId": MODULE_ID,
@@ -1851,7 +2122,10 @@ def main() -> int:
     pack_datasets: list[tuple[str, str, list[dict]]] = []
 
     for book_id, source_path in source_paths.items():
-        source_text = source_path.read_text(encoding="utf-8")
+        if source_path is not None:
+            source_text = source_path.read_text(encoding="utf-8")
+        else:
+            source_text = ""
         records = extract_records(book_id, source_text)
         dataset, debug_records = build_dataset(book_id, records, template)
 
@@ -1869,7 +2143,7 @@ def main() -> int:
                 "packPath": dataset["packPath"],
                 "folderName": dataset["folderName"],
                 "count": dataset["count"],
-                "sourcePath": str(source_path),
+                "sourcePath": str(source_path) if source_path else "multi_file",
             }
         )
 

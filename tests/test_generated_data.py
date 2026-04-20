@@ -68,6 +68,9 @@ class GeneratedDataTest(unittest.TestCase):
                 "dravenor-parte-1",
                 "dravenor-parte-2",
                 "dravenor-parte-3",
+                "gaia-vol-1",
+                "gaia-vol-2",
+                "fichas-sueltas",
             ],
         )
 
