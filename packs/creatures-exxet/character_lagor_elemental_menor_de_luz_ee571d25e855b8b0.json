@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,25 @@
         "openOnDoubles": {
           "value": false
         },
+        "defenseType": {
+          "value": ""
+        },
+        "inmaterial": {
+          "value": true
+        },
         "perceiveMystic": {
           "value": true
         },
         "perceivePsychic": {
           "value": true
-        },
-        "inmaterial": {
-          "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +150,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +170,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 40
         }
       },
       "aspect": {
@@ -274,7 +204,7 @@
           "value": "Elemental Menor de Luz"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +222,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 320</p><p><strong>Entrada:</strong> Lagor</p><p><strong>Variante:</strong> Elemental Menor de Luz</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos, elemental 15</p><p><strong>Categoría:</strong> Guerrero acróbata Fue: 8 Des: 8 Agi: 8 Con: 8 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 50 RM 50 RP 50 RV 50 RE 50</p><p><strong>Habilidades esenciales:</strong> Exención física, Tamaño innatural.</p><p><strong>Poderes:</strong> Arma natural: Garras de luz (Daña energía, Ataque elemental: Luz, Ataque sobrenatural), Abrasión espiritual (Efectos: Daño 120 RF), Forma elemental, Vuelo místico (tipo 10), Ver lo sobrenatural. de mo vimiento: 4 / 10</p><p><strong>Daño:</strong> 50 Garras de luz FIL</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 120, Buscar 105, Rastrear 55, Estilo 45</p><p><strong>Descripción breve:</strong> Llamadas frecuentemente “Aves de C´iel”, las Luminarias son los elementales lumínicos más comunes. Tienen la apariencia de enormes águilas cuyos cuerpos están compuestos por una masa de crepitante energía luminosa. Con las alas extendidas, su envergadura es superior a los tres metros. Son siempre de tonalidades claras, blancas o azules. Pacíficas por naturaleza, su mayor pasatiempo es surcar libremente los cielos en completa calma. En una confrontación, toman una actitud amenazante, tratando de intimidar a sus adversarios y hacerles huir. Sólo si son provocadas suficientemente, responderán de un modo agresivo y no se detendrán hasta destruir completamente a sus adversarios. Solitarias y taciturnas, sólo se relacionan abiertamente con criaturas afines a la luz. Aun así, a veces desarrollan devoción hacia algunos humanos u otras criaturas inteligentes. Aunque entienden decenas de idiomas, son incapaces de expresarse en ellos. De hecho, emplean un lenguaje propio que únicamente otros seres luminosos comprenden. Tienen un fuerte sentido de la responsabilidad y el deber, lo que las convierte en excelentes guardianas. Muchas veces, es fácil encontrarlas en ruinas o lugares aislados, tratando de apartarse de la vista del hombre y de sus problemas. Aparecen tanto a solas como en grupos numerosos. m odus operandi El estilo de combate de las Luminarias se basa en su capacidad para maniobrar en el aire, y lanzarse sobre sus enemigos a gran velocidad. Por tanto, siempre buscan lugares abiertos o cámaras amplias, donde puedan volar libremente y sacar el máximo partido a su movilidad. Si, por alguna razón, se ven obligadas a luchar en el suelo o en espacios cerrados cuyas paredes no pueden atravesar, su habilidad de ataque y defensa se reduce considerablemente. En una batalla, actúan de modo distinto dependiendo de la corporeidad de su antagonista. Por su naturaleza, no tienen ningún punto vulnerable. Forma elemental: El estado natural de las Luminarias es completamente inmaterial, por lo que sólo pueden tocar o ser dañadas por objetos y ataques que afecten a energía. Por otro lado, su esencia luminosa les ofrece bonos a sus habilidades perceptivas, que ya se encuentran reflejadas en su ficha. Garras de luz: Al lanzarse en picado en un combate, las Luminarias siempre acometen con sus garras. Se trata de armas naturales que atacan en Filo con rotura 0, y son capaces de dañar energía. Al ser inmateriales, las defensas convencionales no pueden pararlas, salvo si detienen ataques sobrenaturales. Como en el caso de las Sombras, las garras únicamente producen daño a criaturas etéreas o inmateriales. Cuando pasan a través de un ser vivo orgánico, causan el efecto de Abrasión espiritual. Abrasión espiritual: Las garras de luz provocan consecuencias diferentes en seres corpóreos. Su mero contacto es capaz de desgarrar el espíritu, lo que repercute en el cuerpo, creando profundas yagas y ulceraciones. Cuando una Luminaria logra un ataque con éxito contra un ser vivo orgánico, no le produce la pérdida de Puntos de vida de un modo convencional, pero le obliga a realizar un control de RF contra 120 o sufrir un daño equivalente al nivel de fracaso. Vuelo místico: Las Luminarias pueden volar sobrenaturalmente con tipo 10. Los bonos que esto les otorga en combate se encuentran ya reflejados en sus estadísticas, puesto que siempre lo emplean al luchar. _Página 320_ la gor a raña p síquic a</p></section><details><summary>Texto extraído</summary><pre>Nivel: 3\n\nClase: Entr e mundos, elemental 1 5 Puntos de Vida: 14 0 Categoría: Guerrero acróbata Fue: 8 Des: 8 Agi: 8 Con: 8 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 50 RM 50 RP 50 RV 50 RE 50\n\nTurno: 90 Natural Habilidad de ataque: 1 30 Garras de luz (60 en tierra) Habilidad de defensa: 120 Esquiva (50 en tierra) Daño: 50 Garras de luz FIL TA: Ninguna Habilidades esenciales: Exención física, Tamaño innatural. Poderes: Arma natural: Garras de luz (Daña energía, Ataque elemental: Luz, Ataque sobrenatural), Abrasión espiritual (Efectos: Daño 120 RF), Forma elemental, Vuelo místico (tipo 10), Ver lo sobrenatural. de mo vimiento: 4 / 10 Cansancio: Incansable Habilidades Secundarias: Advertir 120, Buscar 105, Rastrear 55, Estilo 45. Llamadas frecuentemente “Aves de C´iel”, las Luminarias son los elementales lumínicos más comunes. Tienen la apariencia de enormes águilas cuyos cuerpos están compuestos por una masa de crepitante energía luminosa. Con las alas extendidas, su envergadura es superior a los tres metros. Son siempre de tonalidades claras, blancas o azules.\n\nPacíficas por naturaleza, su mayor pasatiempo es surcar libremente los cielos en completa calma. En una confrontación, toman una actitud amenazante, tratando de intimidar a sus adversarios y hacerles huir. Sólo si son provocadas suficientemente, responderán de un modo agresivo y no se detendrán hasta destruir completamente a sus adversarios. Solitarias y taciturnas, sólo se relacionan abiertamente con criaturas afines a la luz. Aun así, a veces desarrollan devoción hacia algunos humanos u otras criaturas inteligentes. Aunque entienden decenas de idiomas, son incapaces de expresarse en ellos. De hecho, emplean un lenguaje propio que únicamente otros seres luminosos comprenden. Tienen un fuerte sentido de la responsabilidad y el deber, lo que las convierte en excelentes guardianas.\n\nMuchas veces, es fácil encontrarlas en ruinas o lugares aislados, tratando de apartarse de la vista del hombre y de sus problemas. Aparecen tanto a solas como en grupos numerosos. m odus operandi El estilo de combate de las Luminarias se basa en su capacidad para maniobrar en el aire, y lanzarse sobre sus enemigos a gran velocidad. Por tanto, siempre buscan lugares abiertos o cámaras amplias, donde puedan volar libremente y sacar el máximo partido a su movilidad. Si, por alguna razón, se ven obligadas a luchar en el suelo o en espacios cerrados cuyas paredes no pueden atravesar, su habilidad de ataque y defensa se reduce considerablemente. En una batalla, actúan de modo distinto dependiendo de la corporeidad de su antagonista. Por su naturaleza, no tienen ningún punto vulnerable.\n\nForma elemental: El estado natural de las Luminarias es completamente inmaterial, por lo que sólo pueden tocar o ser dañadas por objetos y ataques que afecten a energía. Por otro lado, su esencia luminosa les ofrece bonos a sus habilidades perceptivas, que ya se encuentran reflejadas en su ficha. Garras de luz: Al lanzarse en picado en un combate, las Luminarias siempre acometen con sus garras. Se trata de armas naturales que atacan en Filo con rotura 0, y son capaces de dañar energía. Al ser inmateriales, las defensas convencionales no pueden pararlas, salvo si detienen ataques sobrenaturales. Como en el caso de las Sombras, las garras únicamente producen daño a criaturas etéreas o inmateriales. Cuando pasan a través de un ser vivo orgánico, causan el efecto de Abrasión espiritual. Abrasión espiritual: Las garras de luz provocan consecuencias diferentes en seres corpóreos.\n\nSu mero contacto es capaz de desgarrar el espíritu, lo que repercute en el cuerpo, creando profundas yagas y ulceraciones. Cuando una Luminaria logra un ataque con éxito contra un ser vivo orgánico, no le produce la pérdida de Puntos de vida de un modo convencional, pero le obliga a realizar un control de RF contra 120 o sufrir un daño equivalente al nivel de fracaso. Vuelo místico: Las Luminarias pueden volar sobrenaturalmente con tipo 10. Los bonos que esto les otorga en combate se encuentran ya reflejados en sus estadísticas, puesto que siempre lo emplean al luchar.\n\n&lt;!-- tags: @personaje, @magia, @psiquico, @regla, @mentalismo --&gt;\n\n_Página 320_\n\nla gor a raña p síquic a</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 320</p><p><strong>Entrada:</strong> Lagor</p><p><strong>Variante:</strong> Elemental Menor de Luz</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos, elemental 15</p><p><strong>Categoría:</strong> Guerrero acróbata Fue: 8 Des: 8 Agi: 8 Con: 8 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 50 RM 50 RP 50 RV 50 RE 50</p><p><strong>Habilidades esenciales:</strong> Exención física, Tamaño innatural.</p><p><strong>Poderes:</strong> Arma natural: Garras de luz (Daña energía, Ataque elemental: Luz, Ataque sobrenatural), Abrasión espiritual (Efectos: Daño 120 RF), Forma elemental, Vuelo místico (tipo 10), Ver lo sobrenatural. de mo vimiento: 4 / 10</p><p><strong>Daño:</strong> 50 Garras de luz FIL</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 120, Buscar 105, Rastrear 55, Estilo 45</p><p><strong>Descripción breve:</strong> Llamadas frecuentemente “Aves de C´iel”, las Luminarias son los elementales lumínicos más comunes. Tienen la apariencia de enormes águilas cuyos cuerpos están compuestos por una masa de crepitante energía luminosa. Con las alas extendidas, su envergadura es superior a los tres metros. Son siempre de tonalidades claras, blancas o azules. Pacíficas por naturaleza, su mayor pasatiempo es surcar libremente los cielos en completa calma. En una confrontación, toman una actitud amenazante, tratando de intimidar a sus adversarios y hacerles huir. Sólo si son provocadas suficientemente, responderán de un modo agresivo y no se detendrán hasta destruir completamente a sus adversarios. Solitarias y taciturnas, sólo se relacionan abiertamente con criaturas afines a la luz. Aun así, a veces desarrollan devoción hacia algunos humanos u otras criaturas inteligentes. Aunque entienden decenas de idiomas, son incapaces de expresarse en ellos. De hecho, emplean un lenguaje propio que únicamente otros seres luminosos comprenden. Tienen un fuerte sentido de la responsabilidad y el deber, lo que las convierte en excelentes guardianas. Muchas veces, es fácil encontrarlas en ruinas o lugares aislados, tratando de apartarse de la vista del hombre y de sus problemas. Aparecen tanto a solas como en grupos numerosos. m odus operandi El estilo de combate de las Luminarias se basa en su capacidad para maniobrar en el aire, y lanzarse sobre sus enemigos a gran velocidad. Por tanto, siempre buscan lugares abiertos o cámaras amplias, donde puedan volar libremente y sacar el máximo partido a su movilidad. Si, por alguna razón, se ven obligadas a luchar en el suelo o en espacios cerrados cuyas paredes no pueden atravesar, su habilidad de ataque y defensa se reduce considerablemente. En una batalla, actúan de modo distinto dependiendo de la corporeidad de su antagonista. Por su naturaleza, no tienen ningún punto vulnerable. Forma elemental: El estado natural de las Luminarias es completamente inmaterial, por lo que sólo pueden tocar o ser dañadas por objetos y ataques que afecten a energía. Por otro lado, su esencia luminosa les ofrece bonos a sus habilidades perceptivas, que ya se encuentran reflejadas en su ficha. Garras de luz: Al lanzarse en picado en un combate, las Luminarias siempre acometen con sus garras. Se trata de armas naturales que atacan en Filo con rotura 0, y son capaces de dañar energía. Al ser inmateriales, las defensas convencionales no pueden pararlas, salvo si detienen ataques sobrenaturales. Como en el caso de las Sombras, las garras únicamente producen daño a criaturas etéreas o inmateriales. Cuando pasan a través de un ser vivo orgánico, causan el efecto de Abrasión espiritual. Abrasión espiritual: Las garras de luz provocan consecuencias diferentes en seres corpóreos. Su mero contacto es capaz de desgarrar el espíritu, lo que repercute en el cuerpo, creando profundas yagas y ulceraciones. Cuando una Luminaria logra un ataque con éxito contra un ser vivo orgánico, no le produce la pérdida de Puntos de vida de un modo convencional, pero le obliga a realizar un control de RF contra 120 o sufrir un daño equivalente al nivel de fracaso. Vuelo místico: Las Luminarias pueden volar sobrenaturalmente con tipo 10. Los bonos que esto les otorga en combate se encuentran ya reflejados en sus estadísticas, puesto que siempre lo emplean al luchar. _Página 320_ la gor a raña p síquic a</p></section><details><summary>Texto extraído</summary><pre>Nivel: 3\n\nClase: Entr e mundos, elemental 1 5 Puntos de Vida: 14 0 Categoría: Guerrero acróbata Fue: 8 Des: 8 Agi: 8 Con: 8 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 50 RM 50 RP 50 RV 50 RE 50\n\nTurno: 90 Natural Habilidad de ataque: 1 30 Garras de luz (60 en tierra) Habilidad de defensa: 120 Esquiva (50 en tierra) Daño: 50 Garras de luz FIL TA: Ninguna Habilidades esenciales: Exención física, Tamaño innatural. Poderes: Arma natural: Garras de luz (Daña energía, Ataque elemental: Luz, Ataque sobrenatural), Abrasión espiritual (Efectos: Daño 120 RF), Forma elemental, Vuelo místico (tipo 10), Ver lo sobrenatural. de mo vimiento: 4 / 10 Cansancio: Incansable Habilidades Secundarias: Advertir 120, Buscar 105, Rastrear 55, Estilo 45. Llamadas frecuentemente “Aves de C´iel”, las Luminarias son los elementales lumínicos más comunes. Tienen la apariencia de enormes águilas cuyos cuerpos están compuestos por una masa de crepitante energía luminosa. Con las alas extendidas, su envergadura es superior a los tres metros. Son siempre de tonalidades claras, blancas o azules.\n\nPacíficas por naturaleza, su mayor pasatiempo es surcar libremente los cielos en completa calma. En una confrontación, toman una actitud amenazante, tratando de intimidar a sus adversarios y hacerles huir. Sólo si son provocadas suficientemente, responderán de un modo agresivo y no se detendrán hasta destruir completamente a sus adversarios. Solitarias y taciturnas, sólo se relacionan abiertamente con criaturas afines a la luz. Aun así, a veces desarrollan devoción hacia algunos humanos u otras criaturas inteligentes. Aunque entienden decenas de idiomas, son incapaces de expresarse en ellos. De hecho, emplean un lenguaje propio que únicamente otros seres luminosos comprenden. Tienen un fuerte sentido de la responsabilidad y el deber, lo que las convierte en excelentes guardianas.\n\nMuchas veces, es fácil encontrarlas en ruinas o lugares aislados, tratando de apartarse de la vista del hombre y de sus problemas. Aparecen tanto a solas como en grupos numerosos. m odus operandi El estilo de combate de las Luminarias se basa en su capacidad para maniobrar en el aire, y lanzarse sobre sus enemigos a gran velocidad. Por tanto, siempre buscan lugares abiertos o cámaras amplias, donde puedan volar libremente y sacar el máximo partido a su movilidad. Si, por alguna razón, se ven obligadas a luchar en el suelo o en espacios cerrados cuyas paredes no pueden atravesar, su habilidad de ataque y defensa se reduce considerablemente. En una batalla, actúan de modo distinto dependiendo de la corporeidad de su antagonista. Por su naturaleza, no tienen ningún punto vulnerable.\n\nForma elemental: El estado natural de las Luminarias es completamente inmaterial, por lo que sólo pueden tocar o ser dañadas por objetos y ataques que afecten a energía. Por otro lado, su esencia luminosa les ofrece bonos a sus habilidades perceptivas, que ya se encuentran reflejadas en su ficha. Garras de luz: Al lanzarse en picado en un combate, las Luminarias siempre acometen con sus garras. Se trata de armas naturales que atacan en Filo con rotura 0, y son capaces de dañar energía. Al ser inmateriales, las defensas convencionales no pueden pararlas, salvo si detienen ataques sobrenaturales. Como en el caso de las Sombras, las garras únicamente producen daño a criaturas etéreas o inmateriales. Cuando pasan a través de un ser vivo orgánico, causan el efecto de Abrasión espiritual. Abrasión espiritual: Las garras de luz provocan consecuencias diferentes en seres corpóreos.\n\nSu mero contacto es capaz de desgarrar el espíritu, lo que repercute en el cuerpo, creando profundas yagas y ulceraciones. Cuando una Luminaria logra un ataque con éxito contra un ser vivo orgánico, no le produce la pérdida de Puntos de vida de un modo convencional, pero le obliga a realizar un control de RF contra 120 o sufrir un daño equivalente al nivel de fracaso. Vuelo místico: Las Luminarias pueden volar sobrenaturalmente con tipo 10. Los bonos que esto les otorga en combate se encuentran ya reflejados en sus estadísticas, puesto que siempre lo emplean al luchar.\n\n&lt;!-- tags: @personaje, @magia, @psiquico, @regla, @mentalismo --&gt;\n\n_Página 320_\n\nla gor a raña p síquic a</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +254,6 @@
           }
         }
       ],
-      "level": {
-        "value": 3
-      },
       "notes": [
         {
           "_id": "note-lagor-elemental-menor-de-luz-3",
@@ -345,52 +273,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -401,9 +313,6 @@
         "initiative": {
           "base": {
             "value": 90
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +363,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -465,10 +371,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -476,10 +379,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5040
+              "value": 5090
             },
             "final": {
               "value": 0
@@ -487,10 +387,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -498,10 +395,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -513,206 +407,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 105
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 130
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 120
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -743,11 +886,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -759,14 +898,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -780,14 +924,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -892,15 +1033,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -912,37 +1049,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1065,9 +1222,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

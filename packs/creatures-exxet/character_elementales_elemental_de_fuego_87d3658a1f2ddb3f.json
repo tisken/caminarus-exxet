@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
           "value": true
-        },
-        "effects": {
-          "value": false
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,28 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
-        "perceivePsychic": {
+        "inhuman": {
           "value": true
         },
         "inmaterial": {
           "value": true
         },
-        "inhuman": {
+        "perceiveMystic": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "perceivePsychic": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +153,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +173,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 55
         }
       },
       "aspect": {
@@ -274,7 +207,7 @@
           "value": "Elemental de Fuego"
         },
         "size": {
-          "value": 23
+          "value": "23"
         }
       },
       "advantages": [],
@@ -292,7 +225,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 324</p><p><strong>Entrada:</strong> Elementales</p><p><strong>Variante:</strong> Elemental de Fuego</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos, elemental 20</p><p><strong>Categoría:</strong> Warlock Fue: 12 Des: 10 Agi: 7 Con: 11 Pod: 11 Int: 8 Vol: 11 Per: 8 RF 75 RM 75 RP 75 RV 75 RE 75</p><p><strong>Habilidades esenciales:</strong> Exención física, Inmunidad, Inhumanidad, Don, Acceso a una disciplina psíquica, Características anímicas sobrehumanas, Características físicas sobrehumanas, Conocimiento natural de una vía 80, Inutilidad somática.</p><p><strong>Poderes:</strong> Arma natural: Garras (Ataque elemental), Daña energía, Forma elemental, Ver lo sobrenatural. Especial: Proyección Mágica como ataque, Uso de un arma (habitualmente hacha de guerra)</p><p><strong>Disciplinas:</strong> Piroquinesis: Crear fuego</p><p><strong>Daño:</strong> 80 Garras CAL, 100 Hacha de guerra +5 FIL</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Intimidar 105, Advertir 120, Buscar 65, Proezas de fuerza 110, Resistir el dolor 75, Valoración mágica 70, Forja 110. t itán , _Página 324_ element al de tierra</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entr e mundos, elemental 20 Puntos de Vida: 210 Categoría: Warlock Fue: 12 Des: 10 Agi: 7 Con: 11 Pod: 11 Int: 8 Vol: 11 Per: 8 RF 75 RM 75 RP 75 RV 75 RE 75\n\nTurno: 75 Natural, 30 Hacha de guerra +5 Habilidad de ataque: 1 70 Garras de fuego, 1 75 Hacha de guerra +5 Habilidad de defensa: 1 55 Garras de fuego, 1 60 Hacha de guerra +5 Daño: 80 Garras CAL, 100 Hacha de guerra +5 FIL TA: Ninguna ACT: 50 Conjuros de Fuego, 30 Otras\n\nZeon: 610\n\nProyección Mágica: 1 40 Ofensiva Nivel de magia: Entre 60 y 80 de Fuego Habilidades esenciales: Exención física, Inmunidad, Inhumanidad, Don, Acceso a una disciplina psíquica, Características anímicas sobrehumanas, Características físicas sobrehumanas, Conocimiento natural de una vía 80, Inutilidad somática. Poderes: Arma natural: Garras (Ataque elemental), Daña energía, Forma elemental, Ver lo sobrenatural. Especial: Proyección Mágica como ataque, Uso de un arma (habitualmente hacha de guerra) Potencial Psíquico: +70 CV Libres: 1 Disciplinas Piroquinesis: Crear fuego Innatos: Ninguno Proyección Psíquica: 10\n\nTamaño: 23 Grande Regeneración: 5 Tipo de mo vimiento: 8 Cansancio: Incansable Habilidades Secundarias: Intimidar 105, Advertir 120, Buscar 65, Proezas de fuerza 1 10, Resistir el dolor 75, Valoración mágica 70, Forja 1 10. t itán ,\n\n&lt;!-- tags: @personaje, @magia, @psiquico, @historia, @regla --&gt;\n\n_Página 324_\n\nelement al de tierra</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 324</p><p><strong>Entrada:</strong> Elementales</p><p><strong>Variante:</strong> Elemental de Fuego</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos, elemental 20</p><p><strong>Categoría:</strong> Warlock Fue: 12 Des: 10 Agi: 7 Con: 11 Pod: 11 Int: 8 Vol: 11 Per: 8 RF 75 RM 75 RP 75 RV 75 RE 75</p><p><strong>Habilidades esenciales:</strong> Exención física, Inmunidad, Inhumanidad, Don, Acceso a una disciplina psíquica, Características anímicas sobrehumanas, Características físicas sobrehumanas, Conocimiento natural de una vía 80, Inutilidad somática.</p><p><strong>Poderes:</strong> Arma natural: Garras (Ataque elemental), Daña energía, Forma elemental, Ver lo sobrenatural. Especial: Proyección Mágica como ataque, Uso de un arma (habitualmente hacha de guerra)</p><p><strong>Disciplinas:</strong> Piroquinesis: Crear fuego</p><p><strong>Daño:</strong> 80 Garras CAL, 100 Hacha de guerra +5 FIL</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Intimidar 105, Advertir 120, Buscar 65, Proezas de fuerza 110, Resistir el dolor 75, Valoración mágica 70, Forja 110. t itán , _Página 324_ element al de tierra</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entr e mundos, elemental 20 Puntos de Vida: 210 Categoría: Warlock Fue: 12 Des: 10 Agi: 7 Con: 11 Pod: 11 Int: 8 Vol: 11 Per: 8 RF 75 RM 75 RP 75 RV 75 RE 75\n\nTurno: 75 Natural, 30 Hacha de guerra +5 Habilidad de ataque: 1 70 Garras de fuego, 1 75 Hacha de guerra +5 Habilidad de defensa: 1 55 Garras de fuego, 1 60 Hacha de guerra +5 Daño: 80 Garras CAL, 100 Hacha de guerra +5 FIL TA: Ninguna ACT: 50 Conjuros de Fuego, 30 Otras\n\nZeon: 610\n\nProyección Mágica: 1 40 Ofensiva Nivel de magia: Entre 60 y 80 de Fuego Habilidades esenciales: Exención física, Inmunidad, Inhumanidad, Don, Acceso a una disciplina psíquica, Características anímicas sobrehumanas, Características físicas sobrehumanas, Conocimiento natural de una vía 80, Inutilidad somática. Poderes: Arma natural: Garras (Ataque elemental), Daña energía, Forma elemental, Ver lo sobrenatural. Especial: Proyección Mágica como ataque, Uso de un arma (habitualmente hacha de guerra) Potencial Psíquico: +70 CV Libres: 1 Disciplinas Piroquinesis: Crear fuego Innatos: Ninguno Proyección Psíquica: 10\n\nTamaño: 23 Grande Regeneración: 5 Tipo de mo vimiento: 8 Cansancio: Incansable Habilidades Secundarias: Intimidar 105, Advertir 120, Buscar 65, Proezas de fuerza 1 10, Resistir el dolor 75, Valoración mágica 70, Forja 1 10. t itán ,\n\n&lt;!-- tags: @personaje, @magia, @psiquico, @historia, @regla --&gt;\n\n_Página 324_\n\nelement al de tierra</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +257,6 @@
           }
         }
       ],
-      "level": {
-        "value": 6
-      },
       "notes": [
         {
           "_id": "note-elementales-elemental-de-fuego-3",
@@ -351,52 +282,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         }
       },
       "secondaries": {
@@ -407,9 +322,6 @@
         "initiative": {
           "base": {
             "value": 75
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -460,10 +372,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -471,10 +380,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -482,10 +388,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 7500
+              "value": 7575
             },
             "final": {
               "value": 0
@@ -493,10 +396,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -504,10 +404,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -519,212 +416,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 110
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 75
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 65
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 70
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 105
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 175
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 160
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -755,11 +895,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -771,16 +907,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 610,
         "max": 610
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -792,14 +933,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -904,15 +1042,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -924,37 +1058,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1077,9 +1231,6 @@
       "psychicPoints": {
         "value": 1,
         "max": 1
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

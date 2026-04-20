@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 35
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 12
+          "value": "12"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 16</p><p><strong>Entrada:</strong> Aura de Miedo Cuchillas Sombrías Control Ambiental Variaciones</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Asesino Fue: 4 Des: 8 Agi: 10 Con: - Pod: 8 Int: 3 Vol: 5 Per: 8 RF 45 RM 45 RP 40 RV 45 RE 45</p><p><strong>Categoría:</strong> ánima, Elemental Oscuro 15</p><p><strong>Habilidades esenciales:</strong> Tamaño no Natural.</p><p><strong>Poderes:</strong> Vuelo Místico 8, Sentencia de muerte, Visión Nocturna Completa.</p><p><strong>Daño:</strong> Ninguno</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 60, Buscar 60, Intimidar 40, Ocultarse 60, Sigilo 65</p><p><strong>Descripción breve:</strong> Su apariencia puede variar mucho entre sí, pero generalmente son enormes masas de oscuridad caótica dentro de las cuales se puede ver una forma relacionada con la naturaleza de la pesadilla en sí. Las Pesadillas Vivientes existen solo en La Vigilia y viven siempre en lugares oscuros llenos de miedo. Las más poderosas actúan de forma independiente, aunque la mayoría de las veces se unen a un Señor de las Pesadillas que le sirve como agente. Solo en casos muy excepcionales las Pesadillas pueden manifestarse en el mundo real poseyendo cuerpos humanos que toman como “avatares”. Dado que no hay dos Pesadillas Vivientes iguales y cada una actúa por razones completamente diferentes, las metodologías que pueden usar en combate son realmente infinitas. Sin embargo, todas son criaturas basadas en el miedo y se alimentan de él, por lo que generalmente suelen ser siniestras y retorcidas, prefiriendo alargar todas las peleas para disfrutar del terror que provocan. Por su naturaleza oscura, cualquiera que contemple la verdadera forma de una Pesadilla Viviente debe resistir un control de Resistencia Mágica contra 80 o sufrir Miedo durante un número de asaltos equivalente al nivel de fracaso. Este es un efecto automático cuya única condición es mirar directamente a la Pesadilla. Alguien que supere el control no necesita volver a hacerlo hasta que hayan pasado al menos 10 asaltos. Esta habilidad puede ser desactivada a voluntad por la Pesadilla. Los ataques de la Pesadilla son de naturaleza sobrenatural y solo pueden detenerse por medios capaces de detener la energía. Además, debido a su naturaleza única, atacan en Frío. Si están en el área de la Vigilia a la que están vinculados, la Pesadilla puede alterar el entorno para recrear la atmósfera del sueño original que les dio origen. En estas ocasiones, pueden incluso alterar su propia apariencia adquiriendo distintas formas. Las pesadillas pueden tener cualquier tipo de poder relacionado con su naturaleza original, por lo que tienen acceso a todos los poderes imaginables de los enumerados en Los que Caminaron con Nosotros. úgubres consumidas. son cuando especial “sabor” cierto da les que algo despavoridas, huyan presas sus que hacer para mostrarse pueden hambre, mucha tienen no y escapar puede les se no presa una que consideran si menudo, ALúgubres. los a alimenta que espiritual daño terrible un víctima su a causa contacto su que ya cuerpos, sus a pegan se y enjambres en ellas a acercan se sintientes criaturas ven Cuando dolor. del alimentan se que carroñeros oscuridad, la enparásitos pequeños como comportan se Lúgubres Los macabro. más aún aspecto un dándoles rojos, ojos y calaveras ver posible es veces a interior su En negra. serpiente una a similar estela una sí de tras dejando caótica, forma de aire el en flota que oscura masa pequeña una ser suele apariencia Su oscuridad. la contaminadapor alma un de residuos pequeños en consiste cuales los de uno cada Lúgubres, varios generar puede muere que persona una tanto, lo Por seres. de estos lugar al “nacimiento” dando ambiental oscuridad la con intercala se esto Todo negativas. emociones fuertes con muere alguien cuando quedan que espirituales fragmentos de sino “completas”, almas de hechos están no realidad, En La Vigilia. de oscuras zonasmás las en muere persona una cuando crean se comúnmente que espectros pequeños son Lúgubres Los _Página 17_ Modus Operandi Sentencia de muerte: Vuelo Místico: Visión Nocturna Completa: Sus formas son tan variadas como la imaginación</p></section><details><summary>Texto extraído</summary><pre>lNivel: 2 Categoría: ánima, Elemental Oscuro 15 Puntos de Vida: 155\n\nClase: Asesino Fue: 4 Des: 8 Agi: 10 Con: - Pod: 8 Int: 3 Vol: 5 Per: 8 RF 45 RM 45 RP 40 RV 45 RE 45\n\nTurno: 75 Natural Habilidad de Ataque: 110 Sentencia de muerte Habilidad de Defensa: 100 Esquiva Daño: Ninguno TA: Ninguna Habilidades Esenciales: Tamaño no Natural. Poderes: Vuelo Místico 8, Sentencia de muerte, Visión Nocturna Completa.\n\nTamaño: 12 Medio Regeneración: 3 Tipo de movimiento: 8 Cansancio: Incasable Habilidades Secundarias: Advertir 60, Buscar 60, Intimidar 40, Ocultarse 60, Sigilo 65. Su apariencia puede variar mucho entre sí, pero generalmente son enormes masas de oscuridad caótica dentro de las cuales se puede ver una forma relacionada con la naturaleza de la pesadilla en sí. Las Pesadillas Vivientes existen solo en La Vigilia y viven siempre en lugares oscuros llenos de miedo. Las más poderosas actúan de forma independiente, aunque la mayoría de las veces se unen a un Señor de las Pesadillas que le sirve como agente. Solo en casos muy excepcionales las Pesadillas pueden manifestarse en el mundo real poseyendo cuerpos humanos que toman como “avatares”.\n\nDado que no hay dos Pesadillas Vivientes iguales y cada una actúa por razones completamente diferentes, las metodologías que pueden usar en combate son realmente infinitas. Sin embargo, todas son criaturas basadas en el miedo y se alimentan de él, por lo que generalmente suelen ser siniestras y retorcidas, prefiriendo alargar todas las peleas para disfrutar del terror que provocan. Por su naturaleza oscura, cualquiera que contemple la verdadera forma de una Pesadilla Viviente debe resistir un control de Resistencia Mágica contra 80 o sufrir Miedo durante un número de asaltos equivalente al nivel de fracaso. Este es un efecto automático cuya única condición es mirar directamente a la Pesadilla. Alguien que supere el control no necesita volver a hacerlo hasta que hayan pasado al menos 10 asaltos. Esta habilidad puede ser desactivada a voluntad por la Pesadilla.\n\nLos ataques de la Pesadilla son de naturaleza sobrenatural y solo pueden detenerse por medios capaces de detener la energía. Además, debido a su naturaleza única, atacan en Frío. Si están en el área de la Vigilia a la que están vinculados, la Pesadilla puede alterar el entorno para recrear la atmósfera del sueño original que les dio origen. En estas ocasiones, pueden incluso alterar su propia apariencia adquiriendo distintas formas. Las pesadillas pueden tener cualquier tipo de poder relacionado con su naturaleza original, por lo que tienen acceso a todos los poderes imaginables de los enumerados en Los que Caminaron con Nosotros. úgubres consumidas. son cuando especial “sabor” cierto da les que algo despavoridas, huyan presas sus que hacer para mostrarse pueden hambre, mucha tienen no y escapar puede les se no presa una que consideran si menudo, ALúgubres.\n\nlos a alimenta que espiritual daño terrible un víctima su a causa contacto su que ya cuerpos, sus a pegan se y enjambres en ellas a acercan se sintientes criaturas ven Cuando dolor. del alimentan se que carroñeros oscuridad, la enparásitos pequeños como comportan se Lúgubres Los macabro. más aún aspecto un dándoles rojos, ojos y calaveras ver posible es veces a interior su En negra. serpiente una a similar estela una sí de tras dejando caótica, forma de aire el en flota que oscura masa pequeña una ser suele apariencia Su oscuridad. la contaminadapor alma un de residuos pequeños en consiste cuales los de uno cada Lúgubres, varios generar puede muere que persona una tanto, lo Por seres. de estos lugar al “nacimiento” dando ambiental oscuridad la con intercala se esto Todo negativas.\n\nemociones fuertes con muere alguien cuando quedan que espirituales fragmentos de sino “completas”, almas de hechos están no realidad, En La Vigilia. de oscuras zonasmás las en muere persona una cuando crean se comúnmente que espectros pequeños son Lúgubres Los\n\n&lt;!-- tags: @personaje, @regla --&gt;\n\n_Página 17_\n\nModus Operandi Sentencia de muerte: Vuelo Místico: Visión Nocturna Completa: Sus formas son tan variadas como la imaginación</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 16</p><p><strong>Entrada:</strong> Aura de Miedo Cuchillas Sombrías Control Ambiental Variaciones</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Asesino Fue: 4 Des: 8 Agi: 10 Con: - Pod: 8 Int: 3 Vol: 5 Per: 8 RF 45 RM 45 RP 40 RV 45 RE 45</p><p><strong>Categoría:</strong> ánima, Elemental Oscuro 15</p><p><strong>Habilidades esenciales:</strong> Tamaño no Natural.</p><p><strong>Poderes:</strong> Vuelo Místico 8, Sentencia de muerte, Visión Nocturna Completa.</p><p><strong>Daño:</strong> Ninguno</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 60, Buscar 60, Intimidar 40, Ocultarse 60, Sigilo 65</p><p><strong>Descripción breve:</strong> Su apariencia puede variar mucho entre sí, pero generalmente son enormes masas de oscuridad caótica dentro de las cuales se puede ver una forma relacionada con la naturaleza de la pesadilla en sí. Las Pesadillas Vivientes existen solo en La Vigilia y viven siempre en lugares oscuros llenos de miedo. Las más poderosas actúan de forma independiente, aunque la mayoría de las veces se unen a un Señor de las Pesadillas que le sirve como agente. Solo en casos muy excepcionales las Pesadillas pueden manifestarse en el mundo real poseyendo cuerpos humanos que toman como “avatares”. Dado que no hay dos Pesadillas Vivientes iguales y cada una actúa por razones completamente diferentes, las metodologías que pueden usar en combate son realmente infinitas. Sin embargo, todas son criaturas basadas en el miedo y se alimentan de él, por lo que generalmente suelen ser siniestras y retorcidas, prefiriendo alargar todas las peleas para disfrutar del terror que provocan. Por su naturaleza oscura, cualquiera que contemple la verdadera forma de una Pesadilla Viviente debe resistir un control de Resistencia Mágica contra 80 o sufrir Miedo durante un número de asaltos equivalente al nivel de fracaso. Este es un efecto automático cuya única condición es mirar directamente a la Pesadilla. Alguien que supere el control no necesita volver a hacerlo hasta que hayan pasado al menos 10 asaltos. Esta habilidad puede ser desactivada a voluntad por la Pesadilla. Los ataques de la Pesadilla son de naturaleza sobrenatural y solo pueden detenerse por medios capaces de detener la energía. Además, debido a su naturaleza única, atacan en Frío. Si están en el área de la Vigilia a la que están vinculados, la Pesadilla puede alterar el entorno para recrear la atmósfera del sueño original que les dio origen. En estas ocasiones, pueden incluso alterar su propia apariencia adquiriendo distintas formas. Las pesadillas pueden tener cualquier tipo de poder relacionado con su naturaleza original, por lo que tienen acceso a todos los poderes imaginables de los enumerados en Los que Caminaron con Nosotros. úgubres consumidas. son cuando especial “sabor” cierto da les que algo despavoridas, huyan presas sus que hacer para mostrarse pueden hambre, mucha tienen no y escapar puede les se no presa una que consideran si menudo, ALúgubres. los a alimenta que espiritual daño terrible un víctima su a causa contacto su que ya cuerpos, sus a pegan se y enjambres en ellas a acercan se sintientes criaturas ven Cuando dolor. del alimentan se que carroñeros oscuridad, la enparásitos pequeños como comportan se Lúgubres Los macabro. más aún aspecto un dándoles rojos, ojos y calaveras ver posible es veces a interior su En negra. serpiente una a similar estela una sí de tras dejando caótica, forma de aire el en flota que oscura masa pequeña una ser suele apariencia Su oscuridad. la contaminadapor alma un de residuos pequeños en consiste cuales los de uno cada Lúgubres, varios generar puede muere que persona una tanto, lo Por seres. de estos lugar al “nacimiento” dando ambiental oscuridad la con intercala se esto Todo negativas. emociones fuertes con muere alguien cuando quedan que espirituales fragmentos de sino “completas”, almas de hechos están no realidad, En La Vigilia. de oscuras zonasmás las en muere persona una cuando crean se comúnmente que espectros pequeños son Lúgubres Los _Página 17_ Modus Operandi Sentencia de muerte: Vuelo Místico: Visión Nocturna Completa: Sus formas son tan variadas como la imaginación</p></section><details><summary>Texto extraído</summary><pre>lNivel: 2 Categoría: ánima, Elemental Oscuro 15 Puntos de Vida: 155\n\nClase: Asesino Fue: 4 Des: 8 Agi: 10 Con: - Pod: 8 Int: 3 Vol: 5 Per: 8 RF 45 RM 45 RP 40 RV 45 RE 45\n\nTurno: 75 Natural Habilidad de Ataque: 110 Sentencia de muerte Habilidad de Defensa: 100 Esquiva Daño: Ninguno TA: Ninguna Habilidades Esenciales: Tamaño no Natural. Poderes: Vuelo Místico 8, Sentencia de muerte, Visión Nocturna Completa.\n\nTamaño: 12 Medio Regeneración: 3 Tipo de movimiento: 8 Cansancio: Incasable Habilidades Secundarias: Advertir 60, Buscar 60, Intimidar 40, Ocultarse 60, Sigilo 65. Su apariencia puede variar mucho entre sí, pero generalmente son enormes masas de oscuridad caótica dentro de las cuales se puede ver una forma relacionada con la naturaleza de la pesadilla en sí. Las Pesadillas Vivientes existen solo en La Vigilia y viven siempre en lugares oscuros llenos de miedo. Las más poderosas actúan de forma independiente, aunque la mayoría de las veces se unen a un Señor de las Pesadillas que le sirve como agente. Solo en casos muy excepcionales las Pesadillas pueden manifestarse en el mundo real poseyendo cuerpos humanos que toman como “avatares”.\n\nDado que no hay dos Pesadillas Vivientes iguales y cada una actúa por razones completamente diferentes, las metodologías que pueden usar en combate son realmente infinitas. Sin embargo, todas son criaturas basadas en el miedo y se alimentan de él, por lo que generalmente suelen ser siniestras y retorcidas, prefiriendo alargar todas las peleas para disfrutar del terror que provocan. Por su naturaleza oscura, cualquiera que contemple la verdadera forma de una Pesadilla Viviente debe resistir un control de Resistencia Mágica contra 80 o sufrir Miedo durante un número de asaltos equivalente al nivel de fracaso. Este es un efecto automático cuya única condición es mirar directamente a la Pesadilla. Alguien que supere el control no necesita volver a hacerlo hasta que hayan pasado al menos 10 asaltos. Esta habilidad puede ser desactivada a voluntad por la Pesadilla.\n\nLos ataques de la Pesadilla son de naturaleza sobrenatural y solo pueden detenerse por medios capaces de detener la energía. Además, debido a su naturaleza única, atacan en Frío. Si están en el área de la Vigilia a la que están vinculados, la Pesadilla puede alterar el entorno para recrear la atmósfera del sueño original que les dio origen. En estas ocasiones, pueden incluso alterar su propia apariencia adquiriendo distintas formas. Las pesadillas pueden tener cualquier tipo de poder relacionado con su naturaleza original, por lo que tienen acceso a todos los poderes imaginables de los enumerados en Los que Caminaron con Nosotros. úgubres consumidas. son cuando especial “sabor” cierto da les que algo despavoridas, huyan presas sus que hacer para mostrarse pueden hambre, mucha tienen no y escapar puede les se no presa una que consideran si menudo, ALúgubres.\n\nlos a alimenta que espiritual daño terrible un víctima su a causa contacto su que ya cuerpos, sus a pegan se y enjambres en ellas a acercan se sintientes criaturas ven Cuando dolor. del alimentan se que carroñeros oscuridad, la enparásitos pequeños como comportan se Lúgubres Los macabro. más aún aspecto un dándoles rojos, ojos y calaveras ver posible es veces a interior su En negra. serpiente una a similar estela una sí de tras dejando caótica, forma de aire el en flota que oscura masa pequeña una ser suele apariencia Su oscuridad. la contaminadapor alma un de residuos pequeños en consiste cuales los de uno cada Lúgubres, varios generar puede muere que persona una tanto, lo Por seres. de estos lugar al “nacimiento” dando ambiental oscuridad la con intercala se esto Todo negativas.\n\nemociones fuertes con muere alguien cuando quedan que espirituales fragmentos de sino “completas”, almas de hechos están no realidad, En La Vigilia. de oscuras zonasmás las en muere persona una cuando crean se comúnmente que espectros pequeños son Lúgubres Los\n\n&lt;!-- tags: @personaje, @regla --&gt;\n\n_Página 17_\n\nModus Operandi Sentencia de muerte: Vuelo Místico: Visión Nocturna Completa: Sus formas son tan variadas como la imaginación</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 2
-      },
       "notes": [
         {
           "_id": "note-aura-de-miedo-cuchillas-sombrias-3",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 0
-          }
+          "value": 0,
+          "mod": 0
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 75
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10
+              "value": 45
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10
+              "value": 45
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10
+              "value": 45
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5
+              "value": 40
             },
             "final": {
               "value": 0
@@ -513,209 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 65
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 110
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 100
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -746,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -762,14 +889,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -783,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -895,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -915,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1068,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

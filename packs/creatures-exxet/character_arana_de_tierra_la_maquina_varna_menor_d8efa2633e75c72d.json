@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 35
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": ""
         },
         "size": {
-          "value": 10
+          "value": "10"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 1</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Araña de Tierra (La Máquina · Varna menor)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 8 Des: 8 Agi: 10 Con: 8 Pod: 4 Int: 3 Vol: 8 Per: 6 RF 45 RM 0 RP 45 RV 45 RE 45</p><p><strong>Habilidades esenciales:</strong> Exención física, Inmunidad psicológica, Inmune al dolor.</p><p><strong>Poderes:</strong> Armas Naturales; Sierras (Armas Naturales, -2 a la TA defensora, Ataque Adicional -20), Armadura Natural TA Física 4 Abierta, Turno Incrementado +10, Movimiento de Araña, Restructuración, Núcleo (Punto Vulnerable), Vulnerabilidad a la Magia.</p><p><strong>Daño:</strong> 50 Sierras (FIL/PEN)</p><p><strong>TA:</strong> Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0</p><p><strong>Habilidades secundarias:</strong> Acrobacias 80, Saltar 70, Advertir 40, Buscar 30, Sigilo 40, Ocultarse 40</p><p><strong>Descripción breve:</strong> Similares al artrópodo del que adquieren su nombre, estos seres totalmente metálicos son, por así decirlo, la contrapartida terrestre de los drones. Pese a que no pueden volar y son algo más grandes (normalmente miden cerca de un metro), conservan muchas de las cualidades que hacen a sus “hermanos” tan letales en combate. Consecuentemente resultan muy peligrosas en grandes números, en especial cuando son dirigidos por un Tecnócrita o bajo la influencia directa de La Madre. Se trata de criaturas muy ágiles que se mueven con una horripilante coordinación. Habitualmente, se las ve desplazarse en grandes cantidades correteando por paredes y muros igual que una masa de monstruosidades mecánicas. Cuando alcanzan su objetivo, se lanzan de un salto hasta él destrozándolo con sus cuchillas. Poseen un comportamiento puramente robótico y siguen sin más las directrices recibidas. Son incapaces de trazar ningún tipo de plan de actuación y sólo reaccionan conforme a las órdenes directas que un miembro de La Máquina de jerarquía superior les dé. Sin estos para comandarlas, pululan erráticamente repitiendo la última orden recibida hasta que, pasados varios días, se ponen en reposo. No obstante, tienen una autonomía superior a los Drones y no necesitan desconectarse diariamente para hacer chequeos de sistema; pueden hacerlo mientras están en activo, lo que las vuelve verdaderamente incansables. Las Arañas se usan a veces como tropas en un ataque frontal, aunque su especialidad es atacar el interior de edificaciones o grutas, donde su movilidad las hace mucho más efectivas que los Drones (pues estos suelen tener problemas para volar en espacios cerrados). La razón de las similitudes entre las Arañas y los Drones es que las Arañas se crearon como una modificación de estos últimos con el objetivo de ahorrar los materiales que les permiten volar. Por ello, salvo algunas diferencias de diseño, la estructura de ambos es, en muchos aspectos, prácticamente idéntica. Irónicamente, para La Máquina en Dravenor era más fácil encontrar cadáveres que minerales tan comunes como el hierro. MODUS OPERANDIEl modus operandi de estos seres es simple, pues una vez han localizado sus objetivos se limitan a lanzarse frontalmente contra ellos hasta eliminarlos por acumulación de ataques; más allá de eso, su capacidad estratégica es nula. Sin embargo, cuando están en la zona de control de un Tecnócrita o un Pretoriano, pasan a obedecer las órdenes de éstos y son capaces de usar maniobras de combate mucho más peligrosas. Las Arañas son especialmente efectivas en enfrentamientos en lugares cerrados, donde poseen una capacidad de maniobrar superior a la de los Drones (estos son mucho más torpes cuando no tienen espacio para volar). Sierras: Además de sus extremidades arácnidas, las arañas de tierra cuentan con dos extremidades humanoides acabadas en cuchillas serradas. Pueden realizar dos ataques con ellas (uno con cada apéndice), teniendo sólo un penalizador de -20 en el segundo ataque. A causa de su naturaleza, estos ataques reducen la TA defensora en 2 puntos. Movimiento de Araña: Mientras tenga un punto de apoyo, la Araña de Tierra puede moverse por cualquier superficie, incluso por los techos. Además, cuenta como si tuviera tipo de Movimiento 12 e Inhumanidad para calcular la distancia a la que salta. Generalmente, eso significa que puede saltar una distancia de hasta 10 metros sin necesidad de realizar control alguno. Restructuración: Cuando los puntos de vida de una Araña de Tierra se reducen a 0, ésta cae al suelo aparentemente destruida e inerte. Sin embargo, si el núcleo de la criatura no es destrozado de inmediato, la Araña vuelve a levantarse entre cuatro y seis asaltos después, completamente reparada y lista para el combate. Núcleo: Si una Araña de Tierra sufre 30 puntos de daño apuntados a su núcleo (penalizador de -60 al apuntar a esta zona, aunque no se aplica a ella la armadura de la criatura), este queda completamente destruido sin posibilidad de reformarse. El núcleo cuenta como punto vulnerable. Vulnerabilidad a la Magia: Las Arañas de Tierra poseen la misma vulnerabilidad a la magia que los drones. No sólo poseen una RM de 0, sino que toda descarga de energía mística les produce doble daño. Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Todo el mundo las conoce. Se trata de arañas de metal y carne de gran tamaño. Junto a los Drones, son las tropas más comunes de La Máquina. Conocimiento Intermedio Para poderlas destruir hay que destrozar sus núcleos una vez que sus cuerpos han recibido un daño extremo. Es posible distraerlas o atraer su atención con ruidos fuertes. Conocimiento Avanzado Si se reúnen suficientes se puede formar un enjambre de Arañas que actúan conjuntamente como una marabunta. Existe una versión de ellas mucho más poderosa, capaz de crear hebras psíquicas que cortan a su alrededor como afilados monofilos. SAbueSoLa m áquina (v arna m enor )</p></section><details><summary>Texto extraído</summary><pre>Nivel: 2\n\nClase: Entre Mundos Especial Puntos de Vida: 130 Categoría: Guerrero Acróbata Fue: 8 Des: 8 Agi: 10 Con: 8 Pod: 4 Int: 3 Vol: 8 Per: 6 RF 45 RM 0 RP 45 RV 45 RE 45\n\nTurno: 95 Natural Habilidad de ataque: 100 Sierras + 80 Sierras Habilidad de defensa: 100 Esquiva Daño: 50 Sierras (FIL/PEN) TA: Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0 Habilidades Esenciales: Exención física, Inmunidad psicológica, Inmune al dolor. Poderes: Armas Naturales; Sierras (Armas Naturales, -2 a la TA defensora, Ataque Adicional -20), Armadura Natural TA Física 4 Abierta, Turno Incrementado +10, Movimiento de Araña, Restructuración, Núcleo (Punto Vulnerable), Vulnerabilidad a la Magia.\n\nTamaño: 10 Medio Regeneración: 2 Tipo de movimiento: 10 (12 Salto) Cansancio: Incansable Habilidades Secundarias: Acrobacias 80, Saltar 70, Advertir 40, Buscar 30, Sigilo 40, Ocultarse 40. Similares al artrópodo del que adquieren su nombre, estos seres totalmente metálicos son, por así decirlo, la contrapartida terrestre de los drones. Pese a que no pueden volar y son algo más grandes (normalmente miden cerca de un metro), conservan muchas de las cualidades que hacen a sus “hermanos” tan letales en combate. Consecuentemente resultan muy peligrosas en grandes números, en especial cuando son dirigidos por un Tecnócrita o bajo la influencia directa de La Madre. Se trata de criaturas muy ágiles que se mueven con una horripilante coordinación. Habitualmente, se las ve desplazarse en grandes cantidades correteando por paredes y muros igual que una masa de monstruosidades mecánicas.\n\nCuando alcanzan su objetivo, se lanzan de un salto hasta él destrozándolo con sus cuchillas. Poseen un comportamiento puramente robótico y siguen sin más las directrices recibidas. Son incapaces de trazar ningún tipo de plan de actuación y sólo reaccionan conforme a las órdenes directas que un miembro de La Máquina de jerarquía superior les dé. Sin estos para comandarlas, pululan erráticamente repitiendo la última orden recibida hasta que, pasados varios días, se ponen en reposo. No obstante, tienen una autonomía superior a los Drones y no necesitan desconectarse diariamente para hacer chequeos de sistema; pueden hacerlo mientras están en activo, lo que las vuelve verdaderamente incansables.\n\nLas Arañas se usan a veces como tropas en un ataque frontal, aunque su especialidad es atacar el interior de edificaciones o grutas, donde su movilidad las hace mucho más efectivas que los Drones (pues estos suelen tener problemas para volar en espacios cerrados). La razón de las similitudes entre las Arañas y los Drones es que las Arañas se crearon como una modificación de estos últimos con el objetivo de ahorrar los materiales que les permiten volar. Por ello, salvo algunas diferencias de diseño, la estructura de ambos es, en muchos aspectos, prácticamente idéntica. Irónicamente, para La Máquina en Dravenor era más fácil encontrar cadáveres que minerales tan comunes como el hierro.\n\nMODUS OPERANDIEl modus operandi de estos seres es simple, pues una vez han localizado sus objetivos se limitan a lanzarse frontalmente contra ellos hasta eliminarlos por acumulación de ataques; más allá de eso, su capacidad estratégica es nula. Sin embargo, cuando están en la zona de control de un Tecnócrita o un Pretoriano, pasan a obedecer las órdenes de éstos y son capaces de usar maniobras de combate mucho más peligrosas. Las Arañas son especialmente efectivas en enfrentamientos en lugares cerrados, donde poseen una capacidad de maniobrar superior a la de los Drones (estos son mucho más torpes cuando no tienen espacio para volar). Sierras: Además de sus extremidades arácnidas, las arañas de tierra cuentan con dos extremidades humanoides acabadas en cuchillas serradas.\n\nPueden realizar dos ataques con ellas (uno con cada apéndice), teniendo sólo un penalizador de -20 en el segundo ataque. A causa de su naturaleza, estos ataques reducen la TA defensora en 2 puntos. Movimiento de Araña: Mientras tenga un punto de apoyo, la Araña de Tierra puede moverse por cualquier superficie, incluso por los techos. Además, cuenta como si tuviera tipo de Movimiento 12 e Inhumanidad para calcular la distancia a la que salta. Generalmente, eso significa que puede saltar una distancia de hasta 10 metros sin necesidad de realizar control alguno. Restructuración: Cuando los puntos de vida de una Araña de Tierra se reducen a 0, ésta cae al suelo aparentemente destruida e inerte. Sin embargo, si el núcleo de la criatura no es destrozado de inmediato, la Araña vuelve a levantarse entre cuatro y seis asaltos después, completamente reparada y lista para el combate.\n\nNúcleo: Si una Araña de Tierra sufre 30 puntos de daño apuntados a su núcleo (penalizador de -60 al apuntar a esta zona, aunque no se aplica a ella la armadura de la criatura), este queda completamente destruido sin posibilidad de reformarse. El núcleo cuenta como punto vulnerable. Vulnerabilidad a la Magia: Las Arañas de Tierra poseen la misma vulnerabilidad a la magia que los drones. No sólo poseen una RM de 0, sino que toda descarga de energía mística les produce doble daño. Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Todo el mundo las conoce. Se trata de arañas de metal y carne de gran tamaño. Junto a los Drones, son las tropas más comunes de La Máquina. Conocimiento Intermedio Para poderlas destruir hay que destrozar sus núcleos una vez que sus cuerpos han recibido un daño extremo. Es posible distraerlas o atraer su atención con ruidos fuertes.\n\nConocimiento Avanzado Si se reúnen suficientes se puede formar un enjambre de Arañas que actúan conjuntamente como una marabunta. Existe una versión de ellas mucho más poderosa, capaz de crear hebras psíquicas que cortan a su alrededor como afilados monofilos. SAbueSoLa m áquina (v arna m enor )</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 1</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Araña de Tierra (La Máquina · Varna menor)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 8 Des: 8 Agi: 10 Con: 8 Pod: 4 Int: 3 Vol: 8 Per: 6 RF 45 RM 0 RP 45 RV 45 RE 45</p><p><strong>Habilidades esenciales:</strong> Exención física, Inmunidad psicológica, Inmune al dolor.</p><p><strong>Poderes:</strong> Armas Naturales; Sierras (Armas Naturales, -2 a la TA defensora, Ataque Adicional -20), Armadura Natural TA Física 4 Abierta, Turno Incrementado +10, Movimiento de Araña, Restructuración, Núcleo (Punto Vulnerable), Vulnerabilidad a la Magia.</p><p><strong>Daño:</strong> 50 Sierras (FIL/PEN)</p><p><strong>TA:</strong> Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0</p><p><strong>Habilidades secundarias:</strong> Acrobacias 80, Saltar 70, Advertir 40, Buscar 30, Sigilo 40, Ocultarse 40</p><p><strong>Descripción breve:</strong> Similares al artrópodo del que adquieren su nombre, estos seres totalmente metálicos son, por así decirlo, la contrapartida terrestre de los drones. Pese a que no pueden volar y son algo más grandes (normalmente miden cerca de un metro), conservan muchas de las cualidades que hacen a sus “hermanos” tan letales en combate. Consecuentemente resultan muy peligrosas en grandes números, en especial cuando son dirigidos por un Tecnócrita o bajo la influencia directa de La Madre. Se trata de criaturas muy ágiles que se mueven con una horripilante coordinación. Habitualmente, se las ve desplazarse en grandes cantidades correteando por paredes y muros igual que una masa de monstruosidades mecánicas. Cuando alcanzan su objetivo, se lanzan de un salto hasta él destrozándolo con sus cuchillas. Poseen un comportamiento puramente robótico y siguen sin más las directrices recibidas. Son incapaces de trazar ningún tipo de plan de actuación y sólo reaccionan conforme a las órdenes directas que un miembro de La Máquina de jerarquía superior les dé. Sin estos para comandarlas, pululan erráticamente repitiendo la última orden recibida hasta que, pasados varios días, se ponen en reposo. No obstante, tienen una autonomía superior a los Drones y no necesitan desconectarse diariamente para hacer chequeos de sistema; pueden hacerlo mientras están en activo, lo que las vuelve verdaderamente incansables. Las Arañas se usan a veces como tropas en un ataque frontal, aunque su especialidad es atacar el interior de edificaciones o grutas, donde su movilidad las hace mucho más efectivas que los Drones (pues estos suelen tener problemas para volar en espacios cerrados). La razón de las similitudes entre las Arañas y los Drones es que las Arañas se crearon como una modificación de estos últimos con el objetivo de ahorrar los materiales que les permiten volar. Por ello, salvo algunas diferencias de diseño, la estructura de ambos es, en muchos aspectos, prácticamente idéntica. Irónicamente, para La Máquina en Dravenor era más fácil encontrar cadáveres que minerales tan comunes como el hierro. MODUS OPERANDIEl modus operandi de estos seres es simple, pues una vez han localizado sus objetivos se limitan a lanzarse frontalmente contra ellos hasta eliminarlos por acumulación de ataques; más allá de eso, su capacidad estratégica es nula. Sin embargo, cuando están en la zona de control de un Tecnócrita o un Pretoriano, pasan a obedecer las órdenes de éstos y son capaces de usar maniobras de combate mucho más peligrosas. Las Arañas son especialmente efectivas en enfrentamientos en lugares cerrados, donde poseen una capacidad de maniobrar superior a la de los Drones (estos son mucho más torpes cuando no tienen espacio para volar). Sierras: Además de sus extremidades arácnidas, las arañas de tierra cuentan con dos extremidades humanoides acabadas en cuchillas serradas. Pueden realizar dos ataques con ellas (uno con cada apéndice), teniendo sólo un penalizador de -20 en el segundo ataque. A causa de su naturaleza, estos ataques reducen la TA defensora en 2 puntos. Movimiento de Araña: Mientras tenga un punto de apoyo, la Araña de Tierra puede moverse por cualquier superficie, incluso por los techos. Además, cuenta como si tuviera tipo de Movimiento 12 e Inhumanidad para calcular la distancia a la que salta. Generalmente, eso significa que puede saltar una distancia de hasta 10 metros sin necesidad de realizar control alguno. Restructuración: Cuando los puntos de vida de una Araña de Tierra se reducen a 0, ésta cae al suelo aparentemente destruida e inerte. Sin embargo, si el núcleo de la criatura no es destrozado de inmediato, la Araña vuelve a levantarse entre cuatro y seis asaltos después, completamente reparada y lista para el combate. Núcleo: Si una Araña de Tierra sufre 30 puntos de daño apuntados a su núcleo (penalizador de -60 al apuntar a esta zona, aunque no se aplica a ella la armadura de la criatura), este queda completamente destruido sin posibilidad de reformarse. El núcleo cuenta como punto vulnerable. Vulnerabilidad a la Magia: Las Arañas de Tierra poseen la misma vulnerabilidad a la magia que los drones. No sólo poseen una RM de 0, sino que toda descarga de energía mística les produce doble daño. Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Todo el mundo las conoce. Se trata de arañas de metal y carne de gran tamaño. Junto a los Drones, son las tropas más comunes de La Máquina. Conocimiento Intermedio Para poderlas destruir hay que destrozar sus núcleos una vez que sus cuerpos han recibido un daño extremo. Es posible distraerlas o atraer su atención con ruidos fuertes. Conocimiento Avanzado Si se reúnen suficientes se puede formar un enjambre de Arañas que actúan conjuntamente como una marabunta. Existe una versión de ellas mucho más poderosa, capaz de crear hebras psíquicas que cortan a su alrededor como afilados monofilos. SAbueSoLa m áquina (v arna m enor )</p></section><details><summary>Texto extraído</summary><pre>Nivel: 2\n\nClase: Entre Mundos Especial Puntos de Vida: 130 Categoría: Guerrero Acróbata Fue: 8 Des: 8 Agi: 10 Con: 8 Pod: 4 Int: 3 Vol: 8 Per: 6 RF 45 RM 0 RP 45 RV 45 RE 45\n\nTurno: 95 Natural Habilidad de ataque: 100 Sierras + 80 Sierras Habilidad de defensa: 100 Esquiva Daño: 50 Sierras (FIL/PEN) TA: Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0 Habilidades Esenciales: Exención física, Inmunidad psicológica, Inmune al dolor. Poderes: Armas Naturales; Sierras (Armas Naturales, -2 a la TA defensora, Ataque Adicional -20), Armadura Natural TA Física 4 Abierta, Turno Incrementado +10, Movimiento de Araña, Restructuración, Núcleo (Punto Vulnerable), Vulnerabilidad a la Magia.\n\nTamaño: 10 Medio Regeneración: 2 Tipo de movimiento: 10 (12 Salto) Cansancio: Incansable Habilidades Secundarias: Acrobacias 80, Saltar 70, Advertir 40, Buscar 30, Sigilo 40, Ocultarse 40. Similares al artrópodo del que adquieren su nombre, estos seres totalmente metálicos son, por así decirlo, la contrapartida terrestre de los drones. Pese a que no pueden volar y son algo más grandes (normalmente miden cerca de un metro), conservan muchas de las cualidades que hacen a sus “hermanos” tan letales en combate. Consecuentemente resultan muy peligrosas en grandes números, en especial cuando son dirigidos por un Tecnócrita o bajo la influencia directa de La Madre. Se trata de criaturas muy ágiles que se mueven con una horripilante coordinación. Habitualmente, se las ve desplazarse en grandes cantidades correteando por paredes y muros igual que una masa de monstruosidades mecánicas.\n\nCuando alcanzan su objetivo, se lanzan de un salto hasta él destrozándolo con sus cuchillas. Poseen un comportamiento puramente robótico y siguen sin más las directrices recibidas. Son incapaces de trazar ningún tipo de plan de actuación y sólo reaccionan conforme a las órdenes directas que un miembro de La Máquina de jerarquía superior les dé. Sin estos para comandarlas, pululan erráticamente repitiendo la última orden recibida hasta que, pasados varios días, se ponen en reposo. No obstante, tienen una autonomía superior a los Drones y no necesitan desconectarse diariamente para hacer chequeos de sistema; pueden hacerlo mientras están en activo, lo que las vuelve verdaderamente incansables.\n\nLas Arañas se usan a veces como tropas en un ataque frontal, aunque su especialidad es atacar el interior de edificaciones o grutas, donde su movilidad las hace mucho más efectivas que los Drones (pues estos suelen tener problemas para volar en espacios cerrados). La razón de las similitudes entre las Arañas y los Drones es que las Arañas se crearon como una modificación de estos últimos con el objetivo de ahorrar los materiales que les permiten volar. Por ello, salvo algunas diferencias de diseño, la estructura de ambos es, en muchos aspectos, prácticamente idéntica. Irónicamente, para La Máquina en Dravenor era más fácil encontrar cadáveres que minerales tan comunes como el hierro.\n\nMODUS OPERANDIEl modus operandi de estos seres es simple, pues una vez han localizado sus objetivos se limitan a lanzarse frontalmente contra ellos hasta eliminarlos por acumulación de ataques; más allá de eso, su capacidad estratégica es nula. Sin embargo, cuando están en la zona de control de un Tecnócrita o un Pretoriano, pasan a obedecer las órdenes de éstos y son capaces de usar maniobras de combate mucho más peligrosas. Las Arañas son especialmente efectivas en enfrentamientos en lugares cerrados, donde poseen una capacidad de maniobrar superior a la de los Drones (estos son mucho más torpes cuando no tienen espacio para volar). Sierras: Además de sus extremidades arácnidas, las arañas de tierra cuentan con dos extremidades humanoides acabadas en cuchillas serradas.\n\nPueden realizar dos ataques con ellas (uno con cada apéndice), teniendo sólo un penalizador de -20 en el segundo ataque. A causa de su naturaleza, estos ataques reducen la TA defensora en 2 puntos. Movimiento de Araña: Mientras tenga un punto de apoyo, la Araña de Tierra puede moverse por cualquier superficie, incluso por los techos. Además, cuenta como si tuviera tipo de Movimiento 12 e Inhumanidad para calcular la distancia a la que salta. Generalmente, eso significa que puede saltar una distancia de hasta 10 metros sin necesidad de realizar control alguno. Restructuración: Cuando los puntos de vida de una Araña de Tierra se reducen a 0, ésta cae al suelo aparentemente destruida e inerte. Sin embargo, si el núcleo de la criatura no es destrozado de inmediato, la Araña vuelve a levantarse entre cuatro y seis asaltos después, completamente reparada y lista para el combate.\n\nNúcleo: Si una Araña de Tierra sufre 30 puntos de daño apuntados a su núcleo (penalizador de -60 al apuntar a esta zona, aunque no se aplica a ella la armadura de la criatura), este queda completamente destruido sin posibilidad de reformarse. El núcleo cuenta como punto vulnerable. Vulnerabilidad a la Magia: Las Arañas de Tierra poseen la misma vulnerabilidad a la magia que los drones. No sólo poseen una RM de 0, sino que toda descarga de energía mística les produce doble daño. Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Todo el mundo las conoce. Se trata de arañas de metal y carne de gran tamaño. Junto a los Drones, son las tropas más comunes de La Máquina. Conocimiento Intermedio Para poderlas destruir hay que destrozar sus núcleos una vez que sus cuerpos han recibido un daño extremo. Es posible distraerlas o atraer su atención con ruidos fuertes.\n\nConocimiento Avanzado Si se reúnen suficientes se puede formar un enjambre de Arañas que actúan conjuntamente como una marabunta. Existe una versión de ellas mucho más poderosa, capaz de crear hebras psíquicas que cortan a su alrededor como afilados monofilos. SAbueSoLa m áquina (v arna m enor )</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 2
-      },
       "notes": [
         {
           "_id": "note-arana-de-tierra-la-maquina-varna-3",
@@ -501,52 +423,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -557,9 +463,6 @@
         "initiative": {
           "base": {
             "value": 95
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +513,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -621,10 +521,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -632,10 +529,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 4550
+              "value": 4595
             },
             "final": {
               "value": 0
@@ -645,19 +539,13 @@
             "base": {
               "value": 0
             },
-            "special": {
-              "value": -30
-            },
             "final": {
               "value": 0
             }
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -669,212 +557,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 70
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 100
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 100
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -905,11 +1036,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -921,14 +1048,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -942,14 +1074,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1054,15 +1183,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1074,37 +1199,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1227,9 +1372,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

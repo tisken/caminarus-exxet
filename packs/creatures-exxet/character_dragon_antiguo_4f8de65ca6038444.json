@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,25 @@
         "openOnDoubles": {
           "value": false
         },
+        "defenseType": {
+          "value": ""
+        },
+        "zen": {
+          "value": true
+        },
         "perceiveMystic": {
           "value": true
         },
         "perceivePsychic": {
           "value": true
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": true
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +306,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +326,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 80
         }
       },
       "aspect": {
@@ -430,7 +360,7 @@
           "value": "Antiguo"
         },
         "size": {
-          "value": 34
+          "value": "34"
         }
       },
       "advantages": [],
@@ -448,7 +378,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 329</p><p><strong>Entrada:</strong> Dragón</p><p><strong>Variante:</strong> Antiguo</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos 30</p><p><strong>Categoría:</strong> Guerrero Fue: 17 Des: 9 Agi: 6 Con: 17 Pod: 13 Int: 12 Vol: 12 Per: 11 RF 125 RM 135 RP 100 RV 125 RE 125</p><p><strong>Habilidades esenciales:</strong> Características físicas divinas, Características anímicas sobrehumanas, Sentido agudizado, Zen, Inmunidad natural, Vulnerabilidad.</p><p><strong>Poderes:</strong> Arma natural: Garras, Mordisco (Ataque adicional, Daño incrementado +20, Armadura -3) y Cola, Aliento, Daña energía, Armadura natural, Vuelo natural 12, Batir de alas, Resistencias incrementadas +10, RM incrementada +30, Barrera de daño 160, Ver lo sobrenatural.</p><p><strong>Daño:</strong> 170 Garras FIL, 190 Mordisco PEN, 140 Coletazo CON, 250 Aliento (Variable)</p><p><strong>TA:</strong> Natural + escamas: Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 12</p><p><strong>Habilidades secundarias:</strong> Intimidar 130, Persuasión 95, Advertir 160 (190 Escuchar), Buscar 150, Rastrear 75, Historia 130, Tasación 130, Memorizar 120, Ocultismo 120, Proezas de fuerza 180, Resistir el dolor 120</p><p><strong>Descripción breve:</strong> Desde que el hombre tiene memoria, los dragones han existido. Amedio camino entre el mito y la realidad, esta ancestral raza de reptiles es una de las fuerzas elementales de la creación. Según cuentan las leyendas, son un fragmento del mismo espíritu de Gaïa, puro poder encarnado que nadie puede contener. La visión de un dragón en toda su magnificencia es a la vez tan fascinante como aterradora. Aunque cada uno tiene una apariencia distinta, todos comparten los atributos comunes de su raza, que se han vuelto ya tan míticas como sus increíbles poderes: descomunales lagartos alados dotados de fauces y garras sin par. Su característica más prodigiosa reside en su crecimiento. Al contrario que otras razas, los dragones no envejecen, sino que ganan poder espiritual con los años. De hecho, su Gnosis evoluciona con su edad, aumentando geométricamente las habilidades y poderes que poseen. Llegado cierto momento, tras varios milenios de vida, trascienden, dejando de ser criaturas Naturales para convertirse en seres Entre mundos. Existen distintas subespecies de dragón. Incluso sin ser propiamente elementales, cada uno de ellos está fuertemente atado a una de las cuatro fuerzas primarias, lo que influye en su apariencia y habilidades. Los más conocidos son aquellos que se basan en el fuego y la tierra, cuyas escamas son rojas o verdes, aunque también los hay de otras clases, como los dragones de hielo o los de la tormenta. Las metas y finalidades de los dragones son tan variadas e insondables como ellos mismos. T an posible es que un dragón pretenda permanecer aislado pacíficamente, como que otro decida arrasar todo lo que encuentre a su paso. Aun siendo muy inteligentes, por lo general no son capaces de comunicarse con seres ajenos a su raza. A pesar de ello, algunos han aprendido a hablar diversos idiomas manteniendo relaciones con criaturas. Actualmente, la gran mayoría de estos poderosos reptiles permanecen aletargados a causa de la activación de la máquina de Rah. Al afectar de un modo tan directo la magia del mundo, los dragones tuvieron problemas para subsistir y se sumieron voluntariamente en un profundo sueño. Ciudadelas perdidas, profundas grutas subterráneas o volcanes son sólo algunos de los lugares que eligieron para ocultarse, hasta que el tiempo les devuelva la plenitud de su poder. De todos modos, existen muchos dragones jóvenes que despertaron hace escasos siglos, al eclosionar sus huevos. Con sus progenitores aún dormidos en la mayoría de los casos, tratan de devolverles la conciencia reuniendo en sus guaridas una considerable cantidad de objetos místicos. c lases de dra gón Dado que es completamente imposible recoger las características de todos los dragones en sus distintas etapas, se reúnen en tres fichas separadas. Los menores son los más jóvenes y débiles, cuyas edades están comprendidas entre cincuenta y quinientos años. En su mayoría miden de ocho a diez metros, aunque con la cola y las alas extendidas pueden llegar a doblar esa longitud. Los llamados dragones mayores son ya ancianos cuyas edades oscilan entre quinientos y dos mil años. Sus descomunales cuerpos abarcan entre cuarenta y setenta metros, pero a veces son todavía más grandes. Finalmente, los antiguos son aquellos dragones que han trascendido, hasta llegar a convertirse en entidades que no pertenecen al mundo real ni al espiritual. Criaturas de descomunal poder y con milenios a sus espaldas, sólo su cuerpo es del tamaño de una pequeña montaña. Legendariamente, se dice que algunos dragones ancestrales son tan excepcionalmente viejos que han alcanzado un nivel de poder superior. Si eso fuera cierto, llevarían vivos desde la mismísima Guerra de los cielos. Aunque se desconoce si realmente existen seres así, sus habilidades sobrenaturales serían muy superiores a las que se reflejan en las fichas de los antiguos. m odus operandi Motivados por muy diversos fines, los dragones son criaturas complejas difíciles de comprender. Habitualmente no suelen entrar en combate, ya que sus antagonistas huyen ante su mera visión. Aun así, tienen amplísimas opciones a su disposición en cualquier tipo de conflicto. Por lo general, luchan desde el suelo, realizando dos ataques por asalto: uno con sus garras y otro con las fauces. Si se sienten en peligro, o sencillamente no les apetece combatir, utilizan su potente aliento para arrasar cualquier cosa que se encuentre frente a ellos. También son capaces de luchar desde el aire, donde de nuevo el aliento es su arma preferente. Su punto vulnerable es la cabeza. Mordisco: Por la potencia de sus fauces y dientes, el mordisco de un dragón disminuye la TA de sus adversarios. Los más jóvenes la bajan un punto, mientras que los mayores y los antiguos la reducen dos y tres, respectivamente. A su vez, la rotura de este ataque es de 16, 22 y 26, dependiendo de su categoría. El mordisco cuenta como un ataque adicional natural, por lo que puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. Coletazo: Cuando se enfrenta a un gran número de adversarios, un dragón puede utilizar su cola para realizar un Ataque en área de gran magnitud. Los jóvenes barren una zona de 5 metros de longitud, 25 los mayores y los antiguos abarcan hasta 100 metros de un coletazo. Si realiza este ataque, el dragón no puede usar sus garras o fauces durante ese asalto. Aliento: Sin duda alguna, el ataque más temido de los dragones es su aliento. En la gran mayoría de los casos, se trata de un poderoso chorro de fuego y magma, capaz de fundir todo aquello con lo que se ponga en contacto. No obstante, las especies menos comunes pueden lanzar en su lugar hielo o relámpagos. Por tanto, dependiendo de la clase de aliento que posea el dragón, puede atacar en la TA de Calor, Frío o Electricidad. El ataque tiene forma de cono; parte de la boca y se ensancha conforme avanza. El alcance y extensión dependen del dragón. Los menores llegan hasta 250 metros y abarcan un área de 5 de radio. Los mayores alcanzan hasta 500, con 10 de radio. Finalmente, el aliento de los antiguos llega hasta un kilómetro y posee 25 metros de radio. Para usar su aliento, el dragón necesita prepararse tres asaltos enteros, durante los cuales no puede atacar con sus fauces (aunque sí con las garras). No hay límite en el número de ocasiones que pueden emplearlo al día, pero si lo usan más de tres veces en una hora, pierden un punto de Cansancio por cada descarga adicional. Vuelo natural: Las enormes alas de los dragones les permiten volar con un tipo 12. Desgraciadamente, su gran tamaño hace excepcionalmente costoso mantenerse en el aire, por lo que pierden un punto de Cansancio cada media hora. Batir de alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire de dificultad automática Casi Imposible, o recibirá un impacto equivalente a la mitad de la Fuerza del dragón, redondeada hacia arriba. El Batir de alas tiene la misma área de acción que el Coletazo. Inmunidad: Dependiendo de su especie, el dragón posee diversas inmunidades. Los de fuego ignoran automáticamente cualquier daño basado en calor, de igual modo que los de hielo y los de la tormenta hacen lo mismo con el frío y la electricidad, respectivamente. Vulnerabilidad: Cualquier ataque basado en el elemento opuesto al que son afines, les produce doble daño. _Página 329_ a nimado</p></section><details><summary>Texto extraído</summary><pre>Nivel: 11\n\nClase: Entr e mundos 30 Puntos de Vida: 7 .01 5 Acumulación Categoría: Guerrero Fue: 17 Des: 9 Agi: 6 Con: 17 Pod: 13 Int: 12 Vol: 12 Per: 11 RF 125 RM 135 RP 100 RV 125 RE 125\n\nTurno: 70 Natural Habilidad de ataque: 240 Garras + 220 Mordisco; o 240 Aliento; o 1 90 Coletazo Habilidad de defensa: Acumulación Daño: 1 70 Garras FIL, 1 90 Mordisco PEN, 1 40 Coletazo CON, 250 Aliento (Variable) TA: Natural + escamas: Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 12 Habilidades esenciales: Características físicas divinas, Características anímicas sobrehumanas, Sentido agudizado, Zen, Inmunidad natural, Vulnerabilidad. Poderes: Arma natural: Garras, Mordisco (Ataque adicional, Daño incrementado +20, Armadura -3) y Cola, Aliento, Daña energía, Armadura natural, Vuelo natural 12, Batir de alas, Resistencias incrementadas +10, RM incrementada +30, Barrera de daño 1 60, Ver lo sobrenatural.\n\nTamaño: 34 Colosal Regeneración: 11 Tipo de mo vimiento: 9 / 12 Cansancio: 17 Habilidades Secundarias: Intimidar 1 30, Persuasión 95, Advertir 1 60 (190 Escuchar), Buscar 1 50, Rastrear 75, Historia 130, Tasación 1 30, Memorizar 1 20, Ocultismo 1 20, Proezas de fuerza 180, Resistir el dolor 120. Desde que el hombre tiene memoria, los dragones han existido. Amedio camino entre el mito y la realidad, esta ancestral raza de reptiles es una de las fuerzas elementales de la creación. Según cuentan las leyendas, son un fragmento del mismo espíritu de Gaïa, puro poder encarnado que nadie puede contener. La visión de un dragón en toda su magnificencia es a la vez tan fascinante como aterradora.\n\nAunque cada uno tiene una apariencia distinta, todos comparten los atributos comunes de su raza, que se han vuelto ya tan míticas como sus increíbles poderes: descomunales lagartos alados dotados de fauces y garras sin par. Su característica más prodigiosa reside en su crecimiento. Al contrario que otras razas, los dragones no envejecen, sino que ganan poder espiritual con los años. De hecho, su Gnosis evoluciona con su edad, aumentando geométricamente las habilidades y poderes que poseen. Llegado cierto momento, tras varios milenios de vida, trascienden, dejando de ser criaturas Naturales para convertirse en seres Entre mundos. Existen distintas subespecies de dragón. Incluso sin ser propiamente elementales, cada uno de ellos está fuertemente atado a una de las cuatro fuerzas primarias, lo que influye en su apariencia y habilidades.\n\nLos más conocidos son aquellos que se basan en el fuego y la tierra, cuyas escamas son rojas o verdes, aunque también los hay de otras clases, como los dragones de hielo o los de la tormenta. Las metas y finalidades de los dragones son tan variadas e insondables como ellos mismos. T an posible es que un dragón pretenda permanecer aislado pacíficamente, como que otro decida arrasar todo lo que encuentre a su paso. Aun siendo muy inteligentes, por lo general no son capaces de comunicarse con seres ajenos a su raza. A pesar de ello, algunos han aprendido a hablar diversos idiomas manteniendo relaciones con criaturas. Actualmente, la gran mayoría de estos poderosos reptiles permanecen aletargados a causa de la activación de la máquina de Rah.\n\nAl afectar de un modo tan directo la magia del mundo, los dragones tuvieron problemas para subsistir y se sumieron voluntariamente en un profundo sueño. Ciudadelas perdidas, profundas grutas subterráneas o volcanes son sólo algunos de los lugares que eligieron para ocultarse, hasta que el tiempo les devuelva la plenitud de su poder. De todos modos, existen muchos dragones jóvenes que despertaron hace escasos siglos, al eclosionar sus huevos. Con sus progenitores aún dormidos en la mayoría de los casos, tratan de devolverles la conciencia reuniendo en sus guaridas una considerable cantidad de objetos místicos. c lases de dra gón Dado que es completamente imposible recoger las características de todos los dragones en sus distintas etapas, se reúnen en tres fichas separadas. Los menores son los más jóvenes y débiles, cuyas edades están comprendidas entre cincuenta y quinientos años.\n\nEn su mayoría miden de ocho a diez metros, aunque con la cola y las alas extendidas pueden llegar a doblar esa longitud. Los llamados dragones mayores son ya ancianos cuyas edades oscilan entre quinientos y dos mil años. Sus descomunales cuerpos abarcan entre cuarenta y setenta metros, pero a veces son todavía más grandes. Finalmente, los antiguos son aquellos dragones que han trascendido, hasta llegar a convertirse en entidades que no pertenecen al mundo real ni al espiritual. Criaturas de descomunal poder y con milenios a sus espaldas, sólo su cuerpo es del tamaño de una pequeña montaña. Legendariamente, se dice que algunos dragones ancestrales son tan excepcionalmente viejos que han alcanzado un nivel de poder superior. Si eso fuera cierto, llevarían vivos desde la mismísima Guerra de los cielos.\n\nAunque se desconoce si realmente existen seres así, sus habilidades sobrenaturales serían muy superiores a las que se reflejan en las fichas de los antiguos. m odus operandi Motivados por muy diversos fines, los dragones son criaturas complejas difíciles de comprender. Habitualmente no suelen entrar en combate, ya que sus antagonistas huyen ante su mera visión. Aun así, tienen amplísimas opciones a su disposición en cualquier tipo de conflicto. Por lo general, luchan desde el suelo, realizando dos ataques por asalto: uno con sus garras y otro con las fauces. Si se sienten en peligro, o sencillamente no les apetece combatir, utilizan su potente aliento para arrasar cualquier cosa que se encuentre frente a ellos. También son capaces de luchar desde el aire, donde de nuevo el aliento es su arma preferente. Su punto vulnerable es la cabeza.\n\nMordisco: Por la potencia de sus fauces y dientes, el mordisco de un dragón disminuye la TA de sus adversarios. Los más jóvenes la bajan un punto, mientras que los mayores y los antiguos la reducen dos y tres, respectivamente. A su vez, la rotura de este ataque es de 1 6, 22 y 26, dependiendo de su categoría. El mordisco cuenta como un ataque adicional natural, por lo que puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. Coletazo: Cuando se enfrenta a un gran número de adversarios, un dragón puede utilizar su cola para realizar un Ataque en área de gran magnitud. Los jóvenes barren una zona de 5 metros de longitud, 25 los mayores y los antiguos abarcan hasta 100 metros de un coletazo. Si realiza este ataque, el dragón no puede usar sus garras o fauces durante ese asalto.\n\nAliento: Sin duda alguna, el ataque más temido de los dragones es su aliento. En la gran mayoría de los casos, se trata de un poderoso chorro de fuego y magma, capaz de fundir todo aquello con lo que se ponga en contacto. No obstante, las especies menos comunes pueden lanzar en su lugar hielo o relámpagos. Por tanto, dependiendo de la clase de aliento que posea el dragón, puede atacar en la TA de Calor, Frío o Electricidad. El ataque tiene forma de cono; parte de la boca y se ensancha conforme avanza. El alcance y extensión dependen del dragón. Los menores llegan hasta 250 metros y abarcan un área de 5 de radio. Los mayores alcanzan hasta 500, con 10 de radio. Finalmente, el aliento de los antiguos llega hasta un kilómetro y posee 25 metros de radio.\n\nPara usar su aliento, el dragón necesita prepararse tres asaltos enteros, durante los cuales no puede atacar con sus fauces (aunque sí con las garras). No hay límite en el número de ocasiones que pueden emplearlo al día, pero si lo usan más de tres veces en una hora, pierden un punto de Cansancio por cada descarga adicional. Vuelo natural: Las enormes alas de los dragones les permiten volar con un tipo 12. Desgraciadamente, su gran tamaño hace excepcionalmente costoso mantenerse en el aire, por lo que pierden un punto de Cansancio cada media hora. Batir de alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire de dificultad automática Casi Imposible, o recibirá un impacto equivalente a la mitad de la Fuerza del dragón, redondeada hacia arriba.\n\nEl Batir de alas tiene la misma área de acción que el Coletazo. Inmunidad: Dependiendo de su especie, el dragón posee diversas inmunidades. Los de fuego ignoran automáticamente cualquier daño basado en calor, de igual modo que los de hielo y los de la tormenta hacen lo mismo con el frío y la electricidad, respectivamente. Vulnerabilidad: Cualquier ataque basado en el elemento opuesto al que son afines, les produce doble daño.\n\n&lt;!-- tags: @personaje, @magia, @regla --&gt;\n\n_Página 329_\n\na nimado</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 329</p><p><strong>Entrada:</strong> Dragón</p><p><strong>Variante:</strong> Antiguo</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos 30</p><p><strong>Categoría:</strong> Guerrero Fue: 17 Des: 9 Agi: 6 Con: 17 Pod: 13 Int: 12 Vol: 12 Per: 11 RF 125 RM 135 RP 100 RV 125 RE 125</p><p><strong>Habilidades esenciales:</strong> Características físicas divinas, Características anímicas sobrehumanas, Sentido agudizado, Zen, Inmunidad natural, Vulnerabilidad.</p><p><strong>Poderes:</strong> Arma natural: Garras, Mordisco (Ataque adicional, Daño incrementado +20, Armadura -3) y Cola, Aliento, Daña energía, Armadura natural, Vuelo natural 12, Batir de alas, Resistencias incrementadas +10, RM incrementada +30, Barrera de daño 160, Ver lo sobrenatural.</p><p><strong>Daño:</strong> 170 Garras FIL, 190 Mordisco PEN, 140 Coletazo CON, 250 Aliento (Variable)</p><p><strong>TA:</strong> Natural + escamas: Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 12</p><p><strong>Habilidades secundarias:</strong> Intimidar 130, Persuasión 95, Advertir 160 (190 Escuchar), Buscar 150, Rastrear 75, Historia 130, Tasación 130, Memorizar 120, Ocultismo 120, Proezas de fuerza 180, Resistir el dolor 120</p><p><strong>Descripción breve:</strong> Desde que el hombre tiene memoria, los dragones han existido. Amedio camino entre el mito y la realidad, esta ancestral raza de reptiles es una de las fuerzas elementales de la creación. Según cuentan las leyendas, son un fragmento del mismo espíritu de Gaïa, puro poder encarnado que nadie puede contener. La visión de un dragón en toda su magnificencia es a la vez tan fascinante como aterradora. Aunque cada uno tiene una apariencia distinta, todos comparten los atributos comunes de su raza, que se han vuelto ya tan míticas como sus increíbles poderes: descomunales lagartos alados dotados de fauces y garras sin par. Su característica más prodigiosa reside en su crecimiento. Al contrario que otras razas, los dragones no envejecen, sino que ganan poder espiritual con los años. De hecho, su Gnosis evoluciona con su edad, aumentando geométricamente las habilidades y poderes que poseen. Llegado cierto momento, tras varios milenios de vida, trascienden, dejando de ser criaturas Naturales para convertirse en seres Entre mundos. Existen distintas subespecies de dragón. Incluso sin ser propiamente elementales, cada uno de ellos está fuertemente atado a una de las cuatro fuerzas primarias, lo que influye en su apariencia y habilidades. Los más conocidos son aquellos que se basan en el fuego y la tierra, cuyas escamas son rojas o verdes, aunque también los hay de otras clases, como los dragones de hielo o los de la tormenta. Las metas y finalidades de los dragones son tan variadas e insondables como ellos mismos. T an posible es que un dragón pretenda permanecer aislado pacíficamente, como que otro decida arrasar todo lo que encuentre a su paso. Aun siendo muy inteligentes, por lo general no son capaces de comunicarse con seres ajenos a su raza. A pesar de ello, algunos han aprendido a hablar diversos idiomas manteniendo relaciones con criaturas. Actualmente, la gran mayoría de estos poderosos reptiles permanecen aletargados a causa de la activación de la máquina de Rah. Al afectar de un modo tan directo la magia del mundo, los dragones tuvieron problemas para subsistir y se sumieron voluntariamente en un profundo sueño. Ciudadelas perdidas, profundas grutas subterráneas o volcanes son sólo algunos de los lugares que eligieron para ocultarse, hasta que el tiempo les devuelva la plenitud de su poder. De todos modos, existen muchos dragones jóvenes que despertaron hace escasos siglos, al eclosionar sus huevos. Con sus progenitores aún dormidos en la mayoría de los casos, tratan de devolverles la conciencia reuniendo en sus guaridas una considerable cantidad de objetos místicos. c lases de dra gón Dado que es completamente imposible recoger las características de todos los dragones en sus distintas etapas, se reúnen en tres fichas separadas. Los menores son los más jóvenes y débiles, cuyas edades están comprendidas entre cincuenta y quinientos años. En su mayoría miden de ocho a diez metros, aunque con la cola y las alas extendidas pueden llegar a doblar esa longitud. Los llamados dragones mayores son ya ancianos cuyas edades oscilan entre quinientos y dos mil años. Sus descomunales cuerpos abarcan entre cuarenta y setenta metros, pero a veces son todavía más grandes. Finalmente, los antiguos son aquellos dragones que han trascendido, hasta llegar a convertirse en entidades que no pertenecen al mundo real ni al espiritual. Criaturas de descomunal poder y con milenios a sus espaldas, sólo su cuerpo es del tamaño de una pequeña montaña. Legendariamente, se dice que algunos dragones ancestrales son tan excepcionalmente viejos que han alcanzado un nivel de poder superior. Si eso fuera cierto, llevarían vivos desde la mismísima Guerra de los cielos. Aunque se desconoce si realmente existen seres así, sus habilidades sobrenaturales serían muy superiores a las que se reflejan en las fichas de los antiguos. m odus operandi Motivados por muy diversos fines, los dragones son criaturas complejas difíciles de comprender. Habitualmente no suelen entrar en combate, ya que sus antagonistas huyen ante su mera visión. Aun así, tienen amplísimas opciones a su disposición en cualquier tipo de conflicto. Por lo general, luchan desde el suelo, realizando dos ataques por asalto: uno con sus garras y otro con las fauces. Si se sienten en peligro, o sencillamente no les apetece combatir, utilizan su potente aliento para arrasar cualquier cosa que se encuentre frente a ellos. También son capaces de luchar desde el aire, donde de nuevo el aliento es su arma preferente. Su punto vulnerable es la cabeza. Mordisco: Por la potencia de sus fauces y dientes, el mordisco de un dragón disminuye la TA de sus adversarios. Los más jóvenes la bajan un punto, mientras que los mayores y los antiguos la reducen dos y tres, respectivamente. A su vez, la rotura de este ataque es de 16, 22 y 26, dependiendo de su categoría. El mordisco cuenta como un ataque adicional natural, por lo que puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. Coletazo: Cuando se enfrenta a un gran número de adversarios, un dragón puede utilizar su cola para realizar un Ataque en área de gran magnitud. Los jóvenes barren una zona de 5 metros de longitud, 25 los mayores y los antiguos abarcan hasta 100 metros de un coletazo. Si realiza este ataque, el dragón no puede usar sus garras o fauces durante ese asalto. Aliento: Sin duda alguna, el ataque más temido de los dragones es su aliento. En la gran mayoría de los casos, se trata de un poderoso chorro de fuego y magma, capaz de fundir todo aquello con lo que se ponga en contacto. No obstante, las especies menos comunes pueden lanzar en su lugar hielo o relámpagos. Por tanto, dependiendo de la clase de aliento que posea el dragón, puede atacar en la TA de Calor, Frío o Electricidad. El ataque tiene forma de cono; parte de la boca y se ensancha conforme avanza. El alcance y extensión dependen del dragón. Los menores llegan hasta 250 metros y abarcan un área de 5 de radio. Los mayores alcanzan hasta 500, con 10 de radio. Finalmente, el aliento de los antiguos llega hasta un kilómetro y posee 25 metros de radio. Para usar su aliento, el dragón necesita prepararse tres asaltos enteros, durante los cuales no puede atacar con sus fauces (aunque sí con las garras). No hay límite en el número de ocasiones que pueden emplearlo al día, pero si lo usan más de tres veces en una hora, pierden un punto de Cansancio por cada descarga adicional. Vuelo natural: Las enormes alas de los dragones les permiten volar con un tipo 12. Desgraciadamente, su gran tamaño hace excepcionalmente costoso mantenerse en el aire, por lo que pierden un punto de Cansancio cada media hora. Batir de alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire de dificultad automática Casi Imposible, o recibirá un impacto equivalente a la mitad de la Fuerza del dragón, redondeada hacia arriba. El Batir de alas tiene la misma área de acción que el Coletazo. Inmunidad: Dependiendo de su especie, el dragón posee diversas inmunidades. Los de fuego ignoran automáticamente cualquier daño basado en calor, de igual modo que los de hielo y los de la tormenta hacen lo mismo con el frío y la electricidad, respectivamente. Vulnerabilidad: Cualquier ataque basado en el elemento opuesto al que son afines, les produce doble daño. _Página 329_ a nimado</p></section><details><summary>Texto extraído</summary><pre>Nivel: 11\n\nClase: Entr e mundos 30 Puntos de Vida: 7 .01 5 Acumulación Categoría: Guerrero Fue: 17 Des: 9 Agi: 6 Con: 17 Pod: 13 Int: 12 Vol: 12 Per: 11 RF 125 RM 135 RP 100 RV 125 RE 125\n\nTurno: 70 Natural Habilidad de ataque: 240 Garras + 220 Mordisco; o 240 Aliento; o 1 90 Coletazo Habilidad de defensa: Acumulación Daño: 1 70 Garras FIL, 1 90 Mordisco PEN, 1 40 Coletazo CON, 250 Aliento (Variable) TA: Natural + escamas: Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 12 Habilidades esenciales: Características físicas divinas, Características anímicas sobrehumanas, Sentido agudizado, Zen, Inmunidad natural, Vulnerabilidad. Poderes: Arma natural: Garras, Mordisco (Ataque adicional, Daño incrementado +20, Armadura -3) y Cola, Aliento, Daña energía, Armadura natural, Vuelo natural 12, Batir de alas, Resistencias incrementadas +10, RM incrementada +30, Barrera de daño 1 60, Ver lo sobrenatural.\n\nTamaño: 34 Colosal Regeneración: 11 Tipo de mo vimiento: 9 / 12 Cansancio: 17 Habilidades Secundarias: Intimidar 1 30, Persuasión 95, Advertir 1 60 (190 Escuchar), Buscar 1 50, Rastrear 75, Historia 130, Tasación 1 30, Memorizar 1 20, Ocultismo 1 20, Proezas de fuerza 180, Resistir el dolor 120. Desde que el hombre tiene memoria, los dragones han existido. Amedio camino entre el mito y la realidad, esta ancestral raza de reptiles es una de las fuerzas elementales de la creación. Según cuentan las leyendas, son un fragmento del mismo espíritu de Gaïa, puro poder encarnado que nadie puede contener. La visión de un dragón en toda su magnificencia es a la vez tan fascinante como aterradora.\n\nAunque cada uno tiene una apariencia distinta, todos comparten los atributos comunes de su raza, que se han vuelto ya tan míticas como sus increíbles poderes: descomunales lagartos alados dotados de fauces y garras sin par. Su característica más prodigiosa reside en su crecimiento. Al contrario que otras razas, los dragones no envejecen, sino que ganan poder espiritual con los años. De hecho, su Gnosis evoluciona con su edad, aumentando geométricamente las habilidades y poderes que poseen. Llegado cierto momento, tras varios milenios de vida, trascienden, dejando de ser criaturas Naturales para convertirse en seres Entre mundos. Existen distintas subespecies de dragón. Incluso sin ser propiamente elementales, cada uno de ellos está fuertemente atado a una de las cuatro fuerzas primarias, lo que influye en su apariencia y habilidades.\n\nLos más conocidos son aquellos que se basan en el fuego y la tierra, cuyas escamas son rojas o verdes, aunque también los hay de otras clases, como los dragones de hielo o los de la tormenta. Las metas y finalidades de los dragones son tan variadas e insondables como ellos mismos. T an posible es que un dragón pretenda permanecer aislado pacíficamente, como que otro decida arrasar todo lo que encuentre a su paso. Aun siendo muy inteligentes, por lo general no son capaces de comunicarse con seres ajenos a su raza. A pesar de ello, algunos han aprendido a hablar diversos idiomas manteniendo relaciones con criaturas. Actualmente, la gran mayoría de estos poderosos reptiles permanecen aletargados a causa de la activación de la máquina de Rah.\n\nAl afectar de un modo tan directo la magia del mundo, los dragones tuvieron problemas para subsistir y se sumieron voluntariamente en un profundo sueño. Ciudadelas perdidas, profundas grutas subterráneas o volcanes son sólo algunos de los lugares que eligieron para ocultarse, hasta que el tiempo les devuelva la plenitud de su poder. De todos modos, existen muchos dragones jóvenes que despertaron hace escasos siglos, al eclosionar sus huevos. Con sus progenitores aún dormidos en la mayoría de los casos, tratan de devolverles la conciencia reuniendo en sus guaridas una considerable cantidad de objetos místicos. c lases de dra gón Dado que es completamente imposible recoger las características de todos los dragones en sus distintas etapas, se reúnen en tres fichas separadas. Los menores son los más jóvenes y débiles, cuyas edades están comprendidas entre cincuenta y quinientos años.\n\nEn su mayoría miden de ocho a diez metros, aunque con la cola y las alas extendidas pueden llegar a doblar esa longitud. Los llamados dragones mayores son ya ancianos cuyas edades oscilan entre quinientos y dos mil años. Sus descomunales cuerpos abarcan entre cuarenta y setenta metros, pero a veces son todavía más grandes. Finalmente, los antiguos son aquellos dragones que han trascendido, hasta llegar a convertirse en entidades que no pertenecen al mundo real ni al espiritual. Criaturas de descomunal poder y con milenios a sus espaldas, sólo su cuerpo es del tamaño de una pequeña montaña. Legendariamente, se dice que algunos dragones ancestrales son tan excepcionalmente viejos que han alcanzado un nivel de poder superior. Si eso fuera cierto, llevarían vivos desde la mismísima Guerra de los cielos.\n\nAunque se desconoce si realmente existen seres así, sus habilidades sobrenaturales serían muy superiores a las que se reflejan en las fichas de los antiguos. m odus operandi Motivados por muy diversos fines, los dragones son criaturas complejas difíciles de comprender. Habitualmente no suelen entrar en combate, ya que sus antagonistas huyen ante su mera visión. Aun así, tienen amplísimas opciones a su disposición en cualquier tipo de conflicto. Por lo general, luchan desde el suelo, realizando dos ataques por asalto: uno con sus garras y otro con las fauces. Si se sienten en peligro, o sencillamente no les apetece combatir, utilizan su potente aliento para arrasar cualquier cosa que se encuentre frente a ellos. También son capaces de luchar desde el aire, donde de nuevo el aliento es su arma preferente. Su punto vulnerable es la cabeza.\n\nMordisco: Por la potencia de sus fauces y dientes, el mordisco de un dragón disminuye la TA de sus adversarios. Los más jóvenes la bajan un punto, mientras que los mayores y los antiguos la reducen dos y tres, respectivamente. A su vez, la rotura de este ataque es de 1 6, 22 y 26, dependiendo de su categoría. El mordisco cuenta como un ataque adicional natural, por lo que puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. Coletazo: Cuando se enfrenta a un gran número de adversarios, un dragón puede utilizar su cola para realizar un Ataque en área de gran magnitud. Los jóvenes barren una zona de 5 metros de longitud, 25 los mayores y los antiguos abarcan hasta 100 metros de un coletazo. Si realiza este ataque, el dragón no puede usar sus garras o fauces durante ese asalto.\n\nAliento: Sin duda alguna, el ataque más temido de los dragones es su aliento. En la gran mayoría de los casos, se trata de un poderoso chorro de fuego y magma, capaz de fundir todo aquello con lo que se ponga en contacto. No obstante, las especies menos comunes pueden lanzar en su lugar hielo o relámpagos. Por tanto, dependiendo de la clase de aliento que posea el dragón, puede atacar en la TA de Calor, Frío o Electricidad. El ataque tiene forma de cono; parte de la boca y se ensancha conforme avanza. El alcance y extensión dependen del dragón. Los menores llegan hasta 250 metros y abarcan un área de 5 de radio. Los mayores alcanzan hasta 500, con 10 de radio. Finalmente, el aliento de los antiguos llega hasta un kilómetro y posee 25 metros de radio.\n\nPara usar su aliento, el dragón necesita prepararse tres asaltos enteros, durante los cuales no puede atacar con sus fauces (aunque sí con las garras). No hay límite en el número de ocasiones que pueden emplearlo al día, pero si lo usan más de tres veces en una hora, pierden un punto de Cansancio por cada descarga adicional. Vuelo natural: Las enormes alas de los dragones les permiten volar con un tipo 12. Desgraciadamente, su gran tamaño hace excepcionalmente costoso mantenerse en el aire, por lo que pierden un punto de Cansancio cada media hora. Batir de alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire de dificultad automática Casi Imposible, o recibirá un impacto equivalente a la mitad de la Fuerza del dragón, redondeada hacia arriba.\n\nEl Batir de alas tiene la misma área de acción que el Coletazo. Inmunidad: Dependiendo de su especie, el dragón posee diversas inmunidades. Los de fuego ignoran automáticamente cualquier daño basado en calor, de igual modo que los de hielo y los de la tormenta hacen lo mismo con el frío y la electricidad, respectivamente. Vulnerabilidad: Cualquier ataque basado en el elemento opuesto al que son afines, les produce doble daño.\n\n&lt;!-- tags: @personaje, @magia, @regla --&gt;\n\n_Página 329_\n\na nimado</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +410,6 @@
           }
         }
       ],
-      "level": {
-        "value": 11
-      },
       "notes": [
         {
           "_id": "note-dragon-antiguo-3",
@@ -501,52 +429,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 17
-          }
+          "value": 17,
+          "mod": 35
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 17
-          }
+          "value": 17,
+          "mod": 35
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         }
       },
       "secondaries": {
@@ -557,9 +469,6 @@
         "initiative": {
           "base": {
             "value": 70
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +519,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10
+              "value": 125
             },
             "final": {
               "value": 0
@@ -621,10 +527,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10
+              "value": 125
             },
             "final": {
               "value": 0
@@ -632,10 +535,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 12455
+              "value": 12570
             },
             "final": {
               "value": 0
@@ -643,10 +543,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 30
+              "value": 135
             },
             "final": {
               "value": 0
@@ -654,10 +551,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -669,224 +563,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 180
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 160
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 75
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 130
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 130
+          },
+          "final": {
+            "value": 0
           }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 130
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 95
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 240
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -917,11 +1042,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -933,14 +1054,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -954,14 +1080,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1066,15 +1189,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1086,37 +1205,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1239,9 +1378,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

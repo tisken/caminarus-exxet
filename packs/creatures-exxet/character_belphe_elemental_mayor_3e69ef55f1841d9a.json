@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,25 @@
         "openOnDoubles": {
           "value": false
         },
+        "defenseType": {
+          "value": ""
+        },
+        "inmaterial": {
+          "value": true
+        },
         "perceiveMystic": {
           "value": true
         },
         "perceivePsychic": {
           "value": true
-        },
-        "inmaterial": {
-          "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +150,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +170,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 65
         }
       },
       "aspect": {
@@ -274,7 +204,7 @@
           "value": "Elemental mayor"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +222,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 30</p><p><strong>Entrada:</strong> Belphe</p><p><strong>Variante:</strong> Elemental mayor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 30</p><p><strong>Categoría:</strong> Hechicero Fue: 6 Des: 12 Agi: 9 Con: 8 Pod: 14 Int: 13 Vol: 11 Per: 13 RF 75 RM 100 RP 85 RV 75 RE 75</p><p><strong>Habilidades esenciales:</strong> Desequilibrio Elemental, Inutilidad Somática, Inutilidad Oral, Recuperación Superior de Magia, Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física.</p><p><strong>Poderes:</strong> Alas Luminosas (Vuelo Místico 12), Pantalla de Luz, Esencia de Luz (Forma Elemental, Forma Física aVoluntad, Condicionada), Maestría Sobrenatural Luminosa, Ver lo Sobrenatural.</p><p><strong>Daño:</strong> 15 Combate Desarmado (Con)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Estilo 50, Advertir 110 (160), Buscar 60 (110), Ciencia 50, Persuasión 100, Historia 100, Ocultismo 150, Valoración Mágica 160, Música 55</p><p><strong>Descripción breve:</strong> Belphelium Elhalius, o más comúnmente conocidas como Belphe, es el nombre que recibe una poderosa clase de altas elementales luminosas. Comparten la misma esencia que las Elhaym pero, al contrario que sus hermanas (quienes dominan tanto el arte del combate como el de la magia), el alma de las Belphe está atada únicamente a lo sobrenatural; eso las convierte en las más poderosas hechiceras luminosas que se conocen. Igual que las Doncellas de Luz poseen la apariencia de hermosas mujeres que, a voluntad, exteriorizan grandes alas de energía. De hecho, físicamente es imposible diferenciarlas de las Elhaym, por lo que hay quienes consideran que son dos vertientes diferentes del mismo tipo de señor elemental. Muchas culturas las ha equiparado a ángeles no sólo por su aspecto sino porque irradian una fuerte armonía y hacen que aquellos que se encuentren en su presencia se sientan en paz. Las Belphe suelen estar ligadas a las doctrinas de alguna de las Beryls (especialmente a las de Gabriel y Mikael) y actúan conforme a los ideales de su señora. No obstante, si bien suelen ser pacíficas y les gusta el equilibrio, cada una tiene una personalidad completamente diferente; es imposible saber que esperar de ellas. Sienten una especial fascinación por la humanidad y las razas que están atadas al paso del tiempo puesto que, al ser ellas mismas inmortales, nuestras emociones les resultan misteriosas y atrayentes. Sin embargo, el miedo a establecer relaciones afectivas con seres condenados a morir y desaparecer es algo que las incomoda, por lo que no les gusta permanecer demasiado tiempo en el mismo lugar o con las mismas personas. Dado que tienen personalidades tan diferentes es difícil establecer pautas en su comportamiento. Muchas de ellas se mezclan con los hombres ocultando su verdadera naturaleza bajo identidades falsas (de hecho, hay varias trabajando en secreto para la Iglesia como Santas), mientras que otras nos observan desde los lugares más paradisíacos de la Vigilia. m oduS oPerandiAunque carecen de las habilidades combativas de sus hermanas, el poder sobrenatural de las Belphelium se equipara únicamente al de los mejores archimagos. En consecuencia, son rivales para batallones enteros o criaturas de elevado nivel existencial. Además, como altos elementales no necesitan recitar conjuros o realizar gestos para lanzar sus conjuros; siempre desencadenan sus sortilegios con pleno poder. Pese a que su estilo de lucha puede variar de una a otra, habitualmente aprovechan su habilidad para volar mientras lanzan conjuros innatos a distancia. De ser imposible y verse en peligro, se potencian mediante conjuros de apoyo como Bendición o forman otros elementales con Creación Luminosa antes de atacar a pleno poder.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Entre mundos, Elemental 30 Puntos de Vida: 15 0 Categoría: Hechicero Fue: 6 Des: 12 Agi: 9 Con: 8 Pod: 14 Int: 13 Vol: 11 Per: 13 RF 75 RM 100 RP 85 RV 75 RE 75\n\nTurno: 1 10 Natural Habilidad de ataque: 20 Combate Desarmado Habilidad de defensa: 10 Esquiva Daño: 1 5 Combate Desarmado (Con) TA: Ninguna ACT: 1 10 Conjuros de Luz, 90 Otros\n\nZeon: 1.700\n\nProyección mágica: 200 Ofensiva, 220 Defensiva Nivel de magia: 90 Luz. Habilidades esenciales: Desequilibrio Elemental, Inutilidad Somática, Inutilidad Oral, Recuperación Superior de Magia, Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física. Poderes: Alas Luminosas (Vuelo Místico 12), Pantalla de Luz, Esencia de Luz (Forma Elemental, Forma Física aVoluntad, Condicionada), Maestría Sobrenatural Luminosa, Ver lo Sobrenatural. de movimiento: 9/12 Cansancio: Incansable Habilidades Secundarias: Estilo 50, Advertir 110 (160), Buscar 60 (110), Ciencia 50, Persuasión 100, Historia 100, Ocultismo 1 50, Valoración Mágica 1 60, Música 55. Belphelium Elhalius, o más comúnmente conocidas como Belphe, es el nombre que recibe una poderosa clase de altas elementales luminosas.\n\nComparten la misma esencia que las Elhaym pero, al contrario que sus hermanas (quienes dominan tanto el arte del combate como el de la magia), el alma de las Belphe está atada únicamente a lo sobrenatural; eso las convierte en las más poderosas hechiceras luminosas que se conocen. Igual que las Doncellas de Luz poseen la apariencia de hermosas mujeres que, a voluntad, exteriorizan grandes alas de energía. De hecho, físicamente es imposible diferenciarlas de las Elhaym, por lo que hay quienes consideran que son dos vertientes diferentes del mismo tipo de señor elemental. Muchas culturas las ha equiparado a ángeles no sólo por su aspecto sino porque irradian una fuerte armonía y hacen que aquellos que se encuentren en su presencia se sientan en paz.\n\nLas Belphe suelen estar ligadas a las doctrinas de alguna de las Beryls (especialmente a las de Gabriel y Mikael) y actúan conforme a los ideales de su señora. No obstante, si bien suelen ser pacíficas y les gusta el equilibrio, cada una tiene una personalidad completamente diferente; es imposible saber que esperar de ellas. Sienten una especial fascinación por la humanidad y las razas que están atadas al paso del tiempo puesto que, al ser ellas mismas inmortales, nuestras emociones les resultan misteriosas y atrayentes. Sin embargo, el miedo a establecer relaciones afectivas con seres condenados a morir y desaparecer es algo que las incomoda, por lo que no les gusta permanecer demasiado tiempo en el mismo lugar o con las mismas personas. Dado que tienen personalidades tan diferentes es difícil establecer pautas en su comportamiento.\n\nMuchas de ellas se mezclan con los hombres ocultando su verdadera naturaleza bajo identidades falsas (de hecho, hay varias trabajando en secreto para la Iglesia como Santas), mientras que otras nos observan desde los lugares más paradisíacos de la Vigilia. m oduS oPerandiAunque carecen de las habilidades combativas de sus hermanas, el poder sobrenatural de las Belphelium se equipara únicamente al de los mejores archimagos. En consecuencia, son rivales para batallones enteros o criaturas de elevado nivel existencial. Además, como altos elementales no necesitan recitar conjuros o realizar gestos para lanzar sus conjuros; siempre desencadenan sus sortilegios con pleno poder. Pese a que su estilo de lucha puede variar de una a otra, habitualmente aprovechan su habilidad para volar mientras lanzan conjuros innatos a distancia.\n\nDe ser imposible y verse en peligro, se potencian mediante conjuros de apoyo como Bendición o forman otros elementales con Creación Luminosa antes de atacar a pleno poder. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 30</p><p><strong>Entrada:</strong> Belphe</p><p><strong>Variante:</strong> Elemental mayor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 30</p><p><strong>Categoría:</strong> Hechicero Fue: 6 Des: 12 Agi: 9 Con: 8 Pod: 14 Int: 13 Vol: 11 Per: 13 RF 75 RM 100 RP 85 RV 75 RE 75</p><p><strong>Habilidades esenciales:</strong> Desequilibrio Elemental, Inutilidad Somática, Inutilidad Oral, Recuperación Superior de Magia, Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física.</p><p><strong>Poderes:</strong> Alas Luminosas (Vuelo Místico 12), Pantalla de Luz, Esencia de Luz (Forma Elemental, Forma Física aVoluntad, Condicionada), Maestría Sobrenatural Luminosa, Ver lo Sobrenatural.</p><p><strong>Daño:</strong> 15 Combate Desarmado (Con)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Estilo 50, Advertir 110 (160), Buscar 60 (110), Ciencia 50, Persuasión 100, Historia 100, Ocultismo 150, Valoración Mágica 160, Música 55</p><p><strong>Descripción breve:</strong> Belphelium Elhalius, o más comúnmente conocidas como Belphe, es el nombre que recibe una poderosa clase de altas elementales luminosas. Comparten la misma esencia que las Elhaym pero, al contrario que sus hermanas (quienes dominan tanto el arte del combate como el de la magia), el alma de las Belphe está atada únicamente a lo sobrenatural; eso las convierte en las más poderosas hechiceras luminosas que se conocen. Igual que las Doncellas de Luz poseen la apariencia de hermosas mujeres que, a voluntad, exteriorizan grandes alas de energía. De hecho, físicamente es imposible diferenciarlas de las Elhaym, por lo que hay quienes consideran que son dos vertientes diferentes del mismo tipo de señor elemental. Muchas culturas las ha equiparado a ángeles no sólo por su aspecto sino porque irradian una fuerte armonía y hacen que aquellos que se encuentren en su presencia se sientan en paz. Las Belphe suelen estar ligadas a las doctrinas de alguna de las Beryls (especialmente a las de Gabriel y Mikael) y actúan conforme a los ideales de su señora. No obstante, si bien suelen ser pacíficas y les gusta el equilibrio, cada una tiene una personalidad completamente diferente; es imposible saber que esperar de ellas. Sienten una especial fascinación por la humanidad y las razas que están atadas al paso del tiempo puesto que, al ser ellas mismas inmortales, nuestras emociones les resultan misteriosas y atrayentes. Sin embargo, el miedo a establecer relaciones afectivas con seres condenados a morir y desaparecer es algo que las incomoda, por lo que no les gusta permanecer demasiado tiempo en el mismo lugar o con las mismas personas. Dado que tienen personalidades tan diferentes es difícil establecer pautas en su comportamiento. Muchas de ellas se mezclan con los hombres ocultando su verdadera naturaleza bajo identidades falsas (de hecho, hay varias trabajando en secreto para la Iglesia como Santas), mientras que otras nos observan desde los lugares más paradisíacos de la Vigilia. m oduS oPerandiAunque carecen de las habilidades combativas de sus hermanas, el poder sobrenatural de las Belphelium se equipara únicamente al de los mejores archimagos. En consecuencia, son rivales para batallones enteros o criaturas de elevado nivel existencial. Además, como altos elementales no necesitan recitar conjuros o realizar gestos para lanzar sus conjuros; siempre desencadenan sus sortilegios con pleno poder. Pese a que su estilo de lucha puede variar de una a otra, habitualmente aprovechan su habilidad para volar mientras lanzan conjuros innatos a distancia. De ser imposible y verse en peligro, se potencian mediante conjuros de apoyo como Bendición o forman otros elementales con Creación Luminosa antes de atacar a pleno poder.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Entre mundos, Elemental 30 Puntos de Vida: 15 0 Categoría: Hechicero Fue: 6 Des: 12 Agi: 9 Con: 8 Pod: 14 Int: 13 Vol: 11 Per: 13 RF 75 RM 100 RP 85 RV 75 RE 75\n\nTurno: 1 10 Natural Habilidad de ataque: 20 Combate Desarmado Habilidad de defensa: 10 Esquiva Daño: 1 5 Combate Desarmado (Con) TA: Ninguna ACT: 1 10 Conjuros de Luz, 90 Otros\n\nZeon: 1.700\n\nProyección mágica: 200 Ofensiva, 220 Defensiva Nivel de magia: 90 Luz. Habilidades esenciales: Desequilibrio Elemental, Inutilidad Somática, Inutilidad Oral, Recuperación Superior de Magia, Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física. Poderes: Alas Luminosas (Vuelo Místico 12), Pantalla de Luz, Esencia de Luz (Forma Elemental, Forma Física aVoluntad, Condicionada), Maestría Sobrenatural Luminosa, Ver lo Sobrenatural. de movimiento: 9/12 Cansancio: Incansable Habilidades Secundarias: Estilo 50, Advertir 110 (160), Buscar 60 (110), Ciencia 50, Persuasión 100, Historia 100, Ocultismo 1 50, Valoración Mágica 1 60, Música 55. Belphelium Elhalius, o más comúnmente conocidas como Belphe, es el nombre que recibe una poderosa clase de altas elementales luminosas.\n\nComparten la misma esencia que las Elhaym pero, al contrario que sus hermanas (quienes dominan tanto el arte del combate como el de la magia), el alma de las Belphe está atada únicamente a lo sobrenatural; eso las convierte en las más poderosas hechiceras luminosas que se conocen. Igual que las Doncellas de Luz poseen la apariencia de hermosas mujeres que, a voluntad, exteriorizan grandes alas de energía. De hecho, físicamente es imposible diferenciarlas de las Elhaym, por lo que hay quienes consideran que son dos vertientes diferentes del mismo tipo de señor elemental. Muchas culturas las ha equiparado a ángeles no sólo por su aspecto sino porque irradian una fuerte armonía y hacen que aquellos que se encuentren en su presencia se sientan en paz.\n\nLas Belphe suelen estar ligadas a las doctrinas de alguna de las Beryls (especialmente a las de Gabriel y Mikael) y actúan conforme a los ideales de su señora. No obstante, si bien suelen ser pacíficas y les gusta el equilibrio, cada una tiene una personalidad completamente diferente; es imposible saber que esperar de ellas. Sienten una especial fascinación por la humanidad y las razas que están atadas al paso del tiempo puesto que, al ser ellas mismas inmortales, nuestras emociones les resultan misteriosas y atrayentes. Sin embargo, el miedo a establecer relaciones afectivas con seres condenados a morir y desaparecer es algo que las incomoda, por lo que no les gusta permanecer demasiado tiempo en el mismo lugar o con las mismas personas. Dado que tienen personalidades tan diferentes es difícil establecer pautas en su comportamiento.\n\nMuchas de ellas se mezclan con los hombres ocultando su verdadera naturaleza bajo identidades falsas (de hecho, hay varias trabajando en secreto para la Iglesia como Santas), mientras que otras nos observan desde los lugares más paradisíacos de la Vigilia. m oduS oPerandiAunque carecen de las habilidades combativas de sus hermanas, el poder sobrenatural de las Belphelium se equipara únicamente al de los mejores archimagos. En consecuencia, son rivales para batallones enteros o criaturas de elevado nivel existencial. Además, como altos elementales no necesitan recitar conjuros o realizar gestos para lanzar sus conjuros; siempre desencadenan sus sortilegios con pleno poder. Pese a que su estilo de lucha puede variar de una a otra, habitualmente aprovechan su habilidad para volar mientras lanzan conjuros innatos a distancia.\n\nDe ser imposible y verse en peligro, se potencian mediante conjuros de apoyo como Bendición o forman otros elementales con Creación Luminosa antes de atacar a pleno poder. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +254,6 @@
           }
         }
       ],
-      "level": {
-        "value": 8
-      },
       "notes": [
         {
           "_id": "note-belphe-elemental-mayor-3",
@@ -345,52 +273,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 14
-          }
+          "value": 14,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         }
       },
       "secondaries": {
@@ -401,9 +313,6 @@
         "initiative": {
           "base": {
             "value": 110
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +363,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -465,10 +371,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -476,10 +379,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 75035
+              "value": 75110
             },
             "final": {
               "value": 0
@@ -487,10 +387,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10
+              "value": 100
             },
             "final": {
               "value": 0
@@ -498,10 +395,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -513,221 +407,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 110
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 160
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 20
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 10
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -758,11 +886,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -774,16 +898,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 1700,
         "max": 1700
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -795,14 +924,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -907,15 +1033,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -927,37 +1049,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1080,9 +1222,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

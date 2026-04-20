@@ -19,19 +19,22 @@ def load_json(path: Path | str):
 
 
 def expected_token_dimensions(size_value: int | None) -> float:
-    if size_value is None or size_value <= 0:
+    if size_value is None or size_value == '' or size_value == '0':
         return 1
-    if size_value <= 3:
+    sv = int(size_value) if isinstance(size_value, str) else size_value
+    if sv <= 0:
+        return 1
+    if sv <= 3:
         return 0.25
-    if size_value <= 8:
+    if sv <= 8:
         return 0.5
-    if size_value <= 22:
+    if sv <= 22:
         return 1
-    if size_value <= 24:
+    if sv <= 24:
         return 2
-    if size_value <= 28:
+    if sv <= 28:
         return 3
-    if size_value <= 33:
+    if sv <= 33:
         return 4
     return 5
 
@@ -160,8 +163,10 @@ class GeneratedDataTest(unittest.TestCase):
         self.assertEqual(dependency["id"], "animabf")
         self.assertIn("manifest", dependency)
 
-    def test_manifest_uses_runtime_compendium_population(self):
-        self.assertEqual(self.manifest["packs"], [])
+    def test_manifest_declares_static_pack(self):
+        self.assertEqual(len(self.manifest["packs"]), 1)
+        self.assertEqual(self.manifest["packs"][0]["name"], "creatures-exxet")
+        self.assertEqual(self.manifest["packs"][0]["type"], "Actor")
 
     def test_pack_directories_match_generated_counts(self):
         pack_dir = PACKS / "creatures-exxet"

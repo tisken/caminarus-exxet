@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +147,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +167,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 60
         }
       },
       "aspect": {
@@ -274,7 +201,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +219,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 162</p><p><strong>Entrada:</strong> Valkyria</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, No muerto (especial) 25</p><p><strong>Categoría:</strong> Warlock Fue: 8 Des: 12 Agi: 11 Con: 9 Pod: 12 Int: 11 Vol: 8 Per: 11 RF 70 RM 80 RP 70 RV 70 RE 70</p><p><strong>Habilidades naturales:</strong> Proyección Mágica Como Ataque.</p><p><strong>Habilidades esenciales:</strong> Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad.</p><p><strong>Poderes:</strong> Guadaña de Almas, Robar el Alma, Valestis (+50 Ataque, RM 140, Debilidad, Sin Daño, Requiere 2 Turnos de Preparatoria), Robar el Alma, Forma Espectral (Limitada), Ver las Almas, Indetección Mística +100, Mediavida, Inmortal.</p><p><strong>Daño:</strong> 75 Guadaña de Almas (Fil)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Sigilo 105, Advertir 25, Buscar 100, Rastrear 125, Valoración Mágica 60</p><p><strong>Descripción breve:</strong> Una Valkyria, o Doncella de la Muerte, es una enigmática criatura ni viva ni muerta. Su objetivo es destruir a aquellos mortales que de algún modo tratan de escapar del ciclo natural convirtiéndose en criaturas inmortales o alterando el curso de su existencia. Existen dos teorías diferentes sobre el nacimiento de las Vakyrias. Un sector de los historiadores y ocultistas piensan que son mujeres que, segundos antes de su muerte, fueron elegidas por alguna potencia mayor dándoles a escoger la posibilidad de permanecer en el mundo a cambio de acabar con todos aquellos que trataban de escapar a su sino. En ese sentido, se asemejan mucho al mito de las banshees, salvo que su naturaleza es claramente guerrera. Por el contrario, otros piensan que fueron creadas directamente por las tres Parcas Verdanni, Ull y Cloht, y que actúan como agentes de estas corrigiendo los actos de aquellos que tratan de pervertir el sino. El aspecto de una Valkyria es, en el mejor de los casos, tan fascinante como aterrador. Se trata de hermosas mujeres aladas que tienen la mitad izquierda de su cuerpo completamente esquelético. Siempre van armadas con armas muy ornamentales y se mueven entre la sombras, lo que les da un porte aún más lúgubre. Sus personalidades son variadas, pero todas están obesionadas con su trabajo. Capturar las almas de sus objetivos es lo que más les importa, aunque siempre cumpliendo multitud de reglas que determinan todas y cada una de sus acciones en el mundo. Como ellas mismas aseguran, al ser las intermediarias de las fuerzas del más allá es lógico que su cometido esté estrictamente regulado. Desprecian especialmente a los seres no muertos, por lo que siempre que no comprometa su trabajo acaban con todos los que se crucen en su camino. Una Valkyria es del todo incapaz de manifestarse en el mundo e iniciar una cacería por si misma; necesita ser llamada por un intermediario. Sin embargo, la persona que la invoca no requiere en absoluto ser un experto en lo sobrenatural, basta con que alguien se vea afectado por las acciones de alguien que ha pervertido el ciclo de la vida y en cuyo interior sienta que es algo injusto. 005 modificado José María Solano Albares Nigromantes que tratan de trascender la muerte, hechiceros que alteran su naturaleza transformándose en quimeras inmortales o simples espíritus que se quedan atrás para acabar convirtiéndose en no muertos son sus blancos más comunes. Curiosamente, la mayoría de criaturas sobrenaturales evitan tener problemas con ellas, incluso aquellas que las superan en poder. Demonios, elementales y otros entes similares las rehúyen siempre que pueden, posiblemente para no tener problemas con aquellas a las que estas sirven. No se sabe cuantas de ellas caminan por Gaïa en la actualidad, pero lo cierto es que pasan la mayoría del tiempo en otros planos de existencia hasta que se manifiestan en el mundo. m oduS oPerandiSalvo en el caso de los no muertos, las Valkyrias solo entran en combate contra sus objetivos y aquellos que los protejan. En tales casos, tratan de acabar con ellos en sigilo, haciendo uso de sus considerables habilidades de subterfugio y su indetección sobrenatural, aunque no tienen el más mínimo problema en presentarse delante de sus víctimas si consideran que todo será más fácil y rápido de ese modo. Aparentemente, no tienen puntos vulnerables conocidos. Guadaña de Almas: Una Valkyria de la Muerte posee un artefacto único atado a su esencia llamado Segadora de Almas. Se trata de un arma de Calidad +10 que tiene la capacidad especial de dañar cualquier criatura, sin importar sus inmunidades especiales o protecciones, e incrementa en 50% el daño causado sobre criaturas no muertas, así como contra otros seres que de algún modo hayan escapado al círculo de la vida y de la muerte. Por lo general es una Guadaña de Guerra (y como tal se la refleja en las estadísticas de la Valkyria), pero también puede ser cualquier otra arma de filo (como espadas, alabardas o mandobles). En caso de que la Guadaña de Almas se separe de su dueña, pierde sus cualidades especiales y revierte a una simple arma +0. La Valkyria puede convertir cualquier objeto que enarbole en otra Guadaña de Almas simplemente vertiendo algo de su sangre sobre ella, pero es algo que prefieren evitar, ya que sienten que dejan atrás una parte de sí mismas. Forma Espectral: Las Valkyrias pueden convertir su cuerpo en una masa espectral. No solo se vuelven temporalmente intangibles (todos los ataques que no son capaces de dañar energía las atraviesan y son capaces de ignorar los objetos sólidos), sino que cualquier persona que se ponga en contacto con ellas o con su arma debe superar una RF o RM contra 110 o sufrirá un negativo a toda acción y una perdida de Puntos de Vida equivalente al nivel del fracaso. No obstante, al contrario que los verdaderos espectros son perfectamente visibles en esta forma por cualquier persona. Indetección Mística: Su naturaleza asesina la predispone para acabar con sus víctimas sin que estas se percaten de su existencia. Cuando alguien realiza cualquier detección sobrenatural sobre ella, la Valkyria obtiene un bono de +100 al control de Resistencia que deba superar. Ver las Almas: Las Valkyrias ven las almas de todas las criaturas (e incluso objetos) que se encuentren, descubriendo innatamente cual es su naturaleza intrínseca. Son incapaces de percibir si alguien es “bueno o malo”, pero sabrán al instante si es un ser mortal o no, a que raza pertenecen o si su presencia en el mundo es un error. Solo las personas con Natura 20 o las entidades con un Gnosis superior a 35 escapan a esta capacidad. Robar el Alma: Las Valkyrias pueden arrancar el alma de cualquier criatura con su arma, encerrando dentro de su filo la esencia de aquellos que han venido a reclamar. Esto tiene lugar automáticamente cuando reducen los Puntos de Vida a valores negativos (sin control alguno de Entre la Vida y la Muerte) o usando con éxito un ataque de Valestis. Valestis: Para usar este ataque la Valkyria acumula su poder durante dos turnos enteros (en los que no puede hacer ninguna acción activa), y ejecuta un impacto especial basado en Energía que incrementa 50 puntos su habilidad ofensiva. El golpe en sí no provoca daños, pero si consigue un resultado que debiera causarlos obliga al objetivo a realizar una RM contra 140. Si no supera esta Resistencia, el afectado pierde 1 punto de Poder, Inteligencia, Constitución y Voluntad, más otro adicional por cada 10 puntos por los que falló la tirada. Si el valor de alguna de dichas características llega a 0, la guadaña reclama el alma y el afectado muere de forma inmediata. Es importante puntualizar que esta pérdida es permanente siempre y cuando la Guadaña de Almas que contiene los fragmentos de esencia robados no sea destruida. Mediavida: Las Valkyrias no son seres vivos, pero tampoco responden a las mismas reglas que los no muertos convencionales; en su interior, aún les queda un diminuto hálito vital. Por ello, elijen en cada momento si beneficiarse o no de su condición, decidiendo con libertad que les afecta y que no. Por ejemplo, podrían ser curadas con un conjuro de necromitud, pero ignorar completamente cualquier clase de dominación o daño que únicamente afectara a no muertos. Inmortal: Las Valkyrias son inmunes a cualquier efecto que produzca muerte automática.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos, No muerto (especial) 25 Puntos de Vida: 230 Categoría: Warlock Fue: 8 Des: 12 Agi: 11 Con: 9 Pod: 12 Int: 11 Vol: 8 Per: 11 RF 70 RM 80 RP 70 RV 70 RE 70\n\nTurno: 1 1 5 Natural, 95 Guadaña de Almas Habilidad de ataque: 2 10 Guadaña de Almas +10 Habilidad de defensa: 205 Guadaña de Almas +10 Daño: 75 Guadaña de Almas (Fil) TA: Ninguna ACT: 45\n\nZeon: 750\n\nProyección mágica: 1 50 Ofensiva Nivel de Vía: Nigromancia 40 Habilidades naturales: Proyección Mágica Como Ataque. Habilidades esenciales: Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad. Poderes: Guadaña de Almas, Robar el Alma, Valestis (+50 Ataque, RM 1 40, Debilidad, Sin Daño, Requiere 2 Turnos de Preparatoria), Robar el Alma, Forma Espectral (Limitada), Ver las Almas, Indetección Mística +100, Mediavida, Inmortal. de movimiento: 11 Cansancio: Incansable Habilidades Secundarias: Sigilo 105, Advertir 25, Buscar 100, Rastrear 1 25, Valoración Mágica 60. Una Valkyria, o Doncella de la Muerte, es una enigmática criatura ni viva ni muerta. Su objetivo es destruir a aquellos mortales que de algún modo tratan de escapar del ciclo natural convirtiéndose en criaturas inmortales o alterando el curso de su existencia.\n\nExisten dos teorías diferentes sobre el nacimiento de las Vakyrias. Un sector de los historiadores y ocultistas piensan que son mujeres que, segundos antes de su muerte, fueron elegidas por alguna potencia mayor dándoles a escoger la posibilidad de permanecer en el mundo a cambio de acabar con todos aquellos que trataban de escapar a su sino. En ese sentido, se asemejan mucho al mito de las banshees, salvo que su naturaleza es claramente guerrera. Por el contrario, otros piensan que fueron creadas directamente por las tres Parcas Verdanni, Ull y Cloht, y que actúan como agentes de estas corrigiendo los actos de aquellos que tratan de pervertir el sino. El aspecto de una Valkyria es, en el mejor de los casos, tan fascinante como aterrador. Se trata de hermosas mujeres aladas que tienen la mitad izquierda de su cuerpo completamente esquelético.\n\nSiempre van armadas con armas muy ornamentales y se mueven entre la sombras, lo que les da un porte aún más lúgubre. Sus personalidades son variadas, pero todas están obesionadas con su trabajo. Capturar las almas de sus objetivos es lo que más les importa, aunque siempre cumpliendo multitud de reglas que determinan todas y cada una de sus acciones en el mundo. Como ellas mismas aseguran, al ser las intermediarias de las fuerzas del más allá es lógico que su cometido esté estrictamente regulado. Desprecian especialmente a los seres no muertos, por lo que siempre que no comprometa su trabajo acaban con todos los que se crucen en su camino. Una Valkyria es del todo incapaz de manifestarse en el mundo e iniciar una cacería por si misma; necesita ser llamada por un intermediario.\n\nSin embargo, la persona que la invoca no requiere en absoluto ser un experto en lo sobrenatural, basta con que alguien se vea afectado por las acciones de alguien que ha pervertido el ciclo de la vida y en cuyo interior sienta que es algo injusto. 005 modificado José María Solano Albares (order #3443007) (order #3443007) Nigromantes que tratan de trascender la muerte, hechiceros que alteran su naturaleza transformándose en quimeras inmortales o simples espíritus que se quedan atrás para acabar convirtiéndose en no muertos son sus blancos más comunes. Curiosamente, la mayoría de criaturas sobrenaturales evitan tener problemas con ellas, incluso aquellas que las superan en poder. Demonios, elementales y otros entes similares las rehúyen siempre que pueden, posiblemente para no tener problemas con aquellas a las que estas sirven.\n\nNo se sabe cuantas de ellas caminan por Gaïa en la actualidad, pero lo cierto es que pasan la mayoría del tiempo en otros planos de existencia hasta que se manifiestan en el mundo. m oduS oPerandiSalvo en el caso de los no muertos, las Valkyrias solo entran en combate contra sus objetivos y aquellos que los protejan. En tales casos, tratan de acabar con ellos en sigilo, haciendo uso de sus considerables habilidades de subterfugio y su indetección sobrenatural, aunque no tienen el más mínimo problema en presentarse delante de sus víctimas si consideran que todo será más fácil y rápido de ese modo. Aparentemente, no tienen puntos vulnerables conocidos. Guadaña de Almas: Una Valkyria de la Muerte posee un artefacto único atado a su esencia llamado Segadora de Almas.\n\nSe trata de un arma de Calidad +10 que tiene la capacidad especial de dañar cualquier criatura, sin importar sus inmunidades especiales o protecciones, e incrementa en 50% el daño causado sobre criaturas no muertas, así como contra otros seres que de algún modo hayan escapado al círculo de la vida y de la muerte. Por lo general es una Guadaña de Guerra (y como tal se la refleja en las estadísticas de la Valkyria), pero también puede ser cualquier otra arma de filo (como espadas, alabardas o mandobles). En caso de que la Guadaña de Almas se separe de su dueña, pierde sus cualidades especiales y revierte a una simple arma +0. La Valkyria puede convertir cualquier objeto que enarbole en otra Guadaña de Almas simplemente vertiendo algo de su sangre sobre ella, pero es algo que prefieren evitar, ya que sienten que dejan atrás una parte de sí mismas.\n\nForma Espectral: Las Valkyrias pueden convertir su cuerpo en una masa espectral. No solo se vuelven temporalmente intangibles (todos los ataques que no son capaces de dañar energía las atraviesan y son capaces de ignorar los objetos sólidos), sino que cualquier persona que se ponga en contacto con ellas o con su arma debe superar una RF o RM contra 1 10 o sufrirá un negativo a toda acción y una perdida de Puntos de Vida equivalente al nivel del fracaso. No obstante, al contrario que los verdaderos espectros son perfectamente visibles en esta forma por cualquier persona. Indetección Mística: Su naturaleza asesina la predispone para acabar con sus víctimas sin que estas se percaten de su existencia. Cuando alguien realiza cualquier detección sobrenatural sobre ella, la Valkyria obtiene un bono de +100 al control de Resistencia que deba superar.\n\nVer las Almas: Las Valkyrias ven las almas de todas las criaturas (e incluso objetos) que se encuentren, descubriendo innatamente cual es su naturaleza intrínseca. Son incapaces de percibir si alguien es “bueno o malo”, pero sabrán al instante si es un ser mortal o no, a que raza pertenecen o si su presencia en el mundo es un error. Solo las personas con Natura 20 o las entidades con un Gnosis superior a 35 escapan a esta capacidad. Robar el Alma: Las Valkyrias pueden arrancar el alma de cualquier criatura con su arma, encerrando dentro de su filo la esencia de aquellos que han venido a reclamar. Esto tiene lugar automáticamente cuando reducen los Puntos de Vida a valores negativos (sin control alguno de Entre la Vida y la Muerte) o usando con éxito un ataque de Valestis.\n\nValestis: Para usar este ataque la Valkyria acumula su poder durante dos turnos enteros (en los que no puede hacer ninguna acción activa), y ejecuta un impacto especial basado en Energía que incrementa 50 puntos su habilidad ofensiva. El golpe en sí no provoca daños, pero si consigue un resultado que debiera causarlos obliga al objetivo a realizar una RM contra 1 40. Si no supera esta Resistencia, el afectado pierde 1 punto de Poder, Inteligencia, Constitución y Voluntad, más otro adicional por cada 10 puntos por los que falló la tirada. Si el valor de alguna de dichas características llega a 0, la guadaña reclama el alma y el afectado muere de forma inmediata. Es importante puntualizar que esta pérdida es permanente siempre y cuando la Guadaña de Almas que contiene los fragmentos de esencia robados no sea destruida.\n\nMediavida: Las Valkyrias no son seres vivos, pero tampoco responden a las mismas reglas que los no muertos convencionales; en su interior, aún les queda un diminuto hálito vital. Por ello, elijen en cada momento si beneficiarse o no de su condición, decidiendo con libertad que les afecta y que no. Por ejemplo, podrían ser curadas con un conjuro de necromitud, pero ignorar completamente cualquier clase de dominación o daño que únicamente afectara a no muertos. Inmortal: Las Valkyrias son inmunes a cualquier efecto que produzca muerte automática. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 162</p><p><strong>Entrada:</strong> Valkyria</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, No muerto (especial) 25</p><p><strong>Categoría:</strong> Warlock Fue: 8 Des: 12 Agi: 11 Con: 9 Pod: 12 Int: 11 Vol: 8 Per: 11 RF 70 RM 80 RP 70 RV 70 RE 70</p><p><strong>Habilidades naturales:</strong> Proyección Mágica Como Ataque.</p><p><strong>Habilidades esenciales:</strong> Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad.</p><p><strong>Poderes:</strong> Guadaña de Almas, Robar el Alma, Valestis (+50 Ataque, RM 140, Debilidad, Sin Daño, Requiere 2 Turnos de Preparatoria), Robar el Alma, Forma Espectral (Limitada), Ver las Almas, Indetección Mística +100, Mediavida, Inmortal.</p><p><strong>Daño:</strong> 75 Guadaña de Almas (Fil)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Sigilo 105, Advertir 25, Buscar 100, Rastrear 125, Valoración Mágica 60</p><p><strong>Descripción breve:</strong> Una Valkyria, o Doncella de la Muerte, es una enigmática criatura ni viva ni muerta. Su objetivo es destruir a aquellos mortales que de algún modo tratan de escapar del ciclo natural convirtiéndose en criaturas inmortales o alterando el curso de su existencia. Existen dos teorías diferentes sobre el nacimiento de las Vakyrias. Un sector de los historiadores y ocultistas piensan que son mujeres que, segundos antes de su muerte, fueron elegidas por alguna potencia mayor dándoles a escoger la posibilidad de permanecer en el mundo a cambio de acabar con todos aquellos que trataban de escapar a su sino. En ese sentido, se asemejan mucho al mito de las banshees, salvo que su naturaleza es claramente guerrera. Por el contrario, otros piensan que fueron creadas directamente por las tres Parcas Verdanni, Ull y Cloht, y que actúan como agentes de estas corrigiendo los actos de aquellos que tratan de pervertir el sino. El aspecto de una Valkyria es, en el mejor de los casos, tan fascinante como aterrador. Se trata de hermosas mujeres aladas que tienen la mitad izquierda de su cuerpo completamente esquelético. Siempre van armadas con armas muy ornamentales y se mueven entre la sombras, lo que les da un porte aún más lúgubre. Sus personalidades son variadas, pero todas están obesionadas con su trabajo. Capturar las almas de sus objetivos es lo que más les importa, aunque siempre cumpliendo multitud de reglas que determinan todas y cada una de sus acciones en el mundo. Como ellas mismas aseguran, al ser las intermediarias de las fuerzas del más allá es lógico que su cometido esté estrictamente regulado. Desprecian especialmente a los seres no muertos, por lo que siempre que no comprometa su trabajo acaban con todos los que se crucen en su camino. Una Valkyria es del todo incapaz de manifestarse en el mundo e iniciar una cacería por si misma; necesita ser llamada por un intermediario. Sin embargo, la persona que la invoca no requiere en absoluto ser un experto en lo sobrenatural, basta con que alguien se vea afectado por las acciones de alguien que ha pervertido el ciclo de la vida y en cuyo interior sienta que es algo injusto. 005 modificado José María Solano Albares Nigromantes que tratan de trascender la muerte, hechiceros que alteran su naturaleza transformándose en quimeras inmortales o simples espíritus que se quedan atrás para acabar convirtiéndose en no muertos son sus blancos más comunes. Curiosamente, la mayoría de criaturas sobrenaturales evitan tener problemas con ellas, incluso aquellas que las superan en poder. Demonios, elementales y otros entes similares las rehúyen siempre que pueden, posiblemente para no tener problemas con aquellas a las que estas sirven. No se sabe cuantas de ellas caminan por Gaïa en la actualidad, pero lo cierto es que pasan la mayoría del tiempo en otros planos de existencia hasta que se manifiestan en el mundo. m oduS oPerandiSalvo en el caso de los no muertos, las Valkyrias solo entran en combate contra sus objetivos y aquellos que los protejan. En tales casos, tratan de acabar con ellos en sigilo, haciendo uso de sus considerables habilidades de subterfugio y su indetección sobrenatural, aunque no tienen el más mínimo problema en presentarse delante de sus víctimas si consideran que todo será más fácil y rápido de ese modo. Aparentemente, no tienen puntos vulnerables conocidos. Guadaña de Almas: Una Valkyria de la Muerte posee un artefacto único atado a su esencia llamado Segadora de Almas. Se trata de un arma de Calidad +10 que tiene la capacidad especial de dañar cualquier criatura, sin importar sus inmunidades especiales o protecciones, e incrementa en 50% el daño causado sobre criaturas no muertas, así como contra otros seres que de algún modo hayan escapado al círculo de la vida y de la muerte. Por lo general es una Guadaña de Guerra (y como tal se la refleja en las estadísticas de la Valkyria), pero también puede ser cualquier otra arma de filo (como espadas, alabardas o mandobles). En caso de que la Guadaña de Almas se separe de su dueña, pierde sus cualidades especiales y revierte a una simple arma +0. La Valkyria puede convertir cualquier objeto que enarbole en otra Guadaña de Almas simplemente vertiendo algo de su sangre sobre ella, pero es algo que prefieren evitar, ya que sienten que dejan atrás una parte de sí mismas. Forma Espectral: Las Valkyrias pueden convertir su cuerpo en una masa espectral. No solo se vuelven temporalmente intangibles (todos los ataques que no son capaces de dañar energía las atraviesan y son capaces de ignorar los objetos sólidos), sino que cualquier persona que se ponga en contacto con ellas o con su arma debe superar una RF o RM contra 110 o sufrirá un negativo a toda acción y una perdida de Puntos de Vida equivalente al nivel del fracaso. No obstante, al contrario que los verdaderos espectros son perfectamente visibles en esta forma por cualquier persona. Indetección Mística: Su naturaleza asesina la predispone para acabar con sus víctimas sin que estas se percaten de su existencia. Cuando alguien realiza cualquier detección sobrenatural sobre ella, la Valkyria obtiene un bono de +100 al control de Resistencia que deba superar. Ver las Almas: Las Valkyrias ven las almas de todas las criaturas (e incluso objetos) que se encuentren, descubriendo innatamente cual es su naturaleza intrínseca. Son incapaces de percibir si alguien es “bueno o malo”, pero sabrán al instante si es un ser mortal o no, a que raza pertenecen o si su presencia en el mundo es un error. Solo las personas con Natura 20 o las entidades con un Gnosis superior a 35 escapan a esta capacidad. Robar el Alma: Las Valkyrias pueden arrancar el alma de cualquier criatura con su arma, encerrando dentro de su filo la esencia de aquellos que han venido a reclamar. Esto tiene lugar automáticamente cuando reducen los Puntos de Vida a valores negativos (sin control alguno de Entre la Vida y la Muerte) o usando con éxito un ataque de Valestis. Valestis: Para usar este ataque la Valkyria acumula su poder durante dos turnos enteros (en los que no puede hacer ninguna acción activa), y ejecuta un impacto especial basado en Energía que incrementa 50 puntos su habilidad ofensiva. El golpe en sí no provoca daños, pero si consigue un resultado que debiera causarlos obliga al objetivo a realizar una RM contra 140. Si no supera esta Resistencia, el afectado pierde 1 punto de Poder, Inteligencia, Constitución y Voluntad, más otro adicional por cada 10 puntos por los que falló la tirada. Si el valor de alguna de dichas características llega a 0, la guadaña reclama el alma y el afectado muere de forma inmediata. Es importante puntualizar que esta pérdida es permanente siempre y cuando la Guadaña de Almas que contiene los fragmentos de esencia robados no sea destruida. Mediavida: Las Valkyrias no son seres vivos, pero tampoco responden a las mismas reglas que los no muertos convencionales; en su interior, aún les queda un diminuto hálito vital. Por ello, elijen en cada momento si beneficiarse o no de su condición, decidiendo con libertad que les afecta y que no. Por ejemplo, podrían ser curadas con un conjuro de necromitud, pero ignorar completamente cualquier clase de dominación o daño que únicamente afectara a no muertos. Inmortal: Las Valkyrias son inmunes a cualquier efecto que produzca muerte automática.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos, No muerto (especial) 25 Puntos de Vida: 230 Categoría: Warlock Fue: 8 Des: 12 Agi: 11 Con: 9 Pod: 12 Int: 11 Vol: 8 Per: 11 RF 70 RM 80 RP 70 RV 70 RE 70\n\nTurno: 1 1 5 Natural, 95 Guadaña de Almas Habilidad de ataque: 2 10 Guadaña de Almas +10 Habilidad de defensa: 205 Guadaña de Almas +10 Daño: 75 Guadaña de Almas (Fil) TA: Ninguna ACT: 45\n\nZeon: 750\n\nProyección mágica: 1 50 Ofensiva Nivel de Vía: Nigromancia 40 Habilidades naturales: Proyección Mágica Como Ataque. Habilidades esenciales: Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad. Poderes: Guadaña de Almas, Robar el Alma, Valestis (+50 Ataque, RM 1 40, Debilidad, Sin Daño, Requiere 2 Turnos de Preparatoria), Robar el Alma, Forma Espectral (Limitada), Ver las Almas, Indetección Mística +100, Mediavida, Inmortal. de movimiento: 11 Cansancio: Incansable Habilidades Secundarias: Sigilo 105, Advertir 25, Buscar 100, Rastrear 1 25, Valoración Mágica 60. Una Valkyria, o Doncella de la Muerte, es una enigmática criatura ni viva ni muerta. Su objetivo es destruir a aquellos mortales que de algún modo tratan de escapar del ciclo natural convirtiéndose en criaturas inmortales o alterando el curso de su existencia.\n\nExisten dos teorías diferentes sobre el nacimiento de las Vakyrias. Un sector de los historiadores y ocultistas piensan que son mujeres que, segundos antes de su muerte, fueron elegidas por alguna potencia mayor dándoles a escoger la posibilidad de permanecer en el mundo a cambio de acabar con todos aquellos que trataban de escapar a su sino. En ese sentido, se asemejan mucho al mito de las banshees, salvo que su naturaleza es claramente guerrera. Por el contrario, otros piensan que fueron creadas directamente por las tres Parcas Verdanni, Ull y Cloht, y que actúan como agentes de estas corrigiendo los actos de aquellos que tratan de pervertir el sino. El aspecto de una Valkyria es, en el mejor de los casos, tan fascinante como aterrador. Se trata de hermosas mujeres aladas que tienen la mitad izquierda de su cuerpo completamente esquelético.\n\nSiempre van armadas con armas muy ornamentales y se mueven entre la sombras, lo que les da un porte aún más lúgubre. Sus personalidades son variadas, pero todas están obesionadas con su trabajo. Capturar las almas de sus objetivos es lo que más les importa, aunque siempre cumpliendo multitud de reglas que determinan todas y cada una de sus acciones en el mundo. Como ellas mismas aseguran, al ser las intermediarias de las fuerzas del más allá es lógico que su cometido esté estrictamente regulado. Desprecian especialmente a los seres no muertos, por lo que siempre que no comprometa su trabajo acaban con todos los que se crucen en su camino. Una Valkyria es del todo incapaz de manifestarse en el mundo e iniciar una cacería por si misma; necesita ser llamada por un intermediario.\n\nSin embargo, la persona que la invoca no requiere en absoluto ser un experto en lo sobrenatural, basta con que alguien se vea afectado por las acciones de alguien que ha pervertido el ciclo de la vida y en cuyo interior sienta que es algo injusto. 005 modificado José María Solano Albares (order #3443007) (order #3443007) Nigromantes que tratan de trascender la muerte, hechiceros que alteran su naturaleza transformándose en quimeras inmortales o simples espíritus que se quedan atrás para acabar convirtiéndose en no muertos son sus blancos más comunes. Curiosamente, la mayoría de criaturas sobrenaturales evitan tener problemas con ellas, incluso aquellas que las superan en poder. Demonios, elementales y otros entes similares las rehúyen siempre que pueden, posiblemente para no tener problemas con aquellas a las que estas sirven.\n\nNo se sabe cuantas de ellas caminan por Gaïa en la actualidad, pero lo cierto es que pasan la mayoría del tiempo en otros planos de existencia hasta que se manifiestan en el mundo. m oduS oPerandiSalvo en el caso de los no muertos, las Valkyrias solo entran en combate contra sus objetivos y aquellos que los protejan. En tales casos, tratan de acabar con ellos en sigilo, haciendo uso de sus considerables habilidades de subterfugio y su indetección sobrenatural, aunque no tienen el más mínimo problema en presentarse delante de sus víctimas si consideran que todo será más fácil y rápido de ese modo. Aparentemente, no tienen puntos vulnerables conocidos. Guadaña de Almas: Una Valkyria de la Muerte posee un artefacto único atado a su esencia llamado Segadora de Almas.\n\nSe trata de un arma de Calidad +10 que tiene la capacidad especial de dañar cualquier criatura, sin importar sus inmunidades especiales o protecciones, e incrementa en 50% el daño causado sobre criaturas no muertas, así como contra otros seres que de algún modo hayan escapado al círculo de la vida y de la muerte. Por lo general es una Guadaña de Guerra (y como tal se la refleja en las estadísticas de la Valkyria), pero también puede ser cualquier otra arma de filo (como espadas, alabardas o mandobles). En caso de que la Guadaña de Almas se separe de su dueña, pierde sus cualidades especiales y revierte a una simple arma +0. La Valkyria puede convertir cualquier objeto que enarbole en otra Guadaña de Almas simplemente vertiendo algo de su sangre sobre ella, pero es algo que prefieren evitar, ya que sienten que dejan atrás una parte de sí mismas.\n\nForma Espectral: Las Valkyrias pueden convertir su cuerpo en una masa espectral. No solo se vuelven temporalmente intangibles (todos los ataques que no son capaces de dañar energía las atraviesan y son capaces de ignorar los objetos sólidos), sino que cualquier persona que se ponga en contacto con ellas o con su arma debe superar una RF o RM contra 1 10 o sufrirá un negativo a toda acción y una perdida de Puntos de Vida equivalente al nivel del fracaso. No obstante, al contrario que los verdaderos espectros son perfectamente visibles en esta forma por cualquier persona. Indetección Mística: Su naturaleza asesina la predispone para acabar con sus víctimas sin que estas se percaten de su existencia. Cuando alguien realiza cualquier detección sobrenatural sobre ella, la Valkyria obtiene un bono de +100 al control de Resistencia que deba superar.\n\nVer las Almas: Las Valkyrias ven las almas de todas las criaturas (e incluso objetos) que se encuentren, descubriendo innatamente cual es su naturaleza intrínseca. Son incapaces de percibir si alguien es “bueno o malo”, pero sabrán al instante si es un ser mortal o no, a que raza pertenecen o si su presencia en el mundo es un error. Solo las personas con Natura 20 o las entidades con un Gnosis superior a 35 escapan a esta capacidad. Robar el Alma: Las Valkyrias pueden arrancar el alma de cualquier criatura con su arma, encerrando dentro de su filo la esencia de aquellos que han venido a reclamar. Esto tiene lugar automáticamente cuando reducen los Puntos de Vida a valores negativos (sin control alguno de Entre la Vida y la Muerte) o usando con éxito un ataque de Valestis.\n\nValestis: Para usar este ataque la Valkyria acumula su poder durante dos turnos enteros (en los que no puede hacer ninguna acción activa), y ejecuta un impacto especial basado en Energía que incrementa 50 puntos su habilidad ofensiva. El golpe en sí no provoca daños, pero si consigue un resultado que debiera causarlos obliga al objetivo a realizar una RM contra 1 40. Si no supera esta Resistencia, el afectado pierde 1 punto de Poder, Inteligencia, Constitución y Voluntad, más otro adicional por cada 10 puntos por los que falló la tirada. Si el valor de alguna de dichas características llega a 0, la guadaña reclama el alma y el afectado muere de forma inmediata. Es importante puntualizar que esta pérdida es permanente siempre y cuando la Guadaña de Almas que contiene los fragmentos de esencia robados no sea destruida.\n\nMediavida: Las Valkyrias no son seres vivos, pero tampoco responden a las mismas reglas que los no muertos convencionales; en su interior, aún les queda un diminuto hálito vital. Por ello, elijen en cada momento si beneficiarse o no de su condición, decidiendo con libertad que les afecta y que no. Por ejemplo, podrían ser curadas con un conjuro de necromitud, pero ignorar completamente cualquier clase de dominación o daño que únicamente afectara a no muertos. Inmortal: Las Valkyrias son inmunes a cualquier efecto que produzca muerte automática. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +251,6 @@
           }
         }
       ],
-      "level": {
-        "value": 7
-      },
       "notes": [
         {
           "_id": "note-valkyria-2",
@@ -351,52 +276,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -407,9 +316,6 @@
         "initiative": {
           "base": {
             "value": 115
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -460,10 +366,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -471,10 +374,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -482,10 +382,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 70045
+              "value": 70115
             },
             "final": {
               "value": 0
@@ -493,10 +390,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -504,10 +398,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -519,209 +410,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 125
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 105
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 210
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 205
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -752,11 +889,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -768,16 +901,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 750,
         "max": 750
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -789,14 +927,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -901,15 +1036,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -921,37 +1052,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1074,9 +1225,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

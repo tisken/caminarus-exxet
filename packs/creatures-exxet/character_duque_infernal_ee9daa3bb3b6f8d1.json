@@ -251,9 +251,12 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
@@ -262,16 +265,8 @@
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,25 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": true
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
         },
-        "zen": {
-          "value": false
+        "inmaterial": {
+          "value": true
         },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "perceiveMystic": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +306,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +326,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 80
         }
       },
       "aspect": {
@@ -430,7 +360,7 @@
           "value": ""
         },
         "size": {
-          "value": 22
+          "value": "22"
         }
       },
       "advantages": [],
@@ -448,7 +378,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 50</p><p><strong>Entrada:</strong> Duque Infernal</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 30</p><p><strong>Categoría:</strong> Warlock Fue: 11 Des: 12 Agi: 12 Con: 11 Pod: 13 Int: 13 Vol: 8 Per: 9 RF 100 RM 105 RP 90 RV 100 RE 100</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad, Inutilidad Somática, Inutilidad Oral.</p><p><strong>Poderes:</strong> Armas Naturales (+20 al Daño), Daña Energía, Inmunidad Infernal (Presencia Inferior a 120), Apariencia Humana (Metamorfismo Básico, Condicionado), Infierno, Invocación, Sacrificio Impío, Especialidad Demoníaca, Ver Espíritus, Ver el Pecado.</p><p><strong>Daño:</strong> 80 Armas Demoníacas</p><p><strong>TA:</strong> Armadura Demoníaca Fil 2 Con 2 Pen 2 Cal 2 Fri 2 Ele 2 Ene 2</p><p><strong>Habilidades secundarias:</strong> Estilo 80, Intimidar 55, Liderazgo 150, Advertir 50, Buscar 50, Ocultismo 200, Historia 200, Valoración Mágica 150</p><p><strong>Descripción breve:</strong> “Duque Infernal” es el título que reciben normalmente los grandes demonios de Tercera Jerarquía que reinan sobre los demás seres infernales. Se trata de entidades tremendamente poderosas y antiguas que han interactuado con el hombre desde hace milenios; la más alta nobleza entre los demonios. Pese a que todas se engloban dentro de un grupo, en realidad estas criaturas son muy diferentes las unas de las otras; cada una tiene sus propios intereses, una personalidad distinta y su particular manera de hacer las cosas. De hecho, lo único que tienen en común es la rebosante maldad que hay en sus almas y el enorme poder personal que ostentan. Por supuesto, suelen ser tremendamente inteligentes y poseen la capacidad de comunicarse en prácticamente todos los idiomas conocidos. El aspecto físico de los Duques infernales también es muy variado, si bien la mayoría tiene formas humanoides con alguna característica demoníaca como alas, cuernos o cualquier otra particularidad monstruosa. Habitualmente cada uno controla un territorio determinado de Gaïa desde su “infierno privado”, el lugar que utilizan como base de operaciones para organizar las acciones de sus subordinados. Es extremadamente raro que se aventuren a salir fuera de sus “reinos”, pues para cualquier cosa que deseen hacer tienen a su disposición a infinidad de demonios servidores. Eso no significa que sean incapaces de caminar por el mundo real, sólo que la precaución de milenios de existencia les impulsa a ser cautos en un plano de existencia donde su poder es mucho menor. Se desconoce el número exacto de Duques Infernales que existen, pero al menos han de haber alrededor de dieciocho de ellos. m oduS oPerandiCadaDuque actúa con un particular estilo personal por lo que es imposible encontrar un modus operandi general para ellos. También es importante puntualizar que las estadísticas reflejadas en este apartado únicamente hacen referencia al nivel de poder y habilidades medias de estas criaturas. Es perfectamente posible que haya demonios considerados de Tercera Jerarquía que poco o nada tengan que ver con lo que aquí se denomina “Duque Infernal”. Demonios Inmunidad Infernal: Sólo criaturas o armas extremadamente poderosas son capaces de dañar a un Duque Infernal. En consecuencia, únicamente los ataques que posean una presencia 120 o superior o conjuros capaces de dañar energía pueden afectarle. Ver el Pecado: Los demonios de Tercera Jerarquía pueden reconocer el mal intrínseco en el alma de las personas simplemente mirándolas a los ojos u “oliendo” su aura. Si se da cualquiera de ambos casos, el afectado debe superar una RM o RP contra 140 o el Duque obtendrá información sobre todos los hechos que este haya realizado que le provoquen sentimientos de culpabilidad o sean de naturaleza verdaderamente maligna. Apariencia Humana: Algunos Duques pueden adquirir apariencia humana a voluntad, aunque por lo general están obligados a tomar siempre el mismo aspecto. Infierno: Mediante su poder demoníaco, el Duque puede convertir un emplazamiento cargado con sentimientos negativos en su infierno particular. Esto hace que toda una ubicación determinada sea trasportada a un punto intermedio entre La Vigilia y el mundo real donde el demonio es prácticamente un dios. En su interior el Duque lo controla todo como si tuviera Gnosis 40 (además del resto de poderes que ello conlleva) y puede invocar innatamente a demonios de Quinta Jerarquía que estén a su servicio. Este “infierno” artificial toma siempre un aspecto afín a la naturaleza y personalidad del Duque, que puede ser desde un paraje de sangre, vísceras y llantos de bebés, a un palacio refinado de la más exquisita belleza. Nunca pueden tener más de un kilómetro de radio, pero en su interior a veces el espacio se deforma de un modo innatural. Para entrar y salir de estos lugares hay que, o bien ser invitados por el demonio, o bien hayar una “entrada” (al menos, siempre debe de haber una en las inmediaciones) cumplimentando ciertos requisitos. Estos infiernos están atados a un objeto o persona (al que se llama habitualmente “El Gran Condenado”) que se encuentra en algún lugar de su interior. Si alguien lo matase o destruyese, el infierno se derrumbaría sobre sí mismo en pocos minutos, sepultando allí a todo el que quedase en su interior. Un Duque infernal sólo puede tener un infierno particular y, en caso de perderlo, su Gnosis queda temporalmente reducido a la mitad y debe de esperar varios siglos antes de recuperar sus fuerzas. Invocación: Mientras esté en el interior de su Infierno un Duque no puede ser afectado por habilidades de convocatoria, salvo si el propio demonio lo permite. Las criaturas con Gnosis 40 o superior pueden ignorar esta regla. Sacrificio Impío: El Duque puede absorber las almas de algunas personas para incrementar sus capacidades. En el momento en el que acaba con la vida de un sujeto, el alto demonio devora su esencia para reforzar temporalmente sus capacidades, obteniendo un bono a toda acción equivalente al bonificador de la característica de Poder o bien un incremento equivalente a su ACT. Especialidad Demoníaca: Los Duques infernales pueden poseer multitud de poderes diferentes. A continuación se enumeran tres posibilidades, de las que el demonio debe de escoger una. -a rMas f ísi Cas i nf Ernal Es : Los Duques más habituados al combate personal poseen un arma que se forma a partir de su propia esencia. Pueden ser cualquier cosa imaginable; desde espadas demoniacas que brotan desde el interior de sus cuerpos hasta alas de cuchillas y tinieblas. Pese a ser armas físicas, se consideran de calidad +15 con todo lo que ello conlleva (incrementan en +30 su Daño Base, incrementan en +15 la Habilidad de Ataque y Parada del demonio y disminuyen tres puntos el tipo de Armadura del defensor) además de atacar en la Tabla de Energía. -MaEstro dEl p odEr i nfErnal : Los Duques demoniacos que se especializan en la magia obtienen un bono de +40 a su Proyección Mágica así como a la Habilidad natural Proyección Mágica como defensa. Además, obtienen hasta 50 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos hayan cumplido. -Monstruoso : El Duque es una verdadera monstruosidad dotado de aterradores atributos. En consecuencia, posee el equivalente a 200 PD para adquirir poderes de monstruo. DEm onios</p></section><details><summary>Texto extraído</summary><pre>Nivel: 11\n\nClase: Entre mundos 30 Puntos de Vida: 240 Categoría: Warlock Fue: 11 Des: 12 Agi: 12 Con: 11 Pod: 13 Int: 13 Vol: 8 Per: 9 RF 100 RM 105 RP 90 RV 100 RE 100\n\nTurno: 1 35 Natural Habilidad de ataque: 270 Armas Naturales Habilidad de defensa: 260 Esquiva Daño: 80 Armas Demoníacas TA: Armadura Demoníaca Fil 2 Con 2 Pen 2 Cal 2 Fri 2 Ele 2 Ene 2 ACT: 75\n\nZeon: 1.370\n\nProyección mágica: 220 Ofensiva Nivel de Vía: Variable (Nivel total 1 50) Habilidades naturales: Proyección Mágica como Ataque. Habilidades esenciales: Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad, Inutilidad Somática, Inutilidad Oral. Poderes: Armas Naturales (+20 al Daño), Daña Energía, Inmunidad Infernal (Presencia Inferior a 120), Apariencia Humana (Metamorfismo Básico, Condicionado), Infierno, Invocación, Sacrificio Impío, Especialidad Demoníaca, Ver Espíritus, Ver el Pecado.\n\nTamaño: 22 Medio Regeneración: 4 Tipo de movimiento: 12 Cansancio: Incansable Habilidades Secundarias: Estilo 80, Intimidar 55, Liderazgo 1 50, Advertir 50, Buscar 50, Ocultismo 200, Historia 200, Valoración Mágica 1 50. “Duque Infernal” es el título que reciben normalmente los grandes demonios de Tercera Jerarquía que reinan sobre los demás seres infernales. Se trata de entidades tremendamente poderosas y antiguas que han interactuado con el hombre desde hace milenios; la más alta nobleza entre los demonios. Pese a que todas se engloban dentro de un grupo, en realidad estas criaturas son muy diferentes las unas de las otras; cada una tiene sus propios intereses, una personalidad distinta y su particular manera de hacer las cosas. De hecho, lo único que tienen en común es la rebosante maldad que hay en sus almas y el enorme poder personal que ostentan.\n\nPor supuesto, suelen ser tremendamente inteligentes y poseen la capacidad de comunicarse en prácticamente todos los idiomas conocidos. El aspecto físico de los Duques infernales también es muy variado, si bien la mayoría tiene formas humanoides con alguna característica demoníaca como alas, cuernos o cualquier otra particularidad monstruosa. Habitualmente cada uno controla un territorio determinado de Gaïa desde su “infierno privado”, el lugar que utilizan como base de operaciones para organizar las acciones de sus subordinados. Es extremadamente raro que se aventuren a salir fuera de sus “reinos”, pues para cualquier cosa que deseen hacer tienen a su disposición a infinidad de demonios servidores.\n\nEso no significa que sean incapaces de caminar por el mundo real, sólo que la precaución de milenios de existencia les impulsa a ser cautos en un plano de existencia donde su poder es mucho menor. Se desconoce el número exacto de Duques Infernales que existen, pero al menos han de haber alrededor de dieciocho de ellos. m oduS oPerandiCadaDuque actúa con un particular estilo personal por lo que es imposible encontrar un modus operandi general para ellos. También es importante puntualizar que las estadísticas reflejadas en este apartado únicamente hacen referencia al nivel de poder y habilidades medias de estas criaturas. Es perfectamente posible que haya demonios considerados de Tercera Jerarquía que poco o nada tengan que ver con lo que aquí se denomina “Duque Infernal”.\n\nDemonios (order #3443007) Inmunidad Infernal: Sólo criaturas o armas extremadamente poderosas son capaces de dañar a un Duque Infernal. En consecuencia, únicamente los ataques que posean una presencia 120 o superior o conjuros capaces de dañar energía pueden afectarle. Ver el Pecado: Los demonios de Tercera Jerarquía pueden reconocer el mal intrínseco en el alma de las personas simplemente mirándolas a los ojos u “oliendo” su aura. Si se da cualquiera de ambos casos, el afectado debe superar una RM o RP contra 1 40 o el Duque obtendrá información sobre todos los hechos que este haya realizado que le provoquen sentimientos de culpabilidad o sean de naturaleza verdaderamente maligna. Apariencia Humana: Algunos Duques pueden adquirir apariencia humana a voluntad, aunque por lo general están obligados a tomar siempre el mismo aspecto.\n\nInfierno: Mediante su poder demoníaco, el Duque puede convertir un emplazamiento cargado con sentimientos negativos en su infierno particular. Esto hace que toda una ubicación determinada sea trasportada a un punto intermedio entre La Vigilia y el mundo real donde el demonio es prácticamente un dios. En su interior el Duque lo controla todo como si tuviera Gnosis 40 (además del resto de poderes que ello conlleva) y puede invocar innatamente a demonios de Quinta Jerarquía que estén a su servicio. Este “infierno” artificial toma siempre un aspecto afín a la naturaleza y personalidad del Duque, que puede ser desde un paraje de sangre, vísceras y llantos de bebés, a un palacio refinado de la más exquisita belleza. Nunca pueden tener más de un kilómetro de radio, pero en su interior a veces el espacio se deforma de un modo innatural.\n\nPara entrar y salir de estos lugares hay que, o bien ser invitados por el demonio, o bien hayar una “entrada” (al menos, siempre debe de haber una en las inmediaciones) cumplimentando ciertos requisitos. Estos infiernos están atados a un objeto o persona (al que se llama habitualmente “El Gran Condenado”) que se encuentra en algún lugar de su interior. Si alguien lo matase o destruyese, el infierno se derrumbaría sobre sí mismo en pocos minutos, sepultando allí a todo el que quedase en su interior. Un Duque infernal sólo puede tener un infierno particular y, en caso de perderlo, su Gnosis queda temporalmente reducido a la mitad y debe de esperar varios siglos antes de recuperar sus fuerzas. Invocación: Mientras esté en el interior de su Infierno un Duque no puede ser afectado por habilidades de convocatoria, salvo si el propio demonio lo permite.\n\nLas criaturas con Gnosis 40 o superior pueden ignorar esta regla. Sacrificio Impío: El Duque puede absorber las almas de algunas personas para incrementar sus capacidades. En el momento en el que acaba con la vida de un sujeto, el alto demonio devora su esencia para reforzar temporalmente sus capacidades, obteniendo un bono a toda acción equivalente al bonificador de la característica de Poder o bien un incremento equivalente a su ACT. Especialidad Demoníaca: Los Duques infernales pueden poseer multitud de poderes diferentes. A continuación se enumeran tres posibilidades, de las que el demonio debe de escoger una. -a rMas f ísi Cas i nf Ernal Es : Los Duques más habituados al combate personal poseen un arma que se forma a partir de su propia esencia.\n\nPueden ser cualquier cosa imaginable; desde espadas demoniacas que brotan desde el interior de sus cuerpos hasta alas de cuchillas y tinieblas. Pese a ser armas físicas, se consideran de calidad +1 5 con todo lo que ello conlleva (incrementan en +30 su Daño Base, incrementan en +1 5 la Habilidad de Ataque y Parada del demonio y disminuyen tres puntos el tipo de Armadura del defensor) además de atacar en la Tabla de Energía. -MaEstro dEl p odEr i nfErnal : Los Duques demoniacos que se especializan en la magia obtienen un bono de +40 a su Proyección Mágica así como a la Habilidad natural Proyección Mágica como defensa. Además, obtienen hasta 50 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos hayan cumplido. -Monstruoso : El Duque es una verdadera monstruosidad dotado de aterradores atributos.\n\nEn consecuencia, posee el equivalente a 200 PD para adquirir poderes de monstruo. DEm onios (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 50</p><p><strong>Entrada:</strong> Duque Infernal</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 30</p><p><strong>Categoría:</strong> Warlock Fue: 11 Des: 12 Agi: 12 Con: 11 Pod: 13 Int: 13 Vol: 8 Per: 9 RF 100 RM 105 RP 90 RV 100 RE 100</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad, Inutilidad Somática, Inutilidad Oral.</p><p><strong>Poderes:</strong> Armas Naturales (+20 al Daño), Daña Energía, Inmunidad Infernal (Presencia Inferior a 120), Apariencia Humana (Metamorfismo Básico, Condicionado), Infierno, Invocación, Sacrificio Impío, Especialidad Demoníaca, Ver Espíritus, Ver el Pecado.</p><p><strong>Daño:</strong> 80 Armas Demoníacas</p><p><strong>TA:</strong> Armadura Demoníaca Fil 2 Con 2 Pen 2 Cal 2 Fri 2 Ele 2 Ene 2</p><p><strong>Habilidades secundarias:</strong> Estilo 80, Intimidar 55, Liderazgo 150, Advertir 50, Buscar 50, Ocultismo 200, Historia 200, Valoración Mágica 150</p><p><strong>Descripción breve:</strong> “Duque Infernal” es el título que reciben normalmente los grandes demonios de Tercera Jerarquía que reinan sobre los demás seres infernales. Se trata de entidades tremendamente poderosas y antiguas que han interactuado con el hombre desde hace milenios; la más alta nobleza entre los demonios. Pese a que todas se engloban dentro de un grupo, en realidad estas criaturas son muy diferentes las unas de las otras; cada una tiene sus propios intereses, una personalidad distinta y su particular manera de hacer las cosas. De hecho, lo único que tienen en común es la rebosante maldad que hay en sus almas y el enorme poder personal que ostentan. Por supuesto, suelen ser tremendamente inteligentes y poseen la capacidad de comunicarse en prácticamente todos los idiomas conocidos. El aspecto físico de los Duques infernales también es muy variado, si bien la mayoría tiene formas humanoides con alguna característica demoníaca como alas, cuernos o cualquier otra particularidad monstruosa. Habitualmente cada uno controla un territorio determinado de Gaïa desde su “infierno privado”, el lugar que utilizan como base de operaciones para organizar las acciones de sus subordinados. Es extremadamente raro que se aventuren a salir fuera de sus “reinos”, pues para cualquier cosa que deseen hacer tienen a su disposición a infinidad de demonios servidores. Eso no significa que sean incapaces de caminar por el mundo real, sólo que la precaución de milenios de existencia les impulsa a ser cautos en un plano de existencia donde su poder es mucho menor. Se desconoce el número exacto de Duques Infernales que existen, pero al menos han de haber alrededor de dieciocho de ellos. m oduS oPerandiCadaDuque actúa con un particular estilo personal por lo que es imposible encontrar un modus operandi general para ellos. También es importante puntualizar que las estadísticas reflejadas en este apartado únicamente hacen referencia al nivel de poder y habilidades medias de estas criaturas. Es perfectamente posible que haya demonios considerados de Tercera Jerarquía que poco o nada tengan que ver con lo que aquí se denomina “Duque Infernal”. Demonios Inmunidad Infernal: Sólo criaturas o armas extremadamente poderosas son capaces de dañar a un Duque Infernal. En consecuencia, únicamente los ataques que posean una presencia 120 o superior o conjuros capaces de dañar energía pueden afectarle. Ver el Pecado: Los demonios de Tercera Jerarquía pueden reconocer el mal intrínseco en el alma de las personas simplemente mirándolas a los ojos u “oliendo” su aura. Si se da cualquiera de ambos casos, el afectado debe superar una RM o RP contra 140 o el Duque obtendrá información sobre todos los hechos que este haya realizado que le provoquen sentimientos de culpabilidad o sean de naturaleza verdaderamente maligna. Apariencia Humana: Algunos Duques pueden adquirir apariencia humana a voluntad, aunque por lo general están obligados a tomar siempre el mismo aspecto. Infierno: Mediante su poder demoníaco, el Duque puede convertir un emplazamiento cargado con sentimientos negativos en su infierno particular. Esto hace que toda una ubicación determinada sea trasportada a un punto intermedio entre La Vigilia y el mundo real donde el demonio es prácticamente un dios. En su interior el Duque lo controla todo como si tuviera Gnosis 40 (además del resto de poderes que ello conlleva) y puede invocar innatamente a demonios de Quinta Jerarquía que estén a su servicio. Este “infierno” artificial toma siempre un aspecto afín a la naturaleza y personalidad del Duque, que puede ser desde un paraje de sangre, vísceras y llantos de bebés, a un palacio refinado de la más exquisita belleza. Nunca pueden tener más de un kilómetro de radio, pero en su interior a veces el espacio se deforma de un modo innatural. Para entrar y salir de estos lugares hay que, o bien ser invitados por el demonio, o bien hayar una “entrada” (al menos, siempre debe de haber una en las inmediaciones) cumplimentando ciertos requisitos. Estos infiernos están atados a un objeto o persona (al que se llama habitualmente “El Gran Condenado”) que se encuentra en algún lugar de su interior. Si alguien lo matase o destruyese, el infierno se derrumbaría sobre sí mismo en pocos minutos, sepultando allí a todo el que quedase en su interior. Un Duque infernal sólo puede tener un infierno particular y, en caso de perderlo, su Gnosis queda temporalmente reducido a la mitad y debe de esperar varios siglos antes de recuperar sus fuerzas. Invocación: Mientras esté en el interior de su Infierno un Duque no puede ser afectado por habilidades de convocatoria, salvo si el propio demonio lo permite. Las criaturas con Gnosis 40 o superior pueden ignorar esta regla. Sacrificio Impío: El Duque puede absorber las almas de algunas personas para incrementar sus capacidades. En el momento en el que acaba con la vida de un sujeto, el alto demonio devora su esencia para reforzar temporalmente sus capacidades, obteniendo un bono a toda acción equivalente al bonificador de la característica de Poder o bien un incremento equivalente a su ACT. Especialidad Demoníaca: Los Duques infernales pueden poseer multitud de poderes diferentes. A continuación se enumeran tres posibilidades, de las que el demonio debe de escoger una. -a rMas f ísi Cas i nf Ernal Es : Los Duques más habituados al combate personal poseen un arma que se forma a partir de su propia esencia. Pueden ser cualquier cosa imaginable; desde espadas demoniacas que brotan desde el interior de sus cuerpos hasta alas de cuchillas y tinieblas. Pese a ser armas físicas, se consideran de calidad +15 con todo lo que ello conlleva (incrementan en +30 su Daño Base, incrementan en +15 la Habilidad de Ataque y Parada del demonio y disminuyen tres puntos el tipo de Armadura del defensor) además de atacar en la Tabla de Energía. -MaEstro dEl p odEr i nfErnal : Los Duques demoniacos que se especializan en la magia obtienen un bono de +40 a su Proyección Mágica así como a la Habilidad natural Proyección Mágica como defensa. Además, obtienen hasta 50 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos hayan cumplido. -Monstruoso : El Duque es una verdadera monstruosidad dotado de aterradores atributos. En consecuencia, posee el equivalente a 200 PD para adquirir poderes de monstruo. DEm onios</p></section><details><summary>Texto extraído</summary><pre>Nivel: 11\n\nClase: Entre mundos 30 Puntos de Vida: 240 Categoría: Warlock Fue: 11 Des: 12 Agi: 12 Con: 11 Pod: 13 Int: 13 Vol: 8 Per: 9 RF 100 RM 105 RP 90 RV 100 RE 100\n\nTurno: 1 35 Natural Habilidad de ataque: 270 Armas Naturales Habilidad de defensa: 260 Esquiva Daño: 80 Armas Demoníacas TA: Armadura Demoníaca Fil 2 Con 2 Pen 2 Cal 2 Fri 2 Ele 2 Ene 2 ACT: 75\n\nZeon: 1.370\n\nProyección mágica: 220 Ofensiva Nivel de Vía: Variable (Nivel total 1 50) Habilidades naturales: Proyección Mágica como Ataque. Habilidades esenciales: Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad, Inutilidad Somática, Inutilidad Oral. Poderes: Armas Naturales (+20 al Daño), Daña Energía, Inmunidad Infernal (Presencia Inferior a 120), Apariencia Humana (Metamorfismo Básico, Condicionado), Infierno, Invocación, Sacrificio Impío, Especialidad Demoníaca, Ver Espíritus, Ver el Pecado.\n\nTamaño: 22 Medio Regeneración: 4 Tipo de movimiento: 12 Cansancio: Incansable Habilidades Secundarias: Estilo 80, Intimidar 55, Liderazgo 1 50, Advertir 50, Buscar 50, Ocultismo 200, Historia 200, Valoración Mágica 1 50. “Duque Infernal” es el título que reciben normalmente los grandes demonios de Tercera Jerarquía que reinan sobre los demás seres infernales. Se trata de entidades tremendamente poderosas y antiguas que han interactuado con el hombre desde hace milenios; la más alta nobleza entre los demonios. Pese a que todas se engloban dentro de un grupo, en realidad estas criaturas son muy diferentes las unas de las otras; cada una tiene sus propios intereses, una personalidad distinta y su particular manera de hacer las cosas. De hecho, lo único que tienen en común es la rebosante maldad que hay en sus almas y el enorme poder personal que ostentan.\n\nPor supuesto, suelen ser tremendamente inteligentes y poseen la capacidad de comunicarse en prácticamente todos los idiomas conocidos. El aspecto físico de los Duques infernales también es muy variado, si bien la mayoría tiene formas humanoides con alguna característica demoníaca como alas, cuernos o cualquier otra particularidad monstruosa. Habitualmente cada uno controla un territorio determinado de Gaïa desde su “infierno privado”, el lugar que utilizan como base de operaciones para organizar las acciones de sus subordinados. Es extremadamente raro que se aventuren a salir fuera de sus “reinos”, pues para cualquier cosa que deseen hacer tienen a su disposición a infinidad de demonios servidores.\n\nEso no significa que sean incapaces de caminar por el mundo real, sólo que la precaución de milenios de existencia les impulsa a ser cautos en un plano de existencia donde su poder es mucho menor. Se desconoce el número exacto de Duques Infernales que existen, pero al menos han de haber alrededor de dieciocho de ellos. m oduS oPerandiCadaDuque actúa con un particular estilo personal por lo que es imposible encontrar un modus operandi general para ellos. También es importante puntualizar que las estadísticas reflejadas en este apartado únicamente hacen referencia al nivel de poder y habilidades medias de estas criaturas. Es perfectamente posible que haya demonios considerados de Tercera Jerarquía que poco o nada tengan que ver con lo que aquí se denomina “Duque Infernal”.\n\nDemonios (order #3443007) Inmunidad Infernal: Sólo criaturas o armas extremadamente poderosas son capaces de dañar a un Duque Infernal. En consecuencia, únicamente los ataques que posean una presencia 120 o superior o conjuros capaces de dañar energía pueden afectarle. Ver el Pecado: Los demonios de Tercera Jerarquía pueden reconocer el mal intrínseco en el alma de las personas simplemente mirándolas a los ojos u “oliendo” su aura. Si se da cualquiera de ambos casos, el afectado debe superar una RM o RP contra 1 40 o el Duque obtendrá información sobre todos los hechos que este haya realizado que le provoquen sentimientos de culpabilidad o sean de naturaleza verdaderamente maligna. Apariencia Humana: Algunos Duques pueden adquirir apariencia humana a voluntad, aunque por lo general están obligados a tomar siempre el mismo aspecto.\n\nInfierno: Mediante su poder demoníaco, el Duque puede convertir un emplazamiento cargado con sentimientos negativos en su infierno particular. Esto hace que toda una ubicación determinada sea trasportada a un punto intermedio entre La Vigilia y el mundo real donde el demonio es prácticamente un dios. En su interior el Duque lo controla todo como si tuviera Gnosis 40 (además del resto de poderes que ello conlleva) y puede invocar innatamente a demonios de Quinta Jerarquía que estén a su servicio. Este “infierno” artificial toma siempre un aspecto afín a la naturaleza y personalidad del Duque, que puede ser desde un paraje de sangre, vísceras y llantos de bebés, a un palacio refinado de la más exquisita belleza. Nunca pueden tener más de un kilómetro de radio, pero en su interior a veces el espacio se deforma de un modo innatural.\n\nPara entrar y salir de estos lugares hay que, o bien ser invitados por el demonio, o bien hayar una “entrada” (al menos, siempre debe de haber una en las inmediaciones) cumplimentando ciertos requisitos. Estos infiernos están atados a un objeto o persona (al que se llama habitualmente “El Gran Condenado”) que se encuentra en algún lugar de su interior. Si alguien lo matase o destruyese, el infierno se derrumbaría sobre sí mismo en pocos minutos, sepultando allí a todo el que quedase en su interior. Un Duque infernal sólo puede tener un infierno particular y, en caso de perderlo, su Gnosis queda temporalmente reducido a la mitad y debe de esperar varios siglos antes de recuperar sus fuerzas. Invocación: Mientras esté en el interior de su Infierno un Duque no puede ser afectado por habilidades de convocatoria, salvo si el propio demonio lo permite.\n\nLas criaturas con Gnosis 40 o superior pueden ignorar esta regla. Sacrificio Impío: El Duque puede absorber las almas de algunas personas para incrementar sus capacidades. En el momento en el que acaba con la vida de un sujeto, el alto demonio devora su esencia para reforzar temporalmente sus capacidades, obteniendo un bono a toda acción equivalente al bonificador de la característica de Poder o bien un incremento equivalente a su ACT. Especialidad Demoníaca: Los Duques infernales pueden poseer multitud de poderes diferentes. A continuación se enumeran tres posibilidades, de las que el demonio debe de escoger una. -a rMas f ísi Cas i nf Ernal Es : Los Duques más habituados al combate personal poseen un arma que se forma a partir de su propia esencia.\n\nPueden ser cualquier cosa imaginable; desde espadas demoniacas que brotan desde el interior de sus cuerpos hasta alas de cuchillas y tinieblas. Pese a ser armas físicas, se consideran de calidad +1 5 con todo lo que ello conlleva (incrementan en +30 su Daño Base, incrementan en +1 5 la Habilidad de Ataque y Parada del demonio y disminuyen tres puntos el tipo de Armadura del defensor) además de atacar en la Tabla de Energía. -MaEstro dEl p odEr i nfErnal : Los Duques demoniacos que se especializan en la magia obtienen un bono de +40 a su Proyección Mágica así como a la Habilidad natural Proyección Mágica como defensa. Además, obtienen hasta 50 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos hayan cumplido. -Monstruoso : El Duque es una verdadera monstruosidad dotado de aterradores atributos.\n\nEn consecuencia, posee el equivalente a 200 PD para adquirir poderes de monstruo. DEm onios (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +410,6 @@
           }
         }
       ],
-      "level": {
-        "value": 11
-      },
       "notes": [
         {
           "_id": "note-duque-infernal-2",
@@ -507,52 +435,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -563,9 +475,6 @@
         "initiative": {
           "base": {
             "value": 135
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -616,10 +525,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -627,10 +533,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -638,10 +541,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 100035
+              "value": 100135
             },
             "final": {
               "value": 0
@@ -649,10 +549,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 105
             },
             "final": {
               "value": 0
@@ -660,10 +557,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 90
             },
             "final": {
               "value": 0
@@ -675,218 +569,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 270
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 260
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -917,11 +1048,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -933,16 +1060,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 1370,
         "max": 1370
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -954,14 +1086,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1066,15 +1195,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1086,37 +1211,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1239,9 +1384,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

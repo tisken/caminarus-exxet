@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +144,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +164,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 65
         }
       },
       "aspect": {
@@ -274,7 +198,7 @@
           "value": ""
         },
         "size": {
-          "value": 12
+          "value": "12"
         }
       },
       "advantages": [],
@@ -292,7 +216,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 147</p><p><strong>Entrada:</strong> Señor de las Pesadillas Dementia</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 30/40</p><p><strong>Categoría:</strong> Mentalista Fue: 5 Des: 5 Agi: 5 Con: - Pod: 13 Int: 13 Vol: 13 Per: 13 RF 90 RM 90 RP 90 RV 90 RE 90</p><p><strong>Habilidades esenciales:</strong> Características Anímicas Sobrehumanas, Exención Física, Miembros Atrofiados.</p><p><strong>Poderes:</strong> Alteración Existencial, Vuelo Místico 6, Invisible a los Ojos del Hombre (Invisibilidad Espiritual, No Funciona Ante Una Situación), Aura de Demencia (Aura Variable, RP Variable, Locura, Condición adicional), Cambio de Lugar, Sombras, Hoces de la Locura, Señor de los Locos, Estigma de Locos, Sabiduría de los Locos, Señor de las Pesadillas.</p><p><strong>Daño:</strong> Ninguno</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Ninguna (Especial)</p><p><strong>Descripción breve:</strong> Dementia es el extraño Señor de las Pesadillas que rige sobre la locura, un espíritu enigmático y monstruoso totalmente imprevisible. Se cree que fue originariamente un renombrado psicólogo que, de algún modo, entró en sincronización con el mismo concepto de la demencia (aunque hay quienes piensan que nunca fue un mortal para empezar). Si bien no posee una capacidad combativa equiparable a los Señores de las Pesadillas más importantes, lo cierto es que sus poderes son terroríficos; al contrario que sus iguales Dementia se manifiesta en el mundo real con asiduidad. Cuando aparece toma el aspecto de un ángel macilento de alas de hueso, atado con vendas y cadenas que simulan ser una especie de camisa de fuerza. Además, siempre cuelga bocabajo de algún techo, en una burda parodia que trata de desafiar todas las reglas de la lógica. La personalidad de la entidad está determinada por las emociones que la sustentan; tal y como se puede presuponer, está completamente desquiciado y no se comunica con nadie más que con otros locos y psicópatas. No tiene interés por incrementar su poder ni en competir con sus iguales. Extender la locura por el mundo es lo único que le hace feliz. Dementia carece en estos momentos de una zona de influencia propia en La Vigilia. Por el contrario, se traslada continuamente de un lugar a otro alimentándose de espacios donde la locura es notablemente elevada. Finalmente, cuando ha obtenido suficiente fuerza como para abrir una brecha hacia el mundo real, se manifiesta en Gaïa. Sus apariciones en este sentido son bastante imprevisibles, si bien suele sentirse atraído por los lugares más extremos; sitios donde la locura es muy elevada (como manicomios o instituciones psiquiátricas), o por el contrario parajes extremadamente pacíficos. m oduS oPerandiDementia siempre sigue las mismas pautas de actuación. Normalmente elige un gran edificio como residencia temporal, apareciendo en el desván o en el sótano, y comienza a extender su presencia por toda la construcción sumiendo lentamente en la locura a sus habitantes. A veces puede incluso tardar una semana en lograrlo, pero mientras la gente va sufriendo pesadillas y tiene visiones extrañas que presagian su triste sino. Cuando alguien pierde finalmente la cordura, Dementia manipula sus emociones para extender, si cabe aún más, la sensación de desasosiego entre los demás. De ser necesario, la entidad puede incluso crear avatares suyos en otros edificios cercanos o en diferentes sitios de la construcción para acelerar el proceso. Finalmente, en lo que la entidad denomina “la noche del delirio”, Dementia empuja a todos los locos a matarse mutuamente o a quitarse la vida, dando comienzo a una orgía de locura y sangre. Naturalmente, si aún quedan personas “cuerdas”, son las primeras víctimas de los psicópatas. Sólo en raras ocasiones hay supervivientes; individuos trastornados de por vida que vagan por el mundo como asesinos en serie. Puesto que la gente no suele ser capaz de verle, el Señor de las Pesadillas no tiene la necesidad de protegerse pero, en caso de que haya alguien que trate de hacer pesquisas sobre lo que ocurre, empuja a alguno de los locos a asesinarlo. De considerar que existe algún peligro serio, usa sus Hoces de la Locura para otorgar poderes sobrenaturales a algunos de los locos potencialmente más peligrosos. Con ellos, trata de acabar con la posible molestia y se protege al mismo tiempo de un posible contratiempo inesperado, como el ser encontrado por alguien capaz de verle. Alteración Existencial: Dementia existe entre la realidad y La Vigilia, fluctuando como una sombra inalcanzable entre ambos mundos. Esta inusual capacidad le permite ser prácticamente inmune ante cualquier tipo de ataque convencional; incluso permaneciendo inmóvil en todo momento, los golpes, conjuros y poderes que lo tienen como objetivo simplemente son incapaces de alcanzarle. Atérminos de juego, Dementia no se defiende de manera convencional (es decir, nunca trata de parar o esquivar los ataques), pero todo aquel que inicie una acción ofensiva en su contra ha de restar automáticamente 250 puntos a su habilidad de ataque final. Este modificador no se altera negativa o positivamente bajo ninguna circunstancia, ya sea por sufrir múltiples ataques, impactos por sorpresa o situaciones similares. Seres con Gnosis 35 o superior ignoran esta capacidad, por lo que podrían acabar fácilmente con el Portador de la Locura mientras está en el mundo real. Cambio de Lugar: La forma real de Dementia permanece siempre quieta en el mismo lugar en el que se ha manifestado originariamente, pero si lo necesita es capaz de cambiar de ubicación creando un bucle en el espacio y “saltando” hasta otro sitio cercano. Para hacerlo, es necesario que haya una persona afectada por la locura que produce la entidad y que esté a menos de 150 metros de su posición actual. Atodos los efectos, este movimiento actúa como un teletransporte, aunque en contra de lo que es habitual, puede pasar a través de lugares protegidos sobrenaturalmente. Sólo las barreras más poderosas son capaces de detener este transporte. El salto dura un turno completo; una vez que lo declara, no tiene lugar hasta que el asalto ha finalizado por completo. En La Vigilia este poder no tiene límite de distancia alguno, pues se traslada con libertad allá donde sienta una fuerte locura. Aura de Demencia: Cuando se manifiesta en un lugar Dementia comienza a extender su presencia, expandiéndola poco a poco como una maléfica sombra que carcome la cordura de las personas. El tiempo que tarda en llevar a cabo este proceso es muy aleatorio; a veces no requiere nada más que unos minutos y otras días enteros. Curiosamente, el aura no tiene un alcance determinado por el espacio, pues sus límites se fijan siempre en una construcción; puede ser que afecte sólo a un hospital, una aldea amurallada, un complejo subterráneo… Sea como sea, cualquiera que se encuentre en su interior ha de superar cada diez minutos un control de RP contra 80, cuya dificultad se irá incrementando paulatinamente 5 puntos (hasta un máximo de 140) cada vez que alguien la supere. Cuando un individuo falla cualquiera de los controles empieza a ser afectado sin darse cuenta por la demencia de la entidad, empezando a tener visiones, escuchar voces extrañas y a alterar su percepción de la realidad hasta que entra en un estado de psicosis compulsiva. Esto sigue así hasta que falle el control de RP por una diferencia superior a 60 puntos, en cuyo caso la persona se hunde por completo en la locura más absoluta por el resto de sus días. José María Solano Albares Sombras: Tras aparecer en el mundo material Dementia puede proyectar varias imágenes de si mismo a diferentes lugares a no más de un kilómetro de distancia. Cada una de estas “sombras” tiene los mismos poderes que el original, pero la dificultad de la RP que producen es siempre 20 puntos más baja y sólo requieren sufrir un punto de daño para ser destruidos. El máximo número de imágenes que la criatura puede generar cada vez que se manifiesta nunca puede ser superior a tres. Invisible a los Ojos del Hombre: Dementia es invisible a los ojos de personas normales, y sólo aquellos que pueden ver espíritus tienen una oportunidad de percibirlo (aunque igualmente, han de superar un control de RM contra 120 para lograrlo). Sin embargo, cualquiera que se encuentre en un estado cercano a la locura puede ver la forma, más o menos clara dependiendo de lo demente que este, de la entidad. Hoces de la Locura: Aunque durante sus manifestaciones en la realidad no tiene ninguna habilidad que le permita atacar directamente a nadie, la entidad posee dos extraños artefactos que, a falta de una denominación mejor, se han dado a llamar Hoces de la Locura. Se trata de dos cuchillas unidas a las cadenas que rodean aDementia, quien puede desplazarlas libremente dentro de su zona de influencia. No se sabe si son objetos independientes al ser o forman parte de su cuerpo (siendo así poco más que una extraña representación de su poder). Sea como sea, el Portador de la Locura puede conectarlas a cualquier persona que se encuentre sumida en una profunda psicosis (más exactamente, se clavan en su nuca), alterando su cuerpo y otorgándole tanto poderes sobrehumanos como una apariencia monstruosa. Cada persona cambia de un modo diferente dependiendo del origen y naturaleza de su locura, pero siempre sus poderes y habilidades dependen de su oscuridad innata. Las Hoces de la Locura se benefician también de la regla Invisible a los Ojos del Hombre y de la Alteración Existencial, en caso de que alguien quiera atacar la cadena que une al loco con Dementia para poner fin a la transformación. Señor de los Locos: Dementia puede influenciar sutilmente las visiones y sensaciones que tienen los locos, haciéndoles ver y escuchar aquello que la entidad desee. Normalmente, simplemente explorará los recuerdos más oscuros de las personas para que se adentren aún más en su espiral de demencia, pero también puede empujarlos psicóticamente a atacar a aquellos que no hayan sido afectados por la locura y estén siendo una molestia para sus planes. Estigma de Locos: Una persona afectada por un grado de locura extremo (como el de alguien que ha fallado el control de RP de Aura de Demencia por más de 60 puntos) es completamente incapaz de dañar aDementia de ningún modo conocido. Aquellos que sólo están parcialmente trastornados le causan únicamente la mitad de daño. Sabiduría de los Locos: Dementia puede hacer uso del valor de cualquier habilidad secundaria que posea una persona demente dentro de su zona de influencia. Señor de las Pesadillas: En La Vigilia, dentro de una zona que se encuentre mayoritariamente dominada por oscuridad y locura, el Gnosis de Dementia se incrementa hasta 40 (obteniendo todos los poderes que ello le proporciona). Adicionalmente, allí no puede ser destruido por ninguna entidad que, como mínimo, iguale dicho valor gnóstico. r elación con e l p rimer c aos Aparentemente hay una relación directa entre Dementia y el enigmático Mensajero XVIIIElPrimerCaos, sin bien se ignora hasta donde llega su unión. Se especula que el objetivo del Portador de la Locura podría ser atraer al Mensajero al mundo mermando tanto la cordura de las personas que llamase la atención de la hermética entidad.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Ánima 30/40 Puntos de Vida: 215 Categoría: Mentalista Fue: 5 Des: 5 Agi: 5 Con: - Pod: 13 Int: 13 Vol: 13 Per: 13 RF 90 RM 90 RP 90 RV 90 RE 90\n\nTurno: 80 Natural Habilidad de ataque: Ninguna Habilidad de defensa: Ninguna Daño: Ninguno TA: Ninguna Habilidades esenciales: Características Anímicas Sobrehumanas, Exención Física, Miembros Atrofiados. Poderes: Alteración Existencial, Vuelo Místico 6, Invisible a los Ojos del Hombre (Invisibilidad Espiritual, No Funciona Ante Una Situación), Aura de Demencia (Aura Variable, RP Variable, Locura, Condición adicional), Cambio de Lugar, Sombras, Hoces de la Locura, Señor de los Locos, Estigma de Locos, Sabiduría de los Locos, Señor de las Pesadillas.\n\nTamaño: 12 Medio Regeneración: 1 Tipo de movimiento: 0 Cansancio: Incansable Habilidades Secundarias: Ninguna (Especial). Dementia es el extraño Señor de las Pesadillas que rige sobre la locura, un espíritu enigmático y monstruoso totalmente imprevisible. Se cree que fue originariamente un renombrado psicólogo que, de algún modo, entró en sincronización con el mismo concepto de la demencia (aunque hay quienes piensan que nunca fue un mortal para empezar). Si bien no posee una capacidad combativa equiparable a los Señores de las Pesadillas más importantes, lo cierto es que sus poderes son terroríficos; al contrario que sus iguales Dementia se manifiesta en el mundo real con asiduidad. Cuando aparece toma el aspecto de un ángel macilento de alas de hueso, atado con vendas y cadenas que simulan ser una especie de camisa de fuerza.\n\nAdemás, siempre cuelga bocabajo de algún techo, en una burda parodia que trata de desafiar todas las reglas de la lógica. La personalidad de la entidad está determinada por las emociones que la sustentan; tal y como se puede presuponer, está completamente desquiciado y no se comunica con nadie más que con otros locos y psicópatas. No tiene interés por incrementar su poder ni en competir con sus iguales. Extender la locura por el mundo es lo único que le hace feliz. Dementia carece en estos momentos de una zona de influencia propia en La Vigilia. Por el contrario, se traslada continuamente de un lugar a otro alimentándose de espacios donde la locura es notablemente elevada. Finalmente, cuando ha obtenido suficiente fuerza como para abrir una brecha hacia el mundo real, se manifiesta en Gaïa.\n\nSus apariciones en este sentido son bastante imprevisibles, si bien suele sentirse atraído por los lugares más extremos; sitios donde la locura es muy elevada (como manicomios o instituciones psiquiátricas), o por el contrario parajes extremadamente pacíficos. m oduS oPerandiDementia siempre sigue las mismas pautas de actuación. Normalmente elige un gran edificio como residencia temporal, apareciendo en el desván o en el sótano, y comienza a extender su presencia por toda la construcción sumiendo lentamente en la locura a sus habitantes. A veces puede incluso tardar una semana en lograrlo, pero mientras la gente va sufriendo pesadillas y tiene visiones extrañas que presagian su triste sino. Cuando alguien pierde finalmente la cordura, Dementia manipula sus emociones para extender, si cabe aún más, la sensación de desasosiego entre los demás.\n\nDe ser necesario, la entidad puede incluso crear avatares suyos en otros edificios cercanos o en diferentes sitios de la construcción para acelerar el proceso. Finalmente, en lo que la entidad denomina “la noche del delirio”, Dementia empuja a todos los locos a matarse mutuamente o a quitarse la vida, dando comienzo a una orgía de locura y sangre. Naturalmente, si aún quedan personas “cuerdas”, son las primeras víctimas de los psicópatas. Sólo en raras ocasiones hay supervivientes; individuos trastornados de por vida que vagan por el mundo como asesinos en serie. Puesto que la gente no suele ser capaz de verle, el Señor de las Pesadillas no tiene la necesidad de protegerse pero, en caso de que haya alguien que trate de hacer pesquisas sobre lo que ocurre, empuja a alguno de los locos a asesinarlo.\n\nDe considerar que existe algún peligro serio, usa sus Hoces de la Locura para otorgar poderes sobrenaturales a algunos de los locos potencialmente más peligrosos. Con ellos, trata de acabar con la posible molestia y se protege al mismo tiempo de un posible contratiempo inesperado, como el ser encontrado por alguien capaz de verle. Alteración Existencial: Dementia existe entre la realidad y La Vigilia, fluctuando como una sombra inalcanzable entre ambos mundos. Esta inusual capacidad le permite ser prácticamente inmune ante cualquier tipo de ataque convencional; incluso permaneciendo inmóvil en todo momento, los golpes, conjuros y poderes que lo tienen como objetivo simplemente son incapaces de alcanzarle.\n\nAtérminos de juego, Dementia no se defiende de manera convencional (es decir, nunca trata de parar o esquivar los ataques), pero todo aquel que inicie una acción ofensiva en su contra ha de restar automáticamente 250 puntos a su habilidad de ataque final. Este modificador no se altera negativa o positivamente bajo ninguna circunstancia, ya sea por sufrir múltiples ataques, impactos por sorpresa o situaciones similares. Seres con Gnosis 35 o superior ignoran esta capacidad, por lo que podrían acabar fácilmente con el Portador de la Locura mientras está en el mundo real. Cambio de Lugar: La forma real de Dementia permanece siempre quieta en el mismo lugar en el que se ha manifestado originariamente, pero si lo necesita es capaz de cambiar de ubicación creando un bucle en el espacio y “saltando” hasta otro sitio cercano.\n\nPara hacerlo, es necesario que haya una persona afectada por la locura que produce la entidad y que esté a menos de 1 50 metros de su posición actual. Atodos los efectos, este movimiento actúa como un teletransporte, aunque en contra de lo que es habitual, puede pasar a través de lugares protegidos sobrenaturalmente. Sólo las barreras más poderosas son capaces de detener este transporte. El salto dura un turno completo; una vez que lo declara, no tiene lugar hasta que el asalto ha finalizado por completo. En La Vigilia este poder no tiene límite de distancia alguno, pues se traslada con libertad allá donde sienta una fuerte locura. Aura de Demencia: Cuando se manifiesta en un lugar Dementia comienza a extender su presencia, expandiéndola poco a poco como una maléfica sombra que carcome la cordura de las personas.\n\nEl tiempo que tarda en llevar a cabo este proceso es muy aleatorio; a veces no requiere nada más que unos minutos y otras días enteros. Curiosamente, el aura no tiene un alcance determinado por el espacio, pues sus límites se fijan siempre en una construcción; puede ser que afecte sólo a un hospital, una aldea amurallada, un complejo subterráneo… Sea como sea, cualquiera que se encuentre en su interior ha de superar cada diez minutos un control de RP contra 80, cuya dificultad se irá incrementando paulatinamente 5 puntos (hasta un máximo de 1 40) cada vez que alguien la supere. Cuando un individuo falla cualquiera de los controles empieza a ser afectado sin darse cuenta por la demencia de la entidad, empezando a tener visiones, escuchar voces extrañas y a alterar su percepción de la realidad hasta que entra en un estado de psicosis compulsiva.\n\nEsto sigue así hasta que falle el control de RP por una diferencia superior a 60 puntos, en cuyo caso la persona se hunde por completo en la locura más absoluta por el resto de sus días. José María Solano Albares (order #3443007) Sombras: Tras aparecer en el mundo material Dementia puede proyectar varias imágenes de si mismo a diferentes lugares a no más de un kilómetro de distancia. Cada una de estas “sombras” tiene los mismos poderes que el original, pero la dificultad de la RP que producen es siempre 20 puntos más baja y sólo requieren sufrir un punto de daño para ser destruidos. El máximo número de imágenes que la criatura puede generar cada vez que se manifiesta nunca puede ser superior a tres.\n\nInvisible a los Ojos del Hombre: Dementia es invisible a los ojos de personas normales, y sólo aquellos que pueden ver espíritus tienen una oportunidad de percibirlo (aunque igualmente, han de superar un control de RM contra 120 para lograrlo). Sin embargo, cualquiera que se encuentre en un estado cercano a la locura puede ver la forma, más o menos clara dependiendo de lo demente que este, de la entidad. Hoces de la Locura: Aunque durante sus manifestaciones en la realidad no tiene ninguna habilidad que le permita atacar directamente a nadie, la entidad posee dos extraños artefactos que, a falta de una denominación mejor, se han dado a llamar Hoces de la Locura. Se trata de dos cuchillas unidas a las cadenas que rodean aDementia, quien puede desplazarlas libremente dentro de su zona de influencia.\n\nNo se sabe si son objetos independientes al ser o forman parte de su cuerpo (siendo así poco más que una extraña representación de su poder). Sea como sea, el Portador de la Locura puede conectarlas a cualquier persona que se encuentre sumida en una profunda psicosis (más exactamente, se clavan en su nuca), alterando su cuerpo y otorgándole tanto poderes sobrehumanos como una apariencia monstruosa. Cada persona cambia de un modo diferente dependiendo del origen y naturaleza de su locura, pero siempre sus poderes y habilidades dependen de su oscuridad innata. Las Hoces de la Locura se benefician también de la regla Invisible a los Ojos del Hombre y de la Alteración Existencial, en caso de que alguien quiera atacar la cadena que une al loco con Dementia para poner fin a la transformación.\n\nSeñor de los Locos: Dementia puede influenciar sutilmente las visiones y sensaciones que tienen los locos, haciéndoles ver y escuchar aquello que la entidad desee. Normalmente, simplemente explorará los recuerdos más oscuros de las personas para que se adentren aún más en su espiral de demencia, pero también puede empujarlos psicóticamente a atacar a aquellos que no hayan sido afectados por la locura y estén siendo una molestia para sus planes. Estigma de Locos: Una persona afectada por un grado de locura extremo (como el de alguien que ha fallado el control de RP de Aura de Demencia por más de 60 puntos) es completamente incapaz de dañar aDementia de ningún modo conocido. Aquellos que sólo están parcialmente trastornados le causan únicamente la mitad de daño.\n\nSabiduría de los Locos: Dementia puede hacer uso del valor de cualquier habilidad secundaria que posea una persona demente dentro de su zona de influencia. Señor de las Pesadillas: En La Vigilia, dentro de una zona que se encuentre mayoritariamente dominada por oscuridad y locura, el Gnosis de Dementia se incrementa hasta 40 (obteniendo todos los poderes que ello le proporciona). Adicionalmente, allí no puede ser destruido por ninguna entidad que, como mínimo, iguale dicho valor gnóstico. r elación con e l p rimer c aos Aparentemente hay una relación directa entre Dementia y el enigmático Mensajero XVIIIElPrimerCaos, sin bien se ignora hasta donde llega su unión. Se especula que el objetivo del Portador de la Locura podría ser atraer al Mensajero al mundo mermando tanto la cordura de las personas que llamase la atención de la hermética entidad. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 147</p><p><strong>Entrada:</strong> Señor de las Pesadillas Dementia</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 30/40</p><p><strong>Categoría:</strong> Mentalista Fue: 5 Des: 5 Agi: 5 Con: - Pod: 13 Int: 13 Vol: 13 Per: 13 RF 90 RM 90 RP 90 RV 90 RE 90</p><p><strong>Habilidades esenciales:</strong> Características Anímicas Sobrehumanas, Exención Física, Miembros Atrofiados.</p><p><strong>Poderes:</strong> Alteración Existencial, Vuelo Místico 6, Invisible a los Ojos del Hombre (Invisibilidad Espiritual, No Funciona Ante Una Situación), Aura de Demencia (Aura Variable, RP Variable, Locura, Condición adicional), Cambio de Lugar, Sombras, Hoces de la Locura, Señor de los Locos, Estigma de Locos, Sabiduría de los Locos, Señor de las Pesadillas.</p><p><strong>Daño:</strong> Ninguno</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Ninguna (Especial)</p><p><strong>Descripción breve:</strong> Dementia es el extraño Señor de las Pesadillas que rige sobre la locura, un espíritu enigmático y monstruoso totalmente imprevisible. Se cree que fue originariamente un renombrado psicólogo que, de algún modo, entró en sincronización con el mismo concepto de la demencia (aunque hay quienes piensan que nunca fue un mortal para empezar). Si bien no posee una capacidad combativa equiparable a los Señores de las Pesadillas más importantes, lo cierto es que sus poderes son terroríficos; al contrario que sus iguales Dementia se manifiesta en el mundo real con asiduidad. Cuando aparece toma el aspecto de un ángel macilento de alas de hueso, atado con vendas y cadenas que simulan ser una especie de camisa de fuerza. Además, siempre cuelga bocabajo de algún techo, en una burda parodia que trata de desafiar todas las reglas de la lógica. La personalidad de la entidad está determinada por las emociones que la sustentan; tal y como se puede presuponer, está completamente desquiciado y no se comunica con nadie más que con otros locos y psicópatas. No tiene interés por incrementar su poder ni en competir con sus iguales. Extender la locura por el mundo es lo único que le hace feliz. Dementia carece en estos momentos de una zona de influencia propia en La Vigilia. Por el contrario, se traslada continuamente de un lugar a otro alimentándose de espacios donde la locura es notablemente elevada. Finalmente, cuando ha obtenido suficiente fuerza como para abrir una brecha hacia el mundo real, se manifiesta en Gaïa. Sus apariciones en este sentido son bastante imprevisibles, si bien suele sentirse atraído por los lugares más extremos; sitios donde la locura es muy elevada (como manicomios o instituciones psiquiátricas), o por el contrario parajes extremadamente pacíficos. m oduS oPerandiDementia siempre sigue las mismas pautas de actuación. Normalmente elige un gran edificio como residencia temporal, apareciendo en el desván o en el sótano, y comienza a extender su presencia por toda la construcción sumiendo lentamente en la locura a sus habitantes. A veces puede incluso tardar una semana en lograrlo, pero mientras la gente va sufriendo pesadillas y tiene visiones extrañas que presagian su triste sino. Cuando alguien pierde finalmente la cordura, Dementia manipula sus emociones para extender, si cabe aún más, la sensación de desasosiego entre los demás. De ser necesario, la entidad puede incluso crear avatares suyos en otros edificios cercanos o en diferentes sitios de la construcción para acelerar el proceso. Finalmente, en lo que la entidad denomina “la noche del delirio”, Dementia empuja a todos los locos a matarse mutuamente o a quitarse la vida, dando comienzo a una orgía de locura y sangre. Naturalmente, si aún quedan personas “cuerdas”, son las primeras víctimas de los psicópatas. Sólo en raras ocasiones hay supervivientes; individuos trastornados de por vida que vagan por el mundo como asesinos en serie. Puesto que la gente no suele ser capaz de verle, el Señor de las Pesadillas no tiene la necesidad de protegerse pero, en caso de que haya alguien que trate de hacer pesquisas sobre lo que ocurre, empuja a alguno de los locos a asesinarlo. De considerar que existe algún peligro serio, usa sus Hoces de la Locura para otorgar poderes sobrenaturales a algunos de los locos potencialmente más peligrosos. Con ellos, trata de acabar con la posible molestia y se protege al mismo tiempo de un posible contratiempo inesperado, como el ser encontrado por alguien capaz de verle. Alteración Existencial: Dementia existe entre la realidad y La Vigilia, fluctuando como una sombra inalcanzable entre ambos mundos. Esta inusual capacidad le permite ser prácticamente inmune ante cualquier tipo de ataque convencional; incluso permaneciendo inmóvil en todo momento, los golpes, conjuros y poderes que lo tienen como objetivo simplemente son incapaces de alcanzarle. Atérminos de juego, Dementia no se defiende de manera convencional (es decir, nunca trata de parar o esquivar los ataques), pero todo aquel que inicie una acción ofensiva en su contra ha de restar automáticamente 250 puntos a su habilidad de ataque final. Este modificador no se altera negativa o positivamente bajo ninguna circunstancia, ya sea por sufrir múltiples ataques, impactos por sorpresa o situaciones similares. Seres con Gnosis 35 o superior ignoran esta capacidad, por lo que podrían acabar fácilmente con el Portador de la Locura mientras está en el mundo real. Cambio de Lugar: La forma real de Dementia permanece siempre quieta en el mismo lugar en el que se ha manifestado originariamente, pero si lo necesita es capaz de cambiar de ubicación creando un bucle en el espacio y “saltando” hasta otro sitio cercano. Para hacerlo, es necesario que haya una persona afectada por la locura que produce la entidad y que esté a menos de 150 metros de su posición actual. Atodos los efectos, este movimiento actúa como un teletransporte, aunque en contra de lo que es habitual, puede pasar a través de lugares protegidos sobrenaturalmente. Sólo las barreras más poderosas son capaces de detener este transporte. El salto dura un turno completo; una vez que lo declara, no tiene lugar hasta que el asalto ha finalizado por completo. En La Vigilia este poder no tiene límite de distancia alguno, pues se traslada con libertad allá donde sienta una fuerte locura. Aura de Demencia: Cuando se manifiesta en un lugar Dementia comienza a extender su presencia, expandiéndola poco a poco como una maléfica sombra que carcome la cordura de las personas. El tiempo que tarda en llevar a cabo este proceso es muy aleatorio; a veces no requiere nada más que unos minutos y otras días enteros. Curiosamente, el aura no tiene un alcance determinado por el espacio, pues sus límites se fijan siempre en una construcción; puede ser que afecte sólo a un hospital, una aldea amurallada, un complejo subterráneo… Sea como sea, cualquiera que se encuentre en su interior ha de superar cada diez minutos un control de RP contra 80, cuya dificultad se irá incrementando paulatinamente 5 puntos (hasta un máximo de 140) cada vez que alguien la supere. Cuando un individuo falla cualquiera de los controles empieza a ser afectado sin darse cuenta por la demencia de la entidad, empezando a tener visiones, escuchar voces extrañas y a alterar su percepción de la realidad hasta que entra en un estado de psicosis compulsiva. Esto sigue así hasta que falle el control de RP por una diferencia superior a 60 puntos, en cuyo caso la persona se hunde por completo en la locura más absoluta por el resto de sus días. José María Solano Albares Sombras: Tras aparecer en el mundo material Dementia puede proyectar varias imágenes de si mismo a diferentes lugares a no más de un kilómetro de distancia. Cada una de estas “sombras” tiene los mismos poderes que el original, pero la dificultad de la RP que producen es siempre 20 puntos más baja y sólo requieren sufrir un punto de daño para ser destruidos. El máximo número de imágenes que la criatura puede generar cada vez que se manifiesta nunca puede ser superior a tres. Invisible a los Ojos del Hombre: Dementia es invisible a los ojos de personas normales, y sólo aquellos que pueden ver espíritus tienen una oportunidad de percibirlo (aunque igualmente, han de superar un control de RM contra 120 para lograrlo). Sin embargo, cualquiera que se encuentre en un estado cercano a la locura puede ver la forma, más o menos clara dependiendo de lo demente que este, de la entidad. Hoces de la Locura: Aunque durante sus manifestaciones en la realidad no tiene ninguna habilidad que le permita atacar directamente a nadie, la entidad posee dos extraños artefactos que, a falta de una denominación mejor, se han dado a llamar Hoces de la Locura. Se trata de dos cuchillas unidas a las cadenas que rodean aDementia, quien puede desplazarlas libremente dentro de su zona de influencia. No se sabe si son objetos independientes al ser o forman parte de su cuerpo (siendo así poco más que una extraña representación de su poder). Sea como sea, el Portador de la Locura puede conectarlas a cualquier persona que se encuentre sumida en una profunda psicosis (más exactamente, se clavan en su nuca), alterando su cuerpo y otorgándole tanto poderes sobrehumanos como una apariencia monstruosa. Cada persona cambia de un modo diferente dependiendo del origen y naturaleza de su locura, pero siempre sus poderes y habilidades dependen de su oscuridad innata. Las Hoces de la Locura se benefician también de la regla Invisible a los Ojos del Hombre y de la Alteración Existencial, en caso de que alguien quiera atacar la cadena que une al loco con Dementia para poner fin a la transformación. Señor de los Locos: Dementia puede influenciar sutilmente las visiones y sensaciones que tienen los locos, haciéndoles ver y escuchar aquello que la entidad desee. Normalmente, simplemente explorará los recuerdos más oscuros de las personas para que se adentren aún más en su espiral de demencia, pero también puede empujarlos psicóticamente a atacar a aquellos que no hayan sido afectados por la locura y estén siendo una molestia para sus planes. Estigma de Locos: Una persona afectada por un grado de locura extremo (como el de alguien que ha fallado el control de RP de Aura de Demencia por más de 60 puntos) es completamente incapaz de dañar aDementia de ningún modo conocido. Aquellos que sólo están parcialmente trastornados le causan únicamente la mitad de daño. Sabiduría de los Locos: Dementia puede hacer uso del valor de cualquier habilidad secundaria que posea una persona demente dentro de su zona de influencia. Señor de las Pesadillas: En La Vigilia, dentro de una zona que se encuentre mayoritariamente dominada por oscuridad y locura, el Gnosis de Dementia se incrementa hasta 40 (obteniendo todos los poderes que ello le proporciona). Adicionalmente, allí no puede ser destruido por ninguna entidad que, como mínimo, iguale dicho valor gnóstico. r elación con e l p rimer c aos Aparentemente hay una relación directa entre Dementia y el enigmático Mensajero XVIIIElPrimerCaos, sin bien se ignora hasta donde llega su unión. Se especula que el objetivo del Portador de la Locura podría ser atraer al Mensajero al mundo mermando tanto la cordura de las personas que llamase la atención de la hermética entidad.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Ánima 30/40 Puntos de Vida: 215 Categoría: Mentalista Fue: 5 Des: 5 Agi: 5 Con: - Pod: 13 Int: 13 Vol: 13 Per: 13 RF 90 RM 90 RP 90 RV 90 RE 90\n\nTurno: 80 Natural Habilidad de ataque: Ninguna Habilidad de defensa: Ninguna Daño: Ninguno TA: Ninguna Habilidades esenciales: Características Anímicas Sobrehumanas, Exención Física, Miembros Atrofiados. Poderes: Alteración Existencial, Vuelo Místico 6, Invisible a los Ojos del Hombre (Invisibilidad Espiritual, No Funciona Ante Una Situación), Aura de Demencia (Aura Variable, RP Variable, Locura, Condición adicional), Cambio de Lugar, Sombras, Hoces de la Locura, Señor de los Locos, Estigma de Locos, Sabiduría de los Locos, Señor de las Pesadillas.\n\nTamaño: 12 Medio Regeneración: 1 Tipo de movimiento: 0 Cansancio: Incansable Habilidades Secundarias: Ninguna (Especial). Dementia es el extraño Señor de las Pesadillas que rige sobre la locura, un espíritu enigmático y monstruoso totalmente imprevisible. Se cree que fue originariamente un renombrado psicólogo que, de algún modo, entró en sincronización con el mismo concepto de la demencia (aunque hay quienes piensan que nunca fue un mortal para empezar). Si bien no posee una capacidad combativa equiparable a los Señores de las Pesadillas más importantes, lo cierto es que sus poderes son terroríficos; al contrario que sus iguales Dementia se manifiesta en el mundo real con asiduidad. Cuando aparece toma el aspecto de un ángel macilento de alas de hueso, atado con vendas y cadenas que simulan ser una especie de camisa de fuerza.\n\nAdemás, siempre cuelga bocabajo de algún techo, en una burda parodia que trata de desafiar todas las reglas de la lógica. La personalidad de la entidad está determinada por las emociones que la sustentan; tal y como se puede presuponer, está completamente desquiciado y no se comunica con nadie más que con otros locos y psicópatas. No tiene interés por incrementar su poder ni en competir con sus iguales. Extender la locura por el mundo es lo único que le hace feliz. Dementia carece en estos momentos de una zona de influencia propia en La Vigilia. Por el contrario, se traslada continuamente de un lugar a otro alimentándose de espacios donde la locura es notablemente elevada. Finalmente, cuando ha obtenido suficiente fuerza como para abrir una brecha hacia el mundo real, se manifiesta en Gaïa.\n\nSus apariciones en este sentido son bastante imprevisibles, si bien suele sentirse atraído por los lugares más extremos; sitios donde la locura es muy elevada (como manicomios o instituciones psiquiátricas), o por el contrario parajes extremadamente pacíficos. m oduS oPerandiDementia siempre sigue las mismas pautas de actuación. Normalmente elige un gran edificio como residencia temporal, apareciendo en el desván o en el sótano, y comienza a extender su presencia por toda la construcción sumiendo lentamente en la locura a sus habitantes. A veces puede incluso tardar una semana en lograrlo, pero mientras la gente va sufriendo pesadillas y tiene visiones extrañas que presagian su triste sino. Cuando alguien pierde finalmente la cordura, Dementia manipula sus emociones para extender, si cabe aún más, la sensación de desasosiego entre los demás.\n\nDe ser necesario, la entidad puede incluso crear avatares suyos en otros edificios cercanos o en diferentes sitios de la construcción para acelerar el proceso. Finalmente, en lo que la entidad denomina “la noche del delirio”, Dementia empuja a todos los locos a matarse mutuamente o a quitarse la vida, dando comienzo a una orgía de locura y sangre. Naturalmente, si aún quedan personas “cuerdas”, son las primeras víctimas de los psicópatas. Sólo en raras ocasiones hay supervivientes; individuos trastornados de por vida que vagan por el mundo como asesinos en serie. Puesto que la gente no suele ser capaz de verle, el Señor de las Pesadillas no tiene la necesidad de protegerse pero, en caso de que haya alguien que trate de hacer pesquisas sobre lo que ocurre, empuja a alguno de los locos a asesinarlo.\n\nDe considerar que existe algún peligro serio, usa sus Hoces de la Locura para otorgar poderes sobrenaturales a algunos de los locos potencialmente más peligrosos. Con ellos, trata de acabar con la posible molestia y se protege al mismo tiempo de un posible contratiempo inesperado, como el ser encontrado por alguien capaz de verle. Alteración Existencial: Dementia existe entre la realidad y La Vigilia, fluctuando como una sombra inalcanzable entre ambos mundos. Esta inusual capacidad le permite ser prácticamente inmune ante cualquier tipo de ataque convencional; incluso permaneciendo inmóvil en todo momento, los golpes, conjuros y poderes que lo tienen como objetivo simplemente son incapaces de alcanzarle.\n\nAtérminos de juego, Dementia no se defiende de manera convencional (es decir, nunca trata de parar o esquivar los ataques), pero todo aquel que inicie una acción ofensiva en su contra ha de restar automáticamente 250 puntos a su habilidad de ataque final. Este modificador no se altera negativa o positivamente bajo ninguna circunstancia, ya sea por sufrir múltiples ataques, impactos por sorpresa o situaciones similares. Seres con Gnosis 35 o superior ignoran esta capacidad, por lo que podrían acabar fácilmente con el Portador de la Locura mientras está en el mundo real. Cambio de Lugar: La forma real de Dementia permanece siempre quieta en el mismo lugar en el que se ha manifestado originariamente, pero si lo necesita es capaz de cambiar de ubicación creando un bucle en el espacio y “saltando” hasta otro sitio cercano.\n\nPara hacerlo, es necesario que haya una persona afectada por la locura que produce la entidad y que esté a menos de 1 50 metros de su posición actual. Atodos los efectos, este movimiento actúa como un teletransporte, aunque en contra de lo que es habitual, puede pasar a través de lugares protegidos sobrenaturalmente. Sólo las barreras más poderosas son capaces de detener este transporte. El salto dura un turno completo; una vez que lo declara, no tiene lugar hasta que el asalto ha finalizado por completo. En La Vigilia este poder no tiene límite de distancia alguno, pues se traslada con libertad allá donde sienta una fuerte locura. Aura de Demencia: Cuando se manifiesta en un lugar Dementia comienza a extender su presencia, expandiéndola poco a poco como una maléfica sombra que carcome la cordura de las personas.\n\nEl tiempo que tarda en llevar a cabo este proceso es muy aleatorio; a veces no requiere nada más que unos minutos y otras días enteros. Curiosamente, el aura no tiene un alcance determinado por el espacio, pues sus límites se fijan siempre en una construcción; puede ser que afecte sólo a un hospital, una aldea amurallada, un complejo subterráneo… Sea como sea, cualquiera que se encuentre en su interior ha de superar cada diez minutos un control de RP contra 80, cuya dificultad se irá incrementando paulatinamente 5 puntos (hasta un máximo de 1 40) cada vez que alguien la supere. Cuando un individuo falla cualquiera de los controles empieza a ser afectado sin darse cuenta por la demencia de la entidad, empezando a tener visiones, escuchar voces extrañas y a alterar su percepción de la realidad hasta que entra en un estado de psicosis compulsiva.\n\nEsto sigue así hasta que falle el control de RP por una diferencia superior a 60 puntos, en cuyo caso la persona se hunde por completo en la locura más absoluta por el resto de sus días. José María Solano Albares (order #3443007) Sombras: Tras aparecer en el mundo material Dementia puede proyectar varias imágenes de si mismo a diferentes lugares a no más de un kilómetro de distancia. Cada una de estas “sombras” tiene los mismos poderes que el original, pero la dificultad de la RP que producen es siempre 20 puntos más baja y sólo requieren sufrir un punto de daño para ser destruidos. El máximo número de imágenes que la criatura puede generar cada vez que se manifiesta nunca puede ser superior a tres.\n\nInvisible a los Ojos del Hombre: Dementia es invisible a los ojos de personas normales, y sólo aquellos que pueden ver espíritus tienen una oportunidad de percibirlo (aunque igualmente, han de superar un control de RM contra 120 para lograrlo). Sin embargo, cualquiera que se encuentre en un estado cercano a la locura puede ver la forma, más o menos clara dependiendo de lo demente que este, de la entidad. Hoces de la Locura: Aunque durante sus manifestaciones en la realidad no tiene ninguna habilidad que le permita atacar directamente a nadie, la entidad posee dos extraños artefactos que, a falta de una denominación mejor, se han dado a llamar Hoces de la Locura. Se trata de dos cuchillas unidas a las cadenas que rodean aDementia, quien puede desplazarlas libremente dentro de su zona de influencia.\n\nNo se sabe si son objetos independientes al ser o forman parte de su cuerpo (siendo así poco más que una extraña representación de su poder). Sea como sea, el Portador de la Locura puede conectarlas a cualquier persona que se encuentre sumida en una profunda psicosis (más exactamente, se clavan en su nuca), alterando su cuerpo y otorgándole tanto poderes sobrehumanos como una apariencia monstruosa. Cada persona cambia de un modo diferente dependiendo del origen y naturaleza de su locura, pero siempre sus poderes y habilidades dependen de su oscuridad innata. Las Hoces de la Locura se benefician también de la regla Invisible a los Ojos del Hombre y de la Alteración Existencial, en caso de que alguien quiera atacar la cadena que une al loco con Dementia para poner fin a la transformación.\n\nSeñor de los Locos: Dementia puede influenciar sutilmente las visiones y sensaciones que tienen los locos, haciéndoles ver y escuchar aquello que la entidad desee. Normalmente, simplemente explorará los recuerdos más oscuros de las personas para que se adentren aún más en su espiral de demencia, pero también puede empujarlos psicóticamente a atacar a aquellos que no hayan sido afectados por la locura y estén siendo una molestia para sus planes. Estigma de Locos: Una persona afectada por un grado de locura extremo (como el de alguien que ha fallado el control de RP de Aura de Demencia por más de 60 puntos) es completamente incapaz de dañar aDementia de ningún modo conocido. Aquellos que sólo están parcialmente trastornados le causan únicamente la mitad de daño.\n\nSabiduría de los Locos: Dementia puede hacer uso del valor de cualquier habilidad secundaria que posea una persona demente dentro de su zona de influencia. Señor de las Pesadillas: En La Vigilia, dentro de una zona que se encuentre mayoritariamente dominada por oscuridad y locura, el Gnosis de Dementia se incrementa hasta 40 (obteniendo todos los poderes que ello le proporciona). Adicionalmente, allí no puede ser destruido por ninguna entidad que, como mínimo, iguale dicho valor gnóstico. r elación con e l p rimer c aos Aparentemente hay una relación directa entre Dementia y el enigmático Mensajero XVIIIElPrimerCaos, sin bien se ignora hasta donde llega su unión. Se especula que el objetivo del Portador de la Locura podría ser atraer al Mensajero al mundo mermando tanto la cordura de las personas que llamase la atención de la hermética entidad. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +248,6 @@
           }
         }
       ],
-      "level": {
-        "value": 8
-      },
       "notes": [
         {
           "_id": "note-senor-de-las-pesadillas-dementia-3",
@@ -345,52 +267,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 0
-          }
+          "value": 0,
+          "mod": 0
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         }
       },
       "secondaries": {
@@ -401,9 +307,6 @@
         "initiative": {
           "base": {
             "value": 80
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +357,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 25
+              "value": 90
             },
             "final": {
               "value": 0
@@ -465,10 +365,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 25
+              "value": 90
             },
             "final": {
               "value": 0
@@ -476,10 +373,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 9015
+              "value": 9080
             },
             "final": {
               "value": 0
@@ -487,10 +381,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 90
             },
             "final": {
               "value": 0
@@ -498,10 +389,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 90
             },
             "final": {
               "value": 0
@@ -513,188 +401,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "block": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -725,11 +880,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -741,14 +892,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -762,14 +918,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -874,15 +1027,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -894,37 +1043,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1047,9 +1216,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

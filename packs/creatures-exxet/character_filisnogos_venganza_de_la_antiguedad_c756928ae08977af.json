@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,28 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
-        "perceivePsychic": {
+        "zen": {
           "value": true
         },
         "inmaterial": {
           "value": true
         },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
+        "perceiveMystic": {
           "value": true
         },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "perceivePsychic": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +309,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +329,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 100
         }
       },
       "aspect": {
@@ -430,7 +363,7 @@
           "value": "Venganza de la antigüedad"
         },
         "size": {
-          "value": 36
+          "value": "36"
         }
       },
       "advantages": [],
@@ -448,7 +381,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 331</p><p><strong>Entrada:</strong> Filisnogos</p><p><strong>Variante:</strong> Venganza de la antigüedad</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos 40</p><p><strong>Categoría:</strong> Paladín oscuro Fue: 18 Des: 12 Agi: 8 Con: 18 Pod: 15 Int: 10 Vol: 15 Per: 12 RF 140 RM 180 RP 180 RV 140 RE 140</p><p><strong>Habilidades esenciales:</strong> Características físicas divinas, Características anímicas sobrenaturales, Exención física, Zen, Inmunidad, Inmunidad psicológica, Vulnerabilidad, Necesidad física.</p><p><strong>Poderes:</strong> Arma natural: Pilar de almas (Daño incrementado +20) y apéndices (Seis ataques adicionales), Daña energía, Destrucción gravitacional (Conjuro innato), Desplazamiento subterráneo superior, Resistencia magia y psíquica incrementadas +50, Regeneración 17 Condicionada, Inmunidad física 80, Ver lo sobrenatural, Vulnerable.</p><p><strong>Daño:</strong> 200 Pilar de almas FIL, 180 Apéndices CON</p><p><strong>TA:</strong> Natural 10</p><p><strong>Habilidades secundarias:</strong> Advertir 280, Buscar 240, Proezas de fuerza 260, Memorizar 190</p><p><strong>Descripción breve:</strong> Asagiri Contemplar al Filisnogos es presenciar el verdadero significado del terror. Se trata de una criatura única con un poder casi divino, nutrida durante su gestación por millones de almas. Es el ser que la antigüedad dejó tras de sí para vengarse del hombre y hacerlo pagar por sus pecados. No por nada, su nombre significa “Hijo de la muerte”. El Filisnogos es una criatura de tamaño colosal, casi tan grande como una pequeña ciudad. Compuesto de mármoles oscuros y metales, a la distancia tiene la apariencia de una inmensa montaña de cadáveres que se arrastra lentamente. Su cuerpo es una gran cúpula en cuyo centro se encuentra una réplica de su propio creador, que actúa como corazón de la bestia. Esa hermosa figura está coronada por cuatro descomunales alas, dos de aspecto angelical pero negras como el ébano, y un segundo par hechas de hueso. Del domo surgen decenas de inmensos tentáculos, rematados en cabezas de diversas bestias. Para la gente común, toda su superficie parece completamente lisa, pero aquellos que pueden ver los espíritus se darán cuenta de que está repleto de miles de rostros muertos desencajados de dolor y desesperación. El origen de esta pesadilla se remonta a la Guerra de Dios, durante la cual miles de seres morían cada día en continua agonía y sufrimiento. Entre toda aquella destrucción, Gaudemus, llamado por sus hermanos elfos el Creador de Maravillas, fraguó un plan para vengarse de quienes se lo habían arrebatado todo. Solo, en la penumbra, rodeado únicamente de los cadáveres de aquellos a quienes amó, compuso un descomunal golem utilizando como materia prima los restos de su propia ciudad. Para darle vida, trató de canalizar en él las almas de sus habitantes, pero ajeno a su conocimiento, creó un faro para miles de espíritus desgarrados por el odio. Yesa criatura, aún adormecida, se alimentó de todo aquel descomunal poder hasta convertirse en una entidad como nunca otra había pisado el mundo. T an sólo despertó parcialmente y por unas escasas horas, pero aun así, la muerte y la devastación le siguieron. Era como un recién nacido que da sus primeros pasos, pero incluso con sólo una pequeña fracción de su poder activado, arrasó toda forma de vida que se encontraba a más de cien kilómetros a la redonda. Fue entonces cuando Gaudemus comprendió el horror que había creado e, incapaz de destruirlo, ocultó su ubicación creando cuatro llaves que evitaban su completo despertar. Actualmente, se desconoce tanto su lugar de reposo como el lugar donde se hallan los artefactos necesarios para despertarlo. Si en algún momento es reanimado, lo cubrirá todo de un océano de sangre como no se ha visto desde muchos siglos atrás. m odus operandi Impulsado por el dolor y la ira de las almas que le hicieron nacer, el único afán del Filisnogos es vengarse de la humanidad. Desea bañarse en la sangre del hombre, aplastar sus civilizaciones y borrarlas de la faz de Gaïa para siempre. Desgraciadamente, su odio es tan inconmensurable que es muy posible que no se pare ahí, y avance descontrolado hasta destruir toda la vida del planeta. Una vez despierto y en plenitud de facultades, se deslizará por el subsuelo buscando grandes ciudades. Utiliza sus apéndices para explorar, pues puede desplegarlos hasta a tres kilómetros de su cuerpo. Si en el camino encuentra pequeñas poblaciones, ni siquiera se para: le basta con exteriorizar a distancia uno o dos de sus tentáculos para arrasarlas. Sólo en una ciudad importante se manifestará en toda su terrorífica gloria, ante el horror y la desesperación de sus futuras víctimas. Lo único que lo detiene son los ríos caudalosos, pues siente una fuerte repulsión hacia el agua. El poder del Filisnogos es inconmensurable. Puede arrasar ejércitos y ciudades enteras con aterradora facilidad. En combate, realiza hasta siete ataques por asalto: uno con el Pilar de almas y seis empleando sus apéndices. Además, genera cada dos turnos un campo de destrucción gravitacional, que emplea generalmente contra adversarios molestos o artillería. No tiene ningún punto vulnerable. Pilar de almas: El ataque principal del Filisnogos es el Pilar de almas. Se trata de una descomunal cuchilla negra que el destructor puede manifestar o deshacer a su antojo. Habitualmente, surge del suelo destrozando cualquier cosa que alcance, aunque también puede exteriorizarla desde su cuerpo. Este ataque tiene una rotura 26. Apéndices: Los seis enormes apéndices del Filisnogos aplastan o engullen cualquier cosa que se ponga a su alcance. Cada uno de ellos le permite realizar un ataque adicional natural, por lo que no sufre ningún penalizador a su habilidad. Pueden luchar incluso mientras su cuerpo se encuentra bajo tierra. Si un apendice es atacado, aguanta 500 puntos de daño (que no se descuentan del total de puntos de la criatura) antes de ser destruido. Una vez cercenados, surgen de nuevo del cuerpo central en cinco asaltos. Dado su gran tamaño, sólo puede utilizar tres apéndices sobre blancos de Tamaño medio o grande, aunque nada le impide hacerlo en combinación con su Pilar de almas. Estos ataques tienen una rotura 24. Inmunidad física: Por potente que sea, ningún arma incapaz de dañar energía produce efecto alguno sobre el Filisnogos. Sólo los ataques sobrenaturales con presencia superior a 80 pueden dañarle. Filisnogos</p></section><details><summary>Texto extraído</summary><pre>Nivel: 15\n\nClase: Entr e mundos 40 Puntos de Vida: 8.565 Categoría: Paladín oscuro Fue: 18 Des: 12 Agi: 8 Con: 18 Pod: 15 Int: 10 Vol: 15 Per: 12 RF 1 40 RM 180 RP 180 RV 1 40 RE 14 0\n\nTurno: 105 Natural Habilidad de ataque: 300 Pilar de almas + 260 Apéndices (6 ataques); 300 Destrucción gravitacional Habilidad de defensa: Acumulación Daño: 200 Pilar de almas FIL, 180 Apéndices CON TA: Natural 10 Habilidades esenciales: Características físicas divinas, Características anímicas sobrenaturales, Exención física, Zen, Inmunidad, Inmunidad psicológica, Vulnerabilidad, Necesidad física. Poderes: Arma natural: Pilar de almas (Daño incrementado +20) y apéndices (Seis ataques adicionales), Daña energía, Destrucción gravitacional (Conjuro innato), Desplazamiento subterráneo superior, Resistencia magia y psíquica incrementadas +50, Regeneración 1 7 Condicionada, Inmunidad física 80, Ver lo sobrenatural, Vulnerable.\n\nTamaño: 36 Colosal Regeneración: 1 7 / 10 Tipo de movimiento: 8 / 4 Cansancio: Incansable Habilidades Secundarias: Advertir 280, Buscar 240, Proezas de fuerza 260, Memorizar 1 90. Asagiri Contemplar al Filisnogos es presenciar el verdadero significado del terror. Se trata de una criatura única con un poder casi divino, nutrida durante su gestación por millones de almas. Es el ser que la antigüedad dejó tras de sí para vengarse del hombre y hacerlo pagar por sus pecados. No por nada, su nombre significa “Hijo de la muerte”. El Filisnogos es una criatura de tamaño colosal, casi tan grande como una pequeña ciudad. Compuesto de mármoles oscuros y metales, a la distancia tiene la apariencia de una inmensa montaña de cadáveres que se arrastra lentamente. Su cuerpo es una gran cúpula en cuyo centro se encuentra una réplica de su propio creador, que actúa como corazón de la bestia.\n\nEsa hermosa figura está coronada por cuatro descomunales alas, dos de aspecto angelical pero negras como el ébano, y un segundo par hechas de hueso. Del domo surgen decenas de inmensos tentáculos, rematados en cabezas de diversas bestias. Para la gente común, toda su superficie parece completamente lisa, pero aquellos que pueden ver los espíritus se darán cuenta de que está repleto de miles de rostros muertos desencajados de dolor y desesperación. El origen de esta pesadilla se remonta a la Guerra de Dios, durante la cual miles de seres morían cada día en continua agonía y sufrimiento. Entre toda aquella destrucción, Gaudemus, llamado por sus hermanos elfos el Creador de Maravillas, fraguó un plan para vengarse de quienes se lo habían arrebatado todo.\n\nSolo, en la penumbra, rodeado únicamente de los cadáveres de aquellos a quienes amó, compuso un descomunal golem utilizando como materia prima los restos de su propia ciudad. Para darle vida, trató de canalizar en él las almas de sus habitantes, pero ajeno a su conocimiento, creó un faro para miles de espíritus desgarrados por el odio. Yesa criatura, aún adormecida, se alimentó de todo aquel descomunal poder hasta convertirse en una entidad como nunca otra había pisado el mundo. T an sólo despertó parcialmente y por unas escasas horas, pero aun así, la muerte y la devastación le siguieron. Era como un recién nacido que da sus primeros pasos, pero incluso con sólo una pequeña fracción de su poder activado, arrasó toda forma de vida que se encontraba a más de cien kilómetros a la redonda.\n\nFue entonces cuando Gaudemus comprendió el horror que había creado e, incapaz de destruirlo, ocultó su ubicación creando cuatro llaves que evitaban su completo despertar. Actualmente, se desconoce tanto su lugar de reposo como el lugar donde se hallan los artefactos necesarios para despertarlo. Si en algún momento es reanimado, lo cubrirá todo de un océano de sangre como no se ha visto desde muchos siglos atrás. m odus operandi Impulsado por el dolor y la ira de las almas que le hicieron nacer, el único afán del Filisnogos es vengarse de la humanidad. Desea bañarse en la sangre del hombre, aplastar sus civilizaciones y borrarlas de la faz de Gaïa para siempre. Desgraciadamente, su odio es tan inconmensurable que es muy posible que no se pare ahí, y avance descontrolado hasta destruir toda la vida del planeta.\n\nUna vez despierto y en plenitud de facultades, se deslizará por el subsuelo buscando grandes ciudades. Utiliza sus apéndices para explorar, pues puede desplegarlos hasta a tres kilómetros de su cuerpo. Si en el camino encuentra pequeñas poblaciones, ni siquiera se para: le basta con exteriorizar a distancia uno o dos de sus tentáculos para arrasarlas. Sólo en una ciudad importante se manifestará en toda su terrorífica gloria, ante el horror y la desesperación de sus futuras víctimas. Lo único que lo detiene son los ríos caudalosos, pues siente una fuerte repulsión hacia el agua. El poder del Filisnogos es inconmensurable. Puede arrasar ejércitos y ciudades enteras con aterradora facilidad. En combate, realiza hasta siete ataques por asalto: uno con el Pilar de almas y seis empleando sus apéndices.\n\nAdemás, genera cada dos turnos un campo de destrucción gravitacional, que emplea generalmente contra adversarios molestos o artillería. No tiene ningún punto vulnerable. Pilar de almas: El ataque principal del Filisnogos es el Pilar de almas. Se trata de una descomunal cuchilla negra que el destructor puede manifestar o deshacer a su antojo. Habitualmente, surge del suelo destrozando cualquier cosa que alcance, aunque también puede exteriorizarla desde su cuerpo. Este ataque tiene una rotura 26. Apéndices: Los seis enormes apéndices del Filisnogos aplastan o engullen cualquier cosa que se ponga a su alcance. Cada uno de ellos le permite realizar un ataque adicional natural, por lo que no sufre ningún penalizador a su habilidad. Pueden luchar incluso mientras su cuerpo se encuentra bajo tierra.\n\nSi un apendice es atacado, aguanta 500 puntos de daño (que no se descuentan del total de puntos de la criatura) antes de ser destruido. Una vez cercenados, surgen de nuevo del cuerpo central en cinco asaltos. Dado su gran tamaño, sólo puede utilizar tres apéndices sobre blancos de Tamaño medio o grande, aunque nada le impide hacerlo en combinación con su Pilar de almas. Estos ataques tienen una rotura 24. Inmunidad física: Por potente que sea, ningún arma incapaz de dañar energía produce efecto alguno sobre el Filisnogos. Sólo los ataques sobrenaturales con presencia superior a 80 pueden dañarle. Filisnogos</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 331</p><p><strong>Entrada:</strong> Filisnogos</p><p><strong>Variante:</strong> Venganza de la antigüedad</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos 40</p><p><strong>Categoría:</strong> Paladín oscuro Fue: 18 Des: 12 Agi: 8 Con: 18 Pod: 15 Int: 10 Vol: 15 Per: 12 RF 140 RM 180 RP 180 RV 140 RE 140</p><p><strong>Habilidades esenciales:</strong> Características físicas divinas, Características anímicas sobrenaturales, Exención física, Zen, Inmunidad, Inmunidad psicológica, Vulnerabilidad, Necesidad física.</p><p><strong>Poderes:</strong> Arma natural: Pilar de almas (Daño incrementado +20) y apéndices (Seis ataques adicionales), Daña energía, Destrucción gravitacional (Conjuro innato), Desplazamiento subterráneo superior, Resistencia magia y psíquica incrementadas +50, Regeneración 17 Condicionada, Inmunidad física 80, Ver lo sobrenatural, Vulnerable.</p><p><strong>Daño:</strong> 200 Pilar de almas FIL, 180 Apéndices CON</p><p><strong>TA:</strong> Natural 10</p><p><strong>Habilidades secundarias:</strong> Advertir 280, Buscar 240, Proezas de fuerza 260, Memorizar 190</p><p><strong>Descripción breve:</strong> Asagiri Contemplar al Filisnogos es presenciar el verdadero significado del terror. Se trata de una criatura única con un poder casi divino, nutrida durante su gestación por millones de almas. Es el ser que la antigüedad dejó tras de sí para vengarse del hombre y hacerlo pagar por sus pecados. No por nada, su nombre significa “Hijo de la muerte”. El Filisnogos es una criatura de tamaño colosal, casi tan grande como una pequeña ciudad. Compuesto de mármoles oscuros y metales, a la distancia tiene la apariencia de una inmensa montaña de cadáveres que se arrastra lentamente. Su cuerpo es una gran cúpula en cuyo centro se encuentra una réplica de su propio creador, que actúa como corazón de la bestia. Esa hermosa figura está coronada por cuatro descomunales alas, dos de aspecto angelical pero negras como el ébano, y un segundo par hechas de hueso. Del domo surgen decenas de inmensos tentáculos, rematados en cabezas de diversas bestias. Para la gente común, toda su superficie parece completamente lisa, pero aquellos que pueden ver los espíritus se darán cuenta de que está repleto de miles de rostros muertos desencajados de dolor y desesperación. El origen de esta pesadilla se remonta a la Guerra de Dios, durante la cual miles de seres morían cada día en continua agonía y sufrimiento. Entre toda aquella destrucción, Gaudemus, llamado por sus hermanos elfos el Creador de Maravillas, fraguó un plan para vengarse de quienes se lo habían arrebatado todo. Solo, en la penumbra, rodeado únicamente de los cadáveres de aquellos a quienes amó, compuso un descomunal golem utilizando como materia prima los restos de su propia ciudad. Para darle vida, trató de canalizar en él las almas de sus habitantes, pero ajeno a su conocimiento, creó un faro para miles de espíritus desgarrados por el odio. Yesa criatura, aún adormecida, se alimentó de todo aquel descomunal poder hasta convertirse en una entidad como nunca otra había pisado el mundo. T an sólo despertó parcialmente y por unas escasas horas, pero aun así, la muerte y la devastación le siguieron. Era como un recién nacido que da sus primeros pasos, pero incluso con sólo una pequeña fracción de su poder activado, arrasó toda forma de vida que se encontraba a más de cien kilómetros a la redonda. Fue entonces cuando Gaudemus comprendió el horror que había creado e, incapaz de destruirlo, ocultó su ubicación creando cuatro llaves que evitaban su completo despertar. Actualmente, se desconoce tanto su lugar de reposo como el lugar donde se hallan los artefactos necesarios para despertarlo. Si en algún momento es reanimado, lo cubrirá todo de un océano de sangre como no se ha visto desde muchos siglos atrás. m odus operandi Impulsado por el dolor y la ira de las almas que le hicieron nacer, el único afán del Filisnogos es vengarse de la humanidad. Desea bañarse en la sangre del hombre, aplastar sus civilizaciones y borrarlas de la faz de Gaïa para siempre. Desgraciadamente, su odio es tan inconmensurable que es muy posible que no se pare ahí, y avance descontrolado hasta destruir toda la vida del planeta. Una vez despierto y en plenitud de facultades, se deslizará por el subsuelo buscando grandes ciudades. Utiliza sus apéndices para explorar, pues puede desplegarlos hasta a tres kilómetros de su cuerpo. Si en el camino encuentra pequeñas poblaciones, ni siquiera se para: le basta con exteriorizar a distancia uno o dos de sus tentáculos para arrasarlas. Sólo en una ciudad importante se manifestará en toda su terrorífica gloria, ante el horror y la desesperación de sus futuras víctimas. Lo único que lo detiene son los ríos caudalosos, pues siente una fuerte repulsión hacia el agua. El poder del Filisnogos es inconmensurable. Puede arrasar ejércitos y ciudades enteras con aterradora facilidad. En combate, realiza hasta siete ataques por asalto: uno con el Pilar de almas y seis empleando sus apéndices. Además, genera cada dos turnos un campo de destrucción gravitacional, que emplea generalmente contra adversarios molestos o artillería. No tiene ningún punto vulnerable. Pilar de almas: El ataque principal del Filisnogos es el Pilar de almas. Se trata de una descomunal cuchilla negra que el destructor puede manifestar o deshacer a su antojo. Habitualmente, surge del suelo destrozando cualquier cosa que alcance, aunque también puede exteriorizarla desde su cuerpo. Este ataque tiene una rotura 26. Apéndices: Los seis enormes apéndices del Filisnogos aplastan o engullen cualquier cosa que se ponga a su alcance. Cada uno de ellos le permite realizar un ataque adicional natural, por lo que no sufre ningún penalizador a su habilidad. Pueden luchar incluso mientras su cuerpo se encuentra bajo tierra. Si un apendice es atacado, aguanta 500 puntos de daño (que no se descuentan del total de puntos de la criatura) antes de ser destruido. Una vez cercenados, surgen de nuevo del cuerpo central en cinco asaltos. Dado su gran tamaño, sólo puede utilizar tres apéndices sobre blancos de Tamaño medio o grande, aunque nada le impide hacerlo en combinación con su Pilar de almas. Estos ataques tienen una rotura 24. Inmunidad física: Por potente que sea, ningún arma incapaz de dañar energía produce efecto alguno sobre el Filisnogos. Sólo los ataques sobrenaturales con presencia superior a 80 pueden dañarle. Filisnogos</p></section><details><summary>Texto extraído</summary><pre>Nivel: 15\n\nClase: Entr e mundos 40 Puntos de Vida: 8.565 Categoría: Paladín oscuro Fue: 18 Des: 12 Agi: 8 Con: 18 Pod: 15 Int: 10 Vol: 15 Per: 12 RF 1 40 RM 180 RP 180 RV 1 40 RE 14 0\n\nTurno: 105 Natural Habilidad de ataque: 300 Pilar de almas + 260 Apéndices (6 ataques); 300 Destrucción gravitacional Habilidad de defensa: Acumulación Daño: 200 Pilar de almas FIL, 180 Apéndices CON TA: Natural 10 Habilidades esenciales: Características físicas divinas, Características anímicas sobrenaturales, Exención física, Zen, Inmunidad, Inmunidad psicológica, Vulnerabilidad, Necesidad física. Poderes: Arma natural: Pilar de almas (Daño incrementado +20) y apéndices (Seis ataques adicionales), Daña energía, Destrucción gravitacional (Conjuro innato), Desplazamiento subterráneo superior, Resistencia magia y psíquica incrementadas +50, Regeneración 1 7 Condicionada, Inmunidad física 80, Ver lo sobrenatural, Vulnerable.\n\nTamaño: 36 Colosal Regeneración: 1 7 / 10 Tipo de movimiento: 8 / 4 Cansancio: Incansable Habilidades Secundarias: Advertir 280, Buscar 240, Proezas de fuerza 260, Memorizar 1 90. Asagiri Contemplar al Filisnogos es presenciar el verdadero significado del terror. Se trata de una criatura única con un poder casi divino, nutrida durante su gestación por millones de almas. Es el ser que la antigüedad dejó tras de sí para vengarse del hombre y hacerlo pagar por sus pecados. No por nada, su nombre significa “Hijo de la muerte”. El Filisnogos es una criatura de tamaño colosal, casi tan grande como una pequeña ciudad. Compuesto de mármoles oscuros y metales, a la distancia tiene la apariencia de una inmensa montaña de cadáveres que se arrastra lentamente. Su cuerpo es una gran cúpula en cuyo centro se encuentra una réplica de su propio creador, que actúa como corazón de la bestia.\n\nEsa hermosa figura está coronada por cuatro descomunales alas, dos de aspecto angelical pero negras como el ébano, y un segundo par hechas de hueso. Del domo surgen decenas de inmensos tentáculos, rematados en cabezas de diversas bestias. Para la gente común, toda su superficie parece completamente lisa, pero aquellos que pueden ver los espíritus se darán cuenta de que está repleto de miles de rostros muertos desencajados de dolor y desesperación. El origen de esta pesadilla se remonta a la Guerra de Dios, durante la cual miles de seres morían cada día en continua agonía y sufrimiento. Entre toda aquella destrucción, Gaudemus, llamado por sus hermanos elfos el Creador de Maravillas, fraguó un plan para vengarse de quienes se lo habían arrebatado todo.\n\nSolo, en la penumbra, rodeado únicamente de los cadáveres de aquellos a quienes amó, compuso un descomunal golem utilizando como materia prima los restos de su propia ciudad. Para darle vida, trató de canalizar en él las almas de sus habitantes, pero ajeno a su conocimiento, creó un faro para miles de espíritus desgarrados por el odio. Yesa criatura, aún adormecida, se alimentó de todo aquel descomunal poder hasta convertirse en una entidad como nunca otra había pisado el mundo. T an sólo despertó parcialmente y por unas escasas horas, pero aun así, la muerte y la devastación le siguieron. Era como un recién nacido que da sus primeros pasos, pero incluso con sólo una pequeña fracción de su poder activado, arrasó toda forma de vida que se encontraba a más de cien kilómetros a la redonda.\n\nFue entonces cuando Gaudemus comprendió el horror que había creado e, incapaz de destruirlo, ocultó su ubicación creando cuatro llaves que evitaban su completo despertar. Actualmente, se desconoce tanto su lugar de reposo como el lugar donde se hallan los artefactos necesarios para despertarlo. Si en algún momento es reanimado, lo cubrirá todo de un océano de sangre como no se ha visto desde muchos siglos atrás. m odus operandi Impulsado por el dolor y la ira de las almas que le hicieron nacer, el único afán del Filisnogos es vengarse de la humanidad. Desea bañarse en la sangre del hombre, aplastar sus civilizaciones y borrarlas de la faz de Gaïa para siempre. Desgraciadamente, su odio es tan inconmensurable que es muy posible que no se pare ahí, y avance descontrolado hasta destruir toda la vida del planeta.\n\nUna vez despierto y en plenitud de facultades, se deslizará por el subsuelo buscando grandes ciudades. Utiliza sus apéndices para explorar, pues puede desplegarlos hasta a tres kilómetros de su cuerpo. Si en el camino encuentra pequeñas poblaciones, ni siquiera se para: le basta con exteriorizar a distancia uno o dos de sus tentáculos para arrasarlas. Sólo en una ciudad importante se manifestará en toda su terrorífica gloria, ante el horror y la desesperación de sus futuras víctimas. Lo único que lo detiene son los ríos caudalosos, pues siente una fuerte repulsión hacia el agua. El poder del Filisnogos es inconmensurable. Puede arrasar ejércitos y ciudades enteras con aterradora facilidad. En combate, realiza hasta siete ataques por asalto: uno con el Pilar de almas y seis empleando sus apéndices.\n\nAdemás, genera cada dos turnos un campo de destrucción gravitacional, que emplea generalmente contra adversarios molestos o artillería. No tiene ningún punto vulnerable. Pilar de almas: El ataque principal del Filisnogos es el Pilar de almas. Se trata de una descomunal cuchilla negra que el destructor puede manifestar o deshacer a su antojo. Habitualmente, surge del suelo destrozando cualquier cosa que alcance, aunque también puede exteriorizarla desde su cuerpo. Este ataque tiene una rotura 26. Apéndices: Los seis enormes apéndices del Filisnogos aplastan o engullen cualquier cosa que se ponga a su alcance. Cada uno de ellos le permite realizar un ataque adicional natural, por lo que no sufre ningún penalizador a su habilidad. Pueden luchar incluso mientras su cuerpo se encuentra bajo tierra.\n\nSi un apendice es atacado, aguanta 500 puntos de daño (que no se descuentan del total de puntos de la criatura) antes de ser destruido. Una vez cercenados, surgen de nuevo del cuerpo central en cinco asaltos. Dado su gran tamaño, sólo puede utilizar tres apéndices sobre blancos de Tamaño medio o grande, aunque nada le impide hacerlo en combinación con su Pilar de almas. Estos ataques tienen una rotura 24. Inmunidad física: Por potente que sea, ningún arma incapaz de dañar energía produce efecto alguno sobre el Filisnogos. Sólo los ataques sobrenaturales con presencia superior a 80 pueden dañarle. Filisnogos</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +413,6 @@
           }
         }
       ],
-      "level": {
-        "value": 15
-      },
       "notes": [
         {
           "_id": "note-filisnogos-venganza-de-la-antigu-3",
@@ -501,52 +432,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 18
-          }
+          "value": 18,
+          "mod": 40
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 18
-          }
+          "value": 18,
+          "mod": 40
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         }
       },
       "secondaries": {
@@ -557,9 +472,6 @@
         "initiative": {
           "base": {
             "value": 105
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +522,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 140
             },
             "final": {
               "value": 0
@@ -621,10 +530,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 140
             },
             "final": {
               "value": 0
@@ -632,10 +538,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 139965
+              "value": 140105
             },
             "final": {
               "value": 0
@@ -643,10 +546,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 50
+              "value": 180
             },
             "final": {
               "value": 0
@@ -654,10 +554,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 50
+              "value": 180
             },
             "final": {
               "value": 0
@@ -669,203 +566,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 260
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 280
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 240
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 190
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 300
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -896,11 +1045,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -912,14 +1057,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -933,14 +1083,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1045,15 +1192,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1065,37 +1208,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1218,9 +1381,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

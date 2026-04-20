@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +297,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +317,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -430,7 +351,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -448,7 +369,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 23</p><p><strong>Entrada:</strong> Faust Orbatos</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Paladín oscuro Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 9 Int: 6 Vol: 7 Per: 6 RF 40 RM 65 RP 35 RV 40 RE 40</p><p><strong>Ventajas y desventajas:</strong> Fondos iniciales, Inquietante, Resistencias mágicas incrementadas, Reflejos rápidos, Desafortunado.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 100 Espada bastarda +5 (dos manos), 90 Espada bastarda +5 (una mano).</p><p><strong>TA:</strong> Completa Fil 5 Con 5 Pen 5 Cal 4 Ele 0 Fri 4 Ene 2</p><p><strong>Habilidades secundarias:</strong> Montar 20, Estilo 25, Intimidar 45, Liderazgo 50, Persuasión 30, Advertir 25, Buscar 15, Historia 15, Ocultismo 15, Frialdad 25, Resistir el dolor 15</p><p><strong>Descripción breve:</strong> Descripción: Armadura completa, Espada bastarda +5 y 1200 Escudos de Oro Asus veintiocho años de edad, con su larga melena negra y sus ojos negros, Faust Orbatos es una figura impresionante que sobresale entre los demás. Faust es el señor de la familia Orbatos, o lo que es lo mismo, el señor de absolutamente nada. Orbatos era una conocida casa noble de Remo, que fue completamente arrasada hace años por los ejércitos de Abel en la revuelta de Maximizan Hess. A lo largo de la historia, el nombre de su familia había sido mencionado con una mezcla de miedo y respeto por otros nobles de la zona; no eran pocos los que decían que se trataba de una estirpe maldita, por cuyas venas corría sangre tenebrosa. Todos esos mitos se han hecho realidad en Faust, y pocos son quienes consiguen mantener la mirada fija en él sin sentir un extraño escalofrío. Entrenado desde niño en el combate por su padre, el joven aprendió a usar el miedo a su favor. Tradicionalmente los Orbatos siempre emplearon la intimidación y el temor como arma; él demostró tener una aptitud especial para dominarlo y elevarlo a nuevas cotas. Ahora, despojado de todo salvo de su orgullo, Faust vaga por el mundo sin un motivo concreto; su único interés es ver lo que el destino le tiene reservado. De su familia sólo conserva su armadura negra, la espada de su padre, Ashurian, y una nada despreciable cantidad de dinero. Pero en realidad, bien poco le importan todas esas cosas. Seguirá caminando de un lugar a otro hasta que encuentre el lugar al que pertenece, ya sea la muerte o las mismas profundidades del infierno. Posesiones: Armadura completa, Ashurian (espada bastarda +5), Tres mudas de ropa cara, Un medallón familiar, Raciones de viaje excelentes (para 5 días), 1.300 Escudos de Oro. #### Shion Demeter _Página 24_ Personajes Generados 021 Allete Percivan</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 125 Categoría: Paladín oscuro Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 9 Int: 6 Vol: 7 Per: 6 RF 40 RM 65 RP 35 RV 40 RE 40\n\nTurno: 95 Natural, 5 Espada bastarda +5. Habilidad de ataque: 70 Ashurian (Espada bastarda +5). Habilidad de defensa: 65 Ashurian (Espada bastarda +5). Daño: 100 Espada bastarda +5 (dos manos), 90 Espada bastarda +5 (una mano). Llevar Armadura: 105 TA: Completa Fil 5 Con 5 Pen 5 Cal 4 Ele 0 Fri 4 Ene 2 Ventajas y desventajas: Fondos iniciales, Inquietante, Resistencias mágicas incrementadas, Reflejos rápidos, Desafortunado. Habilidades naturales: Ninguna. de movimiento: 4 Cansancio: 8 Habilidades Secundarias: Montar 20, Estilo 25, Intimidar 45, Liderazgo 50, Persuasión 30, Advertir 25, Buscar 1 5, Historia 1 5, Ocultismo 1 5, Frialdad 25, Resistir el dolor 1 5. Descripción: Armadura completa, Espada bastarda +5 y 1200 Escudos de Oro Asus veintiocho años de edad, con su larga melena negra y sus ojos negros, Faust Orbatos es una figura impresionante que sobresale entre los demás.\n\nFaust es el señor de la familia Orbatos, o lo que es lo mismo, el señor de absolutamente nada. Orbatos era una conocida casa noble de Remo, que fue completamente arrasada hace años por los ejércitos de Abel en la revuelta de Maximizan Hess. A lo largo de la historia, el nombre de su familia había sido mencionado con una mezcla de miedo y respeto por otros nobles de la zona; no eran pocos los que decían que se trataba de una estirpe maldita, por cuyas venas corría sangre tenebrosa. Todos esos mitos se han hecho realidad en Faust, y pocos son quienes consiguen mantener la mirada fija en él sin sentir un extraño escalofrío. Entrenado desde niño en el combate por su padre, el joven aprendió a usar el miedo a su favor. Tradicionalmente los Orbatos siempre emplearon la intimidación y el temor como arma; él demostró tener una aptitud especial para dominarlo y elevarlo a nuevas cotas.\n\nAhora, despojado de todo salvo de su orgullo, Faust vaga por el mundo sin un motivo concreto; su único interés es ver lo que el destino le tiene reservado. De su familia sólo conserva su armadura negra, la espada de su padre, Ashurian, y una nada despreciable cantidad de dinero. Pero en realidad, bien poco le importan todas esas cosas. Seguirá caminando de un lugar a otro hasta que encuentre el lugar al que pertenece, ya sea la muerte o las mismas profundidades del infierno. Posesiones: Armadura completa, Ashurian (espada bastarda +5), Tres mudas de ropa cara, Un medallón familiar, Raciones de viaje excelentes (para 5 días), 1.300 Escudos de Oro.\n\n#### Shion Demeter\n\n&lt;!-- tags: @sistema, @localizacion, @regla --&gt;\n\n_Página 24_\n\nPersonajes Generados 0 21 Allete Percivan</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 23</p><p><strong>Entrada:</strong> Faust Orbatos</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Paladín oscuro Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 9 Int: 6 Vol: 7 Per: 6 RF 40 RM 65 RP 35 RV 40 RE 40</p><p><strong>Ventajas y desventajas:</strong> Fondos iniciales, Inquietante, Resistencias mágicas incrementadas, Reflejos rápidos, Desafortunado.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 100 Espada bastarda +5 (dos manos), 90 Espada bastarda +5 (una mano).</p><p><strong>TA:</strong> Completa Fil 5 Con 5 Pen 5 Cal 4 Ele 0 Fri 4 Ene 2</p><p><strong>Habilidades secundarias:</strong> Montar 20, Estilo 25, Intimidar 45, Liderazgo 50, Persuasión 30, Advertir 25, Buscar 15, Historia 15, Ocultismo 15, Frialdad 25, Resistir el dolor 15</p><p><strong>Descripción breve:</strong> Descripción: Armadura completa, Espada bastarda +5 y 1200 Escudos de Oro Asus veintiocho años de edad, con su larga melena negra y sus ojos negros, Faust Orbatos es una figura impresionante que sobresale entre los demás. Faust es el señor de la familia Orbatos, o lo que es lo mismo, el señor de absolutamente nada. Orbatos era una conocida casa noble de Remo, que fue completamente arrasada hace años por los ejércitos de Abel en la revuelta de Maximizan Hess. A lo largo de la historia, el nombre de su familia había sido mencionado con una mezcla de miedo y respeto por otros nobles de la zona; no eran pocos los que decían que se trataba de una estirpe maldita, por cuyas venas corría sangre tenebrosa. Todos esos mitos se han hecho realidad en Faust, y pocos son quienes consiguen mantener la mirada fija en él sin sentir un extraño escalofrío. Entrenado desde niño en el combate por su padre, el joven aprendió a usar el miedo a su favor. Tradicionalmente los Orbatos siempre emplearon la intimidación y el temor como arma; él demostró tener una aptitud especial para dominarlo y elevarlo a nuevas cotas. Ahora, despojado de todo salvo de su orgullo, Faust vaga por el mundo sin un motivo concreto; su único interés es ver lo que el destino le tiene reservado. De su familia sólo conserva su armadura negra, la espada de su padre, Ashurian, y una nada despreciable cantidad de dinero. Pero en realidad, bien poco le importan todas esas cosas. Seguirá caminando de un lugar a otro hasta que encuentre el lugar al que pertenece, ya sea la muerte o las mismas profundidades del infierno. Posesiones: Armadura completa, Ashurian (espada bastarda +5), Tres mudas de ropa cara, Un medallón familiar, Raciones de viaje excelentes (para 5 días), 1.300 Escudos de Oro. #### Shion Demeter _Página 24_ Personajes Generados 021 Allete Percivan</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 125 Categoría: Paladín oscuro Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 9 Int: 6 Vol: 7 Per: 6 RF 40 RM 65 RP 35 RV 40 RE 40\n\nTurno: 95 Natural, 5 Espada bastarda +5. Habilidad de ataque: 70 Ashurian (Espada bastarda +5). Habilidad de defensa: 65 Ashurian (Espada bastarda +5). Daño: 100 Espada bastarda +5 (dos manos), 90 Espada bastarda +5 (una mano). Llevar Armadura: 105 TA: Completa Fil 5 Con 5 Pen 5 Cal 4 Ele 0 Fri 4 Ene 2 Ventajas y desventajas: Fondos iniciales, Inquietante, Resistencias mágicas incrementadas, Reflejos rápidos, Desafortunado. Habilidades naturales: Ninguna. de movimiento: 4 Cansancio: 8 Habilidades Secundarias: Montar 20, Estilo 25, Intimidar 45, Liderazgo 50, Persuasión 30, Advertir 25, Buscar 1 5, Historia 1 5, Ocultismo 1 5, Frialdad 25, Resistir el dolor 1 5. Descripción: Armadura completa, Espada bastarda +5 y 1200 Escudos de Oro Asus veintiocho años de edad, con su larga melena negra y sus ojos negros, Faust Orbatos es una figura impresionante que sobresale entre los demás.\n\nFaust es el señor de la familia Orbatos, o lo que es lo mismo, el señor de absolutamente nada. Orbatos era una conocida casa noble de Remo, que fue completamente arrasada hace años por los ejércitos de Abel en la revuelta de Maximizan Hess. A lo largo de la historia, el nombre de su familia había sido mencionado con una mezcla de miedo y respeto por otros nobles de la zona; no eran pocos los que decían que se trataba de una estirpe maldita, por cuyas venas corría sangre tenebrosa. Todos esos mitos se han hecho realidad en Faust, y pocos son quienes consiguen mantener la mirada fija en él sin sentir un extraño escalofrío. Entrenado desde niño en el combate por su padre, el joven aprendió a usar el miedo a su favor. Tradicionalmente los Orbatos siempre emplearon la intimidación y el temor como arma; él demostró tener una aptitud especial para dominarlo y elevarlo a nuevas cotas.\n\nAhora, despojado de todo salvo de su orgullo, Faust vaga por el mundo sin un motivo concreto; su único interés es ver lo que el destino le tiene reservado. De su familia sólo conserva su armadura negra, la espada de su padre, Ashurian, y una nada despreciable cantidad de dinero. Pero en realidad, bien poco le importan todas esas cosas. Seguirá caminando de un lugar a otro hasta que encuentre el lugar al que pertenece, ya sea la muerte o las mismas profundidades del infierno. Posesiones: Armadura completa, Ashurian (espada bastarda +5), Tres mudas de ropa cara, Un medallón familiar, Raciones de viaje excelentes (para 5 días), 1.300 Escudos de Oro.\n\n#### Shion Demeter\n\n&lt;!-- tags: @sistema, @localizacion, @regla --&gt;\n\n_Página 24_\n\nPersonajes Generados 0 21 Allete Percivan</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +401,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-faust-orbatos-1",
@@ -501,52 +420,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -557,9 +460,6 @@
         "initiative": {
           "base": {
             "value": 95
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +510,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -621,10 +518,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -632,10 +526,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 4055
+              "value": 4095
             },
             "final": {
               "value": 0
@@ -643,10 +534,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 25
+              "value": 65
             },
             "final": {
               "value": 0
@@ -654,10 +542,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -669,227 +554,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 70
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 65
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 105
-        }
+        "value": 105
       },
       "totalArmor": {
         "at": {
@@ -920,11 +1033,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -936,14 +1045,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -957,14 +1071,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1069,15 +1180,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1089,37 +1196,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1242,9 +1369,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

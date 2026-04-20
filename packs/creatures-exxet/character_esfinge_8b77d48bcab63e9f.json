@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 60
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": ""
         },
         "size": {
-          "value": 26
+          "value": "26"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 68</p><p><strong>Entrada:</strong> Esfinge</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 25</p><p><strong>Categoría:</strong> Guerrero Fue: 13 Des: 8 Agi: 9 Con: 13 Pod: 10 Int: 12 Vol: 10 Per: 8 RF 85 RM 75 RP 75 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inhumanidad, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Inmune aFenómenosClimáticos.</p><p><strong>Poderes:</strong> Armas Naturales: Garras, Daña Energía, Descarga de Energía (Distancia 50 Metros, Daño Base Variable, Sin Límite, Requiere 3 Turnos de Preparatoria), Lluvia de Plumas (Área 25 Metros, Daño Base 60, Sin Límite, Requiere un Turno de Preparatoria), Espera, La Carne del Conocimiento, Vuelo Natural 12.</p><p><strong>Daño:</strong> 120 Fauces y Garras (Fil), 60 Lluvia de Plumas (Pen), 100 / 150 / 200 Descarga de Energía (Ene)</p><p><strong>TA:</strong> Natural 6</p><p><strong>Habilidades secundarias:</strong> Atletismo 20, Advertir 50, Buscar 30, Ciencia 200, Ocultismo 240, Historia 240, Persuasión 200</p><p><strong>Descripción breve:</strong> La Musa del Mal Agüero, Vigilante de los Muertos o El Guardián Eterno son algunos de los extraños títulos que han recibido las Esfinges. Se trata de enormes bestias cuadrúpedas devoradoras de carne que tienen el cuerpo completamente recubierto de plumas blancas y hermosas. Gráciles y horrendas a la vez, bajo su estilista belleza se esconden grotescas garras y fauces capaces de matar de las más terroríficas maneras. No obstante, quizás lo que más sorprende de sus cuerpos es que poseen una cabeza humana sobre el torso, un rostro angelical que no hace sino contradecir su monstruosa naturaleza. La procedencia de estos seres se desconoce. A veces se las relaciona con las mantícoras y las quimeras, mientras que otras se dice que son creaciones ancestrales de los ahora olvidados dioses amerenses. Sea como sea, siempre aparecen como guardianas de templos, cementerios y otros lugares sagrados. Por alguna causa misteriosa están atadas a proteger dichos lugares a cualquier precio, impidiendo que extraños penetren en ellos para mancillarlos o robar sus tesoros. Las Esfinges son criaturas extremadamente inteligentes, tanto que sobrepasan con creces a los mejores pensadores mortales. Conocen decenas de idiomas, infinidad de mitos y todo tipo de juegos mentales (en los que se consideran habitualmente invencibles). Sin embargo, también son terriblemente maliciosas y crueles. Les gusta jugar con sus víctimas, respondiendo a sus preguntas o dándoles la oportunidad de sobrevivir a cambio de que logren derrotarlas intelectualmente. Curiosamente suelen mantener su palabra, aunque son especialistas tergiversando el significado de las palabras para salirse con la suya incluso cuando pierden. Las Esfinges, raras por naturaleza, son mucho más comunes en la zona sur del Viejo Continente, especialmente en Estigia, Baho y Kushistan. Eso no significa que no sea posible encontrarlas en otros lugares remotos, aunque es algo extremadamente extraño. m oduS oPerandiPese a ser crueles y disfrutar con la muerte, las Esfinges sólo suelen atacar cuando se ven obligadas a hacerlo. Por lo general, prefieren conversar antes tratando de entretenerse con la necedad de los mortales. Disfrutan con los enigmas y los juegos, así como de la desesperación de aquellos que son incapaces de responder apropiadamente a sus preguntas.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos 25 Puntos de Vida: 3.280 Categoría: Guerrero Fue: 13 Des: 8 Agi: 9 Con: 13 Pod: 10 Int: 12 Vol: 10 Per: 8 RF 85 RM 75 RP 75 RV 85 RE 85\n\nTurno: 65 Natural Habilidad de ataque: 1 90 Fauces y Garras, 1 90 Lluvia de Plumas, 1 90 Descarga de Energía Habilidad de defensa: Acumulación Daño: 120 Fauces y Garras (Fil), 60 Lluvia de Plumas (Pen), 100 / 1 50 / 200 Descarga de Energía (Ene) TA: Natural 6 Habilidades esenciales: Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inhumanidad, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Inmune aFenómenosClimáticos. Poderes: Armas Naturales: Garras, Daña Energía, Descarga de Energía (Distancia 50 Metros, Daño Base Variable, Sin Límite, Requiere 3 Turnos de Preparatoria), Lluvia de Plumas (Área 25 Metros, Daño Base 60, Sin Límite, Requiere un Turno de Preparatoria), Espera, La Carne del Conocimiento, Vuelo Natural 12.\n\nTamaño: 26 Enorme Regeneración: 5 Tipo de movimiento: 10/12 Cansancio: 13 Habilidades Secundarias: Atletismo 20, Advertir 50, Buscar 30, Ciencia 200, Ocultismo 240, Historia 240, Persuasión 200. La Musa del Mal Agüero, Vigilante de los Muertos o El Guardián Eterno son algunos de los extraños títulos que han recibido las Esfinges. Se trata de enormes bestias cuadrúpedas devoradoras de carne que tienen el cuerpo completamente recubierto de plumas blancas y hermosas. Gráciles y horrendas a la vez, bajo su estilista belleza se esconden grotescas garras y fauces capaces de matar de las más terroríficas maneras. No obstante, quizás lo que más sorprende de sus cuerpos es que poseen una cabeza humana sobre el torso, un rostro angelical que no hace sino contradecir su monstruosa naturaleza. La procedencia de estos seres se desconoce.\n\nA veces se las relaciona con las mantícoras y las quimeras, mientras que otras se dice que son creaciones ancestrales de los ahora olvidados dioses amerenses. Sea como sea, siempre aparecen como guardianas de templos, cementerios y otros lugares sagrados. Por alguna causa misteriosa están atadas a proteger dichos lugares a cualquier precio, impidiendo que extraños penetren en ellos para mancillarlos o robar sus tesoros. Las Esfinges son criaturas extremadamente inteligentes, tanto que sobrepasan con creces a los mejores pensadores mortales. Conocen decenas de idiomas, infinidad de mitos y todo tipo de juegos mentales (en los que se consideran habitualmente invencibles). Sin embargo, también son terriblemente maliciosas y crueles. Les gusta jugar con sus víctimas, respondiendo a sus preguntas o dándoles la oportunidad de sobrevivir a cambio de que logren derrotarlas intelectualmente.\n\nCuriosamente suelen mantener su palabra, aunque son especialistas tergiversando el significado de las palabras para salirse con la suya incluso cuando pierden. Las Esfinges, raras por naturaleza, son mucho más comunes en la zona sur del Viejo Continente, especialmente en Estigia, Baho y Kushistan. Eso no significa que no sea posible encontrarlas en otros lugares remotos, aunque es algo extremadamente extraño. m oduS oPerandiPese a ser crueles y disfrutar con la muerte, las Esfinges sólo suelen atacar cuando se ven obligadas a hacerlo. Por lo general, prefieren conversar antes tratando de entretenerse con la necedad de los mortales. Disfrutan con los enigmas y los juegos, así como de la desesperación de aquellos que son incapaces de responder apropiadamente a sus preguntas. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 68</p><p><strong>Entrada:</strong> Esfinge</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 25</p><p><strong>Categoría:</strong> Guerrero Fue: 13 Des: 8 Agi: 9 Con: 13 Pod: 10 Int: 12 Vol: 10 Per: 8 RF 85 RM 75 RP 75 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inhumanidad, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Inmune aFenómenosClimáticos.</p><p><strong>Poderes:</strong> Armas Naturales: Garras, Daña Energía, Descarga de Energía (Distancia 50 Metros, Daño Base Variable, Sin Límite, Requiere 3 Turnos de Preparatoria), Lluvia de Plumas (Área 25 Metros, Daño Base 60, Sin Límite, Requiere un Turno de Preparatoria), Espera, La Carne del Conocimiento, Vuelo Natural 12.</p><p><strong>Daño:</strong> 120 Fauces y Garras (Fil), 60 Lluvia de Plumas (Pen), 100 / 150 / 200 Descarga de Energía (Ene)</p><p><strong>TA:</strong> Natural 6</p><p><strong>Habilidades secundarias:</strong> Atletismo 20, Advertir 50, Buscar 30, Ciencia 200, Ocultismo 240, Historia 240, Persuasión 200</p><p><strong>Descripción breve:</strong> La Musa del Mal Agüero, Vigilante de los Muertos o El Guardián Eterno son algunos de los extraños títulos que han recibido las Esfinges. Se trata de enormes bestias cuadrúpedas devoradoras de carne que tienen el cuerpo completamente recubierto de plumas blancas y hermosas. Gráciles y horrendas a la vez, bajo su estilista belleza se esconden grotescas garras y fauces capaces de matar de las más terroríficas maneras. No obstante, quizás lo que más sorprende de sus cuerpos es que poseen una cabeza humana sobre el torso, un rostro angelical que no hace sino contradecir su monstruosa naturaleza. La procedencia de estos seres se desconoce. A veces se las relaciona con las mantícoras y las quimeras, mientras que otras se dice que son creaciones ancestrales de los ahora olvidados dioses amerenses. Sea como sea, siempre aparecen como guardianas de templos, cementerios y otros lugares sagrados. Por alguna causa misteriosa están atadas a proteger dichos lugares a cualquier precio, impidiendo que extraños penetren en ellos para mancillarlos o robar sus tesoros. Las Esfinges son criaturas extremadamente inteligentes, tanto que sobrepasan con creces a los mejores pensadores mortales. Conocen decenas de idiomas, infinidad de mitos y todo tipo de juegos mentales (en los que se consideran habitualmente invencibles). Sin embargo, también son terriblemente maliciosas y crueles. Les gusta jugar con sus víctimas, respondiendo a sus preguntas o dándoles la oportunidad de sobrevivir a cambio de que logren derrotarlas intelectualmente. Curiosamente suelen mantener su palabra, aunque son especialistas tergiversando el significado de las palabras para salirse con la suya incluso cuando pierden. Las Esfinges, raras por naturaleza, son mucho más comunes en la zona sur del Viejo Continente, especialmente en Estigia, Baho y Kushistan. Eso no significa que no sea posible encontrarlas en otros lugares remotos, aunque es algo extremadamente extraño. m oduS oPerandiPese a ser crueles y disfrutar con la muerte, las Esfinges sólo suelen atacar cuando se ven obligadas a hacerlo. Por lo general, prefieren conversar antes tratando de entretenerse con la necedad de los mortales. Disfrutan con los enigmas y los juegos, así como de la desesperación de aquellos que son incapaces de responder apropiadamente a sus preguntas.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos 25 Puntos de Vida: 3.280 Categoría: Guerrero Fue: 13 Des: 8 Agi: 9 Con: 13 Pod: 10 Int: 12 Vol: 10 Per: 8 RF 85 RM 75 RP 75 RV 85 RE 85\n\nTurno: 65 Natural Habilidad de ataque: 1 90 Fauces y Garras, 1 90 Lluvia de Plumas, 1 90 Descarga de Energía Habilidad de defensa: Acumulación Daño: 120 Fauces y Garras (Fil), 60 Lluvia de Plumas (Pen), 100 / 1 50 / 200 Descarga de Energía (Ene) TA: Natural 6 Habilidades esenciales: Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inhumanidad, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Inmune aFenómenosClimáticos. Poderes: Armas Naturales: Garras, Daña Energía, Descarga de Energía (Distancia 50 Metros, Daño Base Variable, Sin Límite, Requiere 3 Turnos de Preparatoria), Lluvia de Plumas (Área 25 Metros, Daño Base 60, Sin Límite, Requiere un Turno de Preparatoria), Espera, La Carne del Conocimiento, Vuelo Natural 12.\n\nTamaño: 26 Enorme Regeneración: 5 Tipo de movimiento: 10/12 Cansancio: 13 Habilidades Secundarias: Atletismo 20, Advertir 50, Buscar 30, Ciencia 200, Ocultismo 240, Historia 240, Persuasión 200. La Musa del Mal Agüero, Vigilante de los Muertos o El Guardián Eterno son algunos de los extraños títulos que han recibido las Esfinges. Se trata de enormes bestias cuadrúpedas devoradoras de carne que tienen el cuerpo completamente recubierto de plumas blancas y hermosas. Gráciles y horrendas a la vez, bajo su estilista belleza se esconden grotescas garras y fauces capaces de matar de las más terroríficas maneras. No obstante, quizás lo que más sorprende de sus cuerpos es que poseen una cabeza humana sobre el torso, un rostro angelical que no hace sino contradecir su monstruosa naturaleza. La procedencia de estos seres se desconoce.\n\nA veces se las relaciona con las mantícoras y las quimeras, mientras que otras se dice que son creaciones ancestrales de los ahora olvidados dioses amerenses. Sea como sea, siempre aparecen como guardianas de templos, cementerios y otros lugares sagrados. Por alguna causa misteriosa están atadas a proteger dichos lugares a cualquier precio, impidiendo que extraños penetren en ellos para mancillarlos o robar sus tesoros. Las Esfinges son criaturas extremadamente inteligentes, tanto que sobrepasan con creces a los mejores pensadores mortales. Conocen decenas de idiomas, infinidad de mitos y todo tipo de juegos mentales (en los que se consideran habitualmente invencibles). Sin embargo, también son terriblemente maliciosas y crueles. Les gusta jugar con sus víctimas, respondiendo a sus preguntas o dándoles la oportunidad de sobrevivir a cambio de que logren derrotarlas intelectualmente.\n\nCuriosamente suelen mantener su palabra, aunque son especialistas tergiversando el significado de las palabras para salirse con la suya incluso cuando pierden. Las Esfinges, raras por naturaleza, son mucho más comunes en la zona sur del Viejo Continente, especialmente en Estigia, Baho y Kushistan. Eso no significa que no sea posible encontrarlas en otros lugares remotos, aunque es algo extremadamente extraño. m oduS oPerandiPese a ser crueles y disfrutar con la muerte, las Esfinges sólo suelen atacar cuando se ven obligadas a hacerlo. Por lo general, prefieren conversar antes tratando de entretenerse con la necedad de los mortales. Disfrutan con los enigmas y los juegos, así como de la desesperación de aquellos que son incapaces de responder apropiadamente a sus preguntas. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 7
-      },
       "notes": [
         {
           "_id": "note-esfinge-3",
@@ -501,52 +423,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -557,9 +463,6 @@
         "initiative": {
           "base": {
             "value": 65
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +513,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -621,10 +521,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -632,10 +529,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 8480
+              "value": 8565
             },
             "final": {
               "value": 0
@@ -643,10 +537,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -654,10 +545,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -669,212 +557,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 240
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 240
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 190
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -905,11 +1036,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -921,14 +1048,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -942,14 +1074,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1054,15 +1183,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1074,37 +1199,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1227,9 +1372,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

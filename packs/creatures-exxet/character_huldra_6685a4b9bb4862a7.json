@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": true
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
         },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "perceiveMystic": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +147,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +167,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 55
         }
       },
       "aspect": {
@@ -274,7 +201,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +219,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 90</p><p><strong>Entrada:</strong> Huldra</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 20</p><p><strong>Categoría:</strong> Hechicero Fue: 6 Des: 8 Agi: 7 Con: 7 Pod: 12 Int: 12 Vol: 8 Per: 8 RF 60 RM 75 RP 65 RV 60 RE 60</p><p><strong>Habilidades esenciales:</strong> Don, Desequilibrio Elemental (Esencia), Características Anímicas Sobrehumanas, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Recuperación Superior de Magia Condicionada, Necesidad Músical (Magia Atada aAcción).</p><p><strong>Poderes:</strong> Damas de los Sentimientos, Comunión con la Naturaleza (Regeneración 14 Condicionada, Movimiento Libre por Naturaleza), Música del Alma, Ver Espíritus.</p><p><strong>Daño:</strong> 15 Combate Desarmado (Con)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Nadar 15, Estilo 30, Persuasión 80, Liderazgo 120, Venenos 25, Advertir 25, Buscar 20, Animales 30, Herbolaria 30, Valoración Mágica 100, Música 200</p><p><strong>Descripción breve:</strong> El folklore tradicional de muchas culturas habla de las Huldrae como seres sobrenaturales femeninos que median entre los asuntos del hombre con el más allá. Comúnmente se las considera criaturas ligadas a la naturaleza, similares a las Driadas o a los Harekawa, pero sus lazos son ligeramente más superficiales que los de estos dos. Algunos incluso las equiparan a sirenas de los bosques, por su voz sobrenatural y su costumbre de relacionarse con hombres que les atraen. Las Huldrae son siempre mujeres extraordinariamente atractivas cuyas espaldas están “huecas”. Vistas desde atrás su espinazo aparenta ser un viejo tronco del que a menudo brotan plantas y raíces que usan para sostenerse por encima del suelo. No obstante, vestidas apropiadamente llegan a pasar por mujeres normales. Su color de pelo natural es verdoso, pero pueden innatamente modificarlo a la tonalidad que prefieran (sobre todo, si quieren tomar aspecto humano). Las Huldrae tienen multitud de funciones dentro de la estructura del mundo sobrenatural y el mundano. En muchas ocasiones actúan como intermediarias de los espíritus y los seres mortales, poniendo en contacto a ambos o actuando como embajadoras de paz (pues son muy hábiles deteniendo los conflictos innecesarios). Más de una vez alguna de ellas ha acabado trabajando en secreto como consejera de señores feudales o caudillos militares para lograr que sus dominios sean prósperos y, al mismo tiempo, que los humanos no molesten innecesariamente a los espíritus locales. También actúan como musas para los artistas que han perdido la inspiración o devolviendo las ganas de vivir a aquellos que ya no encuentran sentido a sus vidas. Finalmente, en menor grado se las relaciona con las cacerías, ya sea para ayudar a aquellos que les caigan en gracia a encontrar las mejores presas o, por el contrario, a impedir que algunos montaraces logren encontrar nada que matar. La personalidad de las Huldrae es variada, mas suelen ser agradables y poco propensas a la violencia. Se comunican en muchos idiomas, tanto mortales como sobrenaturales, e incluso son capaces de trasmitir pensamientos e ideas a los espíritus que no entienden ningún lenguaje oral o escrito. Sus principales aficiones son la música y el arte, pues su aptitud artística innata es superior a la de cualquier mortal y su angelical voz solo se compara a la de las Elhaym. Actualmente casi la mitad de ellas están afiliadas aSamael o tienen buenos contactos con dicha sociedad, mientras que el resto vive en zonas rurales donde dirigen las acciones de los seres sobrenaturales locales. m oduS oPerandiAunque considerablemente poderosas gracias a su elevado dominio de la magia, las Huldrae son lo suficientemente inteligentes y reflexivas como para buscar todo tipo de soluciones pacificas a cualquier conflicto. Sin embargo, eso no significa que sean estúpidas; saben perfectamente cuando la lucha es la única salida o en que momentos acabar con una persona puede ser lo más conveniente para la mayoría. Curiosamente, sus contactos con las fuerzas sobrenaturales son precisamente lo que las vuelve más peligrosas; pueden recurrir al apoyo de multitud de criaturas y espíritus, como Cath Flidais o diversos elementales. Damas de los Sentimientos: Debido a su condición natural, la mayoría de las Huldrae suelen sincronizar con la Beryl Gabriel, incrementando sus habilidades artísticas y creando un aura de paz a su alrededor. Por lo general su sincronización ronda los 40 puntos (siendo Aptitud Artística, Gracia, Empatía Positiva y Pacificador sus dones más comunes), pero en ocasiones excepcionales algunas de ellas pueden alcanzar un valor muy superior. Comunión con la Naturaleza: Mientras se encuentre en un bosque o paraje natural, el cuerpo y alma de las Huldrae se recuperan a un ritmo vertiginoso. En consecuencia, adquieren Regeneración 14 y doblan su recuperación de Zeon. Tampoco tienen ninguna restricción de movimiento en el caso de moverse a través de tales parajes y son inmunes a todos los venenos o enfermedades naturales. Habilidades Metamágicas: Cada Huldra puede invertir libremente hasta 20 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos haya cumplido. Música del Alma: La aptitud más poderosa de una Huldra consiste en transmitir sensaciones y emociones directamente con sus canciones e interpretaciones musicales. Si logra tocar o cantar durante un mínimo de tres asaltos completos, puede obligar a cualquiera que la escuche a realizar un control automático de RM o RP contra una dificultad equivalente a la mitad del valor alcanzado en un control de Música (hasta un máximo de 180). De fallarlo, cualquier afectado se verá embriagado por la emoción que la Huldra hubiera introducido en su canción (como tristeza, dolor, alegría, deseo…) un número de asaltos equivalente a su nivel de fracaso. Si alguien sigue oyendo la canción tras haber superado el control inicial tiene que repetirlo nuevamente cada cinco asaltos, aunque esta vez aplicando un bono de +20 a su Resistencia. Necesidad Musical: Para poder realizar sus sortilegios, las Huldrae necesitan utilizar música o canciones. De no poder tocar música o cantar, son simplemente incapaces de lanzar hechizos. José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entre mundos 20 Puntos de Vida: 125 Categoría: Hechicero Fue: 6 Des: 8 Agi: 7 Con: 7 Pod: 12 Int: 12 Vol: 8 Per: 8 RF 60 RM 75 RP 65 RV 60 RE 60\n\nTurno: 80 Natural Habilidad de ataque: 10 Combate Desarmado Habilidad de defensa: 5 Esquiva Daño: 1 5 Combate Desarmado (Con) TA: Ninguna ACT: 80 Esencia, 60 otras\n\nZeon: 1660\n\nProyección mágica: 1 50 Ofensiva, 180 Defensiva Nivel de Vía: 50 Esencia Habilidades Esenciales: Don, Desequilibrio Elemental (Esencia), Características Anímicas Sobrehumanas, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Recuperación Superior de Magia Condicionada, Necesidad Músical (Magia Atada aAcción). Poderes: Damas de los Sentimientos, Comunión con la Naturaleza (Regeneración 1 4 Condicionada, Movimiento Libre por Naturaleza), Música del Alma, Ver Espíritus. de movimiento: 7 Cansancio: 7 Habilidades Secundarias: Nadar 1 5, Estilo 30, Persuasión 80, Liderazgo 1 20, Venenos 25, Advertir 25, Buscar 20, Animales 30, Herbolaria 30, Valoración Mágica 100, Música 200. El folklore tradicional de muchas culturas habla de las Huldrae como seres sobrenaturales femeninos que median entre los asuntos del hombre con el más allá.\n\nComúnmente se las considera criaturas ligadas a la naturaleza, similares a las Driadas o a los Harekawa, pero sus lazos son ligeramente más superficiales que los de estos dos. Algunos incluso las equiparan a sirenas de los bosques, por su voz sobrenatural y su costumbre de relacionarse con hombres que les atraen. Las Huldrae son siempre mujeres extraordinariamente atractivas cuyas espaldas están “huecas”. Vistas desde atrás su espinazo aparenta ser un viejo tronco del que a menudo brotan plantas y raíces que usan para sostenerse por encima del suelo. No obstante, vestidas apropiadamente llegan a pasar por mujeres normales. Su color de pelo natural es verdoso, pero pueden innatamente modificarlo a la tonalidad que prefieran (sobre todo, si quieren tomar aspecto humano). Las Huldrae tienen multitud de funciones dentro de la estructura del mundo sobrenatural y el mundano.\n\nEn muchas ocasiones actúan como intermediarias de los espíritus y los seres mortales, poniendo en contacto a ambos o actuando como embajadoras de paz (pues son muy hábiles deteniendo los conflictos innecesarios). Más de una vez alguna de ellas ha acabado trabajando en secreto como consejera de señores feudales o caudillos militares para lograr que sus dominios sean prósperos y, al mismo tiempo, que los humanos no molesten innecesariamente a los espíritus locales. También actúan como musas para los artistas que han perdido la inspiración o devolviendo las ganas de vivir a aquellos que ya no encuentran sentido a sus vidas. Finalmente, en menor grado se las relaciona con las cacerías, ya sea para ayudar a aquellos que les caigan en gracia a encontrar las mejores presas o, por el contrario, a impedir que algunos montaraces logren encontrar nada que matar.\n\nLa personalidad de las Huldrae es variada, mas suelen ser agradables y poco propensas a la violencia. Se comunican en muchos idiomas, tanto mortales como sobrenaturales, e incluso son capaces de trasmitir pensamientos e ideas a los espíritus que no entienden ningún lenguaje oral o escrito. Sus principales aficiones son la música y el arte, pues su aptitud artística innata es superior a la de cualquier mortal y su angelical voz solo se compara a la de las Elhaym. Actualmente casi la mitad de ellas están afiliadas aSamael o tienen buenos contactos con dicha sociedad, mientras que el resto vive en zonas rurales donde dirigen las acciones de los seres sobrenaturales locales.\n\nm oduS oPerandiAunque considerablemente poderosas gracias a su elevado dominio de la magia, las Huldrae son lo suficientemente inteligentes y reflexivas como para buscar todo tipo de soluciones pacificas a cualquier conflicto. Sin embargo, eso no significa que sean estúpidas; saben perfectamente cuando la lucha es la única salida o en que momentos acabar con una persona puede ser lo más conveniente para la mayoría. Curiosamente, sus contactos con las fuerzas sobrenaturales son precisamente lo que las vuelve más peligrosas; pueden recurrir al apoyo de multitud de criaturas y espíritus, como Cath Flidais o diversos elementales. Damas de los Sentimientos: Debido a su condición natural, la mayoría de las Huldrae suelen sincronizar con la Beryl Gabriel, incrementando sus habilidades artísticas y creando un aura de paz a su alrededor.\n\nPor lo general su sincronización ronda los 40 puntos (siendo Aptitud Artística, Gracia, Empatía Positiva y Pacificador sus dones más comunes), pero en ocasiones excepcionales algunas de ellas pueden alcanzar un valor muy superior. Comunión con la Naturaleza: Mientras se encuentre en un bosque o paraje natural, el cuerpo y alma de las Huldrae se recuperan a un ritmo vertiginoso. En consecuencia, adquieren Regeneración 1 4 y doblan su recuperación de Zeon. Tampoco tienen ninguna restricción de movimiento en el caso de moverse a través de tales parajes y son inmunes a todos los venenos o enfermedades naturales. Habilidades Metamágicas: Cada Huldra puede invertir libremente hasta 20 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos haya cumplido.\n\nMúsica del Alma: La aptitud más poderosa de una Huldra consiste en transmitir sensaciones y emociones directamente con sus canciones e interpretaciones musicales. Si logra tocar o cantar durante un mínimo de tres asaltos completos, puede obligar a cualquiera que la escuche a realizar un control automático de RM o RP contra una dificultad equivalente a la mitad del valor alcanzado en un control de Música (hasta un máximo de 180). De fallarlo, cualquier afectado se verá embriagado por la emoción que la Huldra hubiera introducido en su canción (como tristeza, dolor, alegría, deseo…) un número de asaltos equivalente a su nivel de fracaso. Si alguien sigue oyendo la canción tras haber superado el control inicial tiene que repetirlo nuevamente cada cinco asaltos, aunque esta vez aplicando un bono de +20 a su Resistencia.\n\nNecesidad Musical: Para poder realizar sus sortilegios, las Huldrae necesitan utilizar música o canciones. De no poder tocar música o cantar, son simplemente incapaces de lanzar hechizos. José María Solano Albares (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 90</p><p><strong>Entrada:</strong> Huldra</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 20</p><p><strong>Categoría:</strong> Hechicero Fue: 6 Des: 8 Agi: 7 Con: 7 Pod: 12 Int: 12 Vol: 8 Per: 8 RF 60 RM 75 RP 65 RV 60 RE 60</p><p><strong>Habilidades esenciales:</strong> Don, Desequilibrio Elemental (Esencia), Características Anímicas Sobrehumanas, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Recuperación Superior de Magia Condicionada, Necesidad Músical (Magia Atada aAcción).</p><p><strong>Poderes:</strong> Damas de los Sentimientos, Comunión con la Naturaleza (Regeneración 14 Condicionada, Movimiento Libre por Naturaleza), Música del Alma, Ver Espíritus.</p><p><strong>Daño:</strong> 15 Combate Desarmado (Con)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Nadar 15, Estilo 30, Persuasión 80, Liderazgo 120, Venenos 25, Advertir 25, Buscar 20, Animales 30, Herbolaria 30, Valoración Mágica 100, Música 200</p><p><strong>Descripción breve:</strong> El folklore tradicional de muchas culturas habla de las Huldrae como seres sobrenaturales femeninos que median entre los asuntos del hombre con el más allá. Comúnmente se las considera criaturas ligadas a la naturaleza, similares a las Driadas o a los Harekawa, pero sus lazos son ligeramente más superficiales que los de estos dos. Algunos incluso las equiparan a sirenas de los bosques, por su voz sobrenatural y su costumbre de relacionarse con hombres que les atraen. Las Huldrae son siempre mujeres extraordinariamente atractivas cuyas espaldas están “huecas”. Vistas desde atrás su espinazo aparenta ser un viejo tronco del que a menudo brotan plantas y raíces que usan para sostenerse por encima del suelo. No obstante, vestidas apropiadamente llegan a pasar por mujeres normales. Su color de pelo natural es verdoso, pero pueden innatamente modificarlo a la tonalidad que prefieran (sobre todo, si quieren tomar aspecto humano). Las Huldrae tienen multitud de funciones dentro de la estructura del mundo sobrenatural y el mundano. En muchas ocasiones actúan como intermediarias de los espíritus y los seres mortales, poniendo en contacto a ambos o actuando como embajadoras de paz (pues son muy hábiles deteniendo los conflictos innecesarios). Más de una vez alguna de ellas ha acabado trabajando en secreto como consejera de señores feudales o caudillos militares para lograr que sus dominios sean prósperos y, al mismo tiempo, que los humanos no molesten innecesariamente a los espíritus locales. También actúan como musas para los artistas que han perdido la inspiración o devolviendo las ganas de vivir a aquellos que ya no encuentran sentido a sus vidas. Finalmente, en menor grado se las relaciona con las cacerías, ya sea para ayudar a aquellos que les caigan en gracia a encontrar las mejores presas o, por el contrario, a impedir que algunos montaraces logren encontrar nada que matar. La personalidad de las Huldrae es variada, mas suelen ser agradables y poco propensas a la violencia. Se comunican en muchos idiomas, tanto mortales como sobrenaturales, e incluso son capaces de trasmitir pensamientos e ideas a los espíritus que no entienden ningún lenguaje oral o escrito. Sus principales aficiones son la música y el arte, pues su aptitud artística innata es superior a la de cualquier mortal y su angelical voz solo se compara a la de las Elhaym. Actualmente casi la mitad de ellas están afiliadas aSamael o tienen buenos contactos con dicha sociedad, mientras que el resto vive en zonas rurales donde dirigen las acciones de los seres sobrenaturales locales. m oduS oPerandiAunque considerablemente poderosas gracias a su elevado dominio de la magia, las Huldrae son lo suficientemente inteligentes y reflexivas como para buscar todo tipo de soluciones pacificas a cualquier conflicto. Sin embargo, eso no significa que sean estúpidas; saben perfectamente cuando la lucha es la única salida o en que momentos acabar con una persona puede ser lo más conveniente para la mayoría. Curiosamente, sus contactos con las fuerzas sobrenaturales son precisamente lo que las vuelve más peligrosas; pueden recurrir al apoyo de multitud de criaturas y espíritus, como Cath Flidais o diversos elementales. Damas de los Sentimientos: Debido a su condición natural, la mayoría de las Huldrae suelen sincronizar con la Beryl Gabriel, incrementando sus habilidades artísticas y creando un aura de paz a su alrededor. Por lo general su sincronización ronda los 40 puntos (siendo Aptitud Artística, Gracia, Empatía Positiva y Pacificador sus dones más comunes), pero en ocasiones excepcionales algunas de ellas pueden alcanzar un valor muy superior. Comunión con la Naturaleza: Mientras se encuentre en un bosque o paraje natural, el cuerpo y alma de las Huldrae se recuperan a un ritmo vertiginoso. En consecuencia, adquieren Regeneración 14 y doblan su recuperación de Zeon. Tampoco tienen ninguna restricción de movimiento en el caso de moverse a través de tales parajes y son inmunes a todos los venenos o enfermedades naturales. Habilidades Metamágicas: Cada Huldra puede invertir libremente hasta 20 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos haya cumplido. Música del Alma: La aptitud más poderosa de una Huldra consiste en transmitir sensaciones y emociones directamente con sus canciones e interpretaciones musicales. Si logra tocar o cantar durante un mínimo de tres asaltos completos, puede obligar a cualquiera que la escuche a realizar un control automático de RM o RP contra una dificultad equivalente a la mitad del valor alcanzado en un control de Música (hasta un máximo de 180). De fallarlo, cualquier afectado se verá embriagado por la emoción que la Huldra hubiera introducido en su canción (como tristeza, dolor, alegría, deseo…) un número de asaltos equivalente a su nivel de fracaso. Si alguien sigue oyendo la canción tras haber superado el control inicial tiene que repetirlo nuevamente cada cinco asaltos, aunque esta vez aplicando un bono de +20 a su Resistencia. Necesidad Musical: Para poder realizar sus sortilegios, las Huldrae necesitan utilizar música o canciones. De no poder tocar música o cantar, son simplemente incapaces de lanzar hechizos. José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entre mundos 20 Puntos de Vida: 125 Categoría: Hechicero Fue: 6 Des: 8 Agi: 7 Con: 7 Pod: 12 Int: 12 Vol: 8 Per: 8 RF 60 RM 75 RP 65 RV 60 RE 60\n\nTurno: 80 Natural Habilidad de ataque: 10 Combate Desarmado Habilidad de defensa: 5 Esquiva Daño: 1 5 Combate Desarmado (Con) TA: Ninguna ACT: 80 Esencia, 60 otras\n\nZeon: 1660\n\nProyección mágica: 1 50 Ofensiva, 180 Defensiva Nivel de Vía: 50 Esencia Habilidades Esenciales: Don, Desequilibrio Elemental (Esencia), Características Anímicas Sobrehumanas, Inmune aVenenosNaturales, Inmune aEnfermedadesNaturales, Recuperación Superior de Magia Condicionada, Necesidad Músical (Magia Atada aAcción). Poderes: Damas de los Sentimientos, Comunión con la Naturaleza (Regeneración 1 4 Condicionada, Movimiento Libre por Naturaleza), Música del Alma, Ver Espíritus. de movimiento: 7 Cansancio: 7 Habilidades Secundarias: Nadar 1 5, Estilo 30, Persuasión 80, Liderazgo 1 20, Venenos 25, Advertir 25, Buscar 20, Animales 30, Herbolaria 30, Valoración Mágica 100, Música 200. El folklore tradicional de muchas culturas habla de las Huldrae como seres sobrenaturales femeninos que median entre los asuntos del hombre con el más allá.\n\nComúnmente se las considera criaturas ligadas a la naturaleza, similares a las Driadas o a los Harekawa, pero sus lazos son ligeramente más superficiales que los de estos dos. Algunos incluso las equiparan a sirenas de los bosques, por su voz sobrenatural y su costumbre de relacionarse con hombres que les atraen. Las Huldrae son siempre mujeres extraordinariamente atractivas cuyas espaldas están “huecas”. Vistas desde atrás su espinazo aparenta ser un viejo tronco del que a menudo brotan plantas y raíces que usan para sostenerse por encima del suelo. No obstante, vestidas apropiadamente llegan a pasar por mujeres normales. Su color de pelo natural es verdoso, pero pueden innatamente modificarlo a la tonalidad que prefieran (sobre todo, si quieren tomar aspecto humano). Las Huldrae tienen multitud de funciones dentro de la estructura del mundo sobrenatural y el mundano.\n\nEn muchas ocasiones actúan como intermediarias de los espíritus y los seres mortales, poniendo en contacto a ambos o actuando como embajadoras de paz (pues son muy hábiles deteniendo los conflictos innecesarios). Más de una vez alguna de ellas ha acabado trabajando en secreto como consejera de señores feudales o caudillos militares para lograr que sus dominios sean prósperos y, al mismo tiempo, que los humanos no molesten innecesariamente a los espíritus locales. También actúan como musas para los artistas que han perdido la inspiración o devolviendo las ganas de vivir a aquellos que ya no encuentran sentido a sus vidas. Finalmente, en menor grado se las relaciona con las cacerías, ya sea para ayudar a aquellos que les caigan en gracia a encontrar las mejores presas o, por el contrario, a impedir que algunos montaraces logren encontrar nada que matar.\n\nLa personalidad de las Huldrae es variada, mas suelen ser agradables y poco propensas a la violencia. Se comunican en muchos idiomas, tanto mortales como sobrenaturales, e incluso son capaces de trasmitir pensamientos e ideas a los espíritus que no entienden ningún lenguaje oral o escrito. Sus principales aficiones son la música y el arte, pues su aptitud artística innata es superior a la de cualquier mortal y su angelical voz solo se compara a la de las Elhaym. Actualmente casi la mitad de ellas están afiliadas aSamael o tienen buenos contactos con dicha sociedad, mientras que el resto vive en zonas rurales donde dirigen las acciones de los seres sobrenaturales locales.\n\nm oduS oPerandiAunque considerablemente poderosas gracias a su elevado dominio de la magia, las Huldrae son lo suficientemente inteligentes y reflexivas como para buscar todo tipo de soluciones pacificas a cualquier conflicto. Sin embargo, eso no significa que sean estúpidas; saben perfectamente cuando la lucha es la única salida o en que momentos acabar con una persona puede ser lo más conveniente para la mayoría. Curiosamente, sus contactos con las fuerzas sobrenaturales son precisamente lo que las vuelve más peligrosas; pueden recurrir al apoyo de multitud de criaturas y espíritus, como Cath Flidais o diversos elementales. Damas de los Sentimientos: Debido a su condición natural, la mayoría de las Huldrae suelen sincronizar con la Beryl Gabriel, incrementando sus habilidades artísticas y creando un aura de paz a su alrededor.\n\nPor lo general su sincronización ronda los 40 puntos (siendo Aptitud Artística, Gracia, Empatía Positiva y Pacificador sus dones más comunes), pero en ocasiones excepcionales algunas de ellas pueden alcanzar un valor muy superior. Comunión con la Naturaleza: Mientras se encuentre en un bosque o paraje natural, el cuerpo y alma de las Huldrae se recuperan a un ritmo vertiginoso. En consecuencia, adquieren Regeneración 1 4 y doblan su recuperación de Zeon. Tampoco tienen ninguna restricción de movimiento en el caso de moverse a través de tales parajes y son inmunes a todos los venenos o enfermedades naturales. Habilidades Metamágicas: Cada Huldra puede invertir libremente hasta 20 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos haya cumplido.\n\nMúsica del Alma: La aptitud más poderosa de una Huldra consiste en transmitir sensaciones y emociones directamente con sus canciones e interpretaciones musicales. Si logra tocar o cantar durante un mínimo de tres asaltos completos, puede obligar a cualquiera que la escuche a realizar un control automático de RM o RP contra una dificultad equivalente a la mitad del valor alcanzado en un control de Música (hasta un máximo de 180). De fallarlo, cualquier afectado se verá embriagado por la emoción que la Huldra hubiera introducido en su canción (como tristeza, dolor, alegría, deseo…) un número de asaltos equivalente a su nivel de fracaso. Si alguien sigue oyendo la canción tras haber superado el control inicial tiene que repetirlo nuevamente cada cinco asaltos, aunque esta vez aplicando un bono de +20 a su Resistencia.\n\nNecesidad Musical: Para poder realizar sus sortilegios, las Huldrae necesitan utilizar música o canciones. De no poder tocar música o cantar, son simplemente incapaces de lanzar hechizos. José María Solano Albares (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +251,6 @@
           }
         }
       ],
-      "level": {
-        "value": 6
-      },
       "notes": [
         {
           "_id": "note-huldra-3",
@@ -345,52 +270,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -401,9 +310,6 @@
         "initiative": {
           "base": {
             "value": 80
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +360,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -465,10 +368,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -476,10 +376,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 6020
+              "value": 6080
             },
             "final": {
               "value": 0
@@ -487,10 +384,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -498,10 +392,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 65
             },
             "final": {
               "value": 0
@@ -513,227 +404,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 10
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 5
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -764,11 +883,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -780,16 +895,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 1660,
         "max": 1660
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -801,14 +921,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -913,15 +1030,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -933,37 +1046,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1086,9 +1219,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

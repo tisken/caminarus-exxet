@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 45
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": ""
         },
         "size": {
-          "value": 22
+          "value": "22"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 160</p><p><strong>Entrada:</strong> Type-005</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, No muerto (Creación) 15</p><p><strong>Categoría:</strong> Guerrero Fue: 11 Des: 8 Agi: 6 Con: 11 Pod: 6 Int: 4 Vol: 2 Per: 7 RF 65 RM 50 RP 25 RV 65 RE 65</p><p><strong>Habilidades esenciales:</strong> Exención Física, Características Físicas Sobrehumanas, Inmune al Dolor, Inmunidad Psicológica.</p><p><strong>Poderes:</strong> Armas Naturales; BioHuesos (+20 al Daño), Arpón de Hueso (Distancia 100 Metros, Sin Límite, Requiere 3 Turnos de Preparatoria), Cadena de Huesos (Distancia 10 Metros, Presa 10, Sin Límite), Armadura Física 4, Protocolo Final (Área 5 Metros, Daño Base 100), Visión Extrasensorial.</p><p><strong>Daño:</strong> 80 BioHuesos, 40 Cadena de Huesos, 60 Arpón de Hueso, 100 Protocolo Final.</p><p><strong>TA:</strong> Natural + Huesos Fil 5 Con 5 Pen 5 Cal 5 Fri 5 Ele 5 Ene 3</p><p><strong>Habilidades secundarias:</strong> Saltar 35, Trepar 30, Advertir 55, Buscar 45</p><p><strong>Descripción breve:</strong> Los Type-005 son el resultado de las arduas investigaciones de los científicos de Sol Negro para crear un modelo de zombie increíblemente más poderoso que un simple cadáver animado convencional. Este éxito sin precedentes les permitió desarrollar lo que, a su particular manera, serían los mejores soldados no muertos de la organización. Pese a que ni se acercan remotamente a las capacidades destructivas de criaturas como los Raziel, los Type-005 son agentes efectivos, controlables y lo que es mejor, fáciles de usar, pues en ciertas circunstancias pueden perfectamente ser confundidos con humanos normales. El proceso para elaborarlos es similar al que se emplea con los zombies, si bien mucho más detallista y costoso, pues su esqueleto recibe modificaciones basadas en alquimia y se le modifica el cerebro instalando un sistema de control. Naturalmente, sólo los mejores y más resistentes cadáveres son seleccionados. Aprimera vista un Type-005 es meramente un hombre musculoso (no suelen usarse mujeres para este proyecto) extremadamente pálido y carente de todo vello corporal. Lo normal es que tengan el cuerpo repleto de cicatrices y costuras, y pueden vestir cualquier combinación de ropas y armaduras (o ir completamente desnudos), según las necesidades de la organización. Sólo cuando luchan revelan su verdadera naturaleza inhumana, pues exteriorizan huesos monstruosos para formar con ellos las más increíbles armas naturales desde prácticamente cualquier parte; codos, antebrazos, pecho, cabeza… Los Type-005 no tienen identidad ni personalidad; carecen por completo de recuerdos de su vida y actúan de manera maquinal obedeciendo automáticamente las órdenes que reciben. Sol Negro los emplea como soldados de elite para formar sus propios escuadrones privados. Gracias a su estabilidad (no es frecuente que pierdan el control), es también el primer “producto” que ha comercializado, si bien sus clientes son siempre individuos de la mayor confianza capaces de pagar precios exhorbitantes para tener sus propios “soldados inmortales”. m oduS oPerandiUnType-005 es un soldado efectivo que obedece las órdenes que recibe de un modo simple y directo. Puesto que su inteligencia no es muy elevada, no son imaginativos a la hora de luchar, actuando de una manera mecánica (aunque efectiva) al enfrentarse a sus enemigos. No tienen puntos vulnerables conocidos. BioHuesos: La estructura física de los Type-005 está preparada para convertirse en un arma, puesto que son capaces de controlar la forma y el crecimiento de todos y cada uno de sus huesos. Avoluntad, estos cadáveres superiores pueden hacer que cualquier parte de su esqueleto se manifieste directamente a través de su piel como una cuchilla, una arista afilada u otra arma natural. Gracias a esta diversidad de armas, el Type-005 puede elegir el tipo de clase de ataque que prefiera, ya sea FILo, PENetrante o CONtundente sin aplicar penalizador alguno a su habilidad. Los biohuesos pueden alcanzar un tamaño de hasta dos metros e, incluso si son rotos, vuelven a crecer en cuestión de segundos. Del mismo modo, las heridas que estos producen al manifestarse se cierran poco tiempo después, por lo que no sufre daños al usarlas. Arpón de Hueso: Cuando un objetivo se encuentra a mucha distancia los Type-005 tienen a su disposición un arma ósea instalada en el interior de su brazo izquierdo que dispara un enorme hueso en forma de arpón que ellos mismos han generado. Esta habilidad es equivalente a un ataque completo (el Type-005 no puede realizar ninguna otra acción activa o ataque adicional), y el hueso es un proyectil natural disparado con un alcance máximo de 100 metros. Tras usar el arpón el cadáver necesita al menos tres turnos enteros para que su cuerpo genere nuevamente un hueso que pueda servirle como munición. Cadena de Huesos: Un Type-005 puede usar su columna vertebral como cadena o látigo que se extiende hasta 10 metros para atrapar a un adversario e inmovilizarlo o atraerlo a combate físico. Este ataque usa las reglas de Presa con el equivalente aFuerza 10. Si la Cadena es objetivo de ataques, aguanta 300 puntos de daño antes de quebrarse, pero empieza a crecer nuevamente recobrándose completamente al cabo de cinco asaltos. José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>Nivel: 4\n\nClase: Entre mundos, No muerto (Creación) 1 5 Puntos de Vida: 1.250 Acumulación Categoría: Guerrero Fue: 11 Des: 8 Agi: 6 Con: 11 Pod: 6 Int: 4 Vol: 2 Per: 7 RF 65 RM 50 RP 25 RV 65 RE 65\n\nTurno: 75 Natural Habilidad de ataque: 1 40 BioHuesos, 1 40 Cadena de Huesos, 120 Arpón de Hueso, 1 40 Protocolo Final. Habilidad de defensa: Acumulación Daño: 80 BioHuesos, 40 Cadena de Huesos, 60 Arpón de Hueso, 100 Protocolo Final. TA: Natural + Huesos Fil 5 Con 5 Pen 5 Cal 5 Fri 5 Ele 5 Ene 3 Habilidades esenciales: Exención Física, Características Físicas Sobrehumanas, Inmune al Dolor, Inmunidad Psicológica. Poderes: Armas Naturales; BioHuesos (+20 al Daño), Arpón de Hueso (Distancia 100 Metros, Sin Límite, Requiere 3 Turnos de Preparatoria), Cadena de Huesos (Distancia 10 Metros, Presa 10, Sin Límite), Armadura Física 4, Protocolo Final (Área 5 Metros, Daño Base 100), Visión Extrasensorial.\n\nTamaño: 22 Medio Regeneración: 0 Tipo de movimiento: 6 Cansancio: Incansable Habilidades Secundarias: Saltar 35, Trepar 30, Advertir 55, Buscar 45. Los Type-005 son el resultado de las arduas investigaciones de los científicos de Sol Negro para crear un modelo de zombie increíblemente más poderoso que un simple cadáver animado convencional. Este éxito sin precedentes les permitió desarrollar lo que, a su particular manera, serían los mejores soldados no muertos de la organización. Pese a que ni se acercan remotamente a las capacidades destructivas de criaturas como los Raziel, los Type-005 son agentes efectivos, controlables y lo que es mejor, fáciles de usar, pues en ciertas circunstancias pueden perfectamente ser confundidos con humanos normales.\n\nEl proceso para elaborarlos es similar al que se emplea con los zombies, si bien mucho más detallista y costoso, pues su esqueleto recibe modificaciones basadas en alquimia y se le modifica el cerebro instalando un sistema de control. Naturalmente, sólo los mejores y más resistentes cadáveres son seleccionados. Aprimera vista un Type-005 es meramente un hombre musculoso (no suelen usarse mujeres para este proyecto) extremadamente pálido y carente de todo vello corporal. Lo normal es que tengan el cuerpo repleto de cicatrices y costuras, y pueden vestir cualquier combinación de ropas y armaduras (o ir completamente desnudos), según las necesidades de la organización.\n\nSólo cuando luchan revelan su verdadera naturaleza inhumana, pues exteriorizan huesos monstruosos para formar con ellos las más increíbles armas naturales desde prácticamente cualquier parte; codos, antebrazos, pecho, cabeza… Los Type-005 no tienen identidad ni personalidad; carecen por completo de recuerdos de su vida y actúan de manera maquinal obedeciendo automáticamente las órdenes que reciben. Sol Negro los emplea como soldados de elite para formar sus propios escuadrones privados. Gracias a su estabilidad (no es frecuente que pierdan el control), es también el primer “producto” que ha comercializado, si bien sus clientes son siempre individuos de la mayor confianza capaces de pagar precios exhorbitantes para tener sus propios “soldados inmortales”. m oduS oPerandiUnType-005 es un soldado efectivo que obedece las órdenes que recibe de un modo simple y directo.\n\nPuesto que su inteligencia no es muy elevada, no son imaginativos a la hora de luchar, actuando de una manera mecánica (aunque efectiva) al enfrentarse a sus enemigos. No tienen puntos vulnerables conocidos. BioHuesos: La estructura física de los Type-005 está preparada para convertirse en un arma, puesto que son capaces de controlar la forma y el crecimiento de todos y cada uno de sus huesos. Avoluntad, estos cadáveres superiores pueden hacer que cualquier parte de su esqueleto se manifieste directamente a través de su piel como una cuchilla, una arista afilada u otra arma natural. Gracias a esta diversidad de armas, el Type-005 puede elegir el tipo de clase de ataque que prefiera, ya sea FILo, PENetrante o CONtundente sin aplicar penalizador alguno a su habilidad.\n\nLos biohuesos pueden alcanzar un tamaño de hasta dos metros e, incluso si son rotos, vuelven a crecer en cuestión de segundos. Del mismo modo, las heridas que estos producen al manifestarse se cierran poco tiempo después, por lo que no sufre daños al usarlas. Arpón de Hueso: Cuando un objetivo se encuentra a mucha distancia los Type-005 tienen a su disposición un arma ósea instalada en el interior de su brazo izquierdo que dispara un enorme hueso en forma de arpón que ellos mismos han generado. Esta habilidad es equivalente a un ataque completo (el Type-005 no puede realizar ninguna otra acción activa o ataque adicional), y el hueso es un proyectil natural disparado con un alcance máximo de 100 metros. Tras usar el arpón el cadáver necesita al menos tres turnos enteros para que su cuerpo genere nuevamente un hueso que pueda servirle como munición.\n\nCadena de Huesos: Un Type-005 puede usar su columna vertebral como cadena o látigo que se extiende hasta 10 metros para atrapar a un adversario e inmovilizarlo o atraerlo a combate físico. Este ataque usa las reglas de Presa con el equivalente aFuerza 10. Si la Cadena es objetivo de ataques, aguanta 300 puntos de daño antes de quebrarse, pero empieza a crecer nuevamente recobrándose completamente al cabo de cinco asaltos. José María Solano Albares (order #3443007) (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 160</p><p><strong>Entrada:</strong> Type-005</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, No muerto (Creación) 15</p><p><strong>Categoría:</strong> Guerrero Fue: 11 Des: 8 Agi: 6 Con: 11 Pod: 6 Int: 4 Vol: 2 Per: 7 RF 65 RM 50 RP 25 RV 65 RE 65</p><p><strong>Habilidades esenciales:</strong> Exención Física, Características Físicas Sobrehumanas, Inmune al Dolor, Inmunidad Psicológica.</p><p><strong>Poderes:</strong> Armas Naturales; BioHuesos (+20 al Daño), Arpón de Hueso (Distancia 100 Metros, Sin Límite, Requiere 3 Turnos de Preparatoria), Cadena de Huesos (Distancia 10 Metros, Presa 10, Sin Límite), Armadura Física 4, Protocolo Final (Área 5 Metros, Daño Base 100), Visión Extrasensorial.</p><p><strong>Daño:</strong> 80 BioHuesos, 40 Cadena de Huesos, 60 Arpón de Hueso, 100 Protocolo Final.</p><p><strong>TA:</strong> Natural + Huesos Fil 5 Con 5 Pen 5 Cal 5 Fri 5 Ele 5 Ene 3</p><p><strong>Habilidades secundarias:</strong> Saltar 35, Trepar 30, Advertir 55, Buscar 45</p><p><strong>Descripción breve:</strong> Los Type-005 son el resultado de las arduas investigaciones de los científicos de Sol Negro para crear un modelo de zombie increíblemente más poderoso que un simple cadáver animado convencional. Este éxito sin precedentes les permitió desarrollar lo que, a su particular manera, serían los mejores soldados no muertos de la organización. Pese a que ni se acercan remotamente a las capacidades destructivas de criaturas como los Raziel, los Type-005 son agentes efectivos, controlables y lo que es mejor, fáciles de usar, pues en ciertas circunstancias pueden perfectamente ser confundidos con humanos normales. El proceso para elaborarlos es similar al que se emplea con los zombies, si bien mucho más detallista y costoso, pues su esqueleto recibe modificaciones basadas en alquimia y se le modifica el cerebro instalando un sistema de control. Naturalmente, sólo los mejores y más resistentes cadáveres son seleccionados. Aprimera vista un Type-005 es meramente un hombre musculoso (no suelen usarse mujeres para este proyecto) extremadamente pálido y carente de todo vello corporal. Lo normal es que tengan el cuerpo repleto de cicatrices y costuras, y pueden vestir cualquier combinación de ropas y armaduras (o ir completamente desnudos), según las necesidades de la organización. Sólo cuando luchan revelan su verdadera naturaleza inhumana, pues exteriorizan huesos monstruosos para formar con ellos las más increíbles armas naturales desde prácticamente cualquier parte; codos, antebrazos, pecho, cabeza… Los Type-005 no tienen identidad ni personalidad; carecen por completo de recuerdos de su vida y actúan de manera maquinal obedeciendo automáticamente las órdenes que reciben. Sol Negro los emplea como soldados de elite para formar sus propios escuadrones privados. Gracias a su estabilidad (no es frecuente que pierdan el control), es también el primer “producto” que ha comercializado, si bien sus clientes son siempre individuos de la mayor confianza capaces de pagar precios exhorbitantes para tener sus propios “soldados inmortales”. m oduS oPerandiUnType-005 es un soldado efectivo que obedece las órdenes que recibe de un modo simple y directo. Puesto que su inteligencia no es muy elevada, no son imaginativos a la hora de luchar, actuando de una manera mecánica (aunque efectiva) al enfrentarse a sus enemigos. No tienen puntos vulnerables conocidos. BioHuesos: La estructura física de los Type-005 está preparada para convertirse en un arma, puesto que son capaces de controlar la forma y el crecimiento de todos y cada uno de sus huesos. Avoluntad, estos cadáveres superiores pueden hacer que cualquier parte de su esqueleto se manifieste directamente a través de su piel como una cuchilla, una arista afilada u otra arma natural. Gracias a esta diversidad de armas, el Type-005 puede elegir el tipo de clase de ataque que prefiera, ya sea FILo, PENetrante o CONtundente sin aplicar penalizador alguno a su habilidad. Los biohuesos pueden alcanzar un tamaño de hasta dos metros e, incluso si son rotos, vuelven a crecer en cuestión de segundos. Del mismo modo, las heridas que estos producen al manifestarse se cierran poco tiempo después, por lo que no sufre daños al usarlas. Arpón de Hueso: Cuando un objetivo se encuentra a mucha distancia los Type-005 tienen a su disposición un arma ósea instalada en el interior de su brazo izquierdo que dispara un enorme hueso en forma de arpón que ellos mismos han generado. Esta habilidad es equivalente a un ataque completo (el Type-005 no puede realizar ninguna otra acción activa o ataque adicional), y el hueso es un proyectil natural disparado con un alcance máximo de 100 metros. Tras usar el arpón el cadáver necesita al menos tres turnos enteros para que su cuerpo genere nuevamente un hueso que pueda servirle como munición. Cadena de Huesos: Un Type-005 puede usar su columna vertebral como cadena o látigo que se extiende hasta 10 metros para atrapar a un adversario e inmovilizarlo o atraerlo a combate físico. Este ataque usa las reglas de Presa con el equivalente aFuerza 10. Si la Cadena es objetivo de ataques, aguanta 300 puntos de daño antes de quebrarse, pero empieza a crecer nuevamente recobrándose completamente al cabo de cinco asaltos. José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>Nivel: 4\n\nClase: Entre mundos, No muerto (Creación) 1 5 Puntos de Vida: 1.250 Acumulación Categoría: Guerrero Fue: 11 Des: 8 Agi: 6 Con: 11 Pod: 6 Int: 4 Vol: 2 Per: 7 RF 65 RM 50 RP 25 RV 65 RE 65\n\nTurno: 75 Natural Habilidad de ataque: 1 40 BioHuesos, 1 40 Cadena de Huesos, 120 Arpón de Hueso, 1 40 Protocolo Final. Habilidad de defensa: Acumulación Daño: 80 BioHuesos, 40 Cadena de Huesos, 60 Arpón de Hueso, 100 Protocolo Final. TA: Natural + Huesos Fil 5 Con 5 Pen 5 Cal 5 Fri 5 Ele 5 Ene 3 Habilidades esenciales: Exención Física, Características Físicas Sobrehumanas, Inmune al Dolor, Inmunidad Psicológica. Poderes: Armas Naturales; BioHuesos (+20 al Daño), Arpón de Hueso (Distancia 100 Metros, Sin Límite, Requiere 3 Turnos de Preparatoria), Cadena de Huesos (Distancia 10 Metros, Presa 10, Sin Límite), Armadura Física 4, Protocolo Final (Área 5 Metros, Daño Base 100), Visión Extrasensorial.\n\nTamaño: 22 Medio Regeneración: 0 Tipo de movimiento: 6 Cansancio: Incansable Habilidades Secundarias: Saltar 35, Trepar 30, Advertir 55, Buscar 45. Los Type-005 son el resultado de las arduas investigaciones de los científicos de Sol Negro para crear un modelo de zombie increíblemente más poderoso que un simple cadáver animado convencional. Este éxito sin precedentes les permitió desarrollar lo que, a su particular manera, serían los mejores soldados no muertos de la organización. Pese a que ni se acercan remotamente a las capacidades destructivas de criaturas como los Raziel, los Type-005 son agentes efectivos, controlables y lo que es mejor, fáciles de usar, pues en ciertas circunstancias pueden perfectamente ser confundidos con humanos normales.\n\nEl proceso para elaborarlos es similar al que se emplea con los zombies, si bien mucho más detallista y costoso, pues su esqueleto recibe modificaciones basadas en alquimia y se le modifica el cerebro instalando un sistema de control. Naturalmente, sólo los mejores y más resistentes cadáveres son seleccionados. Aprimera vista un Type-005 es meramente un hombre musculoso (no suelen usarse mujeres para este proyecto) extremadamente pálido y carente de todo vello corporal. Lo normal es que tengan el cuerpo repleto de cicatrices y costuras, y pueden vestir cualquier combinación de ropas y armaduras (o ir completamente desnudos), según las necesidades de la organización.\n\nSólo cuando luchan revelan su verdadera naturaleza inhumana, pues exteriorizan huesos monstruosos para formar con ellos las más increíbles armas naturales desde prácticamente cualquier parte; codos, antebrazos, pecho, cabeza… Los Type-005 no tienen identidad ni personalidad; carecen por completo de recuerdos de su vida y actúan de manera maquinal obedeciendo automáticamente las órdenes que reciben. Sol Negro los emplea como soldados de elite para formar sus propios escuadrones privados. Gracias a su estabilidad (no es frecuente que pierdan el control), es también el primer “producto” que ha comercializado, si bien sus clientes son siempre individuos de la mayor confianza capaces de pagar precios exhorbitantes para tener sus propios “soldados inmortales”. m oduS oPerandiUnType-005 es un soldado efectivo que obedece las órdenes que recibe de un modo simple y directo.\n\nPuesto que su inteligencia no es muy elevada, no son imaginativos a la hora de luchar, actuando de una manera mecánica (aunque efectiva) al enfrentarse a sus enemigos. No tienen puntos vulnerables conocidos. BioHuesos: La estructura física de los Type-005 está preparada para convertirse en un arma, puesto que son capaces de controlar la forma y el crecimiento de todos y cada uno de sus huesos. Avoluntad, estos cadáveres superiores pueden hacer que cualquier parte de su esqueleto se manifieste directamente a través de su piel como una cuchilla, una arista afilada u otra arma natural. Gracias a esta diversidad de armas, el Type-005 puede elegir el tipo de clase de ataque que prefiera, ya sea FILo, PENetrante o CONtundente sin aplicar penalizador alguno a su habilidad.\n\nLos biohuesos pueden alcanzar un tamaño de hasta dos metros e, incluso si son rotos, vuelven a crecer en cuestión de segundos. Del mismo modo, las heridas que estos producen al manifestarse se cierran poco tiempo después, por lo que no sufre daños al usarlas. Arpón de Hueso: Cuando un objetivo se encuentra a mucha distancia los Type-005 tienen a su disposición un arma ósea instalada en el interior de su brazo izquierdo que dispara un enorme hueso en forma de arpón que ellos mismos han generado. Esta habilidad es equivalente a un ataque completo (el Type-005 no puede realizar ninguna otra acción activa o ataque adicional), y el hueso es un proyectil natural disparado con un alcance máximo de 100 metros. Tras usar el arpón el cadáver necesita al menos tres turnos enteros para que su cuerpo genere nuevamente un hueso que pueda servirle como munición.\n\nCadena de Huesos: Un Type-005 puede usar su columna vertebral como cadena o látigo que se extiende hasta 10 metros para atrapar a un adversario e inmovilizarlo o atraerlo a combate físico. Este ataque usa las reglas de Presa con el equivalente aFuerza 10. Si la Cadena es objetivo de ataques, aguanta 300 puntos de daño antes de quebrarse, pero empieza a crecer nuevamente recobrándose completamente al cabo de cinco asaltos. José María Solano Albares (order #3443007) (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 4
-      },
       "notes": [
         {
           "_id": "note-type-005-3",
@@ -501,52 +423,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 2
-          }
+          "value": 2,
+          "mod": -20
         }
       },
       "secondaries": {
@@ -557,9 +463,6 @@
         "initiative": {
           "base": {
             "value": 75
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +513,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 65
             },
             "final": {
               "value": 0
@@ -621,10 +521,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 65
             },
             "final": {
               "value": 0
@@ -632,10 +529,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 6510
+              "value": 6575
             },
             "final": {
               "value": 0
@@ -643,10 +537,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -654,10 +545,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 25
             },
             "final": {
               "value": 0
@@ -669,203 +557,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 140
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -896,11 +1036,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -912,14 +1048,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -933,14 +1074,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1045,15 +1183,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1065,37 +1199,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1218,9 +1372,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,28 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
-        "perceivePsychic": {
+        "inhuman": {
           "value": true
         },
         "inmaterial": {
           "value": true
         },
-        "inhuman": {
+        "perceiveMystic": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "perceivePsychic": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +309,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +329,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 85
         }
       },
       "aspect": {
@@ -430,7 +363,7 @@
           "value": "Golem Definitivo de Combate"
         },
         "size": {
-          "value": 24
+          "value": "24"
         }
       },
       "advantages": [],
@@ -448,7 +381,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 82</p><p><strong>Entrada:</strong> Hecatondies Sigma</p><p><strong>Variante:</strong> Golem Definitivo de Combate</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos (Creación) 30</p><p><strong>Categoría:</strong> Guerrero Fue: 14 Des: 13 Agi: 11 Con: 13 Pod: 13 Int: 12 Vol: 10 Per: 12 RF 105 RM 105 RP 100 RV 105 RE 105</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Tamaño Innatural, Inmunidad Natural a un Elemento (Fuego, Frío, Completa), Exención Física, Ambidiestro, Inhumanidad, Necesidad Extrema.</p><p><strong>Poderes:</strong> Armas Naturales: Garras, Alas de Cuchillas (-3 a la TA Defensora), Colas Prensiles (Ataque Adicional -20 x2, Presa 16), Destrozar, Daña Energía, Cúpula Destructora (Conjuro Innato, Condicionado, Requiere 1 Turno de Preparatoria), Núcleo de Energía, Incrementador de Ki, Vuelo Místico 14 Limitado, Caparazón de Metal (Armadura Física 6, Armadura Mística 6, Barrera de Daño 100), Sistema Comandante, Nucleo Infinito (Zero), Armas Aniquiladoras (Deus), Ver lo Sobrenatural, Regeneración 0.</p><p><strong>Daño:</strong> 85 Garras de Dragón (FIL) 80 Alas de Cuchillas (FIL)</p><p><strong>TA:</strong> Caparazón de Metal Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 6 es 24 Agi 10 Con 26 Pod 24 Vol 8 Total: 120 Acumulaciones de es 3 Agi 2 Con 3 Pod 3 Vol 2 Habilidades del</p><p><strong>Habilidades secundarias:</strong> Estilo 25, Advertir 70, Buscar 55, Rastrear 25, Ciencia 70, Memorizar 100, Detección del Ki 180</p><p><strong>Descripción breve:</strong> Milenios atrás, cuando Andromalius y el Senado de Sólomon crearon el ejército definitivo, los Hecatondies fueron la culminación de todas sus investigaciones bélicas, la mayor de sus producciones en serie. No obstante, en secreto incluso para el propio Senado, el Emperador diseñó y fabricó tres modelos únicos de Hecatondies, un trío de criaturas definitivas hechas para protegerle y responder sólo ante él. Serían sus agentes finales, la encarnación misma del poder terrenal de Sólomon; los Hecatondies Sigma. Dentro de la clasificación de las Logias de Sólomon, los Hecantodies Sigma están en el teórico nivel Dyeus, grado que engloba los mayores avances de tecnología sobrenaturales conocidos. Aunque su potencial no alcanza el de sistemas como Único o Gravestone, de los que sólo se habla escuetamente en leyendas, lo cierto es que su poder destructivo personal supera todo lo visto o conocido; son verdaderamente los soldados finales. Un Hecatondies Sigma es físicamente muy parecido a los modelos en serie; un golem tecnomágico de dos metros y medio de estatura fabricado en titanio y acero blanco. No obstante, tiene un par de colas prensiles en lugar de una y enormes alas de cuchilla en la espalda. Todo su cuerpo está además lleno de runas rojas que se iluminan y cambian cuando activan alguno de sus poderes. Por lo general caminan por el aire a medio metro del suelo con el porte de un emperador y la elegancia de un felino. Desprenden un aire de poder descomunal; cualquiera que los vea siente instintivamente que se encuentra ante una criatura superior, algo más cercano al reino de los dioses que al de los mortales. Aparentemente, se cree que los Sigma fueron destruidos durante la caída de Sólomon, pero lo cierto es que, pese a quedar terriblemente dañados, los tres lograron salir con vida. Cada uno ha sobrevivido de diferentes maneras a lo largo de miles de años hasta la actualidad. A pesar de ser creaciones artificiales, los Sigma están prácticamente vivos, pues sus programas de inteligencia artificial les permiten comportarse como seres humanos. Son tremendamente inteligentes, y pueden adaptarse a cualquier circunstancia con facilidad para salir beneficiados. Al contrario que los Hecatondies normales, que pueden ser controlados activando un código verbal de control, los modelos Sigma sólo obedecen a quien tenga Sangre Antigua que descienda directamente de Andromalius y conozca su clave personal. z ero , e in y d euS Los nombres de los tres modelos de Hecatondies Sigma fueron Zero, Ein, y Deus. A continuación hay una referencia a cada uno de ellos así como sus características más destacables. z ero s igma : Zero es el primer Hecatondies, el prototipo creado personalmente por Andromalius a partir del que se fabricarían tanto Ein y Deus como los modelos en serie. Aunque no gozaba de los sistemas destructivos instalados en sus dos hermanos pequeños, Zero fue el que más desarrolló su inteligencia artificial, adquiriendo rápidamente rasgos humanos e incluso sentimientos. Sobrevivió a la caída de Sólomon, pero quedó desconectado durante miles de años cuando su generador de energía, dañado en el conflicto, se agotó. Hace apenas unos siglos, Eljared introdujo en él una de las treinta piezas de metal negro para reactivarlo, y desde entonces ha viajado de un lugar a otro, interesado por ver en que clase de lugar se está convirtiendo el mundo. Actualmente tiene un trato con el Príncipe Lucanor Giovanni, y trabaja para Wissenchaft a cambio de recibir mantenimiento técnico que requiere para seguir completamente funcional. Deus s igma : Deus fue el último de los modelos Sigma en ser fabricado y también al que se le otorgó el mayor poder destructivo de los tres. Su cuerpo fue equipado con armas de aniquilación de semejante calibre que podía fácilmente destruir un ejército convencional de un sólo disparo. Lamentablemente, durante la caída de Sólomon se encontraba en periodo de letargo, algo que le impidió ser activado (aunque también le salvó de su destrucción). Transportado lejos en una plataforma de combate de Sólomon, acabó sus días en las profundidades del Pantano Akquo, donde reposa en mitad de la enorme nave a la espera de ser reactivado. Deus es completamente fiel a los últimos deseos de Andromalius; quiere destruir a todos los enemigos de Sólomon. Trágicamente, eso representa para él acabar con el mundo tal y como es en la actualidad. e in s igma : Aparentemente, Ein es el modelo de Hecatondies Sigma más perfecto de todos, la obra definitiva de Andromalius. Su poder no consistía en habilidades personales o una capacidad de combate superior, sino porque era una conexión directa al Sistema Único, un programa viviente que tenía la capacidad de controlar todas las Logias de Sólomon. De ser así, eso lo convertiría probablemente en una de las armas más terribles sobre la superficie de Gaïa. Poco es lo que se sabe de él, pues durante mucho tiempo se creyó que fue destruido durante las Siete Horas de Fuego. Sólo recientemente Zero ha notado que los sistemas de Ein siguen activos, pero ignora por completo tanto su ubicación como si está consciente o no. m oduS oPerandiCadaHecatondies tiene sus propias motivaciones y su manera de actuar, aunque cuando entran en combate, todos ellos actúan empleando avanzadas tácticas militares. Si bien rara vez lo requieren (puesto que su poder personal es incomparable), son capaces de tender complejas trampas a sus enemigos y aprovechar hasta la más mínima ventaja a su favor. Cuando luchan cuerpo a cuerpo siempre realizan entre tres y cuatro ataques por asalto, combinando el uso de sus garras y el de sus dos colas. Su punto vulnerable se encuentra en el pecho, donde se encuentra su generador. Un crítico de valor final superior a 50 lo desconecta pasados entre dos y tres asaltos, al dejarlos sin energía. José María Solano Albares : Las largas y poderosas colas de los Sigma están especialmente preparadas para enrollarse alrededor de sus adversarios e inmovilizarlos. Adiferencia de los Hecatondies normales, estos tres modelos poseen una cola adicional con la que pueden, o bien sujetar con más facilidad a un adversario, o bien atrapar a un segundo enemigo. Avoluntad, el modelo Sigma es capaz de usar cualquiera de sus dos colas para tratar de atrapar a un individuo cuyo Tamaño no sea superior al suyo propio. Esta acción cuenta como un ataque adicional natural, por lo que puede ejecutarlo mientras arremete con las garras, sin sufrir ningún penalizador a su habilidad. Si logra un impacto con éxito, su antagonista debe realizar un control enfrentado contra Fuerza 14 o verse paralizado, según las reglas generales de la maniobra de Presa. Si prefiere emplear ambas colas contra un enemigo sólo se realiza un único ataque, pero el control de Fuerza aumenta hasta 16. Por supuesto, nada le impide usar cada cola con un adversario diferente. Incluso mientras mantiene a alguien aprisionado, un modelo Sigma es capaz de seguir luchando normalmente. A la hora de recibir ataques, cada cola cuenta como un punto vulnerable del golem (-30 a la habilidad de quienes traten de realizar golpes apuntados en su contra). En el caso de que se produzca sobre ella un crítico superior a 20, el Sigma no sufre ningún tipo de penalizador a la acción o desventaja adicional, pero ésta queda completamente inservible. Si un sujeto esta presado por ambas colas y una de ellas es destruida, el Hecatondies suelta inmediatamente al objetivo para proteger la cola restante. Destrozar: Una vez tiene a un adversario atrapado en alguna de sus colas al menos con Parálisis Parcial o Completa, el Golem puede empezar a estrujarlo, obligándole a realizar un control enfrentado de Fuerza 14 (si está sujeto con una) o Fuerza 16 (si lo está con las dos) al inicio de cada turno. Cada punto por el que el individuo apresado pierda el control, sufre la pérdida de 10 de daño, aunque puede sumar un +1 a su tirada por cada 2 de TA dura que tenga contra ataques Contundentes. Núcleo de Energía: Los modelos Sigma poseen un núcleo de poder centralizado que utilizan para activar o potenciar sus diversas capacidades especiales. Este núcleo posee el equivalente a 15 cargas de Energía que el Hecatondies puede invertir para incrementar sus acumulaciones de Ki, utilizar sus Cúpulas Destructoras o generar sus Pantallas de Energía. Estos puntos sólo se recargan absorbiendo energía sobrenatural que caiga por cualquier medio en sus manos. Alas de Cuchillas: Los Zero Sigma están equipados con par de alas especiales que utilizan como defensa y ataque, pues poseen dos modalidades de uso completamente diferentes. En modo defensivo, las alas de un Hecatondies Sigma cubren el cuerpo del golem generando un campo de energía sobrenatural que le permite detener los ataques como si se tratara de un escudo. Por cada 500 puntos de daño que sufra el escudo, las Alas consumen una carga de poder del Núcleo de Energía. Si por el contrario las usan ofensivamente, el Hecatondies combina los ataques de las cuchillas con el resto de su cuerpo, lo que le permite sustituir su ataque con sus garras por el de las Alas de Cuchillas, las cuales poseen la capacidad de anular hasta 3 puntos la Armadura del Defensor. Cúpula Destructora: Un Sigma está dotado de sistemas de combate místicos que le permiten proyectar potentes descargas de energía mágica por sus extremidades. Al impactar sobre un blanco, estos rayos estallan, destruyendo todo lo que se encuentre en un radio de veinte metros. Tienen un daño base de 90 y atacan en la Tabla de Energía. A efectos de juego, son equivalentes a un conjuro de Cúpula de Destrucción, lanzado con un valor zeónico de 120. Para emplear este poder, el golem debe de concentrar energía en sus extremidades durante un asalto completo, por lo que mientras se prepara, no puede realizar ningún ataque con las garras, aunque si con sus Alas de Cuchilla. Igual que muchos otros de sus poderes, esta capacidad depende de las reservas que le queden en el generador, pues cada disparo consume una carga de energía. Incrementador de Ki: Los Sigma aprovechan especialmente su Núcleo de Energía para incrementar sus habilidades de Ki, pues este le permite aumentar sus Acumulaciones momentáneamente. El Hecatondies obtiene un +1 a las seis (como si hubiera gastado un punto de Cansancio) por cada carga del Núcleo que invierta (hasta un máximo de +3). Técnicas de Ki: El Hecatondies Sigma está programado con unas técnicas de Ki creadas especialmente para él. A continuación hay un listado con ellas; c ampo De r epulsión</p></section><details><summary>Texto extraído</summary><pre>Nivel: 12\n\nClase: Entre mundos (Creación) 30 Puntos de Vida: 300 Categoría: Guerrero Fue: 14 Des: 13 Agi: 11 Con: 13 Pod: 13 Int: 12 Vol: 10 Per: 12 RF 105 RM 105 RP 100 RV 105 RE 105\n\nTurno: 125 Natural Habilidad de ataque: 295 Garras de Dragón o 295 Alas de Cuchillas + 275 Cola Prensil x2; o 295 Cúpula Destructora Habilidad de defensa: 280 Garras de Dragón; o 300 Alas de Cuchillas Daño: 85 Garras de Dragón (FIL) 80 Alas de Cuchillas (FIL) TA: Caparazón de Metal Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 6 es 24 Agi 10 Con 26 Pod 24 Vol 8 Total: 120 Acumulaciones de es 3 Agi 2 Con 3 Pod 3 Vol 2 Habilidades del\n\nKi: Uso del Ki, Control del Ki, Detección del Ki, Erudición, Técnicas de Combate Improvisadas. Técnicas: Campo de Repulsión, Barrera Defensiva, Cubo Dimensional. Habilidades esenciales: Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Tamaño Innatural, Inmunidad Natural a un Elemento (Fuego, Frío, Completa), Exención Física, Ambidiestro, Inhumanidad, Necesidad Extrema. Poderes: Armas Naturales: Garras, Alas de Cuchillas (-3 a la TA Defensora), Colas Prensiles (Ataque Adicional -20 x2, Presa 1 6), Destrozar, Daña Energía, Cúpula Destructora (Conjuro Innato, Condicionado, Requiere 1 Turno de Preparatoria), Núcleo de Energía, Incrementador de Ki, Vuelo Místico 1 4 Limitado, Caparazón de Metal (Armadura Física 6, Armadura Mística 6, Barrera de Daño 100), Sistema Comandante, Nucleo Infinito (Zero), Armas Aniquiladoras (Deus), Ver lo Sobrenatural, Regeneración 0.\n\nTamaño: 24 Grande Regeneración: 0 Tipo de movimiento: 1 1/12 Cansancio: Incansable Habilidades Secundarias: Estilo 25, Advertir 70, Buscar 55, Rastrear 25, Ciencia 70, Memorizar 100, Detección del Ki 180. Milenios atrás, cuando Andromalius y el Senado de Sólomon crearon el ejército definitivo, los Hecatondies fueron la culminación de todas sus investigaciones bélicas, la mayor de sus producciones en serie. No obstante, en secreto incluso para el propio Senado, el Emperador diseñó y fabricó tres modelos únicos de Hecatondies, un trío de criaturas definitivas hechas para protegerle y responder sólo ante él. Serían sus agentes finales, la encarnación misma del poder terrenal de Sólomon; los Hecatondies Sigma.\n\nDentro de la clasificación de las Logias de Sólomon, los Hecantodies Sigma están en el teórico nivel Dyeus, grado que engloba los mayores avances de tecnología sobrenaturales conocidos. Aunque su potencial no alcanza el de sistemas como Único o Gravestone, de los que sólo se habla escuetamente en leyendas, lo cierto es que su poder destructivo personal supera todo lo visto o conocido; son verdaderamente los soldados finales. Un Hecatondies Sigma es físicamente muy parecido a los modelos en serie; un golem tecnomágico de dos metros y medio de estatura fabricado en titanio y acero blanco. No obstante, tiene un par de colas prensiles en lugar de una y enormes alas de cuchilla en la espalda. Todo su cuerpo está además lleno de runas rojas que se iluminan y cambian cuando activan alguno de sus poderes.\n\nPor lo general caminan por el aire a medio metro del suelo con el porte de un emperador y la elegancia de un felino. Desprenden un aire de poder descomunal; cualquiera que los vea siente instintivamente que se encuentra ante una criatura superior, algo más cercano al reino de los dioses que al de los mortales. Aparentemente, se cree que los Sigma fueron destruidos durante la caída de Sólomon, pero lo cierto es que, pese a quedar terriblemente dañados, los tres lograron salir con vida. Cada uno ha sobrevivido de diferentes maneras a lo largo de miles de años hasta la actualidad. A pesar de ser creaciones artificiales, los Sigma están prácticamente vivos, pues sus programas de inteligencia artificial les permiten comportarse como seres humanos. Son tremendamente inteligentes, y pueden adaptarse a cualquier circunstancia con facilidad para salir beneficiados.\n\nAl contrario que los Hecatondies normales, que pueden ser controlados activando un código verbal de control, los modelos Sigma sólo obedecen a quien tenga Sangre Antigua que descienda directamente de Andromalius y conozca su clave personal. z ero , e in y d euS Los nombres de los tres modelos de Hecatondies Sigma fueron Zero, Ein, y Deus. A continuación hay una referencia a cada uno de ellos así como sus características más destacables. z ero s igma : Zero es el primer Hecatondies, el prototipo creado personalmente por Andromalius a partir del que se fabricarían tanto Ein y Deus como los modelos en serie. Aunque no gozaba de los sistemas destructivos instalados en sus dos hermanos pequeños, Zero fue el que más desarrolló su inteligencia artificial, adquiriendo rápidamente rasgos humanos e incluso sentimientos.\n\nSobrevivió a la caída de Sólomon, pero quedó desconectado durante miles de años cuando su generador de energía, dañado en el conflicto, se agotó. Hace apenas unos siglos, Eljared introdujo en él una de las treinta piezas de metal negro para reactivarlo, y desde entonces ha viajado de un lugar a otro, interesado por ver en que clase de lugar se está convirtiendo el mundo. Actualmente tiene un trato con el Príncipe Lucanor Giovanni, y trabaja para Wissenchaft a cambio de recibir mantenimiento técnico que requiere para seguir completamente funcional. Deus s igma : Deus fue el último de los modelos Sigma en ser fabricado y también al que se le otorgó el mayor poder destructivo de los tres. Su cuerpo fue equipado con armas de aniquilación de semejante calibre que podía fácilmente destruir un ejército convencional de un sólo disparo.\n\nLamentablemente, durante la caída de Sólomon se encontraba en periodo de letargo, algo que le impidió ser activado (aunque también le salvó de su destrucción). Transportado lejos en una plataforma de combate de Sólomon, acabó sus días en las profundidades del Pantano Akquo, donde reposa en mitad de la enorme nave a la espera de ser reactivado. Deus es completamente fiel a los últimos deseos de Andromalius; quiere destruir a todos los enemigos de Sólomon. Trágicamente, eso representa para él acabar con el mundo tal y como es en la actualidad. e in s igma : Aparentemente, Ein es el modelo de Hecatondies Sigma más perfecto de todos, la obra definitiva de Andromalius. Su poder no consistía en habilidades personales o una capacidad de combate superior, sino porque era una conexión directa al Sistema Único, un programa viviente que tenía la capacidad de controlar todas las Logias de Sólomon.\n\nDe ser así, eso lo convertiría probablemente en una de las armas más terribles sobre la superficie de Gaïa. Poco es lo que se sabe de él, pues durante mucho tiempo se creyó que fue destruido durante las Siete Horas de Fuego. Sólo recientemente Zero ha notado que los sistemas de Ein siguen activos, pero ignora por completo tanto su ubicación como si está consciente o no. m oduS oPerandiCadaHecatondies tiene sus propias motivaciones y su manera de actuar, aunque cuando entran en combate, todos ellos actúan empleando avanzadas tácticas militares. Si bien rara vez lo requieren (puesto que su poder personal es incomparable), son capaces de tender complejas trampas a sus enemigos y aprovechar hasta la más mínima ventaja a su favor. Cuando luchan cuerpo a cuerpo siempre realizan entre tres y cuatro ataques por asalto, combinando el uso de sus garras y el de sus dos colas.\n\nSu punto vulnerable se encuentra en el pecho, donde se encuentra su generador. Un crítico de valor final superior a 50 lo desconecta pasados entre dos y tres asaltos, al dejarlos sin energía. José María Solano Albares (order #3443007) (order #3443007) : Las largas y poderosas colas de los Sigma están especialmente preparadas para enrollarse alrededor de sus adversarios e inmovilizarlos. Adiferencia de los Hecatondies normales, estos tres modelos poseen una cola adicional con la que pueden, o bien sujetar con más facilidad a un adversario, o bien atrapar a un segundo enemigo. Avoluntad, el modelo Sigma es capaz de usar cualquiera de sus dos colas para tratar de atrapar a un individuo cuyo Tamaño no sea superior al suyo propio. Esta acción cuenta como un ataque adicional natural, por lo que puede ejecutarlo mientras arremete con las garras, sin sufrir ningún penalizador a su habilidad.\n\nSi logra un impacto con éxito, su antagonista debe realizar un control enfrentado contra Fuerza 1 4 o verse paralizado, según las reglas generales de la maniobra de Presa. Si prefiere emplear ambas colas contra un enemigo sólo se realiza un único ataque, pero el control de Fuerza aumenta hasta 1 6. Por supuesto, nada le impide usar cada cola con un adversario diferente. Incluso mientras mantiene a alguien aprisionado, un modelo Sigma es capaz de seguir luchando normalmente. A la hora de recibir ataques, cada cola cuenta como un punto vulnerable del golem (-30 a la habilidad de quienes traten de realizar golpes apuntados en su contra). En el caso de que se produzca sobre ella un crítico superior a 20, el Sigma no sufre ningún tipo de penalizador a la acción o desventaja adicional, pero ésta queda completamente inservible.\n\nSi un sujeto esta presado por ambas colas y una de ellas es destruida, el Hecatondies suelta inmediatamente al objetivo para proteger la cola restante. Destrozar: Una vez tiene a un adversario atrapado en alguna de sus colas al menos con Parálisis Parcial o Completa, el Golem puede empezar a estrujarlo, obligándole a realizar un control enfrentado de Fuerza 1 4 (si está sujeto con una) o Fuerza 1 6 (si lo está con las dos) al inicio de cada turno. Cada punto por el que el individuo apresado pierda el control, sufre la pérdida de 10 de daño, aunque puede sumar un +1 a su tirada por cada 2 de TA dura que tenga contra ataques Contundentes. Núcleo de Energía: Los modelos Sigma poseen un núcleo de poder centralizado que utilizan para activar o potenciar sus diversas capacidades especiales.\n\nEste núcleo posee el equivalente a 1 5 cargas de Energía que el Hecatondies puede invertir para incrementar sus acumulaciones de Ki, utilizar sus Cúpulas Destructoras o generar sus Pantallas de Energía. Estos puntos sólo se recargan absorbiendo energía sobrenatural que caiga por cualquier medio en sus manos. Alas de Cuchillas: Los Zero Sigma están equipados con par de alas especiales que utilizan como defensa y ataque, pues poseen dos modalidades de uso completamente diferentes. En modo defensivo, las alas de un Hecatondies Sigma cubren el cuerpo del golem generando un campo de energía sobrenatural que le permite detener los ataques como si se tratara de un escudo. Por cada 500 puntos de daño que sufra el escudo, las Alas consumen una carga de poder del Núcleo de Energía.\n\nSi por el contrario las usan ofensivamente, el Hecatondies combina los ataques de las cuchillas con el resto de su cuerpo, lo que le permite sustituir su ataque con sus garras por el de las Alas de Cuchillas, las cuales poseen la capacidad de anular hasta 3 puntos la Armadura del Defensor. Cúpula Destructora: Un Sigma está dotado de sistemas de combate místicos que le permiten proyectar potentes descargas de energía mágica por sus extremidades. Al impactar sobre un blanco, estos rayos estallan, destruyendo todo lo que se encuentre en un radio de veinte metros. Tienen un daño base de 90 y atacan en la Tabla de Energía. A efectos de juego, son equivalentes a un conjuro de Cúpula de Destrucción, lanzado con un valor zeónico de 120.\n\nPara emplear este poder, el golem debe de concentrar energía en sus extremidades durante un asalto completo, por lo que mientras se prepara, no puede realizar ningún ataque con las garras, aunque si con sus Alas de Cuchilla. Igual que muchos otros de sus poderes, esta capacidad depende de las reservas que le queden en el generador, pues cada disparo consume una carga de energía. Incrementador de\n\nKi: Los Sigma aprovechan especialmente su Núcleo de Energía para incrementar sus habilidades de Ki, pues este le permite aumentar sus Acumulaciones momentáneamente. El Hecatondies obtiene un +1 a las seis (como si hubiera gastado un punto de Cansancio) por cada carga del Núcleo que invierta (hasta un máximo de +3). Técnicas de\n\nKi: El Hecatondies Sigma está programado con unas técnicas de Ki creadas especialmente para él. A continuación hay un listado con ellas; c ampo De r epulsión</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 82</p><p><strong>Entrada:</strong> Hecatondies Sigma</p><p><strong>Variante:</strong> Golem Definitivo de Combate</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos (Creación) 30</p><p><strong>Categoría:</strong> Guerrero Fue: 14 Des: 13 Agi: 11 Con: 13 Pod: 13 Int: 12 Vol: 10 Per: 12 RF 105 RM 105 RP 100 RV 105 RE 105</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Tamaño Innatural, Inmunidad Natural a un Elemento (Fuego, Frío, Completa), Exención Física, Ambidiestro, Inhumanidad, Necesidad Extrema.</p><p><strong>Poderes:</strong> Armas Naturales: Garras, Alas de Cuchillas (-3 a la TA Defensora), Colas Prensiles (Ataque Adicional -20 x2, Presa 16), Destrozar, Daña Energía, Cúpula Destructora (Conjuro Innato, Condicionado, Requiere 1 Turno de Preparatoria), Núcleo de Energía, Incrementador de Ki, Vuelo Místico 14 Limitado, Caparazón de Metal (Armadura Física 6, Armadura Mística 6, Barrera de Daño 100), Sistema Comandante, Nucleo Infinito (Zero), Armas Aniquiladoras (Deus), Ver lo Sobrenatural, Regeneración 0.</p><p><strong>Daño:</strong> 85 Garras de Dragón (FIL) 80 Alas de Cuchillas (FIL)</p><p><strong>TA:</strong> Caparazón de Metal Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 6 es 24 Agi 10 Con 26 Pod 24 Vol 8 Total: 120 Acumulaciones de es 3 Agi 2 Con 3 Pod 3 Vol 2 Habilidades del</p><p><strong>Habilidades secundarias:</strong> Estilo 25, Advertir 70, Buscar 55, Rastrear 25, Ciencia 70, Memorizar 100, Detección del Ki 180</p><p><strong>Descripción breve:</strong> Milenios atrás, cuando Andromalius y el Senado de Sólomon crearon el ejército definitivo, los Hecatondies fueron la culminación de todas sus investigaciones bélicas, la mayor de sus producciones en serie. No obstante, en secreto incluso para el propio Senado, el Emperador diseñó y fabricó tres modelos únicos de Hecatondies, un trío de criaturas definitivas hechas para protegerle y responder sólo ante él. Serían sus agentes finales, la encarnación misma del poder terrenal de Sólomon; los Hecatondies Sigma. Dentro de la clasificación de las Logias de Sólomon, los Hecantodies Sigma están en el teórico nivel Dyeus, grado que engloba los mayores avances de tecnología sobrenaturales conocidos. Aunque su potencial no alcanza el de sistemas como Único o Gravestone, de los que sólo se habla escuetamente en leyendas, lo cierto es que su poder destructivo personal supera todo lo visto o conocido; son verdaderamente los soldados finales. Un Hecatondies Sigma es físicamente muy parecido a los modelos en serie; un golem tecnomágico de dos metros y medio de estatura fabricado en titanio y acero blanco. No obstante, tiene un par de colas prensiles en lugar de una y enormes alas de cuchilla en la espalda. Todo su cuerpo está además lleno de runas rojas que se iluminan y cambian cuando activan alguno de sus poderes. Por lo general caminan por el aire a medio metro del suelo con el porte de un emperador y la elegancia de un felino. Desprenden un aire de poder descomunal; cualquiera que los vea siente instintivamente que se encuentra ante una criatura superior, algo más cercano al reino de los dioses que al de los mortales. Aparentemente, se cree que los Sigma fueron destruidos durante la caída de Sólomon, pero lo cierto es que, pese a quedar terriblemente dañados, los tres lograron salir con vida. Cada uno ha sobrevivido de diferentes maneras a lo largo de miles de años hasta la actualidad. A pesar de ser creaciones artificiales, los Sigma están prácticamente vivos, pues sus programas de inteligencia artificial les permiten comportarse como seres humanos. Son tremendamente inteligentes, y pueden adaptarse a cualquier circunstancia con facilidad para salir beneficiados. Al contrario que los Hecatondies normales, que pueden ser controlados activando un código verbal de control, los modelos Sigma sólo obedecen a quien tenga Sangre Antigua que descienda directamente de Andromalius y conozca su clave personal. z ero , e in y d euS Los nombres de los tres modelos de Hecatondies Sigma fueron Zero, Ein, y Deus. A continuación hay una referencia a cada uno de ellos así como sus características más destacables. z ero s igma : Zero es el primer Hecatondies, el prototipo creado personalmente por Andromalius a partir del que se fabricarían tanto Ein y Deus como los modelos en serie. Aunque no gozaba de los sistemas destructivos instalados en sus dos hermanos pequeños, Zero fue el que más desarrolló su inteligencia artificial, adquiriendo rápidamente rasgos humanos e incluso sentimientos. Sobrevivió a la caída de Sólomon, pero quedó desconectado durante miles de años cuando su generador de energía, dañado en el conflicto, se agotó. Hace apenas unos siglos, Eljared introdujo en él una de las treinta piezas de metal negro para reactivarlo, y desde entonces ha viajado de un lugar a otro, interesado por ver en que clase de lugar se está convirtiendo el mundo. Actualmente tiene un trato con el Príncipe Lucanor Giovanni, y trabaja para Wissenchaft a cambio de recibir mantenimiento técnico que requiere para seguir completamente funcional. Deus s igma : Deus fue el último de los modelos Sigma en ser fabricado y también al que se le otorgó el mayor poder destructivo de los tres. Su cuerpo fue equipado con armas de aniquilación de semejante calibre que podía fácilmente destruir un ejército convencional de un sólo disparo. Lamentablemente, durante la caída de Sólomon se encontraba en periodo de letargo, algo que le impidió ser activado (aunque también le salvó de su destrucción). Transportado lejos en una plataforma de combate de Sólomon, acabó sus días en las profundidades del Pantano Akquo, donde reposa en mitad de la enorme nave a la espera de ser reactivado. Deus es completamente fiel a los últimos deseos de Andromalius; quiere destruir a todos los enemigos de Sólomon. Trágicamente, eso representa para él acabar con el mundo tal y como es en la actualidad. e in s igma : Aparentemente, Ein es el modelo de Hecatondies Sigma más perfecto de todos, la obra definitiva de Andromalius. Su poder no consistía en habilidades personales o una capacidad de combate superior, sino porque era una conexión directa al Sistema Único, un programa viviente que tenía la capacidad de controlar todas las Logias de Sólomon. De ser así, eso lo convertiría probablemente en una de las armas más terribles sobre la superficie de Gaïa. Poco es lo que se sabe de él, pues durante mucho tiempo se creyó que fue destruido durante las Siete Horas de Fuego. Sólo recientemente Zero ha notado que los sistemas de Ein siguen activos, pero ignora por completo tanto su ubicación como si está consciente o no. m oduS oPerandiCadaHecatondies tiene sus propias motivaciones y su manera de actuar, aunque cuando entran en combate, todos ellos actúan empleando avanzadas tácticas militares. Si bien rara vez lo requieren (puesto que su poder personal es incomparable), son capaces de tender complejas trampas a sus enemigos y aprovechar hasta la más mínima ventaja a su favor. Cuando luchan cuerpo a cuerpo siempre realizan entre tres y cuatro ataques por asalto, combinando el uso de sus garras y el de sus dos colas. Su punto vulnerable se encuentra en el pecho, donde se encuentra su generador. Un crítico de valor final superior a 50 lo desconecta pasados entre dos y tres asaltos, al dejarlos sin energía. José María Solano Albares : Las largas y poderosas colas de los Sigma están especialmente preparadas para enrollarse alrededor de sus adversarios e inmovilizarlos. Adiferencia de los Hecatondies normales, estos tres modelos poseen una cola adicional con la que pueden, o bien sujetar con más facilidad a un adversario, o bien atrapar a un segundo enemigo. Avoluntad, el modelo Sigma es capaz de usar cualquiera de sus dos colas para tratar de atrapar a un individuo cuyo Tamaño no sea superior al suyo propio. Esta acción cuenta como un ataque adicional natural, por lo que puede ejecutarlo mientras arremete con las garras, sin sufrir ningún penalizador a su habilidad. Si logra un impacto con éxito, su antagonista debe realizar un control enfrentado contra Fuerza 14 o verse paralizado, según las reglas generales de la maniobra de Presa. Si prefiere emplear ambas colas contra un enemigo sólo se realiza un único ataque, pero el control de Fuerza aumenta hasta 16. Por supuesto, nada le impide usar cada cola con un adversario diferente. Incluso mientras mantiene a alguien aprisionado, un modelo Sigma es capaz de seguir luchando normalmente. A la hora de recibir ataques, cada cola cuenta como un punto vulnerable del golem (-30 a la habilidad de quienes traten de realizar golpes apuntados en su contra). En el caso de que se produzca sobre ella un crítico superior a 20, el Sigma no sufre ningún tipo de penalizador a la acción o desventaja adicional, pero ésta queda completamente inservible. Si un sujeto esta presado por ambas colas y una de ellas es destruida, el Hecatondies suelta inmediatamente al objetivo para proteger la cola restante. Destrozar: Una vez tiene a un adversario atrapado en alguna de sus colas al menos con Parálisis Parcial o Completa, el Golem puede empezar a estrujarlo, obligándole a realizar un control enfrentado de Fuerza 14 (si está sujeto con una) o Fuerza 16 (si lo está con las dos) al inicio de cada turno. Cada punto por el que el individuo apresado pierda el control, sufre la pérdida de 10 de daño, aunque puede sumar un +1 a su tirada por cada 2 de TA dura que tenga contra ataques Contundentes. Núcleo de Energía: Los modelos Sigma poseen un núcleo de poder centralizado que utilizan para activar o potenciar sus diversas capacidades especiales. Este núcleo posee el equivalente a 15 cargas de Energía que el Hecatondies puede invertir para incrementar sus acumulaciones de Ki, utilizar sus Cúpulas Destructoras o generar sus Pantallas de Energía. Estos puntos sólo se recargan absorbiendo energía sobrenatural que caiga por cualquier medio en sus manos. Alas de Cuchillas: Los Zero Sigma están equipados con par de alas especiales que utilizan como defensa y ataque, pues poseen dos modalidades de uso completamente diferentes. En modo defensivo, las alas de un Hecatondies Sigma cubren el cuerpo del golem generando un campo de energía sobrenatural que le permite detener los ataques como si se tratara de un escudo. Por cada 500 puntos de daño que sufra el escudo, las Alas consumen una carga de poder del Núcleo de Energía. Si por el contrario las usan ofensivamente, el Hecatondies combina los ataques de las cuchillas con el resto de su cuerpo, lo que le permite sustituir su ataque con sus garras por el de las Alas de Cuchillas, las cuales poseen la capacidad de anular hasta 3 puntos la Armadura del Defensor. Cúpula Destructora: Un Sigma está dotado de sistemas de combate místicos que le permiten proyectar potentes descargas de energía mágica por sus extremidades. Al impactar sobre un blanco, estos rayos estallan, destruyendo todo lo que se encuentre en un radio de veinte metros. Tienen un daño base de 90 y atacan en la Tabla de Energía. A efectos de juego, son equivalentes a un conjuro de Cúpula de Destrucción, lanzado con un valor zeónico de 120. Para emplear este poder, el golem debe de concentrar energía en sus extremidades durante un asalto completo, por lo que mientras se prepara, no puede realizar ningún ataque con las garras, aunque si con sus Alas de Cuchilla. Igual que muchos otros de sus poderes, esta capacidad depende de las reservas que le queden en el generador, pues cada disparo consume una carga de energía. Incrementador de Ki: Los Sigma aprovechan especialmente su Núcleo de Energía para incrementar sus habilidades de Ki, pues este le permite aumentar sus Acumulaciones momentáneamente. El Hecatondies obtiene un +1 a las seis (como si hubiera gastado un punto de Cansancio) por cada carga del Núcleo que invierta (hasta un máximo de +3). Técnicas de Ki: El Hecatondies Sigma está programado con unas técnicas de Ki creadas especialmente para él. A continuación hay un listado con ellas; c ampo De r epulsión</p></section><details><summary>Texto extraído</summary><pre>Nivel: 12\n\nClase: Entre mundos (Creación) 30 Puntos de Vida: 300 Categoría: Guerrero Fue: 14 Des: 13 Agi: 11 Con: 13 Pod: 13 Int: 12 Vol: 10 Per: 12 RF 105 RM 105 RP 100 RV 105 RE 105\n\nTurno: 125 Natural Habilidad de ataque: 295 Garras de Dragón o 295 Alas de Cuchillas + 275 Cola Prensil x2; o 295 Cúpula Destructora Habilidad de defensa: 280 Garras de Dragón; o 300 Alas de Cuchillas Daño: 85 Garras de Dragón (FIL) 80 Alas de Cuchillas (FIL) TA: Caparazón de Metal Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 6 es 24 Agi 10 Con 26 Pod 24 Vol 8 Total: 120 Acumulaciones de es 3 Agi 2 Con 3 Pod 3 Vol 2 Habilidades del\n\nKi: Uso del Ki, Control del Ki, Detección del Ki, Erudición, Técnicas de Combate Improvisadas. Técnicas: Campo de Repulsión, Barrera Defensiva, Cubo Dimensional. Habilidades esenciales: Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Tamaño Innatural, Inmunidad Natural a un Elemento (Fuego, Frío, Completa), Exención Física, Ambidiestro, Inhumanidad, Necesidad Extrema. Poderes: Armas Naturales: Garras, Alas de Cuchillas (-3 a la TA Defensora), Colas Prensiles (Ataque Adicional -20 x2, Presa 1 6), Destrozar, Daña Energía, Cúpula Destructora (Conjuro Innato, Condicionado, Requiere 1 Turno de Preparatoria), Núcleo de Energía, Incrementador de Ki, Vuelo Místico 1 4 Limitado, Caparazón de Metal (Armadura Física 6, Armadura Mística 6, Barrera de Daño 100), Sistema Comandante, Nucleo Infinito (Zero), Armas Aniquiladoras (Deus), Ver lo Sobrenatural, Regeneración 0.\n\nTamaño: 24 Grande Regeneración: 0 Tipo de movimiento: 1 1/12 Cansancio: Incansable Habilidades Secundarias: Estilo 25, Advertir 70, Buscar 55, Rastrear 25, Ciencia 70, Memorizar 100, Detección del Ki 180. Milenios atrás, cuando Andromalius y el Senado de Sólomon crearon el ejército definitivo, los Hecatondies fueron la culminación de todas sus investigaciones bélicas, la mayor de sus producciones en serie. No obstante, en secreto incluso para el propio Senado, el Emperador diseñó y fabricó tres modelos únicos de Hecatondies, un trío de criaturas definitivas hechas para protegerle y responder sólo ante él. Serían sus agentes finales, la encarnación misma del poder terrenal de Sólomon; los Hecatondies Sigma.\n\nDentro de la clasificación de las Logias de Sólomon, los Hecantodies Sigma están en el teórico nivel Dyeus, grado que engloba los mayores avances de tecnología sobrenaturales conocidos. Aunque su potencial no alcanza el de sistemas como Único o Gravestone, de los que sólo se habla escuetamente en leyendas, lo cierto es que su poder destructivo personal supera todo lo visto o conocido; son verdaderamente los soldados finales. Un Hecatondies Sigma es físicamente muy parecido a los modelos en serie; un golem tecnomágico de dos metros y medio de estatura fabricado en titanio y acero blanco. No obstante, tiene un par de colas prensiles en lugar de una y enormes alas de cuchilla en la espalda. Todo su cuerpo está además lleno de runas rojas que se iluminan y cambian cuando activan alguno de sus poderes.\n\nPor lo general caminan por el aire a medio metro del suelo con el porte de un emperador y la elegancia de un felino. Desprenden un aire de poder descomunal; cualquiera que los vea siente instintivamente que se encuentra ante una criatura superior, algo más cercano al reino de los dioses que al de los mortales. Aparentemente, se cree que los Sigma fueron destruidos durante la caída de Sólomon, pero lo cierto es que, pese a quedar terriblemente dañados, los tres lograron salir con vida. Cada uno ha sobrevivido de diferentes maneras a lo largo de miles de años hasta la actualidad. A pesar de ser creaciones artificiales, los Sigma están prácticamente vivos, pues sus programas de inteligencia artificial les permiten comportarse como seres humanos. Son tremendamente inteligentes, y pueden adaptarse a cualquier circunstancia con facilidad para salir beneficiados.\n\nAl contrario que los Hecatondies normales, que pueden ser controlados activando un código verbal de control, los modelos Sigma sólo obedecen a quien tenga Sangre Antigua que descienda directamente de Andromalius y conozca su clave personal. z ero , e in y d euS Los nombres de los tres modelos de Hecatondies Sigma fueron Zero, Ein, y Deus. A continuación hay una referencia a cada uno de ellos así como sus características más destacables. z ero s igma : Zero es el primer Hecatondies, el prototipo creado personalmente por Andromalius a partir del que se fabricarían tanto Ein y Deus como los modelos en serie. Aunque no gozaba de los sistemas destructivos instalados en sus dos hermanos pequeños, Zero fue el que más desarrolló su inteligencia artificial, adquiriendo rápidamente rasgos humanos e incluso sentimientos.\n\nSobrevivió a la caída de Sólomon, pero quedó desconectado durante miles de años cuando su generador de energía, dañado en el conflicto, se agotó. Hace apenas unos siglos, Eljared introdujo en él una de las treinta piezas de metal negro para reactivarlo, y desde entonces ha viajado de un lugar a otro, interesado por ver en que clase de lugar se está convirtiendo el mundo. Actualmente tiene un trato con el Príncipe Lucanor Giovanni, y trabaja para Wissenchaft a cambio de recibir mantenimiento técnico que requiere para seguir completamente funcional. Deus s igma : Deus fue el último de los modelos Sigma en ser fabricado y también al que se le otorgó el mayor poder destructivo de los tres. Su cuerpo fue equipado con armas de aniquilación de semejante calibre que podía fácilmente destruir un ejército convencional de un sólo disparo.\n\nLamentablemente, durante la caída de Sólomon se encontraba en periodo de letargo, algo que le impidió ser activado (aunque también le salvó de su destrucción). Transportado lejos en una plataforma de combate de Sólomon, acabó sus días en las profundidades del Pantano Akquo, donde reposa en mitad de la enorme nave a la espera de ser reactivado. Deus es completamente fiel a los últimos deseos de Andromalius; quiere destruir a todos los enemigos de Sólomon. Trágicamente, eso representa para él acabar con el mundo tal y como es en la actualidad. e in s igma : Aparentemente, Ein es el modelo de Hecatondies Sigma más perfecto de todos, la obra definitiva de Andromalius. Su poder no consistía en habilidades personales o una capacidad de combate superior, sino porque era una conexión directa al Sistema Único, un programa viviente que tenía la capacidad de controlar todas las Logias de Sólomon.\n\nDe ser así, eso lo convertiría probablemente en una de las armas más terribles sobre la superficie de Gaïa. Poco es lo que se sabe de él, pues durante mucho tiempo se creyó que fue destruido durante las Siete Horas de Fuego. Sólo recientemente Zero ha notado que los sistemas de Ein siguen activos, pero ignora por completo tanto su ubicación como si está consciente o no. m oduS oPerandiCadaHecatondies tiene sus propias motivaciones y su manera de actuar, aunque cuando entran en combate, todos ellos actúan empleando avanzadas tácticas militares. Si bien rara vez lo requieren (puesto que su poder personal es incomparable), son capaces de tender complejas trampas a sus enemigos y aprovechar hasta la más mínima ventaja a su favor. Cuando luchan cuerpo a cuerpo siempre realizan entre tres y cuatro ataques por asalto, combinando el uso de sus garras y el de sus dos colas.\n\nSu punto vulnerable se encuentra en el pecho, donde se encuentra su generador. Un crítico de valor final superior a 50 lo desconecta pasados entre dos y tres asaltos, al dejarlos sin energía. José María Solano Albares (order #3443007) (order #3443007) : Las largas y poderosas colas de los Sigma están especialmente preparadas para enrollarse alrededor de sus adversarios e inmovilizarlos. Adiferencia de los Hecatondies normales, estos tres modelos poseen una cola adicional con la que pueden, o bien sujetar con más facilidad a un adversario, o bien atrapar a un segundo enemigo. Avoluntad, el modelo Sigma es capaz de usar cualquiera de sus dos colas para tratar de atrapar a un individuo cuyo Tamaño no sea superior al suyo propio. Esta acción cuenta como un ataque adicional natural, por lo que puede ejecutarlo mientras arremete con las garras, sin sufrir ningún penalizador a su habilidad.\n\nSi logra un impacto con éxito, su antagonista debe realizar un control enfrentado contra Fuerza 1 4 o verse paralizado, según las reglas generales de la maniobra de Presa. Si prefiere emplear ambas colas contra un enemigo sólo se realiza un único ataque, pero el control de Fuerza aumenta hasta 1 6. Por supuesto, nada le impide usar cada cola con un adversario diferente. Incluso mientras mantiene a alguien aprisionado, un modelo Sigma es capaz de seguir luchando normalmente. A la hora de recibir ataques, cada cola cuenta como un punto vulnerable del golem (-30 a la habilidad de quienes traten de realizar golpes apuntados en su contra). En el caso de que se produzca sobre ella un crítico superior a 20, el Sigma no sufre ningún tipo de penalizador a la acción o desventaja adicional, pero ésta queda completamente inservible.\n\nSi un sujeto esta presado por ambas colas y una de ellas es destruida, el Hecatondies suelta inmediatamente al objetivo para proteger la cola restante. Destrozar: Una vez tiene a un adversario atrapado en alguna de sus colas al menos con Parálisis Parcial o Completa, el Golem puede empezar a estrujarlo, obligándole a realizar un control enfrentado de Fuerza 1 4 (si está sujeto con una) o Fuerza 1 6 (si lo está con las dos) al inicio de cada turno. Cada punto por el que el individuo apresado pierda el control, sufre la pérdida de 10 de daño, aunque puede sumar un +1 a su tirada por cada 2 de TA dura que tenga contra ataques Contundentes. Núcleo de Energía: Los modelos Sigma poseen un núcleo de poder centralizado que utilizan para activar o potenciar sus diversas capacidades especiales.\n\nEste núcleo posee el equivalente a 1 5 cargas de Energía que el Hecatondies puede invertir para incrementar sus acumulaciones de Ki, utilizar sus Cúpulas Destructoras o generar sus Pantallas de Energía. Estos puntos sólo se recargan absorbiendo energía sobrenatural que caiga por cualquier medio en sus manos. Alas de Cuchillas: Los Zero Sigma están equipados con par de alas especiales que utilizan como defensa y ataque, pues poseen dos modalidades de uso completamente diferentes. En modo defensivo, las alas de un Hecatondies Sigma cubren el cuerpo del golem generando un campo de energía sobrenatural que le permite detener los ataques como si se tratara de un escudo. Por cada 500 puntos de daño que sufra el escudo, las Alas consumen una carga de poder del Núcleo de Energía.\n\nSi por el contrario las usan ofensivamente, el Hecatondies combina los ataques de las cuchillas con el resto de su cuerpo, lo que le permite sustituir su ataque con sus garras por el de las Alas de Cuchillas, las cuales poseen la capacidad de anular hasta 3 puntos la Armadura del Defensor. Cúpula Destructora: Un Sigma está dotado de sistemas de combate místicos que le permiten proyectar potentes descargas de energía mágica por sus extremidades. Al impactar sobre un blanco, estos rayos estallan, destruyendo todo lo que se encuentre en un radio de veinte metros. Tienen un daño base de 90 y atacan en la Tabla de Energía. A efectos de juego, son equivalentes a un conjuro de Cúpula de Destrucción, lanzado con un valor zeónico de 120.\n\nPara emplear este poder, el golem debe de concentrar energía en sus extremidades durante un asalto completo, por lo que mientras se prepara, no puede realizar ningún ataque con las garras, aunque si con sus Alas de Cuchilla. Igual que muchos otros de sus poderes, esta capacidad depende de las reservas que le queden en el generador, pues cada disparo consume una carga de energía. Incrementador de\n\nKi: Los Sigma aprovechan especialmente su Núcleo de Energía para incrementar sus habilidades de Ki, pues este le permite aumentar sus Acumulaciones momentáneamente. El Hecatondies obtiene un +1 a las seis (como si hubiera gastado un punto de Cansancio) por cada carga del Núcleo que invierta (hasta un máximo de +3). Técnicas de\n\nKi: El Hecatondies Sigma está programado con unas técnicas de Ki creadas especialmente para él. A continuación hay un listado con ellas; c ampo De r epulsión</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +413,6 @@
           }
         }
       ],
-      "level": {
-        "value": 12
-      },
       "notes": [
         {
           "_id": "note-hecatondies-sigma-golem-definiti-3",
@@ -513,52 +444,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 14
-          }
+          "value": 14,
+          "mod": 25
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -569,9 +484,6 @@
         "initiative": {
           "base": {
             "value": 125
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -622,10 +534,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -5
+              "value": 105
             },
             "final": {
               "value": 0
@@ -633,10 +542,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -5
+              "value": 105
             },
             "final": {
               "value": 0
@@ -644,10 +550,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 105015
+              "value": 105125
             },
             "final": {
               "value": 0
@@ -655,10 +558,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -5
+              "value": 105
             },
             "final": {
               "value": 0
@@ -666,10 +566,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -681,212 +578,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 70
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 70
+          },
+          "final": {
+            "value": 0
           }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 295
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 300
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -917,11 +1057,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -933,14 +1069,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -954,14 +1095,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1066,15 +1204,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1086,37 +1220,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1239,9 +1393,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

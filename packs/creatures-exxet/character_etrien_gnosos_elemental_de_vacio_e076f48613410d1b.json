@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,28 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
-        "perceivePsychic": {
+        "inhuman": {
           "value": true
         },
         "inmaterial": {
           "value": true
         },
-        "inhuman": {
+        "perceiveMystic": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "perceivePsychic": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +153,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +173,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 70
         }
       },
       "aspect": {
@@ -274,7 +207,7 @@
           "value": "Elemental de Vacío"
         },
         "size": {
-          "value": 15
+          "value": "15"
         }
       },
       "advantages": [],
@@ -292,7 +225,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 70</p><p><strong>Entrada:</strong> Etrien Gnosos</p><p><strong>Variante:</strong> Elemental de Vacío</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 30</p><p><strong>Categoría:</strong> Guerrero Fue: 11 Des: 13 Agi: 13 Con: - Pod: 13 Int: 7 Vol: 10 Per: 8 RF 95 RM 95 RP 85 RV 95 RE 95</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad, Tamaño, Inmunidad Psicológica.</p><p><strong>Poderes:</strong> Armas Naturales: Garras de Vacío (-5 a la TA Defensora, +40 al Daño, Devorador de Ki, Devorador de Magia), Crítico Irrecuperable, Absorción, Otra Existencia (Reducción de Daño 50), Aura de Vacío, Visión Extrasensorial, Vuelo Místico, Ver lo Sobrenatural, Influencia de la Nada, Visibles, Vulnerables a la Existencia Extrema. al</p><p><strong>Daño:</strong> 120 Garras de Vacío (Fil)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 100, Buscar 50</p><p><strong>Descripción breve:</strong> Si todo lo que existe tiene un reverso, la misma “existencia” encuentra a su vez su opuesto en la nada. Y es allí, en el más absoluto de los vacíos, desde donde los Etrien Gnosos observan apáticamente el mundo. La aparición de los entes así conocidos es un proceso lento y verdaderamente aterrador. Cuando una persona con cierto nivel de importancia para la existencia empieza a encontrarse vacía por dentro y siente que carece de un motivo para vivir o morir, poco a poco sincroniza con la nada. Si esto se prolonga durante mucho tiempo, la gente comienza a ignorarle poco a poco, llegando incluso a olvidar por completo todo sobre él. En el momento final el alma de dicho individuo desaparece del mundo haciéndose parte del vacío, lo que “abre” un agujero hacia la nada; en ese instante, es cuando el Etrien Gnosos surge. Toda la materia espiritual de la persona se convierte en energía negativa y en su centro surge una especie de ojo inexpresivo, el verdadero “núcleo del vacío” del ser. Los Etrien Gnosos carecen de personalidad, aunque son inteligentes y capaces de tomar instintivamente las decisiones más adecuadas. No parecen estar movidos por motivo alguno; realmente, hacen poco más que “dejarse llevar” por los acontecimientos que ocurren a su alrededor. En dicho sentido son bastante inestables, ya que a veces pueden devorar la existencia de quienes se les pongan delante o dejarles pasar ignorándolos por completo. Hay quien dice que solo se fijan en personas especiales, pero naturalmente, es imposible aseverar dicha afirmación. Lo único que se sabe con absoluta seguridad es que nunca dañan a personas que se estén convirtiendo en uno de ellos. Los Etrien Gnosos aparecen en diversos lugares donde la existencia es frágil y hay mucho “vacío” en el ambiente. Eso hace que siempre haya al menos uno o dos presentes en todos los templos dedicados a alguno de los aspectos de la Beryl Edamiel. No obstante, en ocasiones pueden pulular por emplazamientos donde grandes poderes sobrenaturales hayan afectado el orden de la realidad o en los puntos más grises de La Vigilia. m oduS oPerandiCaóticos e imprevisibles, estos poderosos seres de la nada son criaturas prácticamente imposibles de detener. Nadie sabe porque o cuando atacan, pero por donde van su mera presencia anula los poderes especiales de sus contrincantes y disminuyen las habilidades de estos. Normalmente, su metodología de combate es tan simple como terriblemente efectiva; consiste en destrozar a sus enemigos con sus garras y arrastrar lo que quede de ellos al interior de su vórtice, lo que absorbe por completo su existencia. Naturalmente, carecen de puntos vulnerables. Inmunidad Psicológica: La mente de un Elemental de Vacío esta desposeída de cualquier sentimiento y, por tanto, no puede sufrir ninguna clase de estado psicológico alterado, ni natural ni sobrenaturalmente. Garras de Vacío: De la nada que da forma a los Etrien Nosos surgen decenas de garras espectrales que intentan atrapar todo lo que se pone a su alcance para devorar su existencia. Atacan como una sola masa sobrenatural e intangible, por lo que sólo pueden ser paradas por medios sobrenaturales o capaces de detener energía, y restan 5 puntos la Armadura del Defensor. Adicionalmente, si producen daños destruyen física y espiritualmente a sus objetivos, provocando una destrucción de Zeon equivalente al daño que produzcan y la mitad en Puntos de Ki. Cualquier herida causada por estas zarpas no es visible al ojo humano, puesto que desgarran la existencia misma de sus enemigos anulando así cualquier clase regeneración especial (es decir, estos se recuperan al ritmo de un Sacrificio). Crítico Irrecuperable: Si las Garras de Vacío provocan un Crítico superior a 50, los negativos son permanentes y únicamente pueden regenerarse mediante métodos sobrenaturales. Por el contrario, si el crítico es superior a 100, el daño es completamente irreversible, ya que devoran la misma existencia de aquello que han destruido; a todos los efectos, funciona igual que un conjuro de Sesgar la Existencia. Otra Existencia: Los Etrien Nosos se encuentran a otro nivel de existencia, ya que prácticamente ni siquiera existen. No sólo son inmunes a los ataques convencionales que no dañen energía, sino que estos también reducen su Daño Base 50 puntos. Vuelo Místico: El Etrien Nosos ignora las más básicas leyes de la realidad desplazándose por el espacio con un Tipo de Movimiento 13, aunque no puede elevarse a más de 20 metros de una superficie. Aura de Vacío: La presencia del Etrien Gnosos debilita la realidad que lo rodea provocando serias alteraciones en las habilidades sobrenaturales. Por ello, todos aquellos que se encuentren a menos de 50 metros sufren una serie de consecuencias negativas. En primer lugar, los brujos ven reducido su ACT 20 puntos, las acumulaciones de Ki se rebajan 2 puntos, las Matrices Psíquicas disminuyen un grado de Dificultad y las habilidades de convocación reciben un negativo de -80. Adicionalmente, quienquiera que entre dentro de dicho espacio debe superar una RF contra 140 o sufrir un -20 a toda acción debido al terrible vacío espiritual. Todos estos poderes funcionan usando las mismas reglas que las habilidades del Némesis, por lo que son afectadas por cualquier cosa que actúe contra ellas. Absorción: En vez de intentar defenderse de los ataques, un Etrien Nosos los “devora” uno tras otro sin sufrir penalizadores por defensas adicionales. Atodos los efectos su modelo de defensa no es ni parada ni esquiva, y funciona como si se tratase de un escudo sobrenatural sin límite de Puntos de Vida.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 9\n\nClase: Ánima 30 Puntos de Vida: 300 Categoría: Guerrero Fue: 11 Des: 13 Agi: 13 Con: - Pod: 13 Int: 7 Vol: 10 Per: 8 RF 95 RM 95 RP 85 RV 95 RE 95\n\nTurno: 125 Natural Habilidad de ataque: 250 Garras de Vacío Habilidad de defensa: 240 Absorción Daño: 120 Garras de Vacío (Fil) TA: Ninguna Habilidades esenciales: Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad, Tamaño, Inmunidad Psicológica. Poderes: Armas Naturales: Garras de Vacío (-5 a la TA Defensora, +40 al Daño, Devorador de Ki, Devorador de Magia), Crítico Irrecuperable, Absorción, Otra Existencia (Reducción de Daño 50), Aura de Vacío, Visión Extrasensorial, Vuelo Místico, Ver lo Sobrenatural, Influencia de la Nada, Visibles, Vulnerables a la Existencia Extrema. al Regeneración: 5 Tipo de movimiento: 13 Cansancio: Incansable Habilidades Secundarias: Advertir 100, Buscar 50. Si todo lo que existe tiene un reverso, la misma “existencia” encuentra a su vez su opuesto en la nada.\n\nY es allí, en el más absoluto de los vacíos, desde donde los Etrien Gnosos observan apáticamente el mundo. La aparición de los entes así conocidos es un proceso lento y verdaderamente aterrador. Cuando una persona con cierto nivel de importancia para la existencia empieza a encontrarse vacía por dentro y siente que carece de un motivo para vivir o morir, poco a poco sincroniza con la nada. Si esto se prolonga durante mucho tiempo, la gente comienza a ignorarle poco a poco, llegando incluso a olvidar por completo todo sobre él. En el momento final el alma de dicho individuo desaparece del mundo haciéndose parte del vacío, lo que “abre” un agujero hacia la nada; en ese instante, es cuando el Etrien Gnosos surge. Toda la materia espiritual de la persona se convierte en energía negativa y en su centro surge una especie de ojo inexpresivo, el verdadero “núcleo del vacío” del ser.\n\nLos Etrien Gnosos carecen de personalidad, aunque son inteligentes y capaces de tomar instintivamente las decisiones más adecuadas. No parecen estar movidos por motivo alguno; realmente, hacen poco más que “dejarse llevar” por los acontecimientos que ocurren a su alrededor. En dicho sentido son bastante inestables, ya que a veces pueden devorar la existencia de quienes se les pongan delante o dejarles pasar ignorándolos por completo. Hay quien dice que solo se fijan en personas especiales, pero naturalmente, es imposible aseverar dicha afirmación. Lo único que se sabe con absoluta seguridad es que nunca dañan a personas que se estén convirtiendo en uno de ellos. Los Etrien Gnosos aparecen en diversos lugares donde la existencia es frágil y hay mucho “vacío” en el ambiente.\n\nEso hace que siempre haya al menos uno o dos presentes en todos los templos dedicados a alguno de los aspectos de la Beryl Edamiel. No obstante, en ocasiones pueden pulular por emplazamientos donde grandes poderes sobrenaturales hayan afectado el orden de la realidad o en los puntos más grises de La Vigilia. (order #3443007) m oduS oPerandiCaóticos e imprevisibles, estos poderosos seres de la nada son criaturas prácticamente imposibles de detener. Nadie sabe porque o cuando atacan, pero por donde van su mera presencia anula los poderes especiales de sus contrincantes y disminuyen las habilidades de estos. Normalmente, su metodología de combate es tan simple como terriblemente efectiva; consiste en destrozar a sus enemigos con sus garras y arrastrar lo que quede de ellos al interior de su vórtice, lo que absorbe por completo su existencia. Naturalmente, carecen de puntos vulnerables.\n\nInmunidad Psicológica: La mente de un Elemental de Vacío esta desposeída de cualquier sentimiento y, por tanto, no puede sufrir ninguna clase de estado psicológico alterado, ni natural ni sobrenaturalmente. Garras de Vacío: De la nada que da forma a los Etrien Nosos surgen decenas de garras espectrales que intentan atrapar todo lo que se pone a su alcance para devorar su existencia. Atacan como una sola masa sobrenatural e intangible, por lo que sólo pueden ser paradas por medios sobrenaturales o capaces de detener energía, y restan 5 puntos la Armadura del Defensor. Adicionalmente, si producen daños destruyen física y espiritualmente a sus objetivos, provocando una destrucción de Zeon equivalente al daño que produzcan y la mitad en Puntos de Ki.\n\nCualquier herida causada por estas zarpas no es visible al ojo humano, puesto que desgarran la existencia misma de sus enemigos anulando así cualquier clase regeneración especial (es decir, estos se recuperan al ritmo de un Sacrificio). Crítico Irrecuperable: Si las Garras de Vacío provocan un Crítico superior a 50, los negativos son permanentes y únicamente pueden regenerarse mediante métodos sobrenaturales. Por el contrario, si el crítico es superior a 100, el daño es completamente irreversible, ya que devoran la misma existencia de aquello que han destruido; a todos los efectos, funciona igual que un conjuro de Sesgar la Existencia. Otra Existencia: Los Etrien Nosos se encuentran a otro nivel de existencia, ya que prácticamente ni siquiera existen. No sólo son inmunes a los ataques convencionales que no dañen energía, sino que estos también reducen su Daño Base 50 puntos.\n\nVuelo Místico: El Etrien Nosos ignora las más básicas leyes de la realidad desplazándose por el espacio con un Tipo de Movimiento 1 3, aunque no puede elevarse a más de 20 metros de una superficie. Aura de Vacío: La presencia del Etrien Gnosos debilita la realidad que lo rodea provocando serias alteraciones en las habilidades sobrenaturales. Por ello, todos aquellos que se encuentren a menos de 50 metros sufren una serie de consecuencias negativas. En primer lugar, los brujos ven reducido su ACT 20 puntos, las acumulaciones de Ki se rebajan 2 puntos, las Matrices Psíquicas disminuyen un grado de Dificultad y las habilidades de convocación reciben un negativo de -80. Adicionalmente, quienquiera que entre dentro de dicho espacio debe superar una RF contra 1 40 o sufrir un -20 a toda acción debido al terrible vacío espiritual.\n\nTodos estos poderes funcionan usando las mismas reglas que las habilidades del Némesis, por lo que son afectadas por cualquier cosa que actúe contra ellas. Absorción: En vez de intentar defenderse de los ataques, un Etrien Nosos los “devora” uno tras otro sin sufrir penalizadores por defensas adicionales. Atodos los efectos su modelo de defensa no es ni parada ni esquiva, y funciona como si se tratase de un escudo sobrenatural sin límite de Puntos de Vida.\n\nTamaño: El tamaño de los Etrien Gnosos varia continuamente, pudiendo pasar de ser criaturas medias a grandes en solo cuestión de segundos. Influencia de la Nada: La presencia de los Etrien Gnosos tiene algunos efectos negativos en todos aquellos seres que se encuentren en sus inmediaciones (aunque habitualmente, no se extiende más de cuatro o cinco kilómetros). Pasado algunos días, la gente deja de soñar y pierde ligeramente las ganas de vivir. Por ello, es habitual que haya suicidios en masa cuando un Etrien Gnosos se ha manifestado en las cercanías. Visibles: Los Etrien Gnosos son perfectamente visibles pese a su naturaleza espiritual.\n\nVulnerables a la Existencia Extrema: Los Etrien Gnosos son afectados por los sentimientos y las sensaciones de personas cuya Natura sea excepcionalmente alta, ya que la “importancia” de dichos sujetos para la realidad puede llegar a sobresaturar su vacío existencial. Si se encuentran en presencia de una persona con Natura 1 5 que, por algún motivo, está sobresaturada por alguna emoción fuerte, los Elementales de Vacío quedan atontados momentáneamente siendo incapaces de realizar acciones activas durante un periodo de dos o tres asaltos. Por otro lado, estas criaturas son completamente incapaces de hacer daño a alguien con Natura 20, y sufren un daño de 10 Puntos de Vida por asalto simplemente por estar cerca de ellos. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 70</p><p><strong>Entrada:</strong> Etrien Gnosos</p><p><strong>Variante:</strong> Elemental de Vacío</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 30</p><p><strong>Categoría:</strong> Guerrero Fue: 11 Des: 13 Agi: 13 Con: - Pod: 13 Int: 7 Vol: 10 Per: 8 RF 95 RM 95 RP 85 RV 95 RE 95</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad, Tamaño, Inmunidad Psicológica.</p><p><strong>Poderes:</strong> Armas Naturales: Garras de Vacío (-5 a la TA Defensora, +40 al Daño, Devorador de Ki, Devorador de Magia), Crítico Irrecuperable, Absorción, Otra Existencia (Reducción de Daño 50), Aura de Vacío, Visión Extrasensorial, Vuelo Místico, Ver lo Sobrenatural, Influencia de la Nada, Visibles, Vulnerables a la Existencia Extrema. al</p><p><strong>Daño:</strong> 120 Garras de Vacío (Fil)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 100, Buscar 50</p><p><strong>Descripción breve:</strong> Si todo lo que existe tiene un reverso, la misma “existencia” encuentra a su vez su opuesto en la nada. Y es allí, en el más absoluto de los vacíos, desde donde los Etrien Gnosos observan apáticamente el mundo. La aparición de los entes así conocidos es un proceso lento y verdaderamente aterrador. Cuando una persona con cierto nivel de importancia para la existencia empieza a encontrarse vacía por dentro y siente que carece de un motivo para vivir o morir, poco a poco sincroniza con la nada. Si esto se prolonga durante mucho tiempo, la gente comienza a ignorarle poco a poco, llegando incluso a olvidar por completo todo sobre él. En el momento final el alma de dicho individuo desaparece del mundo haciéndose parte del vacío, lo que “abre” un agujero hacia la nada; en ese instante, es cuando el Etrien Gnosos surge. Toda la materia espiritual de la persona se convierte en energía negativa y en su centro surge una especie de ojo inexpresivo, el verdadero “núcleo del vacío” del ser. Los Etrien Gnosos carecen de personalidad, aunque son inteligentes y capaces de tomar instintivamente las decisiones más adecuadas. No parecen estar movidos por motivo alguno; realmente, hacen poco más que “dejarse llevar” por los acontecimientos que ocurren a su alrededor. En dicho sentido son bastante inestables, ya que a veces pueden devorar la existencia de quienes se les pongan delante o dejarles pasar ignorándolos por completo. Hay quien dice que solo se fijan en personas especiales, pero naturalmente, es imposible aseverar dicha afirmación. Lo único que se sabe con absoluta seguridad es que nunca dañan a personas que se estén convirtiendo en uno de ellos. Los Etrien Gnosos aparecen en diversos lugares donde la existencia es frágil y hay mucho “vacío” en el ambiente. Eso hace que siempre haya al menos uno o dos presentes en todos los templos dedicados a alguno de los aspectos de la Beryl Edamiel. No obstante, en ocasiones pueden pulular por emplazamientos donde grandes poderes sobrenaturales hayan afectado el orden de la realidad o en los puntos más grises de La Vigilia. m oduS oPerandiCaóticos e imprevisibles, estos poderosos seres de la nada son criaturas prácticamente imposibles de detener. Nadie sabe porque o cuando atacan, pero por donde van su mera presencia anula los poderes especiales de sus contrincantes y disminuyen las habilidades de estos. Normalmente, su metodología de combate es tan simple como terriblemente efectiva; consiste en destrozar a sus enemigos con sus garras y arrastrar lo que quede de ellos al interior de su vórtice, lo que absorbe por completo su existencia. Naturalmente, carecen de puntos vulnerables. Inmunidad Psicológica: La mente de un Elemental de Vacío esta desposeída de cualquier sentimiento y, por tanto, no puede sufrir ninguna clase de estado psicológico alterado, ni natural ni sobrenaturalmente. Garras de Vacío: De la nada que da forma a los Etrien Nosos surgen decenas de garras espectrales que intentan atrapar todo lo que se pone a su alcance para devorar su existencia. Atacan como una sola masa sobrenatural e intangible, por lo que sólo pueden ser paradas por medios sobrenaturales o capaces de detener energía, y restan 5 puntos la Armadura del Defensor. Adicionalmente, si producen daños destruyen física y espiritualmente a sus objetivos, provocando una destrucción de Zeon equivalente al daño que produzcan y la mitad en Puntos de Ki. Cualquier herida causada por estas zarpas no es visible al ojo humano, puesto que desgarran la existencia misma de sus enemigos anulando así cualquier clase regeneración especial (es decir, estos se recuperan al ritmo de un Sacrificio). Crítico Irrecuperable: Si las Garras de Vacío provocan un Crítico superior a 50, los negativos son permanentes y únicamente pueden regenerarse mediante métodos sobrenaturales. Por el contrario, si el crítico es superior a 100, el daño es completamente irreversible, ya que devoran la misma existencia de aquello que han destruido; a todos los efectos, funciona igual que un conjuro de Sesgar la Existencia. Otra Existencia: Los Etrien Nosos se encuentran a otro nivel de existencia, ya que prácticamente ni siquiera existen. No sólo son inmunes a los ataques convencionales que no dañen energía, sino que estos también reducen su Daño Base 50 puntos. Vuelo Místico: El Etrien Nosos ignora las más básicas leyes de la realidad desplazándose por el espacio con un Tipo de Movimiento 13, aunque no puede elevarse a más de 20 metros de una superficie. Aura de Vacío: La presencia del Etrien Gnosos debilita la realidad que lo rodea provocando serias alteraciones en las habilidades sobrenaturales. Por ello, todos aquellos que se encuentren a menos de 50 metros sufren una serie de consecuencias negativas. En primer lugar, los brujos ven reducido su ACT 20 puntos, las acumulaciones de Ki se rebajan 2 puntos, las Matrices Psíquicas disminuyen un grado de Dificultad y las habilidades de convocación reciben un negativo de -80. Adicionalmente, quienquiera que entre dentro de dicho espacio debe superar una RF contra 140 o sufrir un -20 a toda acción debido al terrible vacío espiritual. Todos estos poderes funcionan usando las mismas reglas que las habilidades del Némesis, por lo que son afectadas por cualquier cosa que actúe contra ellas. Absorción: En vez de intentar defenderse de los ataques, un Etrien Nosos los “devora” uno tras otro sin sufrir penalizadores por defensas adicionales. Atodos los efectos su modelo de defensa no es ni parada ni esquiva, y funciona como si se tratase de un escudo sobrenatural sin límite de Puntos de Vida.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 9\n\nClase: Ánima 30 Puntos de Vida: 300 Categoría: Guerrero Fue: 11 Des: 13 Agi: 13 Con: - Pod: 13 Int: 7 Vol: 10 Per: 8 RF 95 RM 95 RP 85 RV 95 RE 95\n\nTurno: 125 Natural Habilidad de ataque: 250 Garras de Vacío Habilidad de defensa: 240 Absorción Daño: 120 Garras de Vacío (Fil) TA: Ninguna Habilidades esenciales: Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Exención Física, Inhumanidad, Tamaño, Inmunidad Psicológica. Poderes: Armas Naturales: Garras de Vacío (-5 a la TA Defensora, +40 al Daño, Devorador de Ki, Devorador de Magia), Crítico Irrecuperable, Absorción, Otra Existencia (Reducción de Daño 50), Aura de Vacío, Visión Extrasensorial, Vuelo Místico, Ver lo Sobrenatural, Influencia de la Nada, Visibles, Vulnerables a la Existencia Extrema. al Regeneración: 5 Tipo de movimiento: 13 Cansancio: Incansable Habilidades Secundarias: Advertir 100, Buscar 50. Si todo lo que existe tiene un reverso, la misma “existencia” encuentra a su vez su opuesto en la nada.\n\nY es allí, en el más absoluto de los vacíos, desde donde los Etrien Gnosos observan apáticamente el mundo. La aparición de los entes así conocidos es un proceso lento y verdaderamente aterrador. Cuando una persona con cierto nivel de importancia para la existencia empieza a encontrarse vacía por dentro y siente que carece de un motivo para vivir o morir, poco a poco sincroniza con la nada. Si esto se prolonga durante mucho tiempo, la gente comienza a ignorarle poco a poco, llegando incluso a olvidar por completo todo sobre él. En el momento final el alma de dicho individuo desaparece del mundo haciéndose parte del vacío, lo que “abre” un agujero hacia la nada; en ese instante, es cuando el Etrien Gnosos surge. Toda la materia espiritual de la persona se convierte en energía negativa y en su centro surge una especie de ojo inexpresivo, el verdadero “núcleo del vacío” del ser.\n\nLos Etrien Gnosos carecen de personalidad, aunque son inteligentes y capaces de tomar instintivamente las decisiones más adecuadas. No parecen estar movidos por motivo alguno; realmente, hacen poco más que “dejarse llevar” por los acontecimientos que ocurren a su alrededor. En dicho sentido son bastante inestables, ya que a veces pueden devorar la existencia de quienes se les pongan delante o dejarles pasar ignorándolos por completo. Hay quien dice que solo se fijan en personas especiales, pero naturalmente, es imposible aseverar dicha afirmación. Lo único que se sabe con absoluta seguridad es que nunca dañan a personas que se estén convirtiendo en uno de ellos. Los Etrien Gnosos aparecen en diversos lugares donde la existencia es frágil y hay mucho “vacío” en el ambiente.\n\nEso hace que siempre haya al menos uno o dos presentes en todos los templos dedicados a alguno de los aspectos de la Beryl Edamiel. No obstante, en ocasiones pueden pulular por emplazamientos donde grandes poderes sobrenaturales hayan afectado el orden de la realidad o en los puntos más grises de La Vigilia. (order #3443007) m oduS oPerandiCaóticos e imprevisibles, estos poderosos seres de la nada son criaturas prácticamente imposibles de detener. Nadie sabe porque o cuando atacan, pero por donde van su mera presencia anula los poderes especiales de sus contrincantes y disminuyen las habilidades de estos. Normalmente, su metodología de combate es tan simple como terriblemente efectiva; consiste en destrozar a sus enemigos con sus garras y arrastrar lo que quede de ellos al interior de su vórtice, lo que absorbe por completo su existencia. Naturalmente, carecen de puntos vulnerables.\n\nInmunidad Psicológica: La mente de un Elemental de Vacío esta desposeída de cualquier sentimiento y, por tanto, no puede sufrir ninguna clase de estado psicológico alterado, ni natural ni sobrenaturalmente. Garras de Vacío: De la nada que da forma a los Etrien Nosos surgen decenas de garras espectrales que intentan atrapar todo lo que se pone a su alcance para devorar su existencia. Atacan como una sola masa sobrenatural e intangible, por lo que sólo pueden ser paradas por medios sobrenaturales o capaces de detener energía, y restan 5 puntos la Armadura del Defensor. Adicionalmente, si producen daños destruyen física y espiritualmente a sus objetivos, provocando una destrucción de Zeon equivalente al daño que produzcan y la mitad en Puntos de Ki.\n\nCualquier herida causada por estas zarpas no es visible al ojo humano, puesto que desgarran la existencia misma de sus enemigos anulando así cualquier clase regeneración especial (es decir, estos se recuperan al ritmo de un Sacrificio). Crítico Irrecuperable: Si las Garras de Vacío provocan un Crítico superior a 50, los negativos son permanentes y únicamente pueden regenerarse mediante métodos sobrenaturales. Por el contrario, si el crítico es superior a 100, el daño es completamente irreversible, ya que devoran la misma existencia de aquello que han destruido; a todos los efectos, funciona igual que un conjuro de Sesgar la Existencia. Otra Existencia: Los Etrien Nosos se encuentran a otro nivel de existencia, ya que prácticamente ni siquiera existen. No sólo son inmunes a los ataques convencionales que no dañen energía, sino que estos también reducen su Daño Base 50 puntos.\n\nVuelo Místico: El Etrien Nosos ignora las más básicas leyes de la realidad desplazándose por el espacio con un Tipo de Movimiento 1 3, aunque no puede elevarse a más de 20 metros de una superficie. Aura de Vacío: La presencia del Etrien Gnosos debilita la realidad que lo rodea provocando serias alteraciones en las habilidades sobrenaturales. Por ello, todos aquellos que se encuentren a menos de 50 metros sufren una serie de consecuencias negativas. En primer lugar, los brujos ven reducido su ACT 20 puntos, las acumulaciones de Ki se rebajan 2 puntos, las Matrices Psíquicas disminuyen un grado de Dificultad y las habilidades de convocación reciben un negativo de -80. Adicionalmente, quienquiera que entre dentro de dicho espacio debe superar una RF contra 1 40 o sufrir un -20 a toda acción debido al terrible vacío espiritual.\n\nTodos estos poderes funcionan usando las mismas reglas que las habilidades del Némesis, por lo que son afectadas por cualquier cosa que actúe contra ellas. Absorción: En vez de intentar defenderse de los ataques, un Etrien Nosos los “devora” uno tras otro sin sufrir penalizadores por defensas adicionales. Atodos los efectos su modelo de defensa no es ni parada ni esquiva, y funciona como si se tratase de un escudo sobrenatural sin límite de Puntos de Vida.\n\nTamaño: El tamaño de los Etrien Gnosos varia continuamente, pudiendo pasar de ser criaturas medias a grandes en solo cuestión de segundos. Influencia de la Nada: La presencia de los Etrien Gnosos tiene algunos efectos negativos en todos aquellos seres que se encuentren en sus inmediaciones (aunque habitualmente, no se extiende más de cuatro o cinco kilómetros). Pasado algunos días, la gente deja de soñar y pierde ligeramente las ganas de vivir. Por ello, es habitual que haya suicidios en masa cuando un Etrien Gnosos se ha manifestado en las cercanías. Visibles: Los Etrien Gnosos son perfectamente visibles pese a su naturaleza espiritual.\n\nVulnerables a la Existencia Extrema: Los Etrien Gnosos son afectados por los sentimientos y las sensaciones de personas cuya Natura sea excepcionalmente alta, ya que la “importancia” de dichos sujetos para la realidad puede llegar a sobresaturar su vacío existencial. Si se encuentran en presencia de una persona con Natura 1 5 que, por algún motivo, está sobresaturada por alguna emoción fuerte, los Elementales de Vacío quedan atontados momentáneamente siendo incapaces de realizar acciones activas durante un periodo de dos o tres asaltos. Por otro lado, estas criaturas son completamente incapaces de hacer daño a alguien con Natura 20, y sufren un daño de 10 Puntos de Vida por asalto simplemente por estar cerca de ellos. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +257,6 @@
           }
         }
       ],
-      "level": {
-        "value": 9
-      },
       "notes": [
         {
           "_id": "note-etrien-gnosos-elemental-de-vacio-3",
@@ -345,52 +276,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 0
-          }
+          "value": 0,
+          "mod": 0
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -401,9 +316,6 @@
         "initiative": {
           "base": {
             "value": 125
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +366,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 25
+              "value": 95
             },
             "final": {
               "value": 0
@@ -465,10 +374,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 25
+              "value": 95
             },
             "final": {
               "value": 0
@@ -476,10 +382,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 95055
+              "value": 95125
             },
             "final": {
               "value": 0
@@ -487,10 +390,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 95
             },
             "final": {
               "value": 0
@@ -498,10 +398,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -513,200 +410,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 250
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 240
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -737,11 +889,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -753,14 +901,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -774,14 +927,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -886,15 +1036,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -906,37 +1052,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1059,9 +1225,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

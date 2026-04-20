@@ -95,9 +95,12 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
@@ -106,16 +109,8 @@
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,25 @@
         "openOnDoubles": {
           "value": false
         },
+        "defenseType": {
+          "value": ""
+        },
+        "inhuman": {
+          "value": true
+        },
         "perceiveMystic": {
           "value": true
         },
         "perceivePsychic": {
           "value": true
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": true
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +150,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +170,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 55
         }
       },
       "aspect": {
@@ -274,7 +204,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +222,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 63</p><p><strong>Entrada:</strong> Raptor el Ejecutor Oscuro</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, elemental, 25</p><p><strong>Categoría:</strong> Sombra Fue: 12 Des: 10 Agi: 12 Con: 10 Pod: 10 Int: 8 Vol: 8 Per: 9 RF 70 RM 70 RP 65 RV 70 RE 70</p><p><strong>Habilidades esenciales:</strong> Características físicas sobrehumanas, Resistencia al cansancio, Don, Inhumanidad, Sentidos agudos (olfato), Tamaño innatural, Ambidiestro, No duerme.</p><p><strong>Poderes:</strong> Arma natural: Garras de pesadilla (Daño incrementado +20, Crítico incrementado +20, Armadura -2, Daña energía), Movimiento libre, Inmunidad tenebrosa, Ojos de pesadilla (visión nocturna completa y ver lo sobrenatural), Grito del Caos, Tormenta de Pesadillas.</p><p><strong>Daño:</strong> 80 Garras FIL, 60 Tormenta de pesadillas CAL.</p><p><strong>Habilidades secundarias:</strong> Persuasión 20, Ocultarse 75, Sigilo 85, Advertir 80 (110 olfato), Buscar 50 (80 olfato), Rastrear 30, Historia 20, Ocultismo 120, Tasación, Valoración mágica 40, Proezas de fuerza 45</p><p><strong>Descripción breve:</strong> Aunque Raptor está dotado de unas capacidades mágicas muy básicas, jamás las aplica en combate, para lo que se basta con su gran habilidad natural y sus poderes innatos. La metodología de combate de Raptor en el enfrentamiento final será muy distinta a la que usa en el zepelín. En La Dama únicamente efectúa unos cuantos ataques aleatorios, con el único objetivo de hacerles un poco de daño pero sin matarles en ningún caso. Por el contrario, en la catedral se comportará de manera maquinal, siguiendo unas extrañas pautas de combate más motivadas por el azar que la lógica. Al iniciar cada turno, lanza un D10 y consulta las siguientes líneas como referencia. De 1 a 4: Raptor atacará al mismo personaje con el que estuviera trabado en el turno anterior, mientras ríe como un poseso. De 5 a 6: Mientras grita algo como “-Me he cansado de ti…-” o “-¡¡Ahora tú!!-”, cambiará el blanco de sus ataques. De 7 a 8: Con este resultado, empleará el Grito del Caos sobre todos los presentes. De 9 a 0: Usará la Tormenta de Pesadillas mientras chilla algo como “-¡Sentid verdadero poder!-”. Garras de pesadilla: A pesar de su apariencia simple, las garras de Raptor tienen la capacidad de sajar tanto a nivel físico como espiritual, acrecentando enormemente los efectos que provocan. Por tanto, no sólo producen un daño incrementado, sino que bajan dos puntos la armadura del defensor y aumentan en +20 cualquier tirada para calcular el nivel de crítico. Ojos de pesadilla: Siendo como es una entidad atada al más allá, Raptor no tiene penalizadores por la oscuridad natural. También tiene la capacidad de ver magia, matrices psíquicas y otras entidades espirituales. Inmunidad tenebrosa: Su esencia de pesadilla le ha permitido obtener cierta inmunidad en su forma física contra daños convencionales. Por tanto, cualquier ataque que no dañe energía le produce automáticamente la mitad de daño. Grito del caos: Raptor empieza a tomar aire y se hincha de un modo desproporcionado, casi como si fuera a explotar. De repente, desencadena un grito desgarrador e inhumano que aturde temporalmente a cualquiera que lo escuche. Todos los personajes que estén a su alrededor deben superar un control de RF contra 100, o sufrirán un penalizador de -40 a toda acción hasta que finalice el siguiente asalto. Para realizar el Grito del caos, Raptor no puede realizar ningún otro ataque durante ese asalto. Tormenta de Pesadillas: Sin duda, la Tormenta de Pesadillas es el ataque más peligroso de Raptor. Cuando lo usa, desaparece unos instantes de la realidad y tras él deja cuatro calaveras espectrales que salen despedidas en todas direcciones sobre sus adversarios. Esta habilidad le permite atacar una vez con cada una de ellas como si fueran descargas sobrenaturales, decidiendo libremente el blanco de cada cráneo. Dado que desaparece momentáneamente del mundo real durante la ejecución de esta habilidad, no es posible contraatacar directamente el golpe, ni siquiera si el adversario de Raptor se halla en combate cuerpo a cuerpo con él. Por el contrario, al finalizar sus ataques volverá a manifestarse en el mismo punto donde desapareció, y estará tan desconcertado y débil que sufrirá un penalizador de -30 a su defensa hasta que acabe el turno (que se añade a cualquier otro negativo que el ejecutor tuviese a causa de la influencia del Flauros). Seline Luna Al contrario que la mayoría de Señores de las Pesadillas, Seline no es una entidad especialmente malvada. Originalmente se trataba de un espectro de la Vigilia de una joven que falleció en trágicas circunstancias y que, por muy diversas razones, durante sus más de tres siglos de existencia acumuló un descomunal poder. Seline se alimenta principalmente del miedo, ya que rechaza emplear otros sentimientos oscuros como la desesperación o la tristeza, que aumentarían considerablemente sus capacidades. Su personalidad es bastante maliciosa e infantil, pero no por ello deja de ser extremadamente inteligente y reflexiva cuando es necesario. Por lo general planea minuciosamente cada una de sus acciones, manteniendo siempre ocultos sus verdaderos objetivos y escondiendo algún as en la manga. Actualmente se encuentra confinada en la Catedral de Erebus en Corvinus, donde lleva ya más de seis años sin ver a nadie más que a su demoníaco carcelero. Durante todo este tiempo su único deseo ha sido escapar de dicho cautiverio, y está dispuesta a arriesgar mucho para conseguirlo. Al encontrarse con los personajes se sentirá alegre por poder hablar finalmente con alguien, y tratará de aprender todo lo que pueda de ellos. Cuando se dé cuenta de la situación en la que están, les pedirá ayuda para escapar. #### Epílogo _Página 64_ Seline Luna, Señora de las Pesadillas En el caso de que decidan hacerlo sin demasiados inconvenientes y se comporten correctamente con ella, se asegurará de socorrerlos en todo lo que esté al alcance de su mano. En el fondo es una sentimental, y lo más probable es que se encariñe mucho con ellos después de tantos años de soledad. Es incluso posible que, una vez liberada, les vigile de vez en cuando para comprobar que todo les vaya bien en futuras aventuras. Si por alguna causa los PJs atacan aSeline, ésta apenas será capaz de defenderse, ya que sus habilidades actuales son similares a las de una niña normal y corriente. No obstante, es altamente improbable que puedan matarla, ya que aunque su cuerpo fallezca, volverá a recrearse a la noche siguiente a menos que sean capaces de destruir su alma. Si obtuviese todo su poder, sus capacidades serían descomunales, y no existiría ninguna fuerza en Corvinus capaz de detenerla. Apariencia: Actualmente, Seline tiene el aspecto de una pálida niña pequeña que ronda los diez u once años. A pesar de ser tan joven, su belleza natural es sobrecogedora, con ojos color miel y una larga melena negra. Cuando se encuentre con los personajes, llevará un vestido de encaje blanco, similar al que llevaría una chiquilla que hace la primera comunión. Su aspecto real, en el caso de que consigan liberarla, es muy parecido, aunque aparenta unos veinte años y resulta mucho más inquietante. Consejos de interpretación: Ante todo, sé simpática. Hace mucho tiempo que no has podido hablar con nadie y eso es algo que te aburre mortalmente. Haz alguna que otra chiquillada o alguna broma sin malicia. Si hay alguna chica entre los PJs, pégate a ella y llámala “hermana mayor” o, en su defecto, al joven más atractivo del grupo. Muestra cierta melancolía a la hora de hablar de tu encierro y pide, haciendo pucheros, que te ayuden a salir. Si te liberas, sé mucho más seria, pero de vez en cuando haz alguna broma encubierta que permita demostrar que eres la misma niña de antes. “Una sombra en los sueños” ha llegado a su fin, pero sin duda deja muchos cabos sueltos para continuar la partida hasta convertirla en una campaña a gran escala. De hecho, hay muchos lazos argumentales que los personajes pueden seguir, como cuál ha sido el destino de La Dama y de todos los supervivientes. Quizás, en el caso de que descubrieran las anotaciones del camarote de Sadler, tendrían una idea aproximada de dónde iba a ser el punto de entrega. De hecho, [puede que] aquel operario que se encontraron en la sala de máquinas del ala izquierda, Dieter Helsm, en realidad esconda mucho más de lo que aparentaba. Tras la apertura del portal, se hizo con el control del zepelín y se dirigió con los supervivientes a una ubicación desconocida. Pero… ¿Quién era en realidad? ¿Ycuáles eran sus razones? Está en manos de los personajes descubrirlo. Otra posibilidad es meterles de lleno en asuntos más sobrenaturales, ya que sin duda habrán llamado la atención de Malekith (o de alguna otra criatura poderosa de la Vigilia), y el Príncipe de los Cuervos difícilmente olvida a alguien que se ha entrometido en sus asuntos. Puede que, simplemente, el Uroboros Dankel contenga información de un emplazamiento antiguo en relación con el pasado de alguno de ellos. Sea lo que sea, seguro que lo que les depara el futuro no es nada tranquilizador, porque tal y como les dijo Seline, ellos son “especiales” y tienen el futuro justo delante de sí. Dieter Helsm entró en el amplio salón oscuro y miró a la alta figura que se encontraba al otro lado de la estancia, dándole la espalda. Alos pies de aquel hombre se echada lánguidamente una descomunal pantera negra, que levantó la cabeza para observar con detalle al recién llegado. Su dueño, no obstante, ni siquiera se movió un centímetro. -Bienvenido, número treinta y siete. ¿Qué tal ha ido el viaje?- Como cada vez que escuchaba aquella voz, Dieter se quedó congelado, e inconscientemente comenzó a mirar al suelo. De algún modo, le resultaba imposible mantener fija la mirada ni tan sólo en la espalda del hombre de negro. -Muy bien, señor. Todo ha ocurrido tal como predijo. He dejado el aparato donde usted solicitó, y en mi informe podrá ver que…- No terminó la frase. Antes de que pudiese seguir, su interlocutor hizo unos gestos de desdén con la mano para indicarle que se callara. -No me refería a eso. No tenía dudas de que saldría bien. Lo que te preguntaba es si has disfrutado de tu primer viaje en zepelín.- -Sí, señor. Ha sido… interesante.- Como siempre, Helsm se preguntó qué había en la mente de aquella persona, e inevitablemente empezó a sentirse cada vez más nervioso. Ni el principado de Gabriel ni el Imperio habían comprendido nada, e incluso alguien como el Señor de las Pesadillas Malekith, no había sido más que una marioneta en la consecución de unos objetivos que Dieter no alcanzaba a entrever. -Me alegro mucho.- Prosiguió aquella voz indescifrable. -Ahora, podemos pasar a la segunda fase de los preparativos. Seguro que va ser muy interesante observar lo que va a ocurrir. En ese momento, como si el enorme felino intuyera las intenciones de su amo, se levantó del suelo y empezó a frotarse contra sus piernas mientras él, distraídamente, le amonestaba con un unos golpecitos como si no fuera más que un pequeño gato meloso. Entonces, lentamente, el hombre de negro se dio la vuelta y empezó a caminar hacia la salida de la habitación. Dieter permaneció en la misma posición, con la cabeza agachada. Pero mientras la figura pasaba a su lado, no pudo evitar mirarle a los ojos un momento. Ysintió frío...</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entre mundos, elemental, 25 Puntos de Vida: 165 Categoría: Sombra Fue: 12 Des: 10 Agi: 12 Con: 10 Pod: 10 Int: 8 Vol: 8 Per: 9 RF 70 RM 70 RP 65 RV 70 RE 70\n\nTurno: 1 35 Natural Habilidad de ataque: 180 Garras, 1 60 Tormenta de Pesadillas (4 ataques) Habilidad de defensa: 180 Esquiva Daño: 80 Garras FIL, 60 Tormenta de pesadillas CAL. ACT: 20 Conjuros de oscuridad, 10 otros.\n\nZeon: 135\n\nProyección Mágica: 20 Nivel de magia: 40 Oscuridad Habilidades esenciales: Características físicas sobrehumanas, Resistencia al cansancio, Don, Inhumanidad, Sentidos agudos (olfato), Tamaño innatural, Ambidiestro, No duerme. Poderes: Arma natural: Garras de pesadilla (Daño incrementado +20, Crítico incrementado +20, Armadura -2, Daña energía), Movimiento libre, Inmunidad tenebrosa, Ojos de pesadilla (visión nocturna completa y ver lo sobrenatural), Grito del Caos, Tormenta de Pesadillas. de movimiento: 12 Cansancio: Habilidades Secundarias: Persuasión 20, Ocultarse 75, Sigilo 85, Advertir 80 (1 10 olfato), Buscar 50 (80 olfato), Rastrear 30, Historia 20, Ocultismo 1 20, Tasación, Valoración mágica 40, Proezas de fuerza 45.\n\nAunque Raptor está dotado de unas capacidades mágicas muy básicas, jamás las aplica en combate, para lo que se basta con su gran habilidad natural y sus poderes innatos. La metodología de combate de Raptor en el enfrentamiento final será muy distinta a la que usa en el zepelín. En La Dama únicamente efectúa unos cuantos ataques aleatorios, con el único objetivo de hacerles un poco de daño pero sin matarles en ningún caso. Por el contrario, en la catedral se comportará de manera maquinal, siguiendo unas extrañas pautas de combate más motivadas por el azar que la lógica. Al iniciar cada turno, lanza un D10 y consulta las siguientes líneas como referencia. De 1 a 4: Raptor atacará al mismo personaje con el que estuviera trabado en el turno anterior, mientras ríe como un poseso. De 5 a 6: Mientras grita algo como “-Me he cansado de ti…-” o “-¡¡Ahora tú!!-”, cambiará el blanco de sus ataques.\n\nDe 7 a 8: Con este resultado, empleará el Grito del Caos sobre todos los presentes. De 9 a 0: Usará la Tormenta de Pesadillas mientras chilla algo como “-¡Sentid verdadero poder!-”. Garras de pesadilla: A pesar de su apariencia simple, las garras de Raptor tienen la capacidad de sajar tanto a nivel físico como espiritual, acrecentando enormemente los efectos que provocan. Por tanto, no sólo producen un daño incrementado, sino que bajan dos puntos la armadura del defensor y aumentan en +20 cualquier tirada para calcular el nivel de crítico. Ojos de pesadilla: Siendo como es una entidad atada al más allá, Raptor no tiene penalizadores por la oscuridad natural. También tiene la capacidad de ver magia, matrices psíquicas y otras entidades espirituales. Inmunidad tenebrosa: Su esencia de pesadilla le ha permitido obtener cierta inmunidad en su forma física contra daños convencionales.\n\nPor tanto, cualquier ataque que no dañe energía le produce automáticamente la mitad de daño. Grito del caos: Raptor empieza a tomar aire y se hincha de un modo desproporcionado, casi como si fuera a explotar. De repente, desencadena un grito desgarrador e inhumano que aturde temporalmente a cualquiera que lo escuche. Todos los personajes que estén a su alrededor deben superar un control de RF contra 100, o sufrirán un penalizador de -40 a toda acción hasta que finalice el siguiente asalto. Para realizar el Grito del caos, Raptor no puede realizar ningún otro ataque durante ese asalto. Tormenta de Pesadillas: Sin duda, la Tormenta de Pesadillas es el ataque más peligroso de Raptor. Cuando lo usa, desaparece unos instantes de la realidad y tras él deja cuatro calaveras espectrales que salen despedidas en todas direcciones sobre sus adversarios.\n\nEsta habilidad le permite atacar una vez con cada una de ellas como si fueran descargas sobrenaturales, decidiendo libremente el blanco de cada cráneo. Dado que desaparece momentáneamente del mundo real durante la ejecución de esta habilidad, no es posible contraatacar directamente el golpe, ni siquiera si el adversario de Raptor se halla en combate cuerpo a cuerpo con él. Por el contrario, al finalizar sus ataques volverá a manifestarse en el mismo punto donde desapareció, y estará tan desconcertado y débil que sufrirá un penalizador de -30 a su defensa hasta que acabe el turno (que se añade a cualquier otro negativo que el ejecutor tuviese a causa de la influencia del Flauros). Seline Luna Al contrario que la mayoría de Señores de las Pesadillas, Seline no es una entidad especialmente malvada.\n\nOriginalmente se trataba de un espectro de la Vigilia de una joven que falleció en trágicas circunstancias y que, por muy diversas razones, durante sus más de tres siglos de existencia acumuló un descomunal poder. Seline se alimenta principalmente del miedo, ya que rechaza emplear otros sentimientos oscuros como la desesperación o la tristeza, que aumentarían considerablemente sus capacidades. Su personalidad es bastante maliciosa e infantil, pero no por ello deja de ser extremadamente inteligente y reflexiva cuando es necesario. Por lo general planea minuciosamente cada una de sus acciones, manteniendo siempre ocultos sus verdaderos objetivos y escondiendo algún as en la manga. Actualmente se encuentra confinada en la Catedral de Erebus en Corvinus, donde lleva ya más de seis años sin ver a nadie más que a su demoníaco carcelero.\n\nDurante todo este tiempo su único deseo ha sido escapar de dicho cautiverio, y está dispuesta a arriesgar mucho para conseguirlo. Al encontrarse con los personajes se sentirá alegre por poder hablar finalmente con alguien, y tratará de aprender todo lo que pueda de ellos. Cuando se dé cuenta de la situación en la que están, les pedirá ayuda para escapar.\n\n#### Epílogo\n\n&lt;!-- tags: @sistema, @psiquico, @regla --&gt;\n\n_Página 64_\n\nSeline Luna, Señora de las Pesadillas En el caso de que decidan hacerlo sin demasiados inconvenientes y se comporten correctamente con ella, se asegurará de socorrerlos en todo lo que esté al alcance de su mano. En el fondo es una sentimental, y lo más probable es que se encariñe mucho con ellos después de tantos años de soledad. Es incluso posible que, una vez liberada, les vigile de vez en cuando para comprobar que todo les vaya bien en futuras aventuras. Si por alguna causa los PJs atacan aSeline, ésta apenas será capaz de defenderse, ya que sus habilidades actuales son similares a las de una niña normal y corriente. No obstante, es altamente improbable que puedan matarla, ya que aunque su cuerpo fallezca, volverá a recrearse a la noche siguiente a menos que sean capaces de destruir su alma.\n\nSi obtuviese todo su poder, sus capacidades serían descomunales, y no existiría ninguna fuerza en Corvinus capaz de detenerla. Apariencia: Actualmente, Seline tiene el aspecto de una pálida niña pequeña que ronda los diez u once años. A pesar de ser tan joven, su belleza natural es sobrecogedora, con ojos color miel y una larga melena negra. Cuando se encuentre con los personajes, llevará un vestido de encaje blanco, similar al que llevaría una chiquilla que hace la primera comunión. Su aspecto real, en el caso de que consigan liberarla, es muy parecido, aunque aparenta unos veinte años y resulta mucho más inquietante. Consejos de interpretación: Ante todo, sé simpática. Hace mucho tiempo que no has podido hablar con nadie y eso es algo que te aburre mortalmente. Haz alguna que otra chiquillada o alguna broma sin malicia.\n\nSi hay alguna chica entre los PJs, pégate a ella y llámala “hermana mayor” o, en su defecto, al joven más atractivo del grupo. Muestra cierta melancolía a la hora de hablar de tu encierro y pide, haciendo pucheros, que te ayuden a salir. Si te liberas, sé mucho más seria, pero de vez en cuando haz alguna broma encubierta que permita demostrar que eres la misma niña de antes. “Una sombra en los sueños” ha llegado a su fin, pero sin duda deja muchos cabos sueltos para continuar la partida hasta convertirla en una campaña a gran escala. De hecho, hay muchos lazos argumentales que los personajes pueden seguir, como cuál ha sido el destino de La Dama y de todos los supervivientes. Quizás, en el caso de que descubrieran las anotaciones del camarote de Sadler, tendrían una idea aproximada de dónde iba a ser el punto de entrega.\n\nDe hecho, [puede que] aquel operario que se encontraron en la sala de máquinas del ala izquierda, Dieter Helsm, en realidad esconda mucho más de lo que aparentaba. Tras la apertura del portal, se hizo con el control del zepelín y se dirigió con los supervivientes a una ubicación desconocida. Pero… ¿Quién era en realidad? ¿Ycuáles eran sus razones? Está en manos de los personajes descubrirlo. Otra posibilidad es meterles de lleno en asuntos más sobrenaturales, ya que sin duda habrán llamado la atención de Malekith (o de alguna otra criatura poderosa de la Vigilia), y el Príncipe de los Cuervos difícilmente olvida a alguien que se ha entrometido en sus asuntos. Puede que, simplemente, el Uroboros Dankel contenga información de un emplazamiento antiguo en relación con el pasado de alguno de ellos.\n\nSea lo que sea, seguro que lo que les depara el futuro no es nada tranquilizador, porque tal y como les dijo Seline, ellos son “especiales” y tienen el futuro justo delante de sí. Dieter Helsm entró en el amplio salón oscuro y miró a la alta figura que se encontraba al otro lado de la estancia, dándole la espalda. Alos pies de aquel hombre se echada lánguidamente una descomunal pantera negra, que levantó la cabeza para observar con detalle al recién llegado. Su dueño, no obstante, ni siquiera se movió un centímetro. -Bienvenido, número treinta y siete. ¿Qué tal ha ido el viaje?- Como cada vez que escuchaba aquella voz, Dieter se quedó congelado, e inconscientemente comenzó a mirar al suelo. De algún modo, le resultaba imposible mantener fija la mirada ni tan sólo en la espalda del hombre de negro. -Muy bien, señor. Todo ha ocurrido tal como predijo.\n\nHe dejado el aparato donde usted solicitó, y en mi informe podrá ver que…- No terminó la frase. Antes de que pudiese seguir, su interlocutor hizo unos gestos de desdén con la mano para indicarle que se callara. -No me refería a eso. No tenía dudas de que saldría bien. Lo que te preguntaba es si has disfrutado de tu primer viaje en zepelín.- -Sí, señor. Ha sido… interesante.- Como siempre, Helsm se preguntó qué había en la mente de aquella persona, e inevitablemente empezó a sentirse cada vez más nervioso. Ni el principado de Gabriel ni el Imperio habían comprendido nada, e incluso alguien como el Señor de las Pesadillas Malekith, no había sido más que una marioneta en la consecución de unos objetivos que Dieter no alcanzaba a entrever. -Me alegro mucho.- Prosiguió aquella voz indescifrable. -Ahora, podemos pasar a la segunda fase de los preparativos.\n\nSeguro que va ser muy interesante observar lo que va a ocurrir. En ese momento, como si el enorme felino intuyera las intenciones de su amo, se levantó del suelo y empezó a frotarse contra sus piernas mientras él, distraídamente, le amonestaba con un unos golpecitos como si no fuera más que un pequeño gato meloso. Entonces, lentamente, el hombre de negro se dio la vuelta y empezó a caminar hacia la salida de la habitación. Dieter permaneció en la misma posición, con la cabeza agachada. Pero mientras la figura pasaba a su lado, no pudo evitar mirarle a los ojos un momento. Ysintió frío...</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 63</p><p><strong>Entrada:</strong> Raptor el Ejecutor Oscuro</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, elemental, 25</p><p><strong>Categoría:</strong> Sombra Fue: 12 Des: 10 Agi: 12 Con: 10 Pod: 10 Int: 8 Vol: 8 Per: 9 RF 70 RM 70 RP 65 RV 70 RE 70</p><p><strong>Habilidades esenciales:</strong> Características físicas sobrehumanas, Resistencia al cansancio, Don, Inhumanidad, Sentidos agudos (olfato), Tamaño innatural, Ambidiestro, No duerme.</p><p><strong>Poderes:</strong> Arma natural: Garras de pesadilla (Daño incrementado +20, Crítico incrementado +20, Armadura -2, Daña energía), Movimiento libre, Inmunidad tenebrosa, Ojos de pesadilla (visión nocturna completa y ver lo sobrenatural), Grito del Caos, Tormenta de Pesadillas.</p><p><strong>Daño:</strong> 80 Garras FIL, 60 Tormenta de pesadillas CAL.</p><p><strong>Habilidades secundarias:</strong> Persuasión 20, Ocultarse 75, Sigilo 85, Advertir 80 (110 olfato), Buscar 50 (80 olfato), Rastrear 30, Historia 20, Ocultismo 120, Tasación, Valoración mágica 40, Proezas de fuerza 45</p><p><strong>Descripción breve:</strong> Aunque Raptor está dotado de unas capacidades mágicas muy básicas, jamás las aplica en combate, para lo que se basta con su gran habilidad natural y sus poderes innatos. La metodología de combate de Raptor en el enfrentamiento final será muy distinta a la que usa en el zepelín. En La Dama únicamente efectúa unos cuantos ataques aleatorios, con el único objetivo de hacerles un poco de daño pero sin matarles en ningún caso. Por el contrario, en la catedral se comportará de manera maquinal, siguiendo unas extrañas pautas de combate más motivadas por el azar que la lógica. Al iniciar cada turno, lanza un D10 y consulta las siguientes líneas como referencia. De 1 a 4: Raptor atacará al mismo personaje con el que estuviera trabado en el turno anterior, mientras ríe como un poseso. De 5 a 6: Mientras grita algo como “-Me he cansado de ti…-” o “-¡¡Ahora tú!!-”, cambiará el blanco de sus ataques. De 7 a 8: Con este resultado, empleará el Grito del Caos sobre todos los presentes. De 9 a 0: Usará la Tormenta de Pesadillas mientras chilla algo como “-¡Sentid verdadero poder!-”. Garras de pesadilla: A pesar de su apariencia simple, las garras de Raptor tienen la capacidad de sajar tanto a nivel físico como espiritual, acrecentando enormemente los efectos que provocan. Por tanto, no sólo producen un daño incrementado, sino que bajan dos puntos la armadura del defensor y aumentan en +20 cualquier tirada para calcular el nivel de crítico. Ojos de pesadilla: Siendo como es una entidad atada al más allá, Raptor no tiene penalizadores por la oscuridad natural. También tiene la capacidad de ver magia, matrices psíquicas y otras entidades espirituales. Inmunidad tenebrosa: Su esencia de pesadilla le ha permitido obtener cierta inmunidad en su forma física contra daños convencionales. Por tanto, cualquier ataque que no dañe energía le produce automáticamente la mitad de daño. Grito del caos: Raptor empieza a tomar aire y se hincha de un modo desproporcionado, casi como si fuera a explotar. De repente, desencadena un grito desgarrador e inhumano que aturde temporalmente a cualquiera que lo escuche. Todos los personajes que estén a su alrededor deben superar un control de RF contra 100, o sufrirán un penalizador de -40 a toda acción hasta que finalice el siguiente asalto. Para realizar el Grito del caos, Raptor no puede realizar ningún otro ataque durante ese asalto. Tormenta de Pesadillas: Sin duda, la Tormenta de Pesadillas es el ataque más peligroso de Raptor. Cuando lo usa, desaparece unos instantes de la realidad y tras él deja cuatro calaveras espectrales que salen despedidas en todas direcciones sobre sus adversarios. Esta habilidad le permite atacar una vez con cada una de ellas como si fueran descargas sobrenaturales, decidiendo libremente el blanco de cada cráneo. Dado que desaparece momentáneamente del mundo real durante la ejecución de esta habilidad, no es posible contraatacar directamente el golpe, ni siquiera si el adversario de Raptor se halla en combate cuerpo a cuerpo con él. Por el contrario, al finalizar sus ataques volverá a manifestarse en el mismo punto donde desapareció, y estará tan desconcertado y débil que sufrirá un penalizador de -30 a su defensa hasta que acabe el turno (que se añade a cualquier otro negativo que el ejecutor tuviese a causa de la influencia del Flauros). Seline Luna Al contrario que la mayoría de Señores de las Pesadillas, Seline no es una entidad especialmente malvada. Originalmente se trataba de un espectro de la Vigilia de una joven que falleció en trágicas circunstancias y que, por muy diversas razones, durante sus más de tres siglos de existencia acumuló un descomunal poder. Seline se alimenta principalmente del miedo, ya que rechaza emplear otros sentimientos oscuros como la desesperación o la tristeza, que aumentarían considerablemente sus capacidades. Su personalidad es bastante maliciosa e infantil, pero no por ello deja de ser extremadamente inteligente y reflexiva cuando es necesario. Por lo general planea minuciosamente cada una de sus acciones, manteniendo siempre ocultos sus verdaderos objetivos y escondiendo algún as en la manga. Actualmente se encuentra confinada en la Catedral de Erebus en Corvinus, donde lleva ya más de seis años sin ver a nadie más que a su demoníaco carcelero. Durante todo este tiempo su único deseo ha sido escapar de dicho cautiverio, y está dispuesta a arriesgar mucho para conseguirlo. Al encontrarse con los personajes se sentirá alegre por poder hablar finalmente con alguien, y tratará de aprender todo lo que pueda de ellos. Cuando se dé cuenta de la situación en la que están, les pedirá ayuda para escapar. #### Epílogo _Página 64_ Seline Luna, Señora de las Pesadillas En el caso de que decidan hacerlo sin demasiados inconvenientes y se comporten correctamente con ella, se asegurará de socorrerlos en todo lo que esté al alcance de su mano. En el fondo es una sentimental, y lo más probable es que se encariñe mucho con ellos después de tantos años de soledad. Es incluso posible que, una vez liberada, les vigile de vez en cuando para comprobar que todo les vaya bien en futuras aventuras. Si por alguna causa los PJs atacan aSeline, ésta apenas será capaz de defenderse, ya que sus habilidades actuales son similares a las de una niña normal y corriente. No obstante, es altamente improbable que puedan matarla, ya que aunque su cuerpo fallezca, volverá a recrearse a la noche siguiente a menos que sean capaces de destruir su alma. Si obtuviese todo su poder, sus capacidades serían descomunales, y no existiría ninguna fuerza en Corvinus capaz de detenerla. Apariencia: Actualmente, Seline tiene el aspecto de una pálida niña pequeña que ronda los diez u once años. A pesar de ser tan joven, su belleza natural es sobrecogedora, con ojos color miel y una larga melena negra. Cuando se encuentre con los personajes, llevará un vestido de encaje blanco, similar al que llevaría una chiquilla que hace la primera comunión. Su aspecto real, en el caso de que consigan liberarla, es muy parecido, aunque aparenta unos veinte años y resulta mucho más inquietante. Consejos de interpretación: Ante todo, sé simpática. Hace mucho tiempo que no has podido hablar con nadie y eso es algo que te aburre mortalmente. Haz alguna que otra chiquillada o alguna broma sin malicia. Si hay alguna chica entre los PJs, pégate a ella y llámala “hermana mayor” o, en su defecto, al joven más atractivo del grupo. Muestra cierta melancolía a la hora de hablar de tu encierro y pide, haciendo pucheros, que te ayuden a salir. Si te liberas, sé mucho más seria, pero de vez en cuando haz alguna broma encubierta que permita demostrar que eres la misma niña de antes. “Una sombra en los sueños” ha llegado a su fin, pero sin duda deja muchos cabos sueltos para continuar la partida hasta convertirla en una campaña a gran escala. De hecho, hay muchos lazos argumentales que los personajes pueden seguir, como cuál ha sido el destino de La Dama y de todos los supervivientes. Quizás, en el caso de que descubrieran las anotaciones del camarote de Sadler, tendrían una idea aproximada de dónde iba a ser el punto de entrega. De hecho, [puede que] aquel operario que se encontraron en la sala de máquinas del ala izquierda, Dieter Helsm, en realidad esconda mucho más de lo que aparentaba. Tras la apertura del portal, se hizo con el control del zepelín y se dirigió con los supervivientes a una ubicación desconocida. Pero… ¿Quién era en realidad? ¿Ycuáles eran sus razones? Está en manos de los personajes descubrirlo. Otra posibilidad es meterles de lleno en asuntos más sobrenaturales, ya que sin duda habrán llamado la atención de Malekith (o de alguna otra criatura poderosa de la Vigilia), y el Príncipe de los Cuervos difícilmente olvida a alguien que se ha entrometido en sus asuntos. Puede que, simplemente, el Uroboros Dankel contenga información de un emplazamiento antiguo en relación con el pasado de alguno de ellos. Sea lo que sea, seguro que lo que les depara el futuro no es nada tranquilizador, porque tal y como les dijo Seline, ellos son “especiales” y tienen el futuro justo delante de sí. Dieter Helsm entró en el amplio salón oscuro y miró a la alta figura que se encontraba al otro lado de la estancia, dándole la espalda. Alos pies de aquel hombre se echada lánguidamente una descomunal pantera negra, que levantó la cabeza para observar con detalle al recién llegado. Su dueño, no obstante, ni siquiera se movió un centímetro. -Bienvenido, número treinta y siete. ¿Qué tal ha ido el viaje?- Como cada vez que escuchaba aquella voz, Dieter se quedó congelado, e inconscientemente comenzó a mirar al suelo. De algún modo, le resultaba imposible mantener fija la mirada ni tan sólo en la espalda del hombre de negro. -Muy bien, señor. Todo ha ocurrido tal como predijo. He dejado el aparato donde usted solicitó, y en mi informe podrá ver que…- No terminó la frase. Antes de que pudiese seguir, su interlocutor hizo unos gestos de desdén con la mano para indicarle que se callara. -No me refería a eso. No tenía dudas de que saldría bien. Lo que te preguntaba es si has disfrutado de tu primer viaje en zepelín.- -Sí, señor. Ha sido… interesante.- Como siempre, Helsm se preguntó qué había en la mente de aquella persona, e inevitablemente empezó a sentirse cada vez más nervioso. Ni el principado de Gabriel ni el Imperio habían comprendido nada, e incluso alguien como el Señor de las Pesadillas Malekith, no había sido más que una marioneta en la consecución de unos objetivos que Dieter no alcanzaba a entrever. -Me alegro mucho.- Prosiguió aquella voz indescifrable. -Ahora, podemos pasar a la segunda fase de los preparativos. Seguro que va ser muy interesante observar lo que va a ocurrir. En ese momento, como si el enorme felino intuyera las intenciones de su amo, se levantó del suelo y empezó a frotarse contra sus piernas mientras él, distraídamente, le amonestaba con un unos golpecitos como si no fuera más que un pequeño gato meloso. Entonces, lentamente, el hombre de negro se dio la vuelta y empezó a caminar hacia la salida de la habitación. Dieter permaneció en la misma posición, con la cabeza agachada. Pero mientras la figura pasaba a su lado, no pudo evitar mirarle a los ojos un momento. Ysintió frío...</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entre mundos, elemental, 25 Puntos de Vida: 165 Categoría: Sombra Fue: 12 Des: 10 Agi: 12 Con: 10 Pod: 10 Int: 8 Vol: 8 Per: 9 RF 70 RM 70 RP 65 RV 70 RE 70\n\nTurno: 1 35 Natural Habilidad de ataque: 180 Garras, 1 60 Tormenta de Pesadillas (4 ataques) Habilidad de defensa: 180 Esquiva Daño: 80 Garras FIL, 60 Tormenta de pesadillas CAL. ACT: 20 Conjuros de oscuridad, 10 otros.\n\nZeon: 135\n\nProyección Mágica: 20 Nivel de magia: 40 Oscuridad Habilidades esenciales: Características físicas sobrehumanas, Resistencia al cansancio, Don, Inhumanidad, Sentidos agudos (olfato), Tamaño innatural, Ambidiestro, No duerme. Poderes: Arma natural: Garras de pesadilla (Daño incrementado +20, Crítico incrementado +20, Armadura -2, Daña energía), Movimiento libre, Inmunidad tenebrosa, Ojos de pesadilla (visión nocturna completa y ver lo sobrenatural), Grito del Caos, Tormenta de Pesadillas. de movimiento: 12 Cansancio: Habilidades Secundarias: Persuasión 20, Ocultarse 75, Sigilo 85, Advertir 80 (1 10 olfato), Buscar 50 (80 olfato), Rastrear 30, Historia 20, Ocultismo 1 20, Tasación, Valoración mágica 40, Proezas de fuerza 45.\n\nAunque Raptor está dotado de unas capacidades mágicas muy básicas, jamás las aplica en combate, para lo que se basta con su gran habilidad natural y sus poderes innatos. La metodología de combate de Raptor en el enfrentamiento final será muy distinta a la que usa en el zepelín. En La Dama únicamente efectúa unos cuantos ataques aleatorios, con el único objetivo de hacerles un poco de daño pero sin matarles en ningún caso. Por el contrario, en la catedral se comportará de manera maquinal, siguiendo unas extrañas pautas de combate más motivadas por el azar que la lógica. Al iniciar cada turno, lanza un D10 y consulta las siguientes líneas como referencia. De 1 a 4: Raptor atacará al mismo personaje con el que estuviera trabado en el turno anterior, mientras ríe como un poseso. De 5 a 6: Mientras grita algo como “-Me he cansado de ti…-” o “-¡¡Ahora tú!!-”, cambiará el blanco de sus ataques.\n\nDe 7 a 8: Con este resultado, empleará el Grito del Caos sobre todos los presentes. De 9 a 0: Usará la Tormenta de Pesadillas mientras chilla algo como “-¡Sentid verdadero poder!-”. Garras de pesadilla: A pesar de su apariencia simple, las garras de Raptor tienen la capacidad de sajar tanto a nivel físico como espiritual, acrecentando enormemente los efectos que provocan. Por tanto, no sólo producen un daño incrementado, sino que bajan dos puntos la armadura del defensor y aumentan en +20 cualquier tirada para calcular el nivel de crítico. Ojos de pesadilla: Siendo como es una entidad atada al más allá, Raptor no tiene penalizadores por la oscuridad natural. También tiene la capacidad de ver magia, matrices psíquicas y otras entidades espirituales. Inmunidad tenebrosa: Su esencia de pesadilla le ha permitido obtener cierta inmunidad en su forma física contra daños convencionales.\n\nPor tanto, cualquier ataque que no dañe energía le produce automáticamente la mitad de daño. Grito del caos: Raptor empieza a tomar aire y se hincha de un modo desproporcionado, casi como si fuera a explotar. De repente, desencadena un grito desgarrador e inhumano que aturde temporalmente a cualquiera que lo escuche. Todos los personajes que estén a su alrededor deben superar un control de RF contra 100, o sufrirán un penalizador de -40 a toda acción hasta que finalice el siguiente asalto. Para realizar el Grito del caos, Raptor no puede realizar ningún otro ataque durante ese asalto. Tormenta de Pesadillas: Sin duda, la Tormenta de Pesadillas es el ataque más peligroso de Raptor. Cuando lo usa, desaparece unos instantes de la realidad y tras él deja cuatro calaveras espectrales que salen despedidas en todas direcciones sobre sus adversarios.\n\nEsta habilidad le permite atacar una vez con cada una de ellas como si fueran descargas sobrenaturales, decidiendo libremente el blanco de cada cráneo. Dado que desaparece momentáneamente del mundo real durante la ejecución de esta habilidad, no es posible contraatacar directamente el golpe, ni siquiera si el adversario de Raptor se halla en combate cuerpo a cuerpo con él. Por el contrario, al finalizar sus ataques volverá a manifestarse en el mismo punto donde desapareció, y estará tan desconcertado y débil que sufrirá un penalizador de -30 a su defensa hasta que acabe el turno (que se añade a cualquier otro negativo que el ejecutor tuviese a causa de la influencia del Flauros). Seline Luna Al contrario que la mayoría de Señores de las Pesadillas, Seline no es una entidad especialmente malvada.\n\nOriginalmente se trataba de un espectro de la Vigilia de una joven que falleció en trágicas circunstancias y que, por muy diversas razones, durante sus más de tres siglos de existencia acumuló un descomunal poder. Seline se alimenta principalmente del miedo, ya que rechaza emplear otros sentimientos oscuros como la desesperación o la tristeza, que aumentarían considerablemente sus capacidades. Su personalidad es bastante maliciosa e infantil, pero no por ello deja de ser extremadamente inteligente y reflexiva cuando es necesario. Por lo general planea minuciosamente cada una de sus acciones, manteniendo siempre ocultos sus verdaderos objetivos y escondiendo algún as en la manga. Actualmente se encuentra confinada en la Catedral de Erebus en Corvinus, donde lleva ya más de seis años sin ver a nadie más que a su demoníaco carcelero.\n\nDurante todo este tiempo su único deseo ha sido escapar de dicho cautiverio, y está dispuesta a arriesgar mucho para conseguirlo. Al encontrarse con los personajes se sentirá alegre por poder hablar finalmente con alguien, y tratará de aprender todo lo que pueda de ellos. Cuando se dé cuenta de la situación en la que están, les pedirá ayuda para escapar.\n\n#### Epílogo\n\n&lt;!-- tags: @sistema, @psiquico, @regla --&gt;\n\n_Página 64_\n\nSeline Luna, Señora de las Pesadillas En el caso de que decidan hacerlo sin demasiados inconvenientes y se comporten correctamente con ella, se asegurará de socorrerlos en todo lo que esté al alcance de su mano. En el fondo es una sentimental, y lo más probable es que se encariñe mucho con ellos después de tantos años de soledad. Es incluso posible que, una vez liberada, les vigile de vez en cuando para comprobar que todo les vaya bien en futuras aventuras. Si por alguna causa los PJs atacan aSeline, ésta apenas será capaz de defenderse, ya que sus habilidades actuales son similares a las de una niña normal y corriente. No obstante, es altamente improbable que puedan matarla, ya que aunque su cuerpo fallezca, volverá a recrearse a la noche siguiente a menos que sean capaces de destruir su alma.\n\nSi obtuviese todo su poder, sus capacidades serían descomunales, y no existiría ninguna fuerza en Corvinus capaz de detenerla. Apariencia: Actualmente, Seline tiene el aspecto de una pálida niña pequeña que ronda los diez u once años. A pesar de ser tan joven, su belleza natural es sobrecogedora, con ojos color miel y una larga melena negra. Cuando se encuentre con los personajes, llevará un vestido de encaje blanco, similar al que llevaría una chiquilla que hace la primera comunión. Su aspecto real, en el caso de que consigan liberarla, es muy parecido, aunque aparenta unos veinte años y resulta mucho más inquietante. Consejos de interpretación: Ante todo, sé simpática. Hace mucho tiempo que no has podido hablar con nadie y eso es algo que te aburre mortalmente. Haz alguna que otra chiquillada o alguna broma sin malicia.\n\nSi hay alguna chica entre los PJs, pégate a ella y llámala “hermana mayor” o, en su defecto, al joven más atractivo del grupo. Muestra cierta melancolía a la hora de hablar de tu encierro y pide, haciendo pucheros, que te ayuden a salir. Si te liberas, sé mucho más seria, pero de vez en cuando haz alguna broma encubierta que permita demostrar que eres la misma niña de antes. “Una sombra en los sueños” ha llegado a su fin, pero sin duda deja muchos cabos sueltos para continuar la partida hasta convertirla en una campaña a gran escala. De hecho, hay muchos lazos argumentales que los personajes pueden seguir, como cuál ha sido el destino de La Dama y de todos los supervivientes. Quizás, en el caso de que descubrieran las anotaciones del camarote de Sadler, tendrían una idea aproximada de dónde iba a ser el punto de entrega.\n\nDe hecho, [puede que] aquel operario que se encontraron en la sala de máquinas del ala izquierda, Dieter Helsm, en realidad esconda mucho más de lo que aparentaba. Tras la apertura del portal, se hizo con el control del zepelín y se dirigió con los supervivientes a una ubicación desconocida. Pero… ¿Quién era en realidad? ¿Ycuáles eran sus razones? Está en manos de los personajes descubrirlo. Otra posibilidad es meterles de lleno en asuntos más sobrenaturales, ya que sin duda habrán llamado la atención de Malekith (o de alguna otra criatura poderosa de la Vigilia), y el Príncipe de los Cuervos difícilmente olvida a alguien que se ha entrometido en sus asuntos. Puede que, simplemente, el Uroboros Dankel contenga información de un emplazamiento antiguo en relación con el pasado de alguno de ellos.\n\nSea lo que sea, seguro que lo que les depara el futuro no es nada tranquilizador, porque tal y como les dijo Seline, ellos son “especiales” y tienen el futuro justo delante de sí. Dieter Helsm entró en el amplio salón oscuro y miró a la alta figura que se encontraba al otro lado de la estancia, dándole la espalda. Alos pies de aquel hombre se echada lánguidamente una descomunal pantera negra, que levantó la cabeza para observar con detalle al recién llegado. Su dueño, no obstante, ni siquiera se movió un centímetro. -Bienvenido, número treinta y siete. ¿Qué tal ha ido el viaje?- Como cada vez que escuchaba aquella voz, Dieter se quedó congelado, e inconscientemente comenzó a mirar al suelo. De algún modo, le resultaba imposible mantener fija la mirada ni tan sólo en la espalda del hombre de negro. -Muy bien, señor. Todo ha ocurrido tal como predijo.\n\nHe dejado el aparato donde usted solicitó, y en mi informe podrá ver que…- No terminó la frase. Antes de que pudiese seguir, su interlocutor hizo unos gestos de desdén con la mano para indicarle que se callara. -No me refería a eso. No tenía dudas de que saldría bien. Lo que te preguntaba es si has disfrutado de tu primer viaje en zepelín.- -Sí, señor. Ha sido… interesante.- Como siempre, Helsm se preguntó qué había en la mente de aquella persona, e inevitablemente empezó a sentirse cada vez más nervioso. Ni el principado de Gabriel ni el Imperio habían comprendido nada, e incluso alguien como el Señor de las Pesadillas Malekith, no había sido más que una marioneta en la consecución de unos objetivos que Dieter no alcanzaba a entrever. -Me alegro mucho.- Prosiguió aquella voz indescifrable. -Ahora, podemos pasar a la segunda fase de los preparativos.\n\nSeguro que va ser muy interesante observar lo que va a ocurrir. En ese momento, como si el enorme felino intuyera las intenciones de su amo, se levantó del suelo y empezó a frotarse contra sus piernas mientras él, distraídamente, le amonestaba con un unos golpecitos como si no fuera más que un pequeño gato meloso. Entonces, lentamente, el hombre de negro se dio la vuelta y empezó a caminar hacia la salida de la habitación. Dieter permaneció en la misma posición, con la cabeza agachada. Pero mientras la figura pasaba a su lado, no pudo evitar mirarle a los ojos un momento. Ysintió frío...</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +254,6 @@
           }
         }
       ],
-      "level": {
-        "value": 6
-      },
       "notes": [
         {
           "_id": "note-raptor-el-ejecutor-oscuro-3",
@@ -345,52 +273,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -401,9 +313,6 @@
         "initiative": {
           "base": {
             "value": 135
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +363,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -465,10 +371,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -476,10 +379,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 70065
+              "value": 70135
             },
             "final": {
               "value": 0
@@ -487,10 +387,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -498,10 +395,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 65
             },
             "final": {
               "value": 0
@@ -513,224 +407,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 75
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 85
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 180
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 180
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -761,11 +886,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -777,16 +898,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 135,
         "max": 135
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -798,14 +924,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -910,15 +1033,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -930,37 +1049,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1083,9 +1222,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

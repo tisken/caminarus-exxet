@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,28 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
-        "perceivePsychic": {
+        "inhuman": {
           "value": true
         },
         "inmaterial": {
           "value": true
         },
-        "inhuman": {
+        "perceiveMystic": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "perceivePsychic": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +309,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +329,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 70
         }
       },
       "aspect": {
@@ -430,7 +363,7 @@
           "value": "Golem Superior de Combate"
         },
         "size": {
-          "value": 24
+          "value": "24"
         }
       },
       "advantages": [],
@@ -448,7 +381,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 326</p><p><strong>Entrada:</strong> Hecatondies</p><p><strong>Variante:</strong> Golem Superior de Combate</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos 25</p><p><strong>Categoría:</strong> Guerrero Fue: 12 Des: 10 Agi: 10 Con: 12 Pod: 10 Int: 8 Vol: 8 Per: 10 RF 90 RM 85 RP 80 RV 90 RE 90</p><p><strong>Habilidades esenciales:</strong> Inhumanidad, Exención física, Ambidiestro, Características físicas inhumanas, Inmunidad psicológica, Inmunidad elemental, Necesidad extrema, Vulnerabilidad.</p><p><strong>Poderes:</strong> Arma natural: Garras de dragón, Cola prensil (Ataque adicional, Presa 14), Daña energía, Cúpula destructora (Conjuro innato Condicionado), Vuelo místico 12, Armadura física 6 y mística 3, Barrera de daño 100, Ver lo sobrenatural, Regeneración.</p><p><strong>Daño:</strong> 80 Garras de dragón FIL</p><p><strong>TA:</strong> Caparazón de metal Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3 es 10 Agi 10 Con 14 Pod 10 Vol 8 Acumulación de</p><p><strong>Habilidades secundarias:</strong> Acrobacias 60, Liderazgo 60, Advertir 80, Buscar 70, Rastrear 50, Ocultarse 60, Sigilo 60, Proezas de fuerza 105, Ciencia 150, Memorizar 130, Estilo 60, Detección del Ki 150</p><p><strong>Descripción breve:</strong> Hace milenios, durante los años de esplendor del imperio de Sólomon, Andromalius y el Senado aplicaron sus conocimientos tecnomágicos para desarrollar un ejército de golems de combate que emplear en las guerras. Aunque sus creaciones serían numerosas, las más sorprendentes de sus producciones en serie fueron los Hecatondies, la culminación de todas sus investigaciones bélicas. Se fabricaron muy pocos, ya que los requerimientos necesarios para su elaboración eran exagerados, incluso para una potencia como Sólomon. Un Hecatondies es un golem de titanio y reluciente acero blanco, de dos metros y medio de estatura. Visualmente, parece un estilizado y atlético hombre-dragón cubierto de extraños ornamentos decorativos. Tiene garras en lugar de pies y manos, y una serpenteante cola en la espalda. Normalmente no necesita andar, ya que flota a escasos centímetros del suelo con gran elegancia. A pesar de ser creaciones artificiales, están prácticamente vivos, y son capaces de pensar y actuar independientemente. Aunque originariamente no tenían sentimientos, tras miles de años han desarrollado algunas emociones humanas y muy distintas personalidades. Tras la destrucción de Sólomon, un considerable número de Hecatondies sobrevivieron en la confusión y se desperdigaron por el mundo. Su supervivencia no les resulta nada fácil, ya que todas sus habilidades y poderes dependen de un generador situado en su pecho, que los nutre de energía mágica. Para seguir en funcionamiento requieren recargarlo continuamente, por lo que buscan diversos objetos sobrenaturales que introducir en su interior como batería. Dependiendo del poder de cada artefacto, el golem puede mantenerse activo desde unos meros meses hasta siglos enteros. Su mayor debilidad es la existencia de un código verbal de control, que permite a quien lo conozca convertirse en su dueño. Cada uno tiene una clave distinta, y naturalmente guardan el secreto con diligencia. m odus operandi Aunque cada Hecatondies tiene unas motivaciones distintas, todos comparten en común su instinto de supervivencia y metodología militar. Puesto que es muy difícil para ellos recuperarse del daño, tienden a evitar los combates inútiles que puedan suponer una amenaza, por pequeña que sea. Aun así, cuando luchan, su poder bélico es simplemente inconmensurable. Trabados en combate, siempre realizan dos ataques por asalto: uno con sus garras y otro con su cola prensil. Emplean tácticas complejas, usando todo tipo de maniobras que puedan serles útiles, como ataques adicionales o en área. Si todo se pone en su contra, se apartan volando para lanzar descargas de energía a distancia. También son capaces de desarrollar habilidades de Ki y, en muchos casos, pueden incluso utilizar una o dos Técnicas de combate. Hecatondies</p></section><details><summary>Texto extraído</summary><pre>Nivel: 9\n\nClase: Entr e mundos 25 Puntos de Vida: 295 Categoría: Guerrero Fue: 12 Des: 10 Agi: 10 Con: 12 Pod: 10 Int: 8 Vol: 8 Per: 10 RF 90 RM 85 RP 80 RV 90 RE 90\n\nTurno: 105 Natural Habilidad de ataque: 230 Garras de dragón + 2 10 Presa con la cola; o 230 Cúpula destructora Habilidad de defensa: 220 Garras de dragón Daño: 80 Garras de dragón FIL TA: Caparazón de metal Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3 es 10 Agi 10 Con 1 4 Pod 10 Vol 8 Acumulación de Habilidades esenciales: Inhumanidad, Exención física, Ambidiestro, Características físicas inhumanas, Inmunidad psicológica, Inmunidad elemental, Necesidad extrema, Vulnerabilidad. Poderes: Arma natural: Garras de dragón, Cola prensil (Ataque adicional, Presa 1 4), Daña energía, Cúpula destructora (Conjuro innato Condicionado), Vuelo místico 12, Armadura física 6 y mística 3, Barrera de daño 100, Ver lo sobrenatural, Regeneración.\n\nTamaño: 24 Grande Regeneración: 0 Tipo de mo vimiento: 8 Cansancio: Incansable Habilidades Secundarias: Acrobacias 60, Liderazgo 60, Advertir 80, Buscar 70, Rastrear 50, Ocultarse 60, Sigilo 60, Proezas de fuerza 105, Ciencia 1 50, Memorizar 130, Estilo 60, Detección del Ki 1 50. Hace milenios, durante los años de esplendor del imperio de Sólomon, Andromalius y el Senado aplicaron sus conocimientos tecnomágicos para desarrollar un ejército de golems de combate que emplear en las guerras. Aunque sus creaciones serían numerosas, las más sorprendentes de sus producciones en serie fueron los Hecatondies, la culminación de todas sus investigaciones bélicas. Se fabricaron muy pocos, ya que los requerimientos necesarios para su elaboración eran exagerados, incluso para una potencia como Sólomon. Un Hecatondies es un golem de titanio y reluciente acero blanco, de dos metros y medio de estatura.\n\nVisualmente, parece un estilizado y atlético hombre-dragón cubierto de extraños ornamentos decorativos. Tiene garras en lugar de pies y manos, y una serpenteante cola en la espalda. Normalmente no necesita andar, ya que flota a escasos centímetros del suelo con gran elegancia. A pesar de ser creaciones artificiales, están prácticamente vivos, y son capaces de pensar y actuar independientemente. Aunque originariamente no tenían sentimientos, tras miles de años han desarrollado algunas emociones humanas y muy distintas personalidades. Tras la destrucción de Sólomon, un considerable número de Hecatondies sobrevivieron en la confusión y se desperdigaron por el mundo. Su supervivencia no les resulta nada fácil, ya que todas sus habilidades y poderes dependen de un generador situado en su pecho, que los nutre de energía mágica.\n\nPara seguir en funcionamiento requieren recargarlo continuamente, por lo que buscan diversos objetos sobrenaturales que introducir en su interior como batería. Dependiendo del poder de cada artefacto, el golem puede mantenerse activo desde unos meros meses hasta siglos enteros. Su mayor debilidad es la existencia de un código verbal de control, que permite a quien lo conozca convertirse en su dueño. Cada uno tiene una clave distinta, y naturalmente guardan el secreto con diligencia. m odus operandi Aunque cada Hecatondies tiene unas motivaciones distintas, todos comparten en común su instinto de supervivencia y metodología militar. Puesto que es muy difícil para ellos recuperarse del daño, tienden a evitar los combates inútiles que puedan suponer una amenaza, por pequeña que sea. Aun así, cuando luchan, su poder bélico es simplemente inconmensurable.\n\nTrabados en combate, siempre realizan dos ataques por asalto: uno con sus garras y otro con su cola prensil. Emplean tácticas complejas, usando todo tipo de maniobras que puedan serles útiles, como ataques adicionales o en área. Si todo se pone en su contra, se apartan volando para lanzar descargas de energía a distancia. También son capaces de desarrollar habilidades de Ki y, en muchos casos, pueden incluso utilizar una o dos Técnicas de combate. Hecatondies</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 326</p><p><strong>Entrada:</strong> Hecatondies</p><p><strong>Variante:</strong> Golem Superior de Combate</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos 25</p><p><strong>Categoría:</strong> Guerrero Fue: 12 Des: 10 Agi: 10 Con: 12 Pod: 10 Int: 8 Vol: 8 Per: 10 RF 90 RM 85 RP 80 RV 90 RE 90</p><p><strong>Habilidades esenciales:</strong> Inhumanidad, Exención física, Ambidiestro, Características físicas inhumanas, Inmunidad psicológica, Inmunidad elemental, Necesidad extrema, Vulnerabilidad.</p><p><strong>Poderes:</strong> Arma natural: Garras de dragón, Cola prensil (Ataque adicional, Presa 14), Daña energía, Cúpula destructora (Conjuro innato Condicionado), Vuelo místico 12, Armadura física 6 y mística 3, Barrera de daño 100, Ver lo sobrenatural, Regeneración.</p><p><strong>Daño:</strong> 80 Garras de dragón FIL</p><p><strong>TA:</strong> Caparazón de metal Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3 es 10 Agi 10 Con 14 Pod 10 Vol 8 Acumulación de</p><p><strong>Habilidades secundarias:</strong> Acrobacias 60, Liderazgo 60, Advertir 80, Buscar 70, Rastrear 50, Ocultarse 60, Sigilo 60, Proezas de fuerza 105, Ciencia 150, Memorizar 130, Estilo 60, Detección del Ki 150</p><p><strong>Descripción breve:</strong> Hace milenios, durante los años de esplendor del imperio de Sólomon, Andromalius y el Senado aplicaron sus conocimientos tecnomágicos para desarrollar un ejército de golems de combate que emplear en las guerras. Aunque sus creaciones serían numerosas, las más sorprendentes de sus producciones en serie fueron los Hecatondies, la culminación de todas sus investigaciones bélicas. Se fabricaron muy pocos, ya que los requerimientos necesarios para su elaboración eran exagerados, incluso para una potencia como Sólomon. Un Hecatondies es un golem de titanio y reluciente acero blanco, de dos metros y medio de estatura. Visualmente, parece un estilizado y atlético hombre-dragón cubierto de extraños ornamentos decorativos. Tiene garras en lugar de pies y manos, y una serpenteante cola en la espalda. Normalmente no necesita andar, ya que flota a escasos centímetros del suelo con gran elegancia. A pesar de ser creaciones artificiales, están prácticamente vivos, y son capaces de pensar y actuar independientemente. Aunque originariamente no tenían sentimientos, tras miles de años han desarrollado algunas emociones humanas y muy distintas personalidades. Tras la destrucción de Sólomon, un considerable número de Hecatondies sobrevivieron en la confusión y se desperdigaron por el mundo. Su supervivencia no les resulta nada fácil, ya que todas sus habilidades y poderes dependen de un generador situado en su pecho, que los nutre de energía mágica. Para seguir en funcionamiento requieren recargarlo continuamente, por lo que buscan diversos objetos sobrenaturales que introducir en su interior como batería. Dependiendo del poder de cada artefacto, el golem puede mantenerse activo desde unos meros meses hasta siglos enteros. Su mayor debilidad es la existencia de un código verbal de control, que permite a quien lo conozca convertirse en su dueño. Cada uno tiene una clave distinta, y naturalmente guardan el secreto con diligencia. m odus operandi Aunque cada Hecatondies tiene unas motivaciones distintas, todos comparten en común su instinto de supervivencia y metodología militar. Puesto que es muy difícil para ellos recuperarse del daño, tienden a evitar los combates inútiles que puedan suponer una amenaza, por pequeña que sea. Aun así, cuando luchan, su poder bélico es simplemente inconmensurable. Trabados en combate, siempre realizan dos ataques por asalto: uno con sus garras y otro con su cola prensil. Emplean tácticas complejas, usando todo tipo de maniobras que puedan serles útiles, como ataques adicionales o en área. Si todo se pone en su contra, se apartan volando para lanzar descargas de energía a distancia. También son capaces de desarrollar habilidades de Ki y, en muchos casos, pueden incluso utilizar una o dos Técnicas de combate. Hecatondies</p></section><details><summary>Texto extraído</summary><pre>Nivel: 9\n\nClase: Entr e mundos 25 Puntos de Vida: 295 Categoría: Guerrero Fue: 12 Des: 10 Agi: 10 Con: 12 Pod: 10 Int: 8 Vol: 8 Per: 10 RF 90 RM 85 RP 80 RV 90 RE 90\n\nTurno: 105 Natural Habilidad de ataque: 230 Garras de dragón + 2 10 Presa con la cola; o 230 Cúpula destructora Habilidad de defensa: 220 Garras de dragón Daño: 80 Garras de dragón FIL TA: Caparazón de metal Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3 es 10 Agi 10 Con 1 4 Pod 10 Vol 8 Acumulación de Habilidades esenciales: Inhumanidad, Exención física, Ambidiestro, Características físicas inhumanas, Inmunidad psicológica, Inmunidad elemental, Necesidad extrema, Vulnerabilidad. Poderes: Arma natural: Garras de dragón, Cola prensil (Ataque adicional, Presa 1 4), Daña energía, Cúpula destructora (Conjuro innato Condicionado), Vuelo místico 12, Armadura física 6 y mística 3, Barrera de daño 100, Ver lo sobrenatural, Regeneración.\n\nTamaño: 24 Grande Regeneración: 0 Tipo de mo vimiento: 8 Cansancio: Incansable Habilidades Secundarias: Acrobacias 60, Liderazgo 60, Advertir 80, Buscar 70, Rastrear 50, Ocultarse 60, Sigilo 60, Proezas de fuerza 105, Ciencia 1 50, Memorizar 130, Estilo 60, Detección del Ki 1 50. Hace milenios, durante los años de esplendor del imperio de Sólomon, Andromalius y el Senado aplicaron sus conocimientos tecnomágicos para desarrollar un ejército de golems de combate que emplear en las guerras. Aunque sus creaciones serían numerosas, las más sorprendentes de sus producciones en serie fueron los Hecatondies, la culminación de todas sus investigaciones bélicas. Se fabricaron muy pocos, ya que los requerimientos necesarios para su elaboración eran exagerados, incluso para una potencia como Sólomon. Un Hecatondies es un golem de titanio y reluciente acero blanco, de dos metros y medio de estatura.\n\nVisualmente, parece un estilizado y atlético hombre-dragón cubierto de extraños ornamentos decorativos. Tiene garras en lugar de pies y manos, y una serpenteante cola en la espalda. Normalmente no necesita andar, ya que flota a escasos centímetros del suelo con gran elegancia. A pesar de ser creaciones artificiales, están prácticamente vivos, y son capaces de pensar y actuar independientemente. Aunque originariamente no tenían sentimientos, tras miles de años han desarrollado algunas emociones humanas y muy distintas personalidades. Tras la destrucción de Sólomon, un considerable número de Hecatondies sobrevivieron en la confusión y se desperdigaron por el mundo. Su supervivencia no les resulta nada fácil, ya que todas sus habilidades y poderes dependen de un generador situado en su pecho, que los nutre de energía mágica.\n\nPara seguir en funcionamiento requieren recargarlo continuamente, por lo que buscan diversos objetos sobrenaturales que introducir en su interior como batería. Dependiendo del poder de cada artefacto, el golem puede mantenerse activo desde unos meros meses hasta siglos enteros. Su mayor debilidad es la existencia de un código verbal de control, que permite a quien lo conozca convertirse en su dueño. Cada uno tiene una clave distinta, y naturalmente guardan el secreto con diligencia. m odus operandi Aunque cada Hecatondies tiene unas motivaciones distintas, todos comparten en común su instinto de supervivencia y metodología militar. Puesto que es muy difícil para ellos recuperarse del daño, tienden a evitar los combates inútiles que puedan suponer una amenaza, por pequeña que sea. Aun así, cuando luchan, su poder bélico es simplemente inconmensurable.\n\nTrabados en combate, siempre realizan dos ataques por asalto: uno con sus garras y otro con su cola prensil. Emplean tácticas complejas, usando todo tipo de maniobras que puedan serles útiles, como ataques adicionales o en área. Si todo se pone en su contra, se apartan volando para lanzar descargas de energía a distancia. También son capaces de desarrollar habilidades de Ki y, en muchos casos, pueden incluso utilizar una o dos Técnicas de combate. Hecatondies</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +413,6 @@
           }
         }
       ],
-      "level": {
-        "value": 9
-      },
       "notes": [
         {
           "_id": "note-hecatondies-golem-superior-de-co-3",
@@ -501,52 +432,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -557,9 +472,6 @@
         "initiative": {
           "base": {
             "value": 105
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +522,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 90
             },
             "final": {
               "value": 0
@@ -621,10 +530,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 90
             },
             "final": {
               "value": 0
@@ -632,10 +538,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 90015
+              "value": 90105
             },
             "final": {
               "value": 0
@@ -643,10 +546,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -654,10 +554,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -669,227 +566,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 105
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 70
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 130
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 230
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 220
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -920,11 +1045,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -936,14 +1057,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -957,14 +1083,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1069,15 +1192,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1089,37 +1208,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1242,9 +1381,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +144,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +164,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 35
         }
       },
       "aspect": {
@@ -274,7 +198,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +216,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 103</p><p><strong>Entrada:</strong> Lapsia</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Natural 0</p><p><strong>Categoría:</strong> Asesino Fue: 4 Des: 5 Agi: 8 Con: 4 Pod: 5 Int: 3 Vol: 2 Per: 6 RF 30 RM 35 RP 25 RV 70 RE 30</p><p><strong>Habilidades esenciales:</strong> Señora de las Arañas (Afinidad Arañas), Inhumanidad.</p><p><strong>Poderes:</strong> Arma Natural (Limitada), Salto de Araña, Veneno Sidhe (RV 100, Paralización) Iris Refulgente (Aura 10 Metros, RP 60, Fascinación, Condicionada), Resitencia a los Venenos (Resistencia Física Única RV +40).</p><p><strong>Daño:</strong> 30 Aguijón (Pen)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Saltar 90, Trepar 20, Ocultarse 35, Sigilo 50, Advertir 45, Buscar 35</p><p><strong>Descripción breve:</strong> Las lapsias son una extraña especie arácnida oriunda de los bosques septentrionales del Viejo Continente y de Varja. Los eruditos aún siguen debatiendo de si se trata de insectos, animales, plantas animadas o una extraña mezcla de los tres. No mucho más pequeñas que un mastín, estas criaturas reciben comúnmente el apelativo de “araña flor” por la inusual forma de su abdomen, semejante a un inmenso capullo lleno de estambres luminosos. Actúan frecuentemente solas, aunque a veces forman colmenas o grupos de caza de no más de diez componentes. Depredadores peligrosos, estos seres cazan todo tipo de presas (incluyendo seres humanos) para alimentarse. Su apetito es voraz y requieren consumir grandes cantidades de carne para saciar por completo. Muy numerosas en el pasado, ahora se hayan prácticamente extintas. Durante más de un siglo fueron cazadas para acabar con la amenaza que suponían para los habitantes de pequeñas aldeas y viajeros que se aventuraban demasiado en los bosques. Es bien sabido por ocultistas y aquellos que profesan la religión Lilium que las lapsias tienen un fuerte lazo con la naturaleza y, a menudo, actúan como siervos de seres sobrenaturales con afinidad a las forestas; gracias a su veneno paralizante son los agentes ideales para capturar a algunos enemigos sin causarles serios daños. m oduS oPerandiLas lapsias no poseen realmente grandes capacidades combativas de por sí, ya que carecen de armas naturales y su aguante al daño es considerablemente escaso. Por ello, saben sacar el máximo partido a sus habilidades para capturar a sus presas. Tienen dos posibles metodologías de combate. Habitualmente actúan individualmente o en grupos pequeños de entre dos y cuatro arañas. Si consiguen detectar a sus víctimas sin que estas se percaten de su presencia, saltan sobre ellas a gran distancia para inculcarle su veneno Sidhe e, instantes después, huyen a la espera de que este empiece a tener efecto. En otras ocasiones (sobre todo por la noche), hacen brillar su iris tratando de atraer la atención de sus objetivos y dejarles fascinados. Después, una vez eliminada toda resistencia, simplemente les atacan con su aguijón. Señora de las Arañas: Gracias a su aroma que emite, una lapsia es capaz de influir en todas las arañas menores que se encuentren cerca, mandando sobre ellas como si fuese su reina. No obstante, es incapaz de dar órdenes individualizadas; todos los arácnidos que se encuentren bajo su control actuaran de la misma manera, ya que las lapsias transmiten sus indicaciones por el aire. Salto de Araña: Pese a su innatural fisonomía, una lapsia es extremadamente hábil cuando se trata de saltar. La araña flor puede utilizar sus patas para realizar un salto a larga distancia, abalanzarse sobre un objetivo para clavarle su aguijón (aunque también puede usar este método de desplazamiento para intentar huir si son descubiertas). Cuando realiza este salto se desplaza alrededor de 30 metros horizontalmente. No obstante, esta acción extenúa considerablemente su cuerpo, y pierde un punto de cansancio por cada salto que dé después del primero si no tiene al menos un minuto de reposo.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 2\n\nClase: Natural 0 Puntos de Vida: 65 Categoría: Asesino Fue: 4 Des: 5 Agi: 8 Con: 4 Pod: 5 Int: 3 Vol: 2 Per: 6 RF 30 RM 35 RP 25 RV 70 RE 30\n\nTurno: 85 Natural Habilidad de ataque: 60 Aguijón Habilidad de defensa: 60 Esquiva Daño: 30 Aguijón (Pen) TA: Ninguna Habilidades esenciales: Señora de las Arañas (Afinidad Arañas), Inhumanidad. Poderes: Arma Natural (Limitada), Salto de Araña, Veneno Sidhe (RV 100, Paralización) Iris Refulgente (Aura 10 Metros, RP 60, Fascinación, Condicionada), Resitencia a los Venenos (Resistencia Física Única RV +40). de movimiento: 6 Cansancio: 4 Habilidades Secundarias: Saltar 90, Trepar 20, Ocultarse 35, Sigilo 50, Advertir 45, Buscar 35. Las lapsias son una extraña especie arácnida oriunda de los bosques septentrionales del Viejo Continente y de Varja. Los eruditos aún siguen debatiendo de si se trata de insectos, animales, plantas animadas o una extraña mezcla de los tres.\n\nNo mucho más pequeñas que un mastín, estas criaturas reciben comúnmente el apelativo de “araña flor” por la inusual forma de su abdomen, semejante a un inmenso capullo lleno de estambres luminosos. Actúan frecuentemente solas, aunque a veces forman colmenas o grupos de caza de no más de diez componentes. Depredadores peligrosos, estos seres cazan todo tipo de presas (incluyendo seres humanos) para alimentarse. Su apetito es voraz y requieren consumir grandes cantidades de carne para saciar por completo. Muy numerosas en el pasado, ahora se hayan prácticamente extintas. Durante más de un siglo fueron cazadas para acabar con la amenaza que suponían para los habitantes de pequeñas aldeas y viajeros que se aventuraban demasiado en los bosques.\n\nEs bien sabido por ocultistas y aquellos que profesan la religión Lilium que las lapsias tienen un fuerte lazo con la naturaleza y, a menudo, actúan como siervos de seres sobrenaturales con afinidad a las forestas; gracias a su veneno paralizante son los agentes ideales para capturar a algunos enemigos sin causarles serios daños. m oduS oPerandiLas lapsias no poseen realmente grandes capacidades combativas de por sí, ya que carecen de armas naturales y su aguante al daño es considerablemente escaso. Por ello, saben sacar el máximo partido a sus habilidades para capturar a sus presas. Tienen dos posibles metodologías de combate. Habitualmente actúan individualmente o en grupos pequeños de entre dos y cuatro arañas.\n\nSi consiguen detectar a sus víctimas sin que estas se percaten de su presencia, saltan sobre ellas a gran distancia para inculcarle su veneno Sidhe e, instantes después, huyen a la espera de que este empiece a tener efecto. En otras ocasiones (sobre todo por la noche), hacen brillar su iris tratando de atraer la atención de sus objetivos y dejarles fascinados. Después, una vez eliminada toda resistencia, simplemente les atacan con su aguijón. Señora de las Arañas: Gracias a su aroma que emite, una lapsia es capaz de influir en todas las arañas menores que se encuentren cerca, mandando sobre ellas como si fuese su reina. No obstante, es incapaz de dar órdenes individualizadas; todos los arácnidos que se encuentren bajo su control actuaran de la misma manera, ya que las lapsias transmiten sus indicaciones por el aire.\n\nSalto de Araña: Pese a su innatural fisonomía, una lapsia es extremadamente hábil cuando se trata de saltar. La araña flor puede utilizar sus patas para realizar un salto a larga distancia, abalanzarse sobre un objetivo para clavarle su aguijón (aunque también puede usar este método de desplazamiento para intentar huir si son descubiertas). Cuando realiza este salto se desplaza alrededor de 30 metros horizontalmente. No obstante, esta acción extenúa considerablemente su cuerpo, y pierde un punto de cansancio por cada salto que dé después del primero si no tiene al menos un minuto de reposo. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 103</p><p><strong>Entrada:</strong> Lapsia</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Natural 0</p><p><strong>Categoría:</strong> Asesino Fue: 4 Des: 5 Agi: 8 Con: 4 Pod: 5 Int: 3 Vol: 2 Per: 6 RF 30 RM 35 RP 25 RV 70 RE 30</p><p><strong>Habilidades esenciales:</strong> Señora de las Arañas (Afinidad Arañas), Inhumanidad.</p><p><strong>Poderes:</strong> Arma Natural (Limitada), Salto de Araña, Veneno Sidhe (RV 100, Paralización) Iris Refulgente (Aura 10 Metros, RP 60, Fascinación, Condicionada), Resitencia a los Venenos (Resistencia Física Única RV +40).</p><p><strong>Daño:</strong> 30 Aguijón (Pen)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Saltar 90, Trepar 20, Ocultarse 35, Sigilo 50, Advertir 45, Buscar 35</p><p><strong>Descripción breve:</strong> Las lapsias son una extraña especie arácnida oriunda de los bosques septentrionales del Viejo Continente y de Varja. Los eruditos aún siguen debatiendo de si se trata de insectos, animales, plantas animadas o una extraña mezcla de los tres. No mucho más pequeñas que un mastín, estas criaturas reciben comúnmente el apelativo de “araña flor” por la inusual forma de su abdomen, semejante a un inmenso capullo lleno de estambres luminosos. Actúan frecuentemente solas, aunque a veces forman colmenas o grupos de caza de no más de diez componentes. Depredadores peligrosos, estos seres cazan todo tipo de presas (incluyendo seres humanos) para alimentarse. Su apetito es voraz y requieren consumir grandes cantidades de carne para saciar por completo. Muy numerosas en el pasado, ahora se hayan prácticamente extintas. Durante más de un siglo fueron cazadas para acabar con la amenaza que suponían para los habitantes de pequeñas aldeas y viajeros que se aventuraban demasiado en los bosques. Es bien sabido por ocultistas y aquellos que profesan la religión Lilium que las lapsias tienen un fuerte lazo con la naturaleza y, a menudo, actúan como siervos de seres sobrenaturales con afinidad a las forestas; gracias a su veneno paralizante son los agentes ideales para capturar a algunos enemigos sin causarles serios daños. m oduS oPerandiLas lapsias no poseen realmente grandes capacidades combativas de por sí, ya que carecen de armas naturales y su aguante al daño es considerablemente escaso. Por ello, saben sacar el máximo partido a sus habilidades para capturar a sus presas. Tienen dos posibles metodologías de combate. Habitualmente actúan individualmente o en grupos pequeños de entre dos y cuatro arañas. Si consiguen detectar a sus víctimas sin que estas se percaten de su presencia, saltan sobre ellas a gran distancia para inculcarle su veneno Sidhe e, instantes después, huyen a la espera de que este empiece a tener efecto. En otras ocasiones (sobre todo por la noche), hacen brillar su iris tratando de atraer la atención de sus objetivos y dejarles fascinados. Después, una vez eliminada toda resistencia, simplemente les atacan con su aguijón. Señora de las Arañas: Gracias a su aroma que emite, una lapsia es capaz de influir en todas las arañas menores que se encuentren cerca, mandando sobre ellas como si fuese su reina. No obstante, es incapaz de dar órdenes individualizadas; todos los arácnidos que se encuentren bajo su control actuaran de la misma manera, ya que las lapsias transmiten sus indicaciones por el aire. Salto de Araña: Pese a su innatural fisonomía, una lapsia es extremadamente hábil cuando se trata de saltar. La araña flor puede utilizar sus patas para realizar un salto a larga distancia, abalanzarse sobre un objetivo para clavarle su aguijón (aunque también puede usar este método de desplazamiento para intentar huir si son descubiertas). Cuando realiza este salto se desplaza alrededor de 30 metros horizontalmente. No obstante, esta acción extenúa considerablemente su cuerpo, y pierde un punto de cansancio por cada salto que dé después del primero si no tiene al menos un minuto de reposo.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 2\n\nClase: Natural 0 Puntos de Vida: 65 Categoría: Asesino Fue: 4 Des: 5 Agi: 8 Con: 4 Pod: 5 Int: 3 Vol: 2 Per: 6 RF 30 RM 35 RP 25 RV 70 RE 30\n\nTurno: 85 Natural Habilidad de ataque: 60 Aguijón Habilidad de defensa: 60 Esquiva Daño: 30 Aguijón (Pen) TA: Ninguna Habilidades esenciales: Señora de las Arañas (Afinidad Arañas), Inhumanidad. Poderes: Arma Natural (Limitada), Salto de Araña, Veneno Sidhe (RV 100, Paralización) Iris Refulgente (Aura 10 Metros, RP 60, Fascinación, Condicionada), Resitencia a los Venenos (Resistencia Física Única RV +40). de movimiento: 6 Cansancio: 4 Habilidades Secundarias: Saltar 90, Trepar 20, Ocultarse 35, Sigilo 50, Advertir 45, Buscar 35. Las lapsias son una extraña especie arácnida oriunda de los bosques septentrionales del Viejo Continente y de Varja. Los eruditos aún siguen debatiendo de si se trata de insectos, animales, plantas animadas o una extraña mezcla de los tres.\n\nNo mucho más pequeñas que un mastín, estas criaturas reciben comúnmente el apelativo de “araña flor” por la inusual forma de su abdomen, semejante a un inmenso capullo lleno de estambres luminosos. Actúan frecuentemente solas, aunque a veces forman colmenas o grupos de caza de no más de diez componentes. Depredadores peligrosos, estos seres cazan todo tipo de presas (incluyendo seres humanos) para alimentarse. Su apetito es voraz y requieren consumir grandes cantidades de carne para saciar por completo. Muy numerosas en el pasado, ahora se hayan prácticamente extintas. Durante más de un siglo fueron cazadas para acabar con la amenaza que suponían para los habitantes de pequeñas aldeas y viajeros que se aventuraban demasiado en los bosques.\n\nEs bien sabido por ocultistas y aquellos que profesan la religión Lilium que las lapsias tienen un fuerte lazo con la naturaleza y, a menudo, actúan como siervos de seres sobrenaturales con afinidad a las forestas; gracias a su veneno paralizante son los agentes ideales para capturar a algunos enemigos sin causarles serios daños. m oduS oPerandiLas lapsias no poseen realmente grandes capacidades combativas de por sí, ya que carecen de armas naturales y su aguante al daño es considerablemente escaso. Por ello, saben sacar el máximo partido a sus habilidades para capturar a sus presas. Tienen dos posibles metodologías de combate. Habitualmente actúan individualmente o en grupos pequeños de entre dos y cuatro arañas.\n\nSi consiguen detectar a sus víctimas sin que estas se percaten de su presencia, saltan sobre ellas a gran distancia para inculcarle su veneno Sidhe e, instantes después, huyen a la espera de que este empiece a tener efecto. En otras ocasiones (sobre todo por la noche), hacen brillar su iris tratando de atraer la atención de sus objetivos y dejarles fascinados. Después, una vez eliminada toda resistencia, simplemente les atacan con su aguijón. Señora de las Arañas: Gracias a su aroma que emite, una lapsia es capaz de influir en todas las arañas menores que se encuentren cerca, mandando sobre ellas como si fuese su reina. No obstante, es incapaz de dar órdenes individualizadas; todos los arácnidos que se encuentren bajo su control actuaran de la misma manera, ya que las lapsias transmiten sus indicaciones por el aire.\n\nSalto de Araña: Pese a su innatural fisonomía, una lapsia es extremadamente hábil cuando se trata de saltar. La araña flor puede utilizar sus patas para realizar un salto a larga distancia, abalanzarse sobre un objetivo para clavarle su aguijón (aunque también puede usar este método de desplazamiento para intentar huir si son descubiertas). Cuando realiza este salto se desplaza alrededor de 30 metros horizontalmente. No obstante, esta acción extenúa considerablemente su cuerpo, y pierde un punto de cansancio por cada salto que dé después del primero si no tiene al menos un minuto de reposo. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +248,6 @@
           }
         }
       ],
-      "level": {
-        "value": 2
-      },
       "notes": [
         {
           "_id": "note-lapsia-3",
@@ -345,52 +267,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 2
-          }
+          "value": 2,
+          "mod": -20
         }
       },
       "secondaries": {
@@ -401,9 +307,6 @@
         "initiative": {
           "base": {
             "value": 85
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +357,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 30
             },
             "final": {
               "value": 0
@@ -465,10 +365,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 40
+              "value": 70
             },
             "final": {
               "value": 0
@@ -476,10 +373,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 3055
+              "value": 3085
             },
             "final": {
               "value": 0
@@ -487,10 +381,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -498,10 +389,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10
+              "value": 25
             },
             "final": {
               "value": 0
@@ -513,212 +401,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 90
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 60
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 60
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -749,11 +880,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -765,14 +892,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -786,14 +918,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -898,15 +1027,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -918,37 +1043,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1071,9 +1216,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 45
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": "Del Dolor"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 333</p><p><strong>Entrada:</strong> Señor de las Tinieblas</p><p><strong>Variante:</strong> Del Dolor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos 20</p><p><strong>Categoría:</strong> Maestro en armas Fue: 11 Des: 6 Agi: 6 Con: 9 Pod: 8 Int: 3 Vol: 6 Per: 6 RF 55 RM 55 RP 50 RV 55 RE 55</p><p><strong>Habilidades esenciales:</strong> Inhumanidad, Resistencia al cansancio, Características físicas inhumanas, Sin Inconsciencia.</p><p><strong>Poderes:</strong> Arma natural: Garras y fauces serradas (Crítico incrementado, Daño incrementado +10), Regeneración 12 condicionada, Lazo de sufrimiento (Aura: Dolor condicionado), Visión nocturna completa.</p><p><strong>Daño:</strong> 70 Garras y fauces FIL</p><p><strong>TA:</strong> Natural 3</p><p><strong>Habilidades secundarias:</strong> Advertir 65, Buscar 85, Trepar 65, Esconderse 70, Proezas de fuerza 80</p><p><strong>Descripción breve:</strong> Nadie conoce con exactitud cuál es el origen de semejantes pesadillas, por lo que, a falta de un nombre mejor, no son pocos quienes las han apodado Aberraciones. Estas criaturas son revoltijos de carne sanguinolenta y pus, con enormes fauces y garras afiladas. Su apariencia es muy caótica: a veces se asemejan a inmensas bestias lupinas, de tamaño superior al de un león adulto, y otras son más parecidas a grotescas parodias de musculosos seres humanos. En su conjunto, resultan una visión realmente espantosa. Las Aberraciones no son originarias del mundo real, sino de la Vigilia, donde se encuentran la mayoría de las veces. Desgraciadamente, poseen una enorme facilidad para manifestarse a través de las puertas, siendo atraídas por grandes cantidades de dolor y tormento. Se dice que cuando una persona penetra en la Vigilia por un lugar cargado de sufrimiento, puede dejar tras de sí a muchas de ellas. Tienen una insaciable ansia de carne, y allí donde se manifiestan, siempre dejan a su paso destrucción y muerte. No respetan a ningún ser vivo salvo a sus semejantes. En muchos sentidos, son los engendros del dolor. m odus operandi El único interés que mueve a las Aberraciones es la muerte. Nunca elaboran planes ni parecen necesitarlos. Simplemente, se limitan a cargar contra cualquier ser vivo que encuentren a su paso para destrozarlo a garrazos y mordiscos. Pueden actuar solas o en grupos numerosos, pero ni aun así se comportan organizadamente. En combate son terroríficos adversarios, ya que sus cuerpos, carentes de órganos vitales, pueden recibir enormes cantidades de daño sin sufrir heridas mortales. De todas formas, oculto tras las costillas se encuentra su corazón, un punto vulnerable. Realizar un ataque apuntado a él tiene un penalizador de -60. Garras y fauces serradas: Las armas naturales de la Aberración están preparadas para destrozar a sus adversarios desde dentro con gran facilidad, por lo que aplican un bono de +20 a las tiradas para calcular su Nivel de Crítico. La rotura del ataque es 5. Lazo de sufrimiento: Cuando una Aberración recibe algún tipo de daño en combate, crea al instante un lazo espiritual con la persona que se lo ha producido, devolviéndole de modo incrementado su dolor. Por tanto, aquel que cause la pérdida de puntos de vida a uno de estos engendros debe de superar automáticamente una RM contra 100, o se verá sometido de inmediato al estado de Dolor. Un individuo sólo debe superar una Resistencia por asalto, incluso si ha realizado varios ataques con éxito sobre el ser. Esta habilidad únicamente funciona mientras el sujeto se encuentre a menos de cinco metros de la criatura ya que, más lejos, la resonancia espiritual es tan débil que no produce ningún efecto. Se puede repetir el control cada cinco asaltos.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 4\n\nClase: Entr e mundos 20 Puntos de Vida: 900 Acumulación Categoría: Maestro en armas Fue: 11 Des: 6 Agi: 6 Con: 9 Pod: 8 Int: 3 Vol: 6 Per: 6 RF 55 RM 55 RP 50 RV 55 RE 55\n\nTurno: 70 Natural Habilidad de ataque: 1 40 Garras y fauces Habilidad de defensa: Acumulación Daño: 70 Garras y fauces FIL TA: Natural 3 Habilidades esenciales: Inhumanidad, Resistencia al cansancio, Características físicas inhumanas, Sin Inconsciencia. Poderes: Arma natural: Garras y fauces serradas (Crítico incrementado, Daño incrementado +10), Regeneración 12 condicionada, Lazo de sufrimiento (Aura: Dolor condicionado), Visión nocturna completa. de movimiento: 6 Cansancio: 13 Habilidades Secundarias: Advertir 65, Buscar 85, Trepar 65, Esconderse 70, Proezas de fuerza 80. Nadie conoce con exactitud cuál es el origen de semejantes pesadillas, por lo que, a falta de un nombre mejor, no son pocos quienes las han apodado Aberraciones. Estas criaturas son revoltijos de carne sanguinolenta y pus, con enormes fauces y garras afiladas.\n\nSu apariencia es muy caótica: a veces se asemejan a inmensas bestias lupinas, de tamaño superior al de un león adulto, y otras son más parecidas a grotescas parodias de musculosos seres humanos. En su conjunto, resultan una visión realmente espantosa. Las Aberraciones no son originarias del mundo real, sino de la Vigilia, donde se encuentran la mayoría de las veces. Desgraciadamente, poseen una enorme facilidad para manifestarse a través de las puertas, siendo atraídas por grandes cantidades de dolor y tormento. Se dice que cuando una persona penetra en la Vigilia por un lugar cargado de sufrimiento, puede dejar tras de sí a muchas de ellas. Tienen una insaciable ansia de carne, y allí donde se manifiestan, siempre dejan a su paso destrucción y muerte. No respetan a ningún ser vivo salvo a sus semejantes. En muchos sentidos, son los engendros del dolor.\n\nm odus operandi El único interés que mueve a las Aberraciones es la muerte. Nunca elaboran planes ni parecen necesitarlos. Simplemente, se limitan a cargar contra cualquier ser vivo que encuentren a su paso para destrozarlo a garrazos y mordiscos. Pueden actuar solas o en grupos numerosos, pero ni aun así se comportan organizadamente. En combate son terroríficos adversarios, ya que sus cuerpos, carentes de órganos vitales, pueden recibir enormes cantidades de daño sin sufrir heridas mortales. De todas formas, oculto tras las costillas se encuentra su corazón, un punto vulnerable. Realizar un ataque apuntado a él tiene un penalizador de -60. Garras y fauces serradas: Las armas naturales de la Aberración están preparadas para destrozar a sus adversarios desde dentro con gran facilidad, por lo que aplican un bono de +20 a las tiradas para calcular su Nivel de Crítico.\n\nLa rotura del ataque es 5. Lazo de sufrimiento: Cuando una Aberración recibe algún tipo de daño en combate, crea al instante un lazo espiritual con la persona que se lo ha producido, devolviéndole de modo incrementado su dolor. Por tanto, aquel que cause la pérdida de puntos de vida a uno de estos engendros debe de superar automáticamente una RM contra 100, o se verá sometido de inmediato al estado de Dolor. Un individuo sólo debe superar una Resistencia por asalto, incluso si ha realizado varios ataques con éxito sobre el ser. Esta habilidad únicamente funciona mientras el sujeto se encuentre a menos de cinco metros de la criatura ya que, más lejos, la resonancia espiritual es tan débil que no produce ningún efecto. Se puede repetir el control cada cinco asaltos.\n\nRegeneración: El metabolismo de estas criaturas les permite curarse a una velocidad prodigiosa, por lo que recuperan 20 puntos de vida por minuto. Esta capacidad sólo funciona ante ataques producidos por medios físicos, como aplastamientos o espadazos. Los daños que sufra mediante ataques de carácter elemental (frío, calor, electricidad, luz, oscuridad u otros similares), se regeneran con sólo nivel 3. Visión nocturna completa: La oscuridad natural no afecta la capacidad de visión de las Aberraciones, pero sí la de origen sobrenatural. señordelast In\n\n&lt;!-- tags: @personaje, @magia, @psiquico, @historia, @localizacion, @regla --&gt;\n\n_Página 333_\n\nIeblas e lement al m ay or</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 333</p><p><strong>Entrada:</strong> Señor de las Tinieblas</p><p><strong>Variante:</strong> Del Dolor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos 20</p><p><strong>Categoría:</strong> Maestro en armas Fue: 11 Des: 6 Agi: 6 Con: 9 Pod: 8 Int: 3 Vol: 6 Per: 6 RF 55 RM 55 RP 50 RV 55 RE 55</p><p><strong>Habilidades esenciales:</strong> Inhumanidad, Resistencia al cansancio, Características físicas inhumanas, Sin Inconsciencia.</p><p><strong>Poderes:</strong> Arma natural: Garras y fauces serradas (Crítico incrementado, Daño incrementado +10), Regeneración 12 condicionada, Lazo de sufrimiento (Aura: Dolor condicionado), Visión nocturna completa.</p><p><strong>Daño:</strong> 70 Garras y fauces FIL</p><p><strong>TA:</strong> Natural 3</p><p><strong>Habilidades secundarias:</strong> Advertir 65, Buscar 85, Trepar 65, Esconderse 70, Proezas de fuerza 80</p><p><strong>Descripción breve:</strong> Nadie conoce con exactitud cuál es el origen de semejantes pesadillas, por lo que, a falta de un nombre mejor, no son pocos quienes las han apodado Aberraciones. Estas criaturas son revoltijos de carne sanguinolenta y pus, con enormes fauces y garras afiladas. Su apariencia es muy caótica: a veces se asemejan a inmensas bestias lupinas, de tamaño superior al de un león adulto, y otras son más parecidas a grotescas parodias de musculosos seres humanos. En su conjunto, resultan una visión realmente espantosa. Las Aberraciones no son originarias del mundo real, sino de la Vigilia, donde se encuentran la mayoría de las veces. Desgraciadamente, poseen una enorme facilidad para manifestarse a través de las puertas, siendo atraídas por grandes cantidades de dolor y tormento. Se dice que cuando una persona penetra en la Vigilia por un lugar cargado de sufrimiento, puede dejar tras de sí a muchas de ellas. Tienen una insaciable ansia de carne, y allí donde se manifiestan, siempre dejan a su paso destrucción y muerte. No respetan a ningún ser vivo salvo a sus semejantes. En muchos sentidos, son los engendros del dolor. m odus operandi El único interés que mueve a las Aberraciones es la muerte. Nunca elaboran planes ni parecen necesitarlos. Simplemente, se limitan a cargar contra cualquier ser vivo que encuentren a su paso para destrozarlo a garrazos y mordiscos. Pueden actuar solas o en grupos numerosos, pero ni aun así se comportan organizadamente. En combate son terroríficos adversarios, ya que sus cuerpos, carentes de órganos vitales, pueden recibir enormes cantidades de daño sin sufrir heridas mortales. De todas formas, oculto tras las costillas se encuentra su corazón, un punto vulnerable. Realizar un ataque apuntado a él tiene un penalizador de -60. Garras y fauces serradas: Las armas naturales de la Aberración están preparadas para destrozar a sus adversarios desde dentro con gran facilidad, por lo que aplican un bono de +20 a las tiradas para calcular su Nivel de Crítico. La rotura del ataque es 5. Lazo de sufrimiento: Cuando una Aberración recibe algún tipo de daño en combate, crea al instante un lazo espiritual con la persona que se lo ha producido, devolviéndole de modo incrementado su dolor. Por tanto, aquel que cause la pérdida de puntos de vida a uno de estos engendros debe de superar automáticamente una RM contra 100, o se verá sometido de inmediato al estado de Dolor. Un individuo sólo debe superar una Resistencia por asalto, incluso si ha realizado varios ataques con éxito sobre el ser. Esta habilidad únicamente funciona mientras el sujeto se encuentre a menos de cinco metros de la criatura ya que, más lejos, la resonancia espiritual es tan débil que no produce ningún efecto. Se puede repetir el control cada cinco asaltos.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 4\n\nClase: Entr e mundos 20 Puntos de Vida: 900 Acumulación Categoría: Maestro en armas Fue: 11 Des: 6 Agi: 6 Con: 9 Pod: 8 Int: 3 Vol: 6 Per: 6 RF 55 RM 55 RP 50 RV 55 RE 55\n\nTurno: 70 Natural Habilidad de ataque: 1 40 Garras y fauces Habilidad de defensa: Acumulación Daño: 70 Garras y fauces FIL TA: Natural 3 Habilidades esenciales: Inhumanidad, Resistencia al cansancio, Características físicas inhumanas, Sin Inconsciencia. Poderes: Arma natural: Garras y fauces serradas (Crítico incrementado, Daño incrementado +10), Regeneración 12 condicionada, Lazo de sufrimiento (Aura: Dolor condicionado), Visión nocturna completa. de movimiento: 6 Cansancio: 13 Habilidades Secundarias: Advertir 65, Buscar 85, Trepar 65, Esconderse 70, Proezas de fuerza 80. Nadie conoce con exactitud cuál es el origen de semejantes pesadillas, por lo que, a falta de un nombre mejor, no son pocos quienes las han apodado Aberraciones. Estas criaturas son revoltijos de carne sanguinolenta y pus, con enormes fauces y garras afiladas.\n\nSu apariencia es muy caótica: a veces se asemejan a inmensas bestias lupinas, de tamaño superior al de un león adulto, y otras son más parecidas a grotescas parodias de musculosos seres humanos. En su conjunto, resultan una visión realmente espantosa. Las Aberraciones no son originarias del mundo real, sino de la Vigilia, donde se encuentran la mayoría de las veces. Desgraciadamente, poseen una enorme facilidad para manifestarse a través de las puertas, siendo atraídas por grandes cantidades de dolor y tormento. Se dice que cuando una persona penetra en la Vigilia por un lugar cargado de sufrimiento, puede dejar tras de sí a muchas de ellas. Tienen una insaciable ansia de carne, y allí donde se manifiestan, siempre dejan a su paso destrucción y muerte. No respetan a ningún ser vivo salvo a sus semejantes. En muchos sentidos, son los engendros del dolor.\n\nm odus operandi El único interés que mueve a las Aberraciones es la muerte. Nunca elaboran planes ni parecen necesitarlos. Simplemente, se limitan a cargar contra cualquier ser vivo que encuentren a su paso para destrozarlo a garrazos y mordiscos. Pueden actuar solas o en grupos numerosos, pero ni aun así se comportan organizadamente. En combate son terroríficos adversarios, ya que sus cuerpos, carentes de órganos vitales, pueden recibir enormes cantidades de daño sin sufrir heridas mortales. De todas formas, oculto tras las costillas se encuentra su corazón, un punto vulnerable. Realizar un ataque apuntado a él tiene un penalizador de -60. Garras y fauces serradas: Las armas naturales de la Aberración están preparadas para destrozar a sus adversarios desde dentro con gran facilidad, por lo que aplican un bono de +20 a las tiradas para calcular su Nivel de Crítico.\n\nLa rotura del ataque es 5. Lazo de sufrimiento: Cuando una Aberración recibe algún tipo de daño en combate, crea al instante un lazo espiritual con la persona que se lo ha producido, devolviéndole de modo incrementado su dolor. Por tanto, aquel que cause la pérdida de puntos de vida a uno de estos engendros debe de superar automáticamente una RM contra 100, o se verá sometido de inmediato al estado de Dolor. Un individuo sólo debe superar una Resistencia por asalto, incluso si ha realizado varios ataques con éxito sobre el ser. Esta habilidad únicamente funciona mientras el sujeto se encuentre a menos de cinco metros de la criatura ya que, más lejos, la resonancia espiritual es tan débil que no produce ningún efecto. Se puede repetir el control cada cinco asaltos.\n\nRegeneración: El metabolismo de estas criaturas les permite curarse a una velocidad prodigiosa, por lo que recuperan 20 puntos de vida por minuto. Esta capacidad sólo funciona ante ataques producidos por medios físicos, como aplastamientos o espadazos. Los daños que sufra mediante ataques de carácter elemental (frío, calor, electricidad, luz, oscuridad u otros similares), se regeneran con sólo nivel 3. Visión nocturna completa: La oscuridad natural no afecta la capacidad de visión de las Aberraciones, pero sí la de origen sobrenatural. señordelast In\n\n&lt;!-- tags: @personaje, @magia, @psiquico, @historia, @localizacion, @regla --&gt;\n\n_Página 333_\n\nIeblas e lement al m ay or</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 4
-      },
       "notes": [
         {
           "_id": "note-senor-de-las-tinieblas-del-dolor-3",
@@ -501,52 +423,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -557,9 +463,6 @@
         "initiative": {
           "base": {
             "value": 70
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +513,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 55
             },
             "final": {
               "value": 0
@@ -621,10 +521,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 55
             },
             "final": {
               "value": 0
@@ -632,10 +529,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5515
+              "value": 5570
             },
             "final": {
               "value": 0
@@ -643,10 +537,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 55
             },
             "final": {
               "value": 0
@@ -654,10 +545,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -669,206 +557,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 65
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 65
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 85
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 70
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 140
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -899,11 +1036,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -915,14 +1048,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -936,14 +1074,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1048,15 +1183,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1068,37 +1199,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1221,9 +1372,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

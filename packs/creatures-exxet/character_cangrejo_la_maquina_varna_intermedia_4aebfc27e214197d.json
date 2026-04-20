@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +303,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +323,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 60
         }
       },
       "aspect": {
@@ -430,7 +357,7 @@
           "value": ""
         },
         "size": {
-          "value": 26
+          "value": "26"
         }
       },
       "advantages": [],
@@ -448,7 +375,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 1</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Cangrejo (La Máquina · Varna intermedia)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Maestro en Armas Fue: 13 Des: 10 Agi: 6 Con: 13 Pod: 4 Int: 6 Vol: 10 Per: 6 RF 85 RM 15 RP 75 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Exención Física, Inmunidad Psicológica, Inmune al Dolor, Inhumanidad, Cargas de Energía.</p><p><strong>Poderes:</strong> Armas Naturales; Pinzas (Daña Energía) y Tentáculos (Ataques Múltiples Aleatorios: 1d5, Ataque -20; Presa Especial, Daño reducido), Campo de Fuerza (Escudo Místico: 1500 PVs), Placas de Acero (Armadura Física 6), Descarga de Energía Psíquica (Ataque Especial: Distancia 150 metros, Daño Base 100, 10 Metros de Radio, Especial), Materia Prima, Cuerpo Artificial (Regeneración Cero), Vulnerabilidad a la Magia.</p><p><strong>Daño:</strong> 125 Pinzas (Fil), 80 Tentáculos (Con), 100 Descarga de Energía Psíquica (Con)</p><p><strong>TA:</strong> Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 0</p><p><strong>Habilidades secundarias:</strong> Nadar 80, Advertir 100, Buscar 100, P</p><p><strong>Descripción breve:</strong> Fuerza 120, Ocultarse 40. “Sí, ya sé que no se parecen demasiado a cangrejos, pero tiene su sentido. El primero que se topó con uno y escapó con vida se había escondido en un edificio, y lo único que vio fue una pinza atravesar la pared y partir en dos al capitán de su escuadrón. Al final el edificio acabó por derrumbarse, y por suerte para él no lo encontraron entre los escombros. El estrés postraumático hizo el resto, así que se inventó un aspecto que no era exactamente el que resultaron tener.” Sargento Null Nos Aurion Aunque la visión que todos en Dravenor tienen de La Máquina es la de muerte y destrucción indiscriminada, lo cierto es que no todas sus tropas son creadas únicamente para despedazar carne. Los Cangrejos son la muestra de ello; grandes artefactos que, lejos de tener la función de combatir, son fábricas andantes. En el campo de batalla estos seres vagan recogiendo cadáveres, introduciéndolos en su interior, y usando su maquinaria interna para transformar la materia prima en nuevas tropas de combate. Lo habitual es que sólo creen drones o arañas, pero se sabe que en ocasiones se han visto Cangrejos que únicamente se detenían a recoger ciertos tipos de cuerpos (como los Vetala, presumiblemente para la creación de sabuesos). Otras veces aparecen cuando el combate ya ha terminado, simplemente almacenando cadáveres que trasladan hasta instalaciones más avanzadas. La apariencia de estos seres poco tiene que ver con la del crustáceo que les da nombre, pues lo único que comparten con estos son unas pinzas. En realidad, sus cuerpos son deformes formas geométricas de metal y carne con cabezas aplanadas en su zona superior y una decena de finas patas debajo. En lo que sería su “vientre” también se encuentra la apertura por la que introduce la materia prima, junto a la que hay grandes extremidades (sus características “pinzas”) y otros tentáculos con los que manejan los cadáveres. Un Cangrejo tiene una capacidad de producción realmente rápida; cuando tiene materia prima, cada Araña de Tierra, Dron o Cascarón que requiere sólo alrededor de un minuto. Verlos salir arrastrándose y eclosionar de su interior, llenos de sangre y liquido amniótico, es un espectáculo verdaderamente aterrador. Su número es realmente reducido, de lo que se deduce que su creación es realmente costosa o las materias primas escasas (se crean principalmente usando cadáveres de Jayans y Turaks de gran tamaño, algo no demasiado común en Dravenor). MODUS OPERANDILamentablemente para las gentes de Dravenor, pese a que luchar no es su verdadera finalidad estas máquinas también están preparadas para matar. Aunque los Cangrejos raramente entran en combate, priorizando su función de abastecer de nuevas tropas al ejército, en combate son bastante efectivos. Sus pinzas, si bien no tienen propiamente una finalidad ofensiva, poseen la potencia suficiente para partir a alguien en dos en cuestión de segundos y, como método adicional de ataque, disponen de tentáculos metálicos que pueden ser usados como látigos. Su método de defensa es realmente único; ante la amenaza de un ataque, a su alrededor se activa una barrera psíquica que detiene cualquier golpe dirigido al Cangrejo. Sin este mecanismo de defensa la criatura no dispone de ningún método propio efectivo para protegerse, ya que sus extremidades no le sirven para detener ataques y su resistencia no es demasiado elevada. Por esa razón, si cae la barrera la integridad del Cangrejo se vería gravemente comprometida. Habitualmente, un Cangrejo no buscará combatir, dando prioridad a su labor de abastecer a La Máquina de tropas. T an solo en casos muy concretos o si son atacados, combatirán tratando de acabar rápidamente con su enemigo para poder centrarse de nuevo en su labor principal. En caso de que el enemigo esté cerca y la criatura no pueda retirarse, usará contra él sus pinzas y tentáculos, centrando sus ataques en un mismo rival (incluso si hay varios), para eliminarlos de uno en uno. En caso de que el enemigo le ataque a distancia, o si son Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Ninguno; su existencia no es conocida por la mayoría de personas. Conocimiento Intermedio Desde hace algo menos de dos años un nuevo modelo de Sabueso, mucho más poderoso que el modelo convencional, ha empezado a actuar. Conocimiento Avanzado Poseen una versión mejorada de la mayoría de las habilidades especiales de los Sabuesos. Poseen un nivel de crueldad casi “humano”, y en ocasiones les gusta matar produciendo mucho dolor a sus víctimas y observar las reacciones de los demás. Entienden los idiomas humanos. un grupo numeroso, usará sus cañones de fuego indirecto contra ellos. Por último, y tan solo si se encuentra en grave peligro, empezará a utilizar sus cargas de energía para terminar lo antes posible, y si aun así no es suficiente, tratará de ponerse a salvo usando cualquier método necesario, pues son demasiado valiosos para La Máquina como para perderlos si no es necesario. Pinzas: El principal medio de ataque de los Cangrejos son sus enormes pinzas de metal, que pueden utilizar contra cualquier objetivo que se ponga a su alcance cuerpo a cuerpo. Puesto que están cargadas de energía psíquica, son capaces de dañar energía, pero sólo producen daño 40 contra entidades intangibles. Tentáculos: Los Cangrejos disponen de un considerable número de tentáculos de metal que pueden usar en combate para realizar multitud de ataques, si bien su precisión es inferior a la de las pinzas. A efectos de juego, además de su ataque convencional el Cangrejo puede realizar cada asalto un número aleatorio de 1D5 ataques adicionales con sus tentáculos. Opcionalmente, en lugar de causar daños la criatura también puede usar los tentáculos para realizar un ataque de presa sin penalizador adicional a su habilidad (algo que suele usar con cadáveres o moribundos a los que introduce en su interior). La presa usa el equivalente a un atributo de Fuerza 10, pero el Cangrejo puede elegir no usar ataques adicionales para incrementar este valor a un ritmo de +2 a su Fuerza por cada ataque de tentáculo que invierta con tal fin. Por ejemplo, si gastase tres ataques de tentáculos en realizar una presa (el ataque en si más dos que sacrifica para reforzar), realizaría una única tirada de ataque con Fuerza 14. Mantener presado a alguien le impide usar cada asalto un número de ataques de tentáculos equivalente a los que usó en la presa original. Placas de Acero: El cuerpo de los cangrejos está fabricado con aleaciones metálicas de gran resistencia, lo que le confiere un elevado Tipo de Armadura contra cualquier ataque que no sea de Energía. Cargas de Energía: Pese a que los Cangrejos son criaturas incansables, poseen en su interior un tipo especial de “batería” cristalina que aporta energía psíquica al ser. Esta energía es la que les permite crear miembros de La Máquina, así como activar ciertas habilidades especiales. Cada uno posee como máximo el equivalente a 15 cargas que, una vez gastadas, deben reponerse en las instalaciones de La Máquina. No obstante, los Cangrejos también pueden usar estas cargas en momentos de urgencia para incrementar sus propias capacidades. Al hacerlo cada carga puede usarse para obtener un bono de +20 a una acción física determinada, o un bono de +1 a un atributo físico. Es posible gastar hasta dos cargas de energía por asalto. Es importante puntualizar que esta energía no es la que mantiene en funcionamiento al Cangrejo, que podrá seguir actuando con normalidad (aunque no creando miembros de La Máquina) en el caso de quedarse sin ellos. Campo de Fuerza: El Cangrejo es capaz de desplegar un poderoso campo de fuerza psíquico que le permite defenderse con las reglas de un escudo sobrenatural con una resistencia al daño de 1.500 puntos antes de ser roto. Lamentablemente, por diseño esta es la única forma con la que un Cangrejo puede defenderse eficazmente, y en caso de que este sea destruido, usará una defensa muy reducida. El campo de fuerza tan solo puede repararse o recuperarse del daño recibido en una de las instalaciones centrales de La Máquina, por lo que un Cangrejo siempre tratará de retirarse de los campos de batalla si considera que puede estar en peligro. Fábrica Andante: Por cada cadáver que tome en su interior, puede producir un Cascarón, tres Drones o tres Arañas de Tierra. El proceso es excepcionalmente corto, y tan sólo en un minuto puede tener funcional a una de estas criaturas. Por lo general un Cangrejo recién abastecido cuenta con componentes y larvas como para crear hasta doscientos Cascarones, Drones o Arañas de Tierra en total. Sin embargo, puede reponer estos componentes reciclando a criaturas de La Máquina destruidas. Este proceso consume Cargas de Energía a un ritmo de una por cada 20 criaturas que cree. Descarga de Energía Psíquica: Los Cangrejos pueden acumular y proyectar la energía psíquica de sus baterías para desencadenar descargas contra objetivos a distancia. Para hacerlo, en lugar de atacar ese asalto consumen una de sus Cargas de Energía, lo que les permite realizar un ataque a distancia con un alcance máximo de 150 metros que estalla provocando una explosión de 10 metros en la ubicación alcanzada. El ataque no es un rayo directo, sino que asciende verticalmente para caer sobre la zona seleccionada de un modo muy similar a un mortero. Cualquier objetivo impactado, sufra o no daños, recibe adicionalmente un impacto de Fuerza 12 que lo lanza en dirección opuesta al centro de la explosión. Este ataque reduce su daño base a la mitad (es decir, daño 50) contra criaturas intangibles. La debilidad de este ataque es que, al ser un disparo de fuego indirecto, el Cangrejo no puede usarlo directamente contra su objetivo si se encuentra a cubierto, si bien podría así derribar el techo. Estas descargas son consideradas equivalentes a un Poder Psíquico de Potencial Casi Imposible, por lo que un efecto capaz de anular matrices de ese Potencial sería capaz de impedir que se realizara el disparo. Si en lugar de anular simplemente se reduce el Potencial Psíquico (por ejemplo, mediante Némesis), la descarga pierde 10 puntos de Daño Base y 10 metros de Alcance por cada -10 a su Potencial Psíquico, quedando inutilizable si se reduce el potencial 100 o más puntos. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los cangrejos poseen una absoluta vulnerabilidad a la magia. No solamente tienen una Resistencia Mágica muy baja, sino que cualquier descarga de energía sobrenatural les produce doble daño. Cuerpo Artificial: Los Cangrejos no son capaces de recuperarse del daño por ellos mismos, y deben ser reparados en instalaciones de La Máquina. No obstante, si se encuentran con cuerpos inertes de otros cangrejos, pueden llegar a usar piezas y restos sobrantes de estos para recuperarse parcialmente (entre 50 y 100 Puntos de Vida, dependiendo de los daños de la criatura de la que toma partes). Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Son recolectores de cuerpos que se pasean por los campos de batalla para llevarse a los muertos. Conocimiento Intermedio Les gusta esconderse en el interior de construcciones abandonadas mientras hay gente cerca para no llamar la atención. A veces, salen de montones de escombro lanzando piedras por los aires y levantando una gran polvareda. Sólo se les ve generalmente cuando las batallas han acabado. Conocimiento Avanzado Si se destruye un Cangrejo es posible extraerse de su interior los generadores de energía psíquica que poseen. Aunque hay que tener cuidado con ellos, ya que tocarlos mucho tiempo puede volver locas a las personas, son una fuente de energía especialmente valiosa. Se rumorea que existen modelos especiales de Cangrejo capaces de producir tropas más avanzadas de la Máquina. Uno de los métodos de combate más utilizados por estas criaturas es ocultarse tras alguna colina o en un edificio sin techo. Una vez allí, genera soldados que lanza contra sus enemigos mientras los apoya con el fuego indirecto de sus descargas psíquicas. ColoSAlLa m áquina (v arna m ayor )</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre Mundos Especial Puntos de Vida: 315 Categoría: Maestro en Armas Fue: 13 Des: 10 Agi: 6 Con: 13 Pod: 4 Int: 6 Vol: 10 Per: 6 RF 85 RM 15 RP 75 RV 85 RE 85\n\nTurno: 75 Natural Habilidad de ataque: 200 Pinzas y 180 Tentáculos / 200 Descarga de Energía Psíquica Habilidad de defensa: 200 Campo de Fuerza / 100 Pinzas Daño: 125 Pinzas (Fil), 80 Tentáculos (Con), 100 Descarga de Energía Psíquica (Con) TA: Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 0 Habilidades Esenciales: Características Físicas Sobrehumanas, Exención Física, Inmunidad Psicológica, Inmune al Dolor, Inhumanidad, Cargas de Energía. Poderes: Armas Naturales; Pinzas (Daña Energía) y Tentáculos (Ataques Múltiples Aleatorios: 1d5, Ataque -20; Presa Especial, Daño reducido), Campo de Fuerza (Escudo Místico: 1 500 PVs), Placas de Acero (Armadura Física 6), Descarga de Energía Psíquica (Ataque Especial: Distancia 1 50 metros, Daño Base 100, 10 Metros de Radio, Especial), Materia Prima, Cuerpo Artificial (Regeneración Cero), Vulnerabilidad a la Magia.\n\nTamaño: 26 Medio Regeneración: 0 Tipo de movimiento: 7 Cansancio: Incansable Habilidades Secundarias: Nadar 80, Advertir 100, Buscar 100, P . Fuerza 120, Ocultarse 40. “Sí, ya sé que no se parecen demasiado a cangrejos, pero tiene su sentido. El primero que se topó con uno y escapó con vida se había escondido en un edificio, y lo único que vio fue una pinza atravesar la pared y partir en dos al capitán de su escuadrón. Al final el edificio acabó por derrumbarse, y por suerte para él no lo encontraron entre los escombros. El estrés postraumático hizo el resto, así que se inventó un aspecto que no era exactamente el que resultaron tener.” Sargento Null Nos Aurion Aunque la visión que todos en Dravenor tienen de La Máquina es la de muerte y destrucción indiscriminada, lo cierto es que no todas sus tropas son creadas únicamente para despedazar carne.\n\nLos Cangrejos son la muestra de ello; grandes artefactos que, lejos de tener la función de combatir, son fábricas andantes. En el campo de batalla estos seres vagan recogiendo cadáveres, introduciéndolos en su interior, y usando su maquinaria interna para transformar la materia prima en nuevas tropas de combate. Lo habitual es que sólo creen drones o arañas, pero se sabe que en ocasiones se han visto Cangrejos que únicamente se detenían a recoger ciertos tipos de cuerpos (como los Vetala, presumiblemente para la creación de sabuesos). Otras veces aparecen cuando el combate ya ha terminado, simplemente almacenando cadáveres que trasladan hasta instalaciones más avanzadas. La apariencia de estos seres poco tiene que ver con la del crustáceo que les da nombre, pues lo único que comparten con estos son unas pinzas.\n\nEn realidad, sus cuerpos son deformes formas geométricas de metal y carne con cabezas aplanadas en su zona superior y una decena de finas patas debajo. En lo que sería su “vientre” también se encuentra la apertura por la que introduce la materia prima, junto a la que hay grandes extremidades (sus características “pinzas”) y otros tentáculos con los que manejan los cadáveres. Un Cangrejo tiene una capacidad de producción realmente rápida; cuando tiene materia prima, cada Araña de Tierra, Dron o Cascarón que requiere sólo alrededor de un minuto. Verlos salir arrastrándose y eclosionar de su interior, llenos de sangre y liquido amniótico, es un espectáculo verdaderamente aterrador.\n\nSu número es realmente reducido, de lo que se deduce que su creación es realmente costosa o las materias primas escasas (se crean principalmente usando cadáveres de Jayans y Turaks de gran tamaño, algo no demasiado común en Dravenor). MODUS OPERANDILamentablemente para las gentes de Dravenor, pese a que luchar no es su verdadera finalidad estas máquinas también están preparadas para matar. Aunque los Cangrejos raramente entran en combate, priorizando su función de abastecer de nuevas tropas al ejército, en combate son bastante efectivos. Sus pinzas, si bien no tienen propiamente una finalidad ofensiva, poseen la potencia suficiente para partir a alguien en dos en cuestión de segundos y, como método adicional de ataque, disponen de tentáculos metálicos que pueden ser usados como látigos.\n\nSu método de defensa es realmente único; ante la amenaza de un ataque, a su alrededor se activa una barrera psíquica que detiene cualquier golpe dirigido al Cangrejo. Sin este mecanismo de defensa la criatura no dispone de ningún método propio efectivo para protegerse, ya que sus extremidades no le sirven para detener ataques y su resistencia no es demasiado elevada. Por esa razón, si cae la barrera la integridad del Cangrejo se vería gravemente comprometida. Habitualmente, un Cangrejo no buscará combatir, dando prioridad a su labor de abastecer a La Máquina de tropas. T an solo en casos muy concretos o si son atacados, combatirán tratando de acabar rápidamente con su enemigo para poder centrarse de nuevo en su labor principal.\n\nEn caso de que el enemigo esté cerca y la criatura no pueda retirarse, usará contra él sus pinzas y tentáculos, centrando sus ataques en un mismo rival (incluso si hay varios), para eliminarlos de uno en uno. En caso de que el enemigo le ataque a distancia, o si son Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Ninguno; su existencia no es conocida por la mayoría de personas. Conocimiento Intermedio Desde hace algo menos de dos años un nuevo modelo de Sabueso, mucho más poderoso que el modelo convencional, ha empezado a actuar. Conocimiento Avanzado Poseen una versión mejorada de la mayoría de las habilidades especiales de los Sabuesos. Poseen un nivel de crueldad casi “humano”, y en ocasiones les gusta matar produciendo mucho dolor a sus víctimas y observar las reacciones de los demás. Entienden los idiomas humanos.\n\nun grupo numeroso, usará sus cañones de fuego indirecto contra ellos. Por último, y tan solo si se encuentra en grave peligro, empezará a utilizar sus cargas de energía para terminar lo antes posible, y si aun así no es suficiente, tratará de ponerse a salvo usando cualquier método necesario, pues son demasiado valiosos para La Máquina como para perderlos si no es necesario. Pinzas: El principal medio de ataque de los Cangrejos son sus enormes pinzas de metal, que pueden utilizar contra cualquier objetivo que se ponga a su alcance cuerpo a cuerpo. Puesto que están cargadas de energía psíquica, son capaces de dañar energía, pero sólo producen daño 40 contra entidades intangibles. Tentáculos: Los Cangrejos disponen de un considerable número de tentáculos de metal que pueden usar en combate para realizar multitud de ataques, si bien su precisión es inferior a la de las pinzas.\n\nA efectos de juego, además de su ataque convencional el Cangrejo puede realizar cada asalto un número aleatorio de 1D5 ataques adicionales con sus tentáculos. Opcionalmente, en lugar de causar daños la criatura también puede usar los tentáculos para realizar un ataque de presa sin penalizador adicional a su habilidad (algo que suele usar con cadáveres o moribundos a los que introduce en su interior). La presa usa el equivalente a un atributo de Fuerza 10, pero el Cangrejo puede elegir no usar ataques adicionales para incrementar este valor a un ritmo de +2 a su Fuerza por cada ataque de tentáculo que invierta con tal fin. Por ejemplo, si gastase tres ataques de tentáculos en realizar una presa (el ataque en si más dos que sacrifica para reforzar), realizaría una única tirada de ataque con Fuerza 1 4.\n\nMantener presado a alguien le impide usar cada asalto un número de ataques de tentáculos equivalente a los que usó en la presa original. Placas de Acero: El cuerpo de los cangrejos está fabricado con aleaciones metálicas de gran resistencia, lo que le confiere un elevado Tipo de Armadura contra cualquier ataque que no sea de Energía. Cargas de Energía: Pese a que los Cangrejos son criaturas incansables, poseen en su interior un tipo especial de “batería” cristalina que aporta energía psíquica al ser. Esta energía es la que les permite crear miembros de La Máquina, así como activar ciertas habilidades especiales. Cada uno posee como máximo el equivalente a 1 5 cargas que, una vez gastadas, deben reponerse en las instalaciones de La Máquina. No obstante, los Cangrejos también pueden usar estas cargas en momentos de urgencia para incrementar sus propias capacidades.\n\nAl hacerlo cada carga puede usarse para obtener un bono de +20 a una acción física determinada, o un bono de +1 a un atributo físico. Es posible gastar hasta dos cargas de energía por asalto. Es importante puntualizar que esta energía no es la que mantiene en funcionamiento al Cangrejo, que podrá seguir actuando con normalidad (aunque no creando miembros de La Máquina) en el caso de quedarse sin ellos. Campo de Fuerza: El Cangrejo es capaz de desplegar un poderoso campo de fuerza psíquico que le permite defenderse con las reglas de un escudo sobrenatural con una resistencia al daño de 1.500 puntos antes de ser roto. Lamentablemente, por diseño esta es la única forma con la que un Cangrejo puede defenderse eficazmente, y en caso de que este sea destruido, usará una defensa muy reducida.\n\nEl campo de fuerza tan solo puede repararse o recuperarse del daño recibido en una de las instalaciones centrales de La Máquina, por lo que un Cangrejo siempre tratará de retirarse de los campos de batalla si considera que puede estar en peligro. Fábrica Andante: Por cada cadáver que tome en su interior, puede producir un Cascarón, tres Drones o tres Arañas de Tierra. El proceso es excepcionalmente corto, y tan sólo en un minuto puede tener funcional a una de estas criaturas. Por lo general un Cangrejo recién abastecido cuenta con componentes y larvas como para crear hasta doscientos Cascarones, Drones o Arañas de Tierra en total. Sin embargo, puede reponer estos componentes reciclando a criaturas de La Máquina destruidas. Este proceso consume Cargas de Energía a un ritmo de una por cada 20 criaturas que cree.\n\nDescarga de Energía Psíquica: Los Cangrejos pueden acumular y proyectar la energía psíquica de sus baterías para desencadenar descargas contra objetivos a distancia. Para hacerlo, en lugar de atacar ese asalto consumen una de sus Cargas de Energía, lo que les permite realizar un ataque a distancia con un alcance máximo de 1 50 metros que estalla provocando una explosión de 10 metros en la ubicación alcanzada. El ataque no es un rayo directo, sino que asciende verticalmente para caer sobre la zona seleccionada de un modo muy similar a un mortero. Cualquier objetivo impactado, sufra o no daños, recibe adicionalmente un impacto de Fuerza 12 que lo lanza en dirección opuesta al centro de la explosión. Este ataque reduce su daño base a la mitad (es decir, daño 50) contra criaturas intangibles.\n\nLa debilidad de este ataque es que, al ser un disparo de fuego indirecto, el Cangrejo no puede usarlo directamente contra su objetivo si se encuentra a cubierto, si bien podría así derribar el techo. Estas descargas son consideradas equivalentes a un Poder Psíquico de Potencial Casi Imposible, por lo que un efecto capaz de anular matrices de ese Potencial sería capaz de impedir que se realizara el disparo. Si en lugar de anular simplemente se reduce el Potencial Psíquico (por ejemplo, mediante Némesis), la descarga pierde 10 puntos de Daño Base y 10 metros de Alcance por cada -10 a su Potencial Psíquico, quedando inutilizable si se reduce el potencial 100 o más puntos. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los cangrejos poseen una absoluta vulnerabilidad a la magia.\n\nNo solamente tienen una Resistencia Mágica muy baja, sino que cualquier descarga de energía sobrenatural les produce doble daño. Cuerpo Artificial: Los Cangrejos no son capaces de recuperarse del daño por ellos mismos, y deben ser reparados en instalaciones de La Máquina. No obstante, si se encuentran con cuerpos inertes de otros cangrejos, pueden llegar a usar piezas y restos sobrantes de estos para recuperarse parcialmente (entre 50 y 100 Puntos de Vida, dependiendo de los daños de la criatura de la que toma partes). Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Son recolectores de cuerpos que se pasean por los campos de batalla para llevarse a los muertos. Conocimiento Intermedio Les gusta esconderse en el interior de construcciones abandonadas mientras hay gente cerca para no llamar la atención.\n\nA veces, salen de montones de escombro lanzando piedras por los aires y levantando una gran polvareda. Sólo se les ve generalmente cuando las batallas han acabado. Conocimiento Avanzado Si se destruye un Cangrejo es posible extraerse de su interior los generadores de energía psíquica que poseen. Aunque hay que tener cuidado con ellos, ya que tocarlos mucho tiempo puede volver locas a las personas, son una fuente de energía especialmente valiosa. Se rumorea que existen modelos especiales de Cangrejo capaces de producir tropas más avanzadas de la Máquina. Uno de los métodos de combate más utilizados por estas criaturas es ocultarse tras alguna colina o en un edificio sin techo. Una vez allí, genera soldados que lanza contra sus enemigos mientras los apoya con el fuego indirecto de sus descargas psíquicas. ColoSAlLa m áquina (v arna m ayor )</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 1</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Cangrejo (La Máquina · Varna intermedia)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Maestro en Armas Fue: 13 Des: 10 Agi: 6 Con: 13 Pod: 4 Int: 6 Vol: 10 Per: 6 RF 85 RM 15 RP 75 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Exención Física, Inmunidad Psicológica, Inmune al Dolor, Inhumanidad, Cargas de Energía.</p><p><strong>Poderes:</strong> Armas Naturales; Pinzas (Daña Energía) y Tentáculos (Ataques Múltiples Aleatorios: 1d5, Ataque -20; Presa Especial, Daño reducido), Campo de Fuerza (Escudo Místico: 1500 PVs), Placas de Acero (Armadura Física 6), Descarga de Energía Psíquica (Ataque Especial: Distancia 150 metros, Daño Base 100, 10 Metros de Radio, Especial), Materia Prima, Cuerpo Artificial (Regeneración Cero), Vulnerabilidad a la Magia.</p><p><strong>Daño:</strong> 125 Pinzas (Fil), 80 Tentáculos (Con), 100 Descarga de Energía Psíquica (Con)</p><p><strong>TA:</strong> Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 0</p><p><strong>Habilidades secundarias:</strong> Nadar 80, Advertir 100, Buscar 100, P</p><p><strong>Descripción breve:</strong> Fuerza 120, Ocultarse 40. “Sí, ya sé que no se parecen demasiado a cangrejos, pero tiene su sentido. El primero que se topó con uno y escapó con vida se había escondido en un edificio, y lo único que vio fue una pinza atravesar la pared y partir en dos al capitán de su escuadrón. Al final el edificio acabó por derrumbarse, y por suerte para él no lo encontraron entre los escombros. El estrés postraumático hizo el resto, así que se inventó un aspecto que no era exactamente el que resultaron tener.” Sargento Null Nos Aurion Aunque la visión que todos en Dravenor tienen de La Máquina es la de muerte y destrucción indiscriminada, lo cierto es que no todas sus tropas son creadas únicamente para despedazar carne. Los Cangrejos son la muestra de ello; grandes artefactos que, lejos de tener la función de combatir, son fábricas andantes. En el campo de batalla estos seres vagan recogiendo cadáveres, introduciéndolos en su interior, y usando su maquinaria interna para transformar la materia prima en nuevas tropas de combate. Lo habitual es que sólo creen drones o arañas, pero se sabe que en ocasiones se han visto Cangrejos que únicamente se detenían a recoger ciertos tipos de cuerpos (como los Vetala, presumiblemente para la creación de sabuesos). Otras veces aparecen cuando el combate ya ha terminado, simplemente almacenando cadáveres que trasladan hasta instalaciones más avanzadas. La apariencia de estos seres poco tiene que ver con la del crustáceo que les da nombre, pues lo único que comparten con estos son unas pinzas. En realidad, sus cuerpos son deformes formas geométricas de metal y carne con cabezas aplanadas en su zona superior y una decena de finas patas debajo. En lo que sería su “vientre” también se encuentra la apertura por la que introduce la materia prima, junto a la que hay grandes extremidades (sus características “pinzas”) y otros tentáculos con los que manejan los cadáveres. Un Cangrejo tiene una capacidad de producción realmente rápida; cuando tiene materia prima, cada Araña de Tierra, Dron o Cascarón que requiere sólo alrededor de un minuto. Verlos salir arrastrándose y eclosionar de su interior, llenos de sangre y liquido amniótico, es un espectáculo verdaderamente aterrador. Su número es realmente reducido, de lo que se deduce que su creación es realmente costosa o las materias primas escasas (se crean principalmente usando cadáveres de Jayans y Turaks de gran tamaño, algo no demasiado común en Dravenor). MODUS OPERANDILamentablemente para las gentes de Dravenor, pese a que luchar no es su verdadera finalidad estas máquinas también están preparadas para matar. Aunque los Cangrejos raramente entran en combate, priorizando su función de abastecer de nuevas tropas al ejército, en combate son bastante efectivos. Sus pinzas, si bien no tienen propiamente una finalidad ofensiva, poseen la potencia suficiente para partir a alguien en dos en cuestión de segundos y, como método adicional de ataque, disponen de tentáculos metálicos que pueden ser usados como látigos. Su método de defensa es realmente único; ante la amenaza de un ataque, a su alrededor se activa una barrera psíquica que detiene cualquier golpe dirigido al Cangrejo. Sin este mecanismo de defensa la criatura no dispone de ningún método propio efectivo para protegerse, ya que sus extremidades no le sirven para detener ataques y su resistencia no es demasiado elevada. Por esa razón, si cae la barrera la integridad del Cangrejo se vería gravemente comprometida. Habitualmente, un Cangrejo no buscará combatir, dando prioridad a su labor de abastecer a La Máquina de tropas. T an solo en casos muy concretos o si son atacados, combatirán tratando de acabar rápidamente con su enemigo para poder centrarse de nuevo en su labor principal. En caso de que el enemigo esté cerca y la criatura no pueda retirarse, usará contra él sus pinzas y tentáculos, centrando sus ataques en un mismo rival (incluso si hay varios), para eliminarlos de uno en uno. En caso de que el enemigo le ataque a distancia, o si son Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Ninguno; su existencia no es conocida por la mayoría de personas. Conocimiento Intermedio Desde hace algo menos de dos años un nuevo modelo de Sabueso, mucho más poderoso que el modelo convencional, ha empezado a actuar. Conocimiento Avanzado Poseen una versión mejorada de la mayoría de las habilidades especiales de los Sabuesos. Poseen un nivel de crueldad casi “humano”, y en ocasiones les gusta matar produciendo mucho dolor a sus víctimas y observar las reacciones de los demás. Entienden los idiomas humanos. un grupo numeroso, usará sus cañones de fuego indirecto contra ellos. Por último, y tan solo si se encuentra en grave peligro, empezará a utilizar sus cargas de energía para terminar lo antes posible, y si aun así no es suficiente, tratará de ponerse a salvo usando cualquier método necesario, pues son demasiado valiosos para La Máquina como para perderlos si no es necesario. Pinzas: El principal medio de ataque de los Cangrejos son sus enormes pinzas de metal, que pueden utilizar contra cualquier objetivo que se ponga a su alcance cuerpo a cuerpo. Puesto que están cargadas de energía psíquica, son capaces de dañar energía, pero sólo producen daño 40 contra entidades intangibles. Tentáculos: Los Cangrejos disponen de un considerable número de tentáculos de metal que pueden usar en combate para realizar multitud de ataques, si bien su precisión es inferior a la de las pinzas. A efectos de juego, además de su ataque convencional el Cangrejo puede realizar cada asalto un número aleatorio de 1D5 ataques adicionales con sus tentáculos. Opcionalmente, en lugar de causar daños la criatura también puede usar los tentáculos para realizar un ataque de presa sin penalizador adicional a su habilidad (algo que suele usar con cadáveres o moribundos a los que introduce en su interior). La presa usa el equivalente a un atributo de Fuerza 10, pero el Cangrejo puede elegir no usar ataques adicionales para incrementar este valor a un ritmo de +2 a su Fuerza por cada ataque de tentáculo que invierta con tal fin. Por ejemplo, si gastase tres ataques de tentáculos en realizar una presa (el ataque en si más dos que sacrifica para reforzar), realizaría una única tirada de ataque con Fuerza 14. Mantener presado a alguien le impide usar cada asalto un número de ataques de tentáculos equivalente a los que usó en la presa original. Placas de Acero: El cuerpo de los cangrejos está fabricado con aleaciones metálicas de gran resistencia, lo que le confiere un elevado Tipo de Armadura contra cualquier ataque que no sea de Energía. Cargas de Energía: Pese a que los Cangrejos son criaturas incansables, poseen en su interior un tipo especial de “batería” cristalina que aporta energía psíquica al ser. Esta energía es la que les permite crear miembros de La Máquina, así como activar ciertas habilidades especiales. Cada uno posee como máximo el equivalente a 15 cargas que, una vez gastadas, deben reponerse en las instalaciones de La Máquina. No obstante, los Cangrejos también pueden usar estas cargas en momentos de urgencia para incrementar sus propias capacidades. Al hacerlo cada carga puede usarse para obtener un bono de +20 a una acción física determinada, o un bono de +1 a un atributo físico. Es posible gastar hasta dos cargas de energía por asalto. Es importante puntualizar que esta energía no es la que mantiene en funcionamiento al Cangrejo, que podrá seguir actuando con normalidad (aunque no creando miembros de La Máquina) en el caso de quedarse sin ellos. Campo de Fuerza: El Cangrejo es capaz de desplegar un poderoso campo de fuerza psíquico que le permite defenderse con las reglas de un escudo sobrenatural con una resistencia al daño de 1.500 puntos antes de ser roto. Lamentablemente, por diseño esta es la única forma con la que un Cangrejo puede defenderse eficazmente, y en caso de que este sea destruido, usará una defensa muy reducida. El campo de fuerza tan solo puede repararse o recuperarse del daño recibido en una de las instalaciones centrales de La Máquina, por lo que un Cangrejo siempre tratará de retirarse de los campos de batalla si considera que puede estar en peligro. Fábrica Andante: Por cada cadáver que tome en su interior, puede producir un Cascarón, tres Drones o tres Arañas de Tierra. El proceso es excepcionalmente corto, y tan sólo en un minuto puede tener funcional a una de estas criaturas. Por lo general un Cangrejo recién abastecido cuenta con componentes y larvas como para crear hasta doscientos Cascarones, Drones o Arañas de Tierra en total. Sin embargo, puede reponer estos componentes reciclando a criaturas de La Máquina destruidas. Este proceso consume Cargas de Energía a un ritmo de una por cada 20 criaturas que cree. Descarga de Energía Psíquica: Los Cangrejos pueden acumular y proyectar la energía psíquica de sus baterías para desencadenar descargas contra objetivos a distancia. Para hacerlo, en lugar de atacar ese asalto consumen una de sus Cargas de Energía, lo que les permite realizar un ataque a distancia con un alcance máximo de 150 metros que estalla provocando una explosión de 10 metros en la ubicación alcanzada. El ataque no es un rayo directo, sino que asciende verticalmente para caer sobre la zona seleccionada de un modo muy similar a un mortero. Cualquier objetivo impactado, sufra o no daños, recibe adicionalmente un impacto de Fuerza 12 que lo lanza en dirección opuesta al centro de la explosión. Este ataque reduce su daño base a la mitad (es decir, daño 50) contra criaturas intangibles. La debilidad de este ataque es que, al ser un disparo de fuego indirecto, el Cangrejo no puede usarlo directamente contra su objetivo si se encuentra a cubierto, si bien podría así derribar el techo. Estas descargas son consideradas equivalentes a un Poder Psíquico de Potencial Casi Imposible, por lo que un efecto capaz de anular matrices de ese Potencial sería capaz de impedir que se realizara el disparo. Si en lugar de anular simplemente se reduce el Potencial Psíquico (por ejemplo, mediante Némesis), la descarga pierde 10 puntos de Daño Base y 10 metros de Alcance por cada -10 a su Potencial Psíquico, quedando inutilizable si se reduce el potencial 100 o más puntos. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los cangrejos poseen una absoluta vulnerabilidad a la magia. No solamente tienen una Resistencia Mágica muy baja, sino que cualquier descarga de energía sobrenatural les produce doble daño. Cuerpo Artificial: Los Cangrejos no son capaces de recuperarse del daño por ellos mismos, y deben ser reparados en instalaciones de La Máquina. No obstante, si se encuentran con cuerpos inertes de otros cangrejos, pueden llegar a usar piezas y restos sobrantes de estos para recuperarse parcialmente (entre 50 y 100 Puntos de Vida, dependiendo de los daños de la criatura de la que toma partes). Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Son recolectores de cuerpos que se pasean por los campos de batalla para llevarse a los muertos. Conocimiento Intermedio Les gusta esconderse en el interior de construcciones abandonadas mientras hay gente cerca para no llamar la atención. A veces, salen de montones de escombro lanzando piedras por los aires y levantando una gran polvareda. Sólo se les ve generalmente cuando las batallas han acabado. Conocimiento Avanzado Si se destruye un Cangrejo es posible extraerse de su interior los generadores de energía psíquica que poseen. Aunque hay que tener cuidado con ellos, ya que tocarlos mucho tiempo puede volver locas a las personas, son una fuente de energía especialmente valiosa. Se rumorea que existen modelos especiales de Cangrejo capaces de producir tropas más avanzadas de la Máquina. Uno de los métodos de combate más utilizados por estas criaturas es ocultarse tras alguna colina o en un edificio sin techo. Una vez allí, genera soldados que lanza contra sus enemigos mientras los apoya con el fuego indirecto de sus descargas psíquicas. ColoSAlLa m áquina (v arna m ayor )</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre Mundos Especial Puntos de Vida: 315 Categoría: Maestro en Armas Fue: 13 Des: 10 Agi: 6 Con: 13 Pod: 4 Int: 6 Vol: 10 Per: 6 RF 85 RM 15 RP 75 RV 85 RE 85\n\nTurno: 75 Natural Habilidad de ataque: 200 Pinzas y 180 Tentáculos / 200 Descarga de Energía Psíquica Habilidad de defensa: 200 Campo de Fuerza / 100 Pinzas Daño: 125 Pinzas (Fil), 80 Tentáculos (Con), 100 Descarga de Energía Psíquica (Con) TA: Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 6 Ene 0 Habilidades Esenciales: Características Físicas Sobrehumanas, Exención Física, Inmunidad Psicológica, Inmune al Dolor, Inhumanidad, Cargas de Energía. Poderes: Armas Naturales; Pinzas (Daña Energía) y Tentáculos (Ataques Múltiples Aleatorios: 1d5, Ataque -20; Presa Especial, Daño reducido), Campo de Fuerza (Escudo Místico: 1 500 PVs), Placas de Acero (Armadura Física 6), Descarga de Energía Psíquica (Ataque Especial: Distancia 1 50 metros, Daño Base 100, 10 Metros de Radio, Especial), Materia Prima, Cuerpo Artificial (Regeneración Cero), Vulnerabilidad a la Magia.\n\nTamaño: 26 Medio Regeneración: 0 Tipo de movimiento: 7 Cansancio: Incansable Habilidades Secundarias: Nadar 80, Advertir 100, Buscar 100, P . Fuerza 120, Ocultarse 40. “Sí, ya sé que no se parecen demasiado a cangrejos, pero tiene su sentido. El primero que se topó con uno y escapó con vida se había escondido en un edificio, y lo único que vio fue una pinza atravesar la pared y partir en dos al capitán de su escuadrón. Al final el edificio acabó por derrumbarse, y por suerte para él no lo encontraron entre los escombros. El estrés postraumático hizo el resto, así que se inventó un aspecto que no era exactamente el que resultaron tener.” Sargento Null Nos Aurion Aunque la visión que todos en Dravenor tienen de La Máquina es la de muerte y destrucción indiscriminada, lo cierto es que no todas sus tropas son creadas únicamente para despedazar carne.\n\nLos Cangrejos son la muestra de ello; grandes artefactos que, lejos de tener la función de combatir, son fábricas andantes. En el campo de batalla estos seres vagan recogiendo cadáveres, introduciéndolos en su interior, y usando su maquinaria interna para transformar la materia prima en nuevas tropas de combate. Lo habitual es que sólo creen drones o arañas, pero se sabe que en ocasiones se han visto Cangrejos que únicamente se detenían a recoger ciertos tipos de cuerpos (como los Vetala, presumiblemente para la creación de sabuesos). Otras veces aparecen cuando el combate ya ha terminado, simplemente almacenando cadáveres que trasladan hasta instalaciones más avanzadas. La apariencia de estos seres poco tiene que ver con la del crustáceo que les da nombre, pues lo único que comparten con estos son unas pinzas.\n\nEn realidad, sus cuerpos son deformes formas geométricas de metal y carne con cabezas aplanadas en su zona superior y una decena de finas patas debajo. En lo que sería su “vientre” también se encuentra la apertura por la que introduce la materia prima, junto a la que hay grandes extremidades (sus características “pinzas”) y otros tentáculos con los que manejan los cadáveres. Un Cangrejo tiene una capacidad de producción realmente rápida; cuando tiene materia prima, cada Araña de Tierra, Dron o Cascarón que requiere sólo alrededor de un minuto. Verlos salir arrastrándose y eclosionar de su interior, llenos de sangre y liquido amniótico, es un espectáculo verdaderamente aterrador.\n\nSu número es realmente reducido, de lo que se deduce que su creación es realmente costosa o las materias primas escasas (se crean principalmente usando cadáveres de Jayans y Turaks de gran tamaño, algo no demasiado común en Dravenor). MODUS OPERANDILamentablemente para las gentes de Dravenor, pese a que luchar no es su verdadera finalidad estas máquinas también están preparadas para matar. Aunque los Cangrejos raramente entran en combate, priorizando su función de abastecer de nuevas tropas al ejército, en combate son bastante efectivos. Sus pinzas, si bien no tienen propiamente una finalidad ofensiva, poseen la potencia suficiente para partir a alguien en dos en cuestión de segundos y, como método adicional de ataque, disponen de tentáculos metálicos que pueden ser usados como látigos.\n\nSu método de defensa es realmente único; ante la amenaza de un ataque, a su alrededor se activa una barrera psíquica que detiene cualquier golpe dirigido al Cangrejo. Sin este mecanismo de defensa la criatura no dispone de ningún método propio efectivo para protegerse, ya que sus extremidades no le sirven para detener ataques y su resistencia no es demasiado elevada. Por esa razón, si cae la barrera la integridad del Cangrejo se vería gravemente comprometida. Habitualmente, un Cangrejo no buscará combatir, dando prioridad a su labor de abastecer a La Máquina de tropas. T an solo en casos muy concretos o si son atacados, combatirán tratando de acabar rápidamente con su enemigo para poder centrarse de nuevo en su labor principal.\n\nEn caso de que el enemigo esté cerca y la criatura no pueda retirarse, usará contra él sus pinzas y tentáculos, centrando sus ataques en un mismo rival (incluso si hay varios), para eliminarlos de uno en uno. En caso de que el enemigo le ataque a distancia, o si son Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Ninguno; su existencia no es conocida por la mayoría de personas. Conocimiento Intermedio Desde hace algo menos de dos años un nuevo modelo de Sabueso, mucho más poderoso que el modelo convencional, ha empezado a actuar. Conocimiento Avanzado Poseen una versión mejorada de la mayoría de las habilidades especiales de los Sabuesos. Poseen un nivel de crueldad casi “humano”, y en ocasiones les gusta matar produciendo mucho dolor a sus víctimas y observar las reacciones de los demás. Entienden los idiomas humanos.\n\nun grupo numeroso, usará sus cañones de fuego indirecto contra ellos. Por último, y tan solo si se encuentra en grave peligro, empezará a utilizar sus cargas de energía para terminar lo antes posible, y si aun así no es suficiente, tratará de ponerse a salvo usando cualquier método necesario, pues son demasiado valiosos para La Máquina como para perderlos si no es necesario. Pinzas: El principal medio de ataque de los Cangrejos son sus enormes pinzas de metal, que pueden utilizar contra cualquier objetivo que se ponga a su alcance cuerpo a cuerpo. Puesto que están cargadas de energía psíquica, son capaces de dañar energía, pero sólo producen daño 40 contra entidades intangibles. Tentáculos: Los Cangrejos disponen de un considerable número de tentáculos de metal que pueden usar en combate para realizar multitud de ataques, si bien su precisión es inferior a la de las pinzas.\n\nA efectos de juego, además de su ataque convencional el Cangrejo puede realizar cada asalto un número aleatorio de 1D5 ataques adicionales con sus tentáculos. Opcionalmente, en lugar de causar daños la criatura también puede usar los tentáculos para realizar un ataque de presa sin penalizador adicional a su habilidad (algo que suele usar con cadáveres o moribundos a los que introduce en su interior). La presa usa el equivalente a un atributo de Fuerza 10, pero el Cangrejo puede elegir no usar ataques adicionales para incrementar este valor a un ritmo de +2 a su Fuerza por cada ataque de tentáculo que invierta con tal fin. Por ejemplo, si gastase tres ataques de tentáculos en realizar una presa (el ataque en si más dos que sacrifica para reforzar), realizaría una única tirada de ataque con Fuerza 1 4.\n\nMantener presado a alguien le impide usar cada asalto un número de ataques de tentáculos equivalente a los que usó en la presa original. Placas de Acero: El cuerpo de los cangrejos está fabricado con aleaciones metálicas de gran resistencia, lo que le confiere un elevado Tipo de Armadura contra cualquier ataque que no sea de Energía. Cargas de Energía: Pese a que los Cangrejos son criaturas incansables, poseen en su interior un tipo especial de “batería” cristalina que aporta energía psíquica al ser. Esta energía es la que les permite crear miembros de La Máquina, así como activar ciertas habilidades especiales. Cada uno posee como máximo el equivalente a 1 5 cargas que, una vez gastadas, deben reponerse en las instalaciones de La Máquina. No obstante, los Cangrejos también pueden usar estas cargas en momentos de urgencia para incrementar sus propias capacidades.\n\nAl hacerlo cada carga puede usarse para obtener un bono de +20 a una acción física determinada, o un bono de +1 a un atributo físico. Es posible gastar hasta dos cargas de energía por asalto. Es importante puntualizar que esta energía no es la que mantiene en funcionamiento al Cangrejo, que podrá seguir actuando con normalidad (aunque no creando miembros de La Máquina) en el caso de quedarse sin ellos. Campo de Fuerza: El Cangrejo es capaz de desplegar un poderoso campo de fuerza psíquico que le permite defenderse con las reglas de un escudo sobrenatural con una resistencia al daño de 1.500 puntos antes de ser roto. Lamentablemente, por diseño esta es la única forma con la que un Cangrejo puede defenderse eficazmente, y en caso de que este sea destruido, usará una defensa muy reducida.\n\nEl campo de fuerza tan solo puede repararse o recuperarse del daño recibido en una de las instalaciones centrales de La Máquina, por lo que un Cangrejo siempre tratará de retirarse de los campos de batalla si considera que puede estar en peligro. Fábrica Andante: Por cada cadáver que tome en su interior, puede producir un Cascarón, tres Drones o tres Arañas de Tierra. El proceso es excepcionalmente corto, y tan sólo en un minuto puede tener funcional a una de estas criaturas. Por lo general un Cangrejo recién abastecido cuenta con componentes y larvas como para crear hasta doscientos Cascarones, Drones o Arañas de Tierra en total. Sin embargo, puede reponer estos componentes reciclando a criaturas de La Máquina destruidas. Este proceso consume Cargas de Energía a un ritmo de una por cada 20 criaturas que cree.\n\nDescarga de Energía Psíquica: Los Cangrejos pueden acumular y proyectar la energía psíquica de sus baterías para desencadenar descargas contra objetivos a distancia. Para hacerlo, en lugar de atacar ese asalto consumen una de sus Cargas de Energía, lo que les permite realizar un ataque a distancia con un alcance máximo de 1 50 metros que estalla provocando una explosión de 10 metros en la ubicación alcanzada. El ataque no es un rayo directo, sino que asciende verticalmente para caer sobre la zona seleccionada de un modo muy similar a un mortero. Cualquier objetivo impactado, sufra o no daños, recibe adicionalmente un impacto de Fuerza 12 que lo lanza en dirección opuesta al centro de la explosión. Este ataque reduce su daño base a la mitad (es decir, daño 50) contra criaturas intangibles.\n\nLa debilidad de este ataque es que, al ser un disparo de fuego indirecto, el Cangrejo no puede usarlo directamente contra su objetivo si se encuentra a cubierto, si bien podría así derribar el techo. Estas descargas son consideradas equivalentes a un Poder Psíquico de Potencial Casi Imposible, por lo que un efecto capaz de anular matrices de ese Potencial sería capaz de impedir que se realizara el disparo. Si en lugar de anular simplemente se reduce el Potencial Psíquico (por ejemplo, mediante Némesis), la descarga pierde 10 puntos de Daño Base y 10 metros de Alcance por cada -10 a su Potencial Psíquico, quedando inutilizable si se reduce el potencial 100 o más puntos. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los cangrejos poseen una absoluta vulnerabilidad a la magia.\n\nNo solamente tienen una Resistencia Mágica muy baja, sino que cualquier descarga de energía sobrenatural les produce doble daño. Cuerpo Artificial: Los Cangrejos no son capaces de recuperarse del daño por ellos mismos, y deben ser reparados en instalaciones de La Máquina. No obstante, si se encuentran con cuerpos inertes de otros cangrejos, pueden llegar a usar piezas y restos sobrantes de estos para recuperarse parcialmente (entre 50 y 100 Puntos de Vida, dependiendo de los daños de la criatura de la que toma partes). Cono Ci Mi Entosd Edrav Enor Conocimiento Genérico Son recolectores de cuerpos que se pasean por los campos de batalla para llevarse a los muertos. Conocimiento Intermedio Les gusta esconderse en el interior de construcciones abandonadas mientras hay gente cerca para no llamar la atención.\n\nA veces, salen de montones de escombro lanzando piedras por los aires y levantando una gran polvareda. Sólo se les ve generalmente cuando las batallas han acabado. Conocimiento Avanzado Si se destruye un Cangrejo es posible extraerse de su interior los generadores de energía psíquica que poseen. Aunque hay que tener cuidado con ellos, ya que tocarlos mucho tiempo puede volver locas a las personas, son una fuente de energía especialmente valiosa. Se rumorea que existen modelos especiales de Cangrejo capaces de producir tropas más avanzadas de la Máquina. Uno de los métodos de combate más utilizados por estas criaturas es ocultarse tras alguna colina o en un edificio sin techo. Una vez allí, genera soldados que lanza contra sus enemigos mientras los apoya con el fuego indirecto de sus descargas psíquicas. ColoSAlLa m áquina (v arna m ayor )</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +407,6 @@
           }
         }
       ],
-      "level": {
-        "value": 7
-      },
       "notes": [
         {
           "_id": "note-cangrejo-la-maquina-varna-interm-3",
@@ -501,52 +426,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -557,9 +466,6 @@
         "initiative": {
           "base": {
             "value": 75
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +516,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -621,10 +524,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -632,10 +532,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 8490
+              "value": 8575
             },
             "final": {
               "value": 0
@@ -643,10 +540,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -40
+              "value": 15
             },
             "final": {
               "value": 0
@@ -654,10 +548,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -669,203 +560,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 200
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 200
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -896,11 +1039,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -912,14 +1051,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -933,14 +1077,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1045,15 +1186,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1065,37 +1202,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1218,9 +1375,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

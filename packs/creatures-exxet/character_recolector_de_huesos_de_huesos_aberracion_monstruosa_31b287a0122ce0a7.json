@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +303,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +323,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 60
         }
       },
       "aspect": {
@@ -430,7 +357,7 @@
           "value": "De Huesos Aberración Monstruosa"
         },
         "size": {
-          "value": 24
+          "value": "24"
         }
       },
       "advantages": [],
@@ -448,7 +375,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 139</p><p><strong>Entrada:</strong> Recolector de Huesos</p><p><strong>Variante:</strong> De Huesos Aberración Monstruosa</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 20</p><p><strong>Categoría:</strong> Maestro en armas Fue: 13 Des: 12 Agi: 6 Con: 11 Pod: 10 Int: 7 Vol: 8 Per: 8 RF 75 RM 75 RP 70 RV 75 RE 75</p><p><strong>Habilidades naturales:</strong> Uso de Guadaña.</p><p><strong>Habilidades esenciales:</strong> Características Físicas sobrehumanas, Exención Física, Inhumanidad</p><p><strong>Poderes:</strong> Guadaña de Huesos (Crítico Automático, +40 al Crítico), Armas Naturales; Garras, Daña Energía, Cuerpo de Huesos (Armadura Física 3, Armadura Mística 3), Vuelo Natural 4, Corazón (Punto Vulnerable), Forja.</p><p><strong>Daño:</strong> 85 Garras (Fil), 110 Guadaña +10 (Fil)</p><p><strong>TA:</strong> Cuerpo de Huesos Fil 3 Con 3 Pen 3 Cal 3 Fri 3 Ele 3 Ene 3</p><p><strong>Habilidades secundarias:</strong> Advertir 50, Buscar 35, Proezas de Fuerza 95, Resistir el Dolor 80, Forja 180 (Especial)</p><p><strong>Descripción breve:</strong> Nadie sabe a ciencia cierta cual es el origen de los Recolectores de Huesos, pero estas poderosas monstruosidades llevan aterrorizando Gaïa en las sombras desde épocas inmemoriales. Se trata de enormes criaturas de aspecto demoníaco (sus alturas rondan entre los tres y los cuatro metros y medio) con cuerpos hechos exclusivamente de huesos grabados con elaboradas runas. Pese a ser prácticamente esqueletos, parte de sus brazos, así como las pútridas alas de su espalda, tienen algunos tendones y músculos que facilitan y potencian sus movimientos. El nombre de Recolector se debe a la obsesión extrema de estos seres por los huesos mortales. Son coleccionistas ávidos, que sienten una obsesión innatural por cualquier parte de un esqueleto que les resulte llamativa. Aparentemente, pueden percibir de algún modo la “belleza” ósea que hay bajo las capas de carne deleitándose con sus formas y curvas. Así pues, les importa bien poco si los huesos que les gustan pertenecen a un cadáver o a un ser viviente; una vez que quieren uno, lo consiguen de la manera que sea… incluso si es arrancándoselo a su dueño mientras aún respira. Con dichos huesos hacen todo tipo de objetos, tanto armas como adornos decorativos para sus cuerpos, con una sorprendente aptitud artística. Los Recolectores no tienen territorios preferentes, ni actúan en grupo, o se relacionan con otros seres más allá de lo necesario. Sus “residencias” suelen estar construidas en subterráneos bajo cementerios u otros sitios relacionados con los muertos, pues eso les proporciona acceso a mucho material con el que trabajar. Si bien son inteligentes y capaces tanto de entender como de hablar varios idiomas, son muy pocos los Recolectores que se molestan en hacerlo. Aún así, en el raro caso de que acepten un trato, suelen mantener su palabra si el pago está relacionado con huesos que les interesen. Si bien no es para nada habitual, a veces tienen subordinados, entre otras criaturas sobrenaturales de bajo poder dispuestas a servirles, especialmente gouls.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos 20 Puntos de Vida: 400 / 50 Categoría: Maestro en armas Fue: 13 Des: 12 Agi: 6 Con: 11 Pod: 10 Int: 7 Vol: 8 Per: 8 RF 75 RM 75 RP 70 RV 75 RE 75\n\nTurno: 80 Natural, 70 Guadaña de Hueso Habilidad de ataque: 220 Guadaña de Hueso, 205 Garras Habilidad de defensa: 220 Guadaña de Hueso, 205 Garras Daño: 85 Garras (Fil), 1 10 Guadaña +10 (Fil) TA: Cuerpo de Huesos Fil 3 Con 3 Pen 3 Cal 3 Fri 3 Ele 3 Ene 3 Habilidades naturales: Uso de Guadaña. Habilidades esenciales: Características Físicas sobrehumanas, Exención Física, Inhumanidad Poderes: Guadaña de Huesos (Crítico Automático, +40 al Crítico), Armas Naturales; Garras, Daña Energía, Cuerpo de Huesos (Armadura Física 3, Armadura Mística 3), Vuelo Natural 4, Corazón (Punto Vulnerable), Forja.\n\nTamaño: 24 Grande Regeneración: Especial Tipo de movimiento: 6 Cansancio: Incansable Habilidades Secundarias: Advertir 50, Buscar 35, Proezas de Fuerza 95, Resistir el Dolor 80, Forja 180 (Especial). Nadie sabe a ciencia cierta cual es el origen de los Recolectores de Huesos, pero estas poderosas monstruosidades llevan aterrorizando Gaïa en las sombras desde épocas inmemoriales. Se trata de enormes criaturas de aspecto demoníaco (sus alturas rondan entre los tres y los cuatro metros y medio) con cuerpos hechos exclusivamente de huesos grabados con elaboradas runas. Pese a ser prácticamente esqueletos, parte de sus brazos, así como las pútridas alas de su espalda, tienen algunos tendones y músculos que facilitan y potencian sus movimientos. El nombre de Recolector se debe a la obsesión extrema de estos seres por los huesos mortales.\n\nSon coleccionistas ávidos, que sienten una obsesión innatural por cualquier parte de un esqueleto que les resulte llamativa. Aparentemente, pueden percibir de algún modo la “belleza” ósea que hay bajo las capas de carne deleitándose con sus formas y curvas. Así pues, les importa bien poco si los huesos que les gustan pertenecen a un cadáver o a un ser viviente; una vez que quieren uno, lo consiguen de la manera que sea… incluso si es arrancándoselo a su dueño mientras aún respira. Con dichos huesos hacen todo tipo de objetos, tanto armas como adornos decorativos para sus cuerpos, con una sorprendente aptitud artística. Los Recolectores no tienen territorios preferentes, ni actúan en grupo, o se relacionan con otros seres más allá de lo necesario.\n\nSus “residencias” suelen estar construidas en subterráneos bajo cementerios u otros sitios relacionados con los muertos, pues eso les proporciona acceso a mucho material con el que trabajar. Si bien son inteligentes y capaces tanto de entender como de hablar varios idiomas, son muy pocos los Recolectores que se molestan en hacerlo. Aún así, en el raro caso de que acepten un trato, suelen mantener su palabra si el pago está relacionado con huesos que les interesen. Si bien no es para nada habitual, a veces tienen subordinados, entre otras criaturas sobrenaturales de bajo poder dispuestas a servirles, especialmente gouls. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 139</p><p><strong>Entrada:</strong> Recolector de Huesos</p><p><strong>Variante:</strong> De Huesos Aberración Monstruosa</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 20</p><p><strong>Categoría:</strong> Maestro en armas Fue: 13 Des: 12 Agi: 6 Con: 11 Pod: 10 Int: 7 Vol: 8 Per: 8 RF 75 RM 75 RP 70 RV 75 RE 75</p><p><strong>Habilidades naturales:</strong> Uso de Guadaña.</p><p><strong>Habilidades esenciales:</strong> Características Físicas sobrehumanas, Exención Física, Inhumanidad</p><p><strong>Poderes:</strong> Guadaña de Huesos (Crítico Automático, +40 al Crítico), Armas Naturales; Garras, Daña Energía, Cuerpo de Huesos (Armadura Física 3, Armadura Mística 3), Vuelo Natural 4, Corazón (Punto Vulnerable), Forja.</p><p><strong>Daño:</strong> 85 Garras (Fil), 110 Guadaña +10 (Fil)</p><p><strong>TA:</strong> Cuerpo de Huesos Fil 3 Con 3 Pen 3 Cal 3 Fri 3 Ele 3 Ene 3</p><p><strong>Habilidades secundarias:</strong> Advertir 50, Buscar 35, Proezas de Fuerza 95, Resistir el Dolor 80, Forja 180 (Especial)</p><p><strong>Descripción breve:</strong> Nadie sabe a ciencia cierta cual es el origen de los Recolectores de Huesos, pero estas poderosas monstruosidades llevan aterrorizando Gaïa en las sombras desde épocas inmemoriales. Se trata de enormes criaturas de aspecto demoníaco (sus alturas rondan entre los tres y los cuatro metros y medio) con cuerpos hechos exclusivamente de huesos grabados con elaboradas runas. Pese a ser prácticamente esqueletos, parte de sus brazos, así como las pútridas alas de su espalda, tienen algunos tendones y músculos que facilitan y potencian sus movimientos. El nombre de Recolector se debe a la obsesión extrema de estos seres por los huesos mortales. Son coleccionistas ávidos, que sienten una obsesión innatural por cualquier parte de un esqueleto que les resulte llamativa. Aparentemente, pueden percibir de algún modo la “belleza” ósea que hay bajo las capas de carne deleitándose con sus formas y curvas. Así pues, les importa bien poco si los huesos que les gustan pertenecen a un cadáver o a un ser viviente; una vez que quieren uno, lo consiguen de la manera que sea… incluso si es arrancándoselo a su dueño mientras aún respira. Con dichos huesos hacen todo tipo de objetos, tanto armas como adornos decorativos para sus cuerpos, con una sorprendente aptitud artística. Los Recolectores no tienen territorios preferentes, ni actúan en grupo, o se relacionan con otros seres más allá de lo necesario. Sus “residencias” suelen estar construidas en subterráneos bajo cementerios u otros sitios relacionados con los muertos, pues eso les proporciona acceso a mucho material con el que trabajar. Si bien son inteligentes y capaces tanto de entender como de hablar varios idiomas, son muy pocos los Recolectores que se molestan en hacerlo. Aún así, en el raro caso de que acepten un trato, suelen mantener su palabra si el pago está relacionado con huesos que les interesen. Si bien no es para nada habitual, a veces tienen subordinados, entre otras criaturas sobrenaturales de bajo poder dispuestas a servirles, especialmente gouls.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos 20 Puntos de Vida: 400 / 50 Categoría: Maestro en armas Fue: 13 Des: 12 Agi: 6 Con: 11 Pod: 10 Int: 7 Vol: 8 Per: 8 RF 75 RM 75 RP 70 RV 75 RE 75\n\nTurno: 80 Natural, 70 Guadaña de Hueso Habilidad de ataque: 220 Guadaña de Hueso, 205 Garras Habilidad de defensa: 220 Guadaña de Hueso, 205 Garras Daño: 85 Garras (Fil), 1 10 Guadaña +10 (Fil) TA: Cuerpo de Huesos Fil 3 Con 3 Pen 3 Cal 3 Fri 3 Ele 3 Ene 3 Habilidades naturales: Uso de Guadaña. Habilidades esenciales: Características Físicas sobrehumanas, Exención Física, Inhumanidad Poderes: Guadaña de Huesos (Crítico Automático, +40 al Crítico), Armas Naturales; Garras, Daña Energía, Cuerpo de Huesos (Armadura Física 3, Armadura Mística 3), Vuelo Natural 4, Corazón (Punto Vulnerable), Forja.\n\nTamaño: 24 Grande Regeneración: Especial Tipo de movimiento: 6 Cansancio: Incansable Habilidades Secundarias: Advertir 50, Buscar 35, Proezas de Fuerza 95, Resistir el Dolor 80, Forja 180 (Especial). Nadie sabe a ciencia cierta cual es el origen de los Recolectores de Huesos, pero estas poderosas monstruosidades llevan aterrorizando Gaïa en las sombras desde épocas inmemoriales. Se trata de enormes criaturas de aspecto demoníaco (sus alturas rondan entre los tres y los cuatro metros y medio) con cuerpos hechos exclusivamente de huesos grabados con elaboradas runas. Pese a ser prácticamente esqueletos, parte de sus brazos, así como las pútridas alas de su espalda, tienen algunos tendones y músculos que facilitan y potencian sus movimientos. El nombre de Recolector se debe a la obsesión extrema de estos seres por los huesos mortales.\n\nSon coleccionistas ávidos, que sienten una obsesión innatural por cualquier parte de un esqueleto que les resulte llamativa. Aparentemente, pueden percibir de algún modo la “belleza” ósea que hay bajo las capas de carne deleitándose con sus formas y curvas. Así pues, les importa bien poco si los huesos que les gustan pertenecen a un cadáver o a un ser viviente; una vez que quieren uno, lo consiguen de la manera que sea… incluso si es arrancándoselo a su dueño mientras aún respira. Con dichos huesos hacen todo tipo de objetos, tanto armas como adornos decorativos para sus cuerpos, con una sorprendente aptitud artística. Los Recolectores no tienen territorios preferentes, ni actúan en grupo, o se relacionan con otros seres más allá de lo necesario.\n\nSus “residencias” suelen estar construidas en subterráneos bajo cementerios u otros sitios relacionados con los muertos, pues eso les proporciona acceso a mucho material con el que trabajar. Si bien son inteligentes y capaces tanto de entender como de hablar varios idiomas, son muy pocos los Recolectores que se molestan en hacerlo. Aún así, en el raro caso de que acepten un trato, suelen mantener su palabra si el pago está relacionado con huesos que les interesen. Si bien no es para nada habitual, a veces tienen subordinados, entre otras criaturas sobrenaturales de bajo poder dispuestas a servirles, especialmente gouls. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +407,6 @@
           }
         }
       ],
-      "level": {
-        "value": 7
-      },
       "notes": [
         {
           "_id": "note-recolector-de-huesos-de-huesos-a-2",
@@ -507,52 +432,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -563,9 +472,6 @@
         "initiative": {
           "base": {
             "value": 80
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -616,10 +522,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -5
+              "value": 75
             },
             "final": {
               "value": 0
@@ -627,10 +530,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -5
+              "value": 75
             },
             "final": {
               "value": 0
@@ -638,10 +538,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 7500
+              "value": 7580
             },
             "final": {
               "value": 0
@@ -649,10 +546,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -660,10 +554,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -675,209 +566,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 95
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 180
+          },
+          "final": {
+            "value": 0
           }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 220
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 220
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -908,11 +1045,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -924,14 +1057,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -945,14 +1083,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1057,15 +1192,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1077,37 +1208,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1230,9 +1381,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

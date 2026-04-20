@@ -251,9 +251,12 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
@@ -262,16 +265,8 @@
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,25 @@
         "openOnDoubles": {
           "value": false
         },
+        "defenseType": {
+          "value": ""
+        },
+        "zen": {
+          "value": true
+        },
         "perceiveMystic": {
           "value": true
         },
         "perceivePsychic": {
           "value": true
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": true
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +306,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +326,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 90
         }
       },
       "aspect": {
@@ -430,7 +360,7 @@
           "value": "Lasimiente de la Luz"
         },
         "size": {
-          "value": 34
+          "value": "34"
         }
       },
       "advantages": [],
@@ -448,7 +378,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 58</p><p><strong>Entrada:</strong> Dragón de C’iel</p><p><strong>Variante:</strong> Lasimiente de la Luz</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 35</p><p><strong>Categoría:</strong> Warlock Fue: 17 Des: 13 Agi: 6 Con: 17 Pod: 15 Int: 12 Vol: 13 Per: 13 RF 145 RM 160 RP 120 RV 145 RE 145</p><p><strong>Habilidades naturales:</strong> Proyección Mágica Como Ataque.</p><p><strong>Habilidades esenciales:</strong> Características Físicas Divinas, Características Anímicas Sobrehumanas, Don, Zen, Inmunidad Natural a un Elemento (Completa, Luz), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad.</p><p><strong>Poderes:</strong> Arma Natural: Garras, Mordisco (Ataque Adicional -20, +40 al Daño, -4 a la TA Defensora) y Cola, Naturaleza Luminosa (Ataque Elemental), Aliento de Plumas (Distancia 1 Km, Área 50 Metros, -5 a la TA Defensora, Sin Límite, RM 140, Calma, Requiere 2 Turnos de Preparatoria, Limitado), Daña Energía, Armadura Física 4, Vuelo Natural 12, Batir de Alas, Resistencia Física +20, Resistencia Mística +40, Barrera de Daño 160, Lágrima de C´iel (Ver lo Sobrenatural, Visión Extrasensorial), El Corazón de la Luz.</p><p><strong>Daño:</strong> 170 Garras FIL, 210 Mordisco PEN, 150 Coletazo CON, 150 Aliento PEN</p><p><strong>TA:</strong> Escamas de Cristal + Natural Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 10</p><p><strong>Habilidades secundarias:</strong> Advertir 240, Buscar 100, Historia 100, Memorizar 140, Ocultismo 150, Valoración Mágica 175, Proezas de Fuerza 100, Resistir el Dolor 120, Persuasión 80, Arte 80, Música 80, Estilo 100</p><p><strong>Descripción breve:</strong> La elegancia de un arcángel y el poder destructivo del mayor de los demónios se combinan en los casi divinos Dragones de C`iel. Llamados Ángelus por el pueblo Sylvain, estas ancestrales entidades son los siete “hijos” e “hijas” de las Beryls, nacidos a partir de un minúsculo fragmento de su esencia mezclada con la especie más poderosa de la creación. Los Ángelus son tan antiguos que ya han olvidado hasta su nombre. Aparecieron en los albores de Gaïa, cuando el mundo era joven y fuerzas incomprensibles hasta para los dioses aún ponían sus pies sobre la realidad. Su nacimiento se debe al interés de las Beryls, quienes por aquel entonces deseaban establecer mayores lazos con Gaïa, de tener algo “suyo” en la existencia. Su atención se fijó en los dragones por ser criaturas atemporales que, al mismo tiempo, seguían siendo mortales. Al contrario de lo que ocurrió con los Wryms Oscuros, los Ángelus no surgieron de la unión voluntaria de un dragón que aceptó sacrificar una parte de su existencia para contar con la bendición de un Shajad. En el caso de las Beryls, las cuales deseaban involucrarse más cercanamente a sus creaciones, cada una de las Señoras de la Luz introdujo parte de su sangre en siete huevos de dragón condenados a morir, dándoles vidas nuevas y alterando por completo su existencia. El resultado fue el nacimiento de siete dragones angelicales imbuidos por el puro poder de la luz. Aunque aún parecen ser a grandes rasgos dragones, los Ángelus están completamente recubiertos de plumas blancas en lugar de escamas y sus alas son similares a las de un ángel. Además, sus formas son sinuosas y casi femeninas (aunque solo cinco de ellas son hembras), por lo que verlos moverse es prácticamente contemplar una poesía viviente. Las Siete son virtualmente eternas, pues incluso si sus formas físicas son temporalmente destruidas, siempre renacen una y otra vez en un ciclo interminable. Aunque generalmente se les atribuye a la mayoría el papel de “salvadoras” a lo largo de la historia, la verdad es que no todos los Ángelus son benignas ni se preocupan por el mundo; simplemente cada una es afín a sus propias creencias (determinadas normalmente por la Beryl que le dio vida) y actúan en consecuencia con ellas. Afectadas por el holocausto desencadenado por Rah, quedaron temporalmente aletargadas, pero no hace mucho que la mayoría ha despertado. No obstante, débiles y considerando que es mejor no mostrarse aún abiertamente en el mundo por muy diversas causas, han permanecido inmóviles u ocultas en La Vigilia hasta que llegue el momento apropiado. l aS Siete Se cree que únicamente cuatro de las siete Ángelus residen actualmente en Gaïa, y al menos una de ellas aún permanece en su encarnación humana. A continuación hay un listado con las Beryls a los que están ligados así como sus nombres originales; m ikael : Unitas Eldereige (Hembra) e Damiel : Zoroaster Levanah (Desconocido) a zriel : Kirie Klarium (Hembra) b arakiel : Cherubim (Macho) g abriel : Ahura Vainya (Hembra) m oduS oPerandiMedir las cuasi divinas habilidades de los Ángelus es realmente complejo, pues hay pocas cosas capaces de tan siquiera aguantar unos segundos en combate con ellos. Se desplazan hábilmente por cualquier lugar, ya sea volando o sobre el suelo, y combinan su descomunal poder físico con conjuros. Si quieren evitar los combates, simplemente usan su aliento de plumas para calmar a sus enemigos, pero cuando consideran que deben de acabar con sus rivales, no dudan en desencadenar todo su potencial ampliado por su habilidad de predicción. Por su naturaleza sobrenatural, no tienen puntos vulnerables, ni siquiera en la cabeza. Naturaleza Luminosa: Todos los ataques que realice un dragón de C´iel se consideran basados en Luz y de naturaleza sagrada. Además, son capaces de afectar a criaturas sobrenaturales y seres intangibles cuya presencia no supere la del propio Ángelus. Mordisco: Sus fauces, repletas de dientes cristalinos, pueden atravesar con la misma facilidad carne o metal. A causa de su potencia, tiene daño incrementado y disminuye cuatro puntos la TA de sus adversarios. El mordisco cuenta como un ataque adicional natural, por lo que el Ángelus puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. El mordisco tiene Rotura 28. Coletazo: Como otros dragones, al enfrentarse a un gran número de adversarios, el Ángelus es capaz de emplear su cola para realizar un ataque en área de gran magnitud que cubre una zona de 100 metros. Si la usa en combate, el dragón no puede usar sus garras o fauces durante ese asalto. Batir de Alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval en un área de 100 metros en forma un cono delante de él. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire de dificultad Casi Imposible, o recibirá un impacto de Fuerza 9 que lo lanzará por los aires. José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>Nivel: 13\n\nClase: Entre mundos, Elemental 35 Puntos de Vida: 8.355 Acumulación Categoría: Warlock Fue: 17 Des: 13 Agi: 6 Con: 17 Pod: 15 Int: 12 Vol: 13 Per: 13 RF 145 RM 160 RP 120 RV 145 RE 145\n\nTurno: 95 Natural Habilidad de ataque: 260 Garras + 240 Mordisco; o 260 Aliento; o 2 10 Coletazo Habilidad de defensa: Acumulación Daño: 1 70 Garras FIL, 2 10 Mordisco PEN, 1 50 Coletazo CON, 1 50 Aliento PEN TA: Escamas de Cristal + Natural Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 10 Act: 1 10 Conjuros de Luz, 90 Otras\n\nZeon: 960\n\nProyección mágica: 230 Ofensiva Nivel de magia: 90 Luz Habilidades naturales: Proyección Mágica Como Ataque. Habilidades esenciales: Características Físicas Divinas, Características Anímicas Sobrehumanas, Don, Zen, Inmunidad Natural a un Elemento (Completa, Luz), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad. Poderes: Arma Natural: Garras, Mordisco (Ataque Adicional -20, +40 al Daño, -4 a la TA Defensora) y Cola, Naturaleza Luminosa (Ataque Elemental), Aliento de Plumas (Distancia 1 Km, Área 50 Metros, -5 a la TA Defensora, Sin Límite, RM 1 40, Calma, Requiere 2 Turnos de Preparatoria, Limitado), Daña Energía, Armadura Física 4, Vuelo Natural 12, Batir de Alas, Resistencia Física +20, Resistencia Mística +40, Barrera de Daño 1 60, Lágrima de C´iel (Ver lo Sobrenatural, Visión Extrasensorial), El Corazón de la Luz.\n\nTamaño: 34 Colosal Regeneración: 10 Tipo de movimiento: 9/12 Cansancio: 17 Habilidades Secundarias: Advertir 240, Buscar 100, Historia 100, Memorizar 140, Ocultismo 1 50, Valoración Mágica 1 75, Proezas de Fuerza 100, Resistir el Dolor 1 20, Persuasión 80, Arte 80, Música 80, Estilo 100. La elegancia de un arcángel y el poder destructivo del mayor de los demónios se combinan en los casi divinos Dragones de C`iel. Llamados Ángelus por el pueblo Sylvain, estas ancestrales entidades son los siete “hijos” e “hijas” de las Beryls, nacidos a partir de un minúsculo fragmento de su esencia mezclada con la especie más poderosa de la creación. Los Ángelus son tan antiguos que ya han olvidado hasta su nombre. Aparecieron en los albores de Gaïa, cuando el mundo era joven y fuerzas incomprensibles hasta para los dioses aún ponían sus pies sobre la realidad.\n\nSu nacimiento se debe al interés de las Beryls, quienes por aquel entonces deseaban establecer mayores lazos con Gaïa, de tener algo “suyo” en la existencia. Su atención se fijó en los dragones por ser criaturas atemporales que, al mismo tiempo, seguían siendo mortales. Al contrario de lo que ocurrió con los Wryms Oscuros, los Ángelus no surgieron de la unión voluntaria de un dragón que aceptó sacrificar una parte de su existencia para contar con la bendición de un Shajad. En el caso de las Beryls, las cuales deseaban involucrarse más cercanamente a sus creaciones, cada una de las Señoras de la Luz introdujo parte de su sangre en siete huevos de dragón condenados a morir, dándoles vidas nuevas y alterando por completo su existencia. El resultado fue el nacimiento de siete dragones angelicales imbuidos por el puro poder de la luz.\n\nAunque aún parecen ser a grandes rasgos dragones, los Ángelus están completamente recubiertos de plumas blancas en lugar de escamas y sus alas son similares a las de un ángel. Además, sus formas son sinuosas y casi femeninas (aunque solo cinco de ellas son hembras), por lo que verlos moverse es prácticamente contemplar una poesía viviente. Las Siete son virtualmente eternas, pues incluso si sus formas físicas son temporalmente destruidas, siempre renacen una y otra vez en un ciclo interminable. Aunque generalmente se les atribuye a la mayoría el papel de “salvadoras” a lo largo de la historia, la verdad es que no todos los Ángelus son benignas ni se preocupan por el mundo; simplemente cada una es afín a sus propias creencias (determinadas normalmente por la Beryl que le dio vida) y actúan en consecuencia con ellas.\n\nAfectadas por el holocausto desencadenado por Rah, quedaron temporalmente aletargadas, pero no hace mucho que la mayoría ha despertado. No obstante, débiles y considerando que es mejor no mostrarse aún abiertamente en el mundo por muy diversas causas, han permanecido inmóviles u ocultas en La Vigilia hasta que llegue el momento apropiado. l aS Siete Se cree que únicamente cuatro de las siete Ángelus residen actualmente en Gaïa, y al menos una de ellas aún permanece en su encarnación humana.\n\nA continuación hay un listado con las Beryls a los que están ligados así como sus nombres originales; m ikael : Unitas Eldereige (Hembra) e Damiel : Zoroaster Levanah (Desconocido) a zriel : Kirie Klarium (Hembra) b arakiel : Cherubim (Macho) g abriel : Ahura Vainya (Hembra) m oduS oPerandiMedir las cuasi divinas habilidades de los Ángelus es realmente complejo, pues hay pocas cosas capaces de tan siquiera aguantar unos segundos en combate con ellos. Se desplazan hábilmente por cualquier lugar, ya sea volando o sobre el suelo, y combinan su descomunal poder físico con conjuros. Si quieren evitar los combates, simplemente usan su aliento de plumas para calmar a sus enemigos, pero cuando consideran que deben de acabar con sus rivales, no dudan en desencadenar todo su potencial ampliado por su habilidad de predicción.\n\nPor su naturaleza sobrenatural, no tienen puntos vulnerables, ni siquiera en la cabeza. Naturaleza Luminosa: Todos los ataques que realice un dragón de C´iel se consideran basados en Luz y de naturaleza sagrada. Además, son capaces de afectar a criaturas sobrenaturales y seres intangibles cuya presencia no supere la del propio Ángelus. Mordisco: Sus fauces, repletas de dientes cristalinos, pueden atravesar con la misma facilidad carne o metal. A causa de su potencia, tiene daño incrementado y disminuye cuatro puntos la TA de sus adversarios. El mordisco cuenta como un ataque adicional natural, por lo que el Ángelus puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. El mordisco tiene Rotura 28.\n\nColetazo: Como otros dragones, al enfrentarse a un gran número de adversarios, el Ángelus es capaz de emplear su cola para realizar un ataque en área de gran magnitud que cubre una zona de 100 metros. Si la usa en combate, el dragón no puede usar sus garras o fauces durante ese asalto. Batir de Alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval en un área de 100 metros en forma un cono delante de él. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire de dificultad Casi Imposible, o recibirá un impacto de Fuerza 9 que lo lanzará por los aires. José María Solano Albares (order #3443007) (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 58</p><p><strong>Entrada:</strong> Dragón de C’iel</p><p><strong>Variante:</strong> Lasimiente de la Luz</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 35</p><p><strong>Categoría:</strong> Warlock Fue: 17 Des: 13 Agi: 6 Con: 17 Pod: 15 Int: 12 Vol: 13 Per: 13 RF 145 RM 160 RP 120 RV 145 RE 145</p><p><strong>Habilidades naturales:</strong> Proyección Mágica Como Ataque.</p><p><strong>Habilidades esenciales:</strong> Características Físicas Divinas, Características Anímicas Sobrehumanas, Don, Zen, Inmunidad Natural a un Elemento (Completa, Luz), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad.</p><p><strong>Poderes:</strong> Arma Natural: Garras, Mordisco (Ataque Adicional -20, +40 al Daño, -4 a la TA Defensora) y Cola, Naturaleza Luminosa (Ataque Elemental), Aliento de Plumas (Distancia 1 Km, Área 50 Metros, -5 a la TA Defensora, Sin Límite, RM 140, Calma, Requiere 2 Turnos de Preparatoria, Limitado), Daña Energía, Armadura Física 4, Vuelo Natural 12, Batir de Alas, Resistencia Física +20, Resistencia Mística +40, Barrera de Daño 160, Lágrima de C´iel (Ver lo Sobrenatural, Visión Extrasensorial), El Corazón de la Luz.</p><p><strong>Daño:</strong> 170 Garras FIL, 210 Mordisco PEN, 150 Coletazo CON, 150 Aliento PEN</p><p><strong>TA:</strong> Escamas de Cristal + Natural Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 10</p><p><strong>Habilidades secundarias:</strong> Advertir 240, Buscar 100, Historia 100, Memorizar 140, Ocultismo 150, Valoración Mágica 175, Proezas de Fuerza 100, Resistir el Dolor 120, Persuasión 80, Arte 80, Música 80, Estilo 100</p><p><strong>Descripción breve:</strong> La elegancia de un arcángel y el poder destructivo del mayor de los demónios se combinan en los casi divinos Dragones de C`iel. Llamados Ángelus por el pueblo Sylvain, estas ancestrales entidades son los siete “hijos” e “hijas” de las Beryls, nacidos a partir de un minúsculo fragmento de su esencia mezclada con la especie más poderosa de la creación. Los Ángelus son tan antiguos que ya han olvidado hasta su nombre. Aparecieron en los albores de Gaïa, cuando el mundo era joven y fuerzas incomprensibles hasta para los dioses aún ponían sus pies sobre la realidad. Su nacimiento se debe al interés de las Beryls, quienes por aquel entonces deseaban establecer mayores lazos con Gaïa, de tener algo “suyo” en la existencia. Su atención se fijó en los dragones por ser criaturas atemporales que, al mismo tiempo, seguían siendo mortales. Al contrario de lo que ocurrió con los Wryms Oscuros, los Ángelus no surgieron de la unión voluntaria de un dragón que aceptó sacrificar una parte de su existencia para contar con la bendición de un Shajad. En el caso de las Beryls, las cuales deseaban involucrarse más cercanamente a sus creaciones, cada una de las Señoras de la Luz introdujo parte de su sangre en siete huevos de dragón condenados a morir, dándoles vidas nuevas y alterando por completo su existencia. El resultado fue el nacimiento de siete dragones angelicales imbuidos por el puro poder de la luz. Aunque aún parecen ser a grandes rasgos dragones, los Ángelus están completamente recubiertos de plumas blancas en lugar de escamas y sus alas son similares a las de un ángel. Además, sus formas son sinuosas y casi femeninas (aunque solo cinco de ellas son hembras), por lo que verlos moverse es prácticamente contemplar una poesía viviente. Las Siete son virtualmente eternas, pues incluso si sus formas físicas son temporalmente destruidas, siempre renacen una y otra vez en un ciclo interminable. Aunque generalmente se les atribuye a la mayoría el papel de “salvadoras” a lo largo de la historia, la verdad es que no todos los Ángelus son benignas ni se preocupan por el mundo; simplemente cada una es afín a sus propias creencias (determinadas normalmente por la Beryl que le dio vida) y actúan en consecuencia con ellas. Afectadas por el holocausto desencadenado por Rah, quedaron temporalmente aletargadas, pero no hace mucho que la mayoría ha despertado. No obstante, débiles y considerando que es mejor no mostrarse aún abiertamente en el mundo por muy diversas causas, han permanecido inmóviles u ocultas en La Vigilia hasta que llegue el momento apropiado. l aS Siete Se cree que únicamente cuatro de las siete Ángelus residen actualmente en Gaïa, y al menos una de ellas aún permanece en su encarnación humana. A continuación hay un listado con las Beryls a los que están ligados así como sus nombres originales; m ikael : Unitas Eldereige (Hembra) e Damiel : Zoroaster Levanah (Desconocido) a zriel : Kirie Klarium (Hembra) b arakiel : Cherubim (Macho) g abriel : Ahura Vainya (Hembra) m oduS oPerandiMedir las cuasi divinas habilidades de los Ángelus es realmente complejo, pues hay pocas cosas capaces de tan siquiera aguantar unos segundos en combate con ellos. Se desplazan hábilmente por cualquier lugar, ya sea volando o sobre el suelo, y combinan su descomunal poder físico con conjuros. Si quieren evitar los combates, simplemente usan su aliento de plumas para calmar a sus enemigos, pero cuando consideran que deben de acabar con sus rivales, no dudan en desencadenar todo su potencial ampliado por su habilidad de predicción. Por su naturaleza sobrenatural, no tienen puntos vulnerables, ni siquiera en la cabeza. Naturaleza Luminosa: Todos los ataques que realice un dragón de C´iel se consideran basados en Luz y de naturaleza sagrada. Además, son capaces de afectar a criaturas sobrenaturales y seres intangibles cuya presencia no supere la del propio Ángelus. Mordisco: Sus fauces, repletas de dientes cristalinos, pueden atravesar con la misma facilidad carne o metal. A causa de su potencia, tiene daño incrementado y disminuye cuatro puntos la TA de sus adversarios. El mordisco cuenta como un ataque adicional natural, por lo que el Ángelus puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. El mordisco tiene Rotura 28. Coletazo: Como otros dragones, al enfrentarse a un gran número de adversarios, el Ángelus es capaz de emplear su cola para realizar un ataque en área de gran magnitud que cubre una zona de 100 metros. Si la usa en combate, el dragón no puede usar sus garras o fauces durante ese asalto. Batir de Alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval en un área de 100 metros en forma un cono delante de él. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire de dificultad Casi Imposible, o recibirá un impacto de Fuerza 9 que lo lanzará por los aires. José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>Nivel: 13\n\nClase: Entre mundos, Elemental 35 Puntos de Vida: 8.355 Acumulación Categoría: Warlock Fue: 17 Des: 13 Agi: 6 Con: 17 Pod: 15 Int: 12 Vol: 13 Per: 13 RF 145 RM 160 RP 120 RV 145 RE 145\n\nTurno: 95 Natural Habilidad de ataque: 260 Garras + 240 Mordisco; o 260 Aliento; o 2 10 Coletazo Habilidad de defensa: Acumulación Daño: 1 70 Garras FIL, 2 10 Mordisco PEN, 1 50 Coletazo CON, 1 50 Aliento PEN TA: Escamas de Cristal + Natural Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 10 Act: 1 10 Conjuros de Luz, 90 Otras\n\nZeon: 960\n\nProyección mágica: 230 Ofensiva Nivel de magia: 90 Luz Habilidades naturales: Proyección Mágica Como Ataque. Habilidades esenciales: Características Físicas Divinas, Características Anímicas Sobrehumanas, Don, Zen, Inmunidad Natural a un Elemento (Completa, Luz), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad. Poderes: Arma Natural: Garras, Mordisco (Ataque Adicional -20, +40 al Daño, -4 a la TA Defensora) y Cola, Naturaleza Luminosa (Ataque Elemental), Aliento de Plumas (Distancia 1 Km, Área 50 Metros, -5 a la TA Defensora, Sin Límite, RM 1 40, Calma, Requiere 2 Turnos de Preparatoria, Limitado), Daña Energía, Armadura Física 4, Vuelo Natural 12, Batir de Alas, Resistencia Física +20, Resistencia Mística +40, Barrera de Daño 1 60, Lágrima de C´iel (Ver lo Sobrenatural, Visión Extrasensorial), El Corazón de la Luz.\n\nTamaño: 34 Colosal Regeneración: 10 Tipo de movimiento: 9/12 Cansancio: 17 Habilidades Secundarias: Advertir 240, Buscar 100, Historia 100, Memorizar 140, Ocultismo 1 50, Valoración Mágica 1 75, Proezas de Fuerza 100, Resistir el Dolor 1 20, Persuasión 80, Arte 80, Música 80, Estilo 100. La elegancia de un arcángel y el poder destructivo del mayor de los demónios se combinan en los casi divinos Dragones de C`iel. Llamados Ángelus por el pueblo Sylvain, estas ancestrales entidades son los siete “hijos” e “hijas” de las Beryls, nacidos a partir de un minúsculo fragmento de su esencia mezclada con la especie más poderosa de la creación. Los Ángelus son tan antiguos que ya han olvidado hasta su nombre. Aparecieron en los albores de Gaïa, cuando el mundo era joven y fuerzas incomprensibles hasta para los dioses aún ponían sus pies sobre la realidad.\n\nSu nacimiento se debe al interés de las Beryls, quienes por aquel entonces deseaban establecer mayores lazos con Gaïa, de tener algo “suyo” en la existencia. Su atención se fijó en los dragones por ser criaturas atemporales que, al mismo tiempo, seguían siendo mortales. Al contrario de lo que ocurrió con los Wryms Oscuros, los Ángelus no surgieron de la unión voluntaria de un dragón que aceptó sacrificar una parte de su existencia para contar con la bendición de un Shajad. En el caso de las Beryls, las cuales deseaban involucrarse más cercanamente a sus creaciones, cada una de las Señoras de la Luz introdujo parte de su sangre en siete huevos de dragón condenados a morir, dándoles vidas nuevas y alterando por completo su existencia. El resultado fue el nacimiento de siete dragones angelicales imbuidos por el puro poder de la luz.\n\nAunque aún parecen ser a grandes rasgos dragones, los Ángelus están completamente recubiertos de plumas blancas en lugar de escamas y sus alas son similares a las de un ángel. Además, sus formas son sinuosas y casi femeninas (aunque solo cinco de ellas son hembras), por lo que verlos moverse es prácticamente contemplar una poesía viviente. Las Siete son virtualmente eternas, pues incluso si sus formas físicas son temporalmente destruidas, siempre renacen una y otra vez en un ciclo interminable. Aunque generalmente se les atribuye a la mayoría el papel de “salvadoras” a lo largo de la historia, la verdad es que no todos los Ángelus son benignas ni se preocupan por el mundo; simplemente cada una es afín a sus propias creencias (determinadas normalmente por la Beryl que le dio vida) y actúan en consecuencia con ellas.\n\nAfectadas por el holocausto desencadenado por Rah, quedaron temporalmente aletargadas, pero no hace mucho que la mayoría ha despertado. No obstante, débiles y considerando que es mejor no mostrarse aún abiertamente en el mundo por muy diversas causas, han permanecido inmóviles u ocultas en La Vigilia hasta que llegue el momento apropiado. l aS Siete Se cree que únicamente cuatro de las siete Ángelus residen actualmente en Gaïa, y al menos una de ellas aún permanece en su encarnación humana.\n\nA continuación hay un listado con las Beryls a los que están ligados así como sus nombres originales; m ikael : Unitas Eldereige (Hembra) e Damiel : Zoroaster Levanah (Desconocido) a zriel : Kirie Klarium (Hembra) b arakiel : Cherubim (Macho) g abriel : Ahura Vainya (Hembra) m oduS oPerandiMedir las cuasi divinas habilidades de los Ángelus es realmente complejo, pues hay pocas cosas capaces de tan siquiera aguantar unos segundos en combate con ellos. Se desplazan hábilmente por cualquier lugar, ya sea volando o sobre el suelo, y combinan su descomunal poder físico con conjuros. Si quieren evitar los combates, simplemente usan su aliento de plumas para calmar a sus enemigos, pero cuando consideran que deben de acabar con sus rivales, no dudan en desencadenar todo su potencial ampliado por su habilidad de predicción.\n\nPor su naturaleza sobrenatural, no tienen puntos vulnerables, ni siquiera en la cabeza. Naturaleza Luminosa: Todos los ataques que realice un dragón de C´iel se consideran basados en Luz y de naturaleza sagrada. Además, son capaces de afectar a criaturas sobrenaturales y seres intangibles cuya presencia no supere la del propio Ángelus. Mordisco: Sus fauces, repletas de dientes cristalinos, pueden atravesar con la misma facilidad carne o metal. A causa de su potencia, tiene daño incrementado y disminuye cuatro puntos la TA de sus adversarios. El mordisco cuenta como un ataque adicional natural, por lo que el Ángelus puede ejecutarlo mientras arremete con sus garras, sin sufrir ningún penalizador a su habilidad. El mordisco tiene Rotura 28.\n\nColetazo: Como otros dragones, al enfrentarse a un gran número de adversarios, el Ángelus es capaz de emplear su cola para realizar un ataque en área de gran magnitud que cubre una zona de 100 metros. Si la usa en combate, el dragón no puede usar sus garras o fauces durante ese asalto. Batir de Alas: El dragón puede batir sus alas con gran potencia para levantar un poderoso vendaval en un área de 100 metros en forma un cono delante de él. Cualquiera que se encuentre en su interior, deberá defenderse contra un ataque de aire de dificultad Casi Imposible, o recibirá un impacto de Fuerza 9 que lo lanzará por los aires. José María Solano Albares (order #3443007) (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +410,6 @@
           }
         }
       ],
-      "level": {
-        "value": 13
-      },
       "notes": [
         {
           "_id": "note-dragon-de-c-iel-lasimiente-de-la-2",
@@ -507,52 +435,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 17
-          }
+          "value": 17,
+          "mod": 35
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 17
-          }
+          "value": 17,
+          "mod": 35
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         }
       },
       "secondaries": {
@@ -563,9 +475,6 @@
         "initiative": {
           "base": {
             "value": 95
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -616,10 +525,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 20
+              "value": 145
             },
             "final": {
               "value": 0
@@ -627,10 +533,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 20
+              "value": 145
             },
             "final": {
               "value": 0
@@ -638,10 +541,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 14470
+              "value": 14595
             },
             "final": {
               "value": 0
@@ -649,10 +549,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 40
+              "value": 160
             },
             "final": {
               "value": 0
@@ -660,10 +557,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5
+              "value": 120
             },
             "final": {
               "value": 0
@@ -675,227 +569,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 240
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 140
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 175
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 260
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -926,11 +1048,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -942,16 +1060,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 960,
         "max": 960
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -963,14 +1086,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1075,15 +1195,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1095,37 +1211,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1248,9 +1384,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

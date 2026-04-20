@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +147,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +167,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 75
         }
       },
       "aspect": {
@@ -274,7 +201,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +219,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 152</p><p><strong>Entrada:</strong> Shinigami</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 30</p><p><strong>Categoría:</strong> Guerrero Fue: 8 Des: 13 Agi: 10 Con: - Pod: 13 Int: 10 Vol: 12 Per: 11 RF 100 RM 100 RP 95 RV 100 RE 100</p><p><strong>Habilidades esenciales:</strong> Exención Física, Inhumanidad, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas.</p><p><strong>Poderes:</strong> Tamashi no Buki (Ataque Sobrenatural, Destructora de Espíritus, RM 160, Condicionada), Los Espíritus Sesgados, Saco de Almas, Ojos de Shinigami, Visión de los Condenados, Imitación de Daño (Aura, Área 20 Metros, RM 140, Daño Variable), Forma de Sangre (Manifestación, Condicionada).</p><p><strong>Daño:</strong> 90 Tamashi no Buki (Fil)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 60, Buscar 55, Medicina 150, Historia 150, Ocultismo 150, Memorizar 50</p><p><strong>Descripción breve:</strong> José María Solano Albares Hay tantas historias en las tierras orientales acerca de las entidades conocidas como Shinigami que es difícil determinar qué es mito y qué es realidad. En Varja se los considera los dioses de la muerte (de hecho, su propio nombre puede traducirse más o menos como “deidad de la muerte”), los espíritus oscuros que deciden la duración de la vida humana y protegen las puertas del más allá. Hay relatos en los que se habla de ellos tanto como fuerzas benignas como malignas, que ayudan de vez en cuando a los mortales a cumplir ciertas tareas para después condenarlos de las más crueles maneras. Lo cierto es que los Shinigami son entidades muy enigmáticas en el folklore oriental, similares a las Valkyrias pero con matices mucho más oscuros. No habitan cuerpos físicos, pues son espíritus cuasi divinos de alto poder que se mueven por el mundo sin ser vistos por los hombres. Aunque todos poseen siempre una apariencia casi humana, se dice que no hay dos iguales; sus rostros, manera de vestir y su personalidad son siempre únicas. Además de su naturaleza espiritual, cada uno adopta además algún rasgo monstruoso que los caracteriza como Shinigami; placas quitinosas en ciertas partes de sus cuerpos, alas demoníacas, una mascara en lugar de rostro… Son, esencialmente, criaturas muy inteligentes que han pasado tanto tiempo observando a los mortales que saben utilizarlos a su antojo. Puesto que en raras ocasiones son también capaces de tomar forma física y caminar como personas normales, aprovechan estos breves momentos para jugar con la gente y obtener todo lo que necesiten. Su única aparente debilidad es su completa imposibilidad de incumplir una promesa o pacto, razón por la que es raro que se comprometan a algo si no están del todo seguros de poder (o querer) hacerlo. Es posible que haya alrededor de un centenar de Shinigamis en Gaïa. Su ámbito de actuación habitual es Varja, de donde rara vez salen. c laSeS de SHinigamiExisten dos tipos de Shinigami diferentes, dependiendo de si se trata de un espíritu creado por las deidades del Tengatti o es en si mismo un Kami menor de la muerte. Los Shinigami menores son en realidad agentes de las deidades que residen en el Tengatti. Su función es la de capturar aquellas almas que escapan a los designios de los Kami y a sus castigos, así como asegurarse de que los mortales no traten de abrir puertas al Samsara que pueda poner en peligro la ya de por si frágil estructura del más allá. Siempre actúan por petición de sus señores, siendo poco más que marionetas que meramente obedecen las órdenes que reciben. Si ejecutan con corrección su labor durante largos periodos de tiempo (varios siglos o incluso milenios), pueden ser recompensados recibiendo el pleno estatus de Kami, y siendo puesto a cargo de otros Shinigami menores. Por el contrario, los verdaderos Kami de la Muerte tienen un origen mucho más ignoto. Son independientes y actúan movidos únicamente por sus propios caprichos, que a menudo pueden llegar a parecer crueles a los ojos de los mortales. Caminan por el mundo sin ser vistos por los mortales, eligiendo de vez en cuando a personas que deben de perder la vida y llevándose consigo sus almas por mero afán de coleccionismo. m oduS oPerandiLosShinigamis suelen caminar entre los hombres llevándose consigo las almas que más les interesan. Normalmente, atacan a las personas separando temporalmente sus espíritus de sus cuerpos para guardarlas en sus sacos. Les gusta coleccionar almas poderosas, ya que cuando las consumen sus habilidades se incrementan mucho más que con las de personas normales. Si se enfrentan a enemigos que pueden verlos, hacen un cuidadoso uso de su poder de imitar el daño, lo que les otorga una completa superioridad sobre sus rivales. En la mayoría de casos, o bien su corazón o bien su cabeza son puntos vulnerables, aunque nunca ambos a la vez.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: Ánima 30 Puntos de Vida: 325 Categoría: Guerrero Fue: 8 Des: 13 Agi: 10 Con: - Pod: 13 Int: 10 Vol: 12 Per: 11 RF 100 RM 100 RP 95 RV 100 RE 100\n\nTurno: 1 30 Natural, 125 Tamashi no Buki Habilidad de ataque: 285 Tamashi no Buki Habilidad de defensa: 270 Tamashi no Buki Daño: 90 Tamashi no Buki (Fil) TA: Ninguna Habilidades esenciales: Exención Física, Inhumanidad, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas. Poderes: Tamashi no Buki (Ataque Sobrenatural, Destructora de Espíritus, RM 1 60, Condicionada), Los Espíritus Sesgados, Saco de Almas, Ojos de Shinigami, Visión de los Condenados, Imitación de Daño (Aura, Área 20 Metros, RM 1 40, Daño Variable), Forma de Sangre (Manifestación, Condicionada). de movimiento: 10 Cansancio: Incansable Habilidades Secundarias: Advertir 60, Buscar 55, Medicina 1 50, Historia 1 50, Ocultismo 1 50, Memorizar 50.\n\nJosé María Solano Albares (order #3443007) Hay tantas historias en las tierras orientales acerca de las entidades conocidas como Shinigami que es difícil determinar qué es mito y qué es realidad. En Varja se los considera los dioses de la muerte (de hecho, su propio nombre puede traducirse más o menos como “deidad de la muerte”), los espíritus oscuros que deciden la duración de la vida humana y protegen las puertas del más allá. Hay relatos en los que se habla de ellos tanto como fuerzas benignas como malignas, que ayudan de vez en cuando a los mortales a cumplir ciertas tareas para después condenarlos de las más crueles maneras. Lo cierto es que los Shinigami son entidades muy enigmáticas en el folklore oriental, similares a las Valkyrias pero con matices mucho más oscuros.\n\nNo habitan cuerpos físicos, pues son espíritus cuasi divinos de alto poder que se mueven por el mundo sin ser vistos por los hombres. Aunque todos poseen siempre una apariencia casi humana, se dice que no hay dos iguales; sus rostros, manera de vestir y su personalidad son siempre únicas. Además de su naturaleza espiritual, cada uno adopta además algún rasgo monstruoso que los caracteriza como Shinigami; placas quitinosas en ciertas partes de sus cuerpos, alas demoníacas, una mascara en lugar de rostro… Son, esencialmente, criaturas muy inteligentes que han pasado tanto tiempo observando a los mortales que saben utilizarlos a su antojo. Puesto que en raras ocasiones son también capaces de tomar forma física y caminar como personas normales, aprovechan estos breves momentos para jugar con la gente y obtener todo lo que necesiten.\n\nSu única aparente debilidad es su completa imposibilidad de incumplir una promesa o pacto, razón por la que es raro que se comprometan a algo si no están del todo seguros de poder (o querer) hacerlo. Es posible que haya alrededor de un centenar de Shinigamis en Gaïa. Su ámbito de actuación habitual es Varja, de donde rara vez salen. c laSeS de SHinigamiExisten dos tipos de Shinigami diferentes, dependiendo de si se trata de un espíritu creado por las deidades del Tengatti o es en si mismo un Kami menor de la muerte. Los Shinigami menores son en realidad agentes de las deidades que residen en el Tengatti. Su función es la de capturar aquellas almas que escapan a los designios de los Kami y a sus castigos, así como asegurarse de que los mortales no traten de abrir puertas al Samsara que pueda poner en peligro la ya de por si frágil estructura del más allá.\n\nSiempre actúan por petición de sus señores, siendo poco más que marionetas que meramente obedecen las órdenes que reciben. Si ejecutan con corrección su labor durante largos periodos de tiempo (varios siglos o incluso milenios), pueden ser recompensados recibiendo el pleno estatus de Kami, y siendo puesto a cargo de otros Shinigami menores. Por el contrario, los verdaderos Kami de la Muerte tienen un origen mucho más ignoto. Son independientes y actúan movidos únicamente por sus propios caprichos, que a menudo pueden llegar a parecer crueles a los ojos de los mortales. Caminan por el mundo sin ser vistos por los mortales, eligiendo de vez en cuando a personas que deben de perder la vida y llevándose consigo sus almas por mero afán de coleccionismo. m oduS oPerandiLosShinigamis suelen caminar entre los hombres llevándose consigo las almas que más les interesan.\n\nNormalmente, atacan a las personas separando temporalmente sus espíritus de sus cuerpos para guardarlas en sus sacos. Les gusta coleccionar almas poderosas, ya que cuando las consumen sus habilidades se incrementan mucho más que con las de personas normales. Si se enfrentan a enemigos que pueden verlos, hacen un cuidadoso uso de su poder de imitar el daño, lo que les otorga una completa superioridad sobre sus rivales. En la mayoría de casos, o bien su corazón o bien su cabeza son puntos vulnerables, aunque nunca ambos a la vez. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 152</p><p><strong>Entrada:</strong> Shinigami</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 30</p><p><strong>Categoría:</strong> Guerrero Fue: 8 Des: 13 Agi: 10 Con: - Pod: 13 Int: 10 Vol: 12 Per: 11 RF 100 RM 100 RP 95 RV 100 RE 100</p><p><strong>Habilidades esenciales:</strong> Exención Física, Inhumanidad, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas.</p><p><strong>Poderes:</strong> Tamashi no Buki (Ataque Sobrenatural, Destructora de Espíritus, RM 160, Condicionada), Los Espíritus Sesgados, Saco de Almas, Ojos de Shinigami, Visión de los Condenados, Imitación de Daño (Aura, Área 20 Metros, RM 140, Daño Variable), Forma de Sangre (Manifestación, Condicionada).</p><p><strong>Daño:</strong> 90 Tamashi no Buki (Fil)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 60, Buscar 55, Medicina 150, Historia 150, Ocultismo 150, Memorizar 50</p><p><strong>Descripción breve:</strong> José María Solano Albares Hay tantas historias en las tierras orientales acerca de las entidades conocidas como Shinigami que es difícil determinar qué es mito y qué es realidad. En Varja se los considera los dioses de la muerte (de hecho, su propio nombre puede traducirse más o menos como “deidad de la muerte”), los espíritus oscuros que deciden la duración de la vida humana y protegen las puertas del más allá. Hay relatos en los que se habla de ellos tanto como fuerzas benignas como malignas, que ayudan de vez en cuando a los mortales a cumplir ciertas tareas para después condenarlos de las más crueles maneras. Lo cierto es que los Shinigami son entidades muy enigmáticas en el folklore oriental, similares a las Valkyrias pero con matices mucho más oscuros. No habitan cuerpos físicos, pues son espíritus cuasi divinos de alto poder que se mueven por el mundo sin ser vistos por los hombres. Aunque todos poseen siempre una apariencia casi humana, se dice que no hay dos iguales; sus rostros, manera de vestir y su personalidad son siempre únicas. Además de su naturaleza espiritual, cada uno adopta además algún rasgo monstruoso que los caracteriza como Shinigami; placas quitinosas en ciertas partes de sus cuerpos, alas demoníacas, una mascara en lugar de rostro… Son, esencialmente, criaturas muy inteligentes que han pasado tanto tiempo observando a los mortales que saben utilizarlos a su antojo. Puesto que en raras ocasiones son también capaces de tomar forma física y caminar como personas normales, aprovechan estos breves momentos para jugar con la gente y obtener todo lo que necesiten. Su única aparente debilidad es su completa imposibilidad de incumplir una promesa o pacto, razón por la que es raro que se comprometan a algo si no están del todo seguros de poder (o querer) hacerlo. Es posible que haya alrededor de un centenar de Shinigamis en Gaïa. Su ámbito de actuación habitual es Varja, de donde rara vez salen. c laSeS de SHinigamiExisten dos tipos de Shinigami diferentes, dependiendo de si se trata de un espíritu creado por las deidades del Tengatti o es en si mismo un Kami menor de la muerte. Los Shinigami menores son en realidad agentes de las deidades que residen en el Tengatti. Su función es la de capturar aquellas almas que escapan a los designios de los Kami y a sus castigos, así como asegurarse de que los mortales no traten de abrir puertas al Samsara que pueda poner en peligro la ya de por si frágil estructura del más allá. Siempre actúan por petición de sus señores, siendo poco más que marionetas que meramente obedecen las órdenes que reciben. Si ejecutan con corrección su labor durante largos periodos de tiempo (varios siglos o incluso milenios), pueden ser recompensados recibiendo el pleno estatus de Kami, y siendo puesto a cargo de otros Shinigami menores. Por el contrario, los verdaderos Kami de la Muerte tienen un origen mucho más ignoto. Son independientes y actúan movidos únicamente por sus propios caprichos, que a menudo pueden llegar a parecer crueles a los ojos de los mortales. Caminan por el mundo sin ser vistos por los mortales, eligiendo de vez en cuando a personas que deben de perder la vida y llevándose consigo sus almas por mero afán de coleccionismo. m oduS oPerandiLosShinigamis suelen caminar entre los hombres llevándose consigo las almas que más les interesan. Normalmente, atacan a las personas separando temporalmente sus espíritus de sus cuerpos para guardarlas en sus sacos. Les gusta coleccionar almas poderosas, ya que cuando las consumen sus habilidades se incrementan mucho más que con las de personas normales. Si se enfrentan a enemigos que pueden verlos, hacen un cuidadoso uso de su poder de imitar el daño, lo que les otorga una completa superioridad sobre sus rivales. En la mayoría de casos, o bien su corazón o bien su cabeza son puntos vulnerables, aunque nunca ambos a la vez.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: Ánima 30 Puntos de Vida: 325 Categoría: Guerrero Fue: 8 Des: 13 Agi: 10 Con: - Pod: 13 Int: 10 Vol: 12 Per: 11 RF 100 RM 100 RP 95 RV 100 RE 100\n\nTurno: 1 30 Natural, 125 Tamashi no Buki Habilidad de ataque: 285 Tamashi no Buki Habilidad de defensa: 270 Tamashi no Buki Daño: 90 Tamashi no Buki (Fil) TA: Ninguna Habilidades esenciales: Exención Física, Inhumanidad, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas. Poderes: Tamashi no Buki (Ataque Sobrenatural, Destructora de Espíritus, RM 1 60, Condicionada), Los Espíritus Sesgados, Saco de Almas, Ojos de Shinigami, Visión de los Condenados, Imitación de Daño (Aura, Área 20 Metros, RM 1 40, Daño Variable), Forma de Sangre (Manifestación, Condicionada). de movimiento: 10 Cansancio: Incansable Habilidades Secundarias: Advertir 60, Buscar 55, Medicina 1 50, Historia 1 50, Ocultismo 1 50, Memorizar 50.\n\nJosé María Solano Albares (order #3443007) Hay tantas historias en las tierras orientales acerca de las entidades conocidas como Shinigami que es difícil determinar qué es mito y qué es realidad. En Varja se los considera los dioses de la muerte (de hecho, su propio nombre puede traducirse más o menos como “deidad de la muerte”), los espíritus oscuros que deciden la duración de la vida humana y protegen las puertas del más allá. Hay relatos en los que se habla de ellos tanto como fuerzas benignas como malignas, que ayudan de vez en cuando a los mortales a cumplir ciertas tareas para después condenarlos de las más crueles maneras. Lo cierto es que los Shinigami son entidades muy enigmáticas en el folklore oriental, similares a las Valkyrias pero con matices mucho más oscuros.\n\nNo habitan cuerpos físicos, pues son espíritus cuasi divinos de alto poder que se mueven por el mundo sin ser vistos por los hombres. Aunque todos poseen siempre una apariencia casi humana, se dice que no hay dos iguales; sus rostros, manera de vestir y su personalidad son siempre únicas. Además de su naturaleza espiritual, cada uno adopta además algún rasgo monstruoso que los caracteriza como Shinigami; placas quitinosas en ciertas partes de sus cuerpos, alas demoníacas, una mascara en lugar de rostro… Son, esencialmente, criaturas muy inteligentes que han pasado tanto tiempo observando a los mortales que saben utilizarlos a su antojo. Puesto que en raras ocasiones son también capaces de tomar forma física y caminar como personas normales, aprovechan estos breves momentos para jugar con la gente y obtener todo lo que necesiten.\n\nSu única aparente debilidad es su completa imposibilidad de incumplir una promesa o pacto, razón por la que es raro que se comprometan a algo si no están del todo seguros de poder (o querer) hacerlo. Es posible que haya alrededor de un centenar de Shinigamis en Gaïa. Su ámbito de actuación habitual es Varja, de donde rara vez salen. c laSeS de SHinigamiExisten dos tipos de Shinigami diferentes, dependiendo de si se trata de un espíritu creado por las deidades del Tengatti o es en si mismo un Kami menor de la muerte. Los Shinigami menores son en realidad agentes de las deidades que residen en el Tengatti. Su función es la de capturar aquellas almas que escapan a los designios de los Kami y a sus castigos, así como asegurarse de que los mortales no traten de abrir puertas al Samsara que pueda poner en peligro la ya de por si frágil estructura del más allá.\n\nSiempre actúan por petición de sus señores, siendo poco más que marionetas que meramente obedecen las órdenes que reciben. Si ejecutan con corrección su labor durante largos periodos de tiempo (varios siglos o incluso milenios), pueden ser recompensados recibiendo el pleno estatus de Kami, y siendo puesto a cargo de otros Shinigami menores. Por el contrario, los verdaderos Kami de la Muerte tienen un origen mucho más ignoto. Son independientes y actúan movidos únicamente por sus propios caprichos, que a menudo pueden llegar a parecer crueles a los ojos de los mortales. Caminan por el mundo sin ser vistos por los mortales, eligiendo de vez en cuando a personas que deben de perder la vida y llevándose consigo sus almas por mero afán de coleccionismo. m oduS oPerandiLosShinigamis suelen caminar entre los hombres llevándose consigo las almas que más les interesan.\n\nNormalmente, atacan a las personas separando temporalmente sus espíritus de sus cuerpos para guardarlas en sus sacos. Les gusta coleccionar almas poderosas, ya que cuando las consumen sus habilidades se incrementan mucho más que con las de personas normales. Si se enfrentan a enemigos que pueden verlos, hacen un cuidadoso uso de su poder de imitar el daño, lo que les otorga una completa superioridad sobre sus rivales. En la mayoría de casos, o bien su corazón o bien su cabeza son puntos vulnerables, aunque nunca ambos a la vez. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +251,6 @@
           }
         }
       ],
-      "level": {
-        "value": 10
-      },
       "notes": [
         {
           "_id": "note-shinigami-2-3",
@@ -345,52 +270,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 0
-          }
+          "value": 0,
+          "mod": 0
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         }
       },
       "secondaries": {
@@ -401,9 +310,6 @@
         "initiative": {
           "base": {
             "value": 130
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +360,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 25
+              "value": 100
             },
             "final": {
               "value": 0
@@ -465,10 +368,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 25
+              "value": 100
             },
             "final": {
               "value": 0
@@ -476,10 +376,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 100055
+              "value": 100130
             },
             "final": {
               "value": 0
@@ -487,10 +384,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -498,10 +392,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 95
             },
             "final": {
               "value": 0
@@ -513,212 +404,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 285
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 270
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -749,11 +883,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -765,14 +895,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -786,14 +921,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -898,15 +1030,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -918,37 +1046,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1071,9 +1219,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

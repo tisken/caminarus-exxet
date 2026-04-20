@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 10
+          "value": "10"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 31</p><p><strong>Entrada:</strong> Lamya Maximov</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Conjurador Fue: 5 Des: 8 Agi: 7 Con: 6 Pod: 9 Int: 9 Vol: 9 Per: 7 RF 35 RM 50 RP 40 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Don, Recuperación superior de magia.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 30 Daga ritual</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Montar 15, Nadar 10, Estilo 15, Intimidar 20, Advertir 25, Buscar 15, Historia 20, Memorizar 20, Ocultismo 90, Valoración mágica 35</p><p><strong>Descripción breve:</strong> En todo el sentido de la palabra, Lamya es la última descendiente de una familia de brujas, que desde seis generaciones atrás han sido adiestradas en el dominio de las artes ocultas. ##### Babelion _Página 32_ Alos diecisiete, participó junto a su madre y sus dos hermanas en el ritual más complejo de cuantos su familia había practicado en varias generaciones. Todo parecía ir correctamente, pero en lugar de la entidad que trataban de llamar, ante ellas se manifestaron tres espíritus oscuros que se hacían llamar a sí mismos Los Saqueadores. Aunque débiles a consecuencia de su manifestación, los monstruosos espectros trataron de acabar con las invocadoras, entablando un combate de considerables dimensiones. Uno de ellos pudo ser contenido y encerrado en una joya, pero los otros dos escaparon en distintas direcciones para alimentarse de almas y recuperar sus fuerzas perdidas. En contra de los consejos de su madre, que había quedado completamente extenuada, Lamya salió en su búsqueda sólo para descubrir que uno de Los Saqueadores había destruido casi por completo la aldea cercana. Inútilmente trató de sellar a la criatura, aunque de hecho, tuvo mucha suerte de salir con vida de la confrontación. Exhausta, cayó inconsciente, permaneciendo al borde de la vida y de la muerte durante dos días. Pero cuando despertó y se repuso, Lamya no podía imaginarse que el horror para ella no había hecho más que empezar. Al parecer, mientras estaba inconsciente, los escasos supervivientes de la aldea consiguieron contactar con un Alto Inquisidor quien, desde mucha distancia, había sentido la destrucción provocada por las criaturas. Este no tardó en presentarse entre las ruinas de la aldea y destruyó al segundo Saqueador, pero pensando que los Maximov habían liberado a esas criaturas voluntariamente, prendió fuego a la mansión y aparentemente ejecutó a toda la familia. Cuando llegó hasta lo que llamaba hogar, Lamya no pudo hacer otra cosa salvo llorar. Haciendo acopio de toda su voluntad, secó sus ojos, recogió aquello que encontró de valor y se preparó para partir. Sabe que, en algún lugar del mundo, aún se oculta el tercero y más poderoso de Los Saqueadores, nutriéndose de infinidad de almas humanas. Ella lo trajo a este mundo y es su responsabilidad acabar con él. Notas y curiosidades: A lo largo de sus años de estudios, Lamya ha conseguido sellar un pacto con el Arcano conocido como La Suma Sacerdotisa, logrando resolver su acertijo con mucho ingenio. Además, Lamya tiene a su servicio a un pequeño espíritu tenebroso llamado Babelion (al que cariñosamente se refiere como “Babe”). La criatura se encuentra controlada por la joven y está atada a una daga ritual. A pesar de su esencia tenebrosa, Babe siente un considerable cariño por su dueña, y resulta altamente improbable que la atacase, incluso si logra liberarse. Lamya aún no ha decido si hacer o no aBabe su familiar, en espera de si, a lo largo de sus viajes y estudios, encuentra a una entidad más apropiada para forjar semejante lazo. Las estadísticas de Babe se encuentran descritas a continuación. Posesiones: Daga ritual (con una criatura atada en su interior), Algunos útiles de cocina, Una muda de ropa, Algunas velas y pinturas, Una mochila, 3 Escudos de Oro. b abelion espectro oscuro menor</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 90 Categoría: Conjurador Fue: 5 Des: 8 Agi: 7 Con: 6 Pod: 9 Int: 9 Vol: 9 Per: 7 RF 35 RM 50 RP 40 RV 35 RE 35\n\nTurno: 60 Natural Habilidad de ataque: 10 Daga ritual Habilidad de defensa: 5 Esquiva Daño: 30 Daga ritual Llevar Armadura: 0 TA: Ninguna ACT: 20\n\nZeon: 570\n\nProyección Mágica: 10 Nivel de magia: 20 Esencia\n\nConvocar: 120 Desconvocar: 30 Controlar: 90 Atar: 40 Arcanos: La Suma Sacerdotisa Ventajas y desventajas: Don, Recuperación superior de magia. Habilidades naturales: Ninguna.\n\nTamaño: 10 Medio Regeneración: 1 Tipo de movimiento: 7 Cansancio: 6 Habilidades Secundarias: Montar 1 5, Nadar 10, Estilo 1 5, Intimidar 20, Advertir 25, Buscar 1 5, Historia 20, Memorizar 20, Ocultismo 90, Valoración mágica 35. En todo el sentido de la palabra, Lamya es la última descendiente de una familia de brujas, que desde seis generaciones atrás han sido adiestradas en el dominio de las artes ocultas.\n\n##### Babelion\n\n&lt;!-- tags: @personaje, @localizacion --&gt;\n\n_Página 32_\n\nAlos diecisiete, participó junto a su madre y sus dos hermanas en el ritual más complejo de cuantos su familia había practicado en varias generaciones. Todo parecía ir correctamente, pero en lugar de la entidad que trataban de llamar, ante ellas se manifestaron tres espíritus oscuros que se hacían llamar a sí mismos Los Saqueadores. Aunque débiles a consecuencia de su manifestación, los monstruosos espectros trataron de acabar con las invocadoras, entablando un combate de considerables dimensiones. Uno de ellos pudo ser contenido y encerrado en una joya, pero los otros dos escaparon en distintas direcciones para alimentarse de almas y recuperar sus fuerzas perdidas. En contra de los consejos de su madre, que había quedado completamente extenuada, Lamya salió en su búsqueda sólo para descubrir que uno de Los Saqueadores había destruido casi por completo la aldea cercana.\n\nInútilmente trató de sellar a la criatura, aunque de hecho, tuvo mucha suerte de salir con vida de la confrontación. Exhausta, cayó inconsciente, permaneciendo al borde de la vida y de la muerte durante dos días. Pero cuando despertó y se repuso, Lamya no podía imaginarse que el horror para ella no había hecho más que empezar. Al parecer, mientras estaba inconsciente, los escasos supervivientes de la aldea consiguieron contactar con un Alto Inquisidor quien, desde mucha distancia, había sentido la destrucción provocada por las criaturas. Este no tardó en presentarse entre las ruinas de la aldea y destruyó al segundo Saqueador, pero pensando que los Maximov habían liberado a esas criaturas voluntariamente, prendió fuego a la mansión y aparentemente ejecutó a toda la familia. Cuando llegó hasta lo que llamaba hogar, Lamya no pudo hacer otra cosa salvo llorar.\n\nHaciendo acopio de toda su voluntad, secó sus ojos, recogió aquello que encontró de valor y se preparó para partir. Sabe que, en algún lugar del mundo, aún se oculta el tercero y más poderoso de Los Saqueadores, nutriéndose de infinidad de almas humanas. Ella lo trajo a este mundo y es su responsabilidad acabar con él. Notas y curiosidades: A lo largo de sus años de estudios, Lamya ha conseguido sellar un pacto con el Arcano conocido como La Suma Sacerdotisa, logrando resolver su acertijo con mucho ingenio. Además, Lamya tiene a su servicio a un pequeño espíritu tenebroso llamado Babelion (al que cariñosamente se refiere como “Babe”). La criatura se encuentra controlada por la joven y está atada a una daga ritual. A pesar de su esencia tenebrosa, Babe siente un considerable cariño por su dueña, y resulta altamente improbable que la atacase, incluso si logra liberarse.\n\nLamya aún no ha decido si hacer o no aBabe su familiar, en espera de si, a lo largo de sus viajes y estudios, encuentra a una entidad más apropiada para forjar semejante lazo. Las estadísticas de Babe se encuentran descritas a continuación. Posesiones: Daga ritual (con una criatura atada en su interior), Algunos útiles de cocina, Una muda de ropa, Algunas velas y pinturas, Una mochila, 3 Escudos de Oro. b abelion espectro oscuro menor</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 31</p><p><strong>Entrada:</strong> Lamya Maximov</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Conjurador Fue: 5 Des: 8 Agi: 7 Con: 6 Pod: 9 Int: 9 Vol: 9 Per: 7 RF 35 RM 50 RP 40 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Don, Recuperación superior de magia.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 30 Daga ritual</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Montar 15, Nadar 10, Estilo 15, Intimidar 20, Advertir 25, Buscar 15, Historia 20, Memorizar 20, Ocultismo 90, Valoración mágica 35</p><p><strong>Descripción breve:</strong> En todo el sentido de la palabra, Lamya es la última descendiente de una familia de brujas, que desde seis generaciones atrás han sido adiestradas en el dominio de las artes ocultas. ##### Babelion _Página 32_ Alos diecisiete, participó junto a su madre y sus dos hermanas en el ritual más complejo de cuantos su familia había practicado en varias generaciones. Todo parecía ir correctamente, pero en lugar de la entidad que trataban de llamar, ante ellas se manifestaron tres espíritus oscuros que se hacían llamar a sí mismos Los Saqueadores. Aunque débiles a consecuencia de su manifestación, los monstruosos espectros trataron de acabar con las invocadoras, entablando un combate de considerables dimensiones. Uno de ellos pudo ser contenido y encerrado en una joya, pero los otros dos escaparon en distintas direcciones para alimentarse de almas y recuperar sus fuerzas perdidas. En contra de los consejos de su madre, que había quedado completamente extenuada, Lamya salió en su búsqueda sólo para descubrir que uno de Los Saqueadores había destruido casi por completo la aldea cercana. Inútilmente trató de sellar a la criatura, aunque de hecho, tuvo mucha suerte de salir con vida de la confrontación. Exhausta, cayó inconsciente, permaneciendo al borde de la vida y de la muerte durante dos días. Pero cuando despertó y se repuso, Lamya no podía imaginarse que el horror para ella no había hecho más que empezar. Al parecer, mientras estaba inconsciente, los escasos supervivientes de la aldea consiguieron contactar con un Alto Inquisidor quien, desde mucha distancia, había sentido la destrucción provocada por las criaturas. Este no tardó en presentarse entre las ruinas de la aldea y destruyó al segundo Saqueador, pero pensando que los Maximov habían liberado a esas criaturas voluntariamente, prendió fuego a la mansión y aparentemente ejecutó a toda la familia. Cuando llegó hasta lo que llamaba hogar, Lamya no pudo hacer otra cosa salvo llorar. Haciendo acopio de toda su voluntad, secó sus ojos, recogió aquello que encontró de valor y se preparó para partir. Sabe que, en algún lugar del mundo, aún se oculta el tercero y más poderoso de Los Saqueadores, nutriéndose de infinidad de almas humanas. Ella lo trajo a este mundo y es su responsabilidad acabar con él. Notas y curiosidades: A lo largo de sus años de estudios, Lamya ha conseguido sellar un pacto con el Arcano conocido como La Suma Sacerdotisa, logrando resolver su acertijo con mucho ingenio. Además, Lamya tiene a su servicio a un pequeño espíritu tenebroso llamado Babelion (al que cariñosamente se refiere como “Babe”). La criatura se encuentra controlada por la joven y está atada a una daga ritual. A pesar de su esencia tenebrosa, Babe siente un considerable cariño por su dueña, y resulta altamente improbable que la atacase, incluso si logra liberarse. Lamya aún no ha decido si hacer o no aBabe su familiar, en espera de si, a lo largo de sus viajes y estudios, encuentra a una entidad más apropiada para forjar semejante lazo. Las estadísticas de Babe se encuentran descritas a continuación. Posesiones: Daga ritual (con una criatura atada en su interior), Algunos útiles de cocina, Una muda de ropa, Algunas velas y pinturas, Una mochila, 3 Escudos de Oro. b abelion espectro oscuro menor</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 90 Categoría: Conjurador Fue: 5 Des: 8 Agi: 7 Con: 6 Pod: 9 Int: 9 Vol: 9 Per: 7 RF 35 RM 50 RP 40 RV 35 RE 35\n\nTurno: 60 Natural Habilidad de ataque: 10 Daga ritual Habilidad de defensa: 5 Esquiva Daño: 30 Daga ritual Llevar Armadura: 0 TA: Ninguna ACT: 20\n\nZeon: 570\n\nProyección Mágica: 10 Nivel de magia: 20 Esencia\n\nConvocar: 120 Desconvocar: 30 Controlar: 90 Atar: 40 Arcanos: La Suma Sacerdotisa Ventajas y desventajas: Don, Recuperación superior de magia. Habilidades naturales: Ninguna.\n\nTamaño: 10 Medio Regeneración: 1 Tipo de movimiento: 7 Cansancio: 6 Habilidades Secundarias: Montar 1 5, Nadar 10, Estilo 1 5, Intimidar 20, Advertir 25, Buscar 1 5, Historia 20, Memorizar 20, Ocultismo 90, Valoración mágica 35. En todo el sentido de la palabra, Lamya es la última descendiente de una familia de brujas, que desde seis generaciones atrás han sido adiestradas en el dominio de las artes ocultas.\n\n##### Babelion\n\n&lt;!-- tags: @personaje, @localizacion --&gt;\n\n_Página 32_\n\nAlos diecisiete, participó junto a su madre y sus dos hermanas en el ritual más complejo de cuantos su familia había practicado en varias generaciones. Todo parecía ir correctamente, pero en lugar de la entidad que trataban de llamar, ante ellas se manifestaron tres espíritus oscuros que se hacían llamar a sí mismos Los Saqueadores. Aunque débiles a consecuencia de su manifestación, los monstruosos espectros trataron de acabar con las invocadoras, entablando un combate de considerables dimensiones. Uno de ellos pudo ser contenido y encerrado en una joya, pero los otros dos escaparon en distintas direcciones para alimentarse de almas y recuperar sus fuerzas perdidas. En contra de los consejos de su madre, que había quedado completamente extenuada, Lamya salió en su búsqueda sólo para descubrir que uno de Los Saqueadores había destruido casi por completo la aldea cercana.\n\nInútilmente trató de sellar a la criatura, aunque de hecho, tuvo mucha suerte de salir con vida de la confrontación. Exhausta, cayó inconsciente, permaneciendo al borde de la vida y de la muerte durante dos días. Pero cuando despertó y se repuso, Lamya no podía imaginarse que el horror para ella no había hecho más que empezar. Al parecer, mientras estaba inconsciente, los escasos supervivientes de la aldea consiguieron contactar con un Alto Inquisidor quien, desde mucha distancia, había sentido la destrucción provocada por las criaturas. Este no tardó en presentarse entre las ruinas de la aldea y destruyó al segundo Saqueador, pero pensando que los Maximov habían liberado a esas criaturas voluntariamente, prendió fuego a la mansión y aparentemente ejecutó a toda la familia. Cuando llegó hasta lo que llamaba hogar, Lamya no pudo hacer otra cosa salvo llorar.\n\nHaciendo acopio de toda su voluntad, secó sus ojos, recogió aquello que encontró de valor y se preparó para partir. Sabe que, en algún lugar del mundo, aún se oculta el tercero y más poderoso de Los Saqueadores, nutriéndose de infinidad de almas humanas. Ella lo trajo a este mundo y es su responsabilidad acabar con él. Notas y curiosidades: A lo largo de sus años de estudios, Lamya ha conseguido sellar un pacto con el Arcano conocido como La Suma Sacerdotisa, logrando resolver su acertijo con mucho ingenio. Además, Lamya tiene a su servicio a un pequeño espíritu tenebroso llamado Babelion (al que cariñosamente se refiere como “Babe”). La criatura se encuentra controlada por la joven y está atada a una daga ritual. A pesar de su esencia tenebrosa, Babe siente un considerable cariño por su dueña, y resulta altamente improbable que la atacase, incluso si logra liberarse.\n\nLamya aún no ha decido si hacer o no aBabe su familiar, en espera de si, a lo largo de sus viajes y estudios, encuentra a una entidad más apropiada para forjar semejante lazo. Las estadísticas de Babe se encuentran descritas a continuación. Posesiones: Daga ritual (con una criatura atada en su interior), Algunos útiles de cocina, Una muda de ropa, Algunas velas y pinturas, Una mochila, 3 Escudos de Oro. b abelion espectro oscuro menor</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-lamya-maximov-1",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 60
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 3525
+              "value": 3560
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10
+              "value": 50
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -513,224 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}",
           "base": {
             "value": 10
+          },
+          "final": {
+            "value": 0
           }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 90
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 10
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 5
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -761,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -777,16 +889,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 570,
         "max": 570
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -798,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -910,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -930,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1083,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

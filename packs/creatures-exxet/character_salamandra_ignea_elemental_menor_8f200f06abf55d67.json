@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 20
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": "Elemental Menor"
         },
         "size": {
-          "value": 11
+          "value": "11"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 146</p><p><strong>Entrada:</strong> Salamandra Ígnea</p><p><strong>Variante:</strong> Elemental Menor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 10</p><p><strong>Categoría:</strong> Guerrero Fue: 6 Des: 8 Agi: 6 Con: 5 Pod: 5 Int: 3 Vol: 4 Per: 5 RF 20 RM 20 RP 15 RV 20 RE 20</p><p><strong>Habilidades esenciales:</strong> Crecimiento Innatural, Inhumanidad, Inmunidad Natural a un Elemento Especial (Completa, Fuego), Vulnerabilidad Elemental (Doble Daño, Agua, Frío).</p><p><strong>Poderes:</strong> Armas Naturales (Mordisco, +10 al Daño), Llamaradas (Distancia 25 Metros, Daño Base 40, Área 1 Metro, 2 Veces Adicionales, Ataque Elemental), Escamas (Armadura Física 2).</p><p><strong>Daño:</strong> 50 Mordisco (Pen), 40 Llamaradas (Cal)</p><p><strong>TA:</strong> Natural + Escamas Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 3</p><p><strong>Habilidades secundarias:</strong> Rastrear 15, Advertir 20, Buscar 10</p><p><strong>Descripción breve:</strong> Las Salamandras son los más básicos de todos los elementales de fuego, espíritus menores de las llamas que nacen erráticamente cuando una gran acumulación de magia se mezcla con algún incendio o fogata. Aprimera vista no son más que grandes lagartos de piel roja cuya cola acaba en una gran bola de crepitantes llamas. Normalmente miden algo más un metro de pies a cabeza, si bien a veces llegan hasta a triplicar ese tamaño. Su inteligencia es bastante limitada (similar a la de un simple animal) y en ocasiones incluso bastante estúpidas. Se desorientan con facilidad y no saben cómo regresar por donde han venido, algo que les causa muchos problemas tanto a ellas como a aquellos con quienes se encuentran mientras deambulan sin rumbo. Tienen la costumbre de reunirse en grupos numerosos en lugares donde hace mucho calor. Su hábitat predilecto son las zonas volcánicas llenas de lava, donde en ocasiones puede haber más de una decena “descansando” debajo del ardiente magma. Instintivamente obedecen a cualquier elemental de fuego más poderoso, por lo que es relativamente común ver a varias como hueste de algún Ifrit. Lo cierto es que, pese a ser espíritus menores, las Salamandras tienen una gran capacidad de evolución y no tardan demasiado en convertirse en alguna clase de elemental intermedio. En ese sentido, es fácil verlas como un estado larvario de criaturas ígneas mayores. m oduS oPerandiLasSalamandras tienden a ser seres cobardes, pero como su manera de responder ante el miedo y la presión es atacar frenéticamente todo lo que se mueva, llegan a ser criaturas bastante peligrosas. Lo habitual es que empiecen todas sus luchas lanzando primero una llamarada con la cola mientras corren contra sus adversarios profiriendo chillidos amenazantes. En realidad, lo único que esperan es que sus enemigos huyan, pero ya que creen que acabaran haciéndolo una vez estén sobre ellos y les muerdan, pronto acaba siendo demasiado tarde para que ninguno de ellos se eche atrás. Llamaradas: Utilizando su cola, la Salamandra crea pequeñas bolas de fuego que lanza a distancia haciéndolas estallar al llegar a su blanco. Este ataque tiene una distancia máxima de 25 metros y, cuando impactan, forman una llamarada que abarca hasta 1 metro de radio. Debido al esfuerzo que le conlleva producir estas esferas, la Salamandra es incapaz de lanzar más de tres bolas de fuego sin descansar primero unas pocas horas. Crecimiento Innatural: Las Salamandras ígneas crecen y aumentan su fuerza conforme van ganando poder. A veces, pueden incluso llegar a multiplicar por diez su tamaño. Por ello, cada vez que suben de nivel obtiene un bonificador especial de +1 a su Fuerza y su Constitución aparte del bono a las características que reciben todos los seres cada nivel par. Esta evolución se detiene al alcanzar el nivel 5. Inmunidad al Fuego: El fuego natural no produce daño alguno a las Salamandras. De hecho, son incluso capaces de caminar bajo la lava sin sufrir perjuicio alguno. No obstante, el fuego sobrenatural (incluso si este no es capaz de dañar energía, como es el caso de una Bola de Fuego), podría dañarlas automáticamente. Vulnerabilidad al Frío y al Agua: El fuego es la base de la vida de las Salamandras, lo que las hace incapaces de sobrevivir en climas helados o de sumergirse bajo el agua. Dado que en el caso de que la llama de su cola se extinga mueren automáticamente, los ataques basados en frío o agua no sólo les producen doble daño, sino que si entran en contacto con algo que pueda apagar el fuego han de realizar un control de RF contra 140 o sufrir un daño equivalente al doble del nivel de fracaso.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 0\n\nClase: Entre mundos, Elemental 10 Puntos de Vida: 580 Acumulación Categoría: Guerrero Fue: 6 Des: 8 Agi: 6 Con: 5 Pod: 5 Int: 3 Vol: 4 Per: 5 RF 20 RM 20 RP 15 RV 20 RE 20\n\nTurno: 55 Natural Habilidad de ataque: 60 Mordisco Habilidad de defensa: Acumulación Daño: 50 Mordisco (Pen), 40 Llamaradas (Cal) TA: Natural + Escamas Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 3 Habilidades esenciales: Crecimiento Innatural, Inhumanidad, Inmunidad Natural a un Elemento Especial (Completa, Fuego), Vulnerabilidad Elemental (Doble Daño, Agua, Frío). Poderes: Armas Naturales (Mordisco, +10 al Daño), Llamaradas (Distancia 25 Metros, Daño Base 40, Área 1 Metro, 2 Veces Adicionales, Ataque Elemental), Escamas (Armadura Física 2).\n\nTamaño: 11 Medio Regeneración: 1 Tipo de movimiento: 6 Cansancio: 6 Habilidades Secundarias: Rastrear 1 5, Advertir 20, Buscar 10. Las Salamandras son los más básicos de todos los elementales de fuego, espíritus menores de las llamas que nacen erráticamente cuando una gran acumulación de magia se mezcla con algún incendio o fogata. Aprimera vista no son más que grandes lagartos de piel roja cuya cola acaba en una gran bola de crepitantes llamas. Normalmente miden algo más un metro de pies a cabeza, si bien a veces llegan hasta a triplicar ese tamaño. Su inteligencia es bastante limitada (similar a la de un simple animal) y en ocasiones incluso bastante estúpidas. Se desorientan con facilidad y no saben cómo regresar por donde han venido, algo que les causa muchos problemas tanto a ellas como a aquellos con quienes se encuentran mientras deambulan sin rumbo.\n\nTienen la costumbre de reunirse en grupos numerosos en lugares donde hace mucho calor. Su hábitat predilecto son las zonas volcánicas llenas de lava, donde en ocasiones puede haber más de una decena “descansando” debajo del ardiente magma. Instintivamente obedecen a cualquier elemental de fuego más poderoso, por lo que es relativamente común ver a varias como hueste de algún Ifrit. Lo cierto es que, pese a ser espíritus menores, las Salamandras tienen una gran capacidad de evolución y no tardan demasiado en convertirse en alguna clase de elemental intermedio. En ese sentido, es fácil verlas como un estado larvario de criaturas ígneas mayores. m oduS oPerandiLasSalamandras tienden a ser seres cobardes, pero como su manera de responder ante el miedo y la presión es atacar frenéticamente todo lo que se mueva, llegan a ser criaturas bastante peligrosas.\n\nLo habitual es que empiecen todas sus luchas lanzando primero una llamarada con la cola mientras corren contra sus adversarios profiriendo chillidos amenazantes. En realidad, lo único que esperan es que sus enemigos huyan, pero ya que creen que acabaran haciéndolo una vez estén sobre ellos y les muerdan, pronto acaba siendo demasiado tarde para que ninguno de ellos se eche atrás. Llamaradas: Utilizando su cola, la Salamandra crea pequeñas bolas de fuego que lanza a distancia haciéndolas estallar al llegar a su blanco. Este ataque tiene una distancia máxima de 25 metros y, cuando impactan, forman una llamarada que abarca hasta 1 metro de radio. Debido al esfuerzo que le conlleva producir estas esferas, la Salamandra es incapaz de lanzar más de tres bolas de fuego sin descansar primero unas pocas horas.\n\nCrecimiento Innatural: Las Salamandras ígneas crecen y aumentan su fuerza conforme van ganando poder. A veces, pueden incluso llegar a multiplicar por diez su tamaño. Por ello, cada vez que suben de nivel obtiene un bonificador especial de +1 a su Fuerza y su Constitución aparte del bono a las características que reciben todos los seres cada nivel par. Esta evolución se detiene al alcanzar el nivel 5. Inmunidad al Fuego: El fuego natural no produce daño alguno a las Salamandras. De hecho, son incluso capaces de caminar bajo la lava sin sufrir perjuicio alguno. No obstante, el fuego sobrenatural (incluso si este no es capaz de dañar energía, como es el caso de una Bola de Fuego), podría dañarlas automáticamente. Vulnerabilidad al Frío y al Agua: El fuego es la base de la vida de las Salamandras, lo que las hace incapaces de sobrevivir en climas helados o de sumergirse bajo el agua.\n\nDado que en el caso de que la llama de su cola se extinga mueren automáticamente, los ataques basados en frío o agua no sólo les producen doble daño, sino que si entran en contacto con algo que pueda apagar el fuego han de realizar un control de RF contra 1 40 o sufrir un daño equivalente al doble del nivel de fracaso. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 146</p><p><strong>Entrada:</strong> Salamandra Ígnea</p><p><strong>Variante:</strong> Elemental Menor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 10</p><p><strong>Categoría:</strong> Guerrero Fue: 6 Des: 8 Agi: 6 Con: 5 Pod: 5 Int: 3 Vol: 4 Per: 5 RF 20 RM 20 RP 15 RV 20 RE 20</p><p><strong>Habilidades esenciales:</strong> Crecimiento Innatural, Inhumanidad, Inmunidad Natural a un Elemento Especial (Completa, Fuego), Vulnerabilidad Elemental (Doble Daño, Agua, Frío).</p><p><strong>Poderes:</strong> Armas Naturales (Mordisco, +10 al Daño), Llamaradas (Distancia 25 Metros, Daño Base 40, Área 1 Metro, 2 Veces Adicionales, Ataque Elemental), Escamas (Armadura Física 2).</p><p><strong>Daño:</strong> 50 Mordisco (Pen), 40 Llamaradas (Cal)</p><p><strong>TA:</strong> Natural + Escamas Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 3</p><p><strong>Habilidades secundarias:</strong> Rastrear 15, Advertir 20, Buscar 10</p><p><strong>Descripción breve:</strong> Las Salamandras son los más básicos de todos los elementales de fuego, espíritus menores de las llamas que nacen erráticamente cuando una gran acumulación de magia se mezcla con algún incendio o fogata. Aprimera vista no son más que grandes lagartos de piel roja cuya cola acaba en una gran bola de crepitantes llamas. Normalmente miden algo más un metro de pies a cabeza, si bien a veces llegan hasta a triplicar ese tamaño. Su inteligencia es bastante limitada (similar a la de un simple animal) y en ocasiones incluso bastante estúpidas. Se desorientan con facilidad y no saben cómo regresar por donde han venido, algo que les causa muchos problemas tanto a ellas como a aquellos con quienes se encuentran mientras deambulan sin rumbo. Tienen la costumbre de reunirse en grupos numerosos en lugares donde hace mucho calor. Su hábitat predilecto son las zonas volcánicas llenas de lava, donde en ocasiones puede haber más de una decena “descansando” debajo del ardiente magma. Instintivamente obedecen a cualquier elemental de fuego más poderoso, por lo que es relativamente común ver a varias como hueste de algún Ifrit. Lo cierto es que, pese a ser espíritus menores, las Salamandras tienen una gran capacidad de evolución y no tardan demasiado en convertirse en alguna clase de elemental intermedio. En ese sentido, es fácil verlas como un estado larvario de criaturas ígneas mayores. m oduS oPerandiLasSalamandras tienden a ser seres cobardes, pero como su manera de responder ante el miedo y la presión es atacar frenéticamente todo lo que se mueva, llegan a ser criaturas bastante peligrosas. Lo habitual es que empiecen todas sus luchas lanzando primero una llamarada con la cola mientras corren contra sus adversarios profiriendo chillidos amenazantes. En realidad, lo único que esperan es que sus enemigos huyan, pero ya que creen que acabaran haciéndolo una vez estén sobre ellos y les muerdan, pronto acaba siendo demasiado tarde para que ninguno de ellos se eche atrás. Llamaradas: Utilizando su cola, la Salamandra crea pequeñas bolas de fuego que lanza a distancia haciéndolas estallar al llegar a su blanco. Este ataque tiene una distancia máxima de 25 metros y, cuando impactan, forman una llamarada que abarca hasta 1 metro de radio. Debido al esfuerzo que le conlleva producir estas esferas, la Salamandra es incapaz de lanzar más de tres bolas de fuego sin descansar primero unas pocas horas. Crecimiento Innatural: Las Salamandras ígneas crecen y aumentan su fuerza conforme van ganando poder. A veces, pueden incluso llegar a multiplicar por diez su tamaño. Por ello, cada vez que suben de nivel obtiene un bonificador especial de +1 a su Fuerza y su Constitución aparte del bono a las características que reciben todos los seres cada nivel par. Esta evolución se detiene al alcanzar el nivel 5. Inmunidad al Fuego: El fuego natural no produce daño alguno a las Salamandras. De hecho, son incluso capaces de caminar bajo la lava sin sufrir perjuicio alguno. No obstante, el fuego sobrenatural (incluso si este no es capaz de dañar energía, como es el caso de una Bola de Fuego), podría dañarlas automáticamente. Vulnerabilidad al Frío y al Agua: El fuego es la base de la vida de las Salamandras, lo que las hace incapaces de sobrevivir en climas helados o de sumergirse bajo el agua. Dado que en el caso de que la llama de su cola se extinga mueren automáticamente, los ataques basados en frío o agua no sólo les producen doble daño, sino que si entran en contacto con algo que pueda apagar el fuego han de realizar un control de RF contra 140 o sufrir un daño equivalente al doble del nivel de fracaso.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 0\n\nClase: Entre mundos, Elemental 10 Puntos de Vida: 580 Acumulación Categoría: Guerrero Fue: 6 Des: 8 Agi: 6 Con: 5 Pod: 5 Int: 3 Vol: 4 Per: 5 RF 20 RM 20 RP 15 RV 20 RE 20\n\nTurno: 55 Natural Habilidad de ataque: 60 Mordisco Habilidad de defensa: Acumulación Daño: 50 Mordisco (Pen), 40 Llamaradas (Cal) TA: Natural + Escamas Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 3 Habilidades esenciales: Crecimiento Innatural, Inhumanidad, Inmunidad Natural a un Elemento Especial (Completa, Fuego), Vulnerabilidad Elemental (Doble Daño, Agua, Frío). Poderes: Armas Naturales (Mordisco, +10 al Daño), Llamaradas (Distancia 25 Metros, Daño Base 40, Área 1 Metro, 2 Veces Adicionales, Ataque Elemental), Escamas (Armadura Física 2).\n\nTamaño: 11 Medio Regeneración: 1 Tipo de movimiento: 6 Cansancio: 6 Habilidades Secundarias: Rastrear 1 5, Advertir 20, Buscar 10. Las Salamandras son los más básicos de todos los elementales de fuego, espíritus menores de las llamas que nacen erráticamente cuando una gran acumulación de magia se mezcla con algún incendio o fogata. Aprimera vista no son más que grandes lagartos de piel roja cuya cola acaba en una gran bola de crepitantes llamas. Normalmente miden algo más un metro de pies a cabeza, si bien a veces llegan hasta a triplicar ese tamaño. Su inteligencia es bastante limitada (similar a la de un simple animal) y en ocasiones incluso bastante estúpidas. Se desorientan con facilidad y no saben cómo regresar por donde han venido, algo que les causa muchos problemas tanto a ellas como a aquellos con quienes se encuentran mientras deambulan sin rumbo.\n\nTienen la costumbre de reunirse en grupos numerosos en lugares donde hace mucho calor. Su hábitat predilecto son las zonas volcánicas llenas de lava, donde en ocasiones puede haber más de una decena “descansando” debajo del ardiente magma. Instintivamente obedecen a cualquier elemental de fuego más poderoso, por lo que es relativamente común ver a varias como hueste de algún Ifrit. Lo cierto es que, pese a ser espíritus menores, las Salamandras tienen una gran capacidad de evolución y no tardan demasiado en convertirse en alguna clase de elemental intermedio. En ese sentido, es fácil verlas como un estado larvario de criaturas ígneas mayores. m oduS oPerandiLasSalamandras tienden a ser seres cobardes, pero como su manera de responder ante el miedo y la presión es atacar frenéticamente todo lo que se mueva, llegan a ser criaturas bastante peligrosas.\n\nLo habitual es que empiecen todas sus luchas lanzando primero una llamarada con la cola mientras corren contra sus adversarios profiriendo chillidos amenazantes. En realidad, lo único que esperan es que sus enemigos huyan, pero ya que creen que acabaran haciéndolo una vez estén sobre ellos y les muerdan, pronto acaba siendo demasiado tarde para que ninguno de ellos se eche atrás. Llamaradas: Utilizando su cola, la Salamandra crea pequeñas bolas de fuego que lanza a distancia haciéndolas estallar al llegar a su blanco. Este ataque tiene una distancia máxima de 25 metros y, cuando impactan, forman una llamarada que abarca hasta 1 metro de radio. Debido al esfuerzo que le conlleva producir estas esferas, la Salamandra es incapaz de lanzar más de tres bolas de fuego sin descansar primero unas pocas horas.\n\nCrecimiento Innatural: Las Salamandras ígneas crecen y aumentan su fuerza conforme van ganando poder. A veces, pueden incluso llegar a multiplicar por diez su tamaño. Por ello, cada vez que suben de nivel obtiene un bonificador especial de +1 a su Fuerza y su Constitución aparte del bono a las características que reciben todos los seres cada nivel par. Esta evolución se detiene al alcanzar el nivel 5. Inmunidad al Fuego: El fuego natural no produce daño alguno a las Salamandras. De hecho, son incluso capaces de caminar bajo la lava sin sufrir perjuicio alguno. No obstante, el fuego sobrenatural (incluso si este no es capaz de dañar energía, como es el caso de una Bola de Fuego), podría dañarlas automáticamente. Vulnerabilidad al Frío y al Agua: El fuego es la base de la vida de las Salamandras, lo que las hace incapaces de sobrevivir en climas helados o de sumergirse bajo el agua.\n\nDado que en el caso de que la llama de su cola se extinga mueren automáticamente, los ataques basados en frío o agua no sólo les producen doble daño, sino que si entran en contacto con algo que pueda apagar el fuego han de realizar un control de RF contra 1 40 o sufrir un daño equivalente al doble del nivel de fracaso. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 0
-      },
       "notes": [
         {
           "_id": "note-salamandra-ignea-elemental-menor-3",
@@ -501,52 +423,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         }
       },
       "secondaries": {
@@ -557,9 +463,6 @@
         "initiative": {
           "base": {
             "value": 55
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +513,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 20
             },
             "final": {
               "value": 0
@@ -621,10 +521,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 20
             },
             "final": {
               "value": 0
@@ -632,10 +529,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 2035
+              "value": 2055
             },
             "final": {
               "value": 0
@@ -643,10 +537,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 20
             },
             "final": {
               "value": 0
@@ -654,10 +545,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 15
             },
             "final": {
               "value": 0
@@ -669,200 +557,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 10
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 60
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -893,11 +1036,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -909,14 +1048,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -930,14 +1074,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1042,15 +1183,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1062,37 +1199,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1215,9 +1372,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

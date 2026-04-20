@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
           "value": true
-        },
-        "effects": {
-          "value": false
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 35
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 2</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Orbe (La Máquina · Varna menor)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Mentalista Fue: 1 Des: 10 Agi: 5 Con: 8 Pod: 4 Int: 1 Vol: 13 Per: 5 RF 45 RM 0 RP 60 RV 45 RE 45</p><p><strong>Habilidades esenciales:</strong> Acceso a 1 disciplina psíquica, Desequilibrio psíquico: Electromagnetismo, Exención física, Inmunidad psicológica, Inmune al dolor, Vulnerable a la magia.</p><p><strong>Poderes:</strong> Levitación (Tipo de vuelo místico 6), Cuerpo Metálico, Desconectados, Vulnerabilidad a la Magia.</p><p><strong>Disciplinas:</strong> Psíquicas: Electromagnetismo</p><p><strong>Daño:</strong> 0 Desarmado (Con)</p><p><strong>TA:</strong> Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0</p><p><strong>Habilidades secundarias:</strong> Advertir 180, Buscar 120</p><p><strong>Descripción breve:</strong> “Sorprendentemente similares a un Sello de Defensa místico, pero mucho más duraderos. Sinceramente, espero que esto sea debido a cómo era la tecnología que asimilaron y no a que sean capaces de imitar verdadera magia… o tendremos un muy grave problema entre manos.” Ahanel Galanis, Investigadora Con la apariencia de simples esferas metálicas rodeadas por venas, los orbes son un tipo de tropa defensiva de bajo poder especializados en el combate a distancia. Generalmente, flotan en el aire trasladándose a escasa velocidad mientras proyectan descargas eléctricas contra sus objetivos. La creación de los orbes es particularmente compleja y lenta, aunque se siguen construyendo porque requieren muy poca materia prima orgánica (son prácticamente máquinas, más incluso que los drones o escarabajos). El único componente “vivo” que emplean es sangre, la cual se introduce en su interior para que corra por un complejo y preciso grupo de conductos que simula ser un sistema circulatorio y que le sirve al orbe como red nerviosa. Finalmente, en el centro de la esfera se sitúa un pequeño cristal psíquico, que actúa como fuente de energía. Lo cierto es que los orbes son las criaturas más “lejanas” a La Máquina en cuanto a conexión, dado que su sistema nervioso no se vincula directamente a la Mente Colmena salvo cuando recibe órdenes a corta distancia. Este hecho, muy poco habitual en un sistema generalmente tan enlazado como es La Máquina, se especula que se debe a un problema de diseño motivado por el uso reducido de materia orgánica. Sea como sea, lo único cierto es que esta desvinculación juega en su contra ya que, si no hay ningún miembro de alta jerarquía de La Máquina cerca (a no más de doscientos metros), los orbes se limitarán a atacar a cualquier ente cercano hasta matarlo o ser destruido sin usar ningún tipo de estrategia. Dada sus limitaciones cuando carecen de mando, La Máquina no suele utilizar los orbes a la hora de realizar ofensivas. Su uso más común es por el contrario el de ser apostados en instalaciones o fábricas como medida defensiva. MODUS OPERANDIBajo el mando de un Tecnócrita o Pretoriano, estos seres pueden ser realmente efectivos, aprovechando su capacidad de vuelo para mantenerse constantemente fuera del alcance del enemigo mientras atacan con sus arcos eléctricos a blancos selectos. No obstante, cuando actúan por su cuenta, su capacidad táctica se limita a elevarse a una cierta altura y atacar de forma errática a todo enemigo que se acerque. Inmune al Dolor: Los orbes son prácticamente máquinas, del todo incapaces de sufrir cualquier tipo de dolor (natural o sobrenatural), así como cualquier posible perjuicio derivado del mismo. Cuerpo Metálico: Al estar hechos en su práctica totalidad de metal, su cuerpo demuestra ser realmente resistente, lo cual les otorga una cierta cantidad de Tipo de Armadura contra cualquier ataque no basado en Energía. Sin embargo, también hace que sean incapaces de regenerarse de los daños por sí mismos, pues requieren reparaciones externas para recuperarse. Levitación: En su interior se encuentran unos pequeños generadores que, si bien a no mucha velocidad, le permiten levitar por el aire. Los orbes poseen por ello Tipo de Vuelo Místico 6. Arco Eléctrico: El único método de ataque de que disponen es el poder psíquico Arco eléctrico, que lanzan constantemente contra sus enemigos usando el equivalente a un potencial base de 130 con un incremento en el grado alcanzado. Consecuentemente, un efecto capaz de anular matrices de ese Potencial sería capaz de impedir que se realizara el disparo. Percepción por Movimiento: Los orbes no perciben el mundo de un modo convencional, sino que determinan cuales son las amenazas y sus objetivos usando una especie de detector de movimiento. Si algo se desplaza a menos de 300 metros de ellos, las criaturas pueden tratar de detectarlos usando sus habilidades de Percepción independientemente de si hay o no línea de visión hacia ellos (aunque no pueden hacerlo a través de paredes selladas sobrenaturalmente o con energía). Del mismo modo, son completamente incapaces de “percibir” cosas que se quedan quietas o aquellas intangibles que no tienen una verdadera forma material. Desconectados: Dada su desconexión con la Mente Enjambre, necesitan la dirección de un miembro de alta jerarquía de La Máquina (Tecnócrita o superior) o se limitarán a atacar al objetivo más cercano de forma errática. Para dirigirlos es necesario encontrarse a, como máximo, 200 metros del orbe. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los orbes poseen una absoluta vulnerabilidad a la magia. No solamente tienen RM 10, sino que cualquier descarga de energía sobrenatural les produce doble daño. Cono Cimientosdedravenor Conocimiento Genérico Hay esferas de La Máquina capaces de generar relámpagos a distancia. Conocimiento Intermedio Estas criaturas sólo pueden detectar cosas que se estén moviendo. Si te quedas quieto, no pueden verte. Las bajas temperaturas congelan el sistema nervioso de los orbes haciendo que reaccionen más lentamente. Conocimiento Avanzado En raras ocasiones, se ha visto a los orbes atacar a otros miembros de La Máquina.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 2\n\nClase: Entre Mundos Especial Puntos de Vida: 1.500 Acumulación Categoría: Mentalista Fue: 1 Des: 10 Agi: 5 Con: 8 Pod: 4 Int: 1 Vol: 13 Per: 5 RF 45 RM 0 RP 60 RV 45 RE 45\n\nTurno: 65 Natural Habilidad de ataque: 0 Desarmado Habilidad de defensa: Acumulación Daño: 0 Desarmado (Con) TA: Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0 Proyección Psíquica: 120 Potencial: 100 CVsLibres: 0 Innatos: 0 Disciplinas Psíquicas: Electromagnetismo Poderes Psíquicos: Manipulación Magnética, Arco Eléctrico (+30) Habilidades Esenciales: Acceso a 1 disciplina psíquica, Desequilibrio psíquico: Electromagnetismo, Exención física, Inmunidad psicológica, Inmune al dolor, Vulnerable a la magia. Poderes: Levitación (Tipo de vuelo místico 6), Cuerpo Metálico, Desconectados, Vulnerabilidad a la Magia. de movimiento: 6 Cansancio: Incansable Habilidades Secundarias: Advertir 180, Buscar 120. “Sorprendentemente similares a un Sello de Defensa místico, pero mucho más duraderos.\n\nSinceramente, espero que esto sea debido a cómo era la tecnología que asimilaron y no a que sean capaces de imitar verdadera magia… o tendremos un muy grave problema entre manos.” Ahanel Galanis, Investigadora Con la apariencia de simples esferas metálicas rodeadas por venas, los orbes son un tipo de tropa defensiva de bajo poder especializados en el combate a distancia. Generalmente, flotan en el aire trasladándose a escasa velocidad mientras proyectan descargas eléctricas contra sus objetivos. La creación de los orbes es particularmente compleja y lenta, aunque se siguen construyendo porque requieren muy poca materia prima orgánica (son prácticamente máquinas, más incluso que los drones o escarabajos).\n\nEl único componente “vivo” que emplean es sangre, la cual se introduce en su interior para que corra por un complejo y preciso grupo de conductos que simula ser un sistema circulatorio y que le sirve al orbe como red nerviosa. Finalmente, en el centro de la esfera se sitúa un pequeño cristal psíquico, que actúa como fuente de energía. Lo cierto es que los orbes son las criaturas más “lejanas” a La Máquina en cuanto a conexión, dado que su sistema nervioso no se vincula directamente a la Mente Colmena salvo cuando recibe órdenes a corta distancia. Este hecho, muy poco habitual en un sistema generalmente tan enlazado como es La Máquina, se especula que se debe a un problema de diseño motivado por el uso reducido de materia orgánica.\n\nSea como sea, lo único cierto es que esta desvinculación juega en su contra ya que, si no hay ningún miembro de alta jerarquía de La Máquina cerca (a no más de doscientos metros), los orbes se limitarán a atacar a cualquier ente cercano hasta matarlo o ser destruido sin usar ningún tipo de estrategia. Dada sus limitaciones cuando carecen de mando, La Máquina no suele utilizar los orbes a la hora de realizar ofensivas. Su uso más común es por el contrario el de ser apostados en instalaciones o fábricas como medida defensiva. MODUS OPERANDIBajo el mando de un Tecnócrita o Pretoriano, estos seres pueden ser realmente efectivos, aprovechando su capacidad de vuelo para mantenerse constantemente fuera del alcance del enemigo mientras atacan con sus arcos eléctricos a blancos selectos.\n\nNo obstante, cuando actúan por su cuenta, su capacidad táctica se limita a elevarse a una cierta altura y atacar de forma errática a todo enemigo que se acerque. Inmune al Dolor: Los orbes son prácticamente máquinas, del todo incapaces de sufrir cualquier tipo de dolor (natural o sobrenatural), así como cualquier posible perjuicio derivado del mismo. Cuerpo Metálico: Al estar hechos en su práctica totalidad de metal, su cuerpo demuestra ser realmente resistente, lo cual les otorga una cierta cantidad de Tipo de Armadura contra cualquier ataque no basado en Energía. Sin embargo, también hace que sean incapaces de regenerarse de los daños por sí mismos, pues requieren reparaciones externas para recuperarse. Levitación: En su interior se encuentran unos pequeños generadores que, si bien a no mucha velocidad, le permiten levitar por el aire. Los orbes poseen por ello Tipo de Vuelo Místico 6.\n\nArco Eléctrico: El único método de ataque de que disponen es el poder psíquico Arco eléctrico, que lanzan constantemente contra sus enemigos usando el equivalente a un potencial base de 1 30 con un incremento en el grado alcanzado. Consecuentemente, un efecto capaz de anular matrices de ese Potencial sería capaz de impedir que se realizara el disparo. Percepción por Movimiento: Los orbes no perciben el mundo de un modo convencional, sino que determinan cuales son las amenazas y sus objetivos usando una especie de detector de movimiento. Si algo se desplaza a menos de 300 metros de ellos, las criaturas pueden tratar de detectarlos usando sus habilidades de Percepción independientemente de si hay o no línea de visión hacia ellos (aunque no pueden hacerlo a través de paredes selladas sobrenaturalmente o con energía).\n\nDel mismo modo, son completamente incapaces de “percibir” cosas que se quedan quietas o aquellas intangibles que no tienen una verdadera forma material. Desconectados: Dada su desconexión con la Mente Enjambre, necesitan la dirección de un miembro de alta jerarquía de La Máquina (Tecnócrita o superior) o se limitarán a atacar al objetivo más cercano de forma errática. Para dirigirlos es necesario encontrarse a, como máximo, 200 metros del orbe. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los orbes poseen una absoluta vulnerabilidad a la magia. No solamente tienen RM 10, sino que cualquier descarga de energía sobrenatural les produce doble daño. Cono Cimientosdedravenor Conocimiento Genérico Hay esferas de La Máquina capaces de generar relámpagos a distancia. Conocimiento Intermedio Estas criaturas sólo pueden detectar cosas que se estén moviendo.\n\nSi te quedas quieto, no pueden verte. Las bajas temperaturas congelan el sistema nervioso de los orbes haciendo que reaccionen más lentamente. Conocimiento Avanzado En raras ocasiones, se ha visto a los orbes atacar a otros miembros de La Máquina.</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 2</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Orbe (La Máquina · Varna menor)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Mentalista Fue: 1 Des: 10 Agi: 5 Con: 8 Pod: 4 Int: 1 Vol: 13 Per: 5 RF 45 RM 0 RP 60 RV 45 RE 45</p><p><strong>Habilidades esenciales:</strong> Acceso a 1 disciplina psíquica, Desequilibrio psíquico: Electromagnetismo, Exención física, Inmunidad psicológica, Inmune al dolor, Vulnerable a la magia.</p><p><strong>Poderes:</strong> Levitación (Tipo de vuelo místico 6), Cuerpo Metálico, Desconectados, Vulnerabilidad a la Magia.</p><p><strong>Disciplinas:</strong> Psíquicas: Electromagnetismo</p><p><strong>Daño:</strong> 0 Desarmado (Con)</p><p><strong>TA:</strong> Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0</p><p><strong>Habilidades secundarias:</strong> Advertir 180, Buscar 120</p><p><strong>Descripción breve:</strong> “Sorprendentemente similares a un Sello de Defensa místico, pero mucho más duraderos. Sinceramente, espero que esto sea debido a cómo era la tecnología que asimilaron y no a que sean capaces de imitar verdadera magia… o tendremos un muy grave problema entre manos.” Ahanel Galanis, Investigadora Con la apariencia de simples esferas metálicas rodeadas por venas, los orbes son un tipo de tropa defensiva de bajo poder especializados en el combate a distancia. Generalmente, flotan en el aire trasladándose a escasa velocidad mientras proyectan descargas eléctricas contra sus objetivos. La creación de los orbes es particularmente compleja y lenta, aunque se siguen construyendo porque requieren muy poca materia prima orgánica (son prácticamente máquinas, más incluso que los drones o escarabajos). El único componente “vivo” que emplean es sangre, la cual se introduce en su interior para que corra por un complejo y preciso grupo de conductos que simula ser un sistema circulatorio y que le sirve al orbe como red nerviosa. Finalmente, en el centro de la esfera se sitúa un pequeño cristal psíquico, que actúa como fuente de energía. Lo cierto es que los orbes son las criaturas más “lejanas” a La Máquina en cuanto a conexión, dado que su sistema nervioso no se vincula directamente a la Mente Colmena salvo cuando recibe órdenes a corta distancia. Este hecho, muy poco habitual en un sistema generalmente tan enlazado como es La Máquina, se especula que se debe a un problema de diseño motivado por el uso reducido de materia orgánica. Sea como sea, lo único cierto es que esta desvinculación juega en su contra ya que, si no hay ningún miembro de alta jerarquía de La Máquina cerca (a no más de doscientos metros), los orbes se limitarán a atacar a cualquier ente cercano hasta matarlo o ser destruido sin usar ningún tipo de estrategia. Dada sus limitaciones cuando carecen de mando, La Máquina no suele utilizar los orbes a la hora de realizar ofensivas. Su uso más común es por el contrario el de ser apostados en instalaciones o fábricas como medida defensiva. MODUS OPERANDIBajo el mando de un Tecnócrita o Pretoriano, estos seres pueden ser realmente efectivos, aprovechando su capacidad de vuelo para mantenerse constantemente fuera del alcance del enemigo mientras atacan con sus arcos eléctricos a blancos selectos. No obstante, cuando actúan por su cuenta, su capacidad táctica se limita a elevarse a una cierta altura y atacar de forma errática a todo enemigo que se acerque. Inmune al Dolor: Los orbes son prácticamente máquinas, del todo incapaces de sufrir cualquier tipo de dolor (natural o sobrenatural), así como cualquier posible perjuicio derivado del mismo. Cuerpo Metálico: Al estar hechos en su práctica totalidad de metal, su cuerpo demuestra ser realmente resistente, lo cual les otorga una cierta cantidad de Tipo de Armadura contra cualquier ataque no basado en Energía. Sin embargo, también hace que sean incapaces de regenerarse de los daños por sí mismos, pues requieren reparaciones externas para recuperarse. Levitación: En su interior se encuentran unos pequeños generadores que, si bien a no mucha velocidad, le permiten levitar por el aire. Los orbes poseen por ello Tipo de Vuelo Místico 6. Arco Eléctrico: El único método de ataque de que disponen es el poder psíquico Arco eléctrico, que lanzan constantemente contra sus enemigos usando el equivalente a un potencial base de 130 con un incremento en el grado alcanzado. Consecuentemente, un efecto capaz de anular matrices de ese Potencial sería capaz de impedir que se realizara el disparo. Percepción por Movimiento: Los orbes no perciben el mundo de un modo convencional, sino que determinan cuales son las amenazas y sus objetivos usando una especie de detector de movimiento. Si algo se desplaza a menos de 300 metros de ellos, las criaturas pueden tratar de detectarlos usando sus habilidades de Percepción independientemente de si hay o no línea de visión hacia ellos (aunque no pueden hacerlo a través de paredes selladas sobrenaturalmente o con energía). Del mismo modo, son completamente incapaces de “percibir” cosas que se quedan quietas o aquellas intangibles que no tienen una verdadera forma material. Desconectados: Dada su desconexión con la Mente Enjambre, necesitan la dirección de un miembro de alta jerarquía de La Máquina (Tecnócrita o superior) o se limitarán a atacar al objetivo más cercano de forma errática. Para dirigirlos es necesario encontrarse a, como máximo, 200 metros del orbe. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los orbes poseen una absoluta vulnerabilidad a la magia. No solamente tienen RM 10, sino que cualquier descarga de energía sobrenatural les produce doble daño. Cono Cimientosdedravenor Conocimiento Genérico Hay esferas de La Máquina capaces de generar relámpagos a distancia. Conocimiento Intermedio Estas criaturas sólo pueden detectar cosas que se estén moviendo. Si te quedas quieto, no pueden verte. Las bajas temperaturas congelan el sistema nervioso de los orbes haciendo que reaccionen más lentamente. Conocimiento Avanzado En raras ocasiones, se ha visto a los orbes atacar a otros miembros de La Máquina.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 2\n\nClase: Entre Mundos Especial Puntos de Vida: 1.500 Acumulación Categoría: Mentalista Fue: 1 Des: 10 Agi: 5 Con: 8 Pod: 4 Int: 1 Vol: 13 Per: 5 RF 45 RM 0 RP 60 RV 45 RE 45\n\nTurno: 65 Natural Habilidad de ataque: 0 Desarmado Habilidad de defensa: Acumulación Daño: 0 Desarmado (Con) TA: Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0 Proyección Psíquica: 120 Potencial: 100 CVsLibres: 0 Innatos: 0 Disciplinas Psíquicas: Electromagnetismo Poderes Psíquicos: Manipulación Magnética, Arco Eléctrico (+30) Habilidades Esenciales: Acceso a 1 disciplina psíquica, Desequilibrio psíquico: Electromagnetismo, Exención física, Inmunidad psicológica, Inmune al dolor, Vulnerable a la magia. Poderes: Levitación (Tipo de vuelo místico 6), Cuerpo Metálico, Desconectados, Vulnerabilidad a la Magia. de movimiento: 6 Cansancio: Incansable Habilidades Secundarias: Advertir 180, Buscar 120. “Sorprendentemente similares a un Sello de Defensa místico, pero mucho más duraderos.\n\nSinceramente, espero que esto sea debido a cómo era la tecnología que asimilaron y no a que sean capaces de imitar verdadera magia… o tendremos un muy grave problema entre manos.” Ahanel Galanis, Investigadora Con la apariencia de simples esferas metálicas rodeadas por venas, los orbes son un tipo de tropa defensiva de bajo poder especializados en el combate a distancia. Generalmente, flotan en el aire trasladándose a escasa velocidad mientras proyectan descargas eléctricas contra sus objetivos. La creación de los orbes es particularmente compleja y lenta, aunque se siguen construyendo porque requieren muy poca materia prima orgánica (son prácticamente máquinas, más incluso que los drones o escarabajos).\n\nEl único componente “vivo” que emplean es sangre, la cual se introduce en su interior para que corra por un complejo y preciso grupo de conductos que simula ser un sistema circulatorio y que le sirve al orbe como red nerviosa. Finalmente, en el centro de la esfera se sitúa un pequeño cristal psíquico, que actúa como fuente de energía. Lo cierto es que los orbes son las criaturas más “lejanas” a La Máquina en cuanto a conexión, dado que su sistema nervioso no se vincula directamente a la Mente Colmena salvo cuando recibe órdenes a corta distancia. Este hecho, muy poco habitual en un sistema generalmente tan enlazado como es La Máquina, se especula que se debe a un problema de diseño motivado por el uso reducido de materia orgánica.\n\nSea como sea, lo único cierto es que esta desvinculación juega en su contra ya que, si no hay ningún miembro de alta jerarquía de La Máquina cerca (a no más de doscientos metros), los orbes se limitarán a atacar a cualquier ente cercano hasta matarlo o ser destruido sin usar ningún tipo de estrategia. Dada sus limitaciones cuando carecen de mando, La Máquina no suele utilizar los orbes a la hora de realizar ofensivas. Su uso más común es por el contrario el de ser apostados en instalaciones o fábricas como medida defensiva. MODUS OPERANDIBajo el mando de un Tecnócrita o Pretoriano, estos seres pueden ser realmente efectivos, aprovechando su capacidad de vuelo para mantenerse constantemente fuera del alcance del enemigo mientras atacan con sus arcos eléctricos a blancos selectos.\n\nNo obstante, cuando actúan por su cuenta, su capacidad táctica se limita a elevarse a una cierta altura y atacar de forma errática a todo enemigo que se acerque. Inmune al Dolor: Los orbes son prácticamente máquinas, del todo incapaces de sufrir cualquier tipo de dolor (natural o sobrenatural), así como cualquier posible perjuicio derivado del mismo. Cuerpo Metálico: Al estar hechos en su práctica totalidad de metal, su cuerpo demuestra ser realmente resistente, lo cual les otorga una cierta cantidad de Tipo de Armadura contra cualquier ataque no basado en Energía. Sin embargo, también hace que sean incapaces de regenerarse de los daños por sí mismos, pues requieren reparaciones externas para recuperarse. Levitación: En su interior se encuentran unos pequeños generadores que, si bien a no mucha velocidad, le permiten levitar por el aire. Los orbes poseen por ello Tipo de Vuelo Místico 6.\n\nArco Eléctrico: El único método de ataque de que disponen es el poder psíquico Arco eléctrico, que lanzan constantemente contra sus enemigos usando el equivalente a un potencial base de 1 30 con un incremento en el grado alcanzado. Consecuentemente, un efecto capaz de anular matrices de ese Potencial sería capaz de impedir que se realizara el disparo. Percepción por Movimiento: Los orbes no perciben el mundo de un modo convencional, sino que determinan cuales son las amenazas y sus objetivos usando una especie de detector de movimiento. Si algo se desplaza a menos de 300 metros de ellos, las criaturas pueden tratar de detectarlos usando sus habilidades de Percepción independientemente de si hay o no línea de visión hacia ellos (aunque no pueden hacerlo a través de paredes selladas sobrenaturalmente o con energía).\n\nDel mismo modo, son completamente incapaces de “percibir” cosas que se quedan quietas o aquellas intangibles que no tienen una verdadera forma material. Desconectados: Dada su desconexión con la Mente Enjambre, necesitan la dirección de un miembro de alta jerarquía de La Máquina (Tecnócrita o superior) o se limitarán a atacar al objetivo más cercano de forma errática. Para dirigirlos es necesario encontrarse a, como máximo, 200 metros del orbe. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los orbes poseen una absoluta vulnerabilidad a la magia. No solamente tienen RM 10, sino que cualquier descarga de energía sobrenatural les produce doble daño. Cono Cimientosdedravenor Conocimiento Genérico Hay esferas de La Máquina capaces de generar relámpagos a distancia. Conocimiento Intermedio Estas criaturas sólo pueden detectar cosas que se estén moviendo.\n\nSi te quedas quieto, no pueden verte. Las bajas temperaturas congelan el sistema nervioso de los orbes haciendo que reaccionen más lentamente. Conocimiento Avanzado En raras ocasiones, se ha visto a los orbes atacar a otros miembros de La Máquina.</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 2
-      },
       "notes": [
         {
           "_id": "note-orbe-la-maquina-varna-menor-3",
@@ -513,52 +435,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 1
-          }
+          "value": 1,
+          "mod": -30
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 1
-          }
+          "value": 1,
+          "mod": -30
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         }
       },
       "secondaries": {
@@ -569,9 +475,6 @@
         "initiative": {
           "base": {
             "value": 65
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -622,10 +525,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -633,10 +533,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -644,10 +541,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 4520
+              "value": 4565
             },
             "final": {
               "value": 0
@@ -657,19 +551,13 @@
             "base": {
               "value": 0
             },
-            "special": {
-              "value": -30
-            },
             "final": {
               "value": 0
             }
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -681,197 +569,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 180
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
+          "value": 0
+        },
+        "final": {
           "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -902,11 +1048,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -918,14 +1060,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -939,14 +1086,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1051,15 +1195,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1071,37 +1211,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1224,9 +1384,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,25 @@
         "openOnDoubles": {
           "value": false
         },
+        "defenseType": {
+          "value": ""
+        },
+        "inmaterial": {
+          "value": true
+        },
         "perceiveMystic": {
           "value": true
         },
         "perceivePsychic": {
           "value": true
-        },
-        "inmaterial": {
-          "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +306,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +326,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 60
         }
       },
       "aspect": {
@@ -430,7 +360,7 @@
           "value": ""
         },
         "size": {
-          "value": 26
+          "value": "26"
         }
       },
       "advantages": [],
@@ -448,7 +378,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 91</p><p><strong>Entrada:</strong> Humbaba</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos (Creación) 25</p><p><strong>Categoría:</strong> Maestro en armas Fue: 13 Des: 8 Agi: 6 Con: 13 Pod: 10 Int: 5 Vol: 6 Per: 6 RF 85 RM 75 RP 65 RV 85 RE 85</p><p><strong>Habilidades naturales:</strong> Características Físicas Sobrehumanas, Exención Física, Inmunidad Psicológica.</p><p><strong>Poderes:</strong> Los Once Cuernos, Roca Espiritual (Inmunidad Física Presencia Inferior a 120, Condicionada, Armadura Física 8, Condicionada), Esculpido (Regeneración Cero), Brazos Guardianes (Distancia 20 Metros, Daño base 150, Ataque Adicional Limitado, Sin Límite), Daña Energía, Ver lo Sobrenatural, El Doceavo Cuerno.</p><p><strong>Daño:</strong> 150 Brazo Guardián (Con)</p><p><strong>TA:</strong> Natural + Roca Espiritual Fil 10 Con 10 Pen 10 Cal 10 Ele 10 Fri 10 Ene 6</p><p><strong>Habilidades secundarias:</strong> Advertir 110, Buscar 50, Rastrear 35, Intimidar 120, Proezas de Fuerza 200</p><p><strong>Descripción breve:</strong> Los humbabas son enormes tótems guardianes de la cultura jayán. Cada una de las grandes tribus poseía uno, que era considerado como un emblema de todas sus virtudes. Los jayán los contemplaban como representaciones divinas de los reyes espíritus, potencias encarnadas en el mundo a las que rendir veneración. Sin embargo, lejos de ser simples estatuas, estos tótems podían “despertar” durante cortos periodos de tiempo y caminar como seres vivos. La forma física de un humbaba es ligeramente diferente dependiendo de su tribu de origen, pero lo normal es que sean grandes figuras humanoides de entre tres y cinco metros construidas en granito. Su cuerpo está decorado con once cuernos que representan las virtudes de los jayán, en los que reposan los espíritus que les dan poder. , la principal función de los humbaba ha sido siempre la de salvaguardar los territorios sagrados de su pueblo. Por ello, era fácil encontrarlos erigidos en templos, cementerios u otros lugares de oración. Usualmente permanecen en continuo letargo, pero al percibir cualquier amenaza o sacrilegio en el interior de sus dominios, se alzan para aplastar a cualquier posible enemigo. Ni hablan ni dan advertencias; simplemente lo destruyen todo a su paso. Con la cultura jayán extinta, hoy en día es prácticamente imposible encontrar humbabas en Gaïa. La mayoría de los que aún quedan están situados en las grandes llanuras del Nuevo Continente, donde se hallaban los principales territorios de su pueblo, así como en las zonas selváticas de Nanwe. m oduS oPerandiComo “representaciones divinas” que son, los tótems humbaba son criaturas extremadamente poderosas que hay que temer en combate. Por suerte sólo atacan a aquellos que mancillan las zonas sagradas que protegen, ya sea agraviando restos sacros, entrando en lugares prohibidos o dañando a quienes son descendientes de su pueblo. En cualquier otro caso, permanecen quietos como enormes estatuas inmoviles. Al luchar, combinan una descomunal resistencia física con la brutal violencia de sus ataques, aprovechando al máximo que pueden separar sus brazos del cuerpo y hacerlos volar libremente. Igual que la mayoría de los golems, no tienen puntos vulnerables. Los Once Cuernos: El verdadero poder de un humbaba reside en los once cuernos que tiene repartidos por todo su cuerpo. Mientras uno sólo de ellos permanezca intacto, los poderes del tótem son inmensos. Es posible tratar de destruirlos realizando ataques apuntados directamente contra ellos aplicando un penalizador de -40 a la habilidad ofensiva. Cada uno aguanta 200 puntos de daño (independientes del total de Puntos de Vida de la criatura) antes de romperse y no tienen la protección que le confiere Roca Espiritual. Cuando los once han sido eliminados el tótem pierde las habilidades Roca Espiritual y uno de sus ataques con los Brazos Guardianes. Roca Espiritual: Gracias al poder espiritual que le confieren sus cuernos, los humbabas tienen una inmunidad casi absoluta al daño físico. El cuerpo central del tótem es completamente inmune a cualquier ataque o efecto con una Presencia inferior a 120 e, incluso si alguien consigue superar esta protección, la criatura posee un Tipo de Armadura 10. Brazos Guardianes: El arma principal de un humbaba son sus enormes brazos, potentes extremidades que flotan alrededor de su cuerpo sin formar verdaderamente parte de él. El tótem puede usarlos para atacar a cierta distancia con ellos (no más de 20 metros de su ubicación) y, dado que cada uno es completamente independiente, hacen dos ataques diferentes por asalto. Esculpido: El cuerpo de Humbaba no es capaz de recuperarse de los daños sufridos por medios normales, ya que su cuerpo ha sido creado a partir de roca. Para poder recuperar el cuerpo del tótem es necesario un experto escultor que lo reconstruya con tiempo y dedicación. Visión Sobrenatural: El tótem capta el mundo a un nivel espiritual, siendo capaz de ver magia, matrices psíquicas y espíritus. El Duodécimo Cuerno: Además de los once cuernos visibles que otorgan su poder al tótem, existe un duodécimo situado en el interior de su torso que le da vida. Este cuerno sólo se muestra cuando los Puntos de Vida de la criatura han descendido hasta cero o menos, y es necesario un golpe apuntado contra él para destruir por completo al humbaba. Mientras no sea quebrado, la criatura seguirá moviéndose por muy dañada que se encuentre. José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos (Creación) 25 Puntos de Vida: 4.81 5 Acumulación Categoría: Maestro en armas Fue: 13 Des: 8 Agi: 6 Con: 13 Pod: 10 Int: 5 Vol: 6 Per: 6 RF 85 RM 75 RP 65 RV 85 RE 85\n\nTurno: 70 Natural Habilidad de ataque: 180 Brazo Guardián + 180 Brazo Guardián Habilidad de defensa: Acumulación Daño: 1 50 Brazo Guardián (Con) TA: Natural + Roca Espiritual Fil 10 Con 10 Pen 10 Cal 10 Ele 10 Fri 10 Ene 6 Habilidades naturales: Características Físicas Sobrehumanas, Exención Física, Inmunidad Psicológica. Poderes: Los Once Cuernos, Roca Espiritual (Inmunidad Física Presencia Inferior a 120, Condicionada, Armadura Física 8, Condicionada), Esculpido (Regeneración Cero), Brazos Guardianes (Distancia 20 Metros, Daño base 1 50, Ataque Adicional Limitado, Sin Límite), Daña Energía, Ver lo Sobrenatural, El Doceavo Cuerno.\n\nTamaño: 26 Enorme Regeneración: 0 Tipo de movimiento: 7 Cansancio: Incansable Habilidades Secundarias: Advertir 1 10, Buscar 50, Rastrear 35, Intimidar 1 20, Proezas de Fuerza 200. Los humbabas son enormes tótems guardianes de la cultura jayán. Cada una de las grandes tribus poseía uno, que era considerado como un emblema de todas sus virtudes. Los jayán los contemplaban como representaciones divinas de los reyes espíritus, potencias encarnadas en el mundo a las que rendir veneración. Sin embargo, lejos de ser simples estatuas, estos tótems podían “despertar” durante cortos periodos de tiempo y caminar como seres vivos. La forma física de un humbaba es ligeramente diferente dependiendo de su tribu de origen, pero lo normal es que sean grandes figuras humanoides de entre tres y cinco metros construidas en granito.\n\nSu cuerpo está decorado con once cuernos que representan las virtudes de los jayán, en los que reposan los espíritus que les dan poder. (order #3443007) , la principal función de los humbaba ha sido siempre la de salvaguardar los territorios sagrados de su pueblo. Por ello, era fácil encontrarlos erigidos en templos, cementerios u otros lugares de oración. Usualmente permanecen en continuo letargo, pero al percibir cualquier amenaza o sacrilegio en el interior de sus dominios, se alzan para aplastar a cualquier posible enemigo. Ni hablan ni dan advertencias; simplemente lo destruyen todo a su paso. Con la cultura jayán extinta, hoy en día es prácticamente imposible encontrar humbabas en Gaïa. La mayoría de los que aún quedan están situados en las grandes llanuras del Nuevo Continente, donde se hallaban los principales territorios de su pueblo, así como en las zonas selváticas de Nanwe.\n\nm oduS oPerandiComo “representaciones divinas” que son, los tótems humbaba son criaturas extremadamente poderosas que hay que temer en combate. Por suerte sólo atacan a aquellos que mancillan las zonas sagradas que protegen, ya sea agraviando restos sacros, entrando en lugares prohibidos o dañando a quienes son descendientes de su pueblo. En cualquier otro caso, permanecen quietos como enormes estatuas inmoviles. Al luchar, combinan una descomunal resistencia física con la brutal violencia de sus ataques, aprovechando al máximo que pueden separar sus brazos del cuerpo y hacerlos volar libremente. Igual que la mayoría de los golems, no tienen puntos vulnerables. Los Once Cuernos: El verdadero poder de un humbaba reside en los once cuernos que tiene repartidos por todo su cuerpo. Mientras uno sólo de ellos permanezca intacto, los poderes del tótem son inmensos.\n\nEs posible tratar de destruirlos realizando ataques apuntados directamente contra ellos aplicando un penalizador de -40 a la habilidad ofensiva. Cada uno aguanta 200 puntos de daño (independientes del total de Puntos de Vida de la criatura) antes de romperse y no tienen la protección que le confiere Roca Espiritual. Cuando los once han sido eliminados el tótem pierde las habilidades Roca Espiritual y uno de sus ataques con los Brazos Guardianes. Roca Espiritual: Gracias al poder espiritual que le confieren sus cuernos, los humbabas tienen una inmunidad casi absoluta al daño físico. El cuerpo central del tótem es completamente inmune a cualquier ataque o efecto con una Presencia inferior a 120 e, incluso si alguien consigue superar esta protección, la criatura posee un Tipo de Armadura 10.\n\nBrazos Guardianes: El arma principal de un humbaba son sus enormes brazos, potentes extremidades que flotan alrededor de su cuerpo sin formar verdaderamente parte de él. El tótem puede usarlos para atacar a cierta distancia con ellos (no más de 20 metros de su ubicación) y, dado que cada uno es completamente independiente, hacen dos ataques diferentes por asalto. Esculpido: El cuerpo de Humbaba no es capaz de recuperarse de los daños sufridos por medios normales, ya que su cuerpo ha sido creado a partir de roca. Para poder recuperar el cuerpo del tótem es necesario un experto escultor que lo reconstruya con tiempo y dedicación. Visión Sobrenatural: El tótem capta el mundo a un nivel espiritual, siendo capaz de ver magia, matrices psíquicas y espíritus.\n\nEl Duodécimo Cuerno: Además de los once cuernos visibles que otorgan su poder al tótem, existe un duodécimo situado en el interior de su torso que le da vida. Este cuerno sólo se muestra cuando los Puntos de Vida de la criatura han descendido hasta cero o menos, y es necesario un golpe apuntado contra él para destruir por completo al humbaba. Mientras no sea quebrado, la criatura seguirá moviéndose por muy dañada que se encuentre. José María Solano Albares (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 91</p><p><strong>Entrada:</strong> Humbaba</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos (Creación) 25</p><p><strong>Categoría:</strong> Maestro en armas Fue: 13 Des: 8 Agi: 6 Con: 13 Pod: 10 Int: 5 Vol: 6 Per: 6 RF 85 RM 75 RP 65 RV 85 RE 85</p><p><strong>Habilidades naturales:</strong> Características Físicas Sobrehumanas, Exención Física, Inmunidad Psicológica.</p><p><strong>Poderes:</strong> Los Once Cuernos, Roca Espiritual (Inmunidad Física Presencia Inferior a 120, Condicionada, Armadura Física 8, Condicionada), Esculpido (Regeneración Cero), Brazos Guardianes (Distancia 20 Metros, Daño base 150, Ataque Adicional Limitado, Sin Límite), Daña Energía, Ver lo Sobrenatural, El Doceavo Cuerno.</p><p><strong>Daño:</strong> 150 Brazo Guardián (Con)</p><p><strong>TA:</strong> Natural + Roca Espiritual Fil 10 Con 10 Pen 10 Cal 10 Ele 10 Fri 10 Ene 6</p><p><strong>Habilidades secundarias:</strong> Advertir 110, Buscar 50, Rastrear 35, Intimidar 120, Proezas de Fuerza 200</p><p><strong>Descripción breve:</strong> Los humbabas son enormes tótems guardianes de la cultura jayán. Cada una de las grandes tribus poseía uno, que era considerado como un emblema de todas sus virtudes. Los jayán los contemplaban como representaciones divinas de los reyes espíritus, potencias encarnadas en el mundo a las que rendir veneración. Sin embargo, lejos de ser simples estatuas, estos tótems podían “despertar” durante cortos periodos de tiempo y caminar como seres vivos. La forma física de un humbaba es ligeramente diferente dependiendo de su tribu de origen, pero lo normal es que sean grandes figuras humanoides de entre tres y cinco metros construidas en granito. Su cuerpo está decorado con once cuernos que representan las virtudes de los jayán, en los que reposan los espíritus que les dan poder. , la principal función de los humbaba ha sido siempre la de salvaguardar los territorios sagrados de su pueblo. Por ello, era fácil encontrarlos erigidos en templos, cementerios u otros lugares de oración. Usualmente permanecen en continuo letargo, pero al percibir cualquier amenaza o sacrilegio en el interior de sus dominios, se alzan para aplastar a cualquier posible enemigo. Ni hablan ni dan advertencias; simplemente lo destruyen todo a su paso. Con la cultura jayán extinta, hoy en día es prácticamente imposible encontrar humbabas en Gaïa. La mayoría de los que aún quedan están situados en las grandes llanuras del Nuevo Continente, donde se hallaban los principales territorios de su pueblo, así como en las zonas selváticas de Nanwe. m oduS oPerandiComo “representaciones divinas” que son, los tótems humbaba son criaturas extremadamente poderosas que hay que temer en combate. Por suerte sólo atacan a aquellos que mancillan las zonas sagradas que protegen, ya sea agraviando restos sacros, entrando en lugares prohibidos o dañando a quienes son descendientes de su pueblo. En cualquier otro caso, permanecen quietos como enormes estatuas inmoviles. Al luchar, combinan una descomunal resistencia física con la brutal violencia de sus ataques, aprovechando al máximo que pueden separar sus brazos del cuerpo y hacerlos volar libremente. Igual que la mayoría de los golems, no tienen puntos vulnerables. Los Once Cuernos: El verdadero poder de un humbaba reside en los once cuernos que tiene repartidos por todo su cuerpo. Mientras uno sólo de ellos permanezca intacto, los poderes del tótem son inmensos. Es posible tratar de destruirlos realizando ataques apuntados directamente contra ellos aplicando un penalizador de -40 a la habilidad ofensiva. Cada uno aguanta 200 puntos de daño (independientes del total de Puntos de Vida de la criatura) antes de romperse y no tienen la protección que le confiere Roca Espiritual. Cuando los once han sido eliminados el tótem pierde las habilidades Roca Espiritual y uno de sus ataques con los Brazos Guardianes. Roca Espiritual: Gracias al poder espiritual que le confieren sus cuernos, los humbabas tienen una inmunidad casi absoluta al daño físico. El cuerpo central del tótem es completamente inmune a cualquier ataque o efecto con una Presencia inferior a 120 e, incluso si alguien consigue superar esta protección, la criatura posee un Tipo de Armadura 10. Brazos Guardianes: El arma principal de un humbaba son sus enormes brazos, potentes extremidades que flotan alrededor de su cuerpo sin formar verdaderamente parte de él. El tótem puede usarlos para atacar a cierta distancia con ellos (no más de 20 metros de su ubicación) y, dado que cada uno es completamente independiente, hacen dos ataques diferentes por asalto. Esculpido: El cuerpo de Humbaba no es capaz de recuperarse de los daños sufridos por medios normales, ya que su cuerpo ha sido creado a partir de roca. Para poder recuperar el cuerpo del tótem es necesario un experto escultor que lo reconstruya con tiempo y dedicación. Visión Sobrenatural: El tótem capta el mundo a un nivel espiritual, siendo capaz de ver magia, matrices psíquicas y espíritus. El Duodécimo Cuerno: Además de los once cuernos visibles que otorgan su poder al tótem, existe un duodécimo situado en el interior de su torso que le da vida. Este cuerno sólo se muestra cuando los Puntos de Vida de la criatura han descendido hasta cero o menos, y es necesario un golpe apuntado contra él para destruir por completo al humbaba. Mientras no sea quebrado, la criatura seguirá moviéndose por muy dañada que se encuentre. José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos (Creación) 25 Puntos de Vida: 4.81 5 Acumulación Categoría: Maestro en armas Fue: 13 Des: 8 Agi: 6 Con: 13 Pod: 10 Int: 5 Vol: 6 Per: 6 RF 85 RM 75 RP 65 RV 85 RE 85\n\nTurno: 70 Natural Habilidad de ataque: 180 Brazo Guardián + 180 Brazo Guardián Habilidad de defensa: Acumulación Daño: 1 50 Brazo Guardián (Con) TA: Natural + Roca Espiritual Fil 10 Con 10 Pen 10 Cal 10 Ele 10 Fri 10 Ene 6 Habilidades naturales: Características Físicas Sobrehumanas, Exención Física, Inmunidad Psicológica. Poderes: Los Once Cuernos, Roca Espiritual (Inmunidad Física Presencia Inferior a 120, Condicionada, Armadura Física 8, Condicionada), Esculpido (Regeneración Cero), Brazos Guardianes (Distancia 20 Metros, Daño base 1 50, Ataque Adicional Limitado, Sin Límite), Daña Energía, Ver lo Sobrenatural, El Doceavo Cuerno.\n\nTamaño: 26 Enorme Regeneración: 0 Tipo de movimiento: 7 Cansancio: Incansable Habilidades Secundarias: Advertir 1 10, Buscar 50, Rastrear 35, Intimidar 1 20, Proezas de Fuerza 200. Los humbabas son enormes tótems guardianes de la cultura jayán. Cada una de las grandes tribus poseía uno, que era considerado como un emblema de todas sus virtudes. Los jayán los contemplaban como representaciones divinas de los reyes espíritus, potencias encarnadas en el mundo a las que rendir veneración. Sin embargo, lejos de ser simples estatuas, estos tótems podían “despertar” durante cortos periodos de tiempo y caminar como seres vivos. La forma física de un humbaba es ligeramente diferente dependiendo de su tribu de origen, pero lo normal es que sean grandes figuras humanoides de entre tres y cinco metros construidas en granito.\n\nSu cuerpo está decorado con once cuernos que representan las virtudes de los jayán, en los que reposan los espíritus que les dan poder. (order #3443007) , la principal función de los humbaba ha sido siempre la de salvaguardar los territorios sagrados de su pueblo. Por ello, era fácil encontrarlos erigidos en templos, cementerios u otros lugares de oración. Usualmente permanecen en continuo letargo, pero al percibir cualquier amenaza o sacrilegio en el interior de sus dominios, se alzan para aplastar a cualquier posible enemigo. Ni hablan ni dan advertencias; simplemente lo destruyen todo a su paso. Con la cultura jayán extinta, hoy en día es prácticamente imposible encontrar humbabas en Gaïa. La mayoría de los que aún quedan están situados en las grandes llanuras del Nuevo Continente, donde se hallaban los principales territorios de su pueblo, así como en las zonas selváticas de Nanwe.\n\nm oduS oPerandiComo “representaciones divinas” que son, los tótems humbaba son criaturas extremadamente poderosas que hay que temer en combate. Por suerte sólo atacan a aquellos que mancillan las zonas sagradas que protegen, ya sea agraviando restos sacros, entrando en lugares prohibidos o dañando a quienes son descendientes de su pueblo. En cualquier otro caso, permanecen quietos como enormes estatuas inmoviles. Al luchar, combinan una descomunal resistencia física con la brutal violencia de sus ataques, aprovechando al máximo que pueden separar sus brazos del cuerpo y hacerlos volar libremente. Igual que la mayoría de los golems, no tienen puntos vulnerables. Los Once Cuernos: El verdadero poder de un humbaba reside en los once cuernos que tiene repartidos por todo su cuerpo. Mientras uno sólo de ellos permanezca intacto, los poderes del tótem son inmensos.\n\nEs posible tratar de destruirlos realizando ataques apuntados directamente contra ellos aplicando un penalizador de -40 a la habilidad ofensiva. Cada uno aguanta 200 puntos de daño (independientes del total de Puntos de Vida de la criatura) antes de romperse y no tienen la protección que le confiere Roca Espiritual. Cuando los once han sido eliminados el tótem pierde las habilidades Roca Espiritual y uno de sus ataques con los Brazos Guardianes. Roca Espiritual: Gracias al poder espiritual que le confieren sus cuernos, los humbabas tienen una inmunidad casi absoluta al daño físico. El cuerpo central del tótem es completamente inmune a cualquier ataque o efecto con una Presencia inferior a 120 e, incluso si alguien consigue superar esta protección, la criatura posee un Tipo de Armadura 10.\n\nBrazos Guardianes: El arma principal de un humbaba son sus enormes brazos, potentes extremidades que flotan alrededor de su cuerpo sin formar verdaderamente parte de él. El tótem puede usarlos para atacar a cierta distancia con ellos (no más de 20 metros de su ubicación) y, dado que cada uno es completamente independiente, hacen dos ataques diferentes por asalto. Esculpido: El cuerpo de Humbaba no es capaz de recuperarse de los daños sufridos por medios normales, ya que su cuerpo ha sido creado a partir de roca. Para poder recuperar el cuerpo del tótem es necesario un experto escultor que lo reconstruya con tiempo y dedicación. Visión Sobrenatural: El tótem capta el mundo a un nivel espiritual, siendo capaz de ver magia, matrices psíquicas y espíritus.\n\nEl Duodécimo Cuerno: Además de los once cuernos visibles que otorgan su poder al tótem, existe un duodécimo situado en el interior de su torso que le da vida. Este cuerno sólo se muestra cuando los Puntos de Vida de la criatura han descendido hasta cero o menos, y es necesario un golpe apuntado contra él para destruir por completo al humbaba. Mientras no sea quebrado, la criatura seguirá moviéndose por muy dañada que se encuentre. José María Solano Albares (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +410,6 @@
           }
         }
       ],
-      "level": {
-        "value": 7
-      },
       "notes": [
         {
           "_id": "note-humbaba-2",
@@ -501,52 +429,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -557,9 +469,6 @@
         "initiative": {
           "base": {
             "value": 70
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +519,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -621,10 +527,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -632,10 +535,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 8485
+              "value": 8570
             },
             "final": {
               "value": 0
@@ -643,10 +543,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -654,10 +551,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 65
             },
             "final": {
               "value": 0
@@ -669,206 +563,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 110
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 180
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -899,11 +1042,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -915,14 +1054,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -936,14 +1080,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1048,15 +1189,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1068,37 +1205,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1221,9 +1378,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

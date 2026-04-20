@@ -95,9 +95,12 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
@@ -106,16 +109,8 @@
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 70
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> ABF Complemento Web Vol. 1</p><p><strong>Página:</strong> 10</p><p><strong>Entrada:</strong> Harekawa Señor de los Bosques</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Espíritu 30</p><p><strong>Categoría:</strong> Hechicero Fue: 8 Des: 8 Agi: 10 Con: / Pod: 14 Int: 12 Vol: 12 Per: 10 RF 85 RM 120 RP 95 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Don, Inutilidad somática, Inutilidad oral, Características anímicas sobrenaturales, Afinidad.</p><p><strong>Poderes:</strong> Espíritu de los bosques, Metamorfismo, Alma del bosque, Transporte a través de la naturaleza, Regeneración.</p><p><strong>Daño:</strong> 50 Armas naturales</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Animales 200, Herbolaria 200, Advertir 120</p><p><strong>Descripción breve:</strong> Los Harekawa son considerados milenarios espíritus de los bosques, aunque puede que fuese más apropiado llamarlos encarnaciones mismas del verdor. Dotados de considerables dones sobrenaturales, viven en las forestas más grandes, que son su hogar y su reino. No tienen una forma definida, pero habitualmente toman la apariencia de grandes ciervos en los que se combinan diversas características de varios animales a la vez. La existencia de estas criaturas está atada al bosque; nacen, crecen y mueren con él. Cuando el bosque arde ellos sienten dolor, cuando algo corrompe el verdor, enferman y, si es destruido, desaparecen completamente. Por ello, lo aman y protegen con todas sus fuerzas. Todos los animales consideran a los Harekawa como sus señores y los obedecen instintivamente. También otras criaturas místicas con afinidad natural, como duendes o ninfas, comparten esta sensación. Seres por naturaleza solitaria, tradicionalmente los Harekawa no se han mezclado en asuntos humanos. Solo en contadas ocasiones se han puesto en contacto con algunas personas para pedirles algo que se encontrase fuera de sus posibilidades, principalmente por hallarse más allá de las fronteras de su reino. Solo viven en las forestas más grandes y vivas, aunque también es posible encontrarlos en bosques más pequeños si estos tienen cierta naturaleza mística. Nunca hay dos en una misma ubicación. Un Harekawa es incapaz de salir de su bosque, al que se encuentra atado espiritualmente. Si por cualquier causa es obligado a hacerlo, se vuelve físico y permanece atrapado en la forma terrenal que hubiese escogido hasta que regresa a la foresta. En el proceso pierde casi todas sus habilidades sobrenaturales y su capacidad de lanzar conjuros también se resiente en gran medida. Es común que mediante sus poderes vigilen a las personas que cruzan sus territorios. Por regla general no suelen actuar, pero puede darse la posibilidad de que les ayuden ligeramente o les perjudiquen, dependiendo del trato que le den al bosque. Si detestan algo por encima de todas las cosas eso es sin duda las entidades nigromaticas y aquellos seres que llevan consigo decaimiento y corrupción. Si alguno penetra dentro de sus dominios, recibirá una escueta advertencia, y después deberá enfrentarse a la ira desencadenada del señor del bosque. En muy raras ocasiones algunos señores de los bosques, considerando un peligro sus reinos a causa de la acción humana, han declarado guerras en pequeña escala contra algunas poblaciones cercanas. Existe una leyenda que dice que consumir la sangre de un Señor de los Bosques prolonga sobrenaturalmente la vida y devuelve parte de la juventud perdida. Por esta causa, no son pocos quienes han tratado de capturar uno para matarlo y alimentarse de él. En muchas grandes forestas de Gaïa aún quedan algunos Harekawa, viviendo sin ser molestados por los hombres. Ni siquiera organizaciones como la Inquisición tienen un verdadero interés en ellas, ya sea por la increíble dificultad que representa acabar con ellos o por su escasa participación en los asuntos mortales. Modus operandi No son en absoluto seres pacíficos, pero es muy raro que tengan un motivo para verse obligados a entrar en combate. No obstante, dado que sus poderes son descomunales, tenerlos como enemigos puede ser una verdadera pesadilla. Al ser una parte misma del bosque, es prácticamente imposible acabar con un Harekawa mientras esté dentro de su reino. Su habitual estilo de combate consiste en proyectar su conciencia a través de plantas y animales para lanzar conjuros mientras sus verdaderas formas se mantienen a varios kilómetros de distancia. Su comprensión de la magia no es como la que tienen brujos y hechiceros. Ellos sienten los conjuros de la propia naturaleza, y son capaces de usarlos de manera instintiva. Por ello, un Harekawa nunca aplica penalizadotes ni reduce su ACT a la hora de usar conjuros. También puede atacar utilizando su dominio sobre algunos animales, habitualmente grandes depredadores, que actúan como sus guardias y agentes. En el caso de que sientan que el bosque está realmente en peligro, hará una llamada a todos los animales que habitan en él para que actúen como una extensión de sus propios deseos. Afinidad: Un Harekawa es afín a todos los animales naturales que pueblan el mundo. Estos le reconocen instintivamente como su señor y sienten una reverencia ancestral hacia él. Espíritu de los bosques: Por naturaleza el señor de los bosques es una criatura espiritual, por lo que es invisible al ojo humano y no recibe daño alguno de ataques que no sean de carácter místico. Avoluntad, el Harekawa puede volverse físico y visible, aunque sigue conservando su invulnerabilidad ante los ataques convencionales. Metamorfismo: Un señor de los bosques no tiene nunca una forma definida. Cada vez que quiere manifestarse delante de los mortales puede tomar una apariencia diferente, aunque habitualmente tendrá siempre características de diversos animales. Alma del bosque: Dentro de su reino un señor de los bosques tiene conocimiento de todo lo que ocurre. Avoluntad, puede unir su conciencia con la de cualquier animal o planta y utilizarlo como avatar temporal. El Harekawa lanza sus conjuros a través de estos avatares como si se encontrara presente en ese lugar. Transporte a través de la naturaleza: El poder del señor de los bosques le permite moverse con libertad dentro de la extensión de su reino. Si lo desea, puede transportarse automáticamente a cualquier lugar que no exceda de los límites del verdor y manifestarse en persona. Aunque no existe límite alguno al número de veces que es capaz de hacer uso de esta habilidad, la alteración que produce en la naturaleza le obliga a tener que esperar alrededor de un minuto para hacerlo de nuevo.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 9\n\nClase: Espíritu 30 Puntos de Vida: 180 Categoría: Hechicero Fue: 8 Des: 8 Agi: 10 Con: / Pod: 1 4 Int: 12 Vol: 12 Per: 10 RF 85 RM 120 RP 95 RV 85 RE 85\n\nTurno: 1 10 Natural Habilidad de ataque: 40 Armas naturales Habilidad de defensa: 40 Esquiva Daño: 50 Armas naturales TA: Ninguna Act: 90\n\nZeon: 1.100\n\nProyección mágica: 200 Nivel de magia: 90 Esencia Habilidades esenciales: Don, Inutilidad somática, Inutilidad oral, Características anímicas sobrenaturales, Afinidad. Poderes: Espíritu de los bosques, Metamorfismo, Alma del bosque, Transporte a través de la naturaleza, Regeneración. de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Animales 200, Herbolaria 200, Advertir 120. Los Harekawa son considerados milenarios espíritus de los bosques, aunque puede que fuese más apropiado llamarlos encarnaciones mismas del verdor. Dotados de considerables dones sobrenaturales, viven en las forestas más grandes, que son su hogar y su reino. No tienen una forma definida, pero habitualmente toman la apariencia de grandes ciervos en los que se combinan diversas características de varios animales a la vez.\n\nLa existencia de estas criaturas está atada al bosque; nacen, crecen y mueren con él. Cuando el bosque arde ellos sienten dolor, cuando algo corrompe el verdor, enferman y, si es destruido, desaparecen completamente. Por ello, lo aman y protegen con todas sus fuerzas. Todos los animales consideran a los Harekawa como sus señores y los obedecen instintivamente. También otras criaturas místicas con afinidad natural, como duendes o ninfas, comparten esta sensación. Seres por naturaleza solitaria, tradicionalmente los Harekawa no se han mezclado en asuntos humanos. Solo en contadas ocasiones se han puesto en contacto con algunas personas para pedirles algo que se encontrase fuera de sus posibilidades, principalmente por hallarse más allá de las fronteras de su reino.\n\nSolo viven en las forestas más grandes y vivas, aunque también es posible encontrarlos en bosques más pequeños si estos tienen cierta naturaleza mística. Nunca hay dos en una misma ubicación. Un Harekawa es incapaz de salir de su bosque, al que se encuentra atado espiritualmente. Si por cualquier causa es obligado a hacerlo, se vuelve físico y permanece atrapado en la forma terrenal que hubiese escogido hasta que regresa a la foresta. En el proceso pierde casi todas sus habilidades sobrenaturales y su capacidad de lanzar conjuros también se resiente en gran medida. Es común que mediante sus poderes vigilen a las personas que cruzan sus territorios. Por regla general no suelen actuar, pero puede darse la posibilidad de que les ayuden ligeramente o les perjudiquen, dependiendo del trato que le den al bosque.\n\nSi detestan algo por encima de todas las cosas eso es sin duda las entidades nigromaticas y aquellos seres que llevan consigo decaimiento y corrupción. Si alguno penetra dentro de sus dominios, recibirá una escueta advertencia, y después deberá enfrentarse a la ira desencadenada del señor del bosque. En muy raras ocasiones algunos señores de los bosques, considerando un peligro sus reinos a causa de la acción humana, han declarado guerras en pequeña escala contra algunas poblaciones cercanas. Existe una leyenda que dice que consumir la sangre de un Señor de los Bosques prolonga sobrenaturalmente la vida y devuelve parte de la juventud perdida. Por esta causa, no son pocos quienes han tratado de capturar uno para matarlo y alimentarse de él. En muchas grandes forestas de Gaïa aún quedan algunos Harekawa, viviendo sin ser molestados por los hombres.\n\nNi siquiera organizaciones como la Inquisición tienen un verdadero interés en ellas, ya sea por la increíble dificultad que representa acabar con ellos o por su escasa participación en los asuntos mortales. Modus operandi No son en absoluto seres pacíficos, pero es muy raro que tengan un motivo para verse obligados a entrar en combate. No obstante, dado que sus poderes son descomunales, tenerlos como enemigos puede ser una verdadera pesadilla. Al ser una parte misma del bosque, es prácticamente imposible acabar con un Harekawa mientras esté dentro de su reino. Su habitual estilo de combate consiste en proyectar su conciencia a través de plantas y animales para lanzar conjuros mientras sus verdaderas formas se mantienen a varios kilómetros de distancia. Su comprensión de la magia no es como la que tienen brujos y hechiceros.\n\nEllos sienten los conjuros de la propia naturaleza, y son capaces de usarlos de manera instintiva. Por ello, un Harekawa nunca aplica penalizadotes ni reduce su ACT a la hora de usar conjuros. También puede atacar utilizando su dominio sobre algunos animales, habitualmente grandes depredadores, que actúan como sus guardias y agentes. En el caso de que sientan que el bosque está realmente en peligro, hará una llamada a todos los animales que habitan en él para que actúen como una extensión de sus propios deseos. Afinidad: Un Harekawa es afín a todos los animales naturales que pueblan el mundo. Estos le reconocen instintivamente como su señor y sienten una reverencia ancestral hacia él. Espíritu de los bosques: Por naturaleza el señor de los bosques es una criatura espiritual, por lo que es invisible al ojo humano y no recibe daño alguno de ataques que no sean de carácter místico.\n\nAvoluntad, el Harekawa puede volverse físico y visible, aunque sigue conservando su invulnerabilidad ante los ataques convencionales. Metamorfismo: Un señor de los bosques no tiene nunca una forma definida. Cada vez que quiere manifestarse delante de los mortales puede tomar una apariencia diferente, aunque habitualmente tendrá siempre características de diversos animales. Alma del bosque: Dentro de su reino un señor de los bosques tiene conocimiento de todo lo que ocurre. Avoluntad, puede unir su conciencia con la de cualquier animal o planta y utilizarlo como avatar temporal. El Harekawa lanza sus conjuros a través de estos avatares como si se encontrara presente en ese lugar. Transporte a través de la naturaleza: El poder del señor de los bosques le permite moverse con libertad dentro de la extensión de su reino.\n\nSi lo desea, puede transportarse automáticamente a cualquier lugar que no exceda de los límites del verdor y manifestarse en persona. Aunque no existe límite alguno al número de veces que es capaz de hacer uso de esta habilidad, la alteración que produce en la naturaleza le obliga a tener que esperar alrededor de un minuto para hacerlo de nuevo. Regeneración: Mientras se encuentre en el interior del bosque el Harekawa se nutre de la vitalidad del verdor, recuperándose instantáneamente de cualquier herida que sufra. Por ello se cura a un ritmo de 25 puntos de vida por turno. En el caso de que el bosque esté dañado o corrompido, este poder puede disminuir sus efectos o incluso desaparecer por completo.\n\n&lt;!-- tags: @personaje, @localizacion, @regla --&gt;\n\n_Página 11_\n\nGandalfhon Ogro de la Desesperación</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> ABF Complemento Web Vol. 1</p><p><strong>Página:</strong> 10</p><p><strong>Entrada:</strong> Harekawa Señor de los Bosques</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Espíritu 30</p><p><strong>Categoría:</strong> Hechicero Fue: 8 Des: 8 Agi: 10 Con: / Pod: 14 Int: 12 Vol: 12 Per: 10 RF 85 RM 120 RP 95 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Don, Inutilidad somática, Inutilidad oral, Características anímicas sobrenaturales, Afinidad.</p><p><strong>Poderes:</strong> Espíritu de los bosques, Metamorfismo, Alma del bosque, Transporte a través de la naturaleza, Regeneración.</p><p><strong>Daño:</strong> 50 Armas naturales</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Animales 200, Herbolaria 200, Advertir 120</p><p><strong>Descripción breve:</strong> Los Harekawa son considerados milenarios espíritus de los bosques, aunque puede que fuese más apropiado llamarlos encarnaciones mismas del verdor. Dotados de considerables dones sobrenaturales, viven en las forestas más grandes, que son su hogar y su reino. No tienen una forma definida, pero habitualmente toman la apariencia de grandes ciervos en los que se combinan diversas características de varios animales a la vez. La existencia de estas criaturas está atada al bosque; nacen, crecen y mueren con él. Cuando el bosque arde ellos sienten dolor, cuando algo corrompe el verdor, enferman y, si es destruido, desaparecen completamente. Por ello, lo aman y protegen con todas sus fuerzas. Todos los animales consideran a los Harekawa como sus señores y los obedecen instintivamente. También otras criaturas místicas con afinidad natural, como duendes o ninfas, comparten esta sensación. Seres por naturaleza solitaria, tradicionalmente los Harekawa no se han mezclado en asuntos humanos. Solo en contadas ocasiones se han puesto en contacto con algunas personas para pedirles algo que se encontrase fuera de sus posibilidades, principalmente por hallarse más allá de las fronteras de su reino. Solo viven en las forestas más grandes y vivas, aunque también es posible encontrarlos en bosques más pequeños si estos tienen cierta naturaleza mística. Nunca hay dos en una misma ubicación. Un Harekawa es incapaz de salir de su bosque, al que se encuentra atado espiritualmente. Si por cualquier causa es obligado a hacerlo, se vuelve físico y permanece atrapado en la forma terrenal que hubiese escogido hasta que regresa a la foresta. En el proceso pierde casi todas sus habilidades sobrenaturales y su capacidad de lanzar conjuros también se resiente en gran medida. Es común que mediante sus poderes vigilen a las personas que cruzan sus territorios. Por regla general no suelen actuar, pero puede darse la posibilidad de que les ayuden ligeramente o les perjudiquen, dependiendo del trato que le den al bosque. Si detestan algo por encima de todas las cosas eso es sin duda las entidades nigromaticas y aquellos seres que llevan consigo decaimiento y corrupción. Si alguno penetra dentro de sus dominios, recibirá una escueta advertencia, y después deberá enfrentarse a la ira desencadenada del señor del bosque. En muy raras ocasiones algunos señores de los bosques, considerando un peligro sus reinos a causa de la acción humana, han declarado guerras en pequeña escala contra algunas poblaciones cercanas. Existe una leyenda que dice que consumir la sangre de un Señor de los Bosques prolonga sobrenaturalmente la vida y devuelve parte de la juventud perdida. Por esta causa, no son pocos quienes han tratado de capturar uno para matarlo y alimentarse de él. En muchas grandes forestas de Gaïa aún quedan algunos Harekawa, viviendo sin ser molestados por los hombres. Ni siquiera organizaciones como la Inquisición tienen un verdadero interés en ellas, ya sea por la increíble dificultad que representa acabar con ellos o por su escasa participación en los asuntos mortales. Modus operandi No son en absoluto seres pacíficos, pero es muy raro que tengan un motivo para verse obligados a entrar en combate. No obstante, dado que sus poderes son descomunales, tenerlos como enemigos puede ser una verdadera pesadilla. Al ser una parte misma del bosque, es prácticamente imposible acabar con un Harekawa mientras esté dentro de su reino. Su habitual estilo de combate consiste en proyectar su conciencia a través de plantas y animales para lanzar conjuros mientras sus verdaderas formas se mantienen a varios kilómetros de distancia. Su comprensión de la magia no es como la que tienen brujos y hechiceros. Ellos sienten los conjuros de la propia naturaleza, y son capaces de usarlos de manera instintiva. Por ello, un Harekawa nunca aplica penalizadotes ni reduce su ACT a la hora de usar conjuros. También puede atacar utilizando su dominio sobre algunos animales, habitualmente grandes depredadores, que actúan como sus guardias y agentes. En el caso de que sientan que el bosque está realmente en peligro, hará una llamada a todos los animales que habitan en él para que actúen como una extensión de sus propios deseos. Afinidad: Un Harekawa es afín a todos los animales naturales que pueblan el mundo. Estos le reconocen instintivamente como su señor y sienten una reverencia ancestral hacia él. Espíritu de los bosques: Por naturaleza el señor de los bosques es una criatura espiritual, por lo que es invisible al ojo humano y no recibe daño alguno de ataques que no sean de carácter místico. Avoluntad, el Harekawa puede volverse físico y visible, aunque sigue conservando su invulnerabilidad ante los ataques convencionales. Metamorfismo: Un señor de los bosques no tiene nunca una forma definida. Cada vez que quiere manifestarse delante de los mortales puede tomar una apariencia diferente, aunque habitualmente tendrá siempre características de diversos animales. Alma del bosque: Dentro de su reino un señor de los bosques tiene conocimiento de todo lo que ocurre. Avoluntad, puede unir su conciencia con la de cualquier animal o planta y utilizarlo como avatar temporal. El Harekawa lanza sus conjuros a través de estos avatares como si se encontrara presente en ese lugar. Transporte a través de la naturaleza: El poder del señor de los bosques le permite moverse con libertad dentro de la extensión de su reino. Si lo desea, puede transportarse automáticamente a cualquier lugar que no exceda de los límites del verdor y manifestarse en persona. Aunque no existe límite alguno al número de veces que es capaz de hacer uso de esta habilidad, la alteración que produce en la naturaleza le obliga a tener que esperar alrededor de un minuto para hacerlo de nuevo.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 9\n\nClase: Espíritu 30 Puntos de Vida: 180 Categoría: Hechicero Fue: 8 Des: 8 Agi: 10 Con: / Pod: 1 4 Int: 12 Vol: 12 Per: 10 RF 85 RM 120 RP 95 RV 85 RE 85\n\nTurno: 1 10 Natural Habilidad de ataque: 40 Armas naturales Habilidad de defensa: 40 Esquiva Daño: 50 Armas naturales TA: Ninguna Act: 90\n\nZeon: 1.100\n\nProyección mágica: 200 Nivel de magia: 90 Esencia Habilidades esenciales: Don, Inutilidad somática, Inutilidad oral, Características anímicas sobrenaturales, Afinidad. Poderes: Espíritu de los bosques, Metamorfismo, Alma del bosque, Transporte a través de la naturaleza, Regeneración. de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Animales 200, Herbolaria 200, Advertir 120. Los Harekawa son considerados milenarios espíritus de los bosques, aunque puede que fuese más apropiado llamarlos encarnaciones mismas del verdor. Dotados de considerables dones sobrenaturales, viven en las forestas más grandes, que son su hogar y su reino. No tienen una forma definida, pero habitualmente toman la apariencia de grandes ciervos en los que se combinan diversas características de varios animales a la vez.\n\nLa existencia de estas criaturas está atada al bosque; nacen, crecen y mueren con él. Cuando el bosque arde ellos sienten dolor, cuando algo corrompe el verdor, enferman y, si es destruido, desaparecen completamente. Por ello, lo aman y protegen con todas sus fuerzas. Todos los animales consideran a los Harekawa como sus señores y los obedecen instintivamente. También otras criaturas místicas con afinidad natural, como duendes o ninfas, comparten esta sensación. Seres por naturaleza solitaria, tradicionalmente los Harekawa no se han mezclado en asuntos humanos. Solo en contadas ocasiones se han puesto en contacto con algunas personas para pedirles algo que se encontrase fuera de sus posibilidades, principalmente por hallarse más allá de las fronteras de su reino.\n\nSolo viven en las forestas más grandes y vivas, aunque también es posible encontrarlos en bosques más pequeños si estos tienen cierta naturaleza mística. Nunca hay dos en una misma ubicación. Un Harekawa es incapaz de salir de su bosque, al que se encuentra atado espiritualmente. Si por cualquier causa es obligado a hacerlo, se vuelve físico y permanece atrapado en la forma terrenal que hubiese escogido hasta que regresa a la foresta. En el proceso pierde casi todas sus habilidades sobrenaturales y su capacidad de lanzar conjuros también se resiente en gran medida. Es común que mediante sus poderes vigilen a las personas que cruzan sus territorios. Por regla general no suelen actuar, pero puede darse la posibilidad de que les ayuden ligeramente o les perjudiquen, dependiendo del trato que le den al bosque.\n\nSi detestan algo por encima de todas las cosas eso es sin duda las entidades nigromaticas y aquellos seres que llevan consigo decaimiento y corrupción. Si alguno penetra dentro de sus dominios, recibirá una escueta advertencia, y después deberá enfrentarse a la ira desencadenada del señor del bosque. En muy raras ocasiones algunos señores de los bosques, considerando un peligro sus reinos a causa de la acción humana, han declarado guerras en pequeña escala contra algunas poblaciones cercanas. Existe una leyenda que dice que consumir la sangre de un Señor de los Bosques prolonga sobrenaturalmente la vida y devuelve parte de la juventud perdida. Por esta causa, no son pocos quienes han tratado de capturar uno para matarlo y alimentarse de él. En muchas grandes forestas de Gaïa aún quedan algunos Harekawa, viviendo sin ser molestados por los hombres.\n\nNi siquiera organizaciones como la Inquisición tienen un verdadero interés en ellas, ya sea por la increíble dificultad que representa acabar con ellos o por su escasa participación en los asuntos mortales. Modus operandi No son en absoluto seres pacíficos, pero es muy raro que tengan un motivo para verse obligados a entrar en combate. No obstante, dado que sus poderes son descomunales, tenerlos como enemigos puede ser una verdadera pesadilla. Al ser una parte misma del bosque, es prácticamente imposible acabar con un Harekawa mientras esté dentro de su reino. Su habitual estilo de combate consiste en proyectar su conciencia a través de plantas y animales para lanzar conjuros mientras sus verdaderas formas se mantienen a varios kilómetros de distancia. Su comprensión de la magia no es como la que tienen brujos y hechiceros.\n\nEllos sienten los conjuros de la propia naturaleza, y son capaces de usarlos de manera instintiva. Por ello, un Harekawa nunca aplica penalizadotes ni reduce su ACT a la hora de usar conjuros. También puede atacar utilizando su dominio sobre algunos animales, habitualmente grandes depredadores, que actúan como sus guardias y agentes. En el caso de que sientan que el bosque está realmente en peligro, hará una llamada a todos los animales que habitan en él para que actúen como una extensión de sus propios deseos. Afinidad: Un Harekawa es afín a todos los animales naturales que pueblan el mundo. Estos le reconocen instintivamente como su señor y sienten una reverencia ancestral hacia él. Espíritu de los bosques: Por naturaleza el señor de los bosques es una criatura espiritual, por lo que es invisible al ojo humano y no recibe daño alguno de ataques que no sean de carácter místico.\n\nAvoluntad, el Harekawa puede volverse físico y visible, aunque sigue conservando su invulnerabilidad ante los ataques convencionales. Metamorfismo: Un señor de los bosques no tiene nunca una forma definida. Cada vez que quiere manifestarse delante de los mortales puede tomar una apariencia diferente, aunque habitualmente tendrá siempre características de diversos animales. Alma del bosque: Dentro de su reino un señor de los bosques tiene conocimiento de todo lo que ocurre. Avoluntad, puede unir su conciencia con la de cualquier animal o planta y utilizarlo como avatar temporal. El Harekawa lanza sus conjuros a través de estos avatares como si se encontrara presente en ese lugar. Transporte a través de la naturaleza: El poder del señor de los bosques le permite moverse con libertad dentro de la extensión de su reino.\n\nSi lo desea, puede transportarse automáticamente a cualquier lugar que no exceda de los límites del verdor y manifestarse en persona. Aunque no existe límite alguno al número de veces que es capaz de hacer uso de esta habilidad, la alteración que produce en la naturaleza le obliga a tener que esperar alrededor de un minuto para hacerlo de nuevo. Regeneración: Mientras se encuentre en el interior del bosque el Harekawa se nutre de la vitalidad del verdor, recuperándose instantáneamente de cualquier herida que sufra. Por ello se cura a un ritmo de 25 puntos de vida por turno. En el caso de que el bosque esté dañado o corrompido, este poder puede disminuir sus efectos o incluso desaparecer por completo.\n\n&lt;!-- tags: @personaje, @localizacion, @regla --&gt;\n\n_Página 11_\n\nGandalfhon Ogro de la Desesperación</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 9
-      },
       "notes": [
         {
           "_id": "note-harekawa-senor-de-los-bosques-3",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 0
-          }
+          "value": 0,
+          "mod": 0
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 14
-          }
+          "value": 14,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 110
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 15
+              "value": 85
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 15
+              "value": 85
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 85040
+              "value": 85110
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 25
+              "value": 120
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5
+              "value": 95
             },
             "final": {
               "value": 0
@@ -513,203 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 40
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 40
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -740,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -756,16 +889,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 1100,
         "max": 1100
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -777,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -889,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -909,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1062,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

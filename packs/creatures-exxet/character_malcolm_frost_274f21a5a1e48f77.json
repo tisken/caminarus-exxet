@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +297,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +317,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -430,7 +351,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -448,7 +369,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 34</p><p><strong>Entrada:</strong> Malcolm Frost</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Tecnicista Fue: 7 Des: 8 Agi: 10 Con: 8 Pod: 7 Int: 6 Vol: 6 Per: 8 RF 40 RM 35 RP 35 RV 40 RE 40</p><p><strong>Ventajas y desventajas:</strong> Maestro marcial (x2), Recuperación rápida de Ki.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 75 Arankar doble</p><p><strong>TA:</strong> Ninguna CM: 130 Habilidades del</p><p><strong>Habilidades secundarias:</strong> Acrobacias 50, Atletismo 35, Nadar 25, Saltar 15, Trepar 20, Estilo 15, Advertir 30, Buscar 20, Trucos de manos 25</p><p><strong>Descripción breve:</strong> Malcolm Frost es un hombre de veinticuatro años, de pelo rubio, rasgos bien marcados y una impresionante constitución física. Viste con ropas muy extravagantes, combinando el estilo de Estigia y sus adornos con prendas tradicionales del Imperio. Frost es un miembro de la Hermandad de Seth, una sociedad secreta de artistas marciales y luchadores que trabaja para los Reyes de Estigia desde hace varios siglos.. El caso de Malcolm es especial; se trata de uno de los pocos miembros que no es nativo, pero fue entrenado a causa de la cercana relación de sus padres con la Hermandad (ambos les habían brindado una importante ayuda en el pasado) y el talento natural del chiquillo. El joven creció orgulloso de sus habilidades, consciente de que sus conocimientos y poderes superaban a los de “la gente normal”. Con el tiempo llegó a dominar multitud de habilidades del Ki, e incluso los principios de algunas técnicas. Desgraciadamente, tras los incidentes que hicieron tambalearse al Imperio, los extranjeros empezaron a ser cada vez peor vistos entre el pueblo Estigio, y Malcolm se vio obligado a dejar el principado para evitar problemas. Una vez más, era algo poco habitual entre las reglas de la Hermandad, pero dado que él no era responsable de la situación, de nuevo se hizo una excepción y se le dejó marchar. Hoy en día, Malcolm sigue entrenando con esmero y puliendo sus habilidades sobre los Dominios, aunque por encima de todo, espera con ansia el día en el que pueda ponerlas realmente en uso. Notas y curiosidades: Malcolm ha sido entrenado en el uso del Arankar de doble filo, un arma de origen estigio muy poco común en el resto del continente. Dicho artilugio está formado por una enorme cuchilla, con una especie de vara metálica en su parte trasera que hace las veces de mango, y que por regla habitual suele ser usada con ambas manos para poder equilibrarla. Las estadísticas del Arankar no se encuentran reflejadas en el libro básico, por lo que las exponemos a continuación: Daño 60, Turno -15, Fuerza Requerida 7 , Crítico Primario Filo, Entereza 14 y Rotura 4. Como regla especial, el Arankar permite hacer un segundo ataque por asalto como si utilizara un arma adicional, pero empleando sólo un penalizador de -10 a la habilidad. En consecuencia, es considerablemente más difícil de usar, por lo que aplica la regla especial Compleja, y no dobla el bono de Fuerza del personaje, incluso si usa las dos manos. Posesiones: Arankar, Una muda de ropa, Raciones de viaje (para 1 día), Una mochila, 8 Escudos de Oro. Ahora, el viaje puede empezar... © Alícia Guillem ## Capítulo 4 una Sombra en los Sueños ### Inicios #### Y en las Sombras _Página 35_ Una Sombra en los Sueños Capítulo 4 Sueños, Esos fragmentos de muerte.... Como los odio. Magnus “Una sombra en los sueños” es una partida de iniciación de Ánima: Beyond Fantasy para un grupo de tres a cinco personajes de primer o segundo nivel. Los sucesos que se desarrollan en ella comienzan poniendo a los jugadores en una situación crítica en contra de unos simples soldados rebeldes, aunque sin que ellos lo sepan, pronto se verán inmersos en el enfrentamiento de dos oscuras fuerzas sobrenaturales. “Una sombra en los sueños” está dividida en tres partes. Habitualmente se requieren entre tres y cuatro sesiones para finalizarla, aunque es posible que, si los jugadores quieren ser muy concienzudos en sus pesquisas, se alargue más. Dos de sus segmentos, el primero y el tercero, están repletos de acción desenfrenada, mientras que el segundo requiere investigar y relacionarse con varios PNJs. Apartir de aquí, toda la información se encuentra reservada al Director de Juego. Algunos planteamientos iniciales Esta partida se sitúa espacialmente en el principado de Gabriel y en una pequeña isla del Mar Interior, aunque a cualquier Director de Juego le resultaría fácil trasladar la acción a otro lugar más acorde con sus necesidades. Basta con que tenga una gran metrópolis de la que los personajes puedan partir y una costa cercana. En ella también se cita a varias organizaciones y personajes relevantes de Gaïa, como T ol Rauko o el Señor de las Pesadillas Malekith. Aunque esta información no resulta vital para entender el desarrollo de los sucesos, es interesante tener una idea general de quiénes son y de cómo funcionan, para profundizar dentro de la trama. Por tanto, se recomienda leer primero los Capítulos XVIII, XIX y XX del libro de reglas básico. Por último, quizás pueda resultar conveniente que los personajes se conocieran antes de iniciar el viaje, aunque no es necesario. “Una sombra en los sueños” esta planteada de manera en la que todos se verán obligados a colaborar desde el principio si quieren sobrevivir, esperando después que se cree en ellos cierto sentido de grupo, al pasar por una experiencia de tal trascendencia. En realidad, es la única oportunidad que tienen… Los inicios La partida comienza cuando los jugadores suben en La Dama para hacer su viaje inaugural. Se trata sin duda de un acontecimiento importante, y la gente lleva días enteros expectantes. a nteceDentes : Hace poco más de un año, el consejo de comerciantes que controla el principado de Gabriel encargó al Príncipe Lucanor Giovanni, de Lucrecio, la construcción de un zepelín que fuese el orgullo de su país. Con él, Gabriel pretende demostrar a otros reinos su superioridad artística y económica. De hecho, la decisión de que el viaje inaugural tenga como destino Arkárgel, capital del Sacro Santo Imperio, no es otra cosa que una provocación abierta a sus antiguos gobernantes. Por desgracia, el acontecimiento ha atraído la atención de unos pasajeros muy poco agradables, quienes por una causa u otra, no tienen intención de que el zepelín realice un viaje sin incidentes. El primer grupo es una pequeña escuadra de militares renegados que quiere desertar de Gabriel. Edmond Sadler, capitán de la unidad que tiene asignada la tarea de proteger La Dama, ha recibido una considerable suma de dinero para secuestrar el dirigible y entregarlo en algún punto de Togarini. Gracias a su carisma, logró convencer a muchos de sus hombres para que le siguieran, y pretende tomar el control del aparato una vez que estén en pleno vuelo. El segundo individuo interesado en el zepelín es una entidad sobrenatural que se hace llamar a sí misma Raptor, quien pretende dirigirlo hacía las cercanías de una pequeña isla del Mar Interior e iniciar allí un complejo ritual místico. Sus razones son, como poco, mucho más complicadas… y en las sombras … Más de una década atrás, Malekith, Príncipe de los Cuervos, se enfrentó a una poderosa Señora de las Pesadillas llamada Seline por el control de un importante emplazamiento en la Vigilia. La joven perdió el conflicto y se vio obligada a refugiarse en el mundo real con el objetivo de recuperar sus mermadas energías. Por desgracia para ella, en ese periodo de tiempo atrajo la atención de T ol Rauko, los cazadores de lo sobrenatural, cuyos agentes aprovecharon su debilitado estado para capturarla y llevarla hacia su isla. No obstante, a sabiendas de su creciente poder, los templarios temían que se liberarse antes de alcanzar su destino, por lo que optaron por contenerla usando un antiguo artefacto que habían sellado hacía más de un siglo: el Flauros. Pero la fortuna jugó en contra de T ol Rauko, ya que durante la travesía por el Mar Interior en dirección a su fortaleza, una potente tormenta hizo naufragar el barco, eliminando a todos los tripulantes. De ese modo, los restos de la nave-prisión acabaron encallados en los arrecifes de una pequeña isla llamada Corvinus, donde Seline permaneció aletargada a causa de la influencia del artefacto. Pero la Señora de las Pesadillas no era la única prisionera que se encontraba en la embarcación. En otra de las celdas místicas viajaba Galael, un espectro menor que antaño sirvió aMalekith. Liberado por el impacto contra las rocas, se dio cuenta enseguida de quién era Seline y de lo que podía llegar a hacer con ella, usando adecuadamente el Flauros. La condujo aún dormida hasta el interior de una vieja catedral abandonada, donde usó el artefacto para encerrarla. Después intentó controlar sus poderes, aunque no tardó en darse cuenta de que las capacidades de la Señora de las Pesadillas escapaban de lejos a su comprensión. Aun así, gracias a su empeño logró sintonizar con una pequeña parte de ella y, creyéndose preparado, trató de sumir la isla entera en la Vigilia para obtener mayores poderes. El intento acabó en fracaso, pero el paso entre ambos mundos resultó muy debilitado, dotando aGalael de cierto control sobre el lugar. Sin perder ni un instante, volvió a usar las energías de Seline para levantar una barrera invisible que impidiera la salida o la entrada aCorvinus, a sabiendas de que, probablemente, su fallido intento habría llamado la atención de alguna entidad poderosa de la Vigilia. Una vez se sintió seguro tras aquel muro, el ego de Galael empezó a crecer desmesuradamente. Tomó apariencia humana poseyendo el cuerpo de uno de los templarios fallecidos y se presentó ante los aldeanos como el nuevo señor de la isla, el Marqués de Cavalcanti. Desde entonces se alimenta de las emociones negativas de sus vasallos, acumulando poder muy lentamente en espera de transportar finalmente Corvinus a la Vigilia y controlar completamente allí los poderes de Seline. Capítulo IV: u na s ombRa en los s ueños #### Primera Parte el Vieja de la Dama _Página 36_ Una Sombra en los Sueños , estos acontecimientos no pasaron completamente inadvertidos para Malekith, quien sin saber lo que había sucedido con exactitud, lo hizo investigar por sus agentes. Tras años de pesquisas, tanto en el mundo real como en la Vigilia, sus siervos lograron darle una idea aproximada de los acontecimientos y de cuál era el actual paradero de Seline. Ese descubrimiento le sorprendió y agradó; aunque había sido su enemiga en el pasado, en realidad no sentía ninguna enemistad hacia ella ni le guardaba especialmente rencor. Fue un adversario digno e inteligente que supo aceptar la derrota y escapar de él como muy pocos lo habrían hecho. Pero Galael era un asunto muy distinto… El Príncipe de los Cuervos no puede soportar la idea de que uno de sus siervos se revele contra él y, lo que es aún peor, que esa insignificante criatura pretenda ser su igual. Dado que por el momento es incapaz de abandonar Graven (ni pretende hacerlo por un asunto de tan nimia importancia), ha enviado aRaptor, uno de sus tantos agentes, para acabar con el renegado y poner ejemplo entre los suyos. El problema es que el ejecutor de Malekith ha sido incapaz de atravesar la barrera que rodea Corvinus por mar y, tras meses de infructuosos intentos y barcos hundidos, ha decidido buscar otro método para colarse dentro. Al oír hablar del viaje inaugural de La Dama y descubrir que su trayecto pasa cerca del dominio de Galael, aRaptor se le ocurrió la posibilidad de usar el zepelín como puerta al interior de la isla, ya que posiblemente, la parte superior de la barrera fuese considerablemente más débil, pues no era de esperar un ataque aéreo. Su plan es muy simple: una vez que La Dama esté cerca de Corvinus, tratará de tomar el control del dirigible y producir una histeria colectiva entre sus ocupantes, haciendo que sus fuertes emociones abran momentáneamente un acceso a la Vigilia que él aprovechará. Pero ni siquiera Raptor podía imaginar que no sería el único con sus intereses puestos en el zepelín… PRIMERA PARTE:EL VIAJE DE LA DAMALaDama es una visión realmente impresionante. Se trata de un descomunal zepelín de tres cuerpos unidos entre sí por cuatro largas pasarelas de metal. Toda la estructura está bellamente tallada de un modo tan aerodinámico como ostentoso, que trata de imitar el estilo de los regios navíos del principado. Las dos barcazas laterales están destinadas a los viajeros y sus camarotes, mientras que en el cuerpo central se encuentra la bodega de carga y el puente de mando. Los personajes subirán al ala izquierda de La Dama entre un descomunal gentío que ha ido a presenciar su despegue. El consejo de comerciantes de Gabriel no ha reparado en gastos para festejar el viaje inaugural, por lo que entre confeti y bandas de música, miles de transeúntes observan emocionados cómo los viajeros embarcan en el navío. Al llegar a la plataforma, un revisor les pedirá el billete y les conducirá por un lujoso pasillo enmoquetado hasta el enorme salón central (1). En dicha habitación se encuentran sentados todos los viajeros de la barcaza izquierda del zepelín; unos veinte individuos, de los cuales la mayoría son gordos burgueses, jovencitas y niños, además de cuatro soldados que vigilan las salidas. Si no se conocen de antes, por diversos avatares del destino (y el hecho de que los individuos con Gnosis se atraen los unos a los otros), a todos los PJs les corresponderá tomar asiento en la misma mesa. Una vez que estén ya en su sitio y La Dama haya despegado (un espectáculo digno de ver, por cierto), los soldados anunciarán que no pueden dejar la estancia hasta que los camarotes se encuentren completamente habilitados dentro de unas horas. Mientras, para entretenerse tienen las estupendas vistas de las escotillas y algunos refrigerios. Esta es una oportunidad fantástica para que los personajes puedan empezar a hablar un rato entre ellos y se conozcan. Si alguno encuentra extraño que se vean obligados a esperar tanto e insiste en saber por qué, el guardia al que pregunte se limitará a encogerse de hombros y decirle que los zepelines no son como los barcos, y que esa es la espera reglamentariamente establecida. La única causa justificada por la que alguien puede llegar a salir de la estancia es para ir al servicio, y lo hará siempre escoltado. No obstante, el primero de los PJs que lo haga escuchará como dos militares están discutiendo al final del pasillo (si supera un control de Advertir contra MDF, podrá incluso oír frases como “-¡No seas estúpido! No puedes echarte atrás ahora.-” antes de que estos se den necesariamente cuenta de su presencia). En cuanto a los camareros que se ocupan de la comida y la bebida, son siempre muy atentos y agradables. En el caso de que alguien se fije especialmente en ellos, podrá darse cuenta de que, pasado un tiempo, empezarán a parecer algo nerviosos. Si les pregunta, contestarán simplemente que es la primera vez que vuelan y aún no se han acostumbrado a la sensación. Por fin a media tarde, cuatro horas y media después del inicio de la travesía, mientras el zepelín sobrevuela ya el Mar Interior, todos los acontecimientos que han estado urdiéndose darán realmente comienzo. Súbitamente, un quinto soldado irrumpe en el salón con una espada larga en la mano y una ballesta cargada en la otra, exigiendo la atención de todos los pasajeros. Los otros cuatro, que estaban esperando la señal, desenfundarán sus armas cubriendo de inmediato las salidas. Entre los gritos asustados de los presentes, el recién llegado anuncia con sarcasmo que el zepelín se encuentra bajo el control de su capitán y que todos los presentes van a ser ejecutados por traición. Y no tardará mucho en empezar a cumplir sus amenazas… Su plan es simple: cuatro de ellos esperan espada en mano en las puertas a cualquiera lo suficientemente valiente o estúpido para acercárseles, mientras que el quinto irá disparándoles con la ballesta. Este es el momento en el que los PJs tienen que verse obligados a intervenir para detener la masacre y salvarse ellos mismos. Cuando empiece la lucha, casi todos los viajeros, mujeres y niños en su mayoría, se esconderán debajo de las mesas o de los sillones rezando por sus vidas. Es altamente improbable que alguno intente intervenir, y en realidad, de muy poco serviría que lo hiciese. En el momento en el que los militares se den cuenta de que los personajes son algo más que meros burgueses, dejarán las salidas y se concentrarán únicamente en ellos. Sólo tres del grupo son soldados con experiencia, pero están seguros de que entre todos podrán dar buena cuenta de sus rivales. En mitad del combate (aunque sólo en el caso de que dure más de cuatro asaltos, claro), el zepelín hará un brusco movimiento y empezará a descender lentamente (debido a que Raptor ha empezado a actuar). Todos los que estén de pie deberán superar un control de Acrobacias contra MED o de Agilidad con un penalizador de –2 a la característica, si no quieren caerse de bruces. Una vez que la lucha haya concluido, no hace falta tener mucha imaginación para darse cuenta que lo peor aún esta por venir, y que quedarse sin hacer nada no es la solución. Tarde o temprano los otros soldados se darán cuenta del fracaso de sus compañeros y además, aunque pausadamente, es innegable que La Dama se dirige hacía el mar. El siguiente movimiento está en manos de los jugadores. ##### Dama ###### 11 Pasillo Izquierdo _Página 38_ 2. p asillo De entra Da : Se trata del espacioso pasillo por el que se sube a bordo de La Dama. Las escaleras conducen hasta la puerta de embarque, la cual se encuentra ahora cerrada por dentro y por fuera. En dirección contraria se llega hasta la sala de máquinas (5), cuya puerta ha sido trabada por los renegados. La cerradura ha quedado completamente inservible, por lo que la única manera de pasar es echarla abajo (trátala como una puerta recia a efectos de resistencia). 3. s erVicioDeDamas : Un cuarto de baño para señoritas, hermosamente decorado y perfumado. Tiene un inmenso espejo de pared para retocarse. 4. s erVicioDe caballeros : Parecido al anterior, pero decorado de manera mucho más masculina. Si los personajes buscan minuciosamente (cosa que no tienen mucho tiempo para hacer), encontrarán sangre salpicada detrás del retrete. Al parecer, aquel soldado que estaba discutiendo con su compañero por aquí hace horas acabó echándose atrás… 5. s ala De máquinas , ala izquierDa : Otra inmensa estancia, aunque esta vez llena de maquinarias, engranajes y calderas. El sonido aquí es estridente, por lo que los personajes tendrán serios problemas para escucharse los unos a los otros, incluso gritando. La sala está separada en dos niveles distintos, la plataforma superior por donde se entra y la parte inferior, en la que se encuentran la gran mayoría de aparatos que hacen girar las hélices del zepelín. Aprimera vista pueden verse los cadáveres de tres de los operarios, tirados por el suelo del piso de abajo, junto a l de un militar (una inspección posterior más detallada indicará que todos han muerto por una herida de arma blanca). En esta estancia hay también dos soldados (uno de ellos con experiencia), que han bloqueado la pasarela y se aseguran de que las maquinarias sigan funcionando correctamente, con la involuntaria ayuda de un cuarto operario. En el caso de que los personajes echasen la puerta abajo violentamente y necesitasen más de cuatro asaltos para hacerlo, lo más probable es que los soldados se hayan dado cuenta y estén ocultos (requieren tanto tiempo a causa del ruido ambiental). Si ocurre así, esperarán escondidos tras las máquinas del fondo de la estancia, con la ballesta lista, a que bajen por las escaleras (control Muy Difícil de Advertir o Medio de Buscar para poder verlos). Una vez que el combate haya terminado, el operario superviviente, escondido hasta entonces, se acercará a ellos con las manos extendidas pidiendo ayuda. Dice llamarse Dieter Helsm y les explicará que la única manera de detener la caída del zepelín es llegar a la sala de mando, que se encuentra en la parte delantera del cuerpo central. Para cruzar hasta allí, deben usar una de las dos pasarelas de tránsito. La de esta estancia se encuentra completamente inutilizada, ya que los soldados volcaron un enorme armatoste de vapor, destrozando por completo la entrada. Por tanto, la única posibilidad que les queda es dirigirse hasta el comedor de proa y usar la que está allí. Naturalmente se negará a acompañarlos, admitiendo que está asustado y que no sabe controlar el timón del navío. Si más tarde los personajes vuelven aquí, no encontrarán aDieter, ni nadie sabrá dónde ha ido. NOTA: Una idea interesante para representar el fuerte sonido de la estancia es pedirle a los jugadores que no hablen entre ellos, y que declaren sus acciones mediante notas de papel. No obstante, ten en cuenta que hacerlo de este modo puede ralentizar considerablemente la partida, por lo que no conviene abusar de este método. 6. p asillo De las Habitaciones : Un corredor igual de amplio que el de entrada, engalanado en este caso con algunos cuadros de personalidades de Gabriel. Hay ligeras señales de lucha, pero nada de relevancia. 7. Habitaciones : Lujosos dormitorios, dignos del mejor de los hoteles. Aunque casi todas las maletas de los pasajeros están aquí, ninguna ha sido abierta todavía. Si miran en sus propios cuartos (el número debe de estar reflejado en el billete de embarque), podrán encontrar cualquier equipaje del que se hubieran desprendido al subir. Naturalmente, los personajes pueden entretenerse saqueando las pertenencias de los demás, cosa que sin duda resulta muy gratificante; entre joyas, obras de arte y otras posesiones de valor, pueden encontrar más de 15.000 Escudos de Oro. Por desgracia, si pierden mucho tiempo, lo más probable es que lleguen demasiado tarde, y sean por tanto incapaces de impedir que el zepelín se estrelle. 8. c omeDor : Probablemente, el comedor es la habitación más espectacular de toda el ala izquierda. Muchas de sus paredes son enormes cristaleras por las que se puede ver el exterior del zepelín (y la preocupante proximidad del agua). Repartidas por la estancia hay varias mesas y sillas preparadas para servir opíparos banquetes, mientras que en el fondo hay un descansillo elevado que sirve como pista de baile. 9. c ocina : La cocina está repleta de toda clase de alimentos exóticos, vinos caros y platos a medio hacer. Para evitar posibles problemas con el fuego, los fogones no utilizan llamas reales, sino brasas encendidas sobre una amplia superficie de metal. Todo un adelanto para la época. Si los personajes escuchan atentamente (Advertir aDIF), podrán oír algunos exiguos lloriqueos provenientes de la despensa. Allí se encuentran encerrados unos cuantos miembros del servicio (cuatro doncellas, dos cocineros y el revisor que les recibió), junto a los cadáveres de aquellos que se resistieron. Las chicas están histéricas, aunque tampoco se puede decir que los demás estén muy tranquilos. La única información que son capaces de dar es que, mientras estaban encerrados, han escuchado cómo alguien se acercaba hasta la puerta, comenzaba a arañarla y con una voz profunda decía entre risas: “-Un acontecimiento completamente inesperado, ¿verdad, mis asustadizos niños? Veamos si es posible aprovecharlo.-”, tras lo cual se marchó sin más. 10. p lataforma De paso : Se trata de un largo puente metálico que conecta el ala izquierda de La Dama con el cuerpo central. Como medida de seguridad tiene una alta barandilla que llega hasta algo más de la cintura, pero eso no evita que los fuertes vientos y la velocidad del aparato hagan de la plataforma un sitio peligroso. Cuando se encuentren a medio camino, la puerta de enfrente se abrirá y una pequeña guarnición de soldados empezará a avanzar hacia los PJs. Se trata de un grupo que Sadler a afianzar posiciones, después de creer seguro el cuerpo central. Se trata de siete militares, aunque sólo un par de ellos tienen algo de experiencia. Ante esta situación, los jugadores pueden optar por dos cosas; retroceder hasta el comedor (8) o combatir individualmente en el puente. Si optan por esta segunda estrategia, sólo una persona podrá luchar cuerpo a cuerpo por bando, y en todos los asaltos deberá superar un control de Acrobacias contra FAC (o en su defecto, uno de Agilidad con el modificador que consideres pertinente en el caso) para no perder el equilibrio. Un resultado extremadamente malo podría incluso significar que cae al vacío. Adicionalmente, aquellos que esquiven tendrán que aplicar el penalizador de espacio reducido a su defensa, y cualquier proyectil disparado o lanzado obtiene un negativo de –60 a causa del viento. 11. p asillo izquierDo : Un largo pasillo lleno de escotillas por las que se pueden ver las nubes del exterior. No tiene tantos adornos como los corredores de las alas residenciales, pero aun así esta hermosamente decorado con una larga alfombra de lino rojo. Si los personajes se fijan un poco (es decir, basta con que no pasen corriendo), descubrirán algo llamativo: los arañazos de algo similar a una afilada garra se extienden varios metros por la pared. ###### 19 Sala de Máquinas Ala Central _Página 39_ en todos los aspectos al anterior, salvo por el hecho de que en el suelo yace, sobre un charco de sangre, el cadáver terriblemente mutilado de uno de los soldados. Es imposible precisar el arma que se ha usado para matarlo, pero las heridas parecen ser cuatro afiladas cuchillas. Naturalmente, nadie sabe saber si se trataba de uno de los militares rebeldes o no. 13. e l camarote Del capitán : Este dormitorio pertenecía al ahora difunto capitán de La Dama. Hay objetos de mucho lujo, por los que sin duda se podría obtener un buen precio en joyerías y tiendas de artesanía. Salvo eso, nada más relevante. 14. e l camarote De los oficiales : La habitación reservada a los cuatro oficiales a cargo del zepelín; el encargado de las maquinas, el de seguridad (el propio Sadler), el jefe de cocina y el ayudante del capitán. Un lugar ordinario y sin importancia. 15. e l camarote De la tripulación : Probablemente, la única estancia habitable del zepelín que no llama la atención por su lujo. Es un amplio cuarto lleno de literas, donde deberían dormir los más de sesenta tripulantes del aparato. 16. p uente De manDo : El puente es una gran habitación ligeramente ovalada, con grandes ventanales y diversos aparatos que permiten controlar el zepelín. Casi todo esta decorado con madera y grandes cortinas, lo que le da un aspecto majestuoso y solemne. Desdichadamente, cuando los personajes entren, presenciarán un espectáculo muy poco agradable. Media docena de individuos, entre los cuales hay algunos militares, yacen muertos en distintos lugares de la estancia, cada cual de modo más horrible. El cadáver del capitán de La Dama es el que más llama la atención, pues permanece aferrado al timón con una expresión de terror absoluto. Salvo si por alguna razón ya se lo han encontrado antes en otro lugar de la nave, Edmond Sadler, junto a tres de sus hombres de mayor confianza (todos luchadores expertos), estará aquí examinado los cuerpos con expresión seria. En realidad está muy sorprendido por los cadáveres, ya que ha sido Raptor quien ha matado a todos los ocupantes de la sala. Cuando les vea entrar, se encarará a ellos y exclamará con desdén: “-Así que sois vosotros los que estáis matando a los míos… Pues dejadme que os diga algo; No sé qué le habéis hecho a la sala de máquinas ni por qué queréis destruir esta aeronave, pero os aseguro que nada impedirá que me apodere de ella.-”. Acto seguido, ordenará a sus hombres que ataquen, ya que está preocupado por la caída del zepelín y no tiene demasiadas ganas de seguir hablando. Sadler sabe lo que se juega y que no habrá perdón para él si es capturado, por lo que irá a por todas y luchará hasta la muerte. Si el combate finaliza favorablemente para los PJs, es posible que se sientan eufóricos y piensen que lo peor ya ha acabado (aunque, a la vista de algunos sucesos, probablemente ya hayan empezado a intuir que ocurre algo más que aún no han visto). Por desgracia, cuando intenten enderezar el timón para detener la caída del aparato, se darán cuenta de que está bloqueado, y según indican los paneles, el problema parece hallarse en la sala central de máquinas. Si quieren, pueden usar los controles para abrir el acceso hasta allí, ya que en los tableros aparece perfectamente explicado que desde aquí se controlan las entradas de toda la nave, y da la casualidad de que esa está sellada en estos momentos. 17. b oDegaDe carga : La inmensa sala central del zepelín es usada como almacén para transportar todo tipo de cargamentos. Por ello, la estancia está repleta de grandes cajas apiladas entre sí de forma laberíntica. Desgraciadamente, la proximidad al ritual está provocando una ligera distorsión de la realidad. Por tanto, es posible que los personajes más perceptivos a lo sobrenatural vean algunas cosas extrañas, como sombras deformes que aparecen o desaparecen. Si pululan por la estancia no tardarán en ver un rastro de sangre que conduce hasta una esquina. Lo que ocurre es que Raptor estaba viajando en el interior de una caja, a modo de ataúd. Esperaba permanecer en su interior más tiempo, pero al darse cuenta del asalto militar, tuvo que intervenir mucho antes para descubrir lo que pasaba. Al parecer, un grupo de tres soldados se encontraron cara a cara con él y este dio buena cuenta de ellos. Sus cadáveres, como el encontrado antes en el pasillo y los del puente, están horriblemente despedazados. Desde luego, no es un espectáculo para estómagos débiles. 18. s erVicios para oficiales y tripulación : Dos servicios comunales, uno masculino y otro femenino, que ni remotamente tienen el nivel de lujo de los lavabos del ala izquierda. No obstante, si algún personaje atiende atentamente, escuchará una especie de extraño llanto de detrás de la pared (la que da a la sala de máquinas). 19. s ala De máquinas , ala central : La sala central de máquinas es el lugar que Raptor ha elegido para llevar a cabo su ritual. La puerta de entrada es metálica y se encuentra sellada, por lo que la manera más sencilla de abrirla es usando los controles del puente de mando. Visualmente, la estancia es parecida a la del ala izquierda, aunque más espaciosa. No obstante, aquí el ruido es también mucho menor, tanto que incluso resulta extraño con semejante cantidad de engranajes en movimiento. Además, la sala entera se encuentra en penumbra, iluminada únicamente por unas cuantas velas estratégicamente situadas. En el mismo centro hay un elaborado círculo místico hecho con sangre. Cualquier personaje que logre superar un control de Ocultismo a dificultad Muy Difícil reconocerá en él los símbolos de “Miedo” y “Portal”, escritos en un antiguo dialecto de una tribu del norte que fue acusada de herejía y exterminada por la Inquisición hace más de tres siglos. Si buscan el motivo por el que el zepelín está descendiendo, descubrirán fácilmente cómo hay dos enormes barras de metal bloqueando el alerón central. Cada una pesa sobre trescientos kilos, por lo que es posible que se requiera la colaboración de varios individuos para apartarlas. En el caso de que los personajes logren penetrar hasta esta sala forzando de algún modo la puerta antes de llegar al puente de mando, Raptor aún no estará en el interior (en esos momentos, habrá salido para dar buena cuenta del capitán del navío y asegurarse de extender el miedo colectivo). De todos modos, incluso si desbloquean el alerón, el zepelín seguirá cayendo a causa del timón (e igualmente cuando se marchen, Raptor regresará para volver a poner las barras). Si ya han dado buena cuenta de Sadler y han enderezado el timón, el ejecutor estará en mitad de la estancia finalizando su oscura ceremonia, así que pasa a la sección El portal oscuro. El portal oscuro Una vez llegados a este punto los personajes se encontrarán cara a cara con Raptor, quien permanece en mitad del círculo arcano con los brazos extendidos hacia el aire y una expresión de triunfo. Salvo en el caso de que le ataquen o se dirijan directamente a él, el ejecutor los ignorará por completo, incluso si se ponen a quitar las barras que bloquean el alerón. Si ha hecho caer el dirigible es únicamente para generar una situación de histeria colectiva entre los pasajeros, mientras él canalizaba con su ritual dichas emociones negativas. Ahora que ya tiene miedo más que de sobra, le importa bien poco el destino del zepelín y sus ocupantes. Si los PJs tratasen de hablar con él o se le acercasen, Raptor se encarará a ellos y con una cínica sonrisa les dirá: “-¿No es maravilloso, niños? En sólo unos instantes ocurrirá.-”. Si por el contrario optan por atacarle directamente, como muy pronto comprobarán no son rivales para él. Sin embargo, Raptor no les matará en ningún caso; ha esperado mucho tiempo para poder traspasar la barrera y quiere tener testigos de su logro. Por esa causa sólo jugara un poco con ellos, produciéndoles heridas leves e inutilizándolos. Luchen o hablen, pasados unos instantes (entre tres o cuatro asaltos), el zepelín empezará a vibrar con fuerza. En ese momento Raptor se parará en seco y, riendo como un loco, anunciará: “-Ya es tarde. La puerta a las Tinieblas ha sido abierta.-”. ##### Otros Detalles ###### Ala Derecha _Página 40_ Raptor, el ejecutor oscuro Pero segundos después sus carcajadas se congelarán, transformando su triunfal expresión en asombro y rabia. “-¡¡No!! ¡No es posible!-”. Gritará con toda la ira de la que es capaz su sepulcral voz, mientras clava los ojos en la nada. En ese preciso momento La Dama se estrellará contra algo desconocido, y el zepelín entero se sacudirá como si fuese a partirse en dos. Durante segundos estallará un caos absoluto y los personajes saldrán volando por toda la sala en dirección a la pared contraria. Después, sólo quedara silencio y oscuridad… Pero… ¿qué ha pasado realmente? Al parecer, Raptor volvió a menospreciar el poder de la barrera levantada con las energías de Seline, y de nuevo se ha visto incapaz de traspasarla. No obstante, los personajes, los únicos mortales de todo el zepelín con Gnosis elevado, son inevitablemente arrastrados hacia el interior de Corvinus… Otros detalles Estos son algunos de los detalles que resultan más relevantes en el trasfondo de esta parte de la aventura. l os Viajeros : Sin duda es el motivo más simple por el que un PJ puede encontrarse en el zepelín es sencillamente su intención de realizar un viaje hacia Arkángel (o cualquiera que sea el destino que el Director haya elegido). En dicho caso, el personaje no requiere mayor Introducción, basta con justificar de algún modo cómo se las ha apañado para conseguir el billete, desde la invitación de un amigo influyente hasta la mera suerte (algunos pasajes fueron sorteados por el consejo de comerciantes). Otras posibilidades interesantes son que esté allí como un miembro de la seguridad personal de alguno de los ricos burgueses (ideal para personajes mercenarios), o incluso que se haya colado como polizón y aproveche un sitio vacío para confundirse con los otros viajeros (nunca en las bodegas o en la sala de máquinas, ya que trastocaría muchos elementos de la trama). l a guarnición De s aDler : Los soldados a cargo del zepelín son poco más de una veintena de hombres, bajo el mando del capitán Edmond Sadler. El consejo de comerciantes, en su obsesión por llamar la atención de los otros principados, cometió el error de poner a una división sin relativa experiencia a cargo de La Dama. En realidad, nunca se les pasó por la cabeza que pudiesen ser asaltados en pleno aire y se limitaron a mirar con lupa la lista de los viajeros, asegurándose de que todos fueran personas notables y de la mayor confianza. Esa es la causa de que los guardias acabasen siendo seleccionados únicamente por ser atractivos o tener un origen noble, en lugar de por su habilidad en combate (de hecho, algunos no han participado en un combate real en toda su vida y están en el ejército porque sus padres esperaban que eso hiciera de ellos verdaderos “hombres”). Tras recibir la oferta de su misterioso comprador, Sadler sólo le contó sus objetivos a aquellos que, ya sea por codicia o fidelidad hacia él, estarían dispuestos a apoyarle. Todos han aceptado deslumbrados por la idea de grandes riquezas, y son capaces de hacer lo que haga falta, incluso matar a sus propios compañeros. En total hay veintiún soldados renegados en el zepelín (el resto han sido asesinados por sus compañeros) y, aunque sólo doce o trece de ellos tienen algo de práctica en combate, Sadler espera que sean más que suficientes para someter a los que considera un puñado de niños de papá y obesos ricachones. Durante las primeras horas de trayecto, los desertores se las han apañado para llevar a los soldados leales hasta zonas vacías del zepelín, y han dado allí buena cuenta de ellos. Lo mismo han hecho con la mayoría de encargados de mantenimiento que no fueran absolutamente necesarios. Si los personajes capturan a alguno de los soldados con vida para interrogarle sobre lo que está pasando, lo más probable es que no tenga ningún reparo en contar todo lo que sabe y los objetivos de su lider, aunque no tiene ni idea de porqué el zepelín está descendiendo. a rmas a borDo : En principio no hay reglas en La Dama que impidan a los jugadores llevar armas encima, siempre y cuando tengan un aspecto estético y decorativo. En tales casos, serían consideradas un simple complemento del vestuario, como un sombrero o unas bonitas botas. Esta norma no se aplica con armas de gran tamaño o de naturaleza violenta, las cuales serán requisadas en la entrada y llevadas hasta la habitación del personaje junto a l resto de su equipaje. Por poner un ejemplo, no se permitiría llevar un martillo o un hacha de guerra encima por muy labradas u ornamentales que fueran, ya que las considerarían inapropiadas para el lugar; pero espadas bonitas, floretes o dagas no tendrían la misma restricción. Vamos, pura estética. s ugerencia para impulsar la partiDa : La lógica indica que, tras la lucha con los guardias en el salón, los jugadores tratarán de hacer algo para solucionar el incidente, ya sea impulsados por sus principios o el peligro que corren si se quedan de brazos cruzados. No obstante, también es posible que una parte de ellos requiera algún otro “incentivo”, algo más tangible que les convenza. En tal caso, lo ideal es introducir a un PNJ que les dé el empujoncito que hace falta (pero SÓLO si hace falta). Su nombre es Diego de la Roca, y se presentará como un rico comerciante de especias que no quiere acabar sus días estrellado en el mar. Es un hombre de mediana edad algo rechoncho, que viste con ropas de calidad y lleva muchas joyas encima. Diego, que viaja aArkángel para asistir a la boda de su hija, ofrecerá una sustanciosa recompensa a cualquiera que pueda acabar con los asaltantes y recuperar el control de la nave. Está dispuesto a pagarles hasta 300 Escudos de Oro por cabeza a cada uno, aunque su instinto de mercader le impulsará a regatear un poco al principio (poco de todos modos, ya que su vida es lo primero para él). s altar al mar : A la velocidad a la que se mueve el zepelín, lo más probable es que una caída sobre agua sea mortal por necesidad. De todos modos, si alguien consiguiese sobrevivir se encontraría en mitad del mar, sin muchas posibilidades de llegar a la costa. e l ala DerecHa : En el caso de que los personajes traten de visitar el ala derecha del zepelín, basta con que tengas en cuenta que es idéntica a la izquierda, salvo que allí ya no quedan aparentemente supervivientes (era donde viajaban los nobles, por lo que se requería un mayor número de soldados para subyugarla). Recuérdales, de todos modos, que no tienen mucho tiempo que perder si quieren evitar que La Dama se estrelle. ###### El Miedo a lo Sobrenatural _Página 41_ e l mieDo a lo sobrenatural : Los personajes que estén dotados de habilidades sobrenaturales deben recordar que no pueden ir revelando impunemente sus poderes a los demás, o corren el peligro de ser considerados “demonios” y acabar perseguidos por la Iglesia. Si los burgueses que están en el zepelín presencian algo de carácter sobrenatural se quedarán completamente impresionados, pero como hombres prácticos que son, dado que sus vidas están en peligro, no le pondrán muchos remilgos a los medios que se empleen para salvarles (aunque algunos podrían acusarles en secreto, una vez en tierra). No obstante, este miedo también puede jugar a su favor contra los soldados de Sadler, quienes se lo pensarán dos veces antes de atacar a un adversario dotado de poderes místicos. Capitán Edmond Sadler Un noble del principado de Gabriel venido a menos, que en la actualidad se encuentra prácticamente en la ruina. Dado que siempre fue un buen duelista, sus contactos le permitieron acceder a un puesto de importancia dentro del ejército, pero allí el sueldo es insuficiente para llevar el tren de vida al que estaba acostumbrado. Corrupto y con pocos escrúpulos, tras ser destinado como jefe del cuerpo de protección de La Dama, ha decidido tomar el control del zepelín y venderlo por una desorbitada suma de dinero. Para él la traición y el asesinato son poca cosa, si puede convertirse de nuevo en un hombre rico. Apariencia: Rubio, bien parecido y de aspecto seductor, Sadler parece más un dandi que un verdadero soldado. Como todos los militares de la guarnición, lleva un flamante uniforme de gala, aunque adornado con los galones de capitán. En combate porta dos armas, una espada larga y otra corta, ambas hermosamente labradas. Consejos de interpretación: Cada uno de tus movimientos es una pose, e incluso tu manera de expresarte lo es. Habla con rotundidad, pero deja entrever que estás más nervioso de lo que quisieras. e DmonD s aDler</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 115 Categoría: Tecnicista Fue: 7 Des: 8 Agi: 10 Con: 8 Pod: 7 Int: 6 Vol: 6 Per: 8 RF 40 RM 35 RP 35 RV 40 RE 40\n\nTurno: 70 Natural, 35 Arankar doble Habilidad de ataque: 80 Arankar doble Habilidad de defensa: 80 Esquiva Daño: 75 Arankar doble Llevar Armadura: 5 TA: Ninguna CM: 130 Habilidades del\n\nKi: Uso del Ki, Conocimiento del Ki, Extrusión de presencia, Extrusión del aura al arma. Acumulaciones: Fue 1 Des 4 Agi 4 Con 1 Pod 2 Vol 1 Ventajas y desventajas: Maestro marcial (x2), Recuperación rápida de Ki. Habilidades naturales: Ninguna. de movimiento: 10 Cansancio: 8 Habilidades Secundarias: Acrobacias 50, Atletismo 35, Nadar 25, Saltar 1 5, Trepar 20, Estilo 1 5, Advertir 30, Buscar 20, Trucos de manos 25. Malcolm Frost es un hombre de veinticuatro años, de pelo rubio, rasgos bien marcados y una impresionante constitución física. Viste con ropas muy extravagantes, combinando el estilo de Estigia y sus adornos con prendas tradicionales del Imperio. Frost es un miembro de la Hermandad de Seth, una sociedad secreta de artistas marciales y luchadores que trabaja para los Reyes de Estigia desde hace varios siglos..\n\nEl caso de Malcolm es especial; se trata de uno de los pocos miembros que no es nativo, pero fue entrenado a causa de la cercana relación de sus padres con la Hermandad (ambos les habían brindado una importante ayuda en el pasado) y el talento natural del chiquillo. El joven creció orgulloso de sus habilidades, consciente de que sus conocimientos y poderes superaban a los de “la gente normal”. Con el tiempo llegó a dominar multitud de habilidades del Ki, e incluso los principios de algunas técnicas. Desgraciadamente, tras los incidentes que hicieron tambalearse al Imperio, los extranjeros empezaron a ser cada vez peor vistos entre el pueblo Estigio, y Malcolm se vio obligado a dejar el principado para evitar problemas.\n\nUna vez más, era algo poco habitual entre las reglas de la Hermandad, pero dado que él no era responsable de la situación, de nuevo se hizo una excepción y se le dejó marchar. Hoy en día, Malcolm sigue entrenando con esmero y puliendo sus habilidades sobre los Dominios, aunque por encima de todo, espera con ansia el día en el que pueda ponerlas realmente en uso. Notas y curiosidades: Malcolm ha sido entrenado en el uso del Arankar de doble filo, un arma de origen estigio muy poco común en el resto del continente. Dicho artilugio está formado por una enorme cuchilla, con una especie de vara metálica en su parte trasera que hace las veces de mango, y que por regla habitual suele ser usada con ambas manos para poder equilibrarla.\n\nLas estadísticas del Arankar no se encuentran reflejadas en el libro básico, por lo que las exponemos a continuación: Daño 60, Turno -1 5, Fuerza Requerida 7 , Crítico Primario Filo, Entereza 1 4 y Rotura 4. Como regla especial, el Arankar permite hacer un segundo ataque por asalto como si utilizara un arma adicional, pero empleando sólo un penalizador de -10 a la habilidad. En consecuencia, es considerablemente más difícil de usar, por lo que aplica la regla especial Compleja, y no dobla el bono de Fuerza del personaje, incluso si usa las dos manos. Posesiones: Arankar, Una muda de ropa, Raciones de viaje (para 1 día), Una mochila, 8 Escudos de Oro. Ahora, el viaje puede empezar... © Alícia Guillem\n\n## Capítulo 4 una Sombra en los Sueños\n\n### Inicios\n\n#### Y en las Sombras\n\n&lt;!-- tags: @ambientacion, @localizacion, @organizacion --&gt;\n\n_Página 35_\n\nUna Sombra en los Sueños\n\nCapítulo 4 Sueños, Esos fragmentos de muerte.... Como los odio. Magnus “Una sombra en los sueños” es una partida de iniciación de Ánima: Beyond Fantasy para un grupo de tres a cinco personajes de primer o segundo nivel. Los sucesos que se desarrollan en ella comienzan poniendo a los jugadores en una situación crítica en contra de unos simples soldados rebeldes, aunque sin que ellos lo sepan, pronto se verán inmersos en el enfrentamiento de dos oscuras fuerzas sobrenaturales. “Una sombra en los sueños” está dividida en tres partes. Habitualmente se requieren entre tres y cuatro sesiones para finalizarla, aunque es posible que, si los jugadores quieren ser muy concienzudos en sus pesquisas, se alargue más. Dos de sus segmentos, el primero y el tercero, están repletos de acción desenfrenada, mientras que el segundo requiere investigar y relacionarse con varios PNJs.\n\nApartir de aquí, toda la información se encuentra reservada al Director de Juego. Algunos planteamientos iniciales Esta partida se sitúa espacialmente en el principado de Gabriel y en una pequeña isla del Mar Interior, aunque a cualquier Director de Juego le resultaría fácil trasladar la acción a otro lugar más acorde con sus necesidades. Basta con que tenga una gran metrópolis de la que los personajes puedan partir y una costa cercana. En ella también se cita a varias organizaciones y personajes relevantes de Gaïa, como T ol Rauko o el Señor de las Pesadillas Malekith. Aunque esta información no resulta vital para entender el desarrollo de los sucesos, es interesante tener una idea general de quiénes son y de cómo funcionan, para profundizar dentro de la trama. Por tanto, se recomienda leer primero los Capítulos XVIII, XIX y XX del libro de reglas básico.\n\nPor último, quizás pueda resultar conveniente que los personajes se conocieran antes de iniciar el viaje, aunque no es necesario. “Una sombra en los sueños” esta planteada de manera en la que todos se verán obligados a colaborar desde el principio si quieren sobrevivir, esperando después que se cree en ellos cierto sentido de grupo, al pasar por una experiencia de tal trascendencia. En realidad, es la única oportunidad que tienen… Los inicios La partida comienza cuando los jugadores suben en La Dama para hacer su viaje inaugural. Se trata sin duda de un acontecimiento importante, y la gente lleva días enteros expectantes. a nteceDentes : Hace poco más de un año, el consejo de comerciantes que controla el principado de Gabriel encargó al Príncipe Lucanor Giovanni, de Lucrecio, la construcción de un zepelín que fuese el orgullo de su país.\n\nCon él, Gabriel pretende demostrar a otros reinos su superioridad artística y económica. De hecho, la decisión de que el viaje inaugural tenga como destino Arkárgel, capital del Sacro Santo Imperio, no es otra cosa que una provocación abierta a sus antiguos gobernantes. Por desgracia, el acontecimiento ha atraído la atención de unos pasajeros muy poco agradables, quienes por una causa u otra, no tienen intención de que el zepelín realice un viaje sin incidentes. El primer grupo es una pequeña escuadra de militares renegados que quiere desertar de Gabriel. Edmond Sadler, capitán de la unidad que tiene asignada la tarea de proteger La Dama, ha recibido una considerable suma de dinero para secuestrar el dirigible y entregarlo en algún punto de Togarini.\n\nGracias a su carisma, logró convencer a muchos de sus hombres para que le siguieran, y pretende tomar el control del aparato una vez que estén en pleno vuelo. El segundo individuo interesado en el zepelín es una entidad sobrenatural que se hace llamar a sí misma Raptor, quien pretende dirigirlo hacía las cercanías de una pequeña isla del Mar Interior e iniciar allí un complejo ritual místico. Sus razones son, como poco, mucho más complicadas… y en las sombras … Más de una década atrás, Malekith, Príncipe de los Cuervos, se enfrentó a una poderosa Señora de las Pesadillas llamada Seline por el control de un importante emplazamiento en la Vigilia. La joven perdió el conflicto y se vio obligada a refugiarse en el mundo real con el objetivo de recuperar sus mermadas energías.\n\nPor desgracia para ella, en ese periodo de tiempo atrajo la atención de T ol Rauko, los cazadores de lo sobrenatural, cuyos agentes aprovecharon su debilitado estado para capturarla y llevarla hacia su isla. No obstante, a sabiendas de su creciente poder, los templarios temían que se liberarse antes de alcanzar su destino, por lo que optaron por contenerla usando un antiguo artefacto que habían sellado hacía más de un siglo: el Flauros. Pero la fortuna jugó en contra de T ol Rauko, ya que durante la travesía por el Mar Interior en dirección a su fortaleza, una potente tormenta hizo naufragar el barco, eliminando a todos los tripulantes. De ese modo, los restos de la nave-prisión acabaron encallados en los arrecifes de una pequeña isla llamada Corvinus, donde Seline permaneció aletargada a causa de la influencia del artefacto.\n\nPero la Señora de las Pesadillas no era la única prisionera que se encontraba en la embarcación. En otra de las celdas místicas viajaba Galael, un espectro menor que antaño sirvió aMalekith. Liberado por el impacto contra las rocas, se dio cuenta enseguida de quién era Seline y de lo que podía llegar a hacer con ella, usando adecuadamente el Flauros. La condujo aún dormida hasta el interior de una vieja catedral abandonada, donde usó el artefacto para encerrarla. Después intentó controlar sus poderes, aunque no tardó en darse cuenta de que las capacidades de la Señora de las Pesadillas escapaban de lejos a su comprensión. Aun así, gracias a su empeño logró sintonizar con una pequeña parte de ella y, creyéndose preparado, trató de sumir la isla entera en la Vigilia para obtener mayores poderes.\n\nEl intento acabó en fracaso, pero el paso entre ambos mundos resultó muy debilitado, dotando aGalael de cierto control sobre el lugar. Sin perder ni un instante, volvió a usar las energías de Seline para levantar una barrera invisible que impidiera la salida o la entrada aCorvinus, a sabiendas de que, probablemente, su fallido intento habría llamado la atención de alguna entidad poderosa de la Vigilia. Una vez se sintió seguro tras aquel muro, el ego de Galael empezó a crecer desmesuradamente. Tomó apariencia humana poseyendo el cuerpo de uno de los templarios fallecidos y se presentó ante los aldeanos como el nuevo señor de la isla, el Marqués de Cavalcanti. Desde entonces se alimenta de las emociones negativas de sus vasallos, acumulando poder muy lentamente en espera de transportar finalmente Corvinus a la Vigilia y controlar completamente allí los poderes de Seline.\n\nCapítulo IV: u na s ombRa en los s ueños\n\n#### Primera Parte el Vieja de la Dama\n\n&lt;!-- tags: @sistema, @localizacion --&gt;\n\n_Página 36_\n\nUna Sombra en los Sueños , estos acontecimientos no pasaron completamente inadvertidos para Malekith, quien sin saber lo que había sucedido con exactitud, lo hizo investigar por sus agentes. Tras años de pesquisas, tanto en el mundo real como en la Vigilia, sus siervos lograron darle una idea aproximada de los acontecimientos y de cuál era el actual paradero de Seline. Ese descubrimiento le sorprendió y agradó; aunque había sido su enemiga en el pasado, en realidad no sentía ninguna enemistad hacia ella ni le guardaba especialmente rencor. Fue un adversario digno e inteligente que supo aceptar la derrota y escapar de él como muy pocos lo habrían hecho. Pero Galael era un asunto muy distinto… El Príncipe de los Cuervos no puede soportar la idea de que uno de sus siervos se revele contra él y, lo que es aún peor, que esa insignificante criatura pretenda ser su igual.\n\nDado que por el momento es incapaz de abandonar Graven (ni pretende hacerlo por un asunto de tan nimia importancia), ha enviado aRaptor, uno de sus tantos agentes, para acabar con el renegado y poner ejemplo entre los suyos. El problema es que el ejecutor de Malekith ha sido incapaz de atravesar la barrera que rodea Corvinus por mar y, tras meses de infructuosos intentos y barcos hundidos, ha decidido buscar otro método para colarse dentro. Al oír hablar del viaje inaugural de La Dama y descubrir que su trayecto pasa cerca del dominio de Galael, aRaptor se le ocurrió la posibilidad de usar el zepelín como puerta al interior de la isla, ya que posiblemente, la parte superior de la barrera fuese considerablemente más débil, pues no era de esperar un ataque aéreo.\n\nSu plan es muy simple: una vez que La Dama esté cerca de Corvinus, tratará de tomar el control del dirigible y producir una histeria colectiva entre sus ocupantes, haciendo que sus fuertes emociones abran momentáneamente un acceso a la Vigilia que él aprovechará. Pero ni siquiera Raptor podía imaginar que no sería el único con sus intereses puestos en el zepelín… PRIMERA PARTE:EL VIAJE DE LA DAMALaDama es una visión realmente impresionante. Se trata de un descomunal zepelín de tres cuerpos unidos entre sí por cuatro largas pasarelas de metal. Toda la estructura está bellamente tallada de un modo tan aerodinámico como ostentoso, que trata de imitar el estilo de los regios navíos del principado. Las dos barcazas laterales están destinadas a los viajeros y sus camarotes, mientras que en el cuerpo central se encuentra la bodega de carga y el puente de mando.\n\nLos personajes subirán al ala izquierda de La Dama entre un descomunal gentío que ha ido a presenciar su despegue. El consejo de comerciantes de Gabriel no ha reparado en gastos para festejar el viaje inaugural, por lo que entre confeti y bandas de música, miles de transeúntes observan emocionados cómo los viajeros embarcan en el navío. Al llegar a la plataforma, un revisor les pedirá el billete y les conducirá por un lujoso pasillo enmoquetado hasta el enorme salón central (1). En dicha habitación se encuentran sentados todos los viajeros de la barcaza izquierda del zepelín; unos veinte individuos, de los cuales la mayoría son gordos burgueses, jovencitas y niños, además de cuatro soldados que vigilan las salidas.\n\nSi no se conocen de antes, por diversos avatares del destino (y el hecho de que los individuos con Gnosis se atraen los unos a los otros), a todos los PJs les corresponderá tomar asiento en la misma mesa. Una vez que estén ya en su sitio y La Dama haya despegado (un espectáculo digno de ver, por cierto), los soldados anunciarán que no pueden dejar la estancia hasta que los camarotes se encuentren completamente habilitados dentro de unas horas. Mientras, para entretenerse tienen las estupendas vistas de las escotillas y algunos refrigerios. Esta es una oportunidad fantástica para que los personajes puedan empezar a hablar un rato entre ellos y se conozcan.\n\nSi alguno encuentra extraño que se vean obligados a esperar tanto e insiste en saber por qué, el guardia al que pregunte se limitará a encogerse de hombros y decirle que los zepelines no son como los barcos, y que esa es la espera reglamentariamente establecida. La única causa justificada por la que alguien puede llegar a salir de la estancia es para ir al servicio, y lo hará siempre escoltado. No obstante, el primero de los PJs que lo haga escuchará como dos militares están discutiendo al final del pasillo (si supera un control de Advertir contra MDF, podrá incluso oír frases como “-¡No seas estúpido! No puedes echarte atrás ahora.-” antes de que estos se den necesariamente cuenta de su presencia). En cuanto a los camareros que se ocupan de la comida y la bebida, son siempre muy atentos y agradables.\n\nEn el caso de que alguien se fije especialmente en ellos, podrá darse cuenta de que, pasado un tiempo, empezarán a parecer algo nerviosos. Si les pregunta, contestarán simplemente que es la primera vez que vuelan y aún no se han acostumbrado a la sensación. Por fin a media tarde, cuatro horas y media después del inicio de la travesía, mientras el zepelín sobrevuela ya el Mar Interior, todos los acontecimientos que han estado urdiéndose darán realmente comienzo. Súbitamente, un quinto soldado irrumpe en el salón con una espada larga en la mano y una ballesta cargada en la otra, exigiendo la atención de todos los pasajeros. Los otros cuatro, que estaban esperando la señal, desenfundarán sus armas cubriendo de inmediato las salidas.\n\nEntre los gritos asustados de los presentes, el recién llegado anuncia con sarcasmo que el zepelín se encuentra bajo el control de su capitán y que todos los presentes van a ser ejecutados por traición. Y no tardará mucho en empezar a cumplir sus amenazas… Su plan es simple: cuatro de ellos esperan espada en mano en las puertas a cualquiera lo suficientemente valiente o estúpido para acercárseles, mientras que el quinto irá disparándoles con la ballesta. Este es el momento en el que los PJs tienen que verse obligados a intervenir para detener la masacre y salvarse ellos mismos. Cuando empiece la lucha, casi todos los viajeros, mujeres y niños en su mayoría, se esconderán debajo de las mesas o de los sillones rezando por sus vidas. Es altamente improbable que alguno intente intervenir, y en realidad, de muy poco serviría que lo hiciese.\n\nEn el momento en el que los militares se den cuenta de que los personajes son algo más que meros burgueses, dejarán las salidas y se concentrarán únicamente en ellos. Sólo tres del grupo son soldados con experiencia, pero están seguros de que entre todos podrán dar buena cuenta de sus rivales. En mitad del combate (aunque sólo en el caso de que dure más de cuatro asaltos, claro), el zepelín hará un brusco movimiento y empezará a descender lentamente (debido a que Raptor ha empezado a actuar). Todos los que estén de pie deberán superar un control de Acrobacias contra MED o de Agilidad con un penalizador de –2 a la característica, si no quieren caerse de bruces. Una vez que la lucha haya concluido, no hace falta tener mucha imaginación para darse cuenta que lo peor aún esta por venir, y que quedarse sin hacer nada no es la solución.\n\nTarde o temprano los otros soldados se darán cuenta del fracaso de sus compañeros y además, aunque pausadamente, es innegable que La Dama se dirige hacía el mar. El siguiente movimiento está en manos de los jugadores.\n\n##### Dama\n\n###### 11 Pasillo Izquierdo\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 38_\n\n2. p asillo De entra Da : Se trata del espacioso pasillo por el que se sube a bordo de La Dama. Las escaleras conducen hasta la puerta de embarque, la cual se encuentra ahora cerrada por dentro y por fuera. En dirección contraria se llega hasta la sala de máquinas (5), cuya puerta ha sido trabada por los renegados. La cerradura ha quedado completamente inservible, por lo que la única manera de pasar es echarla abajo (trátala como una puerta recia a efectos de resistencia). 3. s erVicioDeDamas : Un cuarto de baño para señoritas, hermosamente decorado y perfumado. Tiene un inmenso espejo de pared para retocarse. 4. s erVicioDe caballeros : Parecido al anterior, pero decorado de manera mucho más masculina. Si los personajes buscan minuciosamente (cosa que no tienen mucho tiempo para hacer), encontrarán sangre salpicada detrás del retrete.\n\nAl parecer, aquel soldado que estaba discutiendo con su compañero por aquí hace horas acabó echándose atrás… 5. s ala De máquinas , ala izquierDa : Otra inmensa estancia, aunque esta vez llena de maquinarias, engranajes y calderas. El sonido aquí es estridente, por lo que los personajes tendrán serios problemas para escucharse los unos a los otros, incluso gritando. La sala está separada en dos niveles distintos, la plataforma superior por donde se entra y la parte inferior, en la que se encuentran la gran mayoría de aparatos que hacen girar las hélices del zepelín. Aprimera vista pueden verse los cadáveres de tres de los operarios, tirados por el suelo del piso de abajo, junto a l de un militar (una inspección posterior más detallada indicará que todos han muerto por una herida de arma blanca).\n\nEn esta estancia hay también dos soldados (uno de ellos con experiencia), que han bloqueado la pasarela y se aseguran de que las maquinarias sigan funcionando correctamente, con la involuntaria ayuda de un cuarto operario. En el caso de que los personajes echasen la puerta abajo violentamente y necesitasen más de cuatro asaltos para hacerlo, lo más probable es que los soldados se hayan dado cuenta y estén ocultos (requieren tanto tiempo a causa del ruido ambiental). Si ocurre así, esperarán escondidos tras las máquinas del fondo de la estancia, con la ballesta lista, a que bajen por las escaleras (control Muy Difícil de Advertir o Medio de Buscar para poder verlos). Una vez que el combate haya terminado, el operario superviviente, escondido hasta entonces, se acercará a ellos con las manos extendidas pidiendo ayuda.\n\nDice llamarse Dieter Helsm y les explicará que la única manera de detener la caída del zepelín es llegar a la sala de mando, que se encuentra en la parte delantera del cuerpo central. Para cruzar hasta allí, deben usar una de las dos pasarelas de tránsito. La de esta estancia se encuentra completamente inutilizada, ya que los soldados volcaron un enorme armatoste de vapor, destrozando por completo la entrada. Por tanto, la única posibilidad que les queda es dirigirse hasta el comedor de proa y usar la que está allí. Naturalmente se negará a acompañarlos, admitiendo que está asustado y que no sabe controlar el timón del navío. Si más tarde los personajes vuelven aquí, no encontrarán aDieter, ni nadie sabrá dónde ha ido.\n\nNOTA: Una idea interesante para representar el fuerte sonido de la estancia es pedirle a los jugadores que no hablen entre ellos, y que declaren sus acciones mediante notas de papel. No obstante, ten en cuenta que hacerlo de este modo puede ralentizar considerablemente la partida, por lo que no conviene abusar de este método. 6. p asillo De las Habitaciones : Un corredor igual de amplio que el de entrada, engalanado en este caso con algunos cuadros de personalidades de Gabriel. Hay ligeras señales de lucha, pero nada de relevancia. 7. Habitaciones : Lujosos dormitorios, dignos del mejor de los hoteles. Aunque casi todas las maletas de los pasajeros están aquí, ninguna ha sido abierta todavía. Si miran en sus propios cuartos (el número debe de estar reflejado en el billete de embarque), podrán encontrar cualquier equipaje del que se hubieran desprendido al subir.\n\nNaturalmente, los personajes pueden entretenerse saqueando las pertenencias de los demás, cosa que sin duda resulta muy gratificante; entre joyas, obras de arte y otras posesiones de valor, pueden encontrar más de 1 5.000 Escudos de Oro. Por desgracia, si pierden mucho tiempo, lo más probable es que lleguen demasiado tarde, y sean por tanto incapaces de impedir que el zepelín se estrelle. 8. c omeDor : Probablemente, el comedor es la habitación más espectacular de toda el ala izquierda. Muchas de sus paredes son enormes cristaleras por las que se puede ver el exterior del zepelín (y la preocupante proximidad del agua). Repartidas por la estancia hay varias mesas y sillas preparadas para servir opíparos banquetes, mientras que en el fondo hay un descansillo elevado que sirve como pista de baile. 9.\n\nc ocina : La cocina está repleta de toda clase de alimentos exóticos, vinos caros y platos a medio hacer. Para evitar posibles problemas con el fuego, los fogones no utilizan llamas reales, sino brasas encendidas sobre una amplia superficie de metal. Todo un adelanto para la época. Si los personajes escuchan atentamente (Advertir aDIF), podrán oír algunos exiguos lloriqueos provenientes de la despensa. Allí se encuentran encerrados unos cuantos miembros del servicio (cuatro doncellas, dos cocineros y el revisor que les recibió), junto a los cadáveres de aquellos que se resistieron. Las chicas están histéricas, aunque tampoco se puede decir que los demás estén muy tranquilos.\n\nLa única información que son capaces de dar es que, mientras estaban encerrados, han escuchado cómo alguien se acercaba hasta la puerta, comenzaba a arañarla y con una voz profunda decía entre risas: “-Un acontecimiento completamente inesperado, ¿verdad, mis asustadizos niños? Veamos si es posible aprovecharlo.-”, tras lo cual se marchó sin más. 10. p lataforma De paso : Se trata de un largo puente metálico que conecta el ala izquierda de La Dama con el cuerpo central. Como medida de seguridad tiene una alta barandilla que llega hasta algo más de la cintura, pero eso no evita que los fuertes vientos y la velocidad del aparato hagan de la plataforma un sitio peligroso. Cuando se encuentren a medio camino, la puerta de enfrente se abrirá y una pequeña guarnición de soldados empezará a avanzar hacia los PJs.\n\nSe trata de un grupo que Sadler a afianzar posiciones, después de creer seguro el cuerpo central. Se trata de siete militares, aunque sólo un par de ellos tienen algo de experiencia. Ante esta situación, los jugadores pueden optar por dos cosas; retroceder hasta el comedor (8) o combatir individualmente en el puente. Si optan por esta segunda estrategia, sólo una persona podrá luchar cuerpo a cuerpo por bando, y en todos los asaltos deberá superar un control de Acrobacias contra FAC (o en su defecto, uno de Agilidad con el modificador que consideres pertinente en el caso) para no perder el equilibrio. Un resultado extremadamente malo podría incluso significar que cae al vacío. Adicionalmente, aquellos que esquiven tendrán que aplicar el penalizador de espacio reducido a su defensa, y cualquier proyectil disparado o lanzado obtiene un negativo de –60 a causa del viento. 11.\n\np asillo izquierDo : Un largo pasillo lleno de escotillas por las que se pueden ver las nubes del exterior. No tiene tantos adornos como los corredores de las alas residenciales, pero aun así esta hermosamente decorado con una larga alfombra de lino rojo. Si los personajes se fijan un poco (es decir, basta con que no pasen corriendo), descubrirán algo llamativo: los arañazos de algo similar a una afilada garra se extienden varios metros por la pared.\n\n###### 19 Sala de Máquinas Ala Central\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 39_\n\nen todos los aspectos al anterior, salvo por el hecho de que en el suelo yace, sobre un charco de sangre, el cadáver terriblemente mutilado de uno de los soldados. Es imposible precisar el arma que se ha usado para matarlo, pero las heridas parecen ser cuatro afiladas cuchillas. Naturalmente, nadie sabe saber si se trataba de uno de los militares rebeldes o no. 13. e l camarote Del capitán : Este dormitorio pertenecía al ahora difunto capitán de La Dama. Hay objetos de mucho lujo, por los que sin duda se podría obtener un buen precio en joyerías y tiendas de artesanía. Salvo eso, nada más relevante. 14. e l camarote De los oficiales : La habitación reservada a los cuatro oficiales a cargo del zepelín; el encargado de las maquinas, el de seguridad (el propio Sadler), el jefe de cocina y el ayudante del capitán. Un lugar ordinario y sin importancia. 15.\n\ne l camarote De la tripulación : Probablemente, la única estancia habitable del zepelín que no llama la atención por su lujo. Es un amplio cuarto lleno de literas, donde deberían dormir los más de sesenta tripulantes del aparato. 16. p uente De manDo : El puente es una gran habitación ligeramente ovalada, con grandes ventanales y diversos aparatos que permiten controlar el zepelín. Casi todo esta decorado con madera y grandes cortinas, lo que le da un aspecto majestuoso y solemne. Desdichadamente, cuando los personajes entren, presenciarán un espectáculo muy poco agradable. Media docena de individuos, entre los cuales hay algunos militares, yacen muertos en distintos lugares de la estancia, cada cual de modo más horrible. El cadáver del capitán de La Dama es el que más llama la atención, pues permanece aferrado al timón con una expresión de terror absoluto.\n\nSalvo si por alguna razón ya se lo han encontrado antes en otro lugar de la nave, Edmond Sadler, junto a tres de sus hombres de mayor confianza (todos luchadores expertos), estará aquí examinado los cuerpos con expresión seria. En realidad está muy sorprendido por los cadáveres, ya que ha sido Raptor quien ha matado a todos los ocupantes de la sala. Cuando les vea entrar, se encarará a ellos y exclamará con desdén: “-Así que sois vosotros los que estáis matando a los míos… Pues dejadme que os diga algo; No sé qué le habéis hecho a la sala de máquinas ni por qué queréis destruir esta aeronave, pero os aseguro que nada impedirá que me apodere de ella.-”. Acto seguido, ordenará a sus hombres que ataquen, ya que está preocupado por la caída del zepelín y no tiene demasiadas ganas de seguir hablando.\n\nSadler sabe lo que se juega y que no habrá perdón para él si es capturado, por lo que irá a por todas y luchará hasta la muerte. Si el combate finaliza favorablemente para los PJs, es posible que se sientan eufóricos y piensen que lo peor ya ha acabado (aunque, a la vista de algunos sucesos, probablemente ya hayan empezado a intuir que ocurre algo más que aún no han visto). Por desgracia, cuando intenten enderezar el timón para detener la caída del aparato, se darán cuenta de que está bloqueado, y según indican los paneles, el problema parece hallarse en la sala central de máquinas. Si quieren, pueden usar los controles para abrir el acceso hasta allí, ya que en los tableros aparece perfectamente explicado que desde aquí se controlan las entradas de toda la nave, y da la casualidad de que esa está sellada en estos momentos. 17.\n\nb oDegaDe carga : La inmensa sala central del zepelín es usada como almacén para transportar todo tipo de cargamentos. Por ello, la estancia está repleta de grandes cajas apiladas entre sí de forma laberíntica. Desgraciadamente, la proximidad al ritual está provocando una ligera distorsión de la realidad. Por tanto, es posible que los personajes más perceptivos a lo sobrenatural vean algunas cosas extrañas, como sombras deformes que aparecen o desaparecen. Si pululan por la estancia no tardarán en ver un rastro de sangre que conduce hasta una esquina. Lo que ocurre es que Raptor estaba viajando en el interior de una caja, a modo de ataúd. Esperaba permanecer en su interior más tiempo, pero al darse cuenta del asalto militar, tuvo que intervenir mucho antes para descubrir lo que pasaba.\n\nAl parecer, un grupo de tres soldados se encontraron cara a cara con él y este dio buena cuenta de ellos. Sus cadáveres, como el encontrado antes en el pasillo y los del puente, están horriblemente despedazados. Desde luego, no es un espectáculo para estómagos débiles. 18. s erVicios para oficiales y tripulación : Dos servicios comunales, uno masculino y otro femenino, que ni remotamente tienen el nivel de lujo de los lavabos del ala izquierda. No obstante, si algún personaje atiende atentamente, escuchará una especie de extraño llanto de detrás de la pared (la que da a la sala de máquinas). 19. s ala De máquinas , ala central : La sala central de máquinas es el lugar que Raptor ha elegido para llevar a cabo su ritual. La puerta de entrada es metálica y se encuentra sellada, por lo que la manera más sencilla de abrirla es usando los controles del puente de mando.\n\nVisualmente, la estancia es parecida a la del ala izquierda, aunque más espaciosa. No obstante, aquí el ruido es también mucho menor, tanto que incluso resulta extraño con semejante cantidad de engranajes en movimiento. Además, la sala entera se encuentra en penumbra, iluminada únicamente por unas cuantas velas estratégicamente situadas. En el mismo centro hay un elaborado círculo místico hecho con sangre. Cualquier personaje que logre superar un control de Ocultismo a dificultad Muy Difícil reconocerá en él los símbolos de “Miedo” y “Portal”, escritos en un antiguo dialecto de una tribu del norte que fue acusada de herejía y exterminada por la Inquisición hace más de tres siglos. Si buscan el motivo por el que el zepelín está descendiendo, descubrirán fácilmente cómo hay dos enormes barras de metal bloqueando el alerón central.\n\nCada una pesa sobre trescientos kilos, por lo que es posible que se requiera la colaboración de varios individuos para apartarlas. En el caso de que los personajes logren penetrar hasta esta sala forzando de algún modo la puerta antes de llegar al puente de mando, Raptor aún no estará en el interior (en esos momentos, habrá salido para dar buena cuenta del capitán del navío y asegurarse de extender el miedo colectivo). De todos modos, incluso si desbloquean el alerón, el zepelín seguirá cayendo a causa del timón (e igualmente cuando se marchen, Raptor regresará para volver a poner las barras). Si ya han dado buena cuenta de Sadler y han enderezado el timón, el ejecutor estará en mitad de la estancia finalizando su oscura ceremonia, así que pasa a la sección El portal oscuro.\n\nEl portal oscuro Una vez llegados a este punto los personajes se encontrarán cara a cara con Raptor, quien permanece en mitad del círculo arcano con los brazos extendidos hacia el aire y una expresión de triunfo. Salvo en el caso de que le ataquen o se dirijan directamente a él, el ejecutor los ignorará por completo, incluso si se ponen a quitar las barras que bloquean el alerón. Si ha hecho caer el dirigible es únicamente para generar una situación de histeria colectiva entre los pasajeros, mientras él canalizaba con su ritual dichas emociones negativas. Ahora que ya tiene miedo más que de sobra, le importa bien poco el destino del zepelín y sus ocupantes. Si los PJs tratasen de hablar con él o se le acercasen, Raptor se encarará a ellos y con una cínica sonrisa les dirá: “-¿No es maravilloso, niños? En sólo unos instantes ocurrirá.-”.\n\nSi por el contrario optan por atacarle directamente, como muy pronto comprobarán no son rivales para él. Sin embargo, Raptor no les matará en ningún caso; ha esperado mucho tiempo para poder traspasar la barrera y quiere tener testigos de su logro. Por esa causa sólo jugara un poco con ellos, produciéndoles heridas leves e inutilizándolos. Luchen o hablen, pasados unos instantes (entre tres o cuatro asaltos), el zepelín empezará a vibrar con fuerza. En ese momento Raptor se parará en seco y, riendo como un loco, anunciará: “-Ya es tarde. La puerta a las Tinieblas ha sido abierta.-”.\n\n##### Otros Detalles\n\n###### Ala Derecha\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 40_\n\nRaptor, el ejecutor oscuro Pero segundos después sus carcajadas se congelarán, transformando su triunfal expresión en asombro y rabia. “-¡¡No!! ¡No es posible!-”. Gritará con toda la ira de la que es capaz su sepulcral voz, mientras clava los ojos en la nada. En ese preciso momento La Dama se estrellará contra algo desconocido, y el zepelín entero se sacudirá como si fuese a partirse en dos. Durante segundos estallará un caos absoluto y los personajes saldrán volando por toda la sala en dirección a la pared contraria. Después, sólo quedara silencio y oscuridad… Pero… ¿qué ha pasado realmente? Al parecer, Raptor volvió a menospreciar el poder de la barrera levantada con las energías de Seline, y de nuevo se ha visto incapaz de traspasarla.\n\nNo obstante, los personajes, los únicos mortales de todo el zepelín con Gnosis elevado, son inevitablemente arrastrados hacia el interior de Corvinus… Otros detalles Estos son algunos de los detalles que resultan más relevantes en el trasfondo de esta parte de la aventura. l os Viajeros : Sin duda es el motivo más simple por el que un PJ puede encontrarse en el zepelín es sencillamente su intención de realizar un viaje hacia Arkángel (o cualquiera que sea el destino que el Director haya elegido). En dicho caso, el personaje no requiere mayor Introducción, basta con justificar de algún modo cómo se las ha apañado para conseguir el billete, desde la invitación de un amigo influyente hasta la mera suerte (algunos pasajes fueron sorteados por el consejo de comerciantes).\n\nOtras posibilidades interesantes son que esté allí como un miembro de la seguridad personal de alguno de los ricos burgueses (ideal para personajes mercenarios), o incluso que se haya colado como polizón y aproveche un sitio vacío para confundirse con los otros viajeros (nunca en las bodegas o en la sala de máquinas, ya que trastocaría muchos elementos de la trama). l a guarnición De s aDler : Los soldados a cargo del zepelín son poco más de una veintena de hombres, bajo el mando del capitán Edmond Sadler. El consejo de comerciantes, en su obsesión por llamar la atención de los otros principados, cometió el error de poner a una división sin relativa experiencia a cargo de La Dama.\n\nEn realidad, nunca se les pasó por la cabeza que pudiesen ser asaltados en pleno aire y se limitaron a mirar con lupa la lista de los viajeros, asegurándose de que todos fueran personas notables y de la mayor confianza. Esa es la causa de que los guardias acabasen siendo seleccionados únicamente por ser atractivos o tener un origen noble, en lugar de por su habilidad en combate (de hecho, algunos no han participado en un combate real en toda su vida y están en el ejército porque sus padres esperaban que eso hiciera de ellos verdaderos “hombres”). Tras recibir la oferta de su misterioso comprador, Sadler sólo le contó sus objetivos a aquellos que, ya sea por codicia o fidelidad hacia él, estarían dispuestos a apoyarle. Todos han aceptado deslumbrados por la idea de grandes riquezas, y son capaces de hacer lo que haga falta, incluso matar a sus propios compañeros.\n\nEn total hay veintiún soldados renegados en el zepelín (el resto han sido asesinados por sus compañeros) y, aunque sólo doce o trece de ellos tienen algo de práctica en combate, Sadler espera que sean más que suficientes para someter a los que considera un puñado de niños de papá y obesos ricachones. Durante las primeras horas de trayecto, los desertores se las han apañado para llevar a los soldados leales hasta zonas vacías del zepelín, y han dado allí buena cuenta de ellos. Lo mismo han hecho con la mayoría de encargados de mantenimiento que no fueran absolutamente necesarios. Si los personajes capturan a alguno de los soldados con vida para interrogarle sobre lo que está pasando, lo más probable es que no tenga ningún reparo en contar todo lo que sabe y los objetivos de su lider, aunque no tiene ni idea de porqué el zepelín está descendiendo.\n\na rmas a borDo : En principio no hay reglas en La Dama que impidan a los jugadores llevar armas encima, siempre y cuando tengan un aspecto estético y decorativo. En tales casos, serían consideradas un simple complemento del vestuario, como un sombrero o unas bonitas botas. Esta norma no se aplica con armas de gran tamaño o de naturaleza violenta, las cuales serán requisadas en la entrada y llevadas hasta la habitación del personaje junto a l resto de su equipaje. Por poner un ejemplo, no se permitiría llevar un martillo o un hacha de guerra encima por muy labradas u ornamentales que fueran, ya que las considerarían inapropiadas para el lugar; pero espadas bonitas, floretes o dagas no tendrían la misma restricción. Vamos, pura estética.\n\ns ugerencia para impulsar la partiDa : La lógica indica que, tras la lucha con los guardias en el salón, los jugadores tratarán de hacer algo para solucionar el incidente, ya sea impulsados por sus principios o el peligro que corren si se quedan de brazos cruzados. No obstante, también es posible que una parte de ellos requiera algún otro “incentivo”, algo más tangible que les convenza. En tal caso, lo ideal es introducir a un PNJ que les dé el empujoncito que hace falta (pero SÓLO si hace falta). Su nombre es Diego de la Roca, y se presentará como un rico comerciante de especias que no quiere acabar sus días estrellado en el mar. Es un hombre de mediana edad algo rechoncho, que viste con ropas de calidad y lleva muchas joyas encima.\n\nDiego, que viaja aArkángel para asistir a la boda de su hija, ofrecerá una sustanciosa recompensa a cualquiera que pueda acabar con los asaltantes y recuperar el control de la nave. Está dispuesto a pagarles hasta 300 Escudos de Oro por cabeza a cada uno, aunque su instinto de mercader le impulsará a regatear un poco al principio (poco de todos modos, ya que su vida es lo primero para él). s altar al mar : A la velocidad a la que se mueve el zepelín, lo más probable es que una caída sobre agua sea mortal por necesidad. De todos modos, si alguien consiguiese sobrevivir se encontraría en mitad del mar, sin muchas posibilidades de llegar a la costa.\n\ne l ala DerecHa : En el caso de que los personajes traten de visitar el ala derecha del zepelín, basta con que tengas en cuenta que es idéntica a la izquierda, salvo que allí ya no quedan aparentemente supervivientes (era donde viajaban los nobles, por lo que se requería un mayor número de soldados para subyugarla). Recuérdales, de todos modos, que no tienen mucho tiempo que perder si quieren evitar que La Dama se estrelle.\n\n###### El Miedo a lo Sobrenatural\n\n&lt;!-- tags: @personaje, @localizacion, @religion, @regla --&gt;\n\n_Página 41_\n\ne l mieDo a lo sobrenatural : Los personajes que estén dotados de habilidades sobrenaturales deben recordar que no pueden ir revelando impunemente sus poderes a los demás, o corren el peligro de ser considerados “demonios” y acabar perseguidos por la Iglesia. Si los burgueses que están en el zepelín presencian algo de carácter sobrenatural se quedarán completamente impresionados, pero como hombres prácticos que son, dado que sus vidas están en peligro, no le pondrán muchos remilgos a los medios que se empleen para salvarles (aunque algunos podrían acusarles en secreto, una vez en tierra). No obstante, este miedo también puede jugar a su favor contra los soldados de Sadler, quienes se lo pensarán dos veces antes de atacar a un adversario dotado de poderes místicos.\n\nCapitán Edmond Sadler Un noble del principado de Gabriel venido a menos, que en la actualidad se encuentra prácticamente en la ruina. Dado que siempre fue un buen duelista, sus contactos le permitieron acceder a un puesto de importancia dentro del ejército, pero allí el sueldo es insuficiente para llevar el tren de vida al que estaba acostumbrado. Corrupto y con pocos escrúpulos, tras ser destinado como jefe del cuerpo de protección de La Dama, ha decidido tomar el control del zepelín y venderlo por una desorbitada suma de dinero. Para él la traición y el asesinato son poca cosa, si puede convertirse de nuevo en un hombre rico. Apariencia: Rubio, bien parecido y de aspecto seductor, Sadler parece más un dandi que un verdadero soldado. Como todos los militares de la guarnición, lleva un flamante uniforme de gala, aunque adornado con los galones de capitán.\n\nEn combate porta dos armas, una espada larga y otra corta, ambas hermosamente labradas. Consejos de interpretación: Cada uno de tus movimientos es una pose, e incluso tu manera de expresarte lo es. Habla con rotundidad, pero deja entrever que estás más nervioso de lo que quisieras. e DmonD s aDler</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 34</p><p><strong>Entrada:</strong> Malcolm Frost</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Tecnicista Fue: 7 Des: 8 Agi: 10 Con: 8 Pod: 7 Int: 6 Vol: 6 Per: 8 RF 40 RM 35 RP 35 RV 40 RE 40</p><p><strong>Ventajas y desventajas:</strong> Maestro marcial (x2), Recuperación rápida de Ki.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 75 Arankar doble</p><p><strong>TA:</strong> Ninguna CM: 130 Habilidades del</p><p><strong>Habilidades secundarias:</strong> Acrobacias 50, Atletismo 35, Nadar 25, Saltar 15, Trepar 20, Estilo 15, Advertir 30, Buscar 20, Trucos de manos 25</p><p><strong>Descripción breve:</strong> Malcolm Frost es un hombre de veinticuatro años, de pelo rubio, rasgos bien marcados y una impresionante constitución física. Viste con ropas muy extravagantes, combinando el estilo de Estigia y sus adornos con prendas tradicionales del Imperio. Frost es un miembro de la Hermandad de Seth, una sociedad secreta de artistas marciales y luchadores que trabaja para los Reyes de Estigia desde hace varios siglos.. El caso de Malcolm es especial; se trata de uno de los pocos miembros que no es nativo, pero fue entrenado a causa de la cercana relación de sus padres con la Hermandad (ambos les habían brindado una importante ayuda en el pasado) y el talento natural del chiquillo. El joven creció orgulloso de sus habilidades, consciente de que sus conocimientos y poderes superaban a los de “la gente normal”. Con el tiempo llegó a dominar multitud de habilidades del Ki, e incluso los principios de algunas técnicas. Desgraciadamente, tras los incidentes que hicieron tambalearse al Imperio, los extranjeros empezaron a ser cada vez peor vistos entre el pueblo Estigio, y Malcolm se vio obligado a dejar el principado para evitar problemas. Una vez más, era algo poco habitual entre las reglas de la Hermandad, pero dado que él no era responsable de la situación, de nuevo se hizo una excepción y se le dejó marchar. Hoy en día, Malcolm sigue entrenando con esmero y puliendo sus habilidades sobre los Dominios, aunque por encima de todo, espera con ansia el día en el que pueda ponerlas realmente en uso. Notas y curiosidades: Malcolm ha sido entrenado en el uso del Arankar de doble filo, un arma de origen estigio muy poco común en el resto del continente. Dicho artilugio está formado por una enorme cuchilla, con una especie de vara metálica en su parte trasera que hace las veces de mango, y que por regla habitual suele ser usada con ambas manos para poder equilibrarla. Las estadísticas del Arankar no se encuentran reflejadas en el libro básico, por lo que las exponemos a continuación: Daño 60, Turno -15, Fuerza Requerida 7 , Crítico Primario Filo, Entereza 14 y Rotura 4. Como regla especial, el Arankar permite hacer un segundo ataque por asalto como si utilizara un arma adicional, pero empleando sólo un penalizador de -10 a la habilidad. En consecuencia, es considerablemente más difícil de usar, por lo que aplica la regla especial Compleja, y no dobla el bono de Fuerza del personaje, incluso si usa las dos manos. Posesiones: Arankar, Una muda de ropa, Raciones de viaje (para 1 día), Una mochila, 8 Escudos de Oro. Ahora, el viaje puede empezar... © Alícia Guillem ## Capítulo 4 una Sombra en los Sueños ### Inicios #### Y en las Sombras _Página 35_ Una Sombra en los Sueños Capítulo 4 Sueños, Esos fragmentos de muerte.... Como los odio. Magnus “Una sombra en los sueños” es una partida de iniciación de Ánima: Beyond Fantasy para un grupo de tres a cinco personajes de primer o segundo nivel. Los sucesos que se desarrollan en ella comienzan poniendo a los jugadores en una situación crítica en contra de unos simples soldados rebeldes, aunque sin que ellos lo sepan, pronto se verán inmersos en el enfrentamiento de dos oscuras fuerzas sobrenaturales. “Una sombra en los sueños” está dividida en tres partes. Habitualmente se requieren entre tres y cuatro sesiones para finalizarla, aunque es posible que, si los jugadores quieren ser muy concienzudos en sus pesquisas, se alargue más. Dos de sus segmentos, el primero y el tercero, están repletos de acción desenfrenada, mientras que el segundo requiere investigar y relacionarse con varios PNJs. Apartir de aquí, toda la información se encuentra reservada al Director de Juego. Algunos planteamientos iniciales Esta partida se sitúa espacialmente en el principado de Gabriel y en una pequeña isla del Mar Interior, aunque a cualquier Director de Juego le resultaría fácil trasladar la acción a otro lugar más acorde con sus necesidades. Basta con que tenga una gran metrópolis de la que los personajes puedan partir y una costa cercana. En ella también se cita a varias organizaciones y personajes relevantes de Gaïa, como T ol Rauko o el Señor de las Pesadillas Malekith. Aunque esta información no resulta vital para entender el desarrollo de los sucesos, es interesante tener una idea general de quiénes son y de cómo funcionan, para profundizar dentro de la trama. Por tanto, se recomienda leer primero los Capítulos XVIII, XIX y XX del libro de reglas básico. Por último, quizás pueda resultar conveniente que los personajes se conocieran antes de iniciar el viaje, aunque no es necesario. “Una sombra en los sueños” esta planteada de manera en la que todos se verán obligados a colaborar desde el principio si quieren sobrevivir, esperando después que se cree en ellos cierto sentido de grupo, al pasar por una experiencia de tal trascendencia. En realidad, es la única oportunidad que tienen… Los inicios La partida comienza cuando los jugadores suben en La Dama para hacer su viaje inaugural. Se trata sin duda de un acontecimiento importante, y la gente lleva días enteros expectantes. a nteceDentes : Hace poco más de un año, el consejo de comerciantes que controla el principado de Gabriel encargó al Príncipe Lucanor Giovanni, de Lucrecio, la construcción de un zepelín que fuese el orgullo de su país. Con él, Gabriel pretende demostrar a otros reinos su superioridad artística y económica. De hecho, la decisión de que el viaje inaugural tenga como destino Arkárgel, capital del Sacro Santo Imperio, no es otra cosa que una provocación abierta a sus antiguos gobernantes. Por desgracia, el acontecimiento ha atraído la atención de unos pasajeros muy poco agradables, quienes por una causa u otra, no tienen intención de que el zepelín realice un viaje sin incidentes. El primer grupo es una pequeña escuadra de militares renegados que quiere desertar de Gabriel. Edmond Sadler, capitán de la unidad que tiene asignada la tarea de proteger La Dama, ha recibido una considerable suma de dinero para secuestrar el dirigible y entregarlo en algún punto de Togarini. Gracias a su carisma, logró convencer a muchos de sus hombres para que le siguieran, y pretende tomar el control del aparato una vez que estén en pleno vuelo. El segundo individuo interesado en el zepelín es una entidad sobrenatural que se hace llamar a sí misma Raptor, quien pretende dirigirlo hacía las cercanías de una pequeña isla del Mar Interior e iniciar allí un complejo ritual místico. Sus razones son, como poco, mucho más complicadas… y en las sombras … Más de una década atrás, Malekith, Príncipe de los Cuervos, se enfrentó a una poderosa Señora de las Pesadillas llamada Seline por el control de un importante emplazamiento en la Vigilia. La joven perdió el conflicto y se vio obligada a refugiarse en el mundo real con el objetivo de recuperar sus mermadas energías. Por desgracia para ella, en ese periodo de tiempo atrajo la atención de T ol Rauko, los cazadores de lo sobrenatural, cuyos agentes aprovecharon su debilitado estado para capturarla y llevarla hacia su isla. No obstante, a sabiendas de su creciente poder, los templarios temían que se liberarse antes de alcanzar su destino, por lo que optaron por contenerla usando un antiguo artefacto que habían sellado hacía más de un siglo: el Flauros. Pero la fortuna jugó en contra de T ol Rauko, ya que durante la travesía por el Mar Interior en dirección a su fortaleza, una potente tormenta hizo naufragar el barco, eliminando a todos los tripulantes. De ese modo, los restos de la nave-prisión acabaron encallados en los arrecifes de una pequeña isla llamada Corvinus, donde Seline permaneció aletargada a causa de la influencia del artefacto. Pero la Señora de las Pesadillas no era la única prisionera que se encontraba en la embarcación. En otra de las celdas místicas viajaba Galael, un espectro menor que antaño sirvió aMalekith. Liberado por el impacto contra las rocas, se dio cuenta enseguida de quién era Seline y de lo que podía llegar a hacer con ella, usando adecuadamente el Flauros. La condujo aún dormida hasta el interior de una vieja catedral abandonada, donde usó el artefacto para encerrarla. Después intentó controlar sus poderes, aunque no tardó en darse cuenta de que las capacidades de la Señora de las Pesadillas escapaban de lejos a su comprensión. Aun así, gracias a su empeño logró sintonizar con una pequeña parte de ella y, creyéndose preparado, trató de sumir la isla entera en la Vigilia para obtener mayores poderes. El intento acabó en fracaso, pero el paso entre ambos mundos resultó muy debilitado, dotando aGalael de cierto control sobre el lugar. Sin perder ni un instante, volvió a usar las energías de Seline para levantar una barrera invisible que impidiera la salida o la entrada aCorvinus, a sabiendas de que, probablemente, su fallido intento habría llamado la atención de alguna entidad poderosa de la Vigilia. Una vez se sintió seguro tras aquel muro, el ego de Galael empezó a crecer desmesuradamente. Tomó apariencia humana poseyendo el cuerpo de uno de los templarios fallecidos y se presentó ante los aldeanos como el nuevo señor de la isla, el Marqués de Cavalcanti. Desde entonces se alimenta de las emociones negativas de sus vasallos, acumulando poder muy lentamente en espera de transportar finalmente Corvinus a la Vigilia y controlar completamente allí los poderes de Seline. Capítulo IV: u na s ombRa en los s ueños #### Primera Parte el Vieja de la Dama _Página 36_ Una Sombra en los Sueños , estos acontecimientos no pasaron completamente inadvertidos para Malekith, quien sin saber lo que había sucedido con exactitud, lo hizo investigar por sus agentes. Tras años de pesquisas, tanto en el mundo real como en la Vigilia, sus siervos lograron darle una idea aproximada de los acontecimientos y de cuál era el actual paradero de Seline. Ese descubrimiento le sorprendió y agradó; aunque había sido su enemiga en el pasado, en realidad no sentía ninguna enemistad hacia ella ni le guardaba especialmente rencor. Fue un adversario digno e inteligente que supo aceptar la derrota y escapar de él como muy pocos lo habrían hecho. Pero Galael era un asunto muy distinto… El Príncipe de los Cuervos no puede soportar la idea de que uno de sus siervos se revele contra él y, lo que es aún peor, que esa insignificante criatura pretenda ser su igual. Dado que por el momento es incapaz de abandonar Graven (ni pretende hacerlo por un asunto de tan nimia importancia), ha enviado aRaptor, uno de sus tantos agentes, para acabar con el renegado y poner ejemplo entre los suyos. El problema es que el ejecutor de Malekith ha sido incapaz de atravesar la barrera que rodea Corvinus por mar y, tras meses de infructuosos intentos y barcos hundidos, ha decidido buscar otro método para colarse dentro. Al oír hablar del viaje inaugural de La Dama y descubrir que su trayecto pasa cerca del dominio de Galael, aRaptor se le ocurrió la posibilidad de usar el zepelín como puerta al interior de la isla, ya que posiblemente, la parte superior de la barrera fuese considerablemente más débil, pues no era de esperar un ataque aéreo. Su plan es muy simple: una vez que La Dama esté cerca de Corvinus, tratará de tomar el control del dirigible y producir una histeria colectiva entre sus ocupantes, haciendo que sus fuertes emociones abran momentáneamente un acceso a la Vigilia que él aprovechará. Pero ni siquiera Raptor podía imaginar que no sería el único con sus intereses puestos en el zepelín… PRIMERA PARTE:EL VIAJE DE LA DAMALaDama es una visión realmente impresionante. Se trata de un descomunal zepelín de tres cuerpos unidos entre sí por cuatro largas pasarelas de metal. Toda la estructura está bellamente tallada de un modo tan aerodinámico como ostentoso, que trata de imitar el estilo de los regios navíos del principado. Las dos barcazas laterales están destinadas a los viajeros y sus camarotes, mientras que en el cuerpo central se encuentra la bodega de carga y el puente de mando. Los personajes subirán al ala izquierda de La Dama entre un descomunal gentío que ha ido a presenciar su despegue. El consejo de comerciantes de Gabriel no ha reparado en gastos para festejar el viaje inaugural, por lo que entre confeti y bandas de música, miles de transeúntes observan emocionados cómo los viajeros embarcan en el navío. Al llegar a la plataforma, un revisor les pedirá el billete y les conducirá por un lujoso pasillo enmoquetado hasta el enorme salón central (1). En dicha habitación se encuentran sentados todos los viajeros de la barcaza izquierda del zepelín; unos veinte individuos, de los cuales la mayoría son gordos burgueses, jovencitas y niños, además de cuatro soldados que vigilan las salidas. Si no se conocen de antes, por diversos avatares del destino (y el hecho de que los individuos con Gnosis se atraen los unos a los otros), a todos los PJs les corresponderá tomar asiento en la misma mesa. Una vez que estén ya en su sitio y La Dama haya despegado (un espectáculo digno de ver, por cierto), los soldados anunciarán que no pueden dejar la estancia hasta que los camarotes se encuentren completamente habilitados dentro de unas horas. Mientras, para entretenerse tienen las estupendas vistas de las escotillas y algunos refrigerios. Esta es una oportunidad fantástica para que los personajes puedan empezar a hablar un rato entre ellos y se conozcan. Si alguno encuentra extraño que se vean obligados a esperar tanto e insiste en saber por qué, el guardia al que pregunte se limitará a encogerse de hombros y decirle que los zepelines no son como los barcos, y que esa es la espera reglamentariamente establecida. La única causa justificada por la que alguien puede llegar a salir de la estancia es para ir al servicio, y lo hará siempre escoltado. No obstante, el primero de los PJs que lo haga escuchará como dos militares están discutiendo al final del pasillo (si supera un control de Advertir contra MDF, podrá incluso oír frases como “-¡No seas estúpido! No puedes echarte atrás ahora.-” antes de que estos se den necesariamente cuenta de su presencia). En cuanto a los camareros que se ocupan de la comida y la bebida, son siempre muy atentos y agradables. En el caso de que alguien se fije especialmente en ellos, podrá darse cuenta de que, pasado un tiempo, empezarán a parecer algo nerviosos. Si les pregunta, contestarán simplemente que es la primera vez que vuelan y aún no se han acostumbrado a la sensación. Por fin a media tarde, cuatro horas y media después del inicio de la travesía, mientras el zepelín sobrevuela ya el Mar Interior, todos los acontecimientos que han estado urdiéndose darán realmente comienzo. Súbitamente, un quinto soldado irrumpe en el salón con una espada larga en la mano y una ballesta cargada en la otra, exigiendo la atención de todos los pasajeros. Los otros cuatro, que estaban esperando la señal, desenfundarán sus armas cubriendo de inmediato las salidas. Entre los gritos asustados de los presentes, el recién llegado anuncia con sarcasmo que el zepelín se encuentra bajo el control de su capitán y que todos los presentes van a ser ejecutados por traición. Y no tardará mucho en empezar a cumplir sus amenazas… Su plan es simple: cuatro de ellos esperan espada en mano en las puertas a cualquiera lo suficientemente valiente o estúpido para acercárseles, mientras que el quinto irá disparándoles con la ballesta. Este es el momento en el que los PJs tienen que verse obligados a intervenir para detener la masacre y salvarse ellos mismos. Cuando empiece la lucha, casi todos los viajeros, mujeres y niños en su mayoría, se esconderán debajo de las mesas o de los sillones rezando por sus vidas. Es altamente improbable que alguno intente intervenir, y en realidad, de muy poco serviría que lo hiciese. En el momento en el que los militares se den cuenta de que los personajes son algo más que meros burgueses, dejarán las salidas y se concentrarán únicamente en ellos. Sólo tres del grupo son soldados con experiencia, pero están seguros de que entre todos podrán dar buena cuenta de sus rivales. En mitad del combate (aunque sólo en el caso de que dure más de cuatro asaltos, claro), el zepelín hará un brusco movimiento y empezará a descender lentamente (debido a que Raptor ha empezado a actuar). Todos los que estén de pie deberán superar un control de Acrobacias contra MED o de Agilidad con un penalizador de –2 a la característica, si no quieren caerse de bruces. Una vez que la lucha haya concluido, no hace falta tener mucha imaginación para darse cuenta que lo peor aún esta por venir, y que quedarse sin hacer nada no es la solución. Tarde o temprano los otros soldados se darán cuenta del fracaso de sus compañeros y además, aunque pausadamente, es innegable que La Dama se dirige hacía el mar. El siguiente movimiento está en manos de los jugadores. ##### Dama ###### 11 Pasillo Izquierdo _Página 38_ 2. p asillo De entra Da : Se trata del espacioso pasillo por el que se sube a bordo de La Dama. Las escaleras conducen hasta la puerta de embarque, la cual se encuentra ahora cerrada por dentro y por fuera. En dirección contraria se llega hasta la sala de máquinas (5), cuya puerta ha sido trabada por los renegados. La cerradura ha quedado completamente inservible, por lo que la única manera de pasar es echarla abajo (trátala como una puerta recia a efectos de resistencia). 3. s erVicioDeDamas : Un cuarto de baño para señoritas, hermosamente decorado y perfumado. Tiene un inmenso espejo de pared para retocarse. 4. s erVicioDe caballeros : Parecido al anterior, pero decorado de manera mucho más masculina. Si los personajes buscan minuciosamente (cosa que no tienen mucho tiempo para hacer), encontrarán sangre salpicada detrás del retrete. Al parecer, aquel soldado que estaba discutiendo con su compañero por aquí hace horas acabó echándose atrás… 5. s ala De máquinas , ala izquierDa : Otra inmensa estancia, aunque esta vez llena de maquinarias, engranajes y calderas. El sonido aquí es estridente, por lo que los personajes tendrán serios problemas para escucharse los unos a los otros, incluso gritando. La sala está separada en dos niveles distintos, la plataforma superior por donde se entra y la parte inferior, en la que se encuentran la gran mayoría de aparatos que hacen girar las hélices del zepelín. Aprimera vista pueden verse los cadáveres de tres de los operarios, tirados por el suelo del piso de abajo, junto a l de un militar (una inspección posterior más detallada indicará que todos han muerto por una herida de arma blanca). En esta estancia hay también dos soldados (uno de ellos con experiencia), que han bloqueado la pasarela y se aseguran de que las maquinarias sigan funcionando correctamente, con la involuntaria ayuda de un cuarto operario. En el caso de que los personajes echasen la puerta abajo violentamente y necesitasen más de cuatro asaltos para hacerlo, lo más probable es que los soldados se hayan dado cuenta y estén ocultos (requieren tanto tiempo a causa del ruido ambiental). Si ocurre así, esperarán escondidos tras las máquinas del fondo de la estancia, con la ballesta lista, a que bajen por las escaleras (control Muy Difícil de Advertir o Medio de Buscar para poder verlos). Una vez que el combate haya terminado, el operario superviviente, escondido hasta entonces, se acercará a ellos con las manos extendidas pidiendo ayuda. Dice llamarse Dieter Helsm y les explicará que la única manera de detener la caída del zepelín es llegar a la sala de mando, que se encuentra en la parte delantera del cuerpo central. Para cruzar hasta allí, deben usar una de las dos pasarelas de tránsito. La de esta estancia se encuentra completamente inutilizada, ya que los soldados volcaron un enorme armatoste de vapor, destrozando por completo la entrada. Por tanto, la única posibilidad que les queda es dirigirse hasta el comedor de proa y usar la que está allí. Naturalmente se negará a acompañarlos, admitiendo que está asustado y que no sabe controlar el timón del navío. Si más tarde los personajes vuelven aquí, no encontrarán aDieter, ni nadie sabrá dónde ha ido. NOTA: Una idea interesante para representar el fuerte sonido de la estancia es pedirle a los jugadores que no hablen entre ellos, y que declaren sus acciones mediante notas de papel. No obstante, ten en cuenta que hacerlo de este modo puede ralentizar considerablemente la partida, por lo que no conviene abusar de este método. 6. p asillo De las Habitaciones : Un corredor igual de amplio que el de entrada, engalanado en este caso con algunos cuadros de personalidades de Gabriel. Hay ligeras señales de lucha, pero nada de relevancia. 7. Habitaciones : Lujosos dormitorios, dignos del mejor de los hoteles. Aunque casi todas las maletas de los pasajeros están aquí, ninguna ha sido abierta todavía. Si miran en sus propios cuartos (el número debe de estar reflejado en el billete de embarque), podrán encontrar cualquier equipaje del que se hubieran desprendido al subir. Naturalmente, los personajes pueden entretenerse saqueando las pertenencias de los demás, cosa que sin duda resulta muy gratificante; entre joyas, obras de arte y otras posesiones de valor, pueden encontrar más de 15.000 Escudos de Oro. Por desgracia, si pierden mucho tiempo, lo más probable es que lleguen demasiado tarde, y sean por tanto incapaces de impedir que el zepelín se estrelle. 8. c omeDor : Probablemente, el comedor es la habitación más espectacular de toda el ala izquierda. Muchas de sus paredes son enormes cristaleras por las que se puede ver el exterior del zepelín (y la preocupante proximidad del agua). Repartidas por la estancia hay varias mesas y sillas preparadas para servir opíparos banquetes, mientras que en el fondo hay un descansillo elevado que sirve como pista de baile. 9. c ocina : La cocina está repleta de toda clase de alimentos exóticos, vinos caros y platos a medio hacer. Para evitar posibles problemas con el fuego, los fogones no utilizan llamas reales, sino brasas encendidas sobre una amplia superficie de metal. Todo un adelanto para la época. Si los personajes escuchan atentamente (Advertir aDIF), podrán oír algunos exiguos lloriqueos provenientes de la despensa. Allí se encuentran encerrados unos cuantos miembros del servicio (cuatro doncellas, dos cocineros y el revisor que les recibió), junto a los cadáveres de aquellos que se resistieron. Las chicas están histéricas, aunque tampoco se puede decir que los demás estén muy tranquilos. La única información que son capaces de dar es que, mientras estaban encerrados, han escuchado cómo alguien se acercaba hasta la puerta, comenzaba a arañarla y con una voz profunda decía entre risas: “-Un acontecimiento completamente inesperado, ¿verdad, mis asustadizos niños? Veamos si es posible aprovecharlo.-”, tras lo cual se marchó sin más. 10. p lataforma De paso : Se trata de un largo puente metálico que conecta el ala izquierda de La Dama con el cuerpo central. Como medida de seguridad tiene una alta barandilla que llega hasta algo más de la cintura, pero eso no evita que los fuertes vientos y la velocidad del aparato hagan de la plataforma un sitio peligroso. Cuando se encuentren a medio camino, la puerta de enfrente se abrirá y una pequeña guarnición de soldados empezará a avanzar hacia los PJs. Se trata de un grupo que Sadler a afianzar posiciones, después de creer seguro el cuerpo central. Se trata de siete militares, aunque sólo un par de ellos tienen algo de experiencia. Ante esta situación, los jugadores pueden optar por dos cosas; retroceder hasta el comedor (8) o combatir individualmente en el puente. Si optan por esta segunda estrategia, sólo una persona podrá luchar cuerpo a cuerpo por bando, y en todos los asaltos deberá superar un control de Acrobacias contra FAC (o en su defecto, uno de Agilidad con el modificador que consideres pertinente en el caso) para no perder el equilibrio. Un resultado extremadamente malo podría incluso significar que cae al vacío. Adicionalmente, aquellos que esquiven tendrán que aplicar el penalizador de espacio reducido a su defensa, y cualquier proyectil disparado o lanzado obtiene un negativo de –60 a causa del viento. 11. p asillo izquierDo : Un largo pasillo lleno de escotillas por las que se pueden ver las nubes del exterior. No tiene tantos adornos como los corredores de las alas residenciales, pero aun así esta hermosamente decorado con una larga alfombra de lino rojo. Si los personajes se fijan un poco (es decir, basta con que no pasen corriendo), descubrirán algo llamativo: los arañazos de algo similar a una afilada garra se extienden varios metros por la pared. ###### 19 Sala de Máquinas Ala Central _Página 39_ en todos los aspectos al anterior, salvo por el hecho de que en el suelo yace, sobre un charco de sangre, el cadáver terriblemente mutilado de uno de los soldados. Es imposible precisar el arma que se ha usado para matarlo, pero las heridas parecen ser cuatro afiladas cuchillas. Naturalmente, nadie sabe saber si se trataba de uno de los militares rebeldes o no. 13. e l camarote Del capitán : Este dormitorio pertenecía al ahora difunto capitán de La Dama. Hay objetos de mucho lujo, por los que sin duda se podría obtener un buen precio en joyerías y tiendas de artesanía. Salvo eso, nada más relevante. 14. e l camarote De los oficiales : La habitación reservada a los cuatro oficiales a cargo del zepelín; el encargado de las maquinas, el de seguridad (el propio Sadler), el jefe de cocina y el ayudante del capitán. Un lugar ordinario y sin importancia. 15. e l camarote De la tripulación : Probablemente, la única estancia habitable del zepelín que no llama la atención por su lujo. Es un amplio cuarto lleno de literas, donde deberían dormir los más de sesenta tripulantes del aparato. 16. p uente De manDo : El puente es una gran habitación ligeramente ovalada, con grandes ventanales y diversos aparatos que permiten controlar el zepelín. Casi todo esta decorado con madera y grandes cortinas, lo que le da un aspecto majestuoso y solemne. Desdichadamente, cuando los personajes entren, presenciarán un espectáculo muy poco agradable. Media docena de individuos, entre los cuales hay algunos militares, yacen muertos en distintos lugares de la estancia, cada cual de modo más horrible. El cadáver del capitán de La Dama es el que más llama la atención, pues permanece aferrado al timón con una expresión de terror absoluto. Salvo si por alguna razón ya se lo han encontrado antes en otro lugar de la nave, Edmond Sadler, junto a tres de sus hombres de mayor confianza (todos luchadores expertos), estará aquí examinado los cuerpos con expresión seria. En realidad está muy sorprendido por los cadáveres, ya que ha sido Raptor quien ha matado a todos los ocupantes de la sala. Cuando les vea entrar, se encarará a ellos y exclamará con desdén: “-Así que sois vosotros los que estáis matando a los míos… Pues dejadme que os diga algo; No sé qué le habéis hecho a la sala de máquinas ni por qué queréis destruir esta aeronave, pero os aseguro que nada impedirá que me apodere de ella.-”. Acto seguido, ordenará a sus hombres que ataquen, ya que está preocupado por la caída del zepelín y no tiene demasiadas ganas de seguir hablando. Sadler sabe lo que se juega y que no habrá perdón para él si es capturado, por lo que irá a por todas y luchará hasta la muerte. Si el combate finaliza favorablemente para los PJs, es posible que se sientan eufóricos y piensen que lo peor ya ha acabado (aunque, a la vista de algunos sucesos, probablemente ya hayan empezado a intuir que ocurre algo más que aún no han visto). Por desgracia, cuando intenten enderezar el timón para detener la caída del aparato, se darán cuenta de que está bloqueado, y según indican los paneles, el problema parece hallarse en la sala central de máquinas. Si quieren, pueden usar los controles para abrir el acceso hasta allí, ya que en los tableros aparece perfectamente explicado que desde aquí se controlan las entradas de toda la nave, y da la casualidad de que esa está sellada en estos momentos. 17. b oDegaDe carga : La inmensa sala central del zepelín es usada como almacén para transportar todo tipo de cargamentos. Por ello, la estancia está repleta de grandes cajas apiladas entre sí de forma laberíntica. Desgraciadamente, la proximidad al ritual está provocando una ligera distorsión de la realidad. Por tanto, es posible que los personajes más perceptivos a lo sobrenatural vean algunas cosas extrañas, como sombras deformes que aparecen o desaparecen. Si pululan por la estancia no tardarán en ver un rastro de sangre que conduce hasta una esquina. Lo que ocurre es que Raptor estaba viajando en el interior de una caja, a modo de ataúd. Esperaba permanecer en su interior más tiempo, pero al darse cuenta del asalto militar, tuvo que intervenir mucho antes para descubrir lo que pasaba. Al parecer, un grupo de tres soldados se encontraron cara a cara con él y este dio buena cuenta de ellos. Sus cadáveres, como el encontrado antes en el pasillo y los del puente, están horriblemente despedazados. Desde luego, no es un espectáculo para estómagos débiles. 18. s erVicios para oficiales y tripulación : Dos servicios comunales, uno masculino y otro femenino, que ni remotamente tienen el nivel de lujo de los lavabos del ala izquierda. No obstante, si algún personaje atiende atentamente, escuchará una especie de extraño llanto de detrás de la pared (la que da a la sala de máquinas). 19. s ala De máquinas , ala central : La sala central de máquinas es el lugar que Raptor ha elegido para llevar a cabo su ritual. La puerta de entrada es metálica y se encuentra sellada, por lo que la manera más sencilla de abrirla es usando los controles del puente de mando. Visualmente, la estancia es parecida a la del ala izquierda, aunque más espaciosa. No obstante, aquí el ruido es también mucho menor, tanto que incluso resulta extraño con semejante cantidad de engranajes en movimiento. Además, la sala entera se encuentra en penumbra, iluminada únicamente por unas cuantas velas estratégicamente situadas. En el mismo centro hay un elaborado círculo místico hecho con sangre. Cualquier personaje que logre superar un control de Ocultismo a dificultad Muy Difícil reconocerá en él los símbolos de “Miedo” y “Portal”, escritos en un antiguo dialecto de una tribu del norte que fue acusada de herejía y exterminada por la Inquisición hace más de tres siglos. Si buscan el motivo por el que el zepelín está descendiendo, descubrirán fácilmente cómo hay dos enormes barras de metal bloqueando el alerón central. Cada una pesa sobre trescientos kilos, por lo que es posible que se requiera la colaboración de varios individuos para apartarlas. En el caso de que los personajes logren penetrar hasta esta sala forzando de algún modo la puerta antes de llegar al puente de mando, Raptor aún no estará en el interior (en esos momentos, habrá salido para dar buena cuenta del capitán del navío y asegurarse de extender el miedo colectivo). De todos modos, incluso si desbloquean el alerón, el zepelín seguirá cayendo a causa del timón (e igualmente cuando se marchen, Raptor regresará para volver a poner las barras). Si ya han dado buena cuenta de Sadler y han enderezado el timón, el ejecutor estará en mitad de la estancia finalizando su oscura ceremonia, así que pasa a la sección El portal oscuro. El portal oscuro Una vez llegados a este punto los personajes se encontrarán cara a cara con Raptor, quien permanece en mitad del círculo arcano con los brazos extendidos hacia el aire y una expresión de triunfo. Salvo en el caso de que le ataquen o se dirijan directamente a él, el ejecutor los ignorará por completo, incluso si se ponen a quitar las barras que bloquean el alerón. Si ha hecho caer el dirigible es únicamente para generar una situación de histeria colectiva entre los pasajeros, mientras él canalizaba con su ritual dichas emociones negativas. Ahora que ya tiene miedo más que de sobra, le importa bien poco el destino del zepelín y sus ocupantes. Si los PJs tratasen de hablar con él o se le acercasen, Raptor se encarará a ellos y con una cínica sonrisa les dirá: “-¿No es maravilloso, niños? En sólo unos instantes ocurrirá.-”. Si por el contrario optan por atacarle directamente, como muy pronto comprobarán no son rivales para él. Sin embargo, Raptor no les matará en ningún caso; ha esperado mucho tiempo para poder traspasar la barrera y quiere tener testigos de su logro. Por esa causa sólo jugara un poco con ellos, produciéndoles heridas leves e inutilizándolos. Luchen o hablen, pasados unos instantes (entre tres o cuatro asaltos), el zepelín empezará a vibrar con fuerza. En ese momento Raptor se parará en seco y, riendo como un loco, anunciará: “-Ya es tarde. La puerta a las Tinieblas ha sido abierta.-”. ##### Otros Detalles ###### Ala Derecha _Página 40_ Raptor, el ejecutor oscuro Pero segundos después sus carcajadas se congelarán, transformando su triunfal expresión en asombro y rabia. “-¡¡No!! ¡No es posible!-”. Gritará con toda la ira de la que es capaz su sepulcral voz, mientras clava los ojos en la nada. En ese preciso momento La Dama se estrellará contra algo desconocido, y el zepelín entero se sacudirá como si fuese a partirse en dos. Durante segundos estallará un caos absoluto y los personajes saldrán volando por toda la sala en dirección a la pared contraria. Después, sólo quedara silencio y oscuridad… Pero… ¿qué ha pasado realmente? Al parecer, Raptor volvió a menospreciar el poder de la barrera levantada con las energías de Seline, y de nuevo se ha visto incapaz de traspasarla. No obstante, los personajes, los únicos mortales de todo el zepelín con Gnosis elevado, son inevitablemente arrastrados hacia el interior de Corvinus… Otros detalles Estos son algunos de los detalles que resultan más relevantes en el trasfondo de esta parte de la aventura. l os Viajeros : Sin duda es el motivo más simple por el que un PJ puede encontrarse en el zepelín es sencillamente su intención de realizar un viaje hacia Arkángel (o cualquiera que sea el destino que el Director haya elegido). En dicho caso, el personaje no requiere mayor Introducción, basta con justificar de algún modo cómo se las ha apañado para conseguir el billete, desde la invitación de un amigo influyente hasta la mera suerte (algunos pasajes fueron sorteados por el consejo de comerciantes). Otras posibilidades interesantes son que esté allí como un miembro de la seguridad personal de alguno de los ricos burgueses (ideal para personajes mercenarios), o incluso que se haya colado como polizón y aproveche un sitio vacío para confundirse con los otros viajeros (nunca en las bodegas o en la sala de máquinas, ya que trastocaría muchos elementos de la trama). l a guarnición De s aDler : Los soldados a cargo del zepelín son poco más de una veintena de hombres, bajo el mando del capitán Edmond Sadler. El consejo de comerciantes, en su obsesión por llamar la atención de los otros principados, cometió el error de poner a una división sin relativa experiencia a cargo de La Dama. En realidad, nunca se les pasó por la cabeza que pudiesen ser asaltados en pleno aire y se limitaron a mirar con lupa la lista de los viajeros, asegurándose de que todos fueran personas notables y de la mayor confianza. Esa es la causa de que los guardias acabasen siendo seleccionados únicamente por ser atractivos o tener un origen noble, en lugar de por su habilidad en combate (de hecho, algunos no han participado en un combate real en toda su vida y están en el ejército porque sus padres esperaban que eso hiciera de ellos verdaderos “hombres”). Tras recibir la oferta de su misterioso comprador, Sadler sólo le contó sus objetivos a aquellos que, ya sea por codicia o fidelidad hacia él, estarían dispuestos a apoyarle. Todos han aceptado deslumbrados por la idea de grandes riquezas, y son capaces de hacer lo que haga falta, incluso matar a sus propios compañeros. En total hay veintiún soldados renegados en el zepelín (el resto han sido asesinados por sus compañeros) y, aunque sólo doce o trece de ellos tienen algo de práctica en combate, Sadler espera que sean más que suficientes para someter a los que considera un puñado de niños de papá y obesos ricachones. Durante las primeras horas de trayecto, los desertores se las han apañado para llevar a los soldados leales hasta zonas vacías del zepelín, y han dado allí buena cuenta de ellos. Lo mismo han hecho con la mayoría de encargados de mantenimiento que no fueran absolutamente necesarios. Si los personajes capturan a alguno de los soldados con vida para interrogarle sobre lo que está pasando, lo más probable es que no tenga ningún reparo en contar todo lo que sabe y los objetivos de su lider, aunque no tiene ni idea de porqué el zepelín está descendiendo. a rmas a borDo : En principio no hay reglas en La Dama que impidan a los jugadores llevar armas encima, siempre y cuando tengan un aspecto estético y decorativo. En tales casos, serían consideradas un simple complemento del vestuario, como un sombrero o unas bonitas botas. Esta norma no se aplica con armas de gran tamaño o de naturaleza violenta, las cuales serán requisadas en la entrada y llevadas hasta la habitación del personaje junto a l resto de su equipaje. Por poner un ejemplo, no se permitiría llevar un martillo o un hacha de guerra encima por muy labradas u ornamentales que fueran, ya que las considerarían inapropiadas para el lugar; pero espadas bonitas, floretes o dagas no tendrían la misma restricción. Vamos, pura estética. s ugerencia para impulsar la partiDa : La lógica indica que, tras la lucha con los guardias en el salón, los jugadores tratarán de hacer algo para solucionar el incidente, ya sea impulsados por sus principios o el peligro que corren si se quedan de brazos cruzados. No obstante, también es posible que una parte de ellos requiera algún otro “incentivo”, algo más tangible que les convenza. En tal caso, lo ideal es introducir a un PNJ que les dé el empujoncito que hace falta (pero SÓLO si hace falta). Su nombre es Diego de la Roca, y se presentará como un rico comerciante de especias que no quiere acabar sus días estrellado en el mar. Es un hombre de mediana edad algo rechoncho, que viste con ropas de calidad y lleva muchas joyas encima. Diego, que viaja aArkángel para asistir a la boda de su hija, ofrecerá una sustanciosa recompensa a cualquiera que pueda acabar con los asaltantes y recuperar el control de la nave. Está dispuesto a pagarles hasta 300 Escudos de Oro por cabeza a cada uno, aunque su instinto de mercader le impulsará a regatear un poco al principio (poco de todos modos, ya que su vida es lo primero para él). s altar al mar : A la velocidad a la que se mueve el zepelín, lo más probable es que una caída sobre agua sea mortal por necesidad. De todos modos, si alguien consiguiese sobrevivir se encontraría en mitad del mar, sin muchas posibilidades de llegar a la costa. e l ala DerecHa : En el caso de que los personajes traten de visitar el ala derecha del zepelín, basta con que tengas en cuenta que es idéntica a la izquierda, salvo que allí ya no quedan aparentemente supervivientes (era donde viajaban los nobles, por lo que se requería un mayor número de soldados para subyugarla). Recuérdales, de todos modos, que no tienen mucho tiempo que perder si quieren evitar que La Dama se estrelle. ###### El Miedo a lo Sobrenatural _Página 41_ e l mieDo a lo sobrenatural : Los personajes que estén dotados de habilidades sobrenaturales deben recordar que no pueden ir revelando impunemente sus poderes a los demás, o corren el peligro de ser considerados “demonios” y acabar perseguidos por la Iglesia. Si los burgueses que están en el zepelín presencian algo de carácter sobrenatural se quedarán completamente impresionados, pero como hombres prácticos que son, dado que sus vidas están en peligro, no le pondrán muchos remilgos a los medios que se empleen para salvarles (aunque algunos podrían acusarles en secreto, una vez en tierra). No obstante, este miedo también puede jugar a su favor contra los soldados de Sadler, quienes se lo pensarán dos veces antes de atacar a un adversario dotado de poderes místicos. Capitán Edmond Sadler Un noble del principado de Gabriel venido a menos, que en la actualidad se encuentra prácticamente en la ruina. Dado que siempre fue un buen duelista, sus contactos le permitieron acceder a un puesto de importancia dentro del ejército, pero allí el sueldo es insuficiente para llevar el tren de vida al que estaba acostumbrado. Corrupto y con pocos escrúpulos, tras ser destinado como jefe del cuerpo de protección de La Dama, ha decidido tomar el control del zepelín y venderlo por una desorbitada suma de dinero. Para él la traición y el asesinato son poca cosa, si puede convertirse de nuevo en un hombre rico. Apariencia: Rubio, bien parecido y de aspecto seductor, Sadler parece más un dandi que un verdadero soldado. Como todos los militares de la guarnición, lleva un flamante uniforme de gala, aunque adornado con los galones de capitán. En combate porta dos armas, una espada larga y otra corta, ambas hermosamente labradas. Consejos de interpretación: Cada uno de tus movimientos es una pose, e incluso tu manera de expresarte lo es. Habla con rotundidad, pero deja entrever que estás más nervioso de lo que quisieras. e DmonD s aDler</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 115 Categoría: Tecnicista Fue: 7 Des: 8 Agi: 10 Con: 8 Pod: 7 Int: 6 Vol: 6 Per: 8 RF 40 RM 35 RP 35 RV 40 RE 40\n\nTurno: 70 Natural, 35 Arankar doble Habilidad de ataque: 80 Arankar doble Habilidad de defensa: 80 Esquiva Daño: 75 Arankar doble Llevar Armadura: 5 TA: Ninguna CM: 130 Habilidades del\n\nKi: Uso del Ki, Conocimiento del Ki, Extrusión de presencia, Extrusión del aura al arma. Acumulaciones: Fue 1 Des 4 Agi 4 Con 1 Pod 2 Vol 1 Ventajas y desventajas: Maestro marcial (x2), Recuperación rápida de Ki. Habilidades naturales: Ninguna. de movimiento: 10 Cansancio: 8 Habilidades Secundarias: Acrobacias 50, Atletismo 35, Nadar 25, Saltar 1 5, Trepar 20, Estilo 1 5, Advertir 30, Buscar 20, Trucos de manos 25. Malcolm Frost es un hombre de veinticuatro años, de pelo rubio, rasgos bien marcados y una impresionante constitución física. Viste con ropas muy extravagantes, combinando el estilo de Estigia y sus adornos con prendas tradicionales del Imperio. Frost es un miembro de la Hermandad de Seth, una sociedad secreta de artistas marciales y luchadores que trabaja para los Reyes de Estigia desde hace varios siglos..\n\nEl caso de Malcolm es especial; se trata de uno de los pocos miembros que no es nativo, pero fue entrenado a causa de la cercana relación de sus padres con la Hermandad (ambos les habían brindado una importante ayuda en el pasado) y el talento natural del chiquillo. El joven creció orgulloso de sus habilidades, consciente de que sus conocimientos y poderes superaban a los de “la gente normal”. Con el tiempo llegó a dominar multitud de habilidades del Ki, e incluso los principios de algunas técnicas. Desgraciadamente, tras los incidentes que hicieron tambalearse al Imperio, los extranjeros empezaron a ser cada vez peor vistos entre el pueblo Estigio, y Malcolm se vio obligado a dejar el principado para evitar problemas.\n\nUna vez más, era algo poco habitual entre las reglas de la Hermandad, pero dado que él no era responsable de la situación, de nuevo se hizo una excepción y se le dejó marchar. Hoy en día, Malcolm sigue entrenando con esmero y puliendo sus habilidades sobre los Dominios, aunque por encima de todo, espera con ansia el día en el que pueda ponerlas realmente en uso. Notas y curiosidades: Malcolm ha sido entrenado en el uso del Arankar de doble filo, un arma de origen estigio muy poco común en el resto del continente. Dicho artilugio está formado por una enorme cuchilla, con una especie de vara metálica en su parte trasera que hace las veces de mango, y que por regla habitual suele ser usada con ambas manos para poder equilibrarla.\n\nLas estadísticas del Arankar no se encuentran reflejadas en el libro básico, por lo que las exponemos a continuación: Daño 60, Turno -1 5, Fuerza Requerida 7 , Crítico Primario Filo, Entereza 1 4 y Rotura 4. Como regla especial, el Arankar permite hacer un segundo ataque por asalto como si utilizara un arma adicional, pero empleando sólo un penalizador de -10 a la habilidad. En consecuencia, es considerablemente más difícil de usar, por lo que aplica la regla especial Compleja, y no dobla el bono de Fuerza del personaje, incluso si usa las dos manos. Posesiones: Arankar, Una muda de ropa, Raciones de viaje (para 1 día), Una mochila, 8 Escudos de Oro. Ahora, el viaje puede empezar... © Alícia Guillem\n\n## Capítulo 4 una Sombra en los Sueños\n\n### Inicios\n\n#### Y en las Sombras\n\n&lt;!-- tags: @ambientacion, @localizacion, @organizacion --&gt;\n\n_Página 35_\n\nUna Sombra en los Sueños\n\nCapítulo 4 Sueños, Esos fragmentos de muerte.... Como los odio. Magnus “Una sombra en los sueños” es una partida de iniciación de Ánima: Beyond Fantasy para un grupo de tres a cinco personajes de primer o segundo nivel. Los sucesos que se desarrollan en ella comienzan poniendo a los jugadores en una situación crítica en contra de unos simples soldados rebeldes, aunque sin que ellos lo sepan, pronto se verán inmersos en el enfrentamiento de dos oscuras fuerzas sobrenaturales. “Una sombra en los sueños” está dividida en tres partes. Habitualmente se requieren entre tres y cuatro sesiones para finalizarla, aunque es posible que, si los jugadores quieren ser muy concienzudos en sus pesquisas, se alargue más. Dos de sus segmentos, el primero y el tercero, están repletos de acción desenfrenada, mientras que el segundo requiere investigar y relacionarse con varios PNJs.\n\nApartir de aquí, toda la información se encuentra reservada al Director de Juego. Algunos planteamientos iniciales Esta partida se sitúa espacialmente en el principado de Gabriel y en una pequeña isla del Mar Interior, aunque a cualquier Director de Juego le resultaría fácil trasladar la acción a otro lugar más acorde con sus necesidades. Basta con que tenga una gran metrópolis de la que los personajes puedan partir y una costa cercana. En ella también se cita a varias organizaciones y personajes relevantes de Gaïa, como T ol Rauko o el Señor de las Pesadillas Malekith. Aunque esta información no resulta vital para entender el desarrollo de los sucesos, es interesante tener una idea general de quiénes son y de cómo funcionan, para profundizar dentro de la trama. Por tanto, se recomienda leer primero los Capítulos XVIII, XIX y XX del libro de reglas básico.\n\nPor último, quizás pueda resultar conveniente que los personajes se conocieran antes de iniciar el viaje, aunque no es necesario. “Una sombra en los sueños” esta planteada de manera en la que todos se verán obligados a colaborar desde el principio si quieren sobrevivir, esperando después que se cree en ellos cierto sentido de grupo, al pasar por una experiencia de tal trascendencia. En realidad, es la única oportunidad que tienen… Los inicios La partida comienza cuando los jugadores suben en La Dama para hacer su viaje inaugural. Se trata sin duda de un acontecimiento importante, y la gente lleva días enteros expectantes. a nteceDentes : Hace poco más de un año, el consejo de comerciantes que controla el principado de Gabriel encargó al Príncipe Lucanor Giovanni, de Lucrecio, la construcción de un zepelín que fuese el orgullo de su país.\n\nCon él, Gabriel pretende demostrar a otros reinos su superioridad artística y económica. De hecho, la decisión de que el viaje inaugural tenga como destino Arkárgel, capital del Sacro Santo Imperio, no es otra cosa que una provocación abierta a sus antiguos gobernantes. Por desgracia, el acontecimiento ha atraído la atención de unos pasajeros muy poco agradables, quienes por una causa u otra, no tienen intención de que el zepelín realice un viaje sin incidentes. El primer grupo es una pequeña escuadra de militares renegados que quiere desertar de Gabriel. Edmond Sadler, capitán de la unidad que tiene asignada la tarea de proteger La Dama, ha recibido una considerable suma de dinero para secuestrar el dirigible y entregarlo en algún punto de Togarini.\n\nGracias a su carisma, logró convencer a muchos de sus hombres para que le siguieran, y pretende tomar el control del aparato una vez que estén en pleno vuelo. El segundo individuo interesado en el zepelín es una entidad sobrenatural que se hace llamar a sí misma Raptor, quien pretende dirigirlo hacía las cercanías de una pequeña isla del Mar Interior e iniciar allí un complejo ritual místico. Sus razones son, como poco, mucho más complicadas… y en las sombras … Más de una década atrás, Malekith, Príncipe de los Cuervos, se enfrentó a una poderosa Señora de las Pesadillas llamada Seline por el control de un importante emplazamiento en la Vigilia. La joven perdió el conflicto y se vio obligada a refugiarse en el mundo real con el objetivo de recuperar sus mermadas energías.\n\nPor desgracia para ella, en ese periodo de tiempo atrajo la atención de T ol Rauko, los cazadores de lo sobrenatural, cuyos agentes aprovecharon su debilitado estado para capturarla y llevarla hacia su isla. No obstante, a sabiendas de su creciente poder, los templarios temían que se liberarse antes de alcanzar su destino, por lo que optaron por contenerla usando un antiguo artefacto que habían sellado hacía más de un siglo: el Flauros. Pero la fortuna jugó en contra de T ol Rauko, ya que durante la travesía por el Mar Interior en dirección a su fortaleza, una potente tormenta hizo naufragar el barco, eliminando a todos los tripulantes. De ese modo, los restos de la nave-prisión acabaron encallados en los arrecifes de una pequeña isla llamada Corvinus, donde Seline permaneció aletargada a causa de la influencia del artefacto.\n\nPero la Señora de las Pesadillas no era la única prisionera que se encontraba en la embarcación. En otra de las celdas místicas viajaba Galael, un espectro menor que antaño sirvió aMalekith. Liberado por el impacto contra las rocas, se dio cuenta enseguida de quién era Seline y de lo que podía llegar a hacer con ella, usando adecuadamente el Flauros. La condujo aún dormida hasta el interior de una vieja catedral abandonada, donde usó el artefacto para encerrarla. Después intentó controlar sus poderes, aunque no tardó en darse cuenta de que las capacidades de la Señora de las Pesadillas escapaban de lejos a su comprensión. Aun así, gracias a su empeño logró sintonizar con una pequeña parte de ella y, creyéndose preparado, trató de sumir la isla entera en la Vigilia para obtener mayores poderes.\n\nEl intento acabó en fracaso, pero el paso entre ambos mundos resultó muy debilitado, dotando aGalael de cierto control sobre el lugar. Sin perder ni un instante, volvió a usar las energías de Seline para levantar una barrera invisible que impidiera la salida o la entrada aCorvinus, a sabiendas de que, probablemente, su fallido intento habría llamado la atención de alguna entidad poderosa de la Vigilia. Una vez se sintió seguro tras aquel muro, el ego de Galael empezó a crecer desmesuradamente. Tomó apariencia humana poseyendo el cuerpo de uno de los templarios fallecidos y se presentó ante los aldeanos como el nuevo señor de la isla, el Marqués de Cavalcanti. Desde entonces se alimenta de las emociones negativas de sus vasallos, acumulando poder muy lentamente en espera de transportar finalmente Corvinus a la Vigilia y controlar completamente allí los poderes de Seline.\n\nCapítulo IV: u na s ombRa en los s ueños\n\n#### Primera Parte el Vieja de la Dama\n\n&lt;!-- tags: @sistema, @localizacion --&gt;\n\n_Página 36_\n\nUna Sombra en los Sueños , estos acontecimientos no pasaron completamente inadvertidos para Malekith, quien sin saber lo que había sucedido con exactitud, lo hizo investigar por sus agentes. Tras años de pesquisas, tanto en el mundo real como en la Vigilia, sus siervos lograron darle una idea aproximada de los acontecimientos y de cuál era el actual paradero de Seline. Ese descubrimiento le sorprendió y agradó; aunque había sido su enemiga en el pasado, en realidad no sentía ninguna enemistad hacia ella ni le guardaba especialmente rencor. Fue un adversario digno e inteligente que supo aceptar la derrota y escapar de él como muy pocos lo habrían hecho. Pero Galael era un asunto muy distinto… El Príncipe de los Cuervos no puede soportar la idea de que uno de sus siervos se revele contra él y, lo que es aún peor, que esa insignificante criatura pretenda ser su igual.\n\nDado que por el momento es incapaz de abandonar Graven (ni pretende hacerlo por un asunto de tan nimia importancia), ha enviado aRaptor, uno de sus tantos agentes, para acabar con el renegado y poner ejemplo entre los suyos. El problema es que el ejecutor de Malekith ha sido incapaz de atravesar la barrera que rodea Corvinus por mar y, tras meses de infructuosos intentos y barcos hundidos, ha decidido buscar otro método para colarse dentro. Al oír hablar del viaje inaugural de La Dama y descubrir que su trayecto pasa cerca del dominio de Galael, aRaptor se le ocurrió la posibilidad de usar el zepelín como puerta al interior de la isla, ya que posiblemente, la parte superior de la barrera fuese considerablemente más débil, pues no era de esperar un ataque aéreo.\n\nSu plan es muy simple: una vez que La Dama esté cerca de Corvinus, tratará de tomar el control del dirigible y producir una histeria colectiva entre sus ocupantes, haciendo que sus fuertes emociones abran momentáneamente un acceso a la Vigilia que él aprovechará. Pero ni siquiera Raptor podía imaginar que no sería el único con sus intereses puestos en el zepelín… PRIMERA PARTE:EL VIAJE DE LA DAMALaDama es una visión realmente impresionante. Se trata de un descomunal zepelín de tres cuerpos unidos entre sí por cuatro largas pasarelas de metal. Toda la estructura está bellamente tallada de un modo tan aerodinámico como ostentoso, que trata de imitar el estilo de los regios navíos del principado. Las dos barcazas laterales están destinadas a los viajeros y sus camarotes, mientras que en el cuerpo central se encuentra la bodega de carga y el puente de mando.\n\nLos personajes subirán al ala izquierda de La Dama entre un descomunal gentío que ha ido a presenciar su despegue. El consejo de comerciantes de Gabriel no ha reparado en gastos para festejar el viaje inaugural, por lo que entre confeti y bandas de música, miles de transeúntes observan emocionados cómo los viajeros embarcan en el navío. Al llegar a la plataforma, un revisor les pedirá el billete y les conducirá por un lujoso pasillo enmoquetado hasta el enorme salón central (1). En dicha habitación se encuentran sentados todos los viajeros de la barcaza izquierda del zepelín; unos veinte individuos, de los cuales la mayoría son gordos burgueses, jovencitas y niños, además de cuatro soldados que vigilan las salidas.\n\nSi no se conocen de antes, por diversos avatares del destino (y el hecho de que los individuos con Gnosis se atraen los unos a los otros), a todos los PJs les corresponderá tomar asiento en la misma mesa. Una vez que estén ya en su sitio y La Dama haya despegado (un espectáculo digno de ver, por cierto), los soldados anunciarán que no pueden dejar la estancia hasta que los camarotes se encuentren completamente habilitados dentro de unas horas. Mientras, para entretenerse tienen las estupendas vistas de las escotillas y algunos refrigerios. Esta es una oportunidad fantástica para que los personajes puedan empezar a hablar un rato entre ellos y se conozcan.\n\nSi alguno encuentra extraño que se vean obligados a esperar tanto e insiste en saber por qué, el guardia al que pregunte se limitará a encogerse de hombros y decirle que los zepelines no son como los barcos, y que esa es la espera reglamentariamente establecida. La única causa justificada por la que alguien puede llegar a salir de la estancia es para ir al servicio, y lo hará siempre escoltado. No obstante, el primero de los PJs que lo haga escuchará como dos militares están discutiendo al final del pasillo (si supera un control de Advertir contra MDF, podrá incluso oír frases como “-¡No seas estúpido! No puedes echarte atrás ahora.-” antes de que estos se den necesariamente cuenta de su presencia). En cuanto a los camareros que se ocupan de la comida y la bebida, son siempre muy atentos y agradables.\n\nEn el caso de que alguien se fije especialmente en ellos, podrá darse cuenta de que, pasado un tiempo, empezarán a parecer algo nerviosos. Si les pregunta, contestarán simplemente que es la primera vez que vuelan y aún no se han acostumbrado a la sensación. Por fin a media tarde, cuatro horas y media después del inicio de la travesía, mientras el zepelín sobrevuela ya el Mar Interior, todos los acontecimientos que han estado urdiéndose darán realmente comienzo. Súbitamente, un quinto soldado irrumpe en el salón con una espada larga en la mano y una ballesta cargada en la otra, exigiendo la atención de todos los pasajeros. Los otros cuatro, que estaban esperando la señal, desenfundarán sus armas cubriendo de inmediato las salidas.\n\nEntre los gritos asustados de los presentes, el recién llegado anuncia con sarcasmo que el zepelín se encuentra bajo el control de su capitán y que todos los presentes van a ser ejecutados por traición. Y no tardará mucho en empezar a cumplir sus amenazas… Su plan es simple: cuatro de ellos esperan espada en mano en las puertas a cualquiera lo suficientemente valiente o estúpido para acercárseles, mientras que el quinto irá disparándoles con la ballesta. Este es el momento en el que los PJs tienen que verse obligados a intervenir para detener la masacre y salvarse ellos mismos. Cuando empiece la lucha, casi todos los viajeros, mujeres y niños en su mayoría, se esconderán debajo de las mesas o de los sillones rezando por sus vidas. Es altamente improbable que alguno intente intervenir, y en realidad, de muy poco serviría que lo hiciese.\n\nEn el momento en el que los militares se den cuenta de que los personajes son algo más que meros burgueses, dejarán las salidas y se concentrarán únicamente en ellos. Sólo tres del grupo son soldados con experiencia, pero están seguros de que entre todos podrán dar buena cuenta de sus rivales. En mitad del combate (aunque sólo en el caso de que dure más de cuatro asaltos, claro), el zepelín hará un brusco movimiento y empezará a descender lentamente (debido a que Raptor ha empezado a actuar). Todos los que estén de pie deberán superar un control de Acrobacias contra MED o de Agilidad con un penalizador de –2 a la característica, si no quieren caerse de bruces. Una vez que la lucha haya concluido, no hace falta tener mucha imaginación para darse cuenta que lo peor aún esta por venir, y que quedarse sin hacer nada no es la solución.\n\nTarde o temprano los otros soldados se darán cuenta del fracaso de sus compañeros y además, aunque pausadamente, es innegable que La Dama se dirige hacía el mar. El siguiente movimiento está en manos de los jugadores.\n\n##### Dama\n\n###### 11 Pasillo Izquierdo\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 38_\n\n2. p asillo De entra Da : Se trata del espacioso pasillo por el que se sube a bordo de La Dama. Las escaleras conducen hasta la puerta de embarque, la cual se encuentra ahora cerrada por dentro y por fuera. En dirección contraria se llega hasta la sala de máquinas (5), cuya puerta ha sido trabada por los renegados. La cerradura ha quedado completamente inservible, por lo que la única manera de pasar es echarla abajo (trátala como una puerta recia a efectos de resistencia). 3. s erVicioDeDamas : Un cuarto de baño para señoritas, hermosamente decorado y perfumado. Tiene un inmenso espejo de pared para retocarse. 4. s erVicioDe caballeros : Parecido al anterior, pero decorado de manera mucho más masculina. Si los personajes buscan minuciosamente (cosa que no tienen mucho tiempo para hacer), encontrarán sangre salpicada detrás del retrete.\n\nAl parecer, aquel soldado que estaba discutiendo con su compañero por aquí hace horas acabó echándose atrás… 5. s ala De máquinas , ala izquierDa : Otra inmensa estancia, aunque esta vez llena de maquinarias, engranajes y calderas. El sonido aquí es estridente, por lo que los personajes tendrán serios problemas para escucharse los unos a los otros, incluso gritando. La sala está separada en dos niveles distintos, la plataforma superior por donde se entra y la parte inferior, en la que se encuentran la gran mayoría de aparatos que hacen girar las hélices del zepelín. Aprimera vista pueden verse los cadáveres de tres de los operarios, tirados por el suelo del piso de abajo, junto a l de un militar (una inspección posterior más detallada indicará que todos han muerto por una herida de arma blanca).\n\nEn esta estancia hay también dos soldados (uno de ellos con experiencia), que han bloqueado la pasarela y se aseguran de que las maquinarias sigan funcionando correctamente, con la involuntaria ayuda de un cuarto operario. En el caso de que los personajes echasen la puerta abajo violentamente y necesitasen más de cuatro asaltos para hacerlo, lo más probable es que los soldados se hayan dado cuenta y estén ocultos (requieren tanto tiempo a causa del ruido ambiental). Si ocurre así, esperarán escondidos tras las máquinas del fondo de la estancia, con la ballesta lista, a que bajen por las escaleras (control Muy Difícil de Advertir o Medio de Buscar para poder verlos). Una vez que el combate haya terminado, el operario superviviente, escondido hasta entonces, se acercará a ellos con las manos extendidas pidiendo ayuda.\n\nDice llamarse Dieter Helsm y les explicará que la única manera de detener la caída del zepelín es llegar a la sala de mando, que se encuentra en la parte delantera del cuerpo central. Para cruzar hasta allí, deben usar una de las dos pasarelas de tránsito. La de esta estancia se encuentra completamente inutilizada, ya que los soldados volcaron un enorme armatoste de vapor, destrozando por completo la entrada. Por tanto, la única posibilidad que les queda es dirigirse hasta el comedor de proa y usar la que está allí. Naturalmente se negará a acompañarlos, admitiendo que está asustado y que no sabe controlar el timón del navío. Si más tarde los personajes vuelven aquí, no encontrarán aDieter, ni nadie sabrá dónde ha ido.\n\nNOTA: Una idea interesante para representar el fuerte sonido de la estancia es pedirle a los jugadores que no hablen entre ellos, y que declaren sus acciones mediante notas de papel. No obstante, ten en cuenta que hacerlo de este modo puede ralentizar considerablemente la partida, por lo que no conviene abusar de este método. 6. p asillo De las Habitaciones : Un corredor igual de amplio que el de entrada, engalanado en este caso con algunos cuadros de personalidades de Gabriel. Hay ligeras señales de lucha, pero nada de relevancia. 7. Habitaciones : Lujosos dormitorios, dignos del mejor de los hoteles. Aunque casi todas las maletas de los pasajeros están aquí, ninguna ha sido abierta todavía. Si miran en sus propios cuartos (el número debe de estar reflejado en el billete de embarque), podrán encontrar cualquier equipaje del que se hubieran desprendido al subir.\n\nNaturalmente, los personajes pueden entretenerse saqueando las pertenencias de los demás, cosa que sin duda resulta muy gratificante; entre joyas, obras de arte y otras posesiones de valor, pueden encontrar más de 1 5.000 Escudos de Oro. Por desgracia, si pierden mucho tiempo, lo más probable es que lleguen demasiado tarde, y sean por tanto incapaces de impedir que el zepelín se estrelle. 8. c omeDor : Probablemente, el comedor es la habitación más espectacular de toda el ala izquierda. Muchas de sus paredes son enormes cristaleras por las que se puede ver el exterior del zepelín (y la preocupante proximidad del agua). Repartidas por la estancia hay varias mesas y sillas preparadas para servir opíparos banquetes, mientras que en el fondo hay un descansillo elevado que sirve como pista de baile. 9.\n\nc ocina : La cocina está repleta de toda clase de alimentos exóticos, vinos caros y platos a medio hacer. Para evitar posibles problemas con el fuego, los fogones no utilizan llamas reales, sino brasas encendidas sobre una amplia superficie de metal. Todo un adelanto para la época. Si los personajes escuchan atentamente (Advertir aDIF), podrán oír algunos exiguos lloriqueos provenientes de la despensa. Allí se encuentran encerrados unos cuantos miembros del servicio (cuatro doncellas, dos cocineros y el revisor que les recibió), junto a los cadáveres de aquellos que se resistieron. Las chicas están histéricas, aunque tampoco se puede decir que los demás estén muy tranquilos.\n\nLa única información que son capaces de dar es que, mientras estaban encerrados, han escuchado cómo alguien se acercaba hasta la puerta, comenzaba a arañarla y con una voz profunda decía entre risas: “-Un acontecimiento completamente inesperado, ¿verdad, mis asustadizos niños? Veamos si es posible aprovecharlo.-”, tras lo cual se marchó sin más. 10. p lataforma De paso : Se trata de un largo puente metálico que conecta el ala izquierda de La Dama con el cuerpo central. Como medida de seguridad tiene una alta barandilla que llega hasta algo más de la cintura, pero eso no evita que los fuertes vientos y la velocidad del aparato hagan de la plataforma un sitio peligroso. Cuando se encuentren a medio camino, la puerta de enfrente se abrirá y una pequeña guarnición de soldados empezará a avanzar hacia los PJs.\n\nSe trata de un grupo que Sadler a afianzar posiciones, después de creer seguro el cuerpo central. Se trata de siete militares, aunque sólo un par de ellos tienen algo de experiencia. Ante esta situación, los jugadores pueden optar por dos cosas; retroceder hasta el comedor (8) o combatir individualmente en el puente. Si optan por esta segunda estrategia, sólo una persona podrá luchar cuerpo a cuerpo por bando, y en todos los asaltos deberá superar un control de Acrobacias contra FAC (o en su defecto, uno de Agilidad con el modificador que consideres pertinente en el caso) para no perder el equilibrio. Un resultado extremadamente malo podría incluso significar que cae al vacío. Adicionalmente, aquellos que esquiven tendrán que aplicar el penalizador de espacio reducido a su defensa, y cualquier proyectil disparado o lanzado obtiene un negativo de –60 a causa del viento. 11.\n\np asillo izquierDo : Un largo pasillo lleno de escotillas por las que se pueden ver las nubes del exterior. No tiene tantos adornos como los corredores de las alas residenciales, pero aun así esta hermosamente decorado con una larga alfombra de lino rojo. Si los personajes se fijan un poco (es decir, basta con que no pasen corriendo), descubrirán algo llamativo: los arañazos de algo similar a una afilada garra se extienden varios metros por la pared.\n\n###### 19 Sala de Máquinas Ala Central\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 39_\n\nen todos los aspectos al anterior, salvo por el hecho de que en el suelo yace, sobre un charco de sangre, el cadáver terriblemente mutilado de uno de los soldados. Es imposible precisar el arma que se ha usado para matarlo, pero las heridas parecen ser cuatro afiladas cuchillas. Naturalmente, nadie sabe saber si se trataba de uno de los militares rebeldes o no. 13. e l camarote Del capitán : Este dormitorio pertenecía al ahora difunto capitán de La Dama. Hay objetos de mucho lujo, por los que sin duda se podría obtener un buen precio en joyerías y tiendas de artesanía. Salvo eso, nada más relevante. 14. e l camarote De los oficiales : La habitación reservada a los cuatro oficiales a cargo del zepelín; el encargado de las maquinas, el de seguridad (el propio Sadler), el jefe de cocina y el ayudante del capitán. Un lugar ordinario y sin importancia. 15.\n\ne l camarote De la tripulación : Probablemente, la única estancia habitable del zepelín que no llama la atención por su lujo. Es un amplio cuarto lleno de literas, donde deberían dormir los más de sesenta tripulantes del aparato. 16. p uente De manDo : El puente es una gran habitación ligeramente ovalada, con grandes ventanales y diversos aparatos que permiten controlar el zepelín. Casi todo esta decorado con madera y grandes cortinas, lo que le da un aspecto majestuoso y solemne. Desdichadamente, cuando los personajes entren, presenciarán un espectáculo muy poco agradable. Media docena de individuos, entre los cuales hay algunos militares, yacen muertos en distintos lugares de la estancia, cada cual de modo más horrible. El cadáver del capitán de La Dama es el que más llama la atención, pues permanece aferrado al timón con una expresión de terror absoluto.\n\nSalvo si por alguna razón ya se lo han encontrado antes en otro lugar de la nave, Edmond Sadler, junto a tres de sus hombres de mayor confianza (todos luchadores expertos), estará aquí examinado los cuerpos con expresión seria. En realidad está muy sorprendido por los cadáveres, ya que ha sido Raptor quien ha matado a todos los ocupantes de la sala. Cuando les vea entrar, se encarará a ellos y exclamará con desdén: “-Así que sois vosotros los que estáis matando a los míos… Pues dejadme que os diga algo; No sé qué le habéis hecho a la sala de máquinas ni por qué queréis destruir esta aeronave, pero os aseguro que nada impedirá que me apodere de ella.-”. Acto seguido, ordenará a sus hombres que ataquen, ya que está preocupado por la caída del zepelín y no tiene demasiadas ganas de seguir hablando.\n\nSadler sabe lo que se juega y que no habrá perdón para él si es capturado, por lo que irá a por todas y luchará hasta la muerte. Si el combate finaliza favorablemente para los PJs, es posible que se sientan eufóricos y piensen que lo peor ya ha acabado (aunque, a la vista de algunos sucesos, probablemente ya hayan empezado a intuir que ocurre algo más que aún no han visto). Por desgracia, cuando intenten enderezar el timón para detener la caída del aparato, se darán cuenta de que está bloqueado, y según indican los paneles, el problema parece hallarse en la sala central de máquinas. Si quieren, pueden usar los controles para abrir el acceso hasta allí, ya que en los tableros aparece perfectamente explicado que desde aquí se controlan las entradas de toda la nave, y da la casualidad de que esa está sellada en estos momentos. 17.\n\nb oDegaDe carga : La inmensa sala central del zepelín es usada como almacén para transportar todo tipo de cargamentos. Por ello, la estancia está repleta de grandes cajas apiladas entre sí de forma laberíntica. Desgraciadamente, la proximidad al ritual está provocando una ligera distorsión de la realidad. Por tanto, es posible que los personajes más perceptivos a lo sobrenatural vean algunas cosas extrañas, como sombras deformes que aparecen o desaparecen. Si pululan por la estancia no tardarán en ver un rastro de sangre que conduce hasta una esquina. Lo que ocurre es que Raptor estaba viajando en el interior de una caja, a modo de ataúd. Esperaba permanecer en su interior más tiempo, pero al darse cuenta del asalto militar, tuvo que intervenir mucho antes para descubrir lo que pasaba.\n\nAl parecer, un grupo de tres soldados se encontraron cara a cara con él y este dio buena cuenta de ellos. Sus cadáveres, como el encontrado antes en el pasillo y los del puente, están horriblemente despedazados. Desde luego, no es un espectáculo para estómagos débiles. 18. s erVicios para oficiales y tripulación : Dos servicios comunales, uno masculino y otro femenino, que ni remotamente tienen el nivel de lujo de los lavabos del ala izquierda. No obstante, si algún personaje atiende atentamente, escuchará una especie de extraño llanto de detrás de la pared (la que da a la sala de máquinas). 19. s ala De máquinas , ala central : La sala central de máquinas es el lugar que Raptor ha elegido para llevar a cabo su ritual. La puerta de entrada es metálica y se encuentra sellada, por lo que la manera más sencilla de abrirla es usando los controles del puente de mando.\n\nVisualmente, la estancia es parecida a la del ala izquierda, aunque más espaciosa. No obstante, aquí el ruido es también mucho menor, tanto que incluso resulta extraño con semejante cantidad de engranajes en movimiento. Además, la sala entera se encuentra en penumbra, iluminada únicamente por unas cuantas velas estratégicamente situadas. En el mismo centro hay un elaborado círculo místico hecho con sangre. Cualquier personaje que logre superar un control de Ocultismo a dificultad Muy Difícil reconocerá en él los símbolos de “Miedo” y “Portal”, escritos en un antiguo dialecto de una tribu del norte que fue acusada de herejía y exterminada por la Inquisición hace más de tres siglos. Si buscan el motivo por el que el zepelín está descendiendo, descubrirán fácilmente cómo hay dos enormes barras de metal bloqueando el alerón central.\n\nCada una pesa sobre trescientos kilos, por lo que es posible que se requiera la colaboración de varios individuos para apartarlas. En el caso de que los personajes logren penetrar hasta esta sala forzando de algún modo la puerta antes de llegar al puente de mando, Raptor aún no estará en el interior (en esos momentos, habrá salido para dar buena cuenta del capitán del navío y asegurarse de extender el miedo colectivo). De todos modos, incluso si desbloquean el alerón, el zepelín seguirá cayendo a causa del timón (e igualmente cuando se marchen, Raptor regresará para volver a poner las barras). Si ya han dado buena cuenta de Sadler y han enderezado el timón, el ejecutor estará en mitad de la estancia finalizando su oscura ceremonia, así que pasa a la sección El portal oscuro.\n\nEl portal oscuro Una vez llegados a este punto los personajes se encontrarán cara a cara con Raptor, quien permanece en mitad del círculo arcano con los brazos extendidos hacia el aire y una expresión de triunfo. Salvo en el caso de que le ataquen o se dirijan directamente a él, el ejecutor los ignorará por completo, incluso si se ponen a quitar las barras que bloquean el alerón. Si ha hecho caer el dirigible es únicamente para generar una situación de histeria colectiva entre los pasajeros, mientras él canalizaba con su ritual dichas emociones negativas. Ahora que ya tiene miedo más que de sobra, le importa bien poco el destino del zepelín y sus ocupantes. Si los PJs tratasen de hablar con él o se le acercasen, Raptor se encarará a ellos y con una cínica sonrisa les dirá: “-¿No es maravilloso, niños? En sólo unos instantes ocurrirá.-”.\n\nSi por el contrario optan por atacarle directamente, como muy pronto comprobarán no son rivales para él. Sin embargo, Raptor no les matará en ningún caso; ha esperado mucho tiempo para poder traspasar la barrera y quiere tener testigos de su logro. Por esa causa sólo jugara un poco con ellos, produciéndoles heridas leves e inutilizándolos. Luchen o hablen, pasados unos instantes (entre tres o cuatro asaltos), el zepelín empezará a vibrar con fuerza. En ese momento Raptor se parará en seco y, riendo como un loco, anunciará: “-Ya es tarde. La puerta a las Tinieblas ha sido abierta.-”.\n\n##### Otros Detalles\n\n###### Ala Derecha\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 40_\n\nRaptor, el ejecutor oscuro Pero segundos después sus carcajadas se congelarán, transformando su triunfal expresión en asombro y rabia. “-¡¡No!! ¡No es posible!-”. Gritará con toda la ira de la que es capaz su sepulcral voz, mientras clava los ojos en la nada. En ese preciso momento La Dama se estrellará contra algo desconocido, y el zepelín entero se sacudirá como si fuese a partirse en dos. Durante segundos estallará un caos absoluto y los personajes saldrán volando por toda la sala en dirección a la pared contraria. Después, sólo quedara silencio y oscuridad… Pero… ¿qué ha pasado realmente? Al parecer, Raptor volvió a menospreciar el poder de la barrera levantada con las energías de Seline, y de nuevo se ha visto incapaz de traspasarla.\n\nNo obstante, los personajes, los únicos mortales de todo el zepelín con Gnosis elevado, son inevitablemente arrastrados hacia el interior de Corvinus… Otros detalles Estos son algunos de los detalles que resultan más relevantes en el trasfondo de esta parte de la aventura. l os Viajeros : Sin duda es el motivo más simple por el que un PJ puede encontrarse en el zepelín es sencillamente su intención de realizar un viaje hacia Arkángel (o cualquiera que sea el destino que el Director haya elegido). En dicho caso, el personaje no requiere mayor Introducción, basta con justificar de algún modo cómo se las ha apañado para conseguir el billete, desde la invitación de un amigo influyente hasta la mera suerte (algunos pasajes fueron sorteados por el consejo de comerciantes).\n\nOtras posibilidades interesantes son que esté allí como un miembro de la seguridad personal de alguno de los ricos burgueses (ideal para personajes mercenarios), o incluso que se haya colado como polizón y aproveche un sitio vacío para confundirse con los otros viajeros (nunca en las bodegas o en la sala de máquinas, ya que trastocaría muchos elementos de la trama). l a guarnición De s aDler : Los soldados a cargo del zepelín son poco más de una veintena de hombres, bajo el mando del capitán Edmond Sadler. El consejo de comerciantes, en su obsesión por llamar la atención de los otros principados, cometió el error de poner a una división sin relativa experiencia a cargo de La Dama.\n\nEn realidad, nunca se les pasó por la cabeza que pudiesen ser asaltados en pleno aire y se limitaron a mirar con lupa la lista de los viajeros, asegurándose de que todos fueran personas notables y de la mayor confianza. Esa es la causa de que los guardias acabasen siendo seleccionados únicamente por ser atractivos o tener un origen noble, en lugar de por su habilidad en combate (de hecho, algunos no han participado en un combate real en toda su vida y están en el ejército porque sus padres esperaban que eso hiciera de ellos verdaderos “hombres”). Tras recibir la oferta de su misterioso comprador, Sadler sólo le contó sus objetivos a aquellos que, ya sea por codicia o fidelidad hacia él, estarían dispuestos a apoyarle. Todos han aceptado deslumbrados por la idea de grandes riquezas, y son capaces de hacer lo que haga falta, incluso matar a sus propios compañeros.\n\nEn total hay veintiún soldados renegados en el zepelín (el resto han sido asesinados por sus compañeros) y, aunque sólo doce o trece de ellos tienen algo de práctica en combate, Sadler espera que sean más que suficientes para someter a los que considera un puñado de niños de papá y obesos ricachones. Durante las primeras horas de trayecto, los desertores se las han apañado para llevar a los soldados leales hasta zonas vacías del zepelín, y han dado allí buena cuenta de ellos. Lo mismo han hecho con la mayoría de encargados de mantenimiento que no fueran absolutamente necesarios. Si los personajes capturan a alguno de los soldados con vida para interrogarle sobre lo que está pasando, lo más probable es que no tenga ningún reparo en contar todo lo que sabe y los objetivos de su lider, aunque no tiene ni idea de porqué el zepelín está descendiendo.\n\na rmas a borDo : En principio no hay reglas en La Dama que impidan a los jugadores llevar armas encima, siempre y cuando tengan un aspecto estético y decorativo. En tales casos, serían consideradas un simple complemento del vestuario, como un sombrero o unas bonitas botas. Esta norma no se aplica con armas de gran tamaño o de naturaleza violenta, las cuales serán requisadas en la entrada y llevadas hasta la habitación del personaje junto a l resto de su equipaje. Por poner un ejemplo, no se permitiría llevar un martillo o un hacha de guerra encima por muy labradas u ornamentales que fueran, ya que las considerarían inapropiadas para el lugar; pero espadas bonitas, floretes o dagas no tendrían la misma restricción. Vamos, pura estética.\n\ns ugerencia para impulsar la partiDa : La lógica indica que, tras la lucha con los guardias en el salón, los jugadores tratarán de hacer algo para solucionar el incidente, ya sea impulsados por sus principios o el peligro que corren si se quedan de brazos cruzados. No obstante, también es posible que una parte de ellos requiera algún otro “incentivo”, algo más tangible que les convenza. En tal caso, lo ideal es introducir a un PNJ que les dé el empujoncito que hace falta (pero SÓLO si hace falta). Su nombre es Diego de la Roca, y se presentará como un rico comerciante de especias que no quiere acabar sus días estrellado en el mar. Es un hombre de mediana edad algo rechoncho, que viste con ropas de calidad y lleva muchas joyas encima.\n\nDiego, que viaja aArkángel para asistir a la boda de su hija, ofrecerá una sustanciosa recompensa a cualquiera que pueda acabar con los asaltantes y recuperar el control de la nave. Está dispuesto a pagarles hasta 300 Escudos de Oro por cabeza a cada uno, aunque su instinto de mercader le impulsará a regatear un poco al principio (poco de todos modos, ya que su vida es lo primero para él). s altar al mar : A la velocidad a la que se mueve el zepelín, lo más probable es que una caída sobre agua sea mortal por necesidad. De todos modos, si alguien consiguiese sobrevivir se encontraría en mitad del mar, sin muchas posibilidades de llegar a la costa.\n\ne l ala DerecHa : En el caso de que los personajes traten de visitar el ala derecha del zepelín, basta con que tengas en cuenta que es idéntica a la izquierda, salvo que allí ya no quedan aparentemente supervivientes (era donde viajaban los nobles, por lo que se requería un mayor número de soldados para subyugarla). Recuérdales, de todos modos, que no tienen mucho tiempo que perder si quieren evitar que La Dama se estrelle.\n\n###### El Miedo a lo Sobrenatural\n\n&lt;!-- tags: @personaje, @localizacion, @religion, @regla --&gt;\n\n_Página 41_\n\ne l mieDo a lo sobrenatural : Los personajes que estén dotados de habilidades sobrenaturales deben recordar que no pueden ir revelando impunemente sus poderes a los demás, o corren el peligro de ser considerados “demonios” y acabar perseguidos por la Iglesia. Si los burgueses que están en el zepelín presencian algo de carácter sobrenatural se quedarán completamente impresionados, pero como hombres prácticos que son, dado que sus vidas están en peligro, no le pondrán muchos remilgos a los medios que se empleen para salvarles (aunque algunos podrían acusarles en secreto, una vez en tierra). No obstante, este miedo también puede jugar a su favor contra los soldados de Sadler, quienes se lo pensarán dos veces antes de atacar a un adversario dotado de poderes místicos.\n\nCapitán Edmond Sadler Un noble del principado de Gabriel venido a menos, que en la actualidad se encuentra prácticamente en la ruina. Dado que siempre fue un buen duelista, sus contactos le permitieron acceder a un puesto de importancia dentro del ejército, pero allí el sueldo es insuficiente para llevar el tren de vida al que estaba acostumbrado. Corrupto y con pocos escrúpulos, tras ser destinado como jefe del cuerpo de protección de La Dama, ha decidido tomar el control del zepelín y venderlo por una desorbitada suma de dinero. Para él la traición y el asesinato son poca cosa, si puede convertirse de nuevo en un hombre rico. Apariencia: Rubio, bien parecido y de aspecto seductor, Sadler parece más un dandi que un verdadero soldado. Como todos los militares de la guarnición, lleva un flamante uniforme de gala, aunque adornado con los galones de capitán.\n\nEn combate porta dos armas, una espada larga y otra corta, ambas hermosamente labradas. Consejos de interpretación: Cada uno de tus movimientos es una pose, e incluso tu manera de expresarte lo es. Habla con rotundidad, pero deja entrever que estás más nervioso de lo que quisieras. e DmonD s aDler</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +401,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-malcolm-frost-1",
@@ -513,52 +432,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -569,9 +472,6 @@
         "initiative": {
           "base": {
             "value": 70
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -622,10 +522,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -633,10 +530,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -644,10 +538,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 4030
+              "value": 4070
             },
             "final": {
               "value": 0
@@ -655,10 +546,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -666,10 +554,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -681,221 +566,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 80
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 80
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 5
-        }
+        "value": 5
       },
       "totalArmor": {
         "at": {
@@ -926,11 +1045,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -942,14 +1057,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -963,14 +1083,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1075,15 +1192,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1095,37 +1208,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1248,9 +1381,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

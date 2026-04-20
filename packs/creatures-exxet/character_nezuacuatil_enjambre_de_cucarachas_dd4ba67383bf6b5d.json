@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 50
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": "Enjambre de cucarachas"
         },
         "size": {
-          "value": 24
+          "value": "24"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 321</p><p><strong>Entrada:</strong> Nezuacuatil</p><p><strong>Variante:</strong> Enjambre de cucarachas</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos 20</p><p><strong>Categoría:</strong> Sombra Fue: 12 Des: 7 Agi: 8 Con: 12 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 70 RM 60 RP 60 RV 70 RE 70</p><p><strong>Habilidades esenciales:</strong> Características físicas sobrehumanas, Inhumanidad, Inmune a enfermedades naturales, Vulnerable.</p><p><strong>Poderes:</strong> Visión extrasensorial, Cuerpo de enjambre (Metamorfismo básico, Movimiento sin peso), Arma natural: Aplastamiento, Beso de vida (Presa 12, Efecto: Asfixia condicionada), Daña energía.</p><p><strong>Daño:</strong> 80 Aplastamiento CON</p><p><strong>TA:</strong> Natural 4</p><p><strong>Habilidades secundarias:</strong> Advertir 170, Buscar 130, Sigilo 240, Esconderse 150, Rastrear 200</p><p><strong>Descripción breve:</strong> Los Nezuacuatils son asesinos macabros de origen desconocido, creaciones sobrenaturales cuya única motivación es alimentarse del miedo y la desesperación que producen en sus víctimas durante sus últimos momentos de vida. Su cuerpo está compuesto por una enorme masa de millones de cucarachas, capaz de adoptar una forma remotamente humanoide. Cada una de ellas es parte de la mente colectiva del monstruo, quien las controla a todas como si fueran una sola. Llegan a medir más de tres metros y pueden pesar alrededor de una tonelada. Los Nezuacuatils son criaturas excepcionalmente raras, cuyo número es muy reducido. Su hábitat más común son zonas selváticas de lugares escasamente civilizados, aunque siempre se encuentran cerca de pequeñas poblaciones entre las que escogen a sus presas. Generalmente, permanecen aletargados varios años, hasta que despiertan hambrientos y deben “comer” durante algunas semanas para reunir suficiente energía y proseguir su sueño. Mediante algunos rituales, un individuo es capaz de contactar con un Nezuacuatil y realizar un pacto de sangre con él a cambio de un sacrificio. En tales circunstancias, se convierte en un asesino implacable que acabará con la vida de aquellos que desee su patrono. m odus operandi El método de actuación más habitual de la criatura es introducirse sigilosamente en los dormitorios por la noche, y ahogar a sus víctimas empleando su beso. El Nezuacuatil confía mucho en sus elevadas habilidades de subterfugio, que le permiten pasar habitualmente desapercibido. Cuando es descubierto por más de una persona, por regla general intentará huir hasta encontrar un momento más adecuado para matar. Si se ve obligado a entablar combate, la criatura utiliza su enorme fuerza y su masa para aplastar a sus oponentes con facilidad, haciendo gala de una habilidad sorprendente. En el caso de que vea que las cosas se ponen difíciles para él, intentará apresar al miembro más débil de sus antagonistas y besarlo. Si consigue acabar con todos, siempre tratará de usar su beso sobre el último y alimentarse de él. El daño recibido representa cuántas de las cucarachas que forman su cuerpo son destruidas. El tiempo que tarda en regenerarse constituye el periodo durante el cual atrae hacia él nuevos insectos y los incorpora completamente. Por propia naturaleza, un Nezuacuatil no tiene ningún punto vulnerable. Visión extrasensorial: Aunque su conciencia es limitada, los millones de seres que forman el cuerpo del Nezuacuatil le permiten sentir todo lo que se encuentra a su alrededor sobrenaturalmente, sin aplicar penalizadores por oscuridad o ángulo de visión. En cierto modo, siempre está mirando hacia todos los lados. Lagor Nezuacuatil</p></section><details><summary>Texto extraído</summary><pre>sNivel: 5\n\nClase: Entr e mundos 20 Puntos de Vida: 960 Acumulación Categoría: Sombra Fue: 12 Des: 7 Agi: 8 Con: 12 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 70 RM 60 RP 60 RV 70 RE 70\n\nTurno: 100 Natural Habilidad de ataque: 1 60 Aplastamiento o Presa (Fue 12) Habilidad de defensa: Acumulación Daño: 80 Aplastamiento CON TA: Natural 4 Habilidades esenciales: Características físicas sobrehumanas, Inhumanidad, Inmune a enfermedades naturales, Vulnerable. Poderes: Visión extrasensorial, Cuerpo de enjambre (Metamorfismo básico, Movimiento sin peso), Arma natural: Aplastamiento, Beso de vida (Presa 12, Efecto: Asfixia condicionada), Daña energía.\n\nTamaño: 24 Grande Regeneración: 6 Tipo de mo vimiento: 8 Cansancio: 12 Habilidades Secundarias: Advertir 1 70, Buscar 1 30, Sigilo 240, Esconderse 1 50, Rastrear 200. Los Nezuacuatils son asesinos macabros de origen desconocido, creaciones sobrenaturales cuya única motivación es alimentarse del miedo y la desesperación que producen en sus víctimas durante sus últimos momentos de vida. Su cuerpo está compuesto por una enorme masa de millones de cucarachas, capaz de adoptar una forma remotamente humanoide. Cada una de ellas es parte de la mente colectiva del monstruo, quien las controla a todas como si fueran una sola. Llegan a medir más de tres metros y pueden pesar alrededor de una tonelada. Los Nezuacuatils son criaturas excepcionalmente raras, cuyo número es muy reducido.\n\nSu hábitat más común son zonas selváticas de lugares escasamente civilizados, aunque siempre se encuentran cerca de pequeñas poblaciones entre las que escogen a sus presas. Generalmente, permanecen aletargados varios años, hasta que despiertan hambrientos y deben “comer” durante algunas semanas para reunir suficiente energía y proseguir su sueño. Mediante algunos rituales, un individuo es capaz de contactar con un Nezuacuatil y realizar un pacto de sangre con él a cambio de un sacrificio. En tales circunstancias, se convierte en un asesino implacable que acabará con la vida de aquellos que desee su patrono. m odus operandi El método de actuación más habitual de la criatura es introducirse sigilosamente en los dormitorios por la noche, y ahogar a sus víctimas empleando su beso.\n\nEl Nezuacuatil confía mucho en sus elevadas habilidades de subterfugio, que le permiten pasar habitualmente desapercibido. Cuando es descubierto por más de una persona, por regla general intentará huir hasta encontrar un momento más adecuado para matar. Si se ve obligado a entablar combate, la criatura utiliza su enorme fuerza y su masa para aplastar a sus oponentes con facilidad, haciendo gala de una habilidad sorprendente. En el caso de que vea que las cosas se ponen difíciles para él, intentará apresar al miembro más débil de sus antagonistas y besarlo. Si consigue acabar con todos, siempre tratará de usar su beso sobre el último y alimentarse de él. El daño recibido representa cuántas de las cucarachas que forman su cuerpo son destruidas. El tiempo que tarda en regenerarse constituye el periodo durante el cual atrae hacia él nuevos insectos y los incorpora completamente.\n\nPor propia naturaleza, un Nezuacuatil no tiene ningún punto vulnerable. Visión extrasensorial: Aunque su conciencia es limitada, los millones de seres que forman el cuerpo del Nezuacuatil le permiten sentir todo lo que se encuentra a su alrededor sobrenaturalmente, sin aplicar penalizadores por oscuridad o ángulo de visión. En cierto modo, siempre está mirando hacia todos los lados. Lagor Nezuacuatil</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 321</p><p><strong>Entrada:</strong> Nezuacuatil</p><p><strong>Variante:</strong> Enjambre de cucarachas</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos 20</p><p><strong>Categoría:</strong> Sombra Fue: 12 Des: 7 Agi: 8 Con: 12 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 70 RM 60 RP 60 RV 70 RE 70</p><p><strong>Habilidades esenciales:</strong> Características físicas sobrehumanas, Inhumanidad, Inmune a enfermedades naturales, Vulnerable.</p><p><strong>Poderes:</strong> Visión extrasensorial, Cuerpo de enjambre (Metamorfismo básico, Movimiento sin peso), Arma natural: Aplastamiento, Beso de vida (Presa 12, Efecto: Asfixia condicionada), Daña energía.</p><p><strong>Daño:</strong> 80 Aplastamiento CON</p><p><strong>TA:</strong> Natural 4</p><p><strong>Habilidades secundarias:</strong> Advertir 170, Buscar 130, Sigilo 240, Esconderse 150, Rastrear 200</p><p><strong>Descripción breve:</strong> Los Nezuacuatils son asesinos macabros de origen desconocido, creaciones sobrenaturales cuya única motivación es alimentarse del miedo y la desesperación que producen en sus víctimas durante sus últimos momentos de vida. Su cuerpo está compuesto por una enorme masa de millones de cucarachas, capaz de adoptar una forma remotamente humanoide. Cada una de ellas es parte de la mente colectiva del monstruo, quien las controla a todas como si fueran una sola. Llegan a medir más de tres metros y pueden pesar alrededor de una tonelada. Los Nezuacuatils son criaturas excepcionalmente raras, cuyo número es muy reducido. Su hábitat más común son zonas selváticas de lugares escasamente civilizados, aunque siempre se encuentran cerca de pequeñas poblaciones entre las que escogen a sus presas. Generalmente, permanecen aletargados varios años, hasta que despiertan hambrientos y deben “comer” durante algunas semanas para reunir suficiente energía y proseguir su sueño. Mediante algunos rituales, un individuo es capaz de contactar con un Nezuacuatil y realizar un pacto de sangre con él a cambio de un sacrificio. En tales circunstancias, se convierte en un asesino implacable que acabará con la vida de aquellos que desee su patrono. m odus operandi El método de actuación más habitual de la criatura es introducirse sigilosamente en los dormitorios por la noche, y ahogar a sus víctimas empleando su beso. El Nezuacuatil confía mucho en sus elevadas habilidades de subterfugio, que le permiten pasar habitualmente desapercibido. Cuando es descubierto por más de una persona, por regla general intentará huir hasta encontrar un momento más adecuado para matar. Si se ve obligado a entablar combate, la criatura utiliza su enorme fuerza y su masa para aplastar a sus oponentes con facilidad, haciendo gala de una habilidad sorprendente. En el caso de que vea que las cosas se ponen difíciles para él, intentará apresar al miembro más débil de sus antagonistas y besarlo. Si consigue acabar con todos, siempre tratará de usar su beso sobre el último y alimentarse de él. El daño recibido representa cuántas de las cucarachas que forman su cuerpo son destruidas. El tiempo que tarda en regenerarse constituye el periodo durante el cual atrae hacia él nuevos insectos y los incorpora completamente. Por propia naturaleza, un Nezuacuatil no tiene ningún punto vulnerable. Visión extrasensorial: Aunque su conciencia es limitada, los millones de seres que forman el cuerpo del Nezuacuatil le permiten sentir todo lo que se encuentra a su alrededor sobrenaturalmente, sin aplicar penalizadores por oscuridad o ángulo de visión. En cierto modo, siempre está mirando hacia todos los lados. Lagor Nezuacuatil</p></section><details><summary>Texto extraído</summary><pre>sNivel: 5\n\nClase: Entr e mundos 20 Puntos de Vida: 960 Acumulación Categoría: Sombra Fue: 12 Des: 7 Agi: 8 Con: 12 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 70 RM 60 RP 60 RV 70 RE 70\n\nTurno: 100 Natural Habilidad de ataque: 1 60 Aplastamiento o Presa (Fue 12) Habilidad de defensa: Acumulación Daño: 80 Aplastamiento CON TA: Natural 4 Habilidades esenciales: Características físicas sobrehumanas, Inhumanidad, Inmune a enfermedades naturales, Vulnerable. Poderes: Visión extrasensorial, Cuerpo de enjambre (Metamorfismo básico, Movimiento sin peso), Arma natural: Aplastamiento, Beso de vida (Presa 12, Efecto: Asfixia condicionada), Daña energía.\n\nTamaño: 24 Grande Regeneración: 6 Tipo de mo vimiento: 8 Cansancio: 12 Habilidades Secundarias: Advertir 1 70, Buscar 1 30, Sigilo 240, Esconderse 1 50, Rastrear 200. Los Nezuacuatils son asesinos macabros de origen desconocido, creaciones sobrenaturales cuya única motivación es alimentarse del miedo y la desesperación que producen en sus víctimas durante sus últimos momentos de vida. Su cuerpo está compuesto por una enorme masa de millones de cucarachas, capaz de adoptar una forma remotamente humanoide. Cada una de ellas es parte de la mente colectiva del monstruo, quien las controla a todas como si fueran una sola. Llegan a medir más de tres metros y pueden pesar alrededor de una tonelada. Los Nezuacuatils son criaturas excepcionalmente raras, cuyo número es muy reducido.\n\nSu hábitat más común son zonas selváticas de lugares escasamente civilizados, aunque siempre se encuentran cerca de pequeñas poblaciones entre las que escogen a sus presas. Generalmente, permanecen aletargados varios años, hasta que despiertan hambrientos y deben “comer” durante algunas semanas para reunir suficiente energía y proseguir su sueño. Mediante algunos rituales, un individuo es capaz de contactar con un Nezuacuatil y realizar un pacto de sangre con él a cambio de un sacrificio. En tales circunstancias, se convierte en un asesino implacable que acabará con la vida de aquellos que desee su patrono. m odus operandi El método de actuación más habitual de la criatura es introducirse sigilosamente en los dormitorios por la noche, y ahogar a sus víctimas empleando su beso.\n\nEl Nezuacuatil confía mucho en sus elevadas habilidades de subterfugio, que le permiten pasar habitualmente desapercibido. Cuando es descubierto por más de una persona, por regla general intentará huir hasta encontrar un momento más adecuado para matar. Si se ve obligado a entablar combate, la criatura utiliza su enorme fuerza y su masa para aplastar a sus oponentes con facilidad, haciendo gala de una habilidad sorprendente. En el caso de que vea que las cosas se ponen difíciles para él, intentará apresar al miembro más débil de sus antagonistas y besarlo. Si consigue acabar con todos, siempre tratará de usar su beso sobre el último y alimentarse de él. El daño recibido representa cuántas de las cucarachas que forman su cuerpo son destruidas. El tiempo que tarda en regenerarse constituye el periodo durante el cual atrae hacia él nuevos insectos y los incorpora completamente.\n\nPor propia naturaleza, un Nezuacuatil no tiene ningún punto vulnerable. Visión extrasensorial: Aunque su conciencia es limitada, los millones de seres que forman el cuerpo del Nezuacuatil le permiten sentir todo lo que se encuentra a su alrededor sobrenaturalmente, sin aplicar penalizadores por oscuridad o ángulo de visión. En cierto modo, siempre está mirando hacia todos los lados. Lagor Nezuacuatil</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 5
-      },
       "notes": [
         {
           "_id": "note-nezuacuatil-enjambre-de-cucarach-3",
@@ -501,52 +423,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -557,9 +463,6 @@
         "initiative": {
           "base": {
             "value": 100
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +513,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -621,10 +521,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -632,10 +529,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 70030
+              "value": 70100
             },
             "final": {
               "value": 0
@@ -643,10 +537,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -654,10 +545,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -669,206 +557,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 170
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 130
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 240
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 160
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -899,11 +1036,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -915,14 +1048,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -936,14 +1074,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1048,15 +1183,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1068,37 +1199,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1221,9 +1372,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

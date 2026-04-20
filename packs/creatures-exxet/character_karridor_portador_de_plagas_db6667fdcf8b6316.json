@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,25 @@
         "openOnDoubles": {
           "value": false
         },
+        "defenseType": {
+          "value": ""
+        },
+        "inmaterial": {
+          "value": true
+        },
         "perceiveMystic": {
           "value": true
         },
         "perceivePsychic": {
           "value": true
-        },
-        "inmaterial": {
-          "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +306,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +326,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 65
         }
       },
       "aspect": {
@@ -430,7 +360,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -448,7 +378,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> ABF Complemento Web Vol. 1</p><p><strong>Página:</strong> 8</p><p><strong>Entrada:</strong> Karridor Portador de Plagas</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, no muerto 25</p><p><strong>Categoría:</strong> Guerrero Fue: 8 Des: 6 Agi: 6 Con: 10 Pod: 12 Int: 8 Vol: 10 Per: 6 RF 80 RM 85 RP 80 RV 80 RE 80</p><p><strong>Habilidades esenciales:</strong> Exención física, Características anímicas sobrehumanas, Inmunidad psicológica, Inmune a todas las enfermedades, Vulnerable (fuego, doble).</p><p><strong>Poderes:</strong> Arma natural: Toque corruptor (Daña energía), Armadura natural, Regeneración, Debilidad ante el agua sagrada, Ver lo sobrenatural, Aliento de enfermedad, Maestro de los muertos.</p><p><strong>Daño:</strong> 50 Toque corruptor</p><p><strong>TA:</strong> Huesos reforzados + Natural: Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3</p><p><strong>Habilidades secundarias:</strong> Advertir 80, Buscar 40, Venenos 120, Persuasión 30</p><p><strong>Descripción breve:</strong> Esta pesadilla no muerta es sin duda uno de las criaturas nigrománticas más peligrosas que han poblado Gaïa. Se trata de un terrible ser que lleva la corrupción y la enfermedad consigo, envileciendo todo aquellos que pisa y dejando tras de sí una legión de muertos animados. Aprimera vista parecen simples cadáveres putrefactos con la piel y el pelo de color verdoso, aunque les rodea cierta aura de poder sobrenatural que incluso los individuos sin capacidades místicas son capaces de sentir. Siempre están rodeados por una infecta nube de insectos oscuros que brota directamente de sus cuerpos. Dicho enjambre forma caras y rostros tenebrosos, como si fuera una mera extensión de su anfitrión. Aunque sus orígenes son inciertos, se dice que todos los Karridor nacieron a partir de doce hombres durante la Era del Caos. En mitad de esa época de confusión y guerra, estalló una terrible plaga parecida a la peste que arrasó una enorme zona de terreno de lo que hoy conocemos como Kashmir y Salazar. Mientras miles y miles de enfermos trataban de encontrar ayuda, los faraones que por aquel entonces dominaban el territorio ordenaron a sus ejércitos matar a todos los infectados e incinerar los pueblos con el objetivo de contener la epidemia. Los escasos supervivientes se vieron obligados a refugiarse en las montañas, hasta que uno tras otro acabaron sucumbiendo a la enfermedad. Solo doce resistieron los efectos de la plaga… aunque no como seres vivos. La enfermedad carcomió sus cuerpos y sus almas hasta matarlos, pero de algún modo, no fue el final para ellos. _Página 9_ Los portadores de plaga han obtenido su nombre de la capacidad que poseen de extender enfermedades por donde van. Normalmente pasan la mayor parte de su tiempo sumidos en largos letargos, pero al despertar comienzan su terrible sinfonía de muerte. Cuando llegan a un lugar habitado lo primero que hacen es buscar un lugar elevado y con fuerte viento para arrastrar su infeccioso aliento sobre la gente. Después, cuando la muchedumbre ya ha sido afectada, se dejan ver para extender más el miedo y regocijarse con su obra. Pero quizás la más terrible de sus capacidades consiste en el poder de hacer que sus victimas se levanten como muertos a su servicio, con los que llegan incluso a crear pequeños ejércitos que le ayudan a extender su legado. Algunas veces, pueden producir una enfermedad especial a la que llaman “Plagun Vitae” con la intención de crear a otro Karridor. En estos casos, solo pueden afectar a un solo individuo, que no siempre es capaz de aguantar el cambió y muere sin sufrir ninguna transformación. Todos los Karridor odian intensamente a todas las formas de vida y disfrutan viéndolas morir entre espasmos de sufrimiento con las enfermedades que provocan. No obstante, eso no significa en absoluto que se trate de unas criaturas necias. Saben muy bien cuando deben actuar y cuando les conviene permanecer en las tinieblas. En los últimos años, dos o tres de estas criaturas se han manifestado en lugares muy apartados entre sí. En algunos círculos se rumorea que Sol Negro ha podido tener algo con ver con ello, pero parece poco probable que la organización sea realmente la culpable. En todos los casos, la Inquisición se ha encargado de acabar con el peligro y de sus consecuencias, pero no antes de que una considerable cantidad de personas hayan muerto. En una de las ocasiones, el Portador consiguió escapar, y su paradero aún se desconoce. Modus operandi Habitualmente los Karridor no tienen que entrar nunca en combate, ya que les basta con su mera presencia para hacer huir a cualquiera. También es posible que estén rodeados de un número indeterminado de zombis, ya sea a su lado o en las cercanías de su ubicación. Para matar a sus victimas, prefieren normalmente usar su aliento, dado que es altamente improbable que ninguna de ellas constituya un verdadero peligro para el portador. No obstante, y dado que se trata de criaturas de aterradoras capacidades, cuando encuentran un desafío a su medida demuestran una habilidad increíble. Por lo general, avanzan hacia sus adversarios hasta envolverlos en su Nube de insectos para debilitarlos, tras lo cual tratan de alcanzarlos con su Toque corruptor. No tienen ningún punto vulnerable. Inmune a todas las enfermedades: Los portadores de plagas son inmunes a cualquier enfermedad natural o mística de nivel 90 o inferior. Inmunidad psicológica: Salvo odio e ira, los Karridor son inmunes a todos los estados psicológicos. Nube de insectos: El cuerpo de un portador de plagas esta poblado por un enjambre de insectos que vuela a su alrededor formando una nube infecta. La masa se extiende entre cinco y veinte metros de radio, protegiendo a su anfitrión de cualquiera que se le acerque. Si alguien se ve expuesto a sus picaduras deberá superar automáticamente una RE contra 140, o de lo contrario será infectado por una enfermedad que produce el efecto de Debilidad en un plazo de cuatro asaltos. Existen algunos métodos para evitar las picaduras. Un escudo sobrenatural serviría para mantener a los insectos apartados si se supera un control de defensa contra dificultad Absurdo, al igual que usar algún tipo de traje estanco que les impida alcanzar la piel. También es posible usar un ataque en área para abrirse hueco. En tal caso, el enjambre aguanta 1.000 puntos de daño, aunque se regenera a un ritmo de 50 por asalto gracias a los nuevos insectos que salen del cuerpo del Karridor. Los insectos solo afectan a organismos vivos, por lo que no producen consecuencias sobre criaturas inorgánicas o inmateriales. Toque corruptor: Su toque corrompe y envilece. Cualquiera que reciba un ataque con éxito de un portador de plagas debe superar una RE contra 160 o será victima de una enfermedad sobrenatural que le hará perder 10 puntos de vida por asalto (50 si tiene acumulación). Esta dolencia no es capaz de matar, pero deja a su victima con un solo punto de vida. Aliento de enfermedad: Los Karridor usan su aliento para extender enfermedades y plagas. Allí donde van dejan tras de sí una nube hedionda que emponzoña todo lo que toca como una peste. La infección es equivalente a una enfermedad sobrenatural de nivel 80, cuyos efectos pueden variar dependiendo de los objetivos del no muerto.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Entre mundos, no muerto 25 Puntos de Vida: 1.710 Acumulación Categoría: Guerrero Fue: 8 Des: 6 Agi: 6 Con: 10 Pod: 12 Int: 8 Vol: 10 Per: 6 RF 80 RM 85 RP 80 RV 80 RE 80\n\nTurno: 90 Natural Habilidad de ataque: 200 Toque corruptor Habilidad de defensa: Acumulación Daño: 50 Toque corruptor TA: Huesos reforzados + Natural: Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3 Habilidades esenciales: Exención física, Características anímicas sobrehumanas, Inmunidad psicológica, Inmune a todas las enfermedades, Vulnerable (fuego, doble). Poderes: Arma natural: Toque corruptor (Daña energía), Armadura natural, Regeneración, Debilidad ante el agua sagrada, Ver lo sobrenatural, Aliento de enfermedad, Maestro de los muertos. de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Advertir 80, Buscar 40, Venenos 120, Persuasión 30. Esta pesadilla no muerta es sin duda uno de las criaturas nigrománticas más peligrosas que han poblado Gaïa.\n\nSe trata de un terrible ser que lleva la corrupción y la enfermedad consigo, envileciendo todo aquellos que pisa y dejando tras de sí una legión de muertos animados. Aprimera vista parecen simples cadáveres putrefactos con la piel y el pelo de color verdoso, aunque les rodea cierta aura de poder sobrenatural que incluso los individuos sin capacidades místicas son capaces de sentir. Siempre están rodeados por una infecta nube de insectos oscuros que brota directamente de sus cuerpos. Dicho enjambre forma caras y rostros tenebrosos, como si fuera una mera extensión de su anfitrión. Aunque sus orígenes son inciertos, se dice que todos los Karridor nacieron a partir de doce hombres durante la Era del Caos. En mitad de esa época de confusión y guerra, estalló una terrible plaga parecida a la peste que arrasó una enorme zona de terreno de lo que hoy conocemos como Kashmir y Salazar.\n\nMientras miles y miles de enfermos trataban de encontrar ayuda, los faraones que por aquel entonces dominaban el territorio ordenaron a sus ejércitos matar a todos los infectados e incinerar los pueblos con el objetivo de contener la epidemia. Los escasos supervivientes se vieron obligados a refugiarse en las montañas, hasta que uno tras otro acabaron sucumbiendo a la enfermedad. Solo doce resistieron los efectos de la plaga… aunque no como seres vivos. La enfermedad carcomió sus cuerpos y sus almas hasta matarlos, pero de algún modo, no fue el final para ellos.\n\n&lt;!-- tags: @sistema, @organizacion, @inquisicion, @sol_negro --&gt;\n\n_Página 9_\n\nLos portadores de plaga han obtenido su nombre de la capacidad que poseen de extender enfermedades por donde van. Normalmente pasan la mayor parte de su tiempo sumidos en largos letargos, pero al despertar comienzan su terrible sinfonía de muerte. Cuando llegan a un lugar habitado lo primero que hacen es buscar un lugar elevado y con fuerte viento para arrastrar su infeccioso aliento sobre la gente. Después, cuando la muchedumbre ya ha sido afectada, se dejan ver para extender más el miedo y regocijarse con su obra. Pero quizás la más terrible de sus capacidades consiste en el poder de hacer que sus victimas se levanten como muertos a su servicio, con los que llegan incluso a crear pequeños ejércitos que le ayudan a extender su legado. Algunas veces, pueden producir una enfermedad especial a la que llaman “Plagun Vitae” con la intención de crear a otro Karridor.\n\nEn estos casos, solo pueden afectar a un solo individuo, que no siempre es capaz de aguantar el cambió y muere sin sufrir ninguna transformación. Todos los Karridor odian intensamente a todas las formas de vida y disfrutan viéndolas morir entre espasmos de sufrimiento con las enfermedades que provocan. No obstante, eso no significa en absoluto que se trate de unas criaturas necias. Saben muy bien cuando deben actuar y cuando les conviene permanecer en las tinieblas. En los últimos años, dos o tres de estas criaturas se han manifestado en lugares muy apartados entre sí. En algunos círculos se rumorea que Sol Negro ha podido tener algo con ver con ello, pero parece poco probable que la organización sea realmente la culpable.\n\nEn todos los casos, la Inquisición se ha encargado de acabar con el peligro y de sus consecuencias, pero no antes de que una considerable cantidad de personas hayan muerto. En una de las ocasiones, el Portador consiguió escapar, y su paradero aún se desconoce. Modus operandi Habitualmente los Karridor no tienen que entrar nunca en combate, ya que les basta con su mera presencia para hacer huir a cualquiera. También es posible que estén rodeados de un número indeterminado de zombis, ya sea a su lado o en las cercanías de su ubicación. Para matar a sus victimas, prefieren normalmente usar su aliento, dado que es altamente improbable que ninguna de ellas constituya un verdadero peligro para el portador. No obstante, y dado que se trata de criaturas de aterradoras capacidades, cuando encuentran un desafío a su medida demuestran una habilidad increíble.\n\nPor lo general, avanzan hacia sus adversarios hasta envolverlos en su Nube de insectos para debilitarlos, tras lo cual tratan de alcanzarlos con su Toque corruptor. No tienen ningún punto vulnerable. Inmune a todas las enfermedades: Los portadores de plagas son inmunes a cualquier enfermedad natural o mística de nivel 90 o inferior. Inmunidad psicológica: Salvo odio e ira, los Karridor son inmunes a todos los estados psicológicos. Nube de insectos: El cuerpo de un portador de plagas esta poblado por un enjambre de insectos que vuela a su alrededor formando una nube infecta. La masa se extiende entre cinco y veinte metros de radio, protegiendo a su anfitrión de cualquiera que se le acerque.\n\nSi alguien se ve expuesto a sus picaduras deberá superar automáticamente una RE contra 1 40, o de lo contrario será infectado por una enfermedad que produce el efecto de Debilidad en un plazo de cuatro asaltos. Existen algunos métodos para evitar las picaduras. Un escudo sobrenatural serviría para mantener a los insectos apartados si se supera un control de defensa contra dificultad Absurdo, al igual que usar algún tipo de traje estanco que les impida alcanzar la piel. También es posible usar un ataque en área para abrirse hueco. En tal caso, el enjambre aguanta 1.000 puntos de daño, aunque se regenera a un ritmo de 50 por asalto gracias a los nuevos insectos que salen del cuerpo del Karridor. Los insectos solo afectan a organismos vivos, por lo que no producen consecuencias sobre criaturas inorgánicas o inmateriales. Toque corruptor: Su toque corrompe y envilece.\n\nCualquiera que reciba un ataque con éxito de un portador de plagas debe superar una RE contra 1 60 o será victima de una enfermedad sobrenatural que le hará perder 10 puntos de vida por asalto (50 si tiene acumulación). Esta dolencia no es capaz de matar, pero deja a su victima con un solo punto de vida. Aliento de enfermedad: Los Karridor usan su aliento para extender enfermedades y plagas. Allí donde van dejan tras de sí una nube hedionda que emponzoña todo lo que toca como una peste. La infección es equivalente a una enfermedad sobrenatural de nivel 80, cuyos efectos pueden variar dependiendo de los objetivos del no muerto. Regeneración: A pesar de ser criaturas no muertas, curan sus heridas a gran velocidad. Por ello, recuperan 25 PV por asalto, salvo si el daño es provocado por un arma sagrada.\n\nMaestro de los muertos: Todas las víctimas que fallezcan a causa de una enfermedad provocada por un Karridor se levantan a las pocas horas como zombis a su servicio. Plagun Vitae: Se trata de una terrible enfermedad que los Karridor utilizan para crear otro ser como ellos. Para hacerlo, buscan a una victima apropiada y la hacen comer un poco de su carne, con lo que queda inmediatamente afectada si no logra superar una RE contra 1 40. En el plazo de un par de semanas esa persona empieza a sentirse enferma y a perder peso, hasta que las funciones vitales de su cuerpo se detienen. En ese momento, debe realizar un control de RF contra 1 40. De superarlo, se habrá convertido en un portador de plagas. Si no, será afortunado y morirá. Debilidad ante el agua sagrada: El agua sagrada consume el cuerpo impuro de los portadores de plagas.\n\nSi se mojan con ella, deben superar una RF contra 1 40 o sufrirán un daño equivalente al doble de su nivel de fracaso. Vulnerabilidad: A causa de su naturaleza no muerta y los insectos que pueblan su cuerpo, el fuego les produce doble daño. Karridor, Portador de plagas\n\n&lt;!-- tags: @personaje, @magia, @invocacion, @localizacion, @regla, @conjuracion --&gt;\n\n_Página 10_\n\nHarekawa Señor de los bosques</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> ABF Complemento Web Vol. 1</p><p><strong>Página:</strong> 8</p><p><strong>Entrada:</strong> Karridor Portador de Plagas</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, no muerto 25</p><p><strong>Categoría:</strong> Guerrero Fue: 8 Des: 6 Agi: 6 Con: 10 Pod: 12 Int: 8 Vol: 10 Per: 6 RF 80 RM 85 RP 80 RV 80 RE 80</p><p><strong>Habilidades esenciales:</strong> Exención física, Características anímicas sobrehumanas, Inmunidad psicológica, Inmune a todas las enfermedades, Vulnerable (fuego, doble).</p><p><strong>Poderes:</strong> Arma natural: Toque corruptor (Daña energía), Armadura natural, Regeneración, Debilidad ante el agua sagrada, Ver lo sobrenatural, Aliento de enfermedad, Maestro de los muertos.</p><p><strong>Daño:</strong> 50 Toque corruptor</p><p><strong>TA:</strong> Huesos reforzados + Natural: Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3</p><p><strong>Habilidades secundarias:</strong> Advertir 80, Buscar 40, Venenos 120, Persuasión 30</p><p><strong>Descripción breve:</strong> Esta pesadilla no muerta es sin duda uno de las criaturas nigrománticas más peligrosas que han poblado Gaïa. Se trata de un terrible ser que lleva la corrupción y la enfermedad consigo, envileciendo todo aquellos que pisa y dejando tras de sí una legión de muertos animados. Aprimera vista parecen simples cadáveres putrefactos con la piel y el pelo de color verdoso, aunque les rodea cierta aura de poder sobrenatural que incluso los individuos sin capacidades místicas son capaces de sentir. Siempre están rodeados por una infecta nube de insectos oscuros que brota directamente de sus cuerpos. Dicho enjambre forma caras y rostros tenebrosos, como si fuera una mera extensión de su anfitrión. Aunque sus orígenes son inciertos, se dice que todos los Karridor nacieron a partir de doce hombres durante la Era del Caos. En mitad de esa época de confusión y guerra, estalló una terrible plaga parecida a la peste que arrasó una enorme zona de terreno de lo que hoy conocemos como Kashmir y Salazar. Mientras miles y miles de enfermos trataban de encontrar ayuda, los faraones que por aquel entonces dominaban el territorio ordenaron a sus ejércitos matar a todos los infectados e incinerar los pueblos con el objetivo de contener la epidemia. Los escasos supervivientes se vieron obligados a refugiarse en las montañas, hasta que uno tras otro acabaron sucumbiendo a la enfermedad. Solo doce resistieron los efectos de la plaga… aunque no como seres vivos. La enfermedad carcomió sus cuerpos y sus almas hasta matarlos, pero de algún modo, no fue el final para ellos. _Página 9_ Los portadores de plaga han obtenido su nombre de la capacidad que poseen de extender enfermedades por donde van. Normalmente pasan la mayor parte de su tiempo sumidos en largos letargos, pero al despertar comienzan su terrible sinfonía de muerte. Cuando llegan a un lugar habitado lo primero que hacen es buscar un lugar elevado y con fuerte viento para arrastrar su infeccioso aliento sobre la gente. Después, cuando la muchedumbre ya ha sido afectada, se dejan ver para extender más el miedo y regocijarse con su obra. Pero quizás la más terrible de sus capacidades consiste en el poder de hacer que sus victimas se levanten como muertos a su servicio, con los que llegan incluso a crear pequeños ejércitos que le ayudan a extender su legado. Algunas veces, pueden producir una enfermedad especial a la que llaman “Plagun Vitae” con la intención de crear a otro Karridor. En estos casos, solo pueden afectar a un solo individuo, que no siempre es capaz de aguantar el cambió y muere sin sufrir ninguna transformación. Todos los Karridor odian intensamente a todas las formas de vida y disfrutan viéndolas morir entre espasmos de sufrimiento con las enfermedades que provocan. No obstante, eso no significa en absoluto que se trate de unas criaturas necias. Saben muy bien cuando deben actuar y cuando les conviene permanecer en las tinieblas. En los últimos años, dos o tres de estas criaturas se han manifestado en lugares muy apartados entre sí. En algunos círculos se rumorea que Sol Negro ha podido tener algo con ver con ello, pero parece poco probable que la organización sea realmente la culpable. En todos los casos, la Inquisición se ha encargado de acabar con el peligro y de sus consecuencias, pero no antes de que una considerable cantidad de personas hayan muerto. En una de las ocasiones, el Portador consiguió escapar, y su paradero aún se desconoce. Modus operandi Habitualmente los Karridor no tienen que entrar nunca en combate, ya que les basta con su mera presencia para hacer huir a cualquiera. También es posible que estén rodeados de un número indeterminado de zombis, ya sea a su lado o en las cercanías de su ubicación. Para matar a sus victimas, prefieren normalmente usar su aliento, dado que es altamente improbable que ninguna de ellas constituya un verdadero peligro para el portador. No obstante, y dado que se trata de criaturas de aterradoras capacidades, cuando encuentran un desafío a su medida demuestran una habilidad increíble. Por lo general, avanzan hacia sus adversarios hasta envolverlos en su Nube de insectos para debilitarlos, tras lo cual tratan de alcanzarlos con su Toque corruptor. No tienen ningún punto vulnerable. Inmune a todas las enfermedades: Los portadores de plagas son inmunes a cualquier enfermedad natural o mística de nivel 90 o inferior. Inmunidad psicológica: Salvo odio e ira, los Karridor son inmunes a todos los estados psicológicos. Nube de insectos: El cuerpo de un portador de plagas esta poblado por un enjambre de insectos que vuela a su alrededor formando una nube infecta. La masa se extiende entre cinco y veinte metros de radio, protegiendo a su anfitrión de cualquiera que se le acerque. Si alguien se ve expuesto a sus picaduras deberá superar automáticamente una RE contra 140, o de lo contrario será infectado por una enfermedad que produce el efecto de Debilidad en un plazo de cuatro asaltos. Existen algunos métodos para evitar las picaduras. Un escudo sobrenatural serviría para mantener a los insectos apartados si se supera un control de defensa contra dificultad Absurdo, al igual que usar algún tipo de traje estanco que les impida alcanzar la piel. También es posible usar un ataque en área para abrirse hueco. En tal caso, el enjambre aguanta 1.000 puntos de daño, aunque se regenera a un ritmo de 50 por asalto gracias a los nuevos insectos que salen del cuerpo del Karridor. Los insectos solo afectan a organismos vivos, por lo que no producen consecuencias sobre criaturas inorgánicas o inmateriales. Toque corruptor: Su toque corrompe y envilece. Cualquiera que reciba un ataque con éxito de un portador de plagas debe superar una RE contra 160 o será victima de una enfermedad sobrenatural que le hará perder 10 puntos de vida por asalto (50 si tiene acumulación). Esta dolencia no es capaz de matar, pero deja a su victima con un solo punto de vida. Aliento de enfermedad: Los Karridor usan su aliento para extender enfermedades y plagas. Allí donde van dejan tras de sí una nube hedionda que emponzoña todo lo que toca como una peste. La infección es equivalente a una enfermedad sobrenatural de nivel 80, cuyos efectos pueden variar dependiendo de los objetivos del no muerto.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Entre mundos, no muerto 25 Puntos de Vida: 1.710 Acumulación Categoría: Guerrero Fue: 8 Des: 6 Agi: 6 Con: 10 Pod: 12 Int: 8 Vol: 10 Per: 6 RF 80 RM 85 RP 80 RV 80 RE 80\n\nTurno: 90 Natural Habilidad de ataque: 200 Toque corruptor Habilidad de defensa: Acumulación Daño: 50 Toque corruptor TA: Huesos reforzados + Natural: Fil 6 Con 6 Pen 6 Cal 6 Ele 6 Fri 6 Ene 3 Habilidades esenciales: Exención física, Características anímicas sobrehumanas, Inmunidad psicológica, Inmune a todas las enfermedades, Vulnerable (fuego, doble). Poderes: Arma natural: Toque corruptor (Daña energía), Armadura natural, Regeneración, Debilidad ante el agua sagrada, Ver lo sobrenatural, Aliento de enfermedad, Maestro de los muertos. de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Advertir 80, Buscar 40, Venenos 120, Persuasión 30. Esta pesadilla no muerta es sin duda uno de las criaturas nigrománticas más peligrosas que han poblado Gaïa.\n\nSe trata de un terrible ser que lleva la corrupción y la enfermedad consigo, envileciendo todo aquellos que pisa y dejando tras de sí una legión de muertos animados. Aprimera vista parecen simples cadáveres putrefactos con la piel y el pelo de color verdoso, aunque les rodea cierta aura de poder sobrenatural que incluso los individuos sin capacidades místicas son capaces de sentir. Siempre están rodeados por una infecta nube de insectos oscuros que brota directamente de sus cuerpos. Dicho enjambre forma caras y rostros tenebrosos, como si fuera una mera extensión de su anfitrión. Aunque sus orígenes son inciertos, se dice que todos los Karridor nacieron a partir de doce hombres durante la Era del Caos. En mitad de esa época de confusión y guerra, estalló una terrible plaga parecida a la peste que arrasó una enorme zona de terreno de lo que hoy conocemos como Kashmir y Salazar.\n\nMientras miles y miles de enfermos trataban de encontrar ayuda, los faraones que por aquel entonces dominaban el territorio ordenaron a sus ejércitos matar a todos los infectados e incinerar los pueblos con el objetivo de contener la epidemia. Los escasos supervivientes se vieron obligados a refugiarse en las montañas, hasta que uno tras otro acabaron sucumbiendo a la enfermedad. Solo doce resistieron los efectos de la plaga… aunque no como seres vivos. La enfermedad carcomió sus cuerpos y sus almas hasta matarlos, pero de algún modo, no fue el final para ellos.\n\n&lt;!-- tags: @sistema, @organizacion, @inquisicion, @sol_negro --&gt;\n\n_Página 9_\n\nLos portadores de plaga han obtenido su nombre de la capacidad que poseen de extender enfermedades por donde van. Normalmente pasan la mayor parte de su tiempo sumidos en largos letargos, pero al despertar comienzan su terrible sinfonía de muerte. Cuando llegan a un lugar habitado lo primero que hacen es buscar un lugar elevado y con fuerte viento para arrastrar su infeccioso aliento sobre la gente. Después, cuando la muchedumbre ya ha sido afectada, se dejan ver para extender más el miedo y regocijarse con su obra. Pero quizás la más terrible de sus capacidades consiste en el poder de hacer que sus victimas se levanten como muertos a su servicio, con los que llegan incluso a crear pequeños ejércitos que le ayudan a extender su legado. Algunas veces, pueden producir una enfermedad especial a la que llaman “Plagun Vitae” con la intención de crear a otro Karridor.\n\nEn estos casos, solo pueden afectar a un solo individuo, que no siempre es capaz de aguantar el cambió y muere sin sufrir ninguna transformación. Todos los Karridor odian intensamente a todas las formas de vida y disfrutan viéndolas morir entre espasmos de sufrimiento con las enfermedades que provocan. No obstante, eso no significa en absoluto que se trate de unas criaturas necias. Saben muy bien cuando deben actuar y cuando les conviene permanecer en las tinieblas. En los últimos años, dos o tres de estas criaturas se han manifestado en lugares muy apartados entre sí. En algunos círculos se rumorea que Sol Negro ha podido tener algo con ver con ello, pero parece poco probable que la organización sea realmente la culpable.\n\nEn todos los casos, la Inquisición se ha encargado de acabar con el peligro y de sus consecuencias, pero no antes de que una considerable cantidad de personas hayan muerto. En una de las ocasiones, el Portador consiguió escapar, y su paradero aún se desconoce. Modus operandi Habitualmente los Karridor no tienen que entrar nunca en combate, ya que les basta con su mera presencia para hacer huir a cualquiera. También es posible que estén rodeados de un número indeterminado de zombis, ya sea a su lado o en las cercanías de su ubicación. Para matar a sus victimas, prefieren normalmente usar su aliento, dado que es altamente improbable que ninguna de ellas constituya un verdadero peligro para el portador. No obstante, y dado que se trata de criaturas de aterradoras capacidades, cuando encuentran un desafío a su medida demuestran una habilidad increíble.\n\nPor lo general, avanzan hacia sus adversarios hasta envolverlos en su Nube de insectos para debilitarlos, tras lo cual tratan de alcanzarlos con su Toque corruptor. No tienen ningún punto vulnerable. Inmune a todas las enfermedades: Los portadores de plagas son inmunes a cualquier enfermedad natural o mística de nivel 90 o inferior. Inmunidad psicológica: Salvo odio e ira, los Karridor son inmunes a todos los estados psicológicos. Nube de insectos: El cuerpo de un portador de plagas esta poblado por un enjambre de insectos que vuela a su alrededor formando una nube infecta. La masa se extiende entre cinco y veinte metros de radio, protegiendo a su anfitrión de cualquiera que se le acerque.\n\nSi alguien se ve expuesto a sus picaduras deberá superar automáticamente una RE contra 1 40, o de lo contrario será infectado por una enfermedad que produce el efecto de Debilidad en un plazo de cuatro asaltos. Existen algunos métodos para evitar las picaduras. Un escudo sobrenatural serviría para mantener a los insectos apartados si se supera un control de defensa contra dificultad Absurdo, al igual que usar algún tipo de traje estanco que les impida alcanzar la piel. También es posible usar un ataque en área para abrirse hueco. En tal caso, el enjambre aguanta 1.000 puntos de daño, aunque se regenera a un ritmo de 50 por asalto gracias a los nuevos insectos que salen del cuerpo del Karridor. Los insectos solo afectan a organismos vivos, por lo que no producen consecuencias sobre criaturas inorgánicas o inmateriales. Toque corruptor: Su toque corrompe y envilece.\n\nCualquiera que reciba un ataque con éxito de un portador de plagas debe superar una RE contra 1 60 o será victima de una enfermedad sobrenatural que le hará perder 10 puntos de vida por asalto (50 si tiene acumulación). Esta dolencia no es capaz de matar, pero deja a su victima con un solo punto de vida. Aliento de enfermedad: Los Karridor usan su aliento para extender enfermedades y plagas. Allí donde van dejan tras de sí una nube hedionda que emponzoña todo lo que toca como una peste. La infección es equivalente a una enfermedad sobrenatural de nivel 80, cuyos efectos pueden variar dependiendo de los objetivos del no muerto. Regeneración: A pesar de ser criaturas no muertas, curan sus heridas a gran velocidad. Por ello, recuperan 25 PV por asalto, salvo si el daño es provocado por un arma sagrada.\n\nMaestro de los muertos: Todas las víctimas que fallezcan a causa de una enfermedad provocada por un Karridor se levantan a las pocas horas como zombis a su servicio. Plagun Vitae: Se trata de una terrible enfermedad que los Karridor utilizan para crear otro ser como ellos. Para hacerlo, buscan a una victima apropiada y la hacen comer un poco de su carne, con lo que queda inmediatamente afectada si no logra superar una RE contra 1 40. En el plazo de un par de semanas esa persona empieza a sentirse enferma y a perder peso, hasta que las funciones vitales de su cuerpo se detienen. En ese momento, debe realizar un control de RF contra 1 40. De superarlo, se habrá convertido en un portador de plagas. Si no, será afortunado y morirá. Debilidad ante el agua sagrada: El agua sagrada consume el cuerpo impuro de los portadores de plagas.\n\nSi se mojan con ella, deben superar una RF contra 1 40 o sufrirán un daño equivalente al doble de su nivel de fracaso. Vulnerabilidad: A causa de su naturaleza no muerta y los insectos que pueblan su cuerpo, el fuego les produce doble daño. Karridor, Portador de plagas\n\n&lt;!-- tags: @personaje, @magia, @invocacion, @localizacion, @regla, @conjuracion --&gt;\n\n_Página 10_\n\nHarekawa Señor de los bosques</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +410,6 @@
           }
         }
       ],
-      "level": {
-        "value": 8
-      },
       "notes": [
         {
           "_id": "note-karridor-portador-de-plagas-3",
@@ -501,52 +429,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -557,9 +469,6 @@
         "initiative": {
           "base": {
             "value": 90
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +519,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -621,10 +527,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -632,10 +535,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 8010
+              "value": 8090
             },
             "final": {
               "value": 0
@@ -643,10 +543,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -654,10 +551,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -669,203 +563,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 200
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -896,11 +1042,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -912,14 +1054,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -933,14 +1080,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1045,15 +1189,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1065,37 +1205,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1218,9 +1378,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

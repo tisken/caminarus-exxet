@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,28 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
-        "perceivePsychic": {
+        "inhuman": {
           "value": true
         },
         "inmaterial": {
           "value": true
         },
-        "inhuman": {
+        "perceiveMystic": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "perceivePsychic": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +309,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +329,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 75
         }
       },
       "aspect": {
@@ -430,7 +363,7 @@
           "value": "No muerto supremo"
         },
         "size": {
-          "value": 28
+          "value": "28"
         }
       },
       "advantages": [],
@@ -448,7 +381,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 151</p><p><strong>Entrada:</strong> Señor de los Muertos</p><p><strong>Variante:</strong> No muerto supremo</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> No muerto 30</p><p><strong>Categoría:</strong> Warlock Fue: 13 Des: 10 Agi: 9 Con: 15 Pod: 13 Int: 13 Vol: 10 Per: 8 RF 105 RM 100 RP 90 RV 105 RE 105</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Don, Inhumanidad, Exención Física, Inutilidad Oral, Inutilidad Somática.</p><p><strong>Poderes:</strong> Armas Naturales: Segadoras de Vida, Las Alas de la Muerte (Vuelo Natural 8, Aura Especial, RM 100, Dolor, Condicionado), Necrod (Armadura Física 3, Abierta, Armadura Mística 2), Marionetero de los Muertos, Ver lo Sobrenatural.</p><p><strong>Daño:</strong> 125 Segadoras de Vida (Fil)</p><p><strong>TA:</strong> Necrod Fil 3 Con 3 Pen 3 Cal 3 Fri 3 Ele 3 Ene 2</p><p><strong>Habilidades secundarias:</strong> Advertir 90, Buscar 120, Ocultismo 175, Valoración Mágica 225</p><p><strong>Descripción breve:</strong> Los Señores de los Muertos, conocidos en tiempos remotos como las “Grandes Bestias de Beleth”, son monstruosidades nigrománticas de colosal fuerza sobrenatural. Entre los ocultistas siempre se les ha considerado el más poderoso tipo de no muerto conocido, los reyes supremos de todos aquellos seres que han superado la muerte. Su nacimiento está directamente relacionado con la existencia del Libro de los Muertos, pues se cree que fueron concebidos por aquel que lo poseyera milenios antes de que acabara en manos de Sol Negro. No se sabe con seguridad cual podría ser su función en esa época (o si ni tan siquiera tenían una), si bien lo más probable es que actuaran como comandantes supremos de las huestes nigrománticas. Los cuerpos de las Bestias de Beleth son enormes monstruosidades esqueléticas dotadas de grandes alas, cuernos y una cola que le dan un aspecto demoniaco. Sus proporciones son también impresionantes; de pies a cabeza llegan a medir entre seis y siete metros de altura. También poseen una voz aterradora, pues al hablar parece que decenas de criaturas gritasen a la vez. Fríos y terroríficos, estos seres ven la existencia de la vida como una especie de aberración que debe de ser erradicada a cualquier precio. Su objetivo es extender la no muerte por el mundo entero, y no descansarán hasta que todo lo que existe se suma en el más absoluto de los silencios. Pese a esta personalidad obsesiva, son listos y pacientes a la hora de poner en marcha sus planes, pues para ello disponen de todo el tiempo que puedan necesitar. A lo largo de la historia se ha hablado de la existencia de once posibles Señores de los Muertos, si bien actualmente sólo se puede confirmar la presencia de tres de ellos en Gaïa. Uno está al servicio de Hringham El Inmortal, otro está tratando de recuperar sus mermadas fuerzas (pues casi fue destruido décadas atrás en un enfrentamiento con la Inquisición), mientras que el tercero ha levantado un pequeño ejército de muertos en los parajes más remotos del mundo.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: No muerto 30 Puntos de Vida: 300 Categoría: Warlock Fue: 13 Des: 10 Agi: 9 Con: 15 Pod: 13 Int: 13 Vol: 10 Per: 8 RF 105 RM 100 RP 90 RV 105 RE 105\n\nTurno: 95 Natural Habilidad de ataque: 240 Segadoras de Vida Habilidad de defensa: 240 Segadoras de Vida Daño: 125 Segadoras de Vida (Fil) TA: Necrod Fil 3 Con 3 Pen 3 Cal 3 Fri 3 Ele 3 Ene 2 Act: 60\n\nZeon: 800\n\nProyección mágica: 1 90 Ofensiva Nivel de magia: 90 Nigromancia Habilidades naturales: Proyección Mágica como Ataque. Habilidades esenciales: Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Don, Inhumanidad, Exención Física, Inutilidad Oral, Inutilidad Somática. Poderes: Armas Naturales: Segadoras de Vida, Las Alas de la Muerte (Vuelo Natural 8, Aura Especial, RM 100, Dolor, Condicionado), Necrod (Armadura Física 3, Abierta, Armadura Mística 2), Marionetero de los Muertos, Ver lo Sobrenatural.\n\nTamaño: 28 Enorme Regeneración: 0 Tipo de movimiento: 10 Cansancio: Incansable Habilidades Secundarias: Advertir 90, Buscar 1 20, Ocultismo 175, Valoración Mágica 225. Los Señores de los Muertos, conocidos en tiempos remotos como las “Grandes Bestias de Beleth”, son monstruosidades nigrománticas de colosal fuerza sobrenatural. Entre los ocultistas siempre se les ha considerado el más poderoso tipo de no muerto conocido, los reyes supremos de todos aquellos seres que han superado la muerte. Su nacimiento está directamente relacionado con la existencia del Libro de los Muertos, pues se cree que fueron concebidos por aquel que lo poseyera milenios antes de que acabara en manos de Sol Negro. No se sabe con seguridad cual podría ser su función en esa época (o si ni tan siquiera tenían una), si bien lo más probable es que actuaran como comandantes supremos de las huestes nigrománticas.\n\nLos cuerpos de las Bestias de Beleth son enormes monstruosidades esqueléticas dotadas de grandes alas, cuernos y una cola que le dan un aspecto demoniaco. Sus proporciones son también impresionantes; de pies a cabeza llegan a medir entre seis y siete metros de altura. También poseen una voz aterradora, pues al hablar parece que decenas de criaturas gritasen a la vez. Fríos y terroríficos, estos seres ven la existencia de la vida como una especie de aberración que debe de ser erradicada a cualquier precio. Su objetivo es extender la no muerte por el mundo entero, y no descansarán hasta que todo lo que existe se suma en el más absoluto de los silencios. Pese a esta personalidad obsesiva, son listos y pacientes a la hora de poner en marcha sus planes, pues para ello disponen de todo el tiempo que puedan necesitar.\n\nA lo largo de la historia se ha hablado de la existencia de once posibles Señores de los Muertos, si bien actualmente sólo se puede confirmar la presencia de tres de ellos en Gaïa. Uno está al servicio de Hringham El Inmortal, otro está tratando de recuperar sus mermadas fuerzas (pues casi fue destruido décadas atrás en un enfrentamiento con la Inquisición), mientras que el tercero ha levantado un pequeño ejército de muertos en los parajes más remotos del mundo. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 151</p><p><strong>Entrada:</strong> Señor de los Muertos</p><p><strong>Variante:</strong> No muerto supremo</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> No muerto 30</p><p><strong>Categoría:</strong> Warlock Fue: 13 Des: 10 Agi: 9 Con: 15 Pod: 13 Int: 13 Vol: 10 Per: 8 RF 105 RM 100 RP 90 RV 105 RE 105</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Don, Inhumanidad, Exención Física, Inutilidad Oral, Inutilidad Somática.</p><p><strong>Poderes:</strong> Armas Naturales: Segadoras de Vida, Las Alas de la Muerte (Vuelo Natural 8, Aura Especial, RM 100, Dolor, Condicionado), Necrod (Armadura Física 3, Abierta, Armadura Mística 2), Marionetero de los Muertos, Ver lo Sobrenatural.</p><p><strong>Daño:</strong> 125 Segadoras de Vida (Fil)</p><p><strong>TA:</strong> Necrod Fil 3 Con 3 Pen 3 Cal 3 Fri 3 Ele 3 Ene 2</p><p><strong>Habilidades secundarias:</strong> Advertir 90, Buscar 120, Ocultismo 175, Valoración Mágica 225</p><p><strong>Descripción breve:</strong> Los Señores de los Muertos, conocidos en tiempos remotos como las “Grandes Bestias de Beleth”, son monstruosidades nigrománticas de colosal fuerza sobrenatural. Entre los ocultistas siempre se les ha considerado el más poderoso tipo de no muerto conocido, los reyes supremos de todos aquellos seres que han superado la muerte. Su nacimiento está directamente relacionado con la existencia del Libro de los Muertos, pues se cree que fueron concebidos por aquel que lo poseyera milenios antes de que acabara en manos de Sol Negro. No se sabe con seguridad cual podría ser su función en esa época (o si ni tan siquiera tenían una), si bien lo más probable es que actuaran como comandantes supremos de las huestes nigrománticas. Los cuerpos de las Bestias de Beleth son enormes monstruosidades esqueléticas dotadas de grandes alas, cuernos y una cola que le dan un aspecto demoniaco. Sus proporciones son también impresionantes; de pies a cabeza llegan a medir entre seis y siete metros de altura. También poseen una voz aterradora, pues al hablar parece que decenas de criaturas gritasen a la vez. Fríos y terroríficos, estos seres ven la existencia de la vida como una especie de aberración que debe de ser erradicada a cualquier precio. Su objetivo es extender la no muerte por el mundo entero, y no descansarán hasta que todo lo que existe se suma en el más absoluto de los silencios. Pese a esta personalidad obsesiva, son listos y pacientes a la hora de poner en marcha sus planes, pues para ello disponen de todo el tiempo que puedan necesitar. A lo largo de la historia se ha hablado de la existencia de once posibles Señores de los Muertos, si bien actualmente sólo se puede confirmar la presencia de tres de ellos en Gaïa. Uno está al servicio de Hringham El Inmortal, otro está tratando de recuperar sus mermadas fuerzas (pues casi fue destruido décadas atrás en un enfrentamiento con la Inquisición), mientras que el tercero ha levantado un pequeño ejército de muertos en los parajes más remotos del mundo.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: No muerto 30 Puntos de Vida: 300 Categoría: Warlock Fue: 13 Des: 10 Agi: 9 Con: 15 Pod: 13 Int: 13 Vol: 10 Per: 8 RF 105 RM 100 RP 90 RV 105 RE 105\n\nTurno: 95 Natural Habilidad de ataque: 240 Segadoras de Vida Habilidad de defensa: 240 Segadoras de Vida Daño: 125 Segadoras de Vida (Fil) TA: Necrod Fil 3 Con 3 Pen 3 Cal 3 Fri 3 Ele 3 Ene 2 Act: 60\n\nZeon: 800\n\nProyección mágica: 1 90 Ofensiva Nivel de magia: 90 Nigromancia Habilidades naturales: Proyección Mágica como Ataque. Habilidades esenciales: Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Don, Inhumanidad, Exención Física, Inutilidad Oral, Inutilidad Somática. Poderes: Armas Naturales: Segadoras de Vida, Las Alas de la Muerte (Vuelo Natural 8, Aura Especial, RM 100, Dolor, Condicionado), Necrod (Armadura Física 3, Abierta, Armadura Mística 2), Marionetero de los Muertos, Ver lo Sobrenatural.\n\nTamaño: 28 Enorme Regeneración: 0 Tipo de movimiento: 10 Cansancio: Incansable Habilidades Secundarias: Advertir 90, Buscar 1 20, Ocultismo 175, Valoración Mágica 225. Los Señores de los Muertos, conocidos en tiempos remotos como las “Grandes Bestias de Beleth”, son monstruosidades nigrománticas de colosal fuerza sobrenatural. Entre los ocultistas siempre se les ha considerado el más poderoso tipo de no muerto conocido, los reyes supremos de todos aquellos seres que han superado la muerte. Su nacimiento está directamente relacionado con la existencia del Libro de los Muertos, pues se cree que fueron concebidos por aquel que lo poseyera milenios antes de que acabara en manos de Sol Negro. No se sabe con seguridad cual podría ser su función en esa época (o si ni tan siquiera tenían una), si bien lo más probable es que actuaran como comandantes supremos de las huestes nigrománticas.\n\nLos cuerpos de las Bestias de Beleth son enormes monstruosidades esqueléticas dotadas de grandes alas, cuernos y una cola que le dan un aspecto demoniaco. Sus proporciones son también impresionantes; de pies a cabeza llegan a medir entre seis y siete metros de altura. También poseen una voz aterradora, pues al hablar parece que decenas de criaturas gritasen a la vez. Fríos y terroríficos, estos seres ven la existencia de la vida como una especie de aberración que debe de ser erradicada a cualquier precio. Su objetivo es extender la no muerte por el mundo entero, y no descansarán hasta que todo lo que existe se suma en el más absoluto de los silencios. Pese a esta personalidad obsesiva, son listos y pacientes a la hora de poner en marcha sus planes, pues para ello disponen de todo el tiempo que puedan necesitar.\n\nA lo largo de la historia se ha hablado de la existencia de once posibles Señores de los Muertos, si bien actualmente sólo se puede confirmar la presencia de tres de ellos en Gaïa. Uno está al servicio de Hringham El Inmortal, otro está tratando de recuperar sus mermadas fuerzas (pues casi fue destruido décadas atrás en un enfrentamiento con la Inquisición), mientras que el tercero ha levantado un pequeño ejército de muertos en los parajes más remotos del mundo. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +413,6 @@
           }
         }
       ],
-      "level": {
-        "value": 10
-      },
       "notes": [
         {
           "_id": "note-senor-de-los-muertos-no-muerto-s-2",
@@ -507,52 +438,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -563,9 +478,6 @@
         "initiative": {
           "base": {
             "value": 95
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -616,10 +528,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 105
             },
             "final": {
               "value": 0
@@ -627,10 +536,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 105
             },
             "final": {
               "value": 0
@@ -638,10 +544,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10490
+              "value": 10595
             },
             "final": {
               "value": 0
@@ -649,10 +552,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -660,10 +560,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 90
             },
             "final": {
               "value": 0
@@ -675,206 +572,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 90
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 175
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 225
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 240
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 240
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -905,11 +1051,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -921,16 +1063,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 800,
         "max": 800
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -942,14 +1089,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1054,15 +1198,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1074,37 +1214,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1227,9 +1387,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +147,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +167,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 70
         }
       },
       "aspect": {
@@ -274,7 +201,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +219,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 52</p><p><strong>Entrada:</strong> Al-djinn</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 35</p><p><strong>Categoría:</strong> Hechicero Fue: 8 Des: 10 Agi: 8 Con: - Pod: 15 Int: 14 Vol: 11 Per: 10 RF 100 RM 100 RP 90 RV 100 RE 100</p><p><strong>Habilidades esenciales:</strong> Don, Características Anímicas Sobrenaturales, Inhumanidad, Exención Física, Inutilidad Somática, Inutilidad Oral.</p><p><strong>Poderes:</strong> Truncar el Destino, Mil Velos (Encarnación, Metamorfismo Avanzado), Vuelo Místico 8, Cambio Absoluto, Ojos del Destino, Espíritu Inmortal, Contenedores, Surath, Reglas.</p><p><strong>Daño:</strong> 20 Combate desarmado (Con)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Persuasión 240, Advertir 140, Buscar 140, Historia 200, Memorizar 200, Ocultismo 200, Tasación 200, Valoración mágica 195, Trucos de manos 50</p><p><strong>Descripción breve:</strong> Los Al. Djinn o Grandes Genios son la jerarquía más alta de Djinn, superados únicamente por los Yaqaayes Al. Aroth, o los cuatro Grandes Señores de los Elementos. Según cuentan las leyendas, como criaturas dotadas con poderes casi divinos estos espíritus inmortales se atrevieron a alterar el curso del destino y fueron castigados por los Kalih. A causa de su osadía acabaron encerrados y sometidos a siete reglas absolutas que nunca podrían desobedecer. Para la gente normal estas criaturas de poder absoluto no son más que un simple mito de eras antiguas, pero muchos de los viajeros que atraviesan las ardientes dunas de Kushistan y Estígia aseguran que son reales y que aún es posible encontrarse con ellos durante algunas noches sin luna. En realidad, los Al. Djinn moran normalmente en viejas ruinas del desierto o en el interior de ancestrales artefactos con la suficiente presencia como para contener su poder. Cuando se presentan en el mundo lo que manifiestan es una mera fracción de su forma real, ya que su “verdadero ser” sigue encerrado en el interior del contenedor. No tienen una forma determinada, mas por lo general son seres vagamente humanoides, repletos de espeluznantes ojos y hechos de una extraña mezcla de humo y materia espiritual. Y a que pueden adoptar la apariencia que deseen a voluntad, cuando se presentan ante los hombres adquieren formas mucho más mundanas según les sea conveniente. A causa de su inmortalidad y su inteligencia desmedida, los Al. Dijinn son unos archimagos de incomparable poder que dominan el arte de la creación y de la ilusión en un vano intento de igualar a los dioses y seguir desafiando a los Kalih. No todos son realmente malignos, pero ciertamente la gran mayoría resultan completamente amorales y no se detienen ante nada para conseguir sus objetivos. T an caprichosos como orgullosos, aquellos que siguen encerrados desean más que nada en el mundo librarse de su cautiverio encontrando su “Surath” o “llave”, un artefacto que les permitiría levantar parte de la maldición que los Kalih les impusieron. Las raras veces que lo consiguen viajan por Gaïa tratando de causar caos y alterar el rumbo de la historia; cualquier cosa que pueda representar un acto de rebelión contra sus odiados captores. Aún conservan parte de los divinos poderes que les permiten alterar el destino, pero ahora estos se encuentran mucho más limitados; solo pueden hacerlo en conformidad a las peticiones de aquellos mortales que estén en posesión del contenedor de su esencia. Ese es el origen del mito de que los genios son capaces de conceder deseos a los hombres… aunque no siempre del modo que estos querrían. m oduS oPerandiPese a sus increíbles poderes místicos y su absoluto dominio de la magia, son tantas las limitaciones que se hayan impuestas sobre los Al. Djinn que, si les es posible, suelen evitar el combate directo. Por el contrario, prefieren la manipulación y el engaño para obtener sus objetivos; disfrutan especialmente obligando a compañeros a enfrentarse los unos a los otros usando ilusiones o mentiras. Simplemente, para entidades ancestrales como ellos, la lucha directa resulta tediosa e innecesaria. En ocasiones muchos Al. Djinn usan su maestría en la magia para crear servidores que puedan combatir por ellos o ser su enlace con el mundo. Normalmente se trata de golems, que trabajan para sus señores tenebrosos con dedicación a cambio de la promesa de que si les sirven correctamente, les conferirán un alma. Si finalmente se ven obligados a luchar, los Al. Djinn aprovecharán el poder de sus servidores como arma, mientras ellos los apoyan a distancia con sus conjuros e ilusiones. Solo aquellos que hayan recuperado su Surath se involucrarán directamente en un combate, cambiando continuamente para aprovechar en todo momento los poderes de las cientos de formas que pueden adoptar. Truncar el Destino: Al igual que los Yinnum, un Al. Djinn es capaz de alterar el destino de las personas, aunque, al contrario que los genios menores, puede dirigir dichos cambios para conseguir que ocurran los sucesos que más le interesan. Cuando hace uso de esta habilidad el poder del Al. Djinn es casi ilimitado; sus deseos funcionan igual que un conjuro de Predestinación con una RM contra 160. Sin embargo, las reglas impuestas sobre los Al. Djinn limitan enormemente el alcance de este poder. Para empezar, el genio es completamente incapaz de activarlo por sí mismo, pues requiere que una persona que posea el contenedor de su esencia exprese claramente el deseo de que eso suceda. Además, no pueden afectar en lo más mínimo el destino de un individuo que posea su Surath, ni a criaturas cuyo Gnosis sea superior a 30 o mortales que posean Natura 20. Pero los “deseos” tienen un precio considerablemente elevado para aquellos que abusan de ellos. Cada vez que el Al. Djinn activa este poder para satisfacer la petición de alguien, el dueño del contenedor pierde inmediatamente 10 puntos de Presencia (aunque ello no modifica su nivel). Cuando la presencia del personaje llega hasta 0, este pierde su forma física y se convierte en un espíritu menor esclavizado por el genio. Djinn  d jinn Un Al. Djinn y varios Yinnun</p></section><details><summary>Texto extraído</summary><pre>Nivel: 9\n\nClase: Ánima 35 Puntos de Vida: 245 Categoría: Hechicero Fue: 8 Des: 10 Agi: 8 Con: - Pod: 15 Int: 14 Vol: 11 Per: 10 RF 100 RM 100 RP 90 RV 100 RE 100\n\nTurno: 1 10 Natural Habilidad de ataque: 20 Combate desarmado Habilidad de defensa: 10 Esquiva Daño: 20 Combate desarmado (Con) TA: Ninguna ACT: 120 (1 40 con su Surath)\n\nZeon: 2.000\n\nProyección mágica: 2 10 (230 con su Surath) Nivel de Vía: 90 Creación, 80 Ilusión. Habilidades esenciales: Don, Características Anímicas Sobrenaturales, Inhumanidad, Exención Física, Inutilidad Somática, Inutilidad Oral. Poderes: Truncar el Destino, Mil Velos (Encarnación, Metamorfismo Avanzado), Vuelo Místico 8, Cambio Absoluto, Ojos del Destino, Espíritu Inmortal, Contenedores, Surath, Reglas. de movimiento: 8 / 8 Cansancio: Incansable Habilidades Secundarias: Persuasión 240, Advertir 140, Buscar 140, Historia 200, Memorizar 200, Ocultismo 200, Tasación 200, Valoración mágica 1 95, Trucos de manos 50. Los Al. Djinn o Grandes Genios son la jerarquía más alta de Djinn, superados únicamente por los Yaqaayes Al. Aroth, o los cuatro Grandes Señores de los Elementos.\n\nSegún cuentan las leyendas, como criaturas dotadas con poderes casi divinos estos espíritus inmortales se atrevieron a alterar el curso del destino y fueron castigados por los Kalih. A causa de su osadía acabaron encerrados y sometidos a siete reglas absolutas que nunca podrían desobedecer. Para la gente normal estas criaturas de poder absoluto no son más que un simple mito de eras antiguas, pero muchos de los viajeros que atraviesan las ardientes dunas de Kushistan y Estígia aseguran que son reales y que aún es posible encontrarse con ellos durante algunas noches sin luna. En realidad, los Al. Djinn moran normalmente en viejas ruinas del desierto o en el interior de ancestrales artefactos con la suficiente presencia como para contener su poder.\n\nCuando se presentan en el mundo lo que manifiestan es una mera fracción de su forma real, ya que su “verdadero ser” sigue encerrado en el interior del contenedor. No tienen una forma determinada, mas por lo general son seres vagamente humanoides, repletos de espeluznantes ojos y hechos de una extraña mezcla de humo y materia espiritual. Y a que pueden adoptar la apariencia que deseen a voluntad, cuando se presentan ante los hombres adquieren formas mucho más mundanas según les sea conveniente. A causa de su inmortalidad y su inteligencia desmedida, los Al. Dijinn son unos archimagos de incomparable poder que dominan el arte de la creación y de la ilusión en un vano intento de igualar a los dioses y seguir desafiando a los Kalih. No todos son realmente malignos, pero ciertamente la gran mayoría resultan completamente amorales y no se detienen ante nada para conseguir sus objetivos.\n\nT an caprichosos como orgullosos, aquellos que siguen encerrados desean más que nada en el mundo librarse de su cautiverio encontrando su “Surath” o “llave”, un artefacto que les permitiría levantar parte de la maldición que los Kalih les impusieron. Las raras veces que lo consiguen viajan por Gaïa tratando de causar caos y alterar el rumbo de la historia; cualquier cosa que pueda representar un acto de rebelión contra sus odiados captores. Aún conservan parte de los divinos poderes que les permiten alterar el destino, pero ahora estos se encuentran mucho más limitados; solo pueden hacerlo en conformidad a las peticiones de aquellos mortales que estén en posesión del contenedor de su esencia. Ese es el origen del mito de que los genios son capaces de conceder deseos a los hombres… aunque no siempre del modo que estos querrían.\n\nm oduS oPerandiPese a sus increíbles poderes místicos y su absoluto dominio de la magia, son tantas las limitaciones que se hayan impuestas sobre los Al. Djinn que, si les es posible, suelen evitar el combate directo. Por el contrario, prefieren la manipulación y el engaño para obtener sus objetivos; disfrutan especialmente obligando a compañeros a enfrentarse los unos a los otros usando ilusiones o mentiras. Simplemente, para entidades ancestrales como ellos, la lucha directa resulta tediosa e innecesaria. En ocasiones muchos Al. Djinn usan su maestría en la magia para crear servidores que puedan combatir por ellos o ser su enlace con el mundo. Normalmente se trata de golems, que trabajan para sus señores tenebrosos con dedicación a cambio de la promesa de que si les sirven correctamente, les conferirán un alma. Si finalmente se ven obligados a luchar, los Al.\n\nDjinn aprovecharán el poder de sus servidores como arma, mientras ellos los apoyan a distancia con sus conjuros e ilusiones. Solo aquellos que hayan recuperado su Surath se involucrarán directamente en un combate, cambiando continuamente para aprovechar en todo momento los poderes de las cientos de formas que pueden adoptar. Truncar el Destino: Al igual que los Yinnum, un Al. Djinn es capaz de alterar el destino de las personas, aunque, al contrario que los genios menores, puede dirigir dichos cambios para conseguir que ocurran los sucesos que más le interesan. Cuando hace uso de esta habilidad el poder del Al. Djinn es casi ilimitado; sus deseos funcionan igual que un conjuro de Predestinación con una RM contra 1 60. Sin embargo, las reglas impuestas sobre los Al. Djinn limitan enormemente el alcance de este poder.\n\nPara empezar, el genio es completamente incapaz de activarlo por sí mismo, pues requiere que una persona que posea el contenedor de su esencia exprese claramente el deseo de que eso suceda. Además, no pueden afectar en lo más mínimo el destino de un individuo que posea su Surath, ni a criaturas cuyo Gnosis sea superior a 30 o mortales que posean Natura 20. Pero los “deseos” tienen un precio considerablemente elevado para aquellos que abusan de ellos. Cada vez que el Al. Djinn activa este poder para satisfacer la petición de alguien, el dueño del contenedor pierde inmediatamente 10 puntos de Presencia (aunque ello no modifica su nivel). Cuando la presencia del personaje llega hasta 0, este pierde su forma física y se convierte en un espíritu menor esclavizado por el genio. Djinn  d jinn (order #3443007) Un Al. Djinn y varios Yinnun (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 52</p><p><strong>Entrada:</strong> Al-djinn</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 35</p><p><strong>Categoría:</strong> Hechicero Fue: 8 Des: 10 Agi: 8 Con: - Pod: 15 Int: 14 Vol: 11 Per: 10 RF 100 RM 100 RP 90 RV 100 RE 100</p><p><strong>Habilidades esenciales:</strong> Don, Características Anímicas Sobrenaturales, Inhumanidad, Exención Física, Inutilidad Somática, Inutilidad Oral.</p><p><strong>Poderes:</strong> Truncar el Destino, Mil Velos (Encarnación, Metamorfismo Avanzado), Vuelo Místico 8, Cambio Absoluto, Ojos del Destino, Espíritu Inmortal, Contenedores, Surath, Reglas.</p><p><strong>Daño:</strong> 20 Combate desarmado (Con)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Persuasión 240, Advertir 140, Buscar 140, Historia 200, Memorizar 200, Ocultismo 200, Tasación 200, Valoración mágica 195, Trucos de manos 50</p><p><strong>Descripción breve:</strong> Los Al. Djinn o Grandes Genios son la jerarquía más alta de Djinn, superados únicamente por los Yaqaayes Al. Aroth, o los cuatro Grandes Señores de los Elementos. Según cuentan las leyendas, como criaturas dotadas con poderes casi divinos estos espíritus inmortales se atrevieron a alterar el curso del destino y fueron castigados por los Kalih. A causa de su osadía acabaron encerrados y sometidos a siete reglas absolutas que nunca podrían desobedecer. Para la gente normal estas criaturas de poder absoluto no son más que un simple mito de eras antiguas, pero muchos de los viajeros que atraviesan las ardientes dunas de Kushistan y Estígia aseguran que son reales y que aún es posible encontrarse con ellos durante algunas noches sin luna. En realidad, los Al. Djinn moran normalmente en viejas ruinas del desierto o en el interior de ancestrales artefactos con la suficiente presencia como para contener su poder. Cuando se presentan en el mundo lo que manifiestan es una mera fracción de su forma real, ya que su “verdadero ser” sigue encerrado en el interior del contenedor. No tienen una forma determinada, mas por lo general son seres vagamente humanoides, repletos de espeluznantes ojos y hechos de una extraña mezcla de humo y materia espiritual. Y a que pueden adoptar la apariencia que deseen a voluntad, cuando se presentan ante los hombres adquieren formas mucho más mundanas según les sea conveniente. A causa de su inmortalidad y su inteligencia desmedida, los Al. Dijinn son unos archimagos de incomparable poder que dominan el arte de la creación y de la ilusión en un vano intento de igualar a los dioses y seguir desafiando a los Kalih. No todos son realmente malignos, pero ciertamente la gran mayoría resultan completamente amorales y no se detienen ante nada para conseguir sus objetivos. T an caprichosos como orgullosos, aquellos que siguen encerrados desean más que nada en el mundo librarse de su cautiverio encontrando su “Surath” o “llave”, un artefacto que les permitiría levantar parte de la maldición que los Kalih les impusieron. Las raras veces que lo consiguen viajan por Gaïa tratando de causar caos y alterar el rumbo de la historia; cualquier cosa que pueda representar un acto de rebelión contra sus odiados captores. Aún conservan parte de los divinos poderes que les permiten alterar el destino, pero ahora estos se encuentran mucho más limitados; solo pueden hacerlo en conformidad a las peticiones de aquellos mortales que estén en posesión del contenedor de su esencia. Ese es el origen del mito de que los genios son capaces de conceder deseos a los hombres… aunque no siempre del modo que estos querrían. m oduS oPerandiPese a sus increíbles poderes místicos y su absoluto dominio de la magia, son tantas las limitaciones que se hayan impuestas sobre los Al. Djinn que, si les es posible, suelen evitar el combate directo. Por el contrario, prefieren la manipulación y el engaño para obtener sus objetivos; disfrutan especialmente obligando a compañeros a enfrentarse los unos a los otros usando ilusiones o mentiras. Simplemente, para entidades ancestrales como ellos, la lucha directa resulta tediosa e innecesaria. En ocasiones muchos Al. Djinn usan su maestría en la magia para crear servidores que puedan combatir por ellos o ser su enlace con el mundo. Normalmente se trata de golems, que trabajan para sus señores tenebrosos con dedicación a cambio de la promesa de que si les sirven correctamente, les conferirán un alma. Si finalmente se ven obligados a luchar, los Al. Djinn aprovecharán el poder de sus servidores como arma, mientras ellos los apoyan a distancia con sus conjuros e ilusiones. Solo aquellos que hayan recuperado su Surath se involucrarán directamente en un combate, cambiando continuamente para aprovechar en todo momento los poderes de las cientos de formas que pueden adoptar. Truncar el Destino: Al igual que los Yinnum, un Al. Djinn es capaz de alterar el destino de las personas, aunque, al contrario que los genios menores, puede dirigir dichos cambios para conseguir que ocurran los sucesos que más le interesan. Cuando hace uso de esta habilidad el poder del Al. Djinn es casi ilimitado; sus deseos funcionan igual que un conjuro de Predestinación con una RM contra 160. Sin embargo, las reglas impuestas sobre los Al. Djinn limitan enormemente el alcance de este poder. Para empezar, el genio es completamente incapaz de activarlo por sí mismo, pues requiere que una persona que posea el contenedor de su esencia exprese claramente el deseo de que eso suceda. Además, no pueden afectar en lo más mínimo el destino de un individuo que posea su Surath, ni a criaturas cuyo Gnosis sea superior a 30 o mortales que posean Natura 20. Pero los “deseos” tienen un precio considerablemente elevado para aquellos que abusan de ellos. Cada vez que el Al. Djinn activa este poder para satisfacer la petición de alguien, el dueño del contenedor pierde inmediatamente 10 puntos de Presencia (aunque ello no modifica su nivel). Cuando la presencia del personaje llega hasta 0, este pierde su forma física y se convierte en un espíritu menor esclavizado por el genio. Djinn  d jinn Un Al. Djinn y varios Yinnun</p></section><details><summary>Texto extraído</summary><pre>Nivel: 9\n\nClase: Ánima 35 Puntos de Vida: 245 Categoría: Hechicero Fue: 8 Des: 10 Agi: 8 Con: - Pod: 15 Int: 14 Vol: 11 Per: 10 RF 100 RM 100 RP 90 RV 100 RE 100\n\nTurno: 1 10 Natural Habilidad de ataque: 20 Combate desarmado Habilidad de defensa: 10 Esquiva Daño: 20 Combate desarmado (Con) TA: Ninguna ACT: 120 (1 40 con su Surath)\n\nZeon: 2.000\n\nProyección mágica: 2 10 (230 con su Surath) Nivel de Vía: 90 Creación, 80 Ilusión. Habilidades esenciales: Don, Características Anímicas Sobrenaturales, Inhumanidad, Exención Física, Inutilidad Somática, Inutilidad Oral. Poderes: Truncar el Destino, Mil Velos (Encarnación, Metamorfismo Avanzado), Vuelo Místico 8, Cambio Absoluto, Ojos del Destino, Espíritu Inmortal, Contenedores, Surath, Reglas. de movimiento: 8 / 8 Cansancio: Incansable Habilidades Secundarias: Persuasión 240, Advertir 140, Buscar 140, Historia 200, Memorizar 200, Ocultismo 200, Tasación 200, Valoración mágica 1 95, Trucos de manos 50. Los Al. Djinn o Grandes Genios son la jerarquía más alta de Djinn, superados únicamente por los Yaqaayes Al. Aroth, o los cuatro Grandes Señores de los Elementos.\n\nSegún cuentan las leyendas, como criaturas dotadas con poderes casi divinos estos espíritus inmortales se atrevieron a alterar el curso del destino y fueron castigados por los Kalih. A causa de su osadía acabaron encerrados y sometidos a siete reglas absolutas que nunca podrían desobedecer. Para la gente normal estas criaturas de poder absoluto no son más que un simple mito de eras antiguas, pero muchos de los viajeros que atraviesan las ardientes dunas de Kushistan y Estígia aseguran que son reales y que aún es posible encontrarse con ellos durante algunas noches sin luna. En realidad, los Al. Djinn moran normalmente en viejas ruinas del desierto o en el interior de ancestrales artefactos con la suficiente presencia como para contener su poder.\n\nCuando se presentan en el mundo lo que manifiestan es una mera fracción de su forma real, ya que su “verdadero ser” sigue encerrado en el interior del contenedor. No tienen una forma determinada, mas por lo general son seres vagamente humanoides, repletos de espeluznantes ojos y hechos de una extraña mezcla de humo y materia espiritual. Y a que pueden adoptar la apariencia que deseen a voluntad, cuando se presentan ante los hombres adquieren formas mucho más mundanas según les sea conveniente. A causa de su inmortalidad y su inteligencia desmedida, los Al. Dijinn son unos archimagos de incomparable poder que dominan el arte de la creación y de la ilusión en un vano intento de igualar a los dioses y seguir desafiando a los Kalih. No todos son realmente malignos, pero ciertamente la gran mayoría resultan completamente amorales y no se detienen ante nada para conseguir sus objetivos.\n\nT an caprichosos como orgullosos, aquellos que siguen encerrados desean más que nada en el mundo librarse de su cautiverio encontrando su “Surath” o “llave”, un artefacto que les permitiría levantar parte de la maldición que los Kalih les impusieron. Las raras veces que lo consiguen viajan por Gaïa tratando de causar caos y alterar el rumbo de la historia; cualquier cosa que pueda representar un acto de rebelión contra sus odiados captores. Aún conservan parte de los divinos poderes que les permiten alterar el destino, pero ahora estos se encuentran mucho más limitados; solo pueden hacerlo en conformidad a las peticiones de aquellos mortales que estén en posesión del contenedor de su esencia. Ese es el origen del mito de que los genios son capaces de conceder deseos a los hombres… aunque no siempre del modo que estos querrían.\n\nm oduS oPerandiPese a sus increíbles poderes místicos y su absoluto dominio de la magia, son tantas las limitaciones que se hayan impuestas sobre los Al. Djinn que, si les es posible, suelen evitar el combate directo. Por el contrario, prefieren la manipulación y el engaño para obtener sus objetivos; disfrutan especialmente obligando a compañeros a enfrentarse los unos a los otros usando ilusiones o mentiras. Simplemente, para entidades ancestrales como ellos, la lucha directa resulta tediosa e innecesaria. En ocasiones muchos Al. Djinn usan su maestría en la magia para crear servidores que puedan combatir por ellos o ser su enlace con el mundo. Normalmente se trata de golems, que trabajan para sus señores tenebrosos con dedicación a cambio de la promesa de que si les sirven correctamente, les conferirán un alma. Si finalmente se ven obligados a luchar, los Al.\n\nDjinn aprovecharán el poder de sus servidores como arma, mientras ellos los apoyan a distancia con sus conjuros e ilusiones. Solo aquellos que hayan recuperado su Surath se involucrarán directamente en un combate, cambiando continuamente para aprovechar en todo momento los poderes de las cientos de formas que pueden adoptar. Truncar el Destino: Al igual que los Yinnum, un Al. Djinn es capaz de alterar el destino de las personas, aunque, al contrario que los genios menores, puede dirigir dichos cambios para conseguir que ocurran los sucesos que más le interesan. Cuando hace uso de esta habilidad el poder del Al. Djinn es casi ilimitado; sus deseos funcionan igual que un conjuro de Predestinación con una RM contra 1 60. Sin embargo, las reglas impuestas sobre los Al. Djinn limitan enormemente el alcance de este poder.\n\nPara empezar, el genio es completamente incapaz de activarlo por sí mismo, pues requiere que una persona que posea el contenedor de su esencia exprese claramente el deseo de que eso suceda. Además, no pueden afectar en lo más mínimo el destino de un individuo que posea su Surath, ni a criaturas cuyo Gnosis sea superior a 30 o mortales que posean Natura 20. Pero los “deseos” tienen un precio considerablemente elevado para aquellos que abusan de ellos. Cada vez que el Al. Djinn activa este poder para satisfacer la petición de alguien, el dueño del contenedor pierde inmediatamente 10 puntos de Presencia (aunque ello no modifica su nivel). Cuando la presencia del personaje llega hasta 0, este pierde su forma física y se convierte en un espíritu menor esclavizado por el genio. Djinn  d jinn (order #3443007) Un Al. Djinn y varios Yinnun (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +251,6 @@
           }
         }
       ],
-      "level": {
-        "value": 9
-      },
       "notes": [
         {
           "_id": "note-al-djinn-3",
@@ -345,52 +270,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 0
-          }
+          "value": 0,
+          "mod": 0
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 14
-          }
+          "value": 14,
+          "mod": 25
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         }
       },
       "secondaries": {
@@ -401,9 +310,6 @@
         "initiative": {
           "base": {
             "value": 110
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +360,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 30
+              "value": 100
             },
             "final": {
               "value": 0
@@ -465,10 +368,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 30
+              "value": 100
             },
             "final": {
               "value": 0
@@ -476,10 +376,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 100040
+              "value": 100110
             },
             "final": {
               "value": 0
@@ -487,10 +384,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -498,10 +392,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 90
             },
             "final": {
               "value": 0
@@ -513,221 +404,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 140
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 140
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 195
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 240
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 20
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 10
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -758,11 +883,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -774,16 +895,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 2000,
         "max": 2000
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -795,14 +921,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -907,15 +1030,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -927,37 +1046,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1080,9 +1219,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

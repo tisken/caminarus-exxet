@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": "Ave de la Muerte"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 35</p><p><strong>Entrada:</strong> Carroñero de Almas</p><p><strong>Variante:</strong> Ave de la Muerte</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 20</p><p><strong>Categoría:</strong> Asesino Fue: 3 Des: 5 Agi: 3 Con: - Pod: 6 Int: 5 Vol: 6 Per: 8 RF 35 RM 35 RP 35 RV 35 RE 35</p><p><strong>Poderes:</strong> Arma Natural: Garras, Lazo Mortal, Nido Oscuro, Sombra de Muerte, Influjo de Muerte, Vuelo Natural 10, Debilidad, Expulsión.</p><p><strong>Daño:</strong> 20 Garras (Fil)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 20, Buscar 50, Sigilo 20, Ocultarse 30, Rastrear 20</p><p><strong>Descripción breve:</strong> Los Carroñeros de Almas o aves de la muerte son espíritus menores que se alimentan de la fuerza residual que dejan los seres vivos en el momento en el que fallecen. Estas pequeñas entidades, invisibles al ojo humano normal, se asemejan a pájaros esqueléticos de color rosado que, igual que buitres de almas, van allá donde vaticinan una muerte inminente. Si no pueden encontrar “alimento” de manera natural, buscan a personas en las que anidar posándose de manera imperceptible en su hombro. Apartir de ese momento convierten poco a poco la vida de su huésped en un infierno susurrándole inaudibles palabras en el oído… haciendo que cada uno de sus actos le acerque a la muerte y conlleve graves consecuencias para quienes le rodean. Pronto, extraños accidentes empiezan a acontecer alrededor del afectado; es posible que se tropiece y caiga ante las ruedas de un carro o que durante un entrenamiento con la espada hiera de muerte a su mejor amigo. Esos son los instantes en los que el ave aprovecha para alimentarse de los restos del alma del difunto. Aunque son originarios de Moth, los carroñeros se han extendido como una maldición invisible por todo el mundo. Multiplicándose tras las recientes muertes que tuvieron lugar durante la ruptura del Imperio, estas aves oscuras están presentes allí donde haya muerte en abundancia. m oduS oPerandiLosCarroñeros de Almas no son guerreros; siempre que pueden se alejan del combate. Sólo luchan cuando ven su existencia en peligro o consideran que su adversario está tan cerca de la muerte que será incapaz de defenderse. Normalmente, aguardan ocultos en algún cadáver a que alguien se les acerque lo suficiente para tratar de anidar en él. A veces, un sólo carroñero es insuficiente para lograr influenciar a personas con una voluntad muy fuerte. En estos casos, es posible que varias aves traten de anidar en un mismo cuerpo, puesto que la muerte de personas así les proporciona un verdadero festín. Puesto que son espíritus, no tienen puntos vulnerables. Nido Oscuro: Los carroñeros pueden tratar de anidar en un ser vivo de dos maneras diferentes; o bien logran un ataque con éxito con sus garras espectrales (normalmente sólo intentan esto sobre personas que no son capaces de ver espíritus o que estén dormidas) o esperan en el interior del cuerpo muerto de su última víctima a que alguien toque el cadáver. En cualquiera de estos casos, el afectado ha de superar un control enfrentado de Presencia Base contra la del carroñero para evitar que este anide en él. Un carroñero no puede anidar en una persona que nunca haya matado o presenciado la muerte de alguien, ni tampoco en una mujer embarazada. Sombra de Muerte: Percibir la presencia de un Carroñero de Almas es algo excepcionalmente difícil incluso para aquellas personas que pueden ver lo sobrenatural. Mientras el ave oscura está posada en el hombro de un individuo nadie, incluyendo el huésped del carroñero, puede ver, oír o tocar al espectro, salvo cuando están al borde de la muerte (ya sea porque sus Puntos de Vida hayan descendido por debajo de cero u otra causa similar). Lo único que siente el portador del ave es algo pesado sobre sus hombros, como si llevase encima una carga imperceptible que puede ser confundida con el simple cansancio. Sin embargo, al menos en teoría existen dos maneras de ver al espíritu. Para empezar, cuando el portador arrebata una vida, el ave aparece una fracción de segundo (requiere un control de Advertir contra Absurdo). En segundo lugar, si durante las doce campanadas de la medianoche el portador se mira en un espejo, en su reflejo podrá ver la silueta del carroñero posada en su hombro. Los seres no muertos o con un Gnosis 40 o superior pueden ignorar esta regla. Influjo de Muerte: El influjo que crean los carroñeros provoca cambios en el comportamiento de las personas; primero muy leves pero se van acentuando con el tiempo. Como si se tratase de una maldición, la esencia del espectro se va extendiendo por todo el cuerpo del portador mientras el ave le susurra palabras tenebrosas en el oído. De ese modo, el carroñero trata de controlar en ciertos momentos las acciones de su huésped, haciendo que se ponga inadvertidamente en grave peligro (normalmente, causándole accidentes que él mismo ha provocado sin darse cuenta) o tenga momentáneos momentos de depresión (que, en su vertiente más grave, pueden llegar a llevarle al suicidio). También es posible que, si el huésped tiene una gran habilidad para matar, el carroñero le haga propenso a tener fuertes ataques de ira que le impulsen a agredir a otras personas. Cada vez que el ave oscura quiera dominar inadvertidamente al portador este ha de superar una RP contra 60, aunque dicha dificultad se incrementa 5 puntos por cada carroñero adicional que resida en la víctima (hasta un máximo de 140). Además de este problema, mientras una o más aves estén en contacto con el portador este pierde el doble de cansancio cuando realiza cualquier tipo de acción o invierte puntos en potenciar alguna maniobra. Lazo Mortal: El huésped de un Carroñero de Almas está ligeramente ligado con la muerte e incrementa su capacidad para matar. Sus ataques incrementan 10 puntos su daño base y obtienen un bono de +10 a cualquier crítico que produzcan siempre que tenga como objetivo matar a su adversario. Expulsión: Los carroñeros pueden ser expulsados del cuerpo en el que anidan de dos maneras diferentes. Obien son destruidos con un ataque sobrenatural apuntado por alguien que los vea (sólo son vulnerables en ese momento), o su huésped incrementa su presencia base de algún modo, lo que le daría la capacidad de realizar un nuevo control enfrentado de presencia. Vuelo: Las alas de los Carroñeros de Almas les permiten desplazarse por el aire con un Tipo de Vuelo 10. Debilidad Natural: Puestos que han sido creadas a partir de muerte, estas criaturas encuentran su némesis en la creciente vida. Son incapaces de acercarse a una mujer que se encuentre embarazada y, en caso de que haya un nacimiento en su presencia, sienten un terror natural que les hace huir espantados en pos de una nueva víctima.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1\n\nClase: Ánima 20 Puntos de Vida: 85 Categoría: Asesino Fue: 3 Des: 5 Agi: 3 Con: - Pod: 6 Int: 5 Vol: 6 Per: 8 RF 35 RM 35 RP 35 RV 35 RE 35\n\nTurno: 50 Natural Habilidad de ataque: 40 Garras Habilidad de defensa: 55 Esquiva Daño: 20 Garras (Fil) TA: Ninguna Poderes: Arma Natural: Garras, Lazo Mortal, Nido Oscuro, Sombra de Muerte, Influjo de Muerte, Vuelo Natural 10, Debilidad, Expulsión. de movimiento: 1/10 Cansancio: Incansable Habilidades Secundarias: Advertir 20, Buscar 50, Sigilo 20, Ocultarse 30, Rastrear 20. Los Carroñeros de Almas o aves de la muerte son espíritus menores que se alimentan de la fuerza residual que dejan los seres vivos en el momento en el que fallecen. Estas pequeñas entidades, invisibles al ojo humano normal, se asemejan a pájaros esqueléticos de color rosado que, igual que buitres de almas, van allá donde vaticinan una muerte inminente. Si no pueden encontrar “alimento” de manera natural, buscan a personas en las que anidar posándose de manera imperceptible en su hombro.\n\nApartir de ese momento convierten poco a poco la vida de su huésped en un infierno susurrándole inaudibles palabras en el oído… haciendo que cada uno de sus actos le acerque a la muerte y conlleve graves consecuencias para quienes le rodean. Pronto, extraños accidentes empiezan a acontecer alrededor del afectado; es posible que se tropiece y caiga ante las ruedas de un carro o que durante un entrenamiento con la espada hiera de muerte a su mejor amigo. Esos son los instantes en los que el ave aprovecha para alimentarse de los restos del alma del difunto. Aunque son originarios de Moth, los carroñeros se han extendido como una maldición invisible por todo el mundo. Multiplicándose tras las recientes muertes que tuvieron lugar durante la ruptura del Imperio, estas aves oscuras están presentes allí donde haya muerte en abundancia.\n\nm oduS oPerandiLosCarroñeros de Almas no son guerreros; siempre que pueden se alejan del combate. Sólo luchan cuando ven su existencia en peligro o consideran que su adversario está tan cerca de la muerte que será incapaz de defenderse. Normalmente, aguardan ocultos en algún cadáver a que alguien se les acerque lo suficiente para tratar de anidar en él. A veces, un sólo carroñero es insuficiente para lograr influenciar a personas con una voluntad muy fuerte. En estos casos, es posible que varias aves traten de anidar en un mismo cuerpo, puesto que la muerte de personas así les proporciona un verdadero festín. Puesto que son espíritus, no tienen puntos vulnerables.\n\nNido Oscuro: Los carroñeros pueden tratar de anidar en un ser vivo de dos maneras diferentes; o bien logran un ataque con éxito con sus garras espectrales (normalmente sólo intentan esto sobre personas que no son capaces de ver espíritus o que estén dormidas) o esperan en el interior del cuerpo muerto de su última víctima a que alguien toque el cadáver. En cualquiera de estos casos, el afectado ha de superar un control enfrentado de Presencia Base contra la del carroñero para evitar que este anide en él. Un carroñero no puede anidar en una persona que nunca haya matado o presenciado la muerte de alguien, ni tampoco en una mujer embarazada. Sombra de Muerte: Percibir la presencia de un Carroñero de Almas es algo excepcionalmente difícil incluso para aquellas personas que pueden ver lo sobrenatural.\n\nMientras el ave oscura está posada en el hombro de un individuo nadie, incluyendo el huésped del carroñero, puede ver, oír o tocar al espectro, salvo cuando están al borde de la muerte (ya sea porque sus Puntos de Vida hayan descendido por debajo de cero u otra causa similar). Lo único que siente el portador del ave es algo pesado sobre sus hombros, como si llevase encima una carga imperceptible que puede ser confundida con el simple cansancio. Sin embargo, al menos en teoría existen dos maneras de ver al espíritu. Para empezar, cuando el portador arrebata una vida, el ave aparece una fracción de segundo (requiere un control de Advertir contra Absurdo). En segundo lugar, si durante las doce campanadas de la medianoche el portador se mira en un espejo, en su reflejo podrá ver la silueta del carroñero posada en su hombro.\n\nLos seres no muertos o con un Gnosis 40 o superior pueden ignorar esta regla. Influjo de Muerte: El influjo que crean los carroñeros provoca cambios en el comportamiento de las personas; primero muy leves pero se van acentuando con el tiempo. Como si se tratase de una maldición, la esencia del espectro se va extendiendo por todo el cuerpo del portador mientras el ave le susurra palabras tenebrosas en el oído. De ese modo, el carroñero trata de controlar en ciertos momentos las acciones de su huésped, haciendo que se ponga inadvertidamente en grave peligro (normalmente, causándole accidentes que él mismo ha provocado sin darse cuenta) o tenga momentáneos momentos de depresión (que, en su vertiente más grave, pueden llegar a llevarle al suicidio).\n\nTambién es posible que, si el huésped tiene una gran habilidad para matar, el carroñero le haga propenso a tener fuertes ataques de ira que le impulsen a agredir a otras personas. Cada vez que el ave oscura quiera dominar inadvertidamente al portador este ha de superar una RP contra 60, aunque dicha dificultad se incrementa 5 puntos por cada carroñero adicional que resida en la víctima (hasta un máximo de 1 40). Además de este problema, mientras una o más aves estén en contacto con el portador este pierde el doble de cansancio cuando realiza cualquier tipo de acción o invierte puntos en potenciar alguna maniobra. Lazo Mortal: El huésped de un Carroñero de Almas está ligeramente ligado con la muerte e incrementa su capacidad para matar.\n\nSus ataques incrementan 10 puntos su daño base y obtienen un bono de +10 a cualquier crítico que produzcan siempre que tenga como objetivo matar a su adversario. Expulsión: Los carroñeros pueden ser expulsados del cuerpo en el que anidan de dos maneras diferentes. Obien son destruidos con un ataque sobrenatural apuntado por alguien que los vea (sólo son vulnerables en ese momento), o su huésped incrementa su presencia base de algún modo, lo que le daría la capacidad de realizar un nuevo control enfrentado de presencia. Vuelo: Las alas de los Carroñeros de Almas les permiten desplazarse por el aire con un Tipo de Vuelo 10. Debilidad Natural: Puestos que han sido creadas a partir de muerte, estas criaturas encuentran su némesis en la creciente vida.\n\nSon incapaces de acercarse a una mujer que se encuentre embarazada y, en caso de que haya un nacimiento en su presencia, sienten un terror natural que les hace huir espantados en pos de una nueva víctima. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 35</p><p><strong>Entrada:</strong> Carroñero de Almas</p><p><strong>Variante:</strong> Ave de la Muerte</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 20</p><p><strong>Categoría:</strong> Asesino Fue: 3 Des: 5 Agi: 3 Con: - Pod: 6 Int: 5 Vol: 6 Per: 8 RF 35 RM 35 RP 35 RV 35 RE 35</p><p><strong>Poderes:</strong> Arma Natural: Garras, Lazo Mortal, Nido Oscuro, Sombra de Muerte, Influjo de Muerte, Vuelo Natural 10, Debilidad, Expulsión.</p><p><strong>Daño:</strong> 20 Garras (Fil)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 20, Buscar 50, Sigilo 20, Ocultarse 30, Rastrear 20</p><p><strong>Descripción breve:</strong> Los Carroñeros de Almas o aves de la muerte son espíritus menores que se alimentan de la fuerza residual que dejan los seres vivos en el momento en el que fallecen. Estas pequeñas entidades, invisibles al ojo humano normal, se asemejan a pájaros esqueléticos de color rosado que, igual que buitres de almas, van allá donde vaticinan una muerte inminente. Si no pueden encontrar “alimento” de manera natural, buscan a personas en las que anidar posándose de manera imperceptible en su hombro. Apartir de ese momento convierten poco a poco la vida de su huésped en un infierno susurrándole inaudibles palabras en el oído… haciendo que cada uno de sus actos le acerque a la muerte y conlleve graves consecuencias para quienes le rodean. Pronto, extraños accidentes empiezan a acontecer alrededor del afectado; es posible que se tropiece y caiga ante las ruedas de un carro o que durante un entrenamiento con la espada hiera de muerte a su mejor amigo. Esos son los instantes en los que el ave aprovecha para alimentarse de los restos del alma del difunto. Aunque son originarios de Moth, los carroñeros se han extendido como una maldición invisible por todo el mundo. Multiplicándose tras las recientes muertes que tuvieron lugar durante la ruptura del Imperio, estas aves oscuras están presentes allí donde haya muerte en abundancia. m oduS oPerandiLosCarroñeros de Almas no son guerreros; siempre que pueden se alejan del combate. Sólo luchan cuando ven su existencia en peligro o consideran que su adversario está tan cerca de la muerte que será incapaz de defenderse. Normalmente, aguardan ocultos en algún cadáver a que alguien se les acerque lo suficiente para tratar de anidar en él. A veces, un sólo carroñero es insuficiente para lograr influenciar a personas con una voluntad muy fuerte. En estos casos, es posible que varias aves traten de anidar en un mismo cuerpo, puesto que la muerte de personas así les proporciona un verdadero festín. Puesto que son espíritus, no tienen puntos vulnerables. Nido Oscuro: Los carroñeros pueden tratar de anidar en un ser vivo de dos maneras diferentes; o bien logran un ataque con éxito con sus garras espectrales (normalmente sólo intentan esto sobre personas que no son capaces de ver espíritus o que estén dormidas) o esperan en el interior del cuerpo muerto de su última víctima a que alguien toque el cadáver. En cualquiera de estos casos, el afectado ha de superar un control enfrentado de Presencia Base contra la del carroñero para evitar que este anide en él. Un carroñero no puede anidar en una persona que nunca haya matado o presenciado la muerte de alguien, ni tampoco en una mujer embarazada. Sombra de Muerte: Percibir la presencia de un Carroñero de Almas es algo excepcionalmente difícil incluso para aquellas personas que pueden ver lo sobrenatural. Mientras el ave oscura está posada en el hombro de un individuo nadie, incluyendo el huésped del carroñero, puede ver, oír o tocar al espectro, salvo cuando están al borde de la muerte (ya sea porque sus Puntos de Vida hayan descendido por debajo de cero u otra causa similar). Lo único que siente el portador del ave es algo pesado sobre sus hombros, como si llevase encima una carga imperceptible que puede ser confundida con el simple cansancio. Sin embargo, al menos en teoría existen dos maneras de ver al espíritu. Para empezar, cuando el portador arrebata una vida, el ave aparece una fracción de segundo (requiere un control de Advertir contra Absurdo). En segundo lugar, si durante las doce campanadas de la medianoche el portador se mira en un espejo, en su reflejo podrá ver la silueta del carroñero posada en su hombro. Los seres no muertos o con un Gnosis 40 o superior pueden ignorar esta regla. Influjo de Muerte: El influjo que crean los carroñeros provoca cambios en el comportamiento de las personas; primero muy leves pero se van acentuando con el tiempo. Como si se tratase de una maldición, la esencia del espectro se va extendiendo por todo el cuerpo del portador mientras el ave le susurra palabras tenebrosas en el oído. De ese modo, el carroñero trata de controlar en ciertos momentos las acciones de su huésped, haciendo que se ponga inadvertidamente en grave peligro (normalmente, causándole accidentes que él mismo ha provocado sin darse cuenta) o tenga momentáneos momentos de depresión (que, en su vertiente más grave, pueden llegar a llevarle al suicidio). También es posible que, si el huésped tiene una gran habilidad para matar, el carroñero le haga propenso a tener fuertes ataques de ira que le impulsen a agredir a otras personas. Cada vez que el ave oscura quiera dominar inadvertidamente al portador este ha de superar una RP contra 60, aunque dicha dificultad se incrementa 5 puntos por cada carroñero adicional que resida en la víctima (hasta un máximo de 140). Además de este problema, mientras una o más aves estén en contacto con el portador este pierde el doble de cansancio cuando realiza cualquier tipo de acción o invierte puntos en potenciar alguna maniobra. Lazo Mortal: El huésped de un Carroñero de Almas está ligeramente ligado con la muerte e incrementa su capacidad para matar. Sus ataques incrementan 10 puntos su daño base y obtienen un bono de +10 a cualquier crítico que produzcan siempre que tenga como objetivo matar a su adversario. Expulsión: Los carroñeros pueden ser expulsados del cuerpo en el que anidan de dos maneras diferentes. Obien son destruidos con un ataque sobrenatural apuntado por alguien que los vea (sólo son vulnerables en ese momento), o su huésped incrementa su presencia base de algún modo, lo que le daría la capacidad de realizar un nuevo control enfrentado de presencia. Vuelo: Las alas de los Carroñeros de Almas les permiten desplazarse por el aire con un Tipo de Vuelo 10. Debilidad Natural: Puestos que han sido creadas a partir de muerte, estas criaturas encuentran su némesis en la creciente vida. Son incapaces de acercarse a una mujer que se encuentre embarazada y, en caso de que haya un nacimiento en su presencia, sienten un terror natural que les hace huir espantados en pos de una nueva víctima.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1\n\nClase: Ánima 20 Puntos de Vida: 85 Categoría: Asesino Fue: 3 Des: 5 Agi: 3 Con: - Pod: 6 Int: 5 Vol: 6 Per: 8 RF 35 RM 35 RP 35 RV 35 RE 35\n\nTurno: 50 Natural Habilidad de ataque: 40 Garras Habilidad de defensa: 55 Esquiva Daño: 20 Garras (Fil) TA: Ninguna Poderes: Arma Natural: Garras, Lazo Mortal, Nido Oscuro, Sombra de Muerte, Influjo de Muerte, Vuelo Natural 10, Debilidad, Expulsión. de movimiento: 1/10 Cansancio: Incansable Habilidades Secundarias: Advertir 20, Buscar 50, Sigilo 20, Ocultarse 30, Rastrear 20. Los Carroñeros de Almas o aves de la muerte son espíritus menores que se alimentan de la fuerza residual que dejan los seres vivos en el momento en el que fallecen. Estas pequeñas entidades, invisibles al ojo humano normal, se asemejan a pájaros esqueléticos de color rosado que, igual que buitres de almas, van allá donde vaticinan una muerte inminente. Si no pueden encontrar “alimento” de manera natural, buscan a personas en las que anidar posándose de manera imperceptible en su hombro.\n\nApartir de ese momento convierten poco a poco la vida de su huésped en un infierno susurrándole inaudibles palabras en el oído… haciendo que cada uno de sus actos le acerque a la muerte y conlleve graves consecuencias para quienes le rodean. Pronto, extraños accidentes empiezan a acontecer alrededor del afectado; es posible que se tropiece y caiga ante las ruedas de un carro o que durante un entrenamiento con la espada hiera de muerte a su mejor amigo. Esos son los instantes en los que el ave aprovecha para alimentarse de los restos del alma del difunto. Aunque son originarios de Moth, los carroñeros se han extendido como una maldición invisible por todo el mundo. Multiplicándose tras las recientes muertes que tuvieron lugar durante la ruptura del Imperio, estas aves oscuras están presentes allí donde haya muerte en abundancia.\n\nm oduS oPerandiLosCarroñeros de Almas no son guerreros; siempre que pueden se alejan del combate. Sólo luchan cuando ven su existencia en peligro o consideran que su adversario está tan cerca de la muerte que será incapaz de defenderse. Normalmente, aguardan ocultos en algún cadáver a que alguien se les acerque lo suficiente para tratar de anidar en él. A veces, un sólo carroñero es insuficiente para lograr influenciar a personas con una voluntad muy fuerte. En estos casos, es posible que varias aves traten de anidar en un mismo cuerpo, puesto que la muerte de personas así les proporciona un verdadero festín. Puesto que son espíritus, no tienen puntos vulnerables.\n\nNido Oscuro: Los carroñeros pueden tratar de anidar en un ser vivo de dos maneras diferentes; o bien logran un ataque con éxito con sus garras espectrales (normalmente sólo intentan esto sobre personas que no son capaces de ver espíritus o que estén dormidas) o esperan en el interior del cuerpo muerto de su última víctima a que alguien toque el cadáver. En cualquiera de estos casos, el afectado ha de superar un control enfrentado de Presencia Base contra la del carroñero para evitar que este anide en él. Un carroñero no puede anidar en una persona que nunca haya matado o presenciado la muerte de alguien, ni tampoco en una mujer embarazada. Sombra de Muerte: Percibir la presencia de un Carroñero de Almas es algo excepcionalmente difícil incluso para aquellas personas que pueden ver lo sobrenatural.\n\nMientras el ave oscura está posada en el hombro de un individuo nadie, incluyendo el huésped del carroñero, puede ver, oír o tocar al espectro, salvo cuando están al borde de la muerte (ya sea porque sus Puntos de Vida hayan descendido por debajo de cero u otra causa similar). Lo único que siente el portador del ave es algo pesado sobre sus hombros, como si llevase encima una carga imperceptible que puede ser confundida con el simple cansancio. Sin embargo, al menos en teoría existen dos maneras de ver al espíritu. Para empezar, cuando el portador arrebata una vida, el ave aparece una fracción de segundo (requiere un control de Advertir contra Absurdo). En segundo lugar, si durante las doce campanadas de la medianoche el portador se mira en un espejo, en su reflejo podrá ver la silueta del carroñero posada en su hombro.\n\nLos seres no muertos o con un Gnosis 40 o superior pueden ignorar esta regla. Influjo de Muerte: El influjo que crean los carroñeros provoca cambios en el comportamiento de las personas; primero muy leves pero se van acentuando con el tiempo. Como si se tratase de una maldición, la esencia del espectro se va extendiendo por todo el cuerpo del portador mientras el ave le susurra palabras tenebrosas en el oído. De ese modo, el carroñero trata de controlar en ciertos momentos las acciones de su huésped, haciendo que se ponga inadvertidamente en grave peligro (normalmente, causándole accidentes que él mismo ha provocado sin darse cuenta) o tenga momentáneos momentos de depresión (que, en su vertiente más grave, pueden llegar a llevarle al suicidio).\n\nTambién es posible que, si el huésped tiene una gran habilidad para matar, el carroñero le haga propenso a tener fuertes ataques de ira que le impulsen a agredir a otras personas. Cada vez que el ave oscura quiera dominar inadvertidamente al portador este ha de superar una RP contra 60, aunque dicha dificultad se incrementa 5 puntos por cada carroñero adicional que resida en la víctima (hasta un máximo de 1 40). Además de este problema, mientras una o más aves estén en contacto con el portador este pierde el doble de cansancio cuando realiza cualquier tipo de acción o invierte puntos en potenciar alguna maniobra. Lazo Mortal: El huésped de un Carroñero de Almas está ligeramente ligado con la muerte e incrementa su capacidad para matar.\n\nSus ataques incrementan 10 puntos su daño base y obtienen un bono de +10 a cualquier crítico que produzcan siempre que tenga como objetivo matar a su adversario. Expulsión: Los carroñeros pueden ser expulsados del cuerpo en el que anidan de dos maneras diferentes. Obien son destruidos con un ataque sobrenatural apuntado por alguien que los vea (sólo son vulnerables en ese momento), o su huésped incrementa su presencia base de algún modo, lo que le daría la capacidad de realizar un nuevo control enfrentado de presencia. Vuelo: Las alas de los Carroñeros de Almas les permiten desplazarse por el aire con un Tipo de Vuelo 10. Debilidad Natural: Puestos que han sido creadas a partir de muerte, estas criaturas encuentran su némesis en la creciente vida.\n\nSon incapaces de acercarse a una mujer que se encuentre embarazada y, en caso de que haya un nacimiento en su presencia, sienten un terror natural que les hace huir espantados en pos de una nueva víctima. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-carronero-de-almas-ave-de-la-mue-4",
@@ -339,52 +258,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 0
-          }
+          "value": 0,
+          "mod": 0
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -395,9 +298,6 @@
         "initiative": {
           "base": {
             "value": 50
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -448,10 +348,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5
+              "value": 35
             },
             "final": {
               "value": 0
@@ -459,10 +356,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5
+              "value": 35
             },
             "final": {
               "value": 0
@@ -470,10 +364,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 3520
+              "value": 3550
             },
             "final": {
               "value": 0
@@ -481,10 +372,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -492,10 +380,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -507,209 +392,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 40
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 55
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -740,11 +871,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -756,14 +883,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -777,14 +909,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -889,15 +1018,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -909,37 +1034,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1062,9 +1207,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

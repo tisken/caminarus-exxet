@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,25 @@
         "openOnDoubles": {
           "value": false
         },
+        "defenseType": {
+          "value": ""
+        },
+        "inmaterial": {
+          "value": true
+        },
         "perceiveMystic": {
           "value": true
         },
         "perceivePsychic": {
           "value": true
-        },
-        "inmaterial": {
-          "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +306,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +326,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 55
         }
       },
       "aspect": {
@@ -430,7 +360,7 @@
           "value": "De Combate de Sólomon"
         },
         "size": {
-          "value": 25
+          "value": "25"
         }
       },
       "advantages": [],
@@ -448,7 +378,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 66</p><p><strong>Entrada:</strong> Emeth</p><p><strong>Variante:</strong> De Combate de Sólomon</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos (Creación) 20</p><p><strong>Categoría:</strong> Maestro en armas Fue: 13 Des: 8 Agi: 6 Con: 14 Pod: 8 Int: 6 Vol: 8 Per: 7 RF 80 RM 65 RP 65 RV 80 RE 80</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrenaturales, Exención Física, Inmune a un Elemento (Fuego, Frío, Mitad de Daño), Cuerpos Mecánicos (Inmune al Dolor), Inmunidad Psicológica, Tamaño Innatural, Construcción Tecnomágica, Vulnerable a un Elemento (Electricidad, Doble Daño).</p><p><strong>Poderes:</strong> Armas Naturales: Puños de Adamantio (-1 a la TA Defensora), Daña Energía, Caparazón de Metal (Armadura Física 7 , Armadura Mística 3, Barrera de Daño 100), Receptores Existenciales (Visión Nocturna, Ver lo Sobrenatural), Nucleo de Energía (Punto Vulnerable), Regeneración 0.</p><p><strong>Daño:</strong> 120 Puños de Adamantio (Con)</p><p><strong>TA:</strong> Caparazón de Metal Fil 7 Con 7 Pen 7 Cal 7 Fri 7 Ele 0 Ene 3</p><p><strong>Habilidades secundarias:</strong> Advertir 50, Buscar 50, Proezas de Fuerza 80, Memorizar 200</p><p><strong>Descripción breve:</strong> En los tiempos de esplendor del Imperio de Sólomon el senado que encabezaba el emperador Andromalius inició la fabricación del que debía ser el ejército más poderoso que jamás hubiera existido sobre Gaïa. Innumerables armas tecnomágicas, animadas con los mejores adelantos científicos y sobrenaturales, fueron creadas con el fin de darles la supremacía absoluta. Fue entre todas estas obras bélicas donde surgirían los Emeth, el modelo de producción en serie de golem de guerra de Solomon. Se trataba de poderosos soldados poseedores de un descomunal potencial de combate, armas humanoides del más alto poder destructivo con los que se pretendía superar a todas las armadas del mundo. Los Emeth son enormes constructos humanoides de tres metros ochenta de altura. Son robustos, pero de aspecto muy avanzado en comparación con otras Logias Perdidas. Suelen ser de color blanco, aunque líneas de luz y runas místicas se iluminan por todo su cuerpo cuando están activos. Poseen un avanzado sistema de inteligencia artificial que les permite tomar decisiones, pero carecen completamente de personalidad. Pueden hablar de un modo muy limitado, pues nunca dicen nada más que las escasas frases con las que han sido programados. Pese a que la gran mayoría fueron completamente destruidos durante las Siete Horas de Fuego, una gran cantidad de Emeth (puede que incluso unos cuantos miles) estaban repartidos por distintas bases de Sólomon que sobrevivieron a la catástrofe. Por eso es relativamente posible encontrar algunos de estos golems de guerra en relativo buen estado en los más variopintos parajes. Lamentablemente, los Emeth funcionan gracias a la energía que les proporciona su generador principal, el cual tenía una duración media de poco más de un siglo. Eso representa que prácticamente todos los que quedan son poco más que cacharros inservibles, ya que carecen de la suficiente potencia residual para moverse. Sólo unos pocos “hibernaron” a tiempo para aprovechar mejor sus reservas, lo que les permite “levantarse” en casos de necesidad para cumplir su programa original, fuese el que fuese. m oduS oPerandiUnEmeth no es en absoluto violento por sí mismo, puesto que no es más que una marioneta mecánica que sigue su programa. Si sus órdenes le dicen que proteja algo, lo hará independientemente de quien sea su enemigo. Si le dicen que destruya, usará sus conocimientos bélicos para acabar con sus adversarios. Luchan mecánicamente, pero aún así su descomunal potencia es algo que deja siempre boquiabiertos a sus contrincantes. El único punto vulnerable de un golem de Sólomon es su Núcleo de energía. Puños de Adamantio: Las extremidades de los Emeth están reforzadas con aleaciones que potencian los impactos de sus golpes. Por ello, sus ataques reducen un punto la Armadura de sus adversarios y son capaces de dañar energía. Caparazón de Metal: Aparte del elevado Tipo de Armadura que le confiere la estructura exterior al Golem, su caparazón de metal absorbe cualquier daño físico que no sea capaz de afectar energía o no tenga un Daño Base superior a 100. Cuerpos Mecánicos: Como creaciones tecnomágicas, estos golems son del todo incapaces de sufrir dolor o menoscabo alguno a su capacidad de combate. En consecuencia, únicamente los críticos que supongan amputaciones tienen efecto real sobre ellos. Receptores Existenciales: Los Emeth están preparados para enfrentarse a prácticamente cualquier enemigo y en las condiciones más adversas. Sus avanzados receptores tecnomágicos son capaces de ver en la oscuridad (reduciendo a la mitad los negativos producidos por la falta de luz tanto natural como mágica) y perciben poderes psíquicos, magia y entes espirituales (siempre que estos últimos no tengan un Gnosis superior a 25). Inmunidad psicológica: Las mentes de los Emeth son poco más que un conjunto de órdenes y directrices básicas que siguen fielmente su programa original. En consecuencia, no pueden sufrir ninguna clase de estado psicológico o emocional. Construcción Tecnomágica: Cómo construcción tecnomágica que es, un Emeth no puede ser afectado por habilidades de convocatoria. Núcleo de Energía: Los Emeth requieren la energía de su generador para funcionar. Un ataque apuntado contra este (-60 a la Habilidad de Ataque) que produzca un Crítico superior a 50 desconecta al golem de inmediato. Naturalmente, nadie que no haya estudiado el funcionamiento interno de un Emeth es capaz de conocer la existencia o posición de dicho núcleo. Vulnerabilidad Eléctrica: Debido a su estructura mecánica, los Emeth no poseen una protección apropiada contra ataques eléctricos y su caparazón metálico los propaga con facilidad por toda su estructura, sobrecargando sus sistemas y produciéndoles doble daño. Además, los ataques eléctricos ignoran la regla Caparazón de Metal. Regeneración: Lamentablemente, como construcciones los Emeth son incapaces de regenerar los daños que hayan sufrido sus cuerpos. Únicamente un experto en ciencia y con los medios adecuados es capaz de repararlos apropiadamente. c añones l egate Si bien las habilidades de los Emeth son principalmente de combate cuerpo a cuerpo, cuando salían preparados para la guerra la mayoría estaban equipados con un arma de asalto a larga distancia llamada cañón Legate. Se trataba de artefactos tecnomágicos que disparaban ráfagas de energía y metralla a alta velocidad, con una potencia y precisión que ridiculiza a las mejores armas de pólvora. Todos los Emeth son capaces de usar un cañón Legate sin problemas (están programados para hacerlo), utilizando la misma habilidad de combate que en sus ataques físicos. Lamentablemente, el generador de energía de dichas armas tenía una duración muy limitada, e incluso sin ser usados, el paso del tiempo los ha vuelto actualmente inoperables. Un cañón Legate es equivalente a un Arma de Ataque aDistancia con un alcance máximo de 800 metros, un Daño Final de 100 (independiente de la Fuerza de su usuario), un turno de -30, y pueden disparar cinco turnos seguidos sin recalentarse. Por su enorme tamaño (son consideradas armas Enormes), sólo alguien con Fuerza 13 o superior y de tamaño Grande es capaz de levantarlas correctamente. Además, un Cañón Legate no tiene “gatillo” o un método de activación tradicional; sólo disparan si son usadas por una Marioneta de Sólomon o alguien que posea Sangre Antigua. José María Solano Albares l ogias p érDiD as Como artefactos de combate de Sólomon, los Emeth responden instintivamente a los portadores de Sangre Antigua, protegiendolos y obedeciendo sus órdenes instintívamente siempre y cuando no contradigan su programa.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entre mundos (Creación) 20 Puntos de Vida: 515 Categoría: Maestro en armas Fue: 13 Des: 8 Agi: 6 Con: 14 Pod: 8 Int: 6 Vol: 8 Per: 7 RF 80 RM 65 RP 65 RV 80 RE 80\n\nTurno: 65 Natural Habilidad de ataque: 180 Puños de Adamantio Habilidad de defensa: 1 70 Puños de Adamantio Daño: 120 Puños de Adamantio (Con) TA: Caparazón de Metal Fil 7 Con 7 Pen 7 Cal 7 Fri 7 Ele 0 Ene 3 Habilidades esenciales: Características Físicas Sobrenaturales, Exención Física, Inmune a un Elemento (Fuego, Frío, Mitad de Daño), Cuerpos Mecánicos (Inmune al Dolor), Inmunidad Psicológica, Tamaño Innatural, Construcción Tecnomágica, Vulnerable a un Elemento (Electricidad, Doble Daño). Poderes: Armas Naturales: Puños de Adamantio (-1 a la TA Defensora), Daña Energía, Caparazón de Metal (Armadura Física 7 , Armadura Mística 3, Barrera de Daño 100), Receptores Existenciales (Visión Nocturna, Ver lo Sobrenatural), Nucleo de Energía (Punto Vulnerable), Regeneración 0.\n\nTamaño: 25 Enorme Regeneración: 0 Tipo de movimiento: 7 Cansancio: Incansable Habilidades Secundarias: Advertir 50, Buscar 50, Proezas de Fuerza 80, Memorizar 200. En los tiempos de esplendor del Imperio de Sólomon el senado que encabezaba el emperador Andromalius inició la fabricación del que debía ser el ejército más poderoso que jamás hubiera existido sobre Gaïa. Innumerables armas tecnomágicas, animadas con los mejores adelantos científicos y sobrenaturales, fueron creadas con el fin de darles la supremacía absoluta. Fue entre todas estas obras bélicas donde surgirían los Emeth, el modelo de producción en serie de golem de guerra de Solomon. Se trataba de poderosos soldados poseedores de un descomunal potencial de combate, armas humanoides del más alto poder destructivo con los que se pretendía superar a todas las armadas del mundo.\n\nLos Emeth son enormes constructos humanoides de tres metros ochenta de altura. Son robustos, pero de aspecto muy avanzado en comparación con otras Logias Perdidas. Suelen ser de color blanco, aunque líneas de luz y runas místicas se iluminan por todo su cuerpo cuando están activos. Poseen un avanzado sistema de inteligencia artificial que les permite tomar decisiones, pero carecen completamente de personalidad. Pueden hablar de un modo muy limitado, pues nunca dicen nada más que las escasas frases con las que han sido programados. Pese a que la gran mayoría fueron completamente destruidos durante las Siete Horas de Fuego, una gran cantidad de Emeth (puede que incluso unos cuantos miles) estaban repartidos por distintas bases de Sólomon que sobrevivieron a la catástrofe.\n\nPor eso es relativamente posible encontrar algunos de estos golems de guerra en relativo buen estado en los más variopintos parajes. Lamentablemente, los Emeth funcionan gracias a la energía que les proporciona su generador principal, el cual tenía una duración media de poco más de un siglo. Eso representa que prácticamente todos los que quedan son poco más que cacharros inservibles, ya que carecen de la suficiente potencia residual para moverse. Sólo unos pocos “hibernaron” a tiempo para aprovechar mejor sus reservas, lo que les permite “levantarse” en casos de necesidad para cumplir su programa original, fuese el que fuese. m oduS oPerandiUnEmeth no es en absoluto violento por sí mismo, puesto que no es más que una marioneta mecánica que sigue su programa. Si sus órdenes le dicen que proteja algo, lo hará independientemente de quien sea su enemigo.\n\nSi le dicen que destruya, usará sus conocimientos bélicos para acabar con sus adversarios. Luchan mecánicamente, pero aún así su descomunal potencia es algo que deja siempre boquiabiertos a sus contrincantes. El único punto vulnerable de un golem de Sólomon es su Núcleo de energía. Puños de Adamantio: Las extremidades de los Emeth están reforzadas con aleaciones que potencian los impactos de sus golpes. Por ello, sus ataques reducen un punto la Armadura de sus adversarios y son capaces de dañar energía. Caparazón de Metal: Aparte del elevado Tipo de Armadura que le confiere la estructura exterior al Golem, su caparazón de metal absorbe cualquier daño físico que no sea capaz de afectar energía o no tenga un Daño Base superior a 100. Cuerpos Mecánicos: Como creaciones tecnomágicas, estos golems son del todo incapaces de sufrir dolor o menoscabo alguno a su capacidad de combate.\n\nEn consecuencia, únicamente los críticos que supongan amputaciones tienen efecto real sobre ellos. Receptores Existenciales: Los Emeth están preparados para enfrentarse a prácticamente cualquier enemigo y en las condiciones más adversas. Sus avanzados receptores tecnomágicos son capaces de ver en la oscuridad (reduciendo a la mitad los negativos producidos por la falta de luz tanto natural como mágica) y perciben poderes psíquicos, magia y entes espirituales (siempre que estos últimos no tengan un Gnosis superior a 25). Inmunidad psicológica: Las mentes de los Emeth son poco más que un conjunto de órdenes y directrices básicas que siguen fielmente su programa original. En consecuencia, no pueden sufrir ninguna clase de estado psicológico o emocional. Construcción Tecnomágica: Cómo construcción tecnomágica que es, un Emeth no puede ser afectado por habilidades de convocatoria.\n\nNúcleo de Energía: Los Emeth requieren la energía de su generador para funcionar. Un ataque apuntado contra este (-60 a la Habilidad de Ataque) que produzca un Crítico superior a 50 desconecta al golem de inmediato. Naturalmente, nadie que no haya estudiado el funcionamiento interno de un Emeth es capaz de conocer la existencia o posición de dicho núcleo. Vulnerabilidad Eléctrica: Debido a su estructura mecánica, los Emeth no poseen una protección apropiada contra ataques eléctricos y su caparazón metálico los propaga con facilidad por toda su estructura, sobrecargando sus sistemas y produciéndoles doble daño. Además, los ataques eléctricos ignoran la regla Caparazón de Metal. Regeneración: Lamentablemente, como construcciones los Emeth son incapaces de regenerar los daños que hayan sufrido sus cuerpos.\n\nÚnicamente un experto en ciencia y con los medios adecuados es capaz de repararlos apropiadamente. c añones l egate Si bien las habilidades de los Emeth son principalmente de combate cuerpo a cuerpo, cuando salían preparados para la guerra la mayoría estaban equipados con un arma de asalto a larga distancia llamada cañón Legate. Se trataba de artefactos tecnomágicos que disparaban ráfagas de energía y metralla a alta velocidad, con una potencia y precisión que ridiculiza a las mejores armas de pólvora. Todos los Emeth son capaces de usar un cañón Legate sin problemas (están programados para hacerlo), utilizando la misma habilidad de combate que en sus ataques físicos. Lamentablemente, el generador de energía de dichas armas tenía una duración muy limitada, e incluso sin ser usados, el paso del tiempo los ha vuelto actualmente inoperables.\n\nUn cañón Legate es equivalente a un Arma de Ataque aDistancia con un alcance máximo de 800 metros, un Daño Final de 100 (independiente de la Fuerza de su usuario), un turno de -30, y pueden disparar cinco turnos seguidos sin recalentarse. Por su enorme tamaño (son consideradas armas Enormes), sólo alguien con Fuerza 13 o superior y de tamaño Grande es capaz de levantarlas correctamente. Además, un Cañón Legate no tiene “gatillo” o un método de activación tradicional; sólo disparan si son usadas por una Marioneta de Sólomon o alguien que posea Sangre Antigua. José María Solano Albares (order #3443007) l ogias p érDiD as Como artefactos de combate de Sólomon, los Emeth responden instintivamente a los portadores de Sangre Antigua, protegiendolos y obedeciendo sus órdenes instintívamente siempre y cuando no contradigan su programa. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 66</p><p><strong>Entrada:</strong> Emeth</p><p><strong>Variante:</strong> De Combate de Sólomon</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos (Creación) 20</p><p><strong>Categoría:</strong> Maestro en armas Fue: 13 Des: 8 Agi: 6 Con: 14 Pod: 8 Int: 6 Vol: 8 Per: 7 RF 80 RM 65 RP 65 RV 80 RE 80</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrenaturales, Exención Física, Inmune a un Elemento (Fuego, Frío, Mitad de Daño), Cuerpos Mecánicos (Inmune al Dolor), Inmunidad Psicológica, Tamaño Innatural, Construcción Tecnomágica, Vulnerable a un Elemento (Electricidad, Doble Daño).</p><p><strong>Poderes:</strong> Armas Naturales: Puños de Adamantio (-1 a la TA Defensora), Daña Energía, Caparazón de Metal (Armadura Física 7 , Armadura Mística 3, Barrera de Daño 100), Receptores Existenciales (Visión Nocturna, Ver lo Sobrenatural), Nucleo de Energía (Punto Vulnerable), Regeneración 0.</p><p><strong>Daño:</strong> 120 Puños de Adamantio (Con)</p><p><strong>TA:</strong> Caparazón de Metal Fil 7 Con 7 Pen 7 Cal 7 Fri 7 Ele 0 Ene 3</p><p><strong>Habilidades secundarias:</strong> Advertir 50, Buscar 50, Proezas de Fuerza 80, Memorizar 200</p><p><strong>Descripción breve:</strong> En los tiempos de esplendor del Imperio de Sólomon el senado que encabezaba el emperador Andromalius inició la fabricación del que debía ser el ejército más poderoso que jamás hubiera existido sobre Gaïa. Innumerables armas tecnomágicas, animadas con los mejores adelantos científicos y sobrenaturales, fueron creadas con el fin de darles la supremacía absoluta. Fue entre todas estas obras bélicas donde surgirían los Emeth, el modelo de producción en serie de golem de guerra de Solomon. Se trataba de poderosos soldados poseedores de un descomunal potencial de combate, armas humanoides del más alto poder destructivo con los que se pretendía superar a todas las armadas del mundo. Los Emeth son enormes constructos humanoides de tres metros ochenta de altura. Son robustos, pero de aspecto muy avanzado en comparación con otras Logias Perdidas. Suelen ser de color blanco, aunque líneas de luz y runas místicas se iluminan por todo su cuerpo cuando están activos. Poseen un avanzado sistema de inteligencia artificial que les permite tomar decisiones, pero carecen completamente de personalidad. Pueden hablar de un modo muy limitado, pues nunca dicen nada más que las escasas frases con las que han sido programados. Pese a que la gran mayoría fueron completamente destruidos durante las Siete Horas de Fuego, una gran cantidad de Emeth (puede que incluso unos cuantos miles) estaban repartidos por distintas bases de Sólomon que sobrevivieron a la catástrofe. Por eso es relativamente posible encontrar algunos de estos golems de guerra en relativo buen estado en los más variopintos parajes. Lamentablemente, los Emeth funcionan gracias a la energía que les proporciona su generador principal, el cual tenía una duración media de poco más de un siglo. Eso representa que prácticamente todos los que quedan son poco más que cacharros inservibles, ya que carecen de la suficiente potencia residual para moverse. Sólo unos pocos “hibernaron” a tiempo para aprovechar mejor sus reservas, lo que les permite “levantarse” en casos de necesidad para cumplir su programa original, fuese el que fuese. m oduS oPerandiUnEmeth no es en absoluto violento por sí mismo, puesto que no es más que una marioneta mecánica que sigue su programa. Si sus órdenes le dicen que proteja algo, lo hará independientemente de quien sea su enemigo. Si le dicen que destruya, usará sus conocimientos bélicos para acabar con sus adversarios. Luchan mecánicamente, pero aún así su descomunal potencia es algo que deja siempre boquiabiertos a sus contrincantes. El único punto vulnerable de un golem de Sólomon es su Núcleo de energía. Puños de Adamantio: Las extremidades de los Emeth están reforzadas con aleaciones que potencian los impactos de sus golpes. Por ello, sus ataques reducen un punto la Armadura de sus adversarios y son capaces de dañar energía. Caparazón de Metal: Aparte del elevado Tipo de Armadura que le confiere la estructura exterior al Golem, su caparazón de metal absorbe cualquier daño físico que no sea capaz de afectar energía o no tenga un Daño Base superior a 100. Cuerpos Mecánicos: Como creaciones tecnomágicas, estos golems son del todo incapaces de sufrir dolor o menoscabo alguno a su capacidad de combate. En consecuencia, únicamente los críticos que supongan amputaciones tienen efecto real sobre ellos. Receptores Existenciales: Los Emeth están preparados para enfrentarse a prácticamente cualquier enemigo y en las condiciones más adversas. Sus avanzados receptores tecnomágicos son capaces de ver en la oscuridad (reduciendo a la mitad los negativos producidos por la falta de luz tanto natural como mágica) y perciben poderes psíquicos, magia y entes espirituales (siempre que estos últimos no tengan un Gnosis superior a 25). Inmunidad psicológica: Las mentes de los Emeth son poco más que un conjunto de órdenes y directrices básicas que siguen fielmente su programa original. En consecuencia, no pueden sufrir ninguna clase de estado psicológico o emocional. Construcción Tecnomágica: Cómo construcción tecnomágica que es, un Emeth no puede ser afectado por habilidades de convocatoria. Núcleo de Energía: Los Emeth requieren la energía de su generador para funcionar. Un ataque apuntado contra este (-60 a la Habilidad de Ataque) que produzca un Crítico superior a 50 desconecta al golem de inmediato. Naturalmente, nadie que no haya estudiado el funcionamiento interno de un Emeth es capaz de conocer la existencia o posición de dicho núcleo. Vulnerabilidad Eléctrica: Debido a su estructura mecánica, los Emeth no poseen una protección apropiada contra ataques eléctricos y su caparazón metálico los propaga con facilidad por toda su estructura, sobrecargando sus sistemas y produciéndoles doble daño. Además, los ataques eléctricos ignoran la regla Caparazón de Metal. Regeneración: Lamentablemente, como construcciones los Emeth son incapaces de regenerar los daños que hayan sufrido sus cuerpos. Únicamente un experto en ciencia y con los medios adecuados es capaz de repararlos apropiadamente. c añones l egate Si bien las habilidades de los Emeth son principalmente de combate cuerpo a cuerpo, cuando salían preparados para la guerra la mayoría estaban equipados con un arma de asalto a larga distancia llamada cañón Legate. Se trataba de artefactos tecnomágicos que disparaban ráfagas de energía y metralla a alta velocidad, con una potencia y precisión que ridiculiza a las mejores armas de pólvora. Todos los Emeth son capaces de usar un cañón Legate sin problemas (están programados para hacerlo), utilizando la misma habilidad de combate que en sus ataques físicos. Lamentablemente, el generador de energía de dichas armas tenía una duración muy limitada, e incluso sin ser usados, el paso del tiempo los ha vuelto actualmente inoperables. Un cañón Legate es equivalente a un Arma de Ataque aDistancia con un alcance máximo de 800 metros, un Daño Final de 100 (independiente de la Fuerza de su usuario), un turno de -30, y pueden disparar cinco turnos seguidos sin recalentarse. Por su enorme tamaño (son consideradas armas Enormes), sólo alguien con Fuerza 13 o superior y de tamaño Grande es capaz de levantarlas correctamente. Además, un Cañón Legate no tiene “gatillo” o un método de activación tradicional; sólo disparan si son usadas por una Marioneta de Sólomon o alguien que posea Sangre Antigua. José María Solano Albares l ogias p érDiD as Como artefactos de combate de Sólomon, los Emeth responden instintivamente a los portadores de Sangre Antigua, protegiendolos y obedeciendo sus órdenes instintívamente siempre y cuando no contradigan su programa.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entre mundos (Creación) 20 Puntos de Vida: 515 Categoría: Maestro en armas Fue: 13 Des: 8 Agi: 6 Con: 14 Pod: 8 Int: 6 Vol: 8 Per: 7 RF 80 RM 65 RP 65 RV 80 RE 80\n\nTurno: 65 Natural Habilidad de ataque: 180 Puños de Adamantio Habilidad de defensa: 1 70 Puños de Adamantio Daño: 120 Puños de Adamantio (Con) TA: Caparazón de Metal Fil 7 Con 7 Pen 7 Cal 7 Fri 7 Ele 0 Ene 3 Habilidades esenciales: Características Físicas Sobrenaturales, Exención Física, Inmune a un Elemento (Fuego, Frío, Mitad de Daño), Cuerpos Mecánicos (Inmune al Dolor), Inmunidad Psicológica, Tamaño Innatural, Construcción Tecnomágica, Vulnerable a un Elemento (Electricidad, Doble Daño). Poderes: Armas Naturales: Puños de Adamantio (-1 a la TA Defensora), Daña Energía, Caparazón de Metal (Armadura Física 7 , Armadura Mística 3, Barrera de Daño 100), Receptores Existenciales (Visión Nocturna, Ver lo Sobrenatural), Nucleo de Energía (Punto Vulnerable), Regeneración 0.\n\nTamaño: 25 Enorme Regeneración: 0 Tipo de movimiento: 7 Cansancio: Incansable Habilidades Secundarias: Advertir 50, Buscar 50, Proezas de Fuerza 80, Memorizar 200. En los tiempos de esplendor del Imperio de Sólomon el senado que encabezaba el emperador Andromalius inició la fabricación del que debía ser el ejército más poderoso que jamás hubiera existido sobre Gaïa. Innumerables armas tecnomágicas, animadas con los mejores adelantos científicos y sobrenaturales, fueron creadas con el fin de darles la supremacía absoluta. Fue entre todas estas obras bélicas donde surgirían los Emeth, el modelo de producción en serie de golem de guerra de Solomon. Se trataba de poderosos soldados poseedores de un descomunal potencial de combate, armas humanoides del más alto poder destructivo con los que se pretendía superar a todas las armadas del mundo.\n\nLos Emeth son enormes constructos humanoides de tres metros ochenta de altura. Son robustos, pero de aspecto muy avanzado en comparación con otras Logias Perdidas. Suelen ser de color blanco, aunque líneas de luz y runas místicas se iluminan por todo su cuerpo cuando están activos. Poseen un avanzado sistema de inteligencia artificial que les permite tomar decisiones, pero carecen completamente de personalidad. Pueden hablar de un modo muy limitado, pues nunca dicen nada más que las escasas frases con las que han sido programados. Pese a que la gran mayoría fueron completamente destruidos durante las Siete Horas de Fuego, una gran cantidad de Emeth (puede que incluso unos cuantos miles) estaban repartidos por distintas bases de Sólomon que sobrevivieron a la catástrofe.\n\nPor eso es relativamente posible encontrar algunos de estos golems de guerra en relativo buen estado en los más variopintos parajes. Lamentablemente, los Emeth funcionan gracias a la energía que les proporciona su generador principal, el cual tenía una duración media de poco más de un siglo. Eso representa que prácticamente todos los que quedan son poco más que cacharros inservibles, ya que carecen de la suficiente potencia residual para moverse. Sólo unos pocos “hibernaron” a tiempo para aprovechar mejor sus reservas, lo que les permite “levantarse” en casos de necesidad para cumplir su programa original, fuese el que fuese. m oduS oPerandiUnEmeth no es en absoluto violento por sí mismo, puesto que no es más que una marioneta mecánica que sigue su programa. Si sus órdenes le dicen que proteja algo, lo hará independientemente de quien sea su enemigo.\n\nSi le dicen que destruya, usará sus conocimientos bélicos para acabar con sus adversarios. Luchan mecánicamente, pero aún así su descomunal potencia es algo que deja siempre boquiabiertos a sus contrincantes. El único punto vulnerable de un golem de Sólomon es su Núcleo de energía. Puños de Adamantio: Las extremidades de los Emeth están reforzadas con aleaciones que potencian los impactos de sus golpes. Por ello, sus ataques reducen un punto la Armadura de sus adversarios y son capaces de dañar energía. Caparazón de Metal: Aparte del elevado Tipo de Armadura que le confiere la estructura exterior al Golem, su caparazón de metal absorbe cualquier daño físico que no sea capaz de afectar energía o no tenga un Daño Base superior a 100. Cuerpos Mecánicos: Como creaciones tecnomágicas, estos golems son del todo incapaces de sufrir dolor o menoscabo alguno a su capacidad de combate.\n\nEn consecuencia, únicamente los críticos que supongan amputaciones tienen efecto real sobre ellos. Receptores Existenciales: Los Emeth están preparados para enfrentarse a prácticamente cualquier enemigo y en las condiciones más adversas. Sus avanzados receptores tecnomágicos son capaces de ver en la oscuridad (reduciendo a la mitad los negativos producidos por la falta de luz tanto natural como mágica) y perciben poderes psíquicos, magia y entes espirituales (siempre que estos últimos no tengan un Gnosis superior a 25). Inmunidad psicológica: Las mentes de los Emeth son poco más que un conjunto de órdenes y directrices básicas que siguen fielmente su programa original. En consecuencia, no pueden sufrir ninguna clase de estado psicológico o emocional. Construcción Tecnomágica: Cómo construcción tecnomágica que es, un Emeth no puede ser afectado por habilidades de convocatoria.\n\nNúcleo de Energía: Los Emeth requieren la energía de su generador para funcionar. Un ataque apuntado contra este (-60 a la Habilidad de Ataque) que produzca un Crítico superior a 50 desconecta al golem de inmediato. Naturalmente, nadie que no haya estudiado el funcionamiento interno de un Emeth es capaz de conocer la existencia o posición de dicho núcleo. Vulnerabilidad Eléctrica: Debido a su estructura mecánica, los Emeth no poseen una protección apropiada contra ataques eléctricos y su caparazón metálico los propaga con facilidad por toda su estructura, sobrecargando sus sistemas y produciéndoles doble daño. Además, los ataques eléctricos ignoran la regla Caparazón de Metal. Regeneración: Lamentablemente, como construcciones los Emeth son incapaces de regenerar los daños que hayan sufrido sus cuerpos.\n\nÚnicamente un experto en ciencia y con los medios adecuados es capaz de repararlos apropiadamente. c añones l egate Si bien las habilidades de los Emeth son principalmente de combate cuerpo a cuerpo, cuando salían preparados para la guerra la mayoría estaban equipados con un arma de asalto a larga distancia llamada cañón Legate. Se trataba de artefactos tecnomágicos que disparaban ráfagas de energía y metralla a alta velocidad, con una potencia y precisión que ridiculiza a las mejores armas de pólvora. Todos los Emeth son capaces de usar un cañón Legate sin problemas (están programados para hacerlo), utilizando la misma habilidad de combate que en sus ataques físicos. Lamentablemente, el generador de energía de dichas armas tenía una duración muy limitada, e incluso sin ser usados, el paso del tiempo los ha vuelto actualmente inoperables.\n\nUn cañón Legate es equivalente a un Arma de Ataque aDistancia con un alcance máximo de 800 metros, un Daño Final de 100 (independiente de la Fuerza de su usuario), un turno de -30, y pueden disparar cinco turnos seguidos sin recalentarse. Por su enorme tamaño (son consideradas armas Enormes), sólo alguien con Fuerza 13 o superior y de tamaño Grande es capaz de levantarlas correctamente. Además, un Cañón Legate no tiene “gatillo” o un método de activación tradicional; sólo disparan si son usadas por una Marioneta de Sólomon o alguien que posea Sangre Antigua. José María Solano Albares (order #3443007) l ogias p érDiD as Como artefactos de combate de Sólomon, los Emeth responden instintivamente a los portadores de Sangre Antigua, protegiendolos y obedeciendo sus órdenes instintívamente siempre y cuando no contradigan su programa. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +410,6 @@
           }
         }
       ],
-      "level": {
-        "value": 6
-      },
       "notes": [
         {
           "_id": "note-emeth-de-combate-de-solomon-3",
@@ -501,52 +429,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 14
-          }
+          "value": 14,
+          "mod": 25
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -557,9 +469,6 @@
         "initiative": {
           "base": {
             "value": 65
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +519,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -621,10 +527,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -632,10 +535,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 7985
+              "value": 8065
             },
             "final": {
               "value": 0
@@ -643,10 +543,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 65
             },
             "final": {
               "value": 0
@@ -654,10 +551,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 65
             },
             "final": {
               "value": 0
@@ -669,206 +563,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 200
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 180
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 170
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -899,11 +1042,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -915,14 +1054,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -936,14 +1080,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1048,15 +1189,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1068,37 +1205,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1221,9 +1378,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
           "value": true
-        },
-        "effects": {
-          "value": false
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 28</p><p><strong>Entrada:</strong> Kamyla Yamazaki</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Guerrero mentalista Fue: 6 Des: 9 Agi: 9 Con: 7 Pod: 5 Int: 6 Vol: 10 Per: 7 RF 35 RM 30 RP 45 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Acceso a poderos Psíquicos, Mantenimiento añadido, Sin concentración.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 100/110 Mandoble</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 20, Atletismo 15, Saltar 10/15, Advertir 15, Buscar 15, Frialdad 40, Resistir el dolor 20, Trucos de manos 15</p><p><strong>Descripción breve:</strong> Hija de padre oriental y madre occidental, Kamyla es una exótica belleza que mezcla lo mejor de ambos linajes. Con apenas veinte años, su exuberancia natural, sus finas facciones y su larga cabellera negra cautivan a todo aquel que la mira. Naturales de Phaion, los padres de Kamyla se dieron cuenta de que su hija, incluso a la más temprana edad, era capaz de hacer cosas que no deberían estar al alcance de una niña normal. Preocupados, trataron de esconder sus habilidades a los demás, esperando que con el tiempo desaparecieran como un mal sueño. Pero a los diez años, cuando consiguió levantar un carromato bajo el que su madre había quedado atrapada, el mundo de la pequeña cambió. No fueron pocos los que vieron el fenómeno y, algo asustados, empezaron a murmurar que quizás la niña estuviese endemoniada. Dándose cuenta de que existía el riesgo de que la Inquisición se interesara por ella, sus padres la enviaron a las montañas, al cuidado de su tío Kaemon. El hombre, un antiguo samurái que vivía apartado de la sociedad, no se asustó por el extraño don de Kamyla. Al contrario, no tardó en ayudar a la joven a sacar provecho de él y profundizar en sus posibilidades. Además, sabiendo que alguien como ella podría tener serios problemas si sus poderes eran descubiertos, le enseñó a luchar. Curiosamente, como muestra de rebeldía contra los prejuicios de la sociedad, Kamyla decidió usar como arma un enorme mandoble, que resultaría imposible de usar con la debida habilidad a una chica de su complexión. Los años fueron pasando y Kamyla, convertida ya en una mujercita, decidió regresar con sus padres, aunque dicho reencuentro no sería muy feliz. Al llegar a su casa, descubrió que ninguno de los dos quería verla, temerosos de que pudieran ponerla en peligro y de que ellos mismos se convirtieran en blanco de habladurías y calumnias. Apenada, Kamyla se repitió a sí misma: “-Esta no es mi casa. Yo no tengo ningún hogar-.”, y se marchó sin mirar atrás, hacia un destino desconocido. Notas y curiosidades: Kamyla siempre tiene mantenidos sus poderes psíquicos para incrementar su Fuerza hasta 8, lo que le permite llevar su descomunal mandoble con una facilidad que sorprende a la gente. Si por cualquier causa no puede mantener sus poderes activos, su carencia de Fuerza la obliga a aplicar un -20 a su habilidad de ataque. Posesiones: Mandoble, Una muda de ropa, Un kimono ceremonial, Una mochila, Una manta, 40 Escudos de Plata. VassiliTogarini</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 105 Categoría: Guerrero mentalista Fue: 6 Des: 9 Agi: 9 Con: 7 Pod: 5 Int: 6 Vol: 10 Per: 7 RF 35 RM 30 RP 45 RV 35 RE 35\n\nTurno: 65 Natural, -1 5 Mandoble. Habilidad de ataque: 70 Mandoble Habilidad de defensa: 70 Esquiva Daño: 100/1 10 Mandoble Llevar Armadura: 5 / 10 TA: Ninguna Potencial: 60 CVs libres: 7 Poderes psíquicos: Acceso a una disciplina; Incrementación Física (Incrementar Fuerza, Inhumanidad, Incremento de reacción), Acceso a una disciplina; Energía (Crear energía). Proyección Psíquica: 10 Innatos: 2 Ventajas y desventajas: Acceso a poderos Psíquicos, Mantenimiento añadido, Sin concentración. Habilidades naturales: Ninguna. de movimiento: 9 Cansancio: 7 Habilidades Secundarias: Acrobacias 20, Atletismo 1 5, Saltar 10/1 5, Advertir 1 5, Buscar 1 5, Frialdad 40, Resistir el dolor 20, Trucos de manos 1 5. Hija de padre oriental y madre occidental, Kamyla es una exótica belleza que mezcla lo mejor de ambos linajes.\n\nCon apenas veinte años, su exuberancia natural, sus finas facciones y su larga cabellera negra cautivan a todo aquel que la mira. Naturales de Phaion, los padres de Kamyla se dieron cuenta de que su hija, incluso a la más temprana edad, era capaz de hacer cosas que no deberían estar al alcance de una niña normal. Preocupados, trataron de esconder sus habilidades a los demás, esperando que con el tiempo desaparecieran como un mal sueño. Pero a los diez años, cuando consiguió levantar un carromato bajo el que su madre había quedado atrapada, el mundo de la pequeña cambió. No fueron pocos los que vieron el fenómeno y, algo asustados, empezaron a murmurar que quizás la niña estuviese endemoniada. Dándose cuenta de que existía el riesgo de que la Inquisición se interesara por ella, sus padres la enviaron a las montañas, al cuidado de su tío Kaemon.\n\nEl hombre, un antiguo samurái que vivía apartado de la sociedad, no se asustó por el extraño don de Kamyla. Al contrario, no tardó en ayudar a la joven a sacar provecho de él y profundizar en sus posibilidades. Además, sabiendo que alguien como ella podría tener serios problemas si sus poderes eran descubiertos, le enseñó a luchar. Curiosamente, como muestra de rebeldía contra los prejuicios de la sociedad, Kamyla decidió usar como arma un enorme mandoble, que resultaría imposible de usar con la debida habilidad a una chica de su complexión. Los años fueron pasando y Kamyla, convertida ya en una mujercita, decidió regresar con sus padres, aunque dicho reencuentro no sería muy feliz. Al llegar a su casa, descubrió que ninguno de los dos quería verla, temerosos de que pudieran ponerla en peligro y de que ellos mismos se convirtieran en blanco de habladurías y calumnias.\n\nApenada, Kamyla se repitió a sí misma: “-Esta no es mi casa. Yo no tengo ningún hogar-.”, y se marchó sin mirar atrás, hacia un destino desconocido. Notas y curiosidades: Kamyla siempre tiene mantenidos sus poderes psíquicos para incrementar su Fuerza hasta 8, lo que le permite llevar su descomunal mandoble con una facilidad que sorprende a la gente. Si por cualquier causa no puede mantener sus poderes activos, su carencia de Fuerza la obliga a aplicar un -20 a su habilidad de ataque. Posesiones: Mandoble, Una muda de ropa, Un kimono ceremonial, Una mochila, Una manta, 40 Escudos de Plata. VassiliTogarini</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 28</p><p><strong>Entrada:</strong> Kamyla Yamazaki</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Guerrero mentalista Fue: 6 Des: 9 Agi: 9 Con: 7 Pod: 5 Int: 6 Vol: 10 Per: 7 RF 35 RM 30 RP 45 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Acceso a poderos Psíquicos, Mantenimiento añadido, Sin concentración.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 100/110 Mandoble</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 20, Atletismo 15, Saltar 10/15, Advertir 15, Buscar 15, Frialdad 40, Resistir el dolor 20, Trucos de manos 15</p><p><strong>Descripción breve:</strong> Hija de padre oriental y madre occidental, Kamyla es una exótica belleza que mezcla lo mejor de ambos linajes. Con apenas veinte años, su exuberancia natural, sus finas facciones y su larga cabellera negra cautivan a todo aquel que la mira. Naturales de Phaion, los padres de Kamyla se dieron cuenta de que su hija, incluso a la más temprana edad, era capaz de hacer cosas que no deberían estar al alcance de una niña normal. Preocupados, trataron de esconder sus habilidades a los demás, esperando que con el tiempo desaparecieran como un mal sueño. Pero a los diez años, cuando consiguió levantar un carromato bajo el que su madre había quedado atrapada, el mundo de la pequeña cambió. No fueron pocos los que vieron el fenómeno y, algo asustados, empezaron a murmurar que quizás la niña estuviese endemoniada. Dándose cuenta de que existía el riesgo de que la Inquisición se interesara por ella, sus padres la enviaron a las montañas, al cuidado de su tío Kaemon. El hombre, un antiguo samurái que vivía apartado de la sociedad, no se asustó por el extraño don de Kamyla. Al contrario, no tardó en ayudar a la joven a sacar provecho de él y profundizar en sus posibilidades. Además, sabiendo que alguien como ella podría tener serios problemas si sus poderes eran descubiertos, le enseñó a luchar. Curiosamente, como muestra de rebeldía contra los prejuicios de la sociedad, Kamyla decidió usar como arma un enorme mandoble, que resultaría imposible de usar con la debida habilidad a una chica de su complexión. Los años fueron pasando y Kamyla, convertida ya en una mujercita, decidió regresar con sus padres, aunque dicho reencuentro no sería muy feliz. Al llegar a su casa, descubrió que ninguno de los dos quería verla, temerosos de que pudieran ponerla en peligro y de que ellos mismos se convirtieran en blanco de habladurías y calumnias. Apenada, Kamyla se repitió a sí misma: “-Esta no es mi casa. Yo no tengo ningún hogar-.”, y se marchó sin mirar atrás, hacia un destino desconocido. Notas y curiosidades: Kamyla siempre tiene mantenidos sus poderes psíquicos para incrementar su Fuerza hasta 8, lo que le permite llevar su descomunal mandoble con una facilidad que sorprende a la gente. Si por cualquier causa no puede mantener sus poderes activos, su carencia de Fuerza la obliga a aplicar un -20 a su habilidad de ataque. Posesiones: Mandoble, Una muda de ropa, Un kimono ceremonial, Una mochila, Una manta, 40 Escudos de Plata. VassiliTogarini</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 105 Categoría: Guerrero mentalista Fue: 6 Des: 9 Agi: 9 Con: 7 Pod: 5 Int: 6 Vol: 10 Per: 7 RF 35 RM 30 RP 45 RV 35 RE 35\n\nTurno: 65 Natural, -1 5 Mandoble. Habilidad de ataque: 70 Mandoble Habilidad de defensa: 70 Esquiva Daño: 100/1 10 Mandoble Llevar Armadura: 5 / 10 TA: Ninguna Potencial: 60 CVs libres: 7 Poderes psíquicos: Acceso a una disciplina; Incrementación Física (Incrementar Fuerza, Inhumanidad, Incremento de reacción), Acceso a una disciplina; Energía (Crear energía). Proyección Psíquica: 10 Innatos: 2 Ventajas y desventajas: Acceso a poderos Psíquicos, Mantenimiento añadido, Sin concentración. Habilidades naturales: Ninguna. de movimiento: 9 Cansancio: 7 Habilidades Secundarias: Acrobacias 20, Atletismo 1 5, Saltar 10/1 5, Advertir 1 5, Buscar 1 5, Frialdad 40, Resistir el dolor 20, Trucos de manos 1 5. Hija de padre oriental y madre occidental, Kamyla es una exótica belleza que mezcla lo mejor de ambos linajes.\n\nCon apenas veinte años, su exuberancia natural, sus finas facciones y su larga cabellera negra cautivan a todo aquel que la mira. Naturales de Phaion, los padres de Kamyla se dieron cuenta de que su hija, incluso a la más temprana edad, era capaz de hacer cosas que no deberían estar al alcance de una niña normal. Preocupados, trataron de esconder sus habilidades a los demás, esperando que con el tiempo desaparecieran como un mal sueño. Pero a los diez años, cuando consiguió levantar un carromato bajo el que su madre había quedado atrapada, el mundo de la pequeña cambió. No fueron pocos los que vieron el fenómeno y, algo asustados, empezaron a murmurar que quizás la niña estuviese endemoniada. Dándose cuenta de que existía el riesgo de que la Inquisición se interesara por ella, sus padres la enviaron a las montañas, al cuidado de su tío Kaemon.\n\nEl hombre, un antiguo samurái que vivía apartado de la sociedad, no se asustó por el extraño don de Kamyla. Al contrario, no tardó en ayudar a la joven a sacar provecho de él y profundizar en sus posibilidades. Además, sabiendo que alguien como ella podría tener serios problemas si sus poderes eran descubiertos, le enseñó a luchar. Curiosamente, como muestra de rebeldía contra los prejuicios de la sociedad, Kamyla decidió usar como arma un enorme mandoble, que resultaría imposible de usar con la debida habilidad a una chica de su complexión. Los años fueron pasando y Kamyla, convertida ya en una mujercita, decidió regresar con sus padres, aunque dicho reencuentro no sería muy feliz. Al llegar a su casa, descubrió que ninguno de los dos quería verla, temerosos de que pudieran ponerla en peligro y de que ellos mismos se convirtieran en blanco de habladurías y calumnias.\n\nApenada, Kamyla se repitió a sí misma: “-Esta no es mi casa. Yo no tengo ningún hogar-.”, y se marchó sin mirar atrás, hacia un destino desconocido. Notas y curiosidades: Kamyla siempre tiene mantenidos sus poderes psíquicos para incrementar su Fuerza hasta 8, lo que le permite llevar su descomunal mandoble con una facilidad que sorprende a la gente. Si por cualquier causa no puede mantener sus poderes activos, su carencia de Fuerza la obliga a aplicar un -20 a su habilidad de ataque. Posesiones: Mandoble, Una muda de ropa, Un kimono ceremonial, Una mochila, Una manta, 40 Escudos de Plata. VassiliTogarini</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-kamyla-yamazaki-1",
@@ -351,52 +270,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -407,9 +310,6 @@
         "initiative": {
           "base": {
             "value": 65
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -460,10 +360,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -471,10 +368,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -482,10 +376,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 3530
+              "value": 3565
             },
             "final": {
               "value": 0
@@ -493,10 +384,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 30
             },
             "final": {
               "value": 0
@@ -504,10 +392,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -519,215 +404,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 70
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 70
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 5
-        }
+        "value": 5
       },
       "totalArmor": {
         "at": {
@@ -758,11 +883,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -774,14 +895,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -795,14 +921,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -907,15 +1030,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -927,37 +1046,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1080,9 +1219,6 @@
       "psychicPoints": {
         "value": 7,
         "max": 7
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,28 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
-        "perceivePsychic": {
+        "inhuman": {
           "value": true
         },
         "inmaterial": {
           "value": true
         },
-        "inhuman": {
+        "perceiveMystic": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "perceivePsychic": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +153,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +173,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 75
         }
       },
       "aspect": {
@@ -274,7 +207,7 @@
           "value": "Elemental Mayor"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +225,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 323</p><p><strong>Entrada:</strong> Doncella de la Luz</p><p><strong>Variante:</strong> Elemental Mayor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos, elemental 30</p><p><strong>Categoría:</strong> Warlock Fue: 9 Des: 13 Agi: 10 Con: 8 Pod: 14 Int: 13 Vol: 12 Per: 13 RF 85 RM 120 RP 95 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Exención física, Inmunidad, Inhumanidad, Don, Inutilidad somática, Tamaño innatural, Características anímicas sobrenaturales, Características físicas sobrehumanas.</p><p><strong>Poderes:</strong> Filo de luz (Daña energía, Ataque elemental), Alas luminosas (tipo 12), RM incrementada +20, Forma elemental condicionada, Forma física a voluntad, Ver lo sobrenatural. Especial: Proyección Mágica como ataque y defensa. de mo vimiento: 10/12</p><p><strong>Daño:</strong> 100 Alabarda FIL / CON, 70 Espada larga FIL</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 130 (180), Buscar 70 (120), Historia 100, Ciencia 55, Ocultismo 190, Memorizar 80, Valoración mágica 190, Arte 120, Baile 120, Música 120, Persuasión 90, Estilo 150, Baile 100</p><p><strong>Descripción breve:</strong> Las Doncellas o Elhaym son los elementales luminosos de mayor poder que existen. Nacieron de la luz más pura antes de la misma Guerra de los Cielos, cuando los propios elementos tomaron vida. Tienen la apariencia de mujeres de excepcional belleza dotadas de alas blancas. Este angelical aspecto ha estimulado a muchas culturas a creer en los ángeles, y es muy posible que el propio Vaticano se inspirase en ellas. También llaman la atención sus ojos, dorados y brillantes, y su pelo, que se mueve solo como si estuviera vivo. Irradian una fuerte aura de armonía, que influye en las personas que se les acercan o con quienes hablan, haciéndoles sentir que se encuentran ante una entidad casi divina. Todas ellas siguen devotamente las doctrinas de C´iel y de las Beryls, y en muchos casos actúan directamente como agentes de alguna de las hijas de la luz. Su personalidad varía dependiendo de cuál sea la Beryl a la que sirven más estrechamente pero, por lo general, se rigen por los mismos cánones de conducta. A pesar de sentir devoción por las artes y la música, también son extremadamente beligerantes y pierden el temple con mucha facilidad, actuando entonces de modo violento. Las Doncellas son inmortales y sólo pueden perecer a causa de un masivo daño espiritual. Algunas de ellas están vivas desde los albores de la historia, aunque la mayoría apenas tiene unos cuantos siglos de edad. En la actualidad su número es muy limitado. Normalmente evitan mezclarse con los mortales, puesto que no desean establecer relaciones afectivas, temiendo verles morir con el tiempo. Aun así, nos observan desde lejos, e incluso a veces intervienen para ayudarnos o castigarnos. Se sabe que varias han hallado su hogar en los lugares más paradisíacos de la Vigilia, mientras otras se encuentran en viejos templos de C´iel que aún no han sido descubiertos. Generalmente actúan solas, pero también es posible que junto a ellas se encuentre un gran número de Luminarias dispuestas a seguir sus indicaciones. m odus operandi Las Doncellas de la Luz están dotadas de grandes habilidades mágicas. Habitualmente, los ensalmos de sus conjuros son canciones que embriagan a quienes las escuchen recitarlos. Por lo general evitan las confrontaciones físicas empleando sus poderes, pero si se ven obligadas a luchar, son combatientes sobrenaturales capaces de acabar por sí mismas con pequeños ejércitos. En el campo de batalla, emplean armas en combinación con sus capacidades místicas de un modo terriblemente efectivo, ya que pueden luchar y lanzar conjuros sin reducir su Acumulación. No tienen puntos vulnerables, salvo su corazón, donde reside el núcleo de su esencia. Algunas de ellas pueden obtener Elan de la Beryl a la que sirven. Filo de luz: En el mismo momento en el que nacen, de su propia esencia surge un arma que las Doncellas empuñan siempre cuando se ven obligadas a entrar en combate. Este artefacto, llamado filo de luz, es una parte de su dueña, quien puede materializarlo o fundirlo con su cuerpo libremente. Habitualmente, toma la forma de una espada larga o una alabarda con una calidad comprendida entre +10 y +15, capaz de dañar energía y que ataca como un arma elemental de luz. Este bono también se añade a la Proyección Mágica de la Doncella cuando usa sus conjuros. Los filos de luz sólo pueden ser empuñados por su señora, o aquellas personas a las que esta otorgue su permiso. Forma elemental (condicionada): El estado natural de las Doncellas es el de seres formados por Luz, incapaces de ser dañadas por ataques que no afecten a energía. Aunque son físicas y pueden tocar o ser tocadas por cualquiera, a voluntad pueden tornarse inmateriales y atravesar cualquier tipo de objeto físico. Incluso bajo la forma elemental, su apariencia no se altera lo más mínimo, salvo por el hecho de que emiten una ligera aura luminiscente, sólo perceptible en ambientes cerrados y con poca visibilidad. Mientras se encuentran en esta forma, obtienen elevados bonos a su capacidad perceptiva, reflejados en sus habilidades secundarias entre paréntesis. Las Doncellas sólo pueden mantenerse en forma elemental mientras se encuentren en lugares donde llegue hasta ellas la luz. En ubicaciones completamente oscuras, se vuelven materiales. Alas luminosas: Las Doncellas están dotadas de dos grandes alas de luz, que pueden manifestar a voluntad y que les permiten surcar los cielos con un Tipo de vuelo 12. En realidad no las utilizan en el sentido físico, pero deben materializarlas para ser capaces de volar. Los bonos que les otorga el vuelo en el combate no se encuentran reflejados en sus estadísticas. Inmunidad: Los ataques basados en luz producen la mitad de daño en las Elhaim. Elhaym</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: Entr e mundos, elemental 30 Puntos de Vida: 210 Categoría: Warlock Fue: 9 Des: 13 Agi: 10 Con: 8 Pod: 14 Int: 13 Vol: 12 Per: 13 RF 85 RM 120 RP 95 RV 85 RE 85\n\nTurno: 1 30 Natural, 105 Alabarda, 120 Espada larga Habilidad de ataque: 230 con Espada o Alabarda +10 Habilidad de defensa: 250 con Espada o Alabarda +10 Daño: 100 Alabarda FIL / CON, 70 Espada larga FIL TA: Ninguna ACT: 80 Conjuros de Luz, 60 Otras\n\nZeon: 1. 15 0\n\nProyección Mágica: 180 Ofensiva, 200 Defensiva Nivel de magia: 90 Luz Habilidades esenciales: Exención física, Inmunidad, Inhumanidad, Don, Inutilidad somática, Tamaño innatural, Características anímicas sobrenaturales, Características físicas sobrehumanas. Poderes: Filo de luz (Daña energía, Ataque elemental), Alas luminosas (tipo 12), RM incrementada +20, Forma elemental condicionada, Forma física a voluntad, Ver lo sobrenatural. Especial: Proyección Mágica como ataque y defensa. de mo vimiento: 10/12 Cansancio: Incansable Habilidades Secundarias: Advertir 1 30 (180), Buscar 70 (120), Historia 100, Ciencia 55, Ocultismo 190, Memorizar 80, Valoración mágica 1 90, Arte 120, Baile 120, Música 120, Persuasión 90, Estilo 1 50, Baile 100. Las Doncellas o Elhaym son los elementales luminosos de mayor poder que existen.\n\nNacieron de la luz más pura antes de la misma Guerra de los Cielos, cuando los propios elementos tomaron vida. Tienen la apariencia de mujeres de excepcional belleza dotadas de alas blancas. Este angelical aspecto ha estimulado a muchas culturas a creer en los ángeles, y es muy posible que el propio Vaticano se inspirase en ellas. También llaman la atención sus ojos, dorados y brillantes, y su pelo, que se mueve solo como si estuviera vivo. Irradian una fuerte aura de armonía, que influye en las personas que se les acercan o con quienes hablan, haciéndoles sentir que se encuentran ante una entidad casi divina. Todas ellas siguen devotamente las doctrinas de C´iel y de las Beryls, y en muchos casos actúan directamente como agentes de alguna de las hijas de la luz.\n\nSu personalidad varía dependiendo de cuál sea la Beryl a la que sirven más estrechamente pero, por lo general, se rigen por los mismos cánones de conducta. A pesar de sentir devoción por las artes y la música, también son extremadamente beligerantes y pierden el temple con mucha facilidad, actuando entonces de modo violento. Las Doncellas son inmortales y sólo pueden perecer a causa de un masivo daño espiritual. Algunas de ellas están vivas desde los albores de la historia, aunque la mayoría apenas tiene unos cuantos siglos de edad. En la actualidad su número es muy limitado. Normalmente evitan mezclarse con los mortales, puesto que no desean establecer relaciones afectivas, temiendo verles morir con el tiempo. Aun así, nos observan desde lejos, e incluso a veces intervienen para ayudarnos o castigarnos.\n\nSe sabe que varias han hallado su hogar en los lugares más paradisíacos de la Vigilia, mientras otras se encuentran en viejos templos de C´iel que aún no han sido descubiertos. Generalmente actúan solas, pero también es posible que junto a ellas se encuentre un gran número de Luminarias dispuestas a seguir sus indicaciones. m odus operandi Las Doncellas de la Luz están dotadas de grandes habilidades mágicas. Habitualmente, los ensalmos de sus conjuros son canciones que embriagan a quienes las escuchen recitarlos. Por lo general evitan las confrontaciones físicas empleando sus poderes, pero si se ven obligadas a luchar, son combatientes sobrenaturales capaces de acabar por sí mismas con pequeños ejércitos. En el campo de batalla, emplean armas en combinación con sus capacidades místicas de un modo terriblemente efectivo, ya que pueden luchar y lanzar conjuros sin reducir su Acumulación.\n\nNo tienen puntos vulnerables, salvo su corazón, donde reside el núcleo de su esencia. Algunas de ellas pueden obtener Elan de la Beryl a la que sirven. Filo de luz: En el mismo momento en el que nacen, de su propia esencia surge un arma que las Doncellas empuñan siempre cuando se ven obligadas a entrar en combate. Este artefacto, llamado filo de luz, es una parte de su dueña, quien puede materializarlo o fundirlo con su cuerpo libremente. Habitualmente, toma la forma de una espada larga o una alabarda con una calidad comprendida entre +10 y +1 5, capaz de dañar energía y que ataca como un arma elemental de luz. Este bono también se añade a la Proyección Mágica de la Doncella cuando usa sus conjuros. Los filos de luz sólo pueden ser empuñados por su señora, o aquellas personas a las que esta otorgue su permiso.\n\nForma elemental (condicionada): El estado natural de las Doncellas es el de seres formados por Luz, incapaces de ser dañadas por ataques que no afecten a energía. Aunque son físicas y pueden tocar o ser tocadas por cualquiera, a voluntad pueden tornarse inmateriales y atravesar cualquier tipo de objeto físico. Incluso bajo la forma elemental, su apariencia no se altera lo más mínimo, salvo por el hecho de que emiten una ligera aura luminiscente, sólo perceptible en ambientes cerrados y con poca visibilidad. Mientras se encuentran en esta forma, obtienen elevados bonos a su capacidad perceptiva, reflejados en sus habilidades secundarias entre paréntesis. Las Doncellas sólo pueden mantenerse en forma elemental mientras se encuentren en lugares donde llegue hasta ellas la luz. En ubicaciones completamente oscuras, se vuelven materiales.\n\nAlas luminosas: Las Doncellas están dotadas de dos grandes alas de luz, que pueden manifestar a voluntad y que les permiten surcar los cielos con un Tipo de vuelo 12. En realidad no las utilizan en el sentido físico, pero deben materializarlas para ser capaces de volar. Los bonos que les otorga el vuelo en el combate no se encuentran reflejados en sus estadísticas. Inmunidad: Los ataques basados en luz producen la mitad de daño en las Elhaim. Elhaym</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 323</p><p><strong>Entrada:</strong> Doncella de la Luz</p><p><strong>Variante:</strong> Elemental Mayor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos, elemental 30</p><p><strong>Categoría:</strong> Warlock Fue: 9 Des: 13 Agi: 10 Con: 8 Pod: 14 Int: 13 Vol: 12 Per: 13 RF 85 RM 120 RP 95 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Exención física, Inmunidad, Inhumanidad, Don, Inutilidad somática, Tamaño innatural, Características anímicas sobrenaturales, Características físicas sobrehumanas.</p><p><strong>Poderes:</strong> Filo de luz (Daña energía, Ataque elemental), Alas luminosas (tipo 12), RM incrementada +20, Forma elemental condicionada, Forma física a voluntad, Ver lo sobrenatural. Especial: Proyección Mágica como ataque y defensa. de mo vimiento: 10/12</p><p><strong>Daño:</strong> 100 Alabarda FIL / CON, 70 Espada larga FIL</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 130 (180), Buscar 70 (120), Historia 100, Ciencia 55, Ocultismo 190, Memorizar 80, Valoración mágica 190, Arte 120, Baile 120, Música 120, Persuasión 90, Estilo 150, Baile 100</p><p><strong>Descripción breve:</strong> Las Doncellas o Elhaym son los elementales luminosos de mayor poder que existen. Nacieron de la luz más pura antes de la misma Guerra de los Cielos, cuando los propios elementos tomaron vida. Tienen la apariencia de mujeres de excepcional belleza dotadas de alas blancas. Este angelical aspecto ha estimulado a muchas culturas a creer en los ángeles, y es muy posible que el propio Vaticano se inspirase en ellas. También llaman la atención sus ojos, dorados y brillantes, y su pelo, que se mueve solo como si estuviera vivo. Irradian una fuerte aura de armonía, que influye en las personas que se les acercan o con quienes hablan, haciéndoles sentir que se encuentran ante una entidad casi divina. Todas ellas siguen devotamente las doctrinas de C´iel y de las Beryls, y en muchos casos actúan directamente como agentes de alguna de las hijas de la luz. Su personalidad varía dependiendo de cuál sea la Beryl a la que sirven más estrechamente pero, por lo general, se rigen por los mismos cánones de conducta. A pesar de sentir devoción por las artes y la música, también son extremadamente beligerantes y pierden el temple con mucha facilidad, actuando entonces de modo violento. Las Doncellas son inmortales y sólo pueden perecer a causa de un masivo daño espiritual. Algunas de ellas están vivas desde los albores de la historia, aunque la mayoría apenas tiene unos cuantos siglos de edad. En la actualidad su número es muy limitado. Normalmente evitan mezclarse con los mortales, puesto que no desean establecer relaciones afectivas, temiendo verles morir con el tiempo. Aun así, nos observan desde lejos, e incluso a veces intervienen para ayudarnos o castigarnos. Se sabe que varias han hallado su hogar en los lugares más paradisíacos de la Vigilia, mientras otras se encuentran en viejos templos de C´iel que aún no han sido descubiertos. Generalmente actúan solas, pero también es posible que junto a ellas se encuentre un gran número de Luminarias dispuestas a seguir sus indicaciones. m odus operandi Las Doncellas de la Luz están dotadas de grandes habilidades mágicas. Habitualmente, los ensalmos de sus conjuros son canciones que embriagan a quienes las escuchen recitarlos. Por lo general evitan las confrontaciones físicas empleando sus poderes, pero si se ven obligadas a luchar, son combatientes sobrenaturales capaces de acabar por sí mismas con pequeños ejércitos. En el campo de batalla, emplean armas en combinación con sus capacidades místicas de un modo terriblemente efectivo, ya que pueden luchar y lanzar conjuros sin reducir su Acumulación. No tienen puntos vulnerables, salvo su corazón, donde reside el núcleo de su esencia. Algunas de ellas pueden obtener Elan de la Beryl a la que sirven. Filo de luz: En el mismo momento en el que nacen, de su propia esencia surge un arma que las Doncellas empuñan siempre cuando se ven obligadas a entrar en combate. Este artefacto, llamado filo de luz, es una parte de su dueña, quien puede materializarlo o fundirlo con su cuerpo libremente. Habitualmente, toma la forma de una espada larga o una alabarda con una calidad comprendida entre +10 y +15, capaz de dañar energía y que ataca como un arma elemental de luz. Este bono también se añade a la Proyección Mágica de la Doncella cuando usa sus conjuros. Los filos de luz sólo pueden ser empuñados por su señora, o aquellas personas a las que esta otorgue su permiso. Forma elemental (condicionada): El estado natural de las Doncellas es el de seres formados por Luz, incapaces de ser dañadas por ataques que no afecten a energía. Aunque son físicas y pueden tocar o ser tocadas por cualquiera, a voluntad pueden tornarse inmateriales y atravesar cualquier tipo de objeto físico. Incluso bajo la forma elemental, su apariencia no se altera lo más mínimo, salvo por el hecho de que emiten una ligera aura luminiscente, sólo perceptible en ambientes cerrados y con poca visibilidad. Mientras se encuentran en esta forma, obtienen elevados bonos a su capacidad perceptiva, reflejados en sus habilidades secundarias entre paréntesis. Las Doncellas sólo pueden mantenerse en forma elemental mientras se encuentren en lugares donde llegue hasta ellas la luz. En ubicaciones completamente oscuras, se vuelven materiales. Alas luminosas: Las Doncellas están dotadas de dos grandes alas de luz, que pueden manifestar a voluntad y que les permiten surcar los cielos con un Tipo de vuelo 12. En realidad no las utilizan en el sentido físico, pero deben materializarlas para ser capaces de volar. Los bonos que les otorga el vuelo en el combate no se encuentran reflejados en sus estadísticas. Inmunidad: Los ataques basados en luz producen la mitad de daño en las Elhaim. Elhaym</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: Entr e mundos, elemental 30 Puntos de Vida: 210 Categoría: Warlock Fue: 9 Des: 13 Agi: 10 Con: 8 Pod: 14 Int: 13 Vol: 12 Per: 13 RF 85 RM 120 RP 95 RV 85 RE 85\n\nTurno: 1 30 Natural, 105 Alabarda, 120 Espada larga Habilidad de ataque: 230 con Espada o Alabarda +10 Habilidad de defensa: 250 con Espada o Alabarda +10 Daño: 100 Alabarda FIL / CON, 70 Espada larga FIL TA: Ninguna ACT: 80 Conjuros de Luz, 60 Otras\n\nZeon: 1. 15 0\n\nProyección Mágica: 180 Ofensiva, 200 Defensiva Nivel de magia: 90 Luz Habilidades esenciales: Exención física, Inmunidad, Inhumanidad, Don, Inutilidad somática, Tamaño innatural, Características anímicas sobrenaturales, Características físicas sobrehumanas. Poderes: Filo de luz (Daña energía, Ataque elemental), Alas luminosas (tipo 12), RM incrementada +20, Forma elemental condicionada, Forma física a voluntad, Ver lo sobrenatural. Especial: Proyección Mágica como ataque y defensa. de mo vimiento: 10/12 Cansancio: Incansable Habilidades Secundarias: Advertir 1 30 (180), Buscar 70 (120), Historia 100, Ciencia 55, Ocultismo 190, Memorizar 80, Valoración mágica 1 90, Arte 120, Baile 120, Música 120, Persuasión 90, Estilo 1 50, Baile 100. Las Doncellas o Elhaym son los elementales luminosos de mayor poder que existen.\n\nNacieron de la luz más pura antes de la misma Guerra de los Cielos, cuando los propios elementos tomaron vida. Tienen la apariencia de mujeres de excepcional belleza dotadas de alas blancas. Este angelical aspecto ha estimulado a muchas culturas a creer en los ángeles, y es muy posible que el propio Vaticano se inspirase en ellas. También llaman la atención sus ojos, dorados y brillantes, y su pelo, que se mueve solo como si estuviera vivo. Irradian una fuerte aura de armonía, que influye en las personas que se les acercan o con quienes hablan, haciéndoles sentir que se encuentran ante una entidad casi divina. Todas ellas siguen devotamente las doctrinas de C´iel y de las Beryls, y en muchos casos actúan directamente como agentes de alguna de las hijas de la luz.\n\nSu personalidad varía dependiendo de cuál sea la Beryl a la que sirven más estrechamente pero, por lo general, se rigen por los mismos cánones de conducta. A pesar de sentir devoción por las artes y la música, también son extremadamente beligerantes y pierden el temple con mucha facilidad, actuando entonces de modo violento. Las Doncellas son inmortales y sólo pueden perecer a causa de un masivo daño espiritual. Algunas de ellas están vivas desde los albores de la historia, aunque la mayoría apenas tiene unos cuantos siglos de edad. En la actualidad su número es muy limitado. Normalmente evitan mezclarse con los mortales, puesto que no desean establecer relaciones afectivas, temiendo verles morir con el tiempo. Aun así, nos observan desde lejos, e incluso a veces intervienen para ayudarnos o castigarnos.\n\nSe sabe que varias han hallado su hogar en los lugares más paradisíacos de la Vigilia, mientras otras se encuentran en viejos templos de C´iel que aún no han sido descubiertos. Generalmente actúan solas, pero también es posible que junto a ellas se encuentre un gran número de Luminarias dispuestas a seguir sus indicaciones. m odus operandi Las Doncellas de la Luz están dotadas de grandes habilidades mágicas. Habitualmente, los ensalmos de sus conjuros son canciones que embriagan a quienes las escuchen recitarlos. Por lo general evitan las confrontaciones físicas empleando sus poderes, pero si se ven obligadas a luchar, son combatientes sobrenaturales capaces de acabar por sí mismas con pequeños ejércitos. En el campo de batalla, emplean armas en combinación con sus capacidades místicas de un modo terriblemente efectivo, ya que pueden luchar y lanzar conjuros sin reducir su Acumulación.\n\nNo tienen puntos vulnerables, salvo su corazón, donde reside el núcleo de su esencia. Algunas de ellas pueden obtener Elan de la Beryl a la que sirven. Filo de luz: En el mismo momento en el que nacen, de su propia esencia surge un arma que las Doncellas empuñan siempre cuando se ven obligadas a entrar en combate. Este artefacto, llamado filo de luz, es una parte de su dueña, quien puede materializarlo o fundirlo con su cuerpo libremente. Habitualmente, toma la forma de una espada larga o una alabarda con una calidad comprendida entre +10 y +1 5, capaz de dañar energía y que ataca como un arma elemental de luz. Este bono también se añade a la Proyección Mágica de la Doncella cuando usa sus conjuros. Los filos de luz sólo pueden ser empuñados por su señora, o aquellas personas a las que esta otorgue su permiso.\n\nForma elemental (condicionada): El estado natural de las Doncellas es el de seres formados por Luz, incapaces de ser dañadas por ataques que no afecten a energía. Aunque son físicas y pueden tocar o ser tocadas por cualquiera, a voluntad pueden tornarse inmateriales y atravesar cualquier tipo de objeto físico. Incluso bajo la forma elemental, su apariencia no se altera lo más mínimo, salvo por el hecho de que emiten una ligera aura luminiscente, sólo perceptible en ambientes cerrados y con poca visibilidad. Mientras se encuentran en esta forma, obtienen elevados bonos a su capacidad perceptiva, reflejados en sus habilidades secundarias entre paréntesis. Las Doncellas sólo pueden mantenerse en forma elemental mientras se encuentren en lugares donde llegue hasta ellas la luz. En ubicaciones completamente oscuras, se vuelven materiales.\n\nAlas luminosas: Las Doncellas están dotadas de dos grandes alas de luz, que pueden manifestar a voluntad y que les permiten surcar los cielos con un Tipo de vuelo 12. En realidad no las utilizan en el sentido físico, pero deben materializarlas para ser capaces de volar. Los bonos que les otorga el vuelo en el combate no se encuentran reflejados en sus estadísticas. Inmunidad: Los ataques basados en luz producen la mitad de daño en las Elhaim. Elhaym</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +257,6 @@
           }
         }
       ],
-      "level": {
-        "value": 10
-      },
       "notes": [
         {
           "_id": "note-doncella-de-la-luz-elemental-may-3",
@@ -345,52 +276,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 14
-          }
+          "value": 14,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         }
       },
       "secondaries": {
@@ -401,9 +316,6 @@
         "initiative": {
           "base": {
             "value": 130
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +366,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -465,10 +374,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -476,10 +382,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 85045
+              "value": 85130
             },
             "final": {
               "value": 0
@@ -487,10 +390,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 20
+              "value": 120
             },
             "final": {
               "value": 0
@@ -498,10 +398,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 95
             },
             "final": {
               "value": 0
@@ -513,230 +410,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 130
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 70
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 190
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 190
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 90
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 230
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 250
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -767,11 +889,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -783,16 +901,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 1150,
         "max": 1150
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -804,14 +927,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -916,15 +1036,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -936,37 +1052,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1089,9 +1225,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

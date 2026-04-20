@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 29</p><p><strong>Entrada:</strong> Katerine Kaela Stratos</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Hechicero Fue: 5 Des: 9 Agi: 7 Con: 6 Pod: 10 Int: 10 Vol: 6 Per: 7 RF 35 RM 55 (75) RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Don, Desequilibrio Elemental.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 5 Combate desarmado</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Ciencia 45, Advertir 25, Buscar 15, Historia 35, Memorizar 25, Ocultismo 45, Valoración mágica 50</p><p><strong>Descripción breve:</strong> Katerine Kaela Stratos es una mujer de veintitrés años, de finos rasgos y agradable sonrisa. Viste de manera ostentosa y llamativa, con amplios ropajes repletos de largos cintos. Originaria de Arlan, desde pequeña Kaela demostró ser poseedora de una mente excepcional. Llegó un momento en que sus progresos fueron tan grandes que no pudieron ser ignorados, lo que le valió el ingreso en una universidad de Ilmora. Allí, sus capacidades sobrenaturales no tardaron en ser descubiertas por una división de la Orden de Magus, que vieron en la joven un verdadero diamante en bruto. Intrigada por el increíble mundo de secretos que se presentaba ante ella, Kaela se unió a la sociedad, donde aprendió todos los principios de la hechicería. También conoció aAlisterKhaine, un joven que, con tan sólo un año más que ella, ya había alcanzado el rango de Magister. Al principio, Kaela se sintió irritada de que su mentor fuese un chico de su edad, pero su enojo inicial fue paulatinamente convirtiéndose en admiración y, con el tiempo, en fascinación. Aunque ella misma no quería admitirlo, se había enamorado de él, así que empezó a descuidar sus estudio para poder estar a su lado. Finalmente, armándose de todo el valor que pudo, decidió confesarle sus sentimientos en el parque donde se conocieron, pero Alister jamás acudió a la cita. Días después, Kaela descubrió que Khaine había desaparecido en extrañas circunstancias, y ni siquiera el Magus Locci, el más alto círculo de la orden, conocía su paradero. Temiendo lo peor, pero sin una remota pista de dónde podía estar, Kaela perdió durante un tiempo su interés en las ciencias ocultas y decidió tomarse un respiro para poder encontrarle. Aunque aún forma parte de la orden, en los últimos años Kaela no ha hecho grandes avances, al centrar todo su interés en sus viajes. De no ser así, seguro que sus capacidades mágicas serían actualmente muy superiores. Tras oír ciertos rumores esperanzadores, ha creído encontrar una pista del paradero de Alister, y temiendo que sus poderes no estén a la altura de la situación, ha decidido tomarse las cosas más en serio; un nuevo instinto de superación como el que no sentía desde que era niña le empuja a seguir su camino con más cuidado. De algún mondo, tiene la sensación de que se avecinan tiempos difíciles. Posesiones: Una maleta, Tres mudas de ropa (una de ellas cara), Un par de libros de historia, 16 Escudos de Oro. KainRosencreuz</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 90 Categoría: Hechicero Fue: 5 Des: 9 Agi: 7 Con: 6 Pod: 10 Int: 10 Vol: 6 Per: 7 RF 35 RM 55 (75) RP 35 RV 35 RE 35\n\nTurno: 60 Natural Habilidad de ataque: 10 Combate desarmado Habilidad de defensa: 5 Esquiva Daño: 5 Combate desarmado Llevar Armadura: 0 TA: Ninguna ACT: 40 (60 Agua)\n\nZeon: 735\n\nProyección Mágica: 65 Nivel de magia: 26 Agua Ventajas y desventajas: Don, Desequilibrio Elemental. Habilidades naturales: Ninguna. de movimiento: 7 Cansancio: 6 Habilidades Secundarias: Ciencia 45, Advertir 25, Buscar 1 5, Historia 35, Memorizar 25, Ocultismo 45, Valoración mágica 50. Katerine Kaela Stratos es una mujer de veintitrés años, de finos rasgos y agradable sonrisa. Viste de manera ostentosa y llamativa, con amplios ropajes repletos de largos cintos. Originaria de Arlan, desde pequeña Kaela demostró ser poseedora de una mente excepcional. Llegó un momento en que sus progresos fueron tan grandes que no pudieron ser ignorados, lo que le valió el ingreso en una universidad de Ilmora. Allí, sus capacidades sobrenaturales no tardaron en ser descubiertas por una división de la Orden de Magus, que vieron en la joven un verdadero diamante en bruto.\n\nIntrigada por el increíble mundo de secretos que se presentaba ante ella, Kaela se unió a la sociedad, donde aprendió todos los principios de la hechicería. También conoció aAlisterKhaine, un joven que, con tan sólo un año más que ella, ya había alcanzado el rango de Magister. Al principio, Kaela se sintió irritada de que su mentor fuese un chico de su edad, pero su enojo inicial fue paulatinamente convirtiéndose en admiración y, con el tiempo, en fascinación. Aunque ella misma no quería admitirlo, se había enamorado de él, así que empezó a descuidar sus estudio para poder estar a su lado. Finalmente, armándose de todo el valor que pudo, decidió confesarle sus sentimientos en el parque donde se conocieron, pero Alister jamás acudió a la cita.\n\nDías después, Kaela descubrió que Khaine había desaparecido en extrañas circunstancias, y ni siquiera el Magus Locci, el más alto círculo de la orden, conocía su paradero. Temiendo lo peor, pero sin una remota pista de dónde podía estar, Kaela perdió durante un tiempo su interés en las ciencias ocultas y decidió tomarse un respiro para poder encontrarle. Aunque aún forma parte de la orden, en los últimos años Kaela no ha hecho grandes avances, al centrar todo su interés en sus viajes. De no ser así, seguro que sus capacidades mágicas serían actualmente muy superiores. Tras oír ciertos rumores esperanzadores, ha creído encontrar una pista del paradero de Alister, y temiendo que sus poderes no estén a la altura de la situación, ha decidido tomarse las cosas más en serio; un nuevo instinto de superación como el que no sentía desde que era niña le empuja a seguir su camino con más cuidado.\n\nDe algún mondo, tiene la sensación de que se avecinan tiempos difíciles. Posesiones: Una maleta, Tres mudas de ropa (una de ellas cara), Un par de libros de historia, 1 6 Escudos de Oro. KainRosencreuz</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 29</p><p><strong>Entrada:</strong> Katerine Kaela Stratos</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Hechicero Fue: 5 Des: 9 Agi: 7 Con: 6 Pod: 10 Int: 10 Vol: 6 Per: 7 RF 35 RM 55 (75) RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Don, Desequilibrio Elemental.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 5 Combate desarmado</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Ciencia 45, Advertir 25, Buscar 15, Historia 35, Memorizar 25, Ocultismo 45, Valoración mágica 50</p><p><strong>Descripción breve:</strong> Katerine Kaela Stratos es una mujer de veintitrés años, de finos rasgos y agradable sonrisa. Viste de manera ostentosa y llamativa, con amplios ropajes repletos de largos cintos. Originaria de Arlan, desde pequeña Kaela demostró ser poseedora de una mente excepcional. Llegó un momento en que sus progresos fueron tan grandes que no pudieron ser ignorados, lo que le valió el ingreso en una universidad de Ilmora. Allí, sus capacidades sobrenaturales no tardaron en ser descubiertas por una división de la Orden de Magus, que vieron en la joven un verdadero diamante en bruto. Intrigada por el increíble mundo de secretos que se presentaba ante ella, Kaela se unió a la sociedad, donde aprendió todos los principios de la hechicería. También conoció aAlisterKhaine, un joven que, con tan sólo un año más que ella, ya había alcanzado el rango de Magister. Al principio, Kaela se sintió irritada de que su mentor fuese un chico de su edad, pero su enojo inicial fue paulatinamente convirtiéndose en admiración y, con el tiempo, en fascinación. Aunque ella misma no quería admitirlo, se había enamorado de él, así que empezó a descuidar sus estudio para poder estar a su lado. Finalmente, armándose de todo el valor que pudo, decidió confesarle sus sentimientos en el parque donde se conocieron, pero Alister jamás acudió a la cita. Días después, Kaela descubrió que Khaine había desaparecido en extrañas circunstancias, y ni siquiera el Magus Locci, el más alto círculo de la orden, conocía su paradero. Temiendo lo peor, pero sin una remota pista de dónde podía estar, Kaela perdió durante un tiempo su interés en las ciencias ocultas y decidió tomarse un respiro para poder encontrarle. Aunque aún forma parte de la orden, en los últimos años Kaela no ha hecho grandes avances, al centrar todo su interés en sus viajes. De no ser así, seguro que sus capacidades mágicas serían actualmente muy superiores. Tras oír ciertos rumores esperanzadores, ha creído encontrar una pista del paradero de Alister, y temiendo que sus poderes no estén a la altura de la situación, ha decidido tomarse las cosas más en serio; un nuevo instinto de superación como el que no sentía desde que era niña le empuja a seguir su camino con más cuidado. De algún mondo, tiene la sensación de que se avecinan tiempos difíciles. Posesiones: Una maleta, Tres mudas de ropa (una de ellas cara), Un par de libros de historia, 16 Escudos de Oro. KainRosencreuz</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 90 Categoría: Hechicero Fue: 5 Des: 9 Agi: 7 Con: 6 Pod: 10 Int: 10 Vol: 6 Per: 7 RF 35 RM 55 (75) RP 35 RV 35 RE 35\n\nTurno: 60 Natural Habilidad de ataque: 10 Combate desarmado Habilidad de defensa: 5 Esquiva Daño: 5 Combate desarmado Llevar Armadura: 0 TA: Ninguna ACT: 40 (60 Agua)\n\nZeon: 735\n\nProyección Mágica: 65 Nivel de magia: 26 Agua Ventajas y desventajas: Don, Desequilibrio Elemental. Habilidades naturales: Ninguna. de movimiento: 7 Cansancio: 6 Habilidades Secundarias: Ciencia 45, Advertir 25, Buscar 1 5, Historia 35, Memorizar 25, Ocultismo 45, Valoración mágica 50. Katerine Kaela Stratos es una mujer de veintitrés años, de finos rasgos y agradable sonrisa. Viste de manera ostentosa y llamativa, con amplios ropajes repletos de largos cintos. Originaria de Arlan, desde pequeña Kaela demostró ser poseedora de una mente excepcional. Llegó un momento en que sus progresos fueron tan grandes que no pudieron ser ignorados, lo que le valió el ingreso en una universidad de Ilmora. Allí, sus capacidades sobrenaturales no tardaron en ser descubiertas por una división de la Orden de Magus, que vieron en la joven un verdadero diamante en bruto.\n\nIntrigada por el increíble mundo de secretos que se presentaba ante ella, Kaela se unió a la sociedad, donde aprendió todos los principios de la hechicería. También conoció aAlisterKhaine, un joven que, con tan sólo un año más que ella, ya había alcanzado el rango de Magister. Al principio, Kaela se sintió irritada de que su mentor fuese un chico de su edad, pero su enojo inicial fue paulatinamente convirtiéndose en admiración y, con el tiempo, en fascinación. Aunque ella misma no quería admitirlo, se había enamorado de él, así que empezó a descuidar sus estudio para poder estar a su lado. Finalmente, armándose de todo el valor que pudo, decidió confesarle sus sentimientos en el parque donde se conocieron, pero Alister jamás acudió a la cita.\n\nDías después, Kaela descubrió que Khaine había desaparecido en extrañas circunstancias, y ni siquiera el Magus Locci, el más alto círculo de la orden, conocía su paradero. Temiendo lo peor, pero sin una remota pista de dónde podía estar, Kaela perdió durante un tiempo su interés en las ciencias ocultas y decidió tomarse un respiro para poder encontrarle. Aunque aún forma parte de la orden, en los últimos años Kaela no ha hecho grandes avances, al centrar todo su interés en sus viajes. De no ser así, seguro que sus capacidades mágicas serían actualmente muy superiores. Tras oír ciertos rumores esperanzadores, ha creído encontrar una pista del paradero de Alister, y temiendo que sus poderes no estén a la altura de la situación, ha decidido tomarse las cosas más en serio; un nuevo instinto de superación como el que no sentía desde que era niña le empuja a seguir su camino con más cuidado.\n\nDe algún mondo, tiene la sensación de que se avecinan tiempos difíciles. Posesiones: Una maleta, Tres mudas de ropa (una de ellas cara), Un par de libros de historia, 1 6 Escudos de Oro. KainRosencreuz</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-katerine-kaela-stratos-1",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 60
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 3525
+              "value": 3560
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10
+              "value": 55
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -513,215 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 10
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 5
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -752,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -768,16 +889,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 735,
         "max": 735
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -789,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -901,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -921,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1074,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

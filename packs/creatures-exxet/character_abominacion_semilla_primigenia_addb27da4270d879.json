@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,25 @@
         "openOnDoubles": {
           "value": false
         },
+        "defenseType": {
+          "value": ""
+        },
+        "zen": {
+          "value": true
+        },
         "perceiveMystic": {
           "value": true
         },
         "perceivePsychic": {
           "value": true
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": true
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +306,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +326,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 65
         }
       },
       "aspect": {
@@ -430,7 +360,7 @@
           "value": "Semilla Primigenia"
         },
         "size": {
-          "value": 30
+          "value": "30"
         }
       },
       "advantages": [],
@@ -448,7 +378,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 8</p><p><strong>Entrada:</strong> Abominación</p><p><strong>Variante:</strong> Semilla Primigenia</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 25</p><p><strong>Categoría:</strong> Guerrero Fue: 15 Des: 6 Agi: 4 Con: 15 Pod: 12 Int: 4 Vol: 10 Per: 10 RF 95 RM 85 RP 80 RV 95 RE 95</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrenaturales, Zen, Sin Inconsciencia, Voluntad Inquebrantable (Inmunidad Psicológica).</p><p><strong>Poderes:</strong> Armas Naturales: Tentáculos (Daña Energía, Dos Ataques adicionales -30, RF 180, Drenaje Completo), Vaciar Mente (Poder Psíquico Innato, Muerte Psíquica, RP 140, Sin Límite, Requiere 2 Turnos de Preparatoria), Regeneración 16, Ver lo Sobrenatural, Visión Radial, Mutación Aberrante.</p><p><strong>Daño:</strong> 130 Tentáculos (Con)</p><p><strong>TA:</strong> Natural 6</p><p><strong>Habilidades secundarias:</strong> Advertir 75, Buscar 150, Proezas de Fuerza 215</p><p><strong>Descripción breve:</strong> Probablemente ningún nombre encaje mejor que el de “Abominación Primigenia” para definir a estas monstruosidades. Se trata de las semillas de los mil veces malditos dioses Primigenios, parásitos provenientes de sus cuerpos impíos que se desprendieron de ellos al ser confinados en la Cordillera de los Vientos. Son pesadillas amorfas y abotargadas repletas de tentáculos, ojos y bocas que no hacen más que mutar. Carne putrefacta, yagas y pus componen mayoritariamente su cuerpo, del cual emana un hedor que hace vomitar a cuantos se les acercan. Su tamaño oscila entre los treinta y los cincuenta metros, pero pueden crecer conforme van alimentándose de la energía vital de sus víctimas hasta quintuplicar esas dimensiones. Igual que los propios Primigenios, las Abominaciones permanecen encerradas en las profundidades. La mayoría está dentro de la propia Cordillera de los Vientos, pero lo cierto es que hay multitud de ellas repartidas por todo el mundo (probablemente, más de un centenar). Sobre cada uno de sus cubiles hay construido algún ancestral sello Sylvain que evita que se liberen. Por lo general suelen estar camuflados dentro de iglesias o monumentos con el único objetivo de que no sean destruidos por seguidores de los primigenios o fanáticos religiosos que ignoran su verdadera función. Las Abominaciones no tienen ningún otro cometido mas que devorar cuanto encuentran a su paso; exterminan todo rastro de vida dejando tras de sí poco más que sangre y cenizas. De hecho, carecen de nada parecido a una mente, son pura locura y ansia encarnadas. Si se diera el caso de que alguno llegase a despertar, simplemente ascendería lentamente a la superficie y darían comienzo a su sinfonía de destrucción. m oduS oPerandiComo parásitos de los Primigenios, las Abominaciones son monstruosidades de gran poder destructivo capaces de acabar fácilmente con batallones enteros. Además, puesto que sus poderes se incrementan conforme van absorbiendo vida, cuanto más matan son más peligrosas, hasta llegar a convertirse prácticamente en Primigenios en miniatura. Puesto que son masas amorfas, no tienen puntos vulnerables conocidos. Voluntad Inquebrantable: Una Abominación no posee una mente como tal; toda ella es poco más que una desmesurada voluntad de devorar todo cuanto se ponga en su camino. Por tanto, no es afectado por poderes psíquicos telepáticos ni ninguna habilidad sobrenatural que pueda “controlar” su mente (más no así su cuerpo). Regeneración: Una Abominación primigenia recupera 150 Puntos de Vida por turno, salvo el daño procedente de armas que tengan la consideración de benditas o cargadas de fuerza impía. Tentáculos: Los apéndices de la pesadilla no sólo tienen una fuerza aterradora, también poseen la capacidad de “devorar” la esencia de todo cuanto tocan. Al entrar en contacto con un ente vivo este empieza a “secarse”, quedando desprovisto de cualquier rastro de fuerza vital. Con ella la criatura crece y regurgita nuevos apéndices, convirtiéndose en una monstruosidad aún mayor. Cada vez que la Abominación cause daños o atrape con los Tentáculos a un objetivo (basta con realizar una maniobra de Presa y conseguir al menos Parálisis Menor), este debe superar un control de RF contra 180 o sufrir un daño equivalente al nivel de fracaso. Vaciar Mente: Utilizando su voluntad colectiva, la Abominación puede producir un desgarrador estallido psíquico que destruye la mente de cuantos le rodean. Para usar esta habilidad la criatura ha de prepararse durante dos asaltos completos, durante los cuales aplica un penalizador de -50 a su Habilidad de Ataque con sus tentáculos. Finalmente, activa el estallido, que es equivalente al poder mental Muerte Psíquica con un potencial de 180 puntos. Todo aquel que se encuentre a menos de 100 metros de la criatura debe de superar un control de RP contra 140 o perderá un punto de Inteligencia y otro de Voluntad por cada 10 que lo haya fallado. En el caso de que alguna de las dos Características llegue hasta cero, la mente del sujeto se quiebra y queda lobotomizado, algo que la Abominación aprovecha para alimentarse de su vida. Ojos de Abominación: Las Abominaciones tienen decenas de ojos que ven tanto el mundo material como el espiritual. En consecuencia, poseen los poderes Visión Radial y Ver lo Sobrenatural. Mutación Aberrante: Las personas que mueran a consecuencia de la absorción de vida de los tentáculos pierden su esencia vital, que es devorada de inmediato por la Abominación. En consecuencia, cada vez que la criatura se alimente de un ser vivo suma la Presencia de su víctima al valor de su Estado de Mutación; cuanto más elevado sea este, mayores serán los poderes de la pesadilla. Los seres naturales que tengan una Natura superior a cero multiplican por ese valor su Presencia base para determinar cual es el “potencial” de su fuerza vital. Dependiendo de cual sea la suma de las presencias devoradas, la Abominación conseguirá diferentes poderes tal y como se indica a continuación. EntrE 100 y 250: Obtiene suficientes tentáculos como para realizar un segundo ataque adicional con habilidad plena. EntrE 250 y 1.000: Sus Puntos de Vida máximos aumentan hasta 5.000, y el daño base de sus tentáculos hasta 150. EntrE 1.000 y 5.000: Obtiene un tercer ataque adicional por asalto con habilidad plena. Entre 5.000 y 25.000: Sus Puntos de Vida máximos aumentan hasta 7.000 y su Regeneración le permite recuperar hasta 250 por asalto. Más d E 25.000: La criatura obtiene un cuarto ataque adicional con sus tentáculos, cuyo daño se incrementa hasta 180. Adicionalmente, obtiene un bono de +20 a toda acción y la habilidad Vaciar Mente incrementa la dificultad de su RP hasta 180, cubriendo un área de 250 metros. e l m isterio De las Desapariciones Fatídicamente una remodelación en una vieja iglesia ha dañado uno de los sellos que contienen a una Abominación. Esta, aún parcialmente aletargada, ha empezado a devorar ciudadanos por las noches usando el sistema de alcantarillado para mover sus tentáculos (pues ella aún no puede salir a la superficie). Los cuerpos, marchitos y envejecidos, han sido encontrados por la guardia no sin cierta consternación. El problema es que las autoridades locales no quieren involucrar a la Inquisición (pues ya tuvieron malas experiencias con ella en el pasado), por lo que están camuflando las muertes como actos de un asesino en serie. No obstante, intuyendo que probablemente sea algo “sobrenatural”, han decidido contratar encubiertamente expertos que puedan ayudarles a detener al “asesino”. Para empeorar las cosas, una secta de ocultistas de tres al cuarto piensa que lo que está ocurriendo es en realidad obra suya; creen erróneamente que invocaron a un demonio en la ciudad y que necesitan entregarle sacrificios humanos para que cumpla sus deseos. Por ello también han empezado una serie de asesinatos rituales que, naturalmente, no harán más que confundir a los investigadores.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Entre mundos 25 Puntos de Vida: 3.000 (Especial) Categoría: Guerrero Fue: 15 Des: 6 Agi: 4 Con: 15 Pod: 12 Int: 4 Vol: 10 Per: 10 RF 95 RM 85 RP 80 RV 95 RE 95\n\nTurno: 60 Natural Habilidad de ataque: 1 75 Tentáculos (Especial), 200 Vaciar mente. Habilidad de defensa: Acumulación Daño: 1 30 Tentáculos (Con) TA: Natural 6 Habilidades esenciales: Características Físicas Sobrenaturales, Zen, Sin Inconsciencia, Voluntad Inquebrantable (Inmunidad Psicológica). Poderes: Armas Naturales: Tentáculos (Daña Energía, Dos Ataques adicionales -30, RF 180, Drenaje Completo), Vaciar Mente (Poder Psíquico Innato, Muerte Psíquica, RP 1 40, Sin Límite, Requiere 2 Turnos de Preparatoria), Regeneración 1 6, Ver lo Sobrenatural, Visión Radial, Mutación Aberrante.\n\nTamaño: 30 Gigantesco Regeneración: 16 Tipo de movimiento: 6 Cansancio: 15 Habilidades Secundarias: Advertir 75, Buscar 1 50, Proezas de Fuerza 2 1 5. Probablemente ningún nombre encaje mejor que el de “Abominación Primigenia” para definir a estas monstruosidades. Se trata de las semillas de los mil veces malditos dioses Primigenios, parásitos provenientes de sus cuerpos impíos que se desprendieron de ellos al ser confinados en la Cordillera de los Vientos. Son pesadillas amorfas y abotargadas repletas de tentáculos, ojos y bocas que no hacen más que mutar. Carne putrefacta, yagas y pus componen mayoritariamente su cuerpo, del cual emana un hedor que hace vomitar a cuantos se les acercan. Su tamaño oscila entre los treinta y los cincuenta metros, pero pueden crecer conforme van alimentándose de la energía vital de sus víctimas hasta quintuplicar esas dimensiones.\n\nIgual que los propios Primigenios, las Abominaciones permanecen encerradas en las profundidades. La mayoría está dentro de la propia Cordillera de los Vientos, pero lo cierto es que hay multitud de ellas repartidas por todo el mundo (probablemente, más de un centenar). Sobre cada uno de sus cubiles hay construido algún ancestral sello Sylvain que evita que se liberen. Por lo general suelen estar camuflados dentro de iglesias o monumentos con el único objetivo de que no sean destruidos por seguidores de los primigenios o fanáticos religiosos que ignoran su verdadera función. Las Abominaciones no tienen ningún otro cometido mas que devorar cuanto encuentran a su paso; exterminan todo rastro de vida dejando tras de sí poco más que sangre y cenizas. De hecho, carecen de nada parecido a una mente, son pura locura y ansia encarnadas.\n\nSi se diera el caso de que alguno llegase a despertar, simplemente ascendería lentamente a la superficie y darían comienzo a su sinfonía de destrucción. m oduS oPerandiComo parásitos de los Primigenios, las Abominaciones son monstruosidades de gran poder destructivo capaces de acabar fácilmente con batallones enteros. Además, puesto que sus poderes se incrementan conforme van absorbiendo vida, cuanto más matan son más peligrosas, hasta llegar a convertirse prácticamente en Primigenios en miniatura. Puesto que son masas amorfas, no tienen puntos vulnerables conocidos. Voluntad Inquebrantable: Una Abominación no posee una mente como tal; toda ella es poco más que una desmesurada voluntad de devorar todo cuanto se ponga en su camino. Por tanto, no es afectado por poderes psíquicos telepáticos ni ninguna habilidad sobrenatural que pueda “controlar” su mente (más no así su cuerpo).\n\nRegeneración: Una Abominación primigenia recupera 1 50 Puntos de Vida por turno, salvo el daño procedente de armas que tengan la consideración de benditas o cargadas de fuerza impía. Tentáculos: Los apéndices de la pesadilla no sólo tienen una fuerza aterradora, también poseen la capacidad de “devorar” la esencia de todo cuanto tocan. Al entrar en contacto con un ente vivo este empieza a “secarse”, quedando desprovisto de cualquier rastro de fuerza vital. Con ella la criatura crece y regurgita nuevos apéndices, convirtiéndose en una monstruosidad aún mayor. Cada vez que la Abominación cause daños o atrape con los Tentáculos a un objetivo (basta con realizar una maniobra de Presa y conseguir al menos Parálisis Menor), este debe superar un control de RF contra 180 o sufrir un daño equivalente al nivel de fracaso.\n\nVaciar Mente: Utilizando su voluntad colectiva, la Abominación puede producir un desgarrador estallido psíquico que destruye la mente de cuantos le rodean. Para usar esta habilidad la criatura ha de prepararse durante dos asaltos completos, durante los cuales aplica un penalizador de -50 a su Habilidad de Ataque con sus tentáculos. Finalmente, activa el estallido, que es equivalente al poder mental Muerte Psíquica con un potencial de 180 puntos. Todo aquel que se encuentre a menos de 100 metros de la criatura debe de superar un control de RP contra 1 40 o perderá un punto de Inteligencia y otro de Voluntad por cada 10 que lo haya fallado. En el caso de que alguna de las dos Características llegue hasta cero, la mente del sujeto se quiebra y queda lobotomizado, algo que la Abominación aprovecha para alimentarse de su vida.\n\nOjos de Abominación: Las Abominaciones tienen decenas de ojos que ven tanto el mundo material como el espiritual. En consecuencia, poseen los poderes Visión Radial y Ver lo Sobrenatural. Mutación Aberrante: Las personas que mueran a consecuencia de la absorción de vida de los tentáculos pierden su esencia vital, que es devorada de inmediato por la Abominación. En consecuencia, cada vez que la criatura se alimente de un ser vivo suma la Presencia de su víctima al valor de su Estado de Mutación; cuanto más elevado sea este, mayores serán los poderes de la pesadilla. Los seres naturales que tengan una Natura superior a cero multiplican por ese valor su Presencia base para determinar cual es el “potencial” de su fuerza vital. Dependiendo de cual sea la suma de las presencias devoradas, la Abominación conseguirá diferentes poderes tal y como se indica a continuación.\n\nEntrE 100 y 250: Obtiene suficientes tentáculos como para realizar un segundo ataque adicional con habilidad plena. EntrE 250 y 1.000: Sus Puntos de Vida máximos aumentan hasta 5.000, y el daño base de sus tentáculos hasta 1 50. EntrE 1.000 y 5.000: Obtiene un tercer ataque adicional por asalto con habilidad plena. Entre 5.000 y 25.000: Sus Puntos de Vida máximos aumentan hasta 7 .000 y su Regeneración le permite recuperar hasta 250 por asalto. Más d E 25.000: La criatura obtiene un cuarto ataque adicional con sus tentáculos, cuyo daño se incrementa hasta 180. Adicionalmente, obtiene un bono de +20 a toda acción y la habilidad Vaciar Mente incrementa la dificultad de su RP hasta 180, cubriendo un área de 250 metros. (order #3443007) e l m isterio De las Desapariciones Fatídicamente una remodelación en una vieja iglesia ha dañado uno de los sellos que contienen a una Abominación.\n\nEsta, aún parcialmente aletargada, ha empezado a devorar ciudadanos por las noches usando el sistema de alcantarillado para mover sus tentáculos (pues ella aún no puede salir a la superficie). Los cuerpos, marchitos y envejecidos, han sido encontrados por la guardia no sin cierta consternación. El problema es que las autoridades locales no quieren involucrar a la Inquisición (pues ya tuvieron malas experiencias con ella en el pasado), por lo que están camuflando las muertes como actos de un asesino en serie. No obstante, intuyendo que probablemente sea algo “sobrenatural”, han decidido contratar encubiertamente expertos que puedan ayudarles a detener al “asesino”.\n\nPara empeorar las cosas, una secta de ocultistas de tres al cuarto piensa que lo que está ocurriendo es en realidad obra suya; creen erróneamente que invocaron a un demonio en la ciudad y que necesitan entregarle sacrificios humanos para que cumpla sus deseos. Por ello también han empezado una serie de asesinatos rituales que, naturalmente, no harán más que confundir a los investigadores. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 8</p><p><strong>Entrada:</strong> Abominación</p><p><strong>Variante:</strong> Semilla Primigenia</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 25</p><p><strong>Categoría:</strong> Guerrero Fue: 15 Des: 6 Agi: 4 Con: 15 Pod: 12 Int: 4 Vol: 10 Per: 10 RF 95 RM 85 RP 80 RV 95 RE 95</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrenaturales, Zen, Sin Inconsciencia, Voluntad Inquebrantable (Inmunidad Psicológica).</p><p><strong>Poderes:</strong> Armas Naturales: Tentáculos (Daña Energía, Dos Ataques adicionales -30, RF 180, Drenaje Completo), Vaciar Mente (Poder Psíquico Innato, Muerte Psíquica, RP 140, Sin Límite, Requiere 2 Turnos de Preparatoria), Regeneración 16, Ver lo Sobrenatural, Visión Radial, Mutación Aberrante.</p><p><strong>Daño:</strong> 130 Tentáculos (Con)</p><p><strong>TA:</strong> Natural 6</p><p><strong>Habilidades secundarias:</strong> Advertir 75, Buscar 150, Proezas de Fuerza 215</p><p><strong>Descripción breve:</strong> Probablemente ningún nombre encaje mejor que el de “Abominación Primigenia” para definir a estas monstruosidades. Se trata de las semillas de los mil veces malditos dioses Primigenios, parásitos provenientes de sus cuerpos impíos que se desprendieron de ellos al ser confinados en la Cordillera de los Vientos. Son pesadillas amorfas y abotargadas repletas de tentáculos, ojos y bocas que no hacen más que mutar. Carne putrefacta, yagas y pus componen mayoritariamente su cuerpo, del cual emana un hedor que hace vomitar a cuantos se les acercan. Su tamaño oscila entre los treinta y los cincuenta metros, pero pueden crecer conforme van alimentándose de la energía vital de sus víctimas hasta quintuplicar esas dimensiones. Igual que los propios Primigenios, las Abominaciones permanecen encerradas en las profundidades. La mayoría está dentro de la propia Cordillera de los Vientos, pero lo cierto es que hay multitud de ellas repartidas por todo el mundo (probablemente, más de un centenar). Sobre cada uno de sus cubiles hay construido algún ancestral sello Sylvain que evita que se liberen. Por lo general suelen estar camuflados dentro de iglesias o monumentos con el único objetivo de que no sean destruidos por seguidores de los primigenios o fanáticos religiosos que ignoran su verdadera función. Las Abominaciones no tienen ningún otro cometido mas que devorar cuanto encuentran a su paso; exterminan todo rastro de vida dejando tras de sí poco más que sangre y cenizas. De hecho, carecen de nada parecido a una mente, son pura locura y ansia encarnadas. Si se diera el caso de que alguno llegase a despertar, simplemente ascendería lentamente a la superficie y darían comienzo a su sinfonía de destrucción. m oduS oPerandiComo parásitos de los Primigenios, las Abominaciones son monstruosidades de gran poder destructivo capaces de acabar fácilmente con batallones enteros. Además, puesto que sus poderes se incrementan conforme van absorbiendo vida, cuanto más matan son más peligrosas, hasta llegar a convertirse prácticamente en Primigenios en miniatura. Puesto que son masas amorfas, no tienen puntos vulnerables conocidos. Voluntad Inquebrantable: Una Abominación no posee una mente como tal; toda ella es poco más que una desmesurada voluntad de devorar todo cuanto se ponga en su camino. Por tanto, no es afectado por poderes psíquicos telepáticos ni ninguna habilidad sobrenatural que pueda “controlar” su mente (más no así su cuerpo). Regeneración: Una Abominación primigenia recupera 150 Puntos de Vida por turno, salvo el daño procedente de armas que tengan la consideración de benditas o cargadas de fuerza impía. Tentáculos: Los apéndices de la pesadilla no sólo tienen una fuerza aterradora, también poseen la capacidad de “devorar” la esencia de todo cuanto tocan. Al entrar en contacto con un ente vivo este empieza a “secarse”, quedando desprovisto de cualquier rastro de fuerza vital. Con ella la criatura crece y regurgita nuevos apéndices, convirtiéndose en una monstruosidad aún mayor. Cada vez que la Abominación cause daños o atrape con los Tentáculos a un objetivo (basta con realizar una maniobra de Presa y conseguir al menos Parálisis Menor), este debe superar un control de RF contra 180 o sufrir un daño equivalente al nivel de fracaso. Vaciar Mente: Utilizando su voluntad colectiva, la Abominación puede producir un desgarrador estallido psíquico que destruye la mente de cuantos le rodean. Para usar esta habilidad la criatura ha de prepararse durante dos asaltos completos, durante los cuales aplica un penalizador de -50 a su Habilidad de Ataque con sus tentáculos. Finalmente, activa el estallido, que es equivalente al poder mental Muerte Psíquica con un potencial de 180 puntos. Todo aquel que se encuentre a menos de 100 metros de la criatura debe de superar un control de RP contra 140 o perderá un punto de Inteligencia y otro de Voluntad por cada 10 que lo haya fallado. En el caso de que alguna de las dos Características llegue hasta cero, la mente del sujeto se quiebra y queda lobotomizado, algo que la Abominación aprovecha para alimentarse de su vida. Ojos de Abominación: Las Abominaciones tienen decenas de ojos que ven tanto el mundo material como el espiritual. En consecuencia, poseen los poderes Visión Radial y Ver lo Sobrenatural. Mutación Aberrante: Las personas que mueran a consecuencia de la absorción de vida de los tentáculos pierden su esencia vital, que es devorada de inmediato por la Abominación. En consecuencia, cada vez que la criatura se alimente de un ser vivo suma la Presencia de su víctima al valor de su Estado de Mutación; cuanto más elevado sea este, mayores serán los poderes de la pesadilla. Los seres naturales que tengan una Natura superior a cero multiplican por ese valor su Presencia base para determinar cual es el “potencial” de su fuerza vital. Dependiendo de cual sea la suma de las presencias devoradas, la Abominación conseguirá diferentes poderes tal y como se indica a continuación. EntrE 100 y 250: Obtiene suficientes tentáculos como para realizar un segundo ataque adicional con habilidad plena. EntrE 250 y 1.000: Sus Puntos de Vida máximos aumentan hasta 5.000, y el daño base de sus tentáculos hasta 150. EntrE 1.000 y 5.000: Obtiene un tercer ataque adicional por asalto con habilidad plena. Entre 5.000 y 25.000: Sus Puntos de Vida máximos aumentan hasta 7.000 y su Regeneración le permite recuperar hasta 250 por asalto. Más d E 25.000: La criatura obtiene un cuarto ataque adicional con sus tentáculos, cuyo daño se incrementa hasta 180. Adicionalmente, obtiene un bono de +20 a toda acción y la habilidad Vaciar Mente incrementa la dificultad de su RP hasta 180, cubriendo un área de 250 metros. e l m isterio De las Desapariciones Fatídicamente una remodelación en una vieja iglesia ha dañado uno de los sellos que contienen a una Abominación. Esta, aún parcialmente aletargada, ha empezado a devorar ciudadanos por las noches usando el sistema de alcantarillado para mover sus tentáculos (pues ella aún no puede salir a la superficie). Los cuerpos, marchitos y envejecidos, han sido encontrados por la guardia no sin cierta consternación. El problema es que las autoridades locales no quieren involucrar a la Inquisición (pues ya tuvieron malas experiencias con ella en el pasado), por lo que están camuflando las muertes como actos de un asesino en serie. No obstante, intuyendo que probablemente sea algo “sobrenatural”, han decidido contratar encubiertamente expertos que puedan ayudarles a detener al “asesino”. Para empeorar las cosas, una secta de ocultistas de tres al cuarto piensa que lo que está ocurriendo es en realidad obra suya; creen erróneamente que invocaron a un demonio en la ciudad y que necesitan entregarle sacrificios humanos para que cumpla sus deseos. Por ello también han empezado una serie de asesinatos rituales que, naturalmente, no harán más que confundir a los investigadores.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 8\n\nClase: Entre mundos 25 Puntos de Vida: 3.000 (Especial) Categoría: Guerrero Fue: 15 Des: 6 Agi: 4 Con: 15 Pod: 12 Int: 4 Vol: 10 Per: 10 RF 95 RM 85 RP 80 RV 95 RE 95\n\nTurno: 60 Natural Habilidad de ataque: 1 75 Tentáculos (Especial), 200 Vaciar mente. Habilidad de defensa: Acumulación Daño: 1 30 Tentáculos (Con) TA: Natural 6 Habilidades esenciales: Características Físicas Sobrenaturales, Zen, Sin Inconsciencia, Voluntad Inquebrantable (Inmunidad Psicológica). Poderes: Armas Naturales: Tentáculos (Daña Energía, Dos Ataques adicionales -30, RF 180, Drenaje Completo), Vaciar Mente (Poder Psíquico Innato, Muerte Psíquica, RP 1 40, Sin Límite, Requiere 2 Turnos de Preparatoria), Regeneración 1 6, Ver lo Sobrenatural, Visión Radial, Mutación Aberrante.\n\nTamaño: 30 Gigantesco Regeneración: 16 Tipo de movimiento: 6 Cansancio: 15 Habilidades Secundarias: Advertir 75, Buscar 1 50, Proezas de Fuerza 2 1 5. Probablemente ningún nombre encaje mejor que el de “Abominación Primigenia” para definir a estas monstruosidades. Se trata de las semillas de los mil veces malditos dioses Primigenios, parásitos provenientes de sus cuerpos impíos que se desprendieron de ellos al ser confinados en la Cordillera de los Vientos. Son pesadillas amorfas y abotargadas repletas de tentáculos, ojos y bocas que no hacen más que mutar. Carne putrefacta, yagas y pus componen mayoritariamente su cuerpo, del cual emana un hedor que hace vomitar a cuantos se les acercan. Su tamaño oscila entre los treinta y los cincuenta metros, pero pueden crecer conforme van alimentándose de la energía vital de sus víctimas hasta quintuplicar esas dimensiones.\n\nIgual que los propios Primigenios, las Abominaciones permanecen encerradas en las profundidades. La mayoría está dentro de la propia Cordillera de los Vientos, pero lo cierto es que hay multitud de ellas repartidas por todo el mundo (probablemente, más de un centenar). Sobre cada uno de sus cubiles hay construido algún ancestral sello Sylvain que evita que se liberen. Por lo general suelen estar camuflados dentro de iglesias o monumentos con el único objetivo de que no sean destruidos por seguidores de los primigenios o fanáticos religiosos que ignoran su verdadera función. Las Abominaciones no tienen ningún otro cometido mas que devorar cuanto encuentran a su paso; exterminan todo rastro de vida dejando tras de sí poco más que sangre y cenizas. De hecho, carecen de nada parecido a una mente, son pura locura y ansia encarnadas.\n\nSi se diera el caso de que alguno llegase a despertar, simplemente ascendería lentamente a la superficie y darían comienzo a su sinfonía de destrucción. m oduS oPerandiComo parásitos de los Primigenios, las Abominaciones son monstruosidades de gran poder destructivo capaces de acabar fácilmente con batallones enteros. Además, puesto que sus poderes se incrementan conforme van absorbiendo vida, cuanto más matan son más peligrosas, hasta llegar a convertirse prácticamente en Primigenios en miniatura. Puesto que son masas amorfas, no tienen puntos vulnerables conocidos. Voluntad Inquebrantable: Una Abominación no posee una mente como tal; toda ella es poco más que una desmesurada voluntad de devorar todo cuanto se ponga en su camino. Por tanto, no es afectado por poderes psíquicos telepáticos ni ninguna habilidad sobrenatural que pueda “controlar” su mente (más no así su cuerpo).\n\nRegeneración: Una Abominación primigenia recupera 1 50 Puntos de Vida por turno, salvo el daño procedente de armas que tengan la consideración de benditas o cargadas de fuerza impía. Tentáculos: Los apéndices de la pesadilla no sólo tienen una fuerza aterradora, también poseen la capacidad de “devorar” la esencia de todo cuanto tocan. Al entrar en contacto con un ente vivo este empieza a “secarse”, quedando desprovisto de cualquier rastro de fuerza vital. Con ella la criatura crece y regurgita nuevos apéndices, convirtiéndose en una monstruosidad aún mayor. Cada vez que la Abominación cause daños o atrape con los Tentáculos a un objetivo (basta con realizar una maniobra de Presa y conseguir al menos Parálisis Menor), este debe superar un control de RF contra 180 o sufrir un daño equivalente al nivel de fracaso.\n\nVaciar Mente: Utilizando su voluntad colectiva, la Abominación puede producir un desgarrador estallido psíquico que destruye la mente de cuantos le rodean. Para usar esta habilidad la criatura ha de prepararse durante dos asaltos completos, durante los cuales aplica un penalizador de -50 a su Habilidad de Ataque con sus tentáculos. Finalmente, activa el estallido, que es equivalente al poder mental Muerte Psíquica con un potencial de 180 puntos. Todo aquel que se encuentre a menos de 100 metros de la criatura debe de superar un control de RP contra 1 40 o perderá un punto de Inteligencia y otro de Voluntad por cada 10 que lo haya fallado. En el caso de que alguna de las dos Características llegue hasta cero, la mente del sujeto se quiebra y queda lobotomizado, algo que la Abominación aprovecha para alimentarse de su vida.\n\nOjos de Abominación: Las Abominaciones tienen decenas de ojos que ven tanto el mundo material como el espiritual. En consecuencia, poseen los poderes Visión Radial y Ver lo Sobrenatural. Mutación Aberrante: Las personas que mueran a consecuencia de la absorción de vida de los tentáculos pierden su esencia vital, que es devorada de inmediato por la Abominación. En consecuencia, cada vez que la criatura se alimente de un ser vivo suma la Presencia de su víctima al valor de su Estado de Mutación; cuanto más elevado sea este, mayores serán los poderes de la pesadilla. Los seres naturales que tengan una Natura superior a cero multiplican por ese valor su Presencia base para determinar cual es el “potencial” de su fuerza vital. Dependiendo de cual sea la suma de las presencias devoradas, la Abominación conseguirá diferentes poderes tal y como se indica a continuación.\n\nEntrE 100 y 250: Obtiene suficientes tentáculos como para realizar un segundo ataque adicional con habilidad plena. EntrE 250 y 1.000: Sus Puntos de Vida máximos aumentan hasta 5.000, y el daño base de sus tentáculos hasta 1 50. EntrE 1.000 y 5.000: Obtiene un tercer ataque adicional por asalto con habilidad plena. Entre 5.000 y 25.000: Sus Puntos de Vida máximos aumentan hasta 7 .000 y su Regeneración le permite recuperar hasta 250 por asalto. Más d E 25.000: La criatura obtiene un cuarto ataque adicional con sus tentáculos, cuyo daño se incrementa hasta 180. Adicionalmente, obtiene un bono de +20 a toda acción y la habilidad Vaciar Mente incrementa la dificultad de su RP hasta 180, cubriendo un área de 250 metros. (order #3443007) e l m isterio De las Desapariciones Fatídicamente una remodelación en una vieja iglesia ha dañado uno de los sellos que contienen a una Abominación.\n\nEsta, aún parcialmente aletargada, ha empezado a devorar ciudadanos por las noches usando el sistema de alcantarillado para mover sus tentáculos (pues ella aún no puede salir a la superficie). Los cuerpos, marchitos y envejecidos, han sido encontrados por la guardia no sin cierta consternación. El problema es que las autoridades locales no quieren involucrar a la Inquisición (pues ya tuvieron malas experiencias con ella en el pasado), por lo que están camuflando las muertes como actos de un asesino en serie. No obstante, intuyendo que probablemente sea algo “sobrenatural”, han decidido contratar encubiertamente expertos que puedan ayudarles a detener al “asesino”.\n\nPara empeorar las cosas, una secta de ocultistas de tres al cuarto piensa que lo que está ocurriendo es en realidad obra suya; creen erróneamente que invocaron a un demonio en la ciudad y que necesitan entregarle sacrificios humanos para que cumpla sus deseos. Por ello también han empezado una serie de asesinatos rituales que, naturalmente, no harán más que confundir a los investigadores. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +410,6 @@
           }
         }
       ],
-      "level": {
-        "value": 8
-      },
       "notes": [
         {
           "_id": "note-abominacion-semilla-primigenia-3",
@@ -501,52 +429,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -557,9 +469,6 @@
         "initiative": {
           "base": {
             "value": 60
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +519,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 95
             },
             "final": {
               "value": 0
@@ -621,10 +527,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 95
             },
             "final": {
               "value": 0
@@ -632,10 +535,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 9465
+              "value": 9560
             },
             "final": {
               "value": 0
@@ -643,10 +543,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -654,10 +551,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -669,200 +563,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 215
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 75
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 200
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -893,11 +1042,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -909,14 +1054,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -930,14 +1080,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1042,15 +1189,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1062,37 +1205,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1215,9 +1378,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

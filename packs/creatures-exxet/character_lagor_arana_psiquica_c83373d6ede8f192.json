@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
           "value": true
-        },
-        "effects": {
-          "value": false
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 45
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": "Araña Psíquica"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 320</p><p><strong>Entrada:</strong> Lagor</p><p><strong>Variante:</strong> Araña Psíquica</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Natur al 5</p><p><strong>Categoría:</strong> Guerrero Mentalista Fue: 5 Des: 8 Agi: 8 Con: 6 Pod: 5 Int: 6 Vol: 13 Per: 6 RF 50 RM 45 RP 70 RV 50 RE 50</p><p><strong>Habilidades esenciales:</strong> Características anímicas sobrehumanas, Acceso a</p><p><strong>Poderes:</strong> Arma natural: Mordisco, Veneno índigo (Nv 60), Movimiento de araña.</p><p><strong>Disciplinas:</strong> Psíquicas, Inmune a venenos naturales, Concentración extrema, Carencia de un sentido.</p><p><strong>Daño:</strong> 40 Mordisco PEN</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 60, Buscar 60, Esconderse 80, Trepar 80, Sigilo 75</p><p><strong>Descripción breve:</strong> Los Lagor son conocidos como arañas psíquicas por su similitud con gigantescas tarántulas aunque, en realidad, no se trata de verdaderos arácnidos. Es una raza de criaturas sobrenaturales dotada de grandes habilidades mentales, que casi llegó a extinguirse a lo largo de los últimos siete siglos. Poseen una inteligencia relativamente elevada, que les ha permitido adaptarse a sus nuevas condiciones de vida y ocultarse de los hombres. Parecen enormes arañas grisáceas del tamaño de un gran mastín, con tres grandes ojos cristalinos y fauces repletas de afilados dientes. Además, en su abdomen hinchado puede verse parte de su cerebelo y su columna vertebral, que sobresalen ligeramente sobre él. Viven en pequeñas comunidades entre los seis y los treinta miembros, en proporción de una hembra por cada cinco machos. Tienen como hábitat zonas boscosas o montañosas, y eligen como madrigueras profundas cuevas subterráneas. Son depredadores feroces que cazan todo tipo de animales, incluso los más grandes y peligrosos. También atacan a los humanos si se introducen en su territorio, ya sea para alimentarse o evitar ser descubiertas. Normalmente salen en grupo en busca de presas, permaneciendo como mínimo la mitad en el cubil con las hembras. Se comunican las unas con las Luminaria</p></section><details><summary>Texto extraído</summary><pre>Nivel: 4\n\nClase: Natur al 5 Puntos de Vida: 125 Categoría: Guerrero Mentalista Fue: 5 Des: 8 Agi: 8 Con: 6 Pod: 5 Int: 6 Vol: 13 Per: 6 RF 50 RM 45 RP 70 RV 50 RE 50\n\nTurno: 80 Natural Habilidad de ataque: 100 Mordisco Habilidad de defensa: 120 Esquiva Daño: 40 Mordisco PEN TA: Ninguna Habilidades esenciales: Características anímicas sobrehumanas, Acceso aDisciplinasPsíquicas, Inmune a venenos naturales, Concentración extrema, Carencia de un sentido. Poderes: Arma natural: Mordisco, Veneno índigo (Nv 60), Movimiento de araña. Potencial Psíquico: +80 CV Libres: 4 Disciplinas Telequinesis: Detección de movimiento, Impacto telequinético Telepatía: Comunicación mental, Lectura mental +10, Escaneo de zona, Asalto psíquico +20, Control mental Innatos: 2 Proyección Psíquica: 115 de mo vimiento: 8 Cansancio: 6 Habilidades Secundarias: Advertir 60, Buscar 60, Esconderse 80, Trepar 80, Sigilo 75. Los Lagor son conocidos como arañas psíquicas por su similitud con gigantescas tarántulas aunque, en realidad, no se trata de verdaderos arácnidos.\n\nEs una raza de criaturas sobrenaturales dotada de grandes habilidades mentales, que casi llegó a extinguirse a lo largo de los últimos siete siglos. Poseen una inteligencia relativamente elevada, que les ha permitido adaptarse a sus nuevas condiciones de vida y ocultarse de los hombres. Parecen enormes arañas grisáceas del tamaño de un gran mastín, con tres grandes ojos cristalinos y fauces repletas de afilados dientes. Además, en su abdomen hinchado puede verse parte de su cerebelo y su columna vertebral, que sobresalen ligeramente sobre él. Viven en pequeñas comunidades entre los seis y los treinta miembros, en proporción de una hembra por cada cinco machos. Tienen como hábitat zonas boscosas o montañosas, y eligen como madrigueras profundas cuevas subterráneas. Son depredadores feroces que cazan todo tipo de animales, incluso los más grandes y peligrosos.\n\nTambién atacan a los humanos si se introducen en su territorio, ya sea para alimentarse o evitar ser descubiertas. Normalmente salen en grupo en busca de presas, permaneciendo como mínimo la mitad en el cubil con las hembras. Se comunican las unas con las Luminaria</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 320</p><p><strong>Entrada:</strong> Lagor</p><p><strong>Variante:</strong> Araña Psíquica</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Natur al 5</p><p><strong>Categoría:</strong> Guerrero Mentalista Fue: 5 Des: 8 Agi: 8 Con: 6 Pod: 5 Int: 6 Vol: 13 Per: 6 RF 50 RM 45 RP 70 RV 50 RE 50</p><p><strong>Habilidades esenciales:</strong> Características anímicas sobrehumanas, Acceso a</p><p><strong>Poderes:</strong> Arma natural: Mordisco, Veneno índigo (Nv 60), Movimiento de araña.</p><p><strong>Disciplinas:</strong> Psíquicas, Inmune a venenos naturales, Concentración extrema, Carencia de un sentido.</p><p><strong>Daño:</strong> 40 Mordisco PEN</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 60, Buscar 60, Esconderse 80, Trepar 80, Sigilo 75</p><p><strong>Descripción breve:</strong> Los Lagor son conocidos como arañas psíquicas por su similitud con gigantescas tarántulas aunque, en realidad, no se trata de verdaderos arácnidos. Es una raza de criaturas sobrenaturales dotada de grandes habilidades mentales, que casi llegó a extinguirse a lo largo de los últimos siete siglos. Poseen una inteligencia relativamente elevada, que les ha permitido adaptarse a sus nuevas condiciones de vida y ocultarse de los hombres. Parecen enormes arañas grisáceas del tamaño de un gran mastín, con tres grandes ojos cristalinos y fauces repletas de afilados dientes. Además, en su abdomen hinchado puede verse parte de su cerebelo y su columna vertebral, que sobresalen ligeramente sobre él. Viven en pequeñas comunidades entre los seis y los treinta miembros, en proporción de una hembra por cada cinco machos. Tienen como hábitat zonas boscosas o montañosas, y eligen como madrigueras profundas cuevas subterráneas. Son depredadores feroces que cazan todo tipo de animales, incluso los más grandes y peligrosos. También atacan a los humanos si se introducen en su territorio, ya sea para alimentarse o evitar ser descubiertas. Normalmente salen en grupo en busca de presas, permaneciendo como mínimo la mitad en el cubil con las hembras. Se comunican las unas con las Luminaria</p></section><details><summary>Texto extraído</summary><pre>Nivel: 4\n\nClase: Natur al 5 Puntos de Vida: 125 Categoría: Guerrero Mentalista Fue: 5 Des: 8 Agi: 8 Con: 6 Pod: 5 Int: 6 Vol: 13 Per: 6 RF 50 RM 45 RP 70 RV 50 RE 50\n\nTurno: 80 Natural Habilidad de ataque: 100 Mordisco Habilidad de defensa: 120 Esquiva Daño: 40 Mordisco PEN TA: Ninguna Habilidades esenciales: Características anímicas sobrehumanas, Acceso aDisciplinasPsíquicas, Inmune a venenos naturales, Concentración extrema, Carencia de un sentido. Poderes: Arma natural: Mordisco, Veneno índigo (Nv 60), Movimiento de araña. Potencial Psíquico: +80 CV Libres: 4 Disciplinas Telequinesis: Detección de movimiento, Impacto telequinético Telepatía: Comunicación mental, Lectura mental +10, Escaneo de zona, Asalto psíquico +20, Control mental Innatos: 2 Proyección Psíquica: 115 de mo vimiento: 8 Cansancio: 6 Habilidades Secundarias: Advertir 60, Buscar 60, Esconderse 80, Trepar 80, Sigilo 75. Los Lagor son conocidos como arañas psíquicas por su similitud con gigantescas tarántulas aunque, en realidad, no se trata de verdaderos arácnidos.\n\nEs una raza de criaturas sobrenaturales dotada de grandes habilidades mentales, que casi llegó a extinguirse a lo largo de los últimos siete siglos. Poseen una inteligencia relativamente elevada, que les ha permitido adaptarse a sus nuevas condiciones de vida y ocultarse de los hombres. Parecen enormes arañas grisáceas del tamaño de un gran mastín, con tres grandes ojos cristalinos y fauces repletas de afilados dientes. Además, en su abdomen hinchado puede verse parte de su cerebelo y su columna vertebral, que sobresalen ligeramente sobre él. Viven en pequeñas comunidades entre los seis y los treinta miembros, en proporción de una hembra por cada cinco machos. Tienen como hábitat zonas boscosas o montañosas, y eligen como madrigueras profundas cuevas subterráneas. Son depredadores feroces que cazan todo tipo de animales, incluso los más grandes y peligrosos.\n\nTambién atacan a los humanos si se introducen en su territorio, ya sea para alimentarse o evitar ser descubiertas. Normalmente salen en grupo en busca de presas, permaneciendo como mínimo la mitad en el cubil con las hembras. Se comunican las unas con las Luminaria</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 4
-      },
       "notes": [
         {
           "_id": "note-lagor-arana-psiquica-3",
@@ -351,52 +270,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         }
       },
       "secondaries": {
@@ -407,9 +310,6 @@
         "initiative": {
           "base": {
             "value": 80
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -460,10 +360,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -471,10 +368,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -482,10 +376,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5030
+              "value": 5080
             },
             "final": {
               "value": 0
@@ -493,10 +384,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -504,10 +392,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -519,209 +404,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 75
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 100
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 120
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -752,11 +883,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -768,14 +895,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -789,14 +921,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -901,15 +1030,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -921,37 +1046,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1074,9 +1219,6 @@
       "psychicPoints": {
         "value": 20,
         "max": 20
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

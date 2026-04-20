@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 45
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 2</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Leviatán (La Máquina · Varna intermedia)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 9 Des: 8 Agi: 8 Con: 10 Pod: 4 Int: 5 Vol: 10 Per: 6 RF 60 RM 10 RP 60 RV 60 RE 60</p><p><strong>Habilidades esenciales:</strong> Exención física, Inmunidad psicológica, Inmune al dolor.</p><p><strong>Poderes:</strong> Arma Natural; Tentáculos y Cuchillas (+30 al daño, -4 / -5 TA defensora), Movimiento Anfibio (Movimiento acuático), Cuerpo Metálico Abisal (TA física 6, Limitada), Vulnerabilidad a la Magia.</p><p><strong>Daño:</strong> 80 Tentáculos y Cuchillas (Fil/Pen)</p><p><strong>TA:</strong> Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 0 Ene 0</p><p><strong>Habilidades secundarias:</strong> Atletismo 180, Advertir 80, Buscar 80, Rastrear 60, Ocultarse 80</p><p><strong>Descripción breve:</strong> Los leviatanes no son más que la consecuencia lógica de librar una guerra en un archipiélago; tropas capaces de moverse a grandes velocidades por el agua equipadas con poderosas armas con las que destrozar el casco del barco más resistente. Su aspecto es el similar a un enorme pez de metal y carne de algo más de cuatro metros de longitud, con afiladas aletas y dos extremidades a ambos lados del cuerpo. En su cola hay decenas de tentáculos que les permiten moverse e impulsarse, de los que destacan dos de gran tamaño acabados en una afilada espina. Para alcanzar mejores velocidades oponiendo la mínima resistencia al agua, los leviatanes disponen de conductos por los que dejan pasar el agua, aprovechándose de esto para lanzarla a gran velocidad y obtener un impulso adicional. Sin embargo, esto puede significar también su caída, ya que una considerable proporción de su cuerpo se encuentra siempre llena de agua marina, un excelente conductor de electricidad. Ciertamente, la eficacia de los leviatanes es enorme; un pequeño grupo de estos seres es capaz de poner en peligro incluso la más imponente de las flotas. Por razones obvias, La Máquina suele utilizarlos con terrible eficacia para atacar las vías de suministros y mantener el frente de los ejércitos enemigos aislados y desprovistos. No obstante, lo cierto es que no son criaturas especialmente inteligentes, y salvo si hay algún Tecnócrita o Pretoriano cerca para comandarlos, tienen dificultad para coordinarse. Estas criaturas llevan ya muchos años asolando Dravenor. Su primera aparición se remonta a la batalla en Elciana, donde un grupo de leviatanes ralentizó la llegada de muchas tropas de refresco, dificultando así la batalla para los supervivientes, y desde entonces han sido uno de los mayores dolores de cabeza de los ejércitos del Interregno. MODUS OPERANDIAl ser la tropa acuática por excelencia de La Máquina, estos seres deben cubrir varias labores. Suelen ser destinados a destruir barcos de tropas, aunque a veces se mantienen ocultos en el lecho marino para atacar cualquier navío que pase por la zona. En cualquier caso, su metodología de ataque habitual contra barcos consiste en lanzarse a toda velocidad contra la “panza” de los navíos, girando sin parar para penetrar su blindaje a modo de taladro. Una vez han abierto hueco, se retiran extendiendo sus aletas y acrecentando cualquier apertura que pudieran haber hecho en el impacto, lo que suele provocar el hundimiento del barco. Tras esto, atacan a los soldados (quienes, lógicamente, tienen en el agua una clara desventaja contra los leviatanes) haciendo rápidas pasadas para partirlos en dos con sus aletas-cuchillas. En los casos en los que deben de enfrentarse a algún ser marino (que son comúnmente destinados junto a algunos barcos para protegerlos precisamente de estos ataques), se centran primero en eliminar al ser marino aprovechando su superioridad numérica. Únicamente se retirarían o cambiarían de objetivo si se demostrase que sus pinzas son incapaces de causar daño al objetivo. Inmune al Dolor: Los leviatanes son prácticamente máquinas, del todo incapaces de sufrir cualquier tipo de dolor (natural o sobrenatural), así como cualquier posible perjuicio derivado del mismo. Cuerpo Metálico Abisal: Para ser capaces de aguantar las grandes presiones de las profundidades marinas, los leviatanes disponen de una coraza de enorme resistencia. Sin embargo, al contener gran cantidad de agua marina en el interior de numerosos conductos que recorren todo su cuerpo, esta protección no tiene utilidad alguna contra la electricidad. A efectos de juego, poseen un Tipo de Armadura 6 contra cualquier ataque que no sea de Electricidad o Energía. Movimiento Anfibio: Los leviatanes son mayormente criaturas acuáticas, pues en el agua pueden moverse con completa libertad. Cuando se encuentran en ella pueden usar su tipo de movimiento completo, así como emplear su habilidad de Atletismo para mejorar su desplazamiento. No obstante, usando sus extremidades y sus tentáculos pueden también desplazarse por tierra (o incluso a veces, por la cubierta de los barcos), aunque en tal caso disminuyen su Tipo de Movimiento a la mitad. Tentáculos y Cuchillas: El método de ataque de los leviatanes se basa en sus afiladas aletas y en dos enormes tentáculos acabados en pinchos, diseñados para destrozar hasta los materiales más duros como el casco de los barcos. No sólo poseen un daño elevado, sino que reducen en cuatro puntos el Tipo de Armadura de su rival. Carga Perforante: Tomando impulso durante al menos dos asaltos, un leviatán puede proyectar a través de su cuerpo un chorro de agua que le permite impulsarse a gran velocidad mientras gira su cuerpo como un taladro. Al hacerlo, se rodea de sus aletas cuchillas y es capaz de traspasar aún con mayor facilidad cascos y otros cuerpos resistentes. A efectos de juego, si el leviatán realiza una carga tras prepararse al menos dos asaltos, en lugar de los bonos de una carga convencional obtiene un bono de +30 a su habilidad de ataque, dobla su bono de Fuerza (alcanzado un daño base de 90) y reduce un punto más (5 en total) la armadura del defensor. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los leviatanes poseen una vulnerabilidad absoluta a la magia. Poseen RM 10 y cualquier descarga de energía sobrenatural les produce doble daño. Cono Cimientosdedravenor Conocimiento Genérico En los mares y océanos hay cosas en las profundidades que destrozan y hunden los barcos. Conocimiento Intermedio La electricidad es el enemigo natural de los leviatanes. Dicen incluso que no suelen salir a cazar en días de tormenta para evitar los efectos de los rayos que caen sobre la superficie del mar. Conocimiento Avanzado Originalmente, los leviatanes tenían una forma diferente, ligeramente más parecida a las langostas con pinzas al final de las articulaciones. Aunque los modelos evolucionaron hasta tener una forma diferente, los escasos leviatánes originales que quedan son más peligrosos y corpulentos. Pese a que todos los miembros de La Máquina son teóricamente iguales, existe un leviatán legendario que lleva en funcionamiento desde la batalla de Elciana que ha obtenido cierta fama entre los marineros. Estos lo llaman Rackham, y se dice que, de algún modo, es el más mortífero de todos. o rbe La Máquina (Varna Menor )</p></section><details><summary>Texto extraído</summary><pre>Nivel: 4\n\nClase: Entre Mundos Especial Puntos de Vida: 175 Categoría: Guerrero Acróbata Fue: 9 Des: 8 Agi: 8 Con: 10 Pod: 4 Int: 5 Vol: 10 Per: 6 RF 60 RM 10 RP 60 RV 60 RE 60\n\nTurno: 100 Natural Habilidad de ataque: 1 50 Tentáculos y Cuchillas Habilidad de defensa: 125 Esquiva Daño: 80 Tentáculos y Cuchillas (Fil/Pen) TA: Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 0 Ene 0 Habilidades Esenciales: Exención física, Inmunidad psicológica, Inmune al dolor. Poderes: Arma Natural; Tentáculos y Cuchillas (+30 al daño, -4 / -5 TA defensora), Movimiento Anfibio (Movimiento acuático), Cuerpo Metálico Abisal (TA física 6, Limitada), Vulnerabilidad a la Magia. de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Atletismo 180, Advertir 80, Buscar 80, Rastrear 60, Ocultarse 80. Los leviatanes no son más que la consecuencia lógica de librar una guerra en un archipiélago; tropas capaces de moverse a grandes velocidades por el agua equipadas con poderosas armas con las que destrozar el casco del barco más resistente.\n\nSu aspecto es el similar a un enorme pez de metal y carne de algo más de cuatro metros de longitud, con afiladas aletas y dos extremidades a ambos lados del cuerpo. En su cola hay decenas de tentáculos que les permiten moverse e impulsarse, de los que destacan dos de gran tamaño acabados en una afilada espina. Para alcanzar mejores velocidades oponiendo la mínima resistencia al agua, los leviatanes disponen de conductos por los que dejan pasar el agua, aprovechándose de esto para lanzarla a gran velocidad y obtener un impulso adicional. Sin embargo, esto puede significar también su caída, ya que una considerable proporción de su cuerpo se encuentra siempre llena de agua marina, un excelente conductor de electricidad. Ciertamente, la eficacia de los leviatanes es enorme; un pequeño grupo de estos seres es capaz de poner en peligro incluso la más imponente de las flotas.\n\nPor razones obvias, La Máquina suele utilizarlos con terrible eficacia para atacar las vías de suministros y mantener el frente de los ejércitos enemigos aislados y desprovistos. No obstante, lo cierto es que no son criaturas especialmente inteligentes, y salvo si hay algún Tecnócrita o Pretoriano cerca para comandarlos, tienen dificultad para coordinarse. Estas criaturas llevan ya muchos años asolando Dravenor. Su primera aparición se remonta a la batalla en Elciana, donde un grupo de leviatanes ralentizó la llegada de muchas tropas de refresco, dificultando así la batalla para los supervivientes, y desde entonces han sido uno de los mayores dolores de cabeza de los ejércitos del Interregno. MODUS OPERANDIAl ser la tropa acuática por excelencia de La Máquina, estos seres deben cubrir varias labores.\n\nSuelen ser destinados a destruir barcos de tropas, aunque a veces se mantienen ocultos en el lecho marino para atacar cualquier navío que pase por la zona. En cualquier caso, su metodología de ataque habitual contra barcos consiste en lanzarse a toda velocidad contra la “panza” de los navíos, girando sin parar para penetrar su blindaje a modo de taladro. Una vez han abierto hueco, se retiran extendiendo sus aletas y acrecentando cualquier apertura que pudieran haber hecho en el impacto, lo que suele provocar el hundimiento del barco. Tras esto, atacan a los soldados (quienes, lógicamente, tienen en el agua una clara desventaja contra los leviatanes) haciendo rápidas pasadas para partirlos en dos con sus aletas-cuchillas.\n\nEn los casos en los que deben de enfrentarse a algún ser marino (que son comúnmente destinados junto a algunos barcos para protegerlos precisamente de estos ataques), se centran primero en eliminar al ser marino aprovechando su superioridad numérica. Únicamente se retirarían o cambiarían de objetivo si se demostrase que sus pinzas son incapaces de causar daño al objetivo. Inmune al Dolor: Los leviatanes son prácticamente máquinas, del todo incapaces de sufrir cualquier tipo de dolor (natural o sobrenatural), así como cualquier posible perjuicio derivado del mismo. Cuerpo Metálico Abisal: Para ser capaces de aguantar las grandes presiones de las profundidades marinas, los leviatanes disponen de una coraza de enorme resistencia.\n\nSin embargo, al contener gran cantidad de agua marina en el interior de numerosos conductos que recorren todo su cuerpo, esta protección no tiene utilidad alguna contra la electricidad. A efectos de juego, poseen un Tipo de Armadura 6 contra cualquier ataque que no sea de Electricidad o Energía. Movimiento Anfibio: Los leviatanes son mayormente criaturas acuáticas, pues en el agua pueden moverse con completa libertad. Cuando se encuentran en ella pueden usar su tipo de movimiento completo, así como emplear su habilidad de Atletismo para mejorar su desplazamiento. No obstante, usando sus extremidades y sus tentáculos pueden también desplazarse por tierra (o incluso a veces, por la cubierta de los barcos), aunque en tal caso disminuyen su Tipo de Movimiento a la mitad.\n\nTentáculos y Cuchillas: El método de ataque de los leviatanes se basa en sus afiladas aletas y en dos enormes tentáculos acabados en pinchos, diseñados para destrozar hasta los materiales más duros como el casco de los barcos. No sólo poseen un daño elevado, sino que reducen en cuatro puntos el Tipo de Armadura de su rival. Carga Perforante: Tomando impulso durante al menos dos asaltos, un leviatán puede proyectar a través de su cuerpo un chorro de agua que le permite impulsarse a gran velocidad mientras gira su cuerpo como un taladro. Al hacerlo, se rodea de sus aletas cuchillas y es capaz de traspasar aún con mayor facilidad cascos y otros cuerpos resistentes.\n\nA efectos de juego, si el leviatán realiza una carga tras prepararse al menos dos asaltos, en lugar de los bonos de una carga convencional obtiene un bono de +30 a su habilidad de ataque, dobla su bono de Fuerza (alcanzado un daño base de 90) y reduce un punto más (5 en total) la armadura del defensor. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los leviatanes poseen una vulnerabilidad absoluta a la magia. Poseen RM 10 y cualquier descarga de energía sobrenatural les produce doble daño. Cono Cimientosdedravenor Conocimiento Genérico En los mares y océanos hay cosas en las profundidades que destrozan y hunden los barcos. Conocimiento Intermedio La electricidad es el enemigo natural de los leviatanes. Dicen incluso que no suelen salir a cazar en días de tormenta para evitar los efectos de los rayos que caen sobre la superficie del mar.\n\nConocimiento Avanzado Originalmente, los leviatanes tenían una forma diferente, ligeramente más parecida a las langostas con pinzas al final de las articulaciones. Aunque los modelos evolucionaron hasta tener una forma diferente, los escasos leviatánes originales que quedan son más peligrosos y corpulentos. Pese a que todos los miembros de La Máquina son teóricamente iguales, existe un leviatán legendario que lleva en funcionamiento desde la batalla de Elciana que ha obtenido cierta fama entre los marineros. Estos lo llaman Rackham, y se dice que, de algún modo, es el más mortífero de todos. o rbe La Máquina (Varna Menor )</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 2</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Leviatán (La Máquina · Varna intermedia)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 9 Des: 8 Agi: 8 Con: 10 Pod: 4 Int: 5 Vol: 10 Per: 6 RF 60 RM 10 RP 60 RV 60 RE 60</p><p><strong>Habilidades esenciales:</strong> Exención física, Inmunidad psicológica, Inmune al dolor.</p><p><strong>Poderes:</strong> Arma Natural; Tentáculos y Cuchillas (+30 al daño, -4 / -5 TA defensora), Movimiento Anfibio (Movimiento acuático), Cuerpo Metálico Abisal (TA física 6, Limitada), Vulnerabilidad a la Magia.</p><p><strong>Daño:</strong> 80 Tentáculos y Cuchillas (Fil/Pen)</p><p><strong>TA:</strong> Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 0 Ene 0</p><p><strong>Habilidades secundarias:</strong> Atletismo 180, Advertir 80, Buscar 80, Rastrear 60, Ocultarse 80</p><p><strong>Descripción breve:</strong> Los leviatanes no son más que la consecuencia lógica de librar una guerra en un archipiélago; tropas capaces de moverse a grandes velocidades por el agua equipadas con poderosas armas con las que destrozar el casco del barco más resistente. Su aspecto es el similar a un enorme pez de metal y carne de algo más de cuatro metros de longitud, con afiladas aletas y dos extremidades a ambos lados del cuerpo. En su cola hay decenas de tentáculos que les permiten moverse e impulsarse, de los que destacan dos de gran tamaño acabados en una afilada espina. Para alcanzar mejores velocidades oponiendo la mínima resistencia al agua, los leviatanes disponen de conductos por los que dejan pasar el agua, aprovechándose de esto para lanzarla a gran velocidad y obtener un impulso adicional. Sin embargo, esto puede significar también su caída, ya que una considerable proporción de su cuerpo se encuentra siempre llena de agua marina, un excelente conductor de electricidad. Ciertamente, la eficacia de los leviatanes es enorme; un pequeño grupo de estos seres es capaz de poner en peligro incluso la más imponente de las flotas. Por razones obvias, La Máquina suele utilizarlos con terrible eficacia para atacar las vías de suministros y mantener el frente de los ejércitos enemigos aislados y desprovistos. No obstante, lo cierto es que no son criaturas especialmente inteligentes, y salvo si hay algún Tecnócrita o Pretoriano cerca para comandarlos, tienen dificultad para coordinarse. Estas criaturas llevan ya muchos años asolando Dravenor. Su primera aparición se remonta a la batalla en Elciana, donde un grupo de leviatanes ralentizó la llegada de muchas tropas de refresco, dificultando así la batalla para los supervivientes, y desde entonces han sido uno de los mayores dolores de cabeza de los ejércitos del Interregno. MODUS OPERANDIAl ser la tropa acuática por excelencia de La Máquina, estos seres deben cubrir varias labores. Suelen ser destinados a destruir barcos de tropas, aunque a veces se mantienen ocultos en el lecho marino para atacar cualquier navío que pase por la zona. En cualquier caso, su metodología de ataque habitual contra barcos consiste en lanzarse a toda velocidad contra la “panza” de los navíos, girando sin parar para penetrar su blindaje a modo de taladro. Una vez han abierto hueco, se retiran extendiendo sus aletas y acrecentando cualquier apertura que pudieran haber hecho en el impacto, lo que suele provocar el hundimiento del barco. Tras esto, atacan a los soldados (quienes, lógicamente, tienen en el agua una clara desventaja contra los leviatanes) haciendo rápidas pasadas para partirlos en dos con sus aletas-cuchillas. En los casos en los que deben de enfrentarse a algún ser marino (que son comúnmente destinados junto a algunos barcos para protegerlos precisamente de estos ataques), se centran primero en eliminar al ser marino aprovechando su superioridad numérica. Únicamente se retirarían o cambiarían de objetivo si se demostrase que sus pinzas son incapaces de causar daño al objetivo. Inmune al Dolor: Los leviatanes son prácticamente máquinas, del todo incapaces de sufrir cualquier tipo de dolor (natural o sobrenatural), así como cualquier posible perjuicio derivado del mismo. Cuerpo Metálico Abisal: Para ser capaces de aguantar las grandes presiones de las profundidades marinas, los leviatanes disponen de una coraza de enorme resistencia. Sin embargo, al contener gran cantidad de agua marina en el interior de numerosos conductos que recorren todo su cuerpo, esta protección no tiene utilidad alguna contra la electricidad. A efectos de juego, poseen un Tipo de Armadura 6 contra cualquier ataque que no sea de Electricidad o Energía. Movimiento Anfibio: Los leviatanes son mayormente criaturas acuáticas, pues en el agua pueden moverse con completa libertad. Cuando se encuentran en ella pueden usar su tipo de movimiento completo, así como emplear su habilidad de Atletismo para mejorar su desplazamiento. No obstante, usando sus extremidades y sus tentáculos pueden también desplazarse por tierra (o incluso a veces, por la cubierta de los barcos), aunque en tal caso disminuyen su Tipo de Movimiento a la mitad. Tentáculos y Cuchillas: El método de ataque de los leviatanes se basa en sus afiladas aletas y en dos enormes tentáculos acabados en pinchos, diseñados para destrozar hasta los materiales más duros como el casco de los barcos. No sólo poseen un daño elevado, sino que reducen en cuatro puntos el Tipo de Armadura de su rival. Carga Perforante: Tomando impulso durante al menos dos asaltos, un leviatán puede proyectar a través de su cuerpo un chorro de agua que le permite impulsarse a gran velocidad mientras gira su cuerpo como un taladro. Al hacerlo, se rodea de sus aletas cuchillas y es capaz de traspasar aún con mayor facilidad cascos y otros cuerpos resistentes. A efectos de juego, si el leviatán realiza una carga tras prepararse al menos dos asaltos, en lugar de los bonos de una carga convencional obtiene un bono de +30 a su habilidad de ataque, dobla su bono de Fuerza (alcanzado un daño base de 90) y reduce un punto más (5 en total) la armadura del defensor. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los leviatanes poseen una vulnerabilidad absoluta a la magia. Poseen RM 10 y cualquier descarga de energía sobrenatural les produce doble daño. Cono Cimientosdedravenor Conocimiento Genérico En los mares y océanos hay cosas en las profundidades que destrozan y hunden los barcos. Conocimiento Intermedio La electricidad es el enemigo natural de los leviatanes. Dicen incluso que no suelen salir a cazar en días de tormenta para evitar los efectos de los rayos que caen sobre la superficie del mar. Conocimiento Avanzado Originalmente, los leviatanes tenían una forma diferente, ligeramente más parecida a las langostas con pinzas al final de las articulaciones. Aunque los modelos evolucionaron hasta tener una forma diferente, los escasos leviatánes originales que quedan son más peligrosos y corpulentos. Pese a que todos los miembros de La Máquina son teóricamente iguales, existe un leviatán legendario que lleva en funcionamiento desde la batalla de Elciana que ha obtenido cierta fama entre los marineros. Estos lo llaman Rackham, y se dice que, de algún modo, es el más mortífero de todos. o rbe La Máquina (Varna Menor )</p></section><details><summary>Texto extraído</summary><pre>Nivel: 4\n\nClase: Entre Mundos Especial Puntos de Vida: 175 Categoría: Guerrero Acróbata Fue: 9 Des: 8 Agi: 8 Con: 10 Pod: 4 Int: 5 Vol: 10 Per: 6 RF 60 RM 10 RP 60 RV 60 RE 60\n\nTurno: 100 Natural Habilidad de ataque: 1 50 Tentáculos y Cuchillas Habilidad de defensa: 125 Esquiva Daño: 80 Tentáculos y Cuchillas (Fil/Pen) TA: Natural Fil 6 Con 6 Pen 6 Cal 6 Fri 6 Ele 0 Ene 0 Habilidades Esenciales: Exención física, Inmunidad psicológica, Inmune al dolor. Poderes: Arma Natural; Tentáculos y Cuchillas (+30 al daño, -4 / -5 TA defensora), Movimiento Anfibio (Movimiento acuático), Cuerpo Metálico Abisal (TA física 6, Limitada), Vulnerabilidad a la Magia. de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Atletismo 180, Advertir 80, Buscar 80, Rastrear 60, Ocultarse 80. Los leviatanes no son más que la consecuencia lógica de librar una guerra en un archipiélago; tropas capaces de moverse a grandes velocidades por el agua equipadas con poderosas armas con las que destrozar el casco del barco más resistente.\n\nSu aspecto es el similar a un enorme pez de metal y carne de algo más de cuatro metros de longitud, con afiladas aletas y dos extremidades a ambos lados del cuerpo. En su cola hay decenas de tentáculos que les permiten moverse e impulsarse, de los que destacan dos de gran tamaño acabados en una afilada espina. Para alcanzar mejores velocidades oponiendo la mínima resistencia al agua, los leviatanes disponen de conductos por los que dejan pasar el agua, aprovechándose de esto para lanzarla a gran velocidad y obtener un impulso adicional. Sin embargo, esto puede significar también su caída, ya que una considerable proporción de su cuerpo se encuentra siempre llena de agua marina, un excelente conductor de electricidad. Ciertamente, la eficacia de los leviatanes es enorme; un pequeño grupo de estos seres es capaz de poner en peligro incluso la más imponente de las flotas.\n\nPor razones obvias, La Máquina suele utilizarlos con terrible eficacia para atacar las vías de suministros y mantener el frente de los ejércitos enemigos aislados y desprovistos. No obstante, lo cierto es que no son criaturas especialmente inteligentes, y salvo si hay algún Tecnócrita o Pretoriano cerca para comandarlos, tienen dificultad para coordinarse. Estas criaturas llevan ya muchos años asolando Dravenor. Su primera aparición se remonta a la batalla en Elciana, donde un grupo de leviatanes ralentizó la llegada de muchas tropas de refresco, dificultando así la batalla para los supervivientes, y desde entonces han sido uno de los mayores dolores de cabeza de los ejércitos del Interregno. MODUS OPERANDIAl ser la tropa acuática por excelencia de La Máquina, estos seres deben cubrir varias labores.\n\nSuelen ser destinados a destruir barcos de tropas, aunque a veces se mantienen ocultos en el lecho marino para atacar cualquier navío que pase por la zona. En cualquier caso, su metodología de ataque habitual contra barcos consiste en lanzarse a toda velocidad contra la “panza” de los navíos, girando sin parar para penetrar su blindaje a modo de taladro. Una vez han abierto hueco, se retiran extendiendo sus aletas y acrecentando cualquier apertura que pudieran haber hecho en el impacto, lo que suele provocar el hundimiento del barco. Tras esto, atacan a los soldados (quienes, lógicamente, tienen en el agua una clara desventaja contra los leviatanes) haciendo rápidas pasadas para partirlos en dos con sus aletas-cuchillas.\n\nEn los casos en los que deben de enfrentarse a algún ser marino (que son comúnmente destinados junto a algunos barcos para protegerlos precisamente de estos ataques), se centran primero en eliminar al ser marino aprovechando su superioridad numérica. Únicamente se retirarían o cambiarían de objetivo si se demostrase que sus pinzas son incapaces de causar daño al objetivo. Inmune al Dolor: Los leviatanes son prácticamente máquinas, del todo incapaces de sufrir cualquier tipo de dolor (natural o sobrenatural), así como cualquier posible perjuicio derivado del mismo. Cuerpo Metálico Abisal: Para ser capaces de aguantar las grandes presiones de las profundidades marinas, los leviatanes disponen de una coraza de enorme resistencia.\n\nSin embargo, al contener gran cantidad de agua marina en el interior de numerosos conductos que recorren todo su cuerpo, esta protección no tiene utilidad alguna contra la electricidad. A efectos de juego, poseen un Tipo de Armadura 6 contra cualquier ataque que no sea de Electricidad o Energía. Movimiento Anfibio: Los leviatanes son mayormente criaturas acuáticas, pues en el agua pueden moverse con completa libertad. Cuando se encuentran en ella pueden usar su tipo de movimiento completo, así como emplear su habilidad de Atletismo para mejorar su desplazamiento. No obstante, usando sus extremidades y sus tentáculos pueden también desplazarse por tierra (o incluso a veces, por la cubierta de los barcos), aunque en tal caso disminuyen su Tipo de Movimiento a la mitad.\n\nTentáculos y Cuchillas: El método de ataque de los leviatanes se basa en sus afiladas aletas y en dos enormes tentáculos acabados en pinchos, diseñados para destrozar hasta los materiales más duros como el casco de los barcos. No sólo poseen un daño elevado, sino que reducen en cuatro puntos el Tipo de Armadura de su rival. Carga Perforante: Tomando impulso durante al menos dos asaltos, un leviatán puede proyectar a través de su cuerpo un chorro de agua que le permite impulsarse a gran velocidad mientras gira su cuerpo como un taladro. Al hacerlo, se rodea de sus aletas cuchillas y es capaz de traspasar aún con mayor facilidad cascos y otros cuerpos resistentes.\n\nA efectos de juego, si el leviatán realiza una carga tras prepararse al menos dos asaltos, en lugar de los bonos de una carga convencional obtiene un bono de +30 a su habilidad de ataque, dobla su bono de Fuerza (alcanzado un daño base de 90) y reduce un punto más (5 en total) la armadura del defensor. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los leviatanes poseen una vulnerabilidad absoluta a la magia. Poseen RM 10 y cualquier descarga de energía sobrenatural les produce doble daño. Cono Cimientosdedravenor Conocimiento Genérico En los mares y océanos hay cosas en las profundidades que destrozan y hunden los barcos. Conocimiento Intermedio La electricidad es el enemigo natural de los leviatanes. Dicen incluso que no suelen salir a cazar en días de tormenta para evitar los efectos de los rayos que caen sobre la superficie del mar.\n\nConocimiento Avanzado Originalmente, los leviatanes tenían una forma diferente, ligeramente más parecida a las langostas con pinzas al final de las articulaciones. Aunque los modelos evolucionaron hasta tener una forma diferente, los escasos leviatánes originales que quedan son más peligrosos y corpulentos. Pese a que todos los miembros de La Máquina son teóricamente iguales, existe un leviatán legendario que lleva en funcionamiento desde la batalla de Elciana que ha obtenido cierta fama entre los marineros. Estos lo llaman Rackham, y se dice que, de algún modo, es el más mortífero de todos. o rbe La Máquina (Varna Menor )</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 4
-      },
       "notes": [
         {
           "_id": "note-leviatan-la-maquina-varna-interm-3",
@@ -501,52 +423,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -557,9 +463,6 @@
         "initiative": {
           "base": {
             "value": 100
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +513,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -621,10 +521,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -632,10 +529,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 60040
+              "value": 60100
             },
             "final": {
               "value": 0
@@ -643,10 +537,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -30
+              "value": 10
             },
             "final": {
               "value": 0
@@ -654,10 +545,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -669,209 +557,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 180
+          },
+          "final": {
+            "value": 0
           }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 150
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 125
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -902,11 +1036,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -918,14 +1048,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -939,14 +1074,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1051,15 +1183,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1071,37 +1199,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1224,9 +1372,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

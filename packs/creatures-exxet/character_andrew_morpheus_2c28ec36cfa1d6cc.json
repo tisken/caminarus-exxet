@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 26</p><p><strong>Entrada:</strong> Andrew Morpheus</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Novel Fue: 6 Des: 8 Agi: 8 Con: 7 Pod: 6 Int: 10 Vol: 6 Per: 8 RF 35 RM 35 RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Conocedor de todas las materias, Fondos iniciales, Miopía.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 45 Espada corta</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 30, Atletismo 30, Montar 55, Nadar 30, Saltar 25, Trepar 30, Estilo 25, Intimidar 25, Liderazgo 45, Persuasión 65, Cerrajería 30, Disfraz 30, Ocultarse 30, Robo 30, Sigilo 30, Trampería 30, Venenos 35, Advertir 50, Buscar 30, Rastrear 30, Animales 35, Ciencia 35, Herbolaria 50, Historia 50, Medicina 50, Memorizar 60, Navegación 45, Ocultismo 50, Tasación 60, Frialdad 25, Proezas de fuerza 25, Resistir el dolor 25, Arte 30, Baile 30, Forja 30, Música 30, Trucos de manos 30</p><p><strong>Descripción breve:</strong> Descripción: Lentes, Reloj de bolsillo, Espada corta. +10 aTasación, Persuasión, Ocultismo, Medicina, Memorizar. Andrew Morpheus es un hombre de veinticuatro años. Moreno, de ojos grises y aspecto desaliñado, nadie que lo viese podría imaginar sus orígenes, de no ser por la calidad de las ropas que suele vestir. Todas las familias tienen su oveja negra, y Andrew es sin duda la de los Morpheus. Nacido en el seno de la nobleza, el joven nunca sintió el más mínimo interés por las fiestas de sociedad o las apariencias; desde el primer momento que cayó un libro entre sus manos, la lectura y el aprendizaje lo fueron todo para él. Por ello, no tardó en ingresar en una prestigiosa universidad de Ilmora, donde comenzó varias carreras a la vez. Pronto demostró ser un genio sin parangón, con una facilidad para asimilar las cosas que dejaba sorprendidos a todos. No obstante, las artes y las ciencias no fueron su único interés; Andrew se sentía atraído por toda clase de conocimiento, sin importar su clase. Literatura, historia, esgrima… incluso recetas culinarias despertaban su inagotable ansia de saber, y su deseo por aprender cosas nuevas. Finalmente, tras años y años de estudio, empezó a sentir que necesitaba ver y comprender, con sus propios ojos, todas aquellas cosas que había leído en los libros. Por esa causa, inició una serie de viajes a lugares remotos con la esperanza de visitar ruinas arquitectónicas, nuevas bibliotecas y descubrir tantas maravillas que esconde el mundo. Notas y curiosidades: A pesar de su afición a la lectura, Andrew tiene una considerable miopía, por lo que necesita gafas para poder ver correctamente. Posesiones: Espada corta, Lentes, Varios libros de historia y ciencia, Varios pergaminos en blanco, Pluma y tinta, Un catalejo, 900 Escudos de Oro. AnisBeige</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 100 Categoría: Novel Fue: 6 Des: 8 Agi: 8 Con: 7 Pod: 6 Int: 10 Vol: 6 Per: 8 RF 35 RM 35 RP 35 RV 35 RE 35\n\nTurno: 65 Natural, 60 Espada corta Habilidad de ataque: 70 Espada corta Habilidad de defensa: 75 Esquiva Daño: 45 Espada corta Llevar Armadura: 5 TA: Ninguna Ventajas y desventajas: Conocedor de todas las materias, Fondos iniciales, Miopía. Habilidades naturales: Ninguna. de movimiento: 8 Cansancio: 7 Habilidades Secundarias: Acrobacias 30, Atletismo 30, Montar 55, Nadar 30, Saltar 25, Trepar 30, Estilo 25, Intimidar 25, Liderazgo 45, Persuasión 65, Cerrajería 30, Disfraz 30, Ocultarse 30, Robo 30, Sigilo 30, Trampería 30, Venenos 35, Advertir 50, Buscar 30, Rastrear 30, Animales 35, Ciencia 35, Herbolaria 50, Historia 50, Medicina 50, Memorizar 60, Navegación 45, Ocultismo 50, Tasación 60, Frialdad 25, Proezas de fuerza 25, Resistir el dolor 25, Arte 30, Baile 30, Forja 30, Música 30, Trucos de manos 30. Descripción: Lentes, Reloj de bolsillo, Espada corta.\n\n+10 aTasación, Persuasión, Ocultismo, Medicina, Memorizar. Andrew Morpheus es un hombre de veinticuatro años. Moreno, de ojos grises y aspecto desaliñado, nadie que lo viese podría imaginar sus orígenes, de no ser por la calidad de las ropas que suele vestir. Todas las familias tienen su oveja negra, y Andrew es sin duda la de los Morpheus. Nacido en el seno de la nobleza, el joven nunca sintió el más mínimo interés por las fiestas de sociedad o las apariencias; desde el primer momento que cayó un libro entre sus manos, la lectura y el aprendizaje lo fueron todo para él. Por ello, no tardó en ingresar en una prestigiosa universidad de Ilmora, donde comenzó varias carreras a la vez. Pronto demostró ser un genio sin parangón, con una facilidad para asimilar las cosas que dejaba sorprendidos a todos.\n\nNo obstante, las artes y las ciencias no fueron su único interés; Andrew se sentía atraído por toda clase de conocimiento, sin importar su clase. Literatura, historia, esgrima… incluso recetas culinarias despertaban su inagotable ansia de saber, y su deseo por aprender cosas nuevas. Finalmente, tras años y años de estudio, empezó a sentir que necesitaba ver y comprender, con sus propios ojos, todas aquellas cosas que había leído en los libros. Por esa causa, inició una serie de viajes a lugares remotos con la esperanza de visitar ruinas arquitectónicas, nuevas bibliotecas y descubrir tantas maravillas que esconde el mundo. Notas y curiosidades: A pesar de su afición a la lectura, Andrew tiene una considerable miopía, por lo que necesita gafas para poder ver correctamente.\n\nPosesiones: Espada corta, Lentes, Varios libros de historia y ciencia, Varios pergaminos en blanco, Pluma y tinta, Un catalejo, 900 Escudos de Oro. AnisBeige</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 26</p><p><strong>Entrada:</strong> Andrew Morpheus</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Novel Fue: 6 Des: 8 Agi: 8 Con: 7 Pod: 6 Int: 10 Vol: 6 Per: 8 RF 35 RM 35 RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Conocedor de todas las materias, Fondos iniciales, Miopía.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 45 Espada corta</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 30, Atletismo 30, Montar 55, Nadar 30, Saltar 25, Trepar 30, Estilo 25, Intimidar 25, Liderazgo 45, Persuasión 65, Cerrajería 30, Disfraz 30, Ocultarse 30, Robo 30, Sigilo 30, Trampería 30, Venenos 35, Advertir 50, Buscar 30, Rastrear 30, Animales 35, Ciencia 35, Herbolaria 50, Historia 50, Medicina 50, Memorizar 60, Navegación 45, Ocultismo 50, Tasación 60, Frialdad 25, Proezas de fuerza 25, Resistir el dolor 25, Arte 30, Baile 30, Forja 30, Música 30, Trucos de manos 30</p><p><strong>Descripción breve:</strong> Descripción: Lentes, Reloj de bolsillo, Espada corta. +10 aTasación, Persuasión, Ocultismo, Medicina, Memorizar. Andrew Morpheus es un hombre de veinticuatro años. Moreno, de ojos grises y aspecto desaliñado, nadie que lo viese podría imaginar sus orígenes, de no ser por la calidad de las ropas que suele vestir. Todas las familias tienen su oveja negra, y Andrew es sin duda la de los Morpheus. Nacido en el seno de la nobleza, el joven nunca sintió el más mínimo interés por las fiestas de sociedad o las apariencias; desde el primer momento que cayó un libro entre sus manos, la lectura y el aprendizaje lo fueron todo para él. Por ello, no tardó en ingresar en una prestigiosa universidad de Ilmora, donde comenzó varias carreras a la vez. Pronto demostró ser un genio sin parangón, con una facilidad para asimilar las cosas que dejaba sorprendidos a todos. No obstante, las artes y las ciencias no fueron su único interés; Andrew se sentía atraído por toda clase de conocimiento, sin importar su clase. Literatura, historia, esgrima… incluso recetas culinarias despertaban su inagotable ansia de saber, y su deseo por aprender cosas nuevas. Finalmente, tras años y años de estudio, empezó a sentir que necesitaba ver y comprender, con sus propios ojos, todas aquellas cosas que había leído en los libros. Por esa causa, inició una serie de viajes a lugares remotos con la esperanza de visitar ruinas arquitectónicas, nuevas bibliotecas y descubrir tantas maravillas que esconde el mundo. Notas y curiosidades: A pesar de su afición a la lectura, Andrew tiene una considerable miopía, por lo que necesita gafas para poder ver correctamente. Posesiones: Espada corta, Lentes, Varios libros de historia y ciencia, Varios pergaminos en blanco, Pluma y tinta, Un catalejo, 900 Escudos de Oro. AnisBeige</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 100 Categoría: Novel Fue: 6 Des: 8 Agi: 8 Con: 7 Pod: 6 Int: 10 Vol: 6 Per: 8 RF 35 RM 35 RP 35 RV 35 RE 35\n\nTurno: 65 Natural, 60 Espada corta Habilidad de ataque: 70 Espada corta Habilidad de defensa: 75 Esquiva Daño: 45 Espada corta Llevar Armadura: 5 TA: Ninguna Ventajas y desventajas: Conocedor de todas las materias, Fondos iniciales, Miopía. Habilidades naturales: Ninguna. de movimiento: 8 Cansancio: 7 Habilidades Secundarias: Acrobacias 30, Atletismo 30, Montar 55, Nadar 30, Saltar 25, Trepar 30, Estilo 25, Intimidar 25, Liderazgo 45, Persuasión 65, Cerrajería 30, Disfraz 30, Ocultarse 30, Robo 30, Sigilo 30, Trampería 30, Venenos 35, Advertir 50, Buscar 30, Rastrear 30, Animales 35, Ciencia 35, Herbolaria 50, Historia 50, Medicina 50, Memorizar 60, Navegación 45, Ocultismo 50, Tasación 60, Frialdad 25, Proezas de fuerza 25, Resistir el dolor 25, Arte 30, Baile 30, Forja 30, Música 30, Trucos de manos 30. Descripción: Lentes, Reloj de bolsillo, Espada corta.\n\n+10 aTasación, Persuasión, Ocultismo, Medicina, Memorizar. Andrew Morpheus es un hombre de veinticuatro años. Moreno, de ojos grises y aspecto desaliñado, nadie que lo viese podría imaginar sus orígenes, de no ser por la calidad de las ropas que suele vestir. Todas las familias tienen su oveja negra, y Andrew es sin duda la de los Morpheus. Nacido en el seno de la nobleza, el joven nunca sintió el más mínimo interés por las fiestas de sociedad o las apariencias; desde el primer momento que cayó un libro entre sus manos, la lectura y el aprendizaje lo fueron todo para él. Por ello, no tardó en ingresar en una prestigiosa universidad de Ilmora, donde comenzó varias carreras a la vez. Pronto demostró ser un genio sin parangón, con una facilidad para asimilar las cosas que dejaba sorprendidos a todos.\n\nNo obstante, las artes y las ciencias no fueron su único interés; Andrew se sentía atraído por toda clase de conocimiento, sin importar su clase. Literatura, historia, esgrima… incluso recetas culinarias despertaban su inagotable ansia de saber, y su deseo por aprender cosas nuevas. Finalmente, tras años y años de estudio, empezó a sentir que necesitaba ver y comprender, con sus propios ojos, todas aquellas cosas que había leído en los libros. Por esa causa, inició una serie de viajes a lugares remotos con la esperanza de visitar ruinas arquitectónicas, nuevas bibliotecas y descubrir tantas maravillas que esconde el mundo. Notas y curiosidades: A pesar de su afición a la lectura, Andrew tiene una considerable miopía, por lo que necesita gafas para poder ver correctamente.\n\nPosesiones: Espada corta, Lentes, Varios libros de historia y ciencia, Varios pergaminos en blanco, Pluma y tinta, Un catalejo, 900 Escudos de Oro. AnisBeige</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-andrew-morpheus-1",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 65
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 3530
+              "value": 3565
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -513,305 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 65
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 70
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 75
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 5
-        }
+        "value": 5
       },
       "totalArmor": {
         "at": {
@@ -842,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -858,14 +889,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -879,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -991,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1011,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1164,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

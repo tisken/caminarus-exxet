@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 60
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": ""
         },
         "size": {
-          "value": 14
+          "value": "14"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 18</p><p><strong>Entrada:</strong> Energía Calor Infernal Inmune al Fuego Cuerpo Construido</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Guerrero Acróbata Fue: 5 Des: 12 Agi: 9 Con: 9 Pod: 10 Int: 5 Vol: 4 Per: 9 RF 55 RM 110 RP 60 RV 55 RE 55</p><p><strong>Categoría:</strong> Entre Mundos, Creación 25</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Exención Física.</p><p><strong>Poderes:</strong> Arco Voltaico (Arma Natural, Alcance Extendido, +40 Daño, Ataque Elemental Eléctrico, Daña Energía), Campo Magnético, Levitación (Vuelo Místico 4), Cuerpo de Metal (Armadura Física 6, Armadura Mística 4, Regeneración Cero).</p><p><strong>Daño:</strong> 80 Arco Voltaico.</p><p><strong>TA:</strong> 6 Física, 4 Energía</p><p><strong>Habilidades secundarias:</strong> Acrobacias 100, Trepar 30, Saltar 150, Advertir 100, Buscar 90, Ciencia 80, Memorizar 80, Navegación 80, Cerrajería 50, Forja 100, Truco de Manos 130</p><p><strong>Descripción breve:</strong> Este es el modelo más básico de todos los títeres creados por Nascal, simples muñecos decorativos utilizados en ocasiones para proteger su propiedad. Tienen el aspecto de tradicionales marionetas de madera, las mismas que le fascinaban de niño, pero su sencillez es excepcional si tenemos en cuenta la habilidad del artífice. Su inteligencia es muy limitada y solo cumplen las órdenes de su creador de la forma más directa posible. A pesar de su sencillez, las marionetas de Nascal son oponentes peligrosos. Una de sus tácticas favoritas es quedarse completamente quietos, haciéndose pasar por simples muñecos, que atacan por sorpresa cuando sus objetivos se les acercan sin conocer su naturaleza. Los títeres pueden tener cualquier combinación posible de armas, pero generalmente usan sus extremidades como si fueran mazas. Los valores reflejados arriba consideran usar sus extremidades como arma, pero pueden ser reemplazadas por otras. Un títere no tiene ningún tipo de sentimiento y es inmune a cualquier estado psicológico como la ira o el miedo. Del mismo modo, ignora todos los penalizadores, naturales o sobrenaturales, que pueden ser causados por el dolor. Al ser construcciones artificiales, los títeres no pueden recuperarse del daño por sí mismos. Deben ser reparados por alguien que tenga la experiencia y los medios apropiados. Marioneta de Ghestal Las Marionetas de Ghestal son una de las creaciones más imaginativas de Nascal, títeres vivientes hechos de la madera sagrada Duk&#x27;zarist. Si bien en apariencia son meros títeres de madera oscura, su verdadera capacidad es estallar en fuego a voluntad y dado que la madera de Ghestal nunca se consume, arden eternamente como “títeres de fuego”. Naturalmente, esta habilidad los convierte en enemigos muy peligrosos, sobre todo porque sus llamas son tan fuertes que devoran todo lo que está cerca de ellos. Dado que la madera de Ghestal es extremadamente complicada de conseguir, Nascal solo pudo crear una docena de estas criaturas, por lo que son muy raras. Las Marionetas de Ghestal son, como las otras creaciones de Nascal, extensiones de la voluntad de su amo y solo pueden seguir sus órdenes. En combate, se especializan en ataques a distancia, aunque no tienen problemas en el cuerpo a cuerpo gracias a la superioridad que les otorga su aura de fuego. Las Marionetas pueden tener cualquier combinación posible de armas, pero generalmente usan sus extremidades como si fueran mazas ígneas. Cuando las llamas eternas están activas, aumentan su Daño Base en 10 puntos y atacan con Calor. Gracias a su control sobre el fuego, las Marionetas de Ghestal pueden realizar ataques a distancia generando ráfagas de fuego. Esta habilidad se considera un ataque a distancia que explota al impactar con un área de efecto de 3 metros. reducen su Daño Base en 30 puntos contra las marionetas. Sin embargo, la resistencia al fuego es limitada, por lo que si la marioneta pierde más de 400 puntos de vida en un asalto, las llamas se mitigan temporalmente durante el siguiente turno. El fuego se reaviva al final del siguiente asalto. Todos los que entren en contacto con las Marionetas de Ghestal mientras se están quemando deben pasar una RF contra 80 cada turno o sufrir daño basado en calor equivalente al nivel de fracaso. L as Marionetas son inmunes a cualquier tipo de ataque basado en fuego o calor a menos que sea causado por un ser con Gnosis 30 o superior. Al ser construcciones artificiales, los títeres no pueden recuperarse del daño por sí mismos. En cambio, deben ser reparados por alguien que tenga la experiencia y los medios apropiados. Prototipo de Nascal _Página 19_ Modus Operandi Arco Voltaico: Campo Magnético: Levitación: Cuerpo Construido: De todas las obras de Nascal, los Prototipos de Combate son sus creaciones más peligrosas, marionetas tecnomágicas que se han creado como cuerpos de reemplazo o extensiones de la voluntad del Mensajero. Estos seres son armas vivientes que, si bien no tienen el potencial destructivo del enorme cuerpo real de Nascal, tienen un poder de batalla considerable, incluso superior al de todo un batallón de soldados. Parecen ser versiones más pequeñas del propio Mensajero, pero en lugar de cuchillas en la espalda, tienen alas de metal que les permiten moverse por el aire. Los prototipos tienen una identidad propia que les permite actuar de manera independiente, pero por lo general Nascal toma el control de ellos y los usa como extensiones para interactuar con otros seres o luchar contra enemigos que no considera una amenaza real. Los prototipos son criaturas muy peligrosas en combate, ya que tienen grandes capacidades de combate y están programados para ser letales. Generalmente atacan con ondas de choque que les permiten acabar con sus enemigos muy rápido, pero si sienten que la pelea puede volverse contra ellos, los Prototipos prefieren mantener la distancia y alejarse unos metros para asegurarse de que sus oponentes no puedan alcanzarlos. Suelen estar acompañados en combate por otros títeres de Nascal, lo que les permite tener superioridad adicional en la batalla. Para luchar, el Prototipo a menudo desencadena poderosos arcos eléctricos que destruyen todo a su alrededor. Estos ataques tienen un alcance de 10 metros y pueden afectar hasta a tres objetivos diferentes cada turno, aunque todos los ataques se consideran cuerpo a cuerpo. Dada su naturaleza sobrenatural, los arcos eléctricos son capaces de dañar la energía. Si son atacados con elementos metálicos, el Prototipo puede desplegar un escudo magnético como defensa. Esta habilidad solo funciona contra ataques que puedan verse potencialmente afectados por el magnetismo. Gracias a los generadores en su espalda, los Prototipos pueden moverse por el aire con Tipo Vuelo 4. apropiados. medios los y experiencia la tenga que alguien por reparados ser deben cambio, En mismos. sí por daño del recuperarse pueden no títeres los artificiales, construcciones ser Al _Página 20_</p></section><details><summary>Texto extraído</summary><pre>Nivell: 7 Categoría: Entre Mundos, Creación 25 Puntos de Vida: 110\n\nClase: Guerrero Acróbata Fue: 5 Des: 12 Agi: 9 Con: 9 Pod: 10 Int: 5 Vol: 4 Per: 9 RF 55 RM 110 RP 60 RV 55 RE 55\n\nTurno: 140 Natural Habilidad de Ataque: 205 Arco Voltaico Habilidad de Defensa: 195 Esquiva, 220 Campo Magnético (Especial). Daño: 80 Arco Voltaico. TA: 6 Física, 4 Energía Habilidades Esenciales: Características Físicas Sobrehumanas, Exención Física. Poderes: Arco Voltaico (Arma Natural, Alcance Extendido, +40 Daño, Ataque Elemental Eléctrico, Daña Energía), Campo Magnético, Levitación (Vuelo Místico 4), Cuerpo de Metal (Armadura Física 6, Armadura Mística 4, Regeneración Cero).\n\nTamaño: 14 Medio Regeneración: 0 Tipo de movimiento: 9 Cansancio: Incansable Habilidades Secundarias: Acrobacias 100, Trepar 30, Saltar 150, Advertir 100, Buscar 90, Ciencia 80, Memorizar 80, Navegación 80, Cerrajería 50, Forja 100, Truco de Manos 130. Este es el modelo más básico de todos los títeres creados por Nascal, simples muñecos decorativos utilizados en ocasiones para proteger su propiedad. Tienen el aspecto de tradicionales marionetas de madera, las mismas que le fascinaban de niño, pero su sencillez es excepcional si tenemos en cuenta la habilidad del artífice. Su inteligencia es muy limitada y solo cumplen las órdenes de su creador de la forma más directa posible. A pesar de su sencillez, las marionetas de Nascal son oponentes peligrosos.\n\nUna de sus tácticas favoritas es quedarse completamente quietos, haciéndose pasar por simples muñecos, que atacan por sorpresa cuando sus objetivos se les acercan sin conocer su naturaleza. Los títeres pueden tener cualquier combinación posible de armas, pero generalmente usan sus extremidades como si fueran mazas. Los valores reflejados arriba consideran usar sus extremidades como arma, pero pueden ser reemplazadas por otras. Un títere no tiene ningún tipo de sentimiento y es inmune a cualquier estado psicológico como la ira o el miedo. Del mismo modo, ignora todos los penalizadores, naturales o sobrenaturales, que pueden ser causados por el dolor. Al ser construcciones artificiales, los títeres no pueden recuperarse del daño por sí mismos. Deben ser reparados por alguien que tenga la experiencia y los medios apropiados.\n\nMarioneta de Ghestal Las Marionetas de Ghestal son una de las creaciones más imaginativas de Nascal, títeres vivientes hechos de la madera sagrada Duk&#x27;zarist. Si bien en apariencia son meros títeres de madera oscura, su verdadera capacidad es estallar en fuego a voluntad y dado que la madera de Ghestal nunca se consume, arden eternamente como “títeres de fuego”. Naturalmente, esta habilidad los convierte en enemigos muy peligrosos, sobre todo porque sus llamas son tan fuertes que devoran todo lo que está cerca de ellos. Dado que la madera de Ghestal es extremadamente complicada de conseguir, Nascal solo pudo crear una docena de estas criaturas, por lo que son muy raras. Las Marionetas de Ghestal son, como las otras creaciones de Nascal, extensiones de la voluntad de su amo y solo pueden seguir sus órdenes.\n\nEn combate, se especializan en ataques a distancia, aunque no tienen problemas en el cuerpo a cuerpo gracias a la superioridad que les otorga su aura de fuego. Las Marionetas pueden tener cualquier combinación posible de armas, pero generalmente usan sus extremidades como si fueran mazas ígneas. Cuando las llamas eternas están activas, aumentan su Daño Base en 10 puntos y atacan con Calor. Gracias a su control sobre el fuego, las Marionetas de Ghestal pueden realizar ataques a distancia generando ráfagas de fuego. Esta habilidad se considera un ataque a distancia que explota al impactar con un área de efecto de 3 metros. reducen su Daño Base en 30 puntos contra las marionetas. Sin embargo, la resistencia al fuego es limitada, por lo que si la marioneta pierde más de 400 puntos de vida en un asalto, las llamas se mitigan temporalmente durante el siguiente turno.\n\nEl fuego se reaviva al final del siguiente asalto. Todos los que entren en contacto con las Marionetas de Ghestal mientras se están quemando deben pasar una RF contra 80 cada turno o sufrir daño basado en calor equivalente al nivel de fracaso. L as Marionetas son inmunes a cualquier tipo de ataque basado en fuego o calor a menos que sea causado por un ser con Gnosis 30 o superior. Al ser construcciones artificiales, los títeres no pueden recuperarse del daño por sí mismos. En cambio, deben ser reparados por alguien que tenga la experiencia y los medios apropiados. Prototipo de Nascal\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 19_\n\nModus Operandi Arco Voltaico: Campo Magnético: Levitación: Cuerpo Construido: De todas las obras de Nascal, los Prototipos de Combate son sus creaciones más peligrosas, marionetas tecnomágicas que se han creado como cuerpos de reemplazo o extensiones de la voluntad del Mensajero. Estos seres son armas vivientes que, si bien no tienen el potencial destructivo del enorme cuerpo real de Nascal, tienen un poder de batalla considerable, incluso superior al de todo un batallón de soldados. Parecen ser versiones más pequeñas del propio Mensajero, pero en lugar de cuchillas en la espalda, tienen alas de metal que les permiten moverse por el aire.\n\nLos prototipos tienen una identidad propia que les permite actuar de manera independiente, pero por lo general Nascal toma el control de ellos y los usa como extensiones para interactuar con otros seres o luchar contra enemigos que no considera una amenaza real. Los prototipos son criaturas muy peligrosas en combate, ya que tienen grandes capacidades de combate y están programados para ser letales. Generalmente atacan con ondas de choque que les permiten acabar con sus enemigos muy rápido, pero si sienten que la pelea puede volverse contra ellos, los Prototipos prefieren mantener la distancia y alejarse unos metros para asegurarse de que sus oponentes no puedan alcanzarlos. Suelen estar acompañados en combate por otros títeres de Nascal, lo que les permite tener superioridad adicional en la batalla.\n\nPara luchar, el Prototipo a menudo desencadena poderosos arcos eléctricos que destruyen todo a su alrededor. Estos ataques tienen un alcance de 10 metros y pueden afectar hasta a tres objetivos diferentes cada turno, aunque todos los ataques se consideran cuerpo a cuerpo. Dada su naturaleza sobrenatural, los arcos eléctricos son capaces de dañar la energía. Si son atacados con elementos metálicos, el Prototipo puede desplegar un escudo magnético como defensa. Esta habilidad solo funciona contra ataques que puedan verse potencialmente afectados por el magnetismo. Gracias a los generadores en su espalda, los Prototipos pueden moverse por el aire con Tipo Vuelo 4. apropiados. medios los y experiencia la tenga que alguien por reparados ser deben cambio, En mismos. sí por daño del recuperarse pueden no títeres los artificiales, construcciones ser Al\n\n&lt;!-- tags: @personaje, @regla, @conjuracion --&gt;\n\n_Página 20_</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 18</p><p><strong>Entrada:</strong> Energía Calor Infernal Inmune al Fuego Cuerpo Construido</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Guerrero Acróbata Fue: 5 Des: 12 Agi: 9 Con: 9 Pod: 10 Int: 5 Vol: 4 Per: 9 RF 55 RM 110 RP 60 RV 55 RE 55</p><p><strong>Categoría:</strong> Entre Mundos, Creación 25</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Exención Física.</p><p><strong>Poderes:</strong> Arco Voltaico (Arma Natural, Alcance Extendido, +40 Daño, Ataque Elemental Eléctrico, Daña Energía), Campo Magnético, Levitación (Vuelo Místico 4), Cuerpo de Metal (Armadura Física 6, Armadura Mística 4, Regeneración Cero).</p><p><strong>Daño:</strong> 80 Arco Voltaico.</p><p><strong>TA:</strong> 6 Física, 4 Energía</p><p><strong>Habilidades secundarias:</strong> Acrobacias 100, Trepar 30, Saltar 150, Advertir 100, Buscar 90, Ciencia 80, Memorizar 80, Navegación 80, Cerrajería 50, Forja 100, Truco de Manos 130</p><p><strong>Descripción breve:</strong> Este es el modelo más básico de todos los títeres creados por Nascal, simples muñecos decorativos utilizados en ocasiones para proteger su propiedad. Tienen el aspecto de tradicionales marionetas de madera, las mismas que le fascinaban de niño, pero su sencillez es excepcional si tenemos en cuenta la habilidad del artífice. Su inteligencia es muy limitada y solo cumplen las órdenes de su creador de la forma más directa posible. A pesar de su sencillez, las marionetas de Nascal son oponentes peligrosos. Una de sus tácticas favoritas es quedarse completamente quietos, haciéndose pasar por simples muñecos, que atacan por sorpresa cuando sus objetivos se les acercan sin conocer su naturaleza. Los títeres pueden tener cualquier combinación posible de armas, pero generalmente usan sus extremidades como si fueran mazas. Los valores reflejados arriba consideran usar sus extremidades como arma, pero pueden ser reemplazadas por otras. Un títere no tiene ningún tipo de sentimiento y es inmune a cualquier estado psicológico como la ira o el miedo. Del mismo modo, ignora todos los penalizadores, naturales o sobrenaturales, que pueden ser causados por el dolor. Al ser construcciones artificiales, los títeres no pueden recuperarse del daño por sí mismos. Deben ser reparados por alguien que tenga la experiencia y los medios apropiados. Marioneta de Ghestal Las Marionetas de Ghestal son una de las creaciones más imaginativas de Nascal, títeres vivientes hechos de la madera sagrada Duk&#x27;zarist. Si bien en apariencia son meros títeres de madera oscura, su verdadera capacidad es estallar en fuego a voluntad y dado que la madera de Ghestal nunca se consume, arden eternamente como “títeres de fuego”. Naturalmente, esta habilidad los convierte en enemigos muy peligrosos, sobre todo porque sus llamas son tan fuertes que devoran todo lo que está cerca de ellos. Dado que la madera de Ghestal es extremadamente complicada de conseguir, Nascal solo pudo crear una docena de estas criaturas, por lo que son muy raras. Las Marionetas de Ghestal son, como las otras creaciones de Nascal, extensiones de la voluntad de su amo y solo pueden seguir sus órdenes. En combate, se especializan en ataques a distancia, aunque no tienen problemas en el cuerpo a cuerpo gracias a la superioridad que les otorga su aura de fuego. Las Marionetas pueden tener cualquier combinación posible de armas, pero generalmente usan sus extremidades como si fueran mazas ígneas. Cuando las llamas eternas están activas, aumentan su Daño Base en 10 puntos y atacan con Calor. Gracias a su control sobre el fuego, las Marionetas de Ghestal pueden realizar ataques a distancia generando ráfagas de fuego. Esta habilidad se considera un ataque a distancia que explota al impactar con un área de efecto de 3 metros. reducen su Daño Base en 30 puntos contra las marionetas. Sin embargo, la resistencia al fuego es limitada, por lo que si la marioneta pierde más de 400 puntos de vida en un asalto, las llamas se mitigan temporalmente durante el siguiente turno. El fuego se reaviva al final del siguiente asalto. Todos los que entren en contacto con las Marionetas de Ghestal mientras se están quemando deben pasar una RF contra 80 cada turno o sufrir daño basado en calor equivalente al nivel de fracaso. L as Marionetas son inmunes a cualquier tipo de ataque basado en fuego o calor a menos que sea causado por un ser con Gnosis 30 o superior. Al ser construcciones artificiales, los títeres no pueden recuperarse del daño por sí mismos. En cambio, deben ser reparados por alguien que tenga la experiencia y los medios apropiados. Prototipo de Nascal _Página 19_ Modus Operandi Arco Voltaico: Campo Magnético: Levitación: Cuerpo Construido: De todas las obras de Nascal, los Prototipos de Combate son sus creaciones más peligrosas, marionetas tecnomágicas que se han creado como cuerpos de reemplazo o extensiones de la voluntad del Mensajero. Estos seres son armas vivientes que, si bien no tienen el potencial destructivo del enorme cuerpo real de Nascal, tienen un poder de batalla considerable, incluso superior al de todo un batallón de soldados. Parecen ser versiones más pequeñas del propio Mensajero, pero en lugar de cuchillas en la espalda, tienen alas de metal que les permiten moverse por el aire. Los prototipos tienen una identidad propia que les permite actuar de manera independiente, pero por lo general Nascal toma el control de ellos y los usa como extensiones para interactuar con otros seres o luchar contra enemigos que no considera una amenaza real. Los prototipos son criaturas muy peligrosas en combate, ya que tienen grandes capacidades de combate y están programados para ser letales. Generalmente atacan con ondas de choque que les permiten acabar con sus enemigos muy rápido, pero si sienten que la pelea puede volverse contra ellos, los Prototipos prefieren mantener la distancia y alejarse unos metros para asegurarse de que sus oponentes no puedan alcanzarlos. Suelen estar acompañados en combate por otros títeres de Nascal, lo que les permite tener superioridad adicional en la batalla. Para luchar, el Prototipo a menudo desencadena poderosos arcos eléctricos que destruyen todo a su alrededor. Estos ataques tienen un alcance de 10 metros y pueden afectar hasta a tres objetivos diferentes cada turno, aunque todos los ataques se consideran cuerpo a cuerpo. Dada su naturaleza sobrenatural, los arcos eléctricos son capaces de dañar la energía. Si son atacados con elementos metálicos, el Prototipo puede desplegar un escudo magnético como defensa. Esta habilidad solo funciona contra ataques que puedan verse potencialmente afectados por el magnetismo. Gracias a los generadores en su espalda, los Prototipos pueden moverse por el aire con Tipo Vuelo 4. apropiados. medios los y experiencia la tenga que alguien por reparados ser deben cambio, En mismos. sí por daño del recuperarse pueden no títeres los artificiales, construcciones ser Al _Página 20_</p></section><details><summary>Texto extraído</summary><pre>Nivell: 7 Categoría: Entre Mundos, Creación 25 Puntos de Vida: 110\n\nClase: Guerrero Acróbata Fue: 5 Des: 12 Agi: 9 Con: 9 Pod: 10 Int: 5 Vol: 4 Per: 9 RF 55 RM 110 RP 60 RV 55 RE 55\n\nTurno: 140 Natural Habilidad de Ataque: 205 Arco Voltaico Habilidad de Defensa: 195 Esquiva, 220 Campo Magnético (Especial). Daño: 80 Arco Voltaico. TA: 6 Física, 4 Energía Habilidades Esenciales: Características Físicas Sobrehumanas, Exención Física. Poderes: Arco Voltaico (Arma Natural, Alcance Extendido, +40 Daño, Ataque Elemental Eléctrico, Daña Energía), Campo Magnético, Levitación (Vuelo Místico 4), Cuerpo de Metal (Armadura Física 6, Armadura Mística 4, Regeneración Cero).\n\nTamaño: 14 Medio Regeneración: 0 Tipo de movimiento: 9 Cansancio: Incansable Habilidades Secundarias: Acrobacias 100, Trepar 30, Saltar 150, Advertir 100, Buscar 90, Ciencia 80, Memorizar 80, Navegación 80, Cerrajería 50, Forja 100, Truco de Manos 130. Este es el modelo más básico de todos los títeres creados por Nascal, simples muñecos decorativos utilizados en ocasiones para proteger su propiedad. Tienen el aspecto de tradicionales marionetas de madera, las mismas que le fascinaban de niño, pero su sencillez es excepcional si tenemos en cuenta la habilidad del artífice. Su inteligencia es muy limitada y solo cumplen las órdenes de su creador de la forma más directa posible. A pesar de su sencillez, las marionetas de Nascal son oponentes peligrosos.\n\nUna de sus tácticas favoritas es quedarse completamente quietos, haciéndose pasar por simples muñecos, que atacan por sorpresa cuando sus objetivos se les acercan sin conocer su naturaleza. Los títeres pueden tener cualquier combinación posible de armas, pero generalmente usan sus extremidades como si fueran mazas. Los valores reflejados arriba consideran usar sus extremidades como arma, pero pueden ser reemplazadas por otras. Un títere no tiene ningún tipo de sentimiento y es inmune a cualquier estado psicológico como la ira o el miedo. Del mismo modo, ignora todos los penalizadores, naturales o sobrenaturales, que pueden ser causados por el dolor. Al ser construcciones artificiales, los títeres no pueden recuperarse del daño por sí mismos. Deben ser reparados por alguien que tenga la experiencia y los medios apropiados.\n\nMarioneta de Ghestal Las Marionetas de Ghestal son una de las creaciones más imaginativas de Nascal, títeres vivientes hechos de la madera sagrada Duk&#x27;zarist. Si bien en apariencia son meros títeres de madera oscura, su verdadera capacidad es estallar en fuego a voluntad y dado que la madera de Ghestal nunca se consume, arden eternamente como “títeres de fuego”. Naturalmente, esta habilidad los convierte en enemigos muy peligrosos, sobre todo porque sus llamas son tan fuertes que devoran todo lo que está cerca de ellos. Dado que la madera de Ghestal es extremadamente complicada de conseguir, Nascal solo pudo crear una docena de estas criaturas, por lo que son muy raras. Las Marionetas de Ghestal son, como las otras creaciones de Nascal, extensiones de la voluntad de su amo y solo pueden seguir sus órdenes.\n\nEn combate, se especializan en ataques a distancia, aunque no tienen problemas en el cuerpo a cuerpo gracias a la superioridad que les otorga su aura de fuego. Las Marionetas pueden tener cualquier combinación posible de armas, pero generalmente usan sus extremidades como si fueran mazas ígneas. Cuando las llamas eternas están activas, aumentan su Daño Base en 10 puntos y atacan con Calor. Gracias a su control sobre el fuego, las Marionetas de Ghestal pueden realizar ataques a distancia generando ráfagas de fuego. Esta habilidad se considera un ataque a distancia que explota al impactar con un área de efecto de 3 metros. reducen su Daño Base en 30 puntos contra las marionetas. Sin embargo, la resistencia al fuego es limitada, por lo que si la marioneta pierde más de 400 puntos de vida en un asalto, las llamas se mitigan temporalmente durante el siguiente turno.\n\nEl fuego se reaviva al final del siguiente asalto. Todos los que entren en contacto con las Marionetas de Ghestal mientras se están quemando deben pasar una RF contra 80 cada turno o sufrir daño basado en calor equivalente al nivel de fracaso. L as Marionetas son inmunes a cualquier tipo de ataque basado en fuego o calor a menos que sea causado por un ser con Gnosis 30 o superior. Al ser construcciones artificiales, los títeres no pueden recuperarse del daño por sí mismos. En cambio, deben ser reparados por alguien que tenga la experiencia y los medios apropiados. Prototipo de Nascal\n\n&lt;!-- tags: @sistema --&gt;\n\n_Página 19_\n\nModus Operandi Arco Voltaico: Campo Magnético: Levitación: Cuerpo Construido: De todas las obras de Nascal, los Prototipos de Combate son sus creaciones más peligrosas, marionetas tecnomágicas que se han creado como cuerpos de reemplazo o extensiones de la voluntad del Mensajero. Estos seres son armas vivientes que, si bien no tienen el potencial destructivo del enorme cuerpo real de Nascal, tienen un poder de batalla considerable, incluso superior al de todo un batallón de soldados. Parecen ser versiones más pequeñas del propio Mensajero, pero en lugar de cuchillas en la espalda, tienen alas de metal que les permiten moverse por el aire.\n\nLos prototipos tienen una identidad propia que les permite actuar de manera independiente, pero por lo general Nascal toma el control de ellos y los usa como extensiones para interactuar con otros seres o luchar contra enemigos que no considera una amenaza real. Los prototipos son criaturas muy peligrosas en combate, ya que tienen grandes capacidades de combate y están programados para ser letales. Generalmente atacan con ondas de choque que les permiten acabar con sus enemigos muy rápido, pero si sienten que la pelea puede volverse contra ellos, los Prototipos prefieren mantener la distancia y alejarse unos metros para asegurarse de que sus oponentes no puedan alcanzarlos. Suelen estar acompañados en combate por otros títeres de Nascal, lo que les permite tener superioridad adicional en la batalla.\n\nPara luchar, el Prototipo a menudo desencadena poderosos arcos eléctricos que destruyen todo a su alrededor. Estos ataques tienen un alcance de 10 metros y pueden afectar hasta a tres objetivos diferentes cada turno, aunque todos los ataques se consideran cuerpo a cuerpo. Dada su naturaleza sobrenatural, los arcos eléctricos son capaces de dañar la energía. Si son atacados con elementos metálicos, el Prototipo puede desplegar un escudo magnético como defensa. Esta habilidad solo funciona contra ataques que puedan verse potencialmente afectados por el magnetismo. Gracias a los generadores en su espalda, los Prototipos pueden moverse por el aire con Tipo Vuelo 4. apropiados. medios los y experiencia la tenga que alguien por reparados ser deben cambio, En mismos. sí por daño del recuperarse pueden no títeres los artificiales, construcciones ser Al\n\n&lt;!-- tags: @personaje, @regla, @conjuracion --&gt;\n\n_Página 20_</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 7
-      },
       "notes": [
         {
           "_id": "note-energia-calor-infernal-inmune-al-3",
@@ -501,52 +423,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         }
       },
       "secondaries": {
@@ -557,9 +463,6 @@
         "initiative": {
           "base": {
             "value": 140
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +513,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -15
+              "value": 55
             },
             "final": {
               "value": 0
@@ -621,10 +521,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -15
+              "value": 55
             },
             "final": {
               "value": 0
@@ -632,10 +529,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -15
+              "value": 55
             },
             "final": {
               "value": 0
@@ -643,10 +537,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 35
+              "value": 110
             },
             "final": {
               "value": 0
@@ -654,10 +545,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5
+              "value": 60
             },
             "final": {
               "value": 0
@@ -669,224 +557,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 90
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 205
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 220
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -917,11 +1036,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -933,14 +1048,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -954,14 +1074,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1066,15 +1183,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1086,37 +1199,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1239,9 +1372,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -95,9 +95,12 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
@@ -106,16 +109,8 @@
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 33</p><p><strong>Entrada:</strong> Vladimir Nux</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Warlock Fue: 7 Des: 8 Agi: 6 Con: 8 Pod: 10 Int: 10 Vol: 5 Per: 6 RF 40 RM 45 RP 30 RV 40 RE 40</p><p><strong>Ventajas y desventajas:</strong> Don, Inutilidad somática, Artefacto, Fobia grave.</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como ataque.</p><p><strong>Daño:</strong> 70 Espada ancha</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 25, Buscar 15, Ciencia 20, Historia 20, Memorizar 20, Ocultismo 20, Valoración mágica 45</p><p><strong>Descripción breve:</strong> No muchas personas se encuentran tan sumidas en el misterio como Vladimir. Se desconoce cuál puede ser su edad exacta, pero aparentemente ronda algo más de treinta años. Tiene los ojos grises y el pelo negro, el cual suele llevar habitualmente de manera descuidada en una larga melena. Vladimir no tiene pasado. Lo único que puede recordar es su nombre y el rostro de una mujer. Despertó rodeado de sangre en mitad de unas ruinas en Alberia, ataviado con ropas extrañas y una inusual espada entre las manos. Ignorando quién era y por qué estaba allí, trató de buscar en los alrededores, pero no halló nada que pudiera darle una pista de su identidad. Desconcertado, no tardó en encontrar poblaciones cercanas, donde pronto descubrió que debía tener cuidado en usar abiertamente sus habilidades místicas si no quería tener problemas con la Iglesia. Aun así, no dudó en aprovecharse de ellas, al igual que de su considerable habilidad marcial, para conseguir dinero con el que costearse sus viajes e iniciar sus pesquisas. Su obsesión por descubrir su identidad se centra ahora en encontrar a la extraña mujer que aparece en sus recuerdos. Aunque difícil, es la única pista que puede conducirle a descubrir quién es en realidad y por qué posee semejantes capacidades mágica. No obstante, en su interior teme si la respuestas que encuentre sean mucho peores que seguir sumido en la ignorancia... Posesiones: Andrael, Una bolsa de viaje, Raciones de viaje (para 1 día), 1 Escudo de Oro. Notas y curiosidades: Vladimir siente un extraño pavor por los cuervos. Como si le recordase algo oscuro de su pasado, cada vez que ve una de dichas aves negras, un miedo inexplicable se apodera de su cuerpo y alma, resultándole difícil controlar sus acciones. Además, Vladimir posee un artefacto sobrenatural bajo la forma de una espada ancha, llamada Andrael. Las estadísticas de dicho objeto son las siguientes: ##### Andrael Espada Ancha _Página 34_ Andrael, Espada ancha Andrael es el nombre de la espada que porta Vladimir. Se desconoce cuáles son los orígenes del arma, pero se encontraba junto a su portador cuando despertó. Andrael tiene una forma ligeramente inusual, con decenas de runas inscritas a lo largo de su filo y una cadena en su mango. -c aliDaD excepcional : A pesar de su extraña forma, Andrael es equivalente a una espada ancha de calidad +5. Este bono se debe más a la magia del objeto que a la calidad de su forja. -p otencia Dor sobrenatural : Andrael no sólo mejora la habilidad de ataque y defensa; proyectando los conjuros a través de su filo, proporciona también un bono de +5 a la Proyección Mágica de su portador. -o jos De metal : La hoja de Andrael está repleta de ojos, mediante los que su portador puede sentir su entorno mientras la está empuñando. A efectos de juego, otorga un bono de +20 a las habilidades perceptivas de su usuario y le permite mirar a través de ellos. Es posible, por ejemplo, asomar el filo de la espada por una esquina, para observar lo que hay tras ella sin ponerse en peligro. Malcolm Frost</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 120 Categoría: Warlock Fue: 7 Des: 8 Agi: 6 Con: 8 Pod: 10 Int: 10 Vol: 5 Per: 6 RF 40 RM 45 RP 30 RV 40 RE 40\n\nTurno: 60 Natural, 60 Andrael (Espada ancha +5) Habilidad de ataque: 80 Andrael (Espada ancha +5) Habilidad de defensa: 70 Andrael (Espada ancha +5) Daño: 70 Espada ancha Llevar Armadura: 5 TA: Ninguna ACT: 30\n\nZeon: 555\n\nProyección Mágica: 65 Ofensiva, 70 con Andrael Nivel de magia: 20 Fuego Ventajas y desventajas: Don, Inutilidad somática, Artefacto, Fobia grave. Habilidades naturales: Proyección Mágica como ataque. de movimiento: 6 Cansancio: 8 Habilidades Secundarias: Advertir 25, Buscar 1 5, Ciencia 20, Historia 20, Memorizar 20, Ocultismo 20, Valoración mágica 45. No muchas personas se encuentran tan sumidas en el misterio como Vladimir. Se desconoce cuál puede ser su edad exacta, pero aparentemente ronda algo más de treinta años. Tiene los ojos grises y el pelo negro, el cual suele llevar habitualmente de manera descuidada en una larga melena. Vladimir no tiene pasado. Lo único que puede recordar es su nombre y el rostro de una mujer. Despertó rodeado de sangre en mitad de unas ruinas en Alberia, ataviado con ropas extrañas y una inusual espada entre las manos.\n\nIgnorando quién era y por qué estaba allí, trató de buscar en los alrededores, pero no halló nada que pudiera darle una pista de su identidad. Desconcertado, no tardó en encontrar poblaciones cercanas, donde pronto descubrió que debía tener cuidado en usar abiertamente sus habilidades místicas si no quería tener problemas con la Iglesia. Aun así, no dudó en aprovecharse de ellas, al igual que de su considerable habilidad marcial, para conseguir dinero con el que costearse sus viajes e iniciar sus pesquisas. Su obsesión por descubrir su identidad se centra ahora en encontrar a la extraña mujer que aparece en sus recuerdos. Aunque difícil, es la única pista que puede conducirle a descubrir quién es en realidad y por qué posee semejantes capacidades mágica. No obstante, en su interior teme si la respuestas que encuentre sean mucho peores que seguir sumido en la ignorancia...\n\nPosesiones: Andrael, Una bolsa de viaje, Raciones de viaje (para 1 día), 1 Escudo de Oro. Notas y curiosidades: Vladimir siente un extraño pavor por los cuervos. Como si le recordase algo oscuro de su pasado, cada vez que ve una de dichas aves negras, un miedo inexplicable se apodera de su cuerpo y alma, resultándole difícil controlar sus acciones. Además, Vladimir posee un artefacto sobrenatural bajo la forma de una espada ancha, llamada Andrael. Las estadísticas de dicho objeto son las siguientes:\n\n##### Andrael Espada Ancha\n\n&lt;!-- tags: @ki, @magia, @historia, @localizacion, @regla --&gt;\n\n_Página 34_\n\nAndrael, Espada ancha Andrael es el nombre de la espada que porta Vladimir. Se desconoce cuáles son los orígenes del arma, pero se encontraba junto a su portador cuando despertó. Andrael tiene una forma ligeramente inusual, con decenas de runas inscritas a lo largo de su filo y una cadena en su mango. -c aliDaD excepcional : A pesar de su extraña forma, Andrael es equivalente a una espada ancha de calidad +5. Este bono se debe más a la magia del objeto que a la calidad de su forja. -p otencia Dor sobrenatural : Andrael no sólo mejora la habilidad de ataque y defensa; proyectando los conjuros a través de su filo, proporciona también un bono de +5 a la Proyección Mágica de su portador. -o jos De metal : La hoja de Andrael está repleta de ojos, mediante los que su portador puede sentir su entorno mientras la está empuñando. A efectos de juego, otorga un bono de +20 a las habilidades perceptivas de su usuario y le permite mirar a través de ellos. Es posible, por ejemplo, asomar el filo de la espada por una esquina, para observar lo que hay tras ella sin ponerse en peligro. Malcolm Frost</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 33</p><p><strong>Entrada:</strong> Vladimir Nux</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Warlock Fue: 7 Des: 8 Agi: 6 Con: 8 Pod: 10 Int: 10 Vol: 5 Per: 6 RF 40 RM 45 RP 30 RV 40 RE 40</p><p><strong>Ventajas y desventajas:</strong> Don, Inutilidad somática, Artefacto, Fobia grave.</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como ataque.</p><p><strong>Daño:</strong> 70 Espada ancha</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 25, Buscar 15, Ciencia 20, Historia 20, Memorizar 20, Ocultismo 20, Valoración mágica 45</p><p><strong>Descripción breve:</strong> No muchas personas se encuentran tan sumidas en el misterio como Vladimir. Se desconoce cuál puede ser su edad exacta, pero aparentemente ronda algo más de treinta años. Tiene los ojos grises y el pelo negro, el cual suele llevar habitualmente de manera descuidada en una larga melena. Vladimir no tiene pasado. Lo único que puede recordar es su nombre y el rostro de una mujer. Despertó rodeado de sangre en mitad de unas ruinas en Alberia, ataviado con ropas extrañas y una inusual espada entre las manos. Ignorando quién era y por qué estaba allí, trató de buscar en los alrededores, pero no halló nada que pudiera darle una pista de su identidad. Desconcertado, no tardó en encontrar poblaciones cercanas, donde pronto descubrió que debía tener cuidado en usar abiertamente sus habilidades místicas si no quería tener problemas con la Iglesia. Aun así, no dudó en aprovecharse de ellas, al igual que de su considerable habilidad marcial, para conseguir dinero con el que costearse sus viajes e iniciar sus pesquisas. Su obsesión por descubrir su identidad se centra ahora en encontrar a la extraña mujer que aparece en sus recuerdos. Aunque difícil, es la única pista que puede conducirle a descubrir quién es en realidad y por qué posee semejantes capacidades mágica. No obstante, en su interior teme si la respuestas que encuentre sean mucho peores que seguir sumido en la ignorancia... Posesiones: Andrael, Una bolsa de viaje, Raciones de viaje (para 1 día), 1 Escudo de Oro. Notas y curiosidades: Vladimir siente un extraño pavor por los cuervos. Como si le recordase algo oscuro de su pasado, cada vez que ve una de dichas aves negras, un miedo inexplicable se apodera de su cuerpo y alma, resultándole difícil controlar sus acciones. Además, Vladimir posee un artefacto sobrenatural bajo la forma de una espada ancha, llamada Andrael. Las estadísticas de dicho objeto son las siguientes: ##### Andrael Espada Ancha _Página 34_ Andrael, Espada ancha Andrael es el nombre de la espada que porta Vladimir. Se desconoce cuáles son los orígenes del arma, pero se encontraba junto a su portador cuando despertó. Andrael tiene una forma ligeramente inusual, con decenas de runas inscritas a lo largo de su filo y una cadena en su mango. -c aliDaD excepcional : A pesar de su extraña forma, Andrael es equivalente a una espada ancha de calidad +5. Este bono se debe más a la magia del objeto que a la calidad de su forja. -p otencia Dor sobrenatural : Andrael no sólo mejora la habilidad de ataque y defensa; proyectando los conjuros a través de su filo, proporciona también un bono de +5 a la Proyección Mágica de su portador. -o jos De metal : La hoja de Andrael está repleta de ojos, mediante los que su portador puede sentir su entorno mientras la está empuñando. A efectos de juego, otorga un bono de +20 a las habilidades perceptivas de su usuario y le permite mirar a través de ellos. Es posible, por ejemplo, asomar el filo de la espada por una esquina, para observar lo que hay tras ella sin ponerse en peligro. Malcolm Frost</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 120 Categoría: Warlock Fue: 7 Des: 8 Agi: 6 Con: 8 Pod: 10 Int: 10 Vol: 5 Per: 6 RF 40 RM 45 RP 30 RV 40 RE 40\n\nTurno: 60 Natural, 60 Andrael (Espada ancha +5) Habilidad de ataque: 80 Andrael (Espada ancha +5) Habilidad de defensa: 70 Andrael (Espada ancha +5) Daño: 70 Espada ancha Llevar Armadura: 5 TA: Ninguna ACT: 30\n\nZeon: 555\n\nProyección Mágica: 65 Ofensiva, 70 con Andrael Nivel de magia: 20 Fuego Ventajas y desventajas: Don, Inutilidad somática, Artefacto, Fobia grave. Habilidades naturales: Proyección Mágica como ataque. de movimiento: 6 Cansancio: 8 Habilidades Secundarias: Advertir 25, Buscar 1 5, Ciencia 20, Historia 20, Memorizar 20, Ocultismo 20, Valoración mágica 45. No muchas personas se encuentran tan sumidas en el misterio como Vladimir. Se desconoce cuál puede ser su edad exacta, pero aparentemente ronda algo más de treinta años. Tiene los ojos grises y el pelo negro, el cual suele llevar habitualmente de manera descuidada en una larga melena. Vladimir no tiene pasado. Lo único que puede recordar es su nombre y el rostro de una mujer. Despertó rodeado de sangre en mitad de unas ruinas en Alberia, ataviado con ropas extrañas y una inusual espada entre las manos.\n\nIgnorando quién era y por qué estaba allí, trató de buscar en los alrededores, pero no halló nada que pudiera darle una pista de su identidad. Desconcertado, no tardó en encontrar poblaciones cercanas, donde pronto descubrió que debía tener cuidado en usar abiertamente sus habilidades místicas si no quería tener problemas con la Iglesia. Aun así, no dudó en aprovecharse de ellas, al igual que de su considerable habilidad marcial, para conseguir dinero con el que costearse sus viajes e iniciar sus pesquisas. Su obsesión por descubrir su identidad se centra ahora en encontrar a la extraña mujer que aparece en sus recuerdos. Aunque difícil, es la única pista que puede conducirle a descubrir quién es en realidad y por qué posee semejantes capacidades mágica. No obstante, en su interior teme si la respuestas que encuentre sean mucho peores que seguir sumido en la ignorancia...\n\nPosesiones: Andrael, Una bolsa de viaje, Raciones de viaje (para 1 día), 1 Escudo de Oro. Notas y curiosidades: Vladimir siente un extraño pavor por los cuervos. Como si le recordase algo oscuro de su pasado, cada vez que ve una de dichas aves negras, un miedo inexplicable se apodera de su cuerpo y alma, resultándole difícil controlar sus acciones. Además, Vladimir posee un artefacto sobrenatural bajo la forma de una espada ancha, llamada Andrael. Las estadísticas de dicho objeto son las siguientes:\n\n##### Andrael Espada Ancha\n\n&lt;!-- tags: @ki, @magia, @historia, @localizacion, @regla --&gt;\n\n_Página 34_\n\nAndrael, Espada ancha Andrael es el nombre de la espada que porta Vladimir. Se desconoce cuáles son los orígenes del arma, pero se encontraba junto a su portador cuando despertó. Andrael tiene una forma ligeramente inusual, con decenas de runas inscritas a lo largo de su filo y una cadena en su mango. -c aliDaD excepcional : A pesar de su extraña forma, Andrael es equivalente a una espada ancha de calidad +5. Este bono se debe más a la magia del objeto que a la calidad de su forja. -p otencia Dor sobrenatural : Andrael no sólo mejora la habilidad de ataque y defensa; proyectando los conjuros a través de su filo, proporciona también un bono de +5 a la Proyección Mágica de su portador. -o jos De metal : La hoja de Andrael está repleta de ojos, mediante los que su portador puede sentir su entorno mientras la está empuñando. A efectos de juego, otorga un bono de +20 a las habilidades perceptivas de su usuario y le permite mirar a través de ellos. Es posible, por ejemplo, asomar el filo de la espada por una esquina, para observar lo que hay tras ella sin ponerse en peligro. Malcolm Frost</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-vladimir-nux-1",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 60
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 4020
+              "value": 4060
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 30
             },
             "final": {
               "value": 0
@@ -513,215 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 80
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 70
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 5
-        }
+        "value": 5
       },
       "totalArmor": {
         "at": {
@@ -752,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -768,16 +889,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 555,
         "max": 555
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -789,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -901,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -921,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1074,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

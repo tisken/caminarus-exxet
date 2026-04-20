@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +303,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +323,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 60
         }
       },
       "aspect": {
@@ -430,7 +357,7 @@
           "value": "Del Abismo"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -448,7 +375,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 74</p><p><strong>Entrada:</strong> Ginnungaus</p><p><strong>Variante:</strong> Del Abismo</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 30</p><p><strong>Categoría:</strong> Guerrero Fue: 14 Des: 5 Agi: 7 Con: 12 Pod: 10 Int: 3 Vol: 10 Per: 5 RF 80 RM 105 RP 75 RV 80 RE 80</p><p><strong>Habilidades esenciales:</strong> Características Física Sobrenaturales, Exención Física, Tamaño Variable (Tamaño Innatural), Inhumanidad, Movimiento Atrofiado (Miembros Atrofiados).</p><p><strong>Poderes:</strong> Armas Naturales: Estigma del Caos (Ataques Adicionales Variables, Daño Base Variable, RM 120, Efecto Variable), Grito Primordial, Daña Energía, Resistencia al Daño (Barrera de Daño 80), Resistencia Mística +30.</p><p><strong>Daño:</strong> De 120 a 50 Estigma del Caos (Variable)</p><p><strong>TA:</strong> Natural 5</p><p><strong>Habilidades secundarias:</strong> Advertir 40, Buscar 25, Rastrear 50, Resistir el Dolor 50</p><p><strong>Descripción breve:</strong> Para los norteños que creen en la religión Aityr, los monstruosos Ginnungaus son los engendros del fin de los tiempos, pesadillas surgidas de Ginnungagap, el abismo primordial del caos. La tradición narra que se originaron del pecado que cometió la diosa Jera al robar una gota de sangre de los gigantes para engendrar a las tres Grandes Bestias. Fue entonces cuando, atraídos por el olor de la herida abierta, nacieron numerosos espíritus del vacío en las profundidades del abismo, unos seres dotados de un hambre eterna y el deseo de consumir toda la vida del mundo. Sin embargo, pese a que estas criaturas suelen estar siempre relacionados con la religión Aityr, muchas otras culturas tienen también sus propias teorías. Los Duk’zarist los consideran de algún modo ligados aZemial (y, en menor grado, aEdamiel), mientras que los Sylvain y los Devah teorizaban que son fetos de Aeones incapaces alcanzar un verdadero concepto. Irónicamente, quizás todas esas teorías son a la vez correctas. Del modo que sea, lo cierto es que las entidades conocidas como Devoradores Abismales son monstruosidades informes de carne, vacío y puro caos. Todo su ser cambia sin parar, creando garras, fauces, ojos y un sin fin de formas de pesadilla a cada instante. Aunque sienten predilección por los lugares fríos y se encuentran más comúnmente en el norte (de hecho hay muchos en la Cordillera de los Hielos Eternos), se han extendido por todos los rincones tanto de Gaïa como de La Vigilia. Sin embargo, la mayoría están aletargados, durmiendo en grutas o viejas construcciones a la espera de que algún ser vivo se les acerque. Carentes de identidad personal, no parecen tener objetivo alguno salvo destruir, alimentarse de toda clase de ente, y volver a dormir. Curiosamente, incluso aletargados notan al instante cuando algo de sangre es derramada en las inmediaciones, aunque sólo sea una diminuta gota. En esos momentos, se levantan sin perder un instante para acabar con quien sea.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos 30 Puntos de Vida: 2.450 Categoría: Guerrero Fue: 14 Des: 5 Agi: 7 Con: 12 Pod: 10 Int: 3 Vol: 10 Per: 5 RF 80 RM 105 RP 75 RV 80 RE 80\n\nTurno: 70 Natural Habilidad de ataque: De 200 a 1 60 Estigma del Caos (Variable) Habilidad de defensa: Acumulación Daño: De 120 a 50 Estigma del Caos (Variable) TA: Natural 5 Habilidades esenciales: Características Física Sobrenaturales, Exención Física, Tamaño Variable (Tamaño Innatural), Inhumanidad, Movimiento Atrofiado (Miembros Atrofiados). Poderes: Armas Naturales: Estigma del Caos (Ataques Adicionales Variables, Daño Base Variable, RM 120, Efecto Variable), Grito Primordial, Daña Energía, Resistencia al Daño (Barrera de Daño 80), Resistencia Mística +30. de movimiento: 3 Cansancio: Incansable Habilidades Secundarias: Advertir 40, Buscar 25, Rastrear 50, Resistir el Dolor 50. Para los norteños que creen en la religión Aityr, los monstruosos Ginnungaus son los engendros del fin de los tiempos, pesadillas surgidas de Ginnungagap, el abismo primordial del caos.\n\nLa tradición narra que se originaron del pecado que cometió la diosa Jera al robar una gota de sangre de los gigantes para engendrar a las tres Grandes Bestias. Fue entonces cuando, atraídos por el olor de la herida abierta, nacieron numerosos espíritus del vacío en las profundidades del abismo, unos seres dotados de un hambre eterna y el deseo de consumir toda la vida del mundo. Sin embargo, pese a que estas criaturas suelen estar siempre relacionados con la religión Aityr, muchas otras culturas tienen también sus propias teorías. Los Duk’zarist los consideran de algún modo ligados aZemial (y, en menor grado, aEdamiel), mientras que los Sylvain y los Devah teorizaban que son fetos de Aeones incapaces alcanzar un verdadero concepto. Irónicamente, quizás todas esas teorías son a la vez correctas.\n\nDel modo que sea, lo cierto es que las entidades conocidas como Devoradores Abismales son monstruosidades informes de carne, vacío y puro caos. Todo su ser cambia sin parar, creando garras, fauces, ojos y un sin fin de formas de pesadilla a cada instante. Aunque sienten predilección por los lugares fríos y se encuentran más comúnmente en el norte (de hecho hay muchos en la Cordillera de los Hielos Eternos), se han extendido por todos los rincones tanto de Gaïa como de La Vigilia. Sin embargo, la mayoría están aletargados, durmiendo en grutas o viejas construcciones a la espera de que algún ser vivo se les acerque. Carentes de identidad personal, no parecen tener objetivo alguno salvo destruir, alimentarse de toda clase de ente, y volver a dormir. Curiosamente, incluso aletargados notan al instante cuando algo de sangre es derramada en las inmediaciones, aunque sólo sea una diminuta gota.\n\nEn esos momentos, se levantan sin perder un instante para acabar con quien sea. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 74</p><p><strong>Entrada:</strong> Ginnungaus</p><p><strong>Variante:</strong> Del Abismo</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 30</p><p><strong>Categoría:</strong> Guerrero Fue: 14 Des: 5 Agi: 7 Con: 12 Pod: 10 Int: 3 Vol: 10 Per: 5 RF 80 RM 105 RP 75 RV 80 RE 80</p><p><strong>Habilidades esenciales:</strong> Características Física Sobrenaturales, Exención Física, Tamaño Variable (Tamaño Innatural), Inhumanidad, Movimiento Atrofiado (Miembros Atrofiados).</p><p><strong>Poderes:</strong> Armas Naturales: Estigma del Caos (Ataques Adicionales Variables, Daño Base Variable, RM 120, Efecto Variable), Grito Primordial, Daña Energía, Resistencia al Daño (Barrera de Daño 80), Resistencia Mística +30.</p><p><strong>Daño:</strong> De 120 a 50 Estigma del Caos (Variable)</p><p><strong>TA:</strong> Natural 5</p><p><strong>Habilidades secundarias:</strong> Advertir 40, Buscar 25, Rastrear 50, Resistir el Dolor 50</p><p><strong>Descripción breve:</strong> Para los norteños que creen en la religión Aityr, los monstruosos Ginnungaus son los engendros del fin de los tiempos, pesadillas surgidas de Ginnungagap, el abismo primordial del caos. La tradición narra que se originaron del pecado que cometió la diosa Jera al robar una gota de sangre de los gigantes para engendrar a las tres Grandes Bestias. Fue entonces cuando, atraídos por el olor de la herida abierta, nacieron numerosos espíritus del vacío en las profundidades del abismo, unos seres dotados de un hambre eterna y el deseo de consumir toda la vida del mundo. Sin embargo, pese a que estas criaturas suelen estar siempre relacionados con la religión Aityr, muchas otras culturas tienen también sus propias teorías. Los Duk’zarist los consideran de algún modo ligados aZemial (y, en menor grado, aEdamiel), mientras que los Sylvain y los Devah teorizaban que son fetos de Aeones incapaces alcanzar un verdadero concepto. Irónicamente, quizás todas esas teorías son a la vez correctas. Del modo que sea, lo cierto es que las entidades conocidas como Devoradores Abismales son monstruosidades informes de carne, vacío y puro caos. Todo su ser cambia sin parar, creando garras, fauces, ojos y un sin fin de formas de pesadilla a cada instante. Aunque sienten predilección por los lugares fríos y se encuentran más comúnmente en el norte (de hecho hay muchos en la Cordillera de los Hielos Eternos), se han extendido por todos los rincones tanto de Gaïa como de La Vigilia. Sin embargo, la mayoría están aletargados, durmiendo en grutas o viejas construcciones a la espera de que algún ser vivo se les acerque. Carentes de identidad personal, no parecen tener objetivo alguno salvo destruir, alimentarse de toda clase de ente, y volver a dormir. Curiosamente, incluso aletargados notan al instante cuando algo de sangre es derramada en las inmediaciones, aunque sólo sea una diminuta gota. En esos momentos, se levantan sin perder un instante para acabar con quien sea.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos 30 Puntos de Vida: 2.450 Categoría: Guerrero Fue: 14 Des: 5 Agi: 7 Con: 12 Pod: 10 Int: 3 Vol: 10 Per: 5 RF 80 RM 105 RP 75 RV 80 RE 80\n\nTurno: 70 Natural Habilidad de ataque: De 200 a 1 60 Estigma del Caos (Variable) Habilidad de defensa: Acumulación Daño: De 120 a 50 Estigma del Caos (Variable) TA: Natural 5 Habilidades esenciales: Características Física Sobrenaturales, Exención Física, Tamaño Variable (Tamaño Innatural), Inhumanidad, Movimiento Atrofiado (Miembros Atrofiados). Poderes: Armas Naturales: Estigma del Caos (Ataques Adicionales Variables, Daño Base Variable, RM 120, Efecto Variable), Grito Primordial, Daña Energía, Resistencia al Daño (Barrera de Daño 80), Resistencia Mística +30. de movimiento: 3 Cansancio: Incansable Habilidades Secundarias: Advertir 40, Buscar 25, Rastrear 50, Resistir el Dolor 50. Para los norteños que creen en la religión Aityr, los monstruosos Ginnungaus son los engendros del fin de los tiempos, pesadillas surgidas de Ginnungagap, el abismo primordial del caos.\n\nLa tradición narra que se originaron del pecado que cometió la diosa Jera al robar una gota de sangre de los gigantes para engendrar a las tres Grandes Bestias. Fue entonces cuando, atraídos por el olor de la herida abierta, nacieron numerosos espíritus del vacío en las profundidades del abismo, unos seres dotados de un hambre eterna y el deseo de consumir toda la vida del mundo. Sin embargo, pese a que estas criaturas suelen estar siempre relacionados con la religión Aityr, muchas otras culturas tienen también sus propias teorías. Los Duk’zarist los consideran de algún modo ligados aZemial (y, en menor grado, aEdamiel), mientras que los Sylvain y los Devah teorizaban que son fetos de Aeones incapaces alcanzar un verdadero concepto. Irónicamente, quizás todas esas teorías son a la vez correctas.\n\nDel modo que sea, lo cierto es que las entidades conocidas como Devoradores Abismales son monstruosidades informes de carne, vacío y puro caos. Todo su ser cambia sin parar, creando garras, fauces, ojos y un sin fin de formas de pesadilla a cada instante. Aunque sienten predilección por los lugares fríos y se encuentran más comúnmente en el norte (de hecho hay muchos en la Cordillera de los Hielos Eternos), se han extendido por todos los rincones tanto de Gaïa como de La Vigilia. Sin embargo, la mayoría están aletargados, durmiendo en grutas o viejas construcciones a la espera de que algún ser vivo se les acerque. Carentes de identidad personal, no parecen tener objetivo alguno salvo destruir, alimentarse de toda clase de ente, y volver a dormir. Curiosamente, incluso aletargados notan al instante cuando algo de sangre es derramada en las inmediaciones, aunque sólo sea una diminuta gota.\n\nEn esos momentos, se levantan sin perder un instante para acabar con quien sea. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +407,6 @@
           }
         }
       ],
-      "level": {
-        "value": 7
-      },
       "notes": [
         {
           "_id": "note-ginnungaus-del-abismo-3",
@@ -501,52 +426,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 14
-          }
+          "value": 14,
+          "mod": 25
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -557,9 +466,6 @@
         "initiative": {
           "base": {
             "value": 70
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +516,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -621,10 +524,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -632,10 +532,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 7990
+              "value": 8070
             },
             "final": {
               "value": 0
@@ -643,10 +540,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 30
+              "value": 105
             },
             "final": {
               "value": 0
@@ -654,10 +548,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 75
             },
             "final": {
               "value": 0
@@ -669,203 +560,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 200
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -896,11 +1039,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -912,14 +1051,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -933,14 +1077,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1045,15 +1186,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1065,37 +1202,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1218,9 +1375,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

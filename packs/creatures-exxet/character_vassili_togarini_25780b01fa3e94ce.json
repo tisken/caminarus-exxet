@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 28</p><p><strong>Entrada:</strong> Vassili Togarini</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Explorador Fue: 6 Des: 8 Agi: 10 Con: 7 Pod: 6 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Afinidad animal, Sentido del peligro.</p><p><strong>Habilidades naturales:</strong> Tabla de lanzamiento.</p><p><strong>Daño:</strong> 45 Flecha de descarga, 35 Daga, 50 Hacha de mano</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Montar 35, Nadar 20, Saltar 15, Trepar 40, Sigilo 25, Ocultarse 20, Trampería 50, Advertir 85, Buscar 55, Rastrear 65, Animales 30, Herbolaria 15, Medicina 10</p><p><strong>Descripción breve:</strong> Vassili es un joven de veintitrés años, bien parecido y de aspecto algo alocado. Está dotado de una incomparable habilidad con el arco y otras armas cortas, aunque su verdadero talento se encuentra en su aguda percepción y su increíble capacidad para darse cuenta del peligro que hay a su alrededor. Vassili se crió en una pequeña aldea situada en los bosques de Alberia, donde desde pequeño aprendió a todo lo que hacía falta sobre la vida salvaje. Su prueba de fuego llegó para él con tan sólo once años, cuando durante una cacería en la que acompañaba a su padre, cayó por un barranco y permaneció extraviado durante tres días enteros. En ese tiempo, desarrolló una enorme afinidad con el entorno natural, logrando regresar sano y salvo a su casa mientras una partida exploradores aún seguía buscándolo. Pero su vida cambió a los quince años, al conocer a un viajero que se hospedó unos días en su casa. De él escuchó decenas de historias sobre el mundo exterior, y parajes con los que Vassili sólo había podido soñar. Desde entonces, la única idea que rondó por su cabeza fue la de poder ver , con sus propios ojos, todos aquellos sitios, y actuó en consecuencia. Durante un año entero, afinó su puntería y habilidad con las armas hasta un grado que dejaba pasmados a sus maestros, y estudió todo lo que pudo de la naturaleza del mundo exterior. De ese modo, cuando comenzó su viaje, decidió no mirar atrás. Desde entonces ha recorrido muy variados parajes, buscando todo tipo de aventuras y metiéndose en multitud de problemas. Amenudo acepta trabajos como explorador o montaraz, aunque sólo lo hace para obtener fondos con los que subsistir y continuar sus viajes. Posesiones: Arco corto, 16 Flechas, Hacha de mano, Un pequeño kit de primero auxilios, Una bolsita para hierbas, Un saco de dormir, Una mochila, 75 Escudos de Plata.de Plata. #### Kain Rosencreuz _Página 29_ Katerine Kaela Stratos</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 105 Categoría: Explorador Fue: 6 Des: 8 Agi: 10 Con: 7 Pod: 6 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35\n\nTurno: 70 Natural, 60 Arco corto, 70 Daga, 50 Hacha de mano Habilidad de ataque: 70 Arco / Daga / Hacha de mano Habilidad de defensa: 70 Esquiva Daño: 45 Flecha de descarga, 35 Daga, 50 Hacha de mano Llevar Armadura: 5 TA: Ninguna Ventajas y desventajas: Afinidad animal, Sentido del peligro. Habilidades naturales: Tabla de lanzamiento. de movimiento: 10 Cansancio: 7 Habilidades Secundarias: Montar 35, Nadar 20, Saltar 1 5, Trepar 40, Sigilo 25, Ocultarse 20, Trampería 50, Advertir 85, Buscar 55, Rastrear 65, Animales 30, Herbolaria 1 5, Medicina 10. Vassili es un joven de veintitrés años, bien parecido y de aspecto algo alocado. Está dotado de una incomparable habilidad con el arco y otras armas cortas, aunque su verdadero talento se encuentra en su aguda percepción y su increíble capacidad para darse cuenta del peligro que hay a su alrededor.\n\nVassili se crió en una pequeña aldea situada en los bosques de Alberia, donde desde pequeño aprendió a todo lo que hacía falta sobre la vida salvaje. Su prueba de fuego llegó para él con tan sólo once años, cuando durante una cacería en la que acompañaba a su padre, cayó por un barranco y permaneció extraviado durante tres días enteros. En ese tiempo, desarrolló una enorme afinidad con el entorno natural, logrando regresar sano y salvo a su casa mientras una partida exploradores aún seguía buscándolo. Pero su vida cambió a los quince años, al conocer a un viajero que se hospedó unos días en su casa. De él escuchó decenas de historias sobre el mundo exterior, y parajes con los que Vassili sólo había podido soñar. Desde entonces, la única idea que rondó por su cabeza fue la de poder ver , con sus propios ojos, todos aquellos sitios, y actuó en consecuencia.\n\nDurante un año entero, afinó su puntería y habilidad con las armas hasta un grado que dejaba pasmados a sus maestros, y estudió todo lo que pudo de la naturaleza del mundo exterior. De ese modo, cuando comenzó su viaje, decidió no mirar atrás. Desde entonces ha recorrido muy variados parajes, buscando todo tipo de aventuras y metiéndose en multitud de problemas. Amenudo acepta trabajos como explorador o montaraz, aunque sólo lo hace para obtener fondos con los que subsistir y continuar sus viajes. Posesiones: Arco corto, 1 6 Flechas, Hacha de mano, Un pequeño kit de primero auxilios, Una bolsita para hierbas, Un saco de dormir, Una mochila, 75 Escudos de Plata.de Plata.\n\n#### Kain Rosencreuz\n\n&lt;!-- tags: @conjuro, @magia, @psiquico, @historia, @organizacion, @regla, @magus --&gt;\n\n_Página 29_\n\nKaterine Kaela Stratos</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 28</p><p><strong>Entrada:</strong> Vassili Togarini</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Explorador Fue: 6 Des: 8 Agi: 10 Con: 7 Pod: 6 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Afinidad animal, Sentido del peligro.</p><p><strong>Habilidades naturales:</strong> Tabla de lanzamiento.</p><p><strong>Daño:</strong> 45 Flecha de descarga, 35 Daga, 50 Hacha de mano</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Montar 35, Nadar 20, Saltar 15, Trepar 40, Sigilo 25, Ocultarse 20, Trampería 50, Advertir 85, Buscar 55, Rastrear 65, Animales 30, Herbolaria 15, Medicina 10</p><p><strong>Descripción breve:</strong> Vassili es un joven de veintitrés años, bien parecido y de aspecto algo alocado. Está dotado de una incomparable habilidad con el arco y otras armas cortas, aunque su verdadero talento se encuentra en su aguda percepción y su increíble capacidad para darse cuenta del peligro que hay a su alrededor. Vassili se crió en una pequeña aldea situada en los bosques de Alberia, donde desde pequeño aprendió a todo lo que hacía falta sobre la vida salvaje. Su prueba de fuego llegó para él con tan sólo once años, cuando durante una cacería en la que acompañaba a su padre, cayó por un barranco y permaneció extraviado durante tres días enteros. En ese tiempo, desarrolló una enorme afinidad con el entorno natural, logrando regresar sano y salvo a su casa mientras una partida exploradores aún seguía buscándolo. Pero su vida cambió a los quince años, al conocer a un viajero que se hospedó unos días en su casa. De él escuchó decenas de historias sobre el mundo exterior, y parajes con los que Vassili sólo había podido soñar. Desde entonces, la única idea que rondó por su cabeza fue la de poder ver , con sus propios ojos, todos aquellos sitios, y actuó en consecuencia. Durante un año entero, afinó su puntería y habilidad con las armas hasta un grado que dejaba pasmados a sus maestros, y estudió todo lo que pudo de la naturaleza del mundo exterior. De ese modo, cuando comenzó su viaje, decidió no mirar atrás. Desde entonces ha recorrido muy variados parajes, buscando todo tipo de aventuras y metiéndose en multitud de problemas. Amenudo acepta trabajos como explorador o montaraz, aunque sólo lo hace para obtener fondos con los que subsistir y continuar sus viajes. Posesiones: Arco corto, 16 Flechas, Hacha de mano, Un pequeño kit de primero auxilios, Una bolsita para hierbas, Un saco de dormir, Una mochila, 75 Escudos de Plata.de Plata. #### Kain Rosencreuz _Página 29_ Katerine Kaela Stratos</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 105 Categoría: Explorador Fue: 6 Des: 8 Agi: 10 Con: 7 Pod: 6 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35\n\nTurno: 70 Natural, 60 Arco corto, 70 Daga, 50 Hacha de mano Habilidad de ataque: 70 Arco / Daga / Hacha de mano Habilidad de defensa: 70 Esquiva Daño: 45 Flecha de descarga, 35 Daga, 50 Hacha de mano Llevar Armadura: 5 TA: Ninguna Ventajas y desventajas: Afinidad animal, Sentido del peligro. Habilidades naturales: Tabla de lanzamiento. de movimiento: 10 Cansancio: 7 Habilidades Secundarias: Montar 35, Nadar 20, Saltar 1 5, Trepar 40, Sigilo 25, Ocultarse 20, Trampería 50, Advertir 85, Buscar 55, Rastrear 65, Animales 30, Herbolaria 1 5, Medicina 10. Vassili es un joven de veintitrés años, bien parecido y de aspecto algo alocado. Está dotado de una incomparable habilidad con el arco y otras armas cortas, aunque su verdadero talento se encuentra en su aguda percepción y su increíble capacidad para darse cuenta del peligro que hay a su alrededor.\n\nVassili se crió en una pequeña aldea situada en los bosques de Alberia, donde desde pequeño aprendió a todo lo que hacía falta sobre la vida salvaje. Su prueba de fuego llegó para él con tan sólo once años, cuando durante una cacería en la que acompañaba a su padre, cayó por un barranco y permaneció extraviado durante tres días enteros. En ese tiempo, desarrolló una enorme afinidad con el entorno natural, logrando regresar sano y salvo a su casa mientras una partida exploradores aún seguía buscándolo. Pero su vida cambió a los quince años, al conocer a un viajero que se hospedó unos días en su casa. De él escuchó decenas de historias sobre el mundo exterior, y parajes con los que Vassili sólo había podido soñar. Desde entonces, la única idea que rondó por su cabeza fue la de poder ver , con sus propios ojos, todos aquellos sitios, y actuó en consecuencia.\n\nDurante un año entero, afinó su puntería y habilidad con las armas hasta un grado que dejaba pasmados a sus maestros, y estudió todo lo que pudo de la naturaleza del mundo exterior. De ese modo, cuando comenzó su viaje, decidió no mirar atrás. Desde entonces ha recorrido muy variados parajes, buscando todo tipo de aventuras y metiéndose en multitud de problemas. Amenudo acepta trabajos como explorador o montaraz, aunque sólo lo hace para obtener fondos con los que subsistir y continuar sus viajes. Posesiones: Arco corto, 1 6 Flechas, Hacha de mano, Un pequeño kit de primero auxilios, Una bolsita para hierbas, Un saco de dormir, Una mochila, 75 Escudos de Plata.de Plata.\n\n#### Kain Rosencreuz\n\n&lt;!-- tags: @conjuro, @magia, @psiquico, @historia, @organizacion, @regla, @magus --&gt;\n\n_Página 29_\n\nKaterine Kaela Stratos</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-vassili-togarini-1",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 70
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 3535
+              "value": 3570
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -513,233 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 85
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 65
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 10
+          },
+          "final": {
+            "value": 0
           }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 70
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 70
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 5
-        }
+        "value": 5
       },
       "totalArmor": {
         "at": {
@@ -770,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -786,14 +889,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -807,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -919,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -939,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1092,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
-        },
-        "inhuman": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "zen": {
           "value": true
         },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +147,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +167,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 110
         }
       },
       "aspect": {
@@ -274,7 +201,7 @@
           "value": ""
         },
         "size": {
-          "value": 28
+          "value": "28"
         }
       },
       "advantages": [],
@@ -292,7 +219,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 30</p><p><strong>Entrada:</strong> Lúgubre</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Warlock Fue: 15 Des: 15 Agi: 15 Con: 17 Pod: 18 Int: 15 Vol: 18 Per: 15 RF 140 RM 150 RP 150 RV 140 RE 140</p><p><strong>Categoría:</strong> Entre Mundos 40</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Características Anímicas Divinas, Características Físicas Sobrenaturales, Zen, Exención Física.</p><p><strong>Poderes:</strong> Armas Infernales, Defensa Existencial, Control del Destino, Barrera Existencial, Conocimiento Absoluto, Regeneración Absoluta, Corrupción, Avatar.</p><p><strong>Daño:</strong> 150 Armas Infernales</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> 200 Todo (Conocimiento Absoluto)</p><p><strong>Descripción breve:</strong> Armas Infernales: Defensa Existencial: Control del Destino: Barrera Existencial: Baal Conocimiento Absoluto: Regeneración Absoluta: Corrupción: Baal tiene la capacidad de corromper y vincular a su propia esencia a cualquier tipo de criatura que tenga suficiente maldad o emociones negativas. Este proceso puede ser más o menos problemático dependiendo de las circunstancias personales de cada individuo, pero una vez que alguien está ligado aBaal, esta unión no puede romperse y el objetivo es influenciado por Baal a voluntad. Cualquier entidad que acepte este enlace obtiene automáticamente un aumento de entre 1 y 3 niveles dependiendo de la atención que le ponga la Puerta del Infierno. Esta transformación Av</p></section><details><summary>Texto extraído</summary><pre>Nivel: 17 Categoría: Entre Mundos 40 Puntos de Vida: 400\n\nClase: Warlock Fue: 15 Des: 15 Agi: 15 Con: 17 Pod: 18 Int: 15 Vol: 18 Per: 15 RF 140 RM 150 RP 150 RV 140 RE 140\n\nTurno: 180 Natural Habilidad de Ataque: 350 Armas Infernales Habilidad de Defensa: 340 Defensa Existencial Daño: 150 Armas Infernales ACT: 200\n\nZeon: 2.250\n\nProyección Mágica: 300 Nivel de Magia: Oscuridad 100, Destrucción 100, Illusión 100, Pecado 100, Caos 100, Tiempo 100 TA: Ninguna Habilidades Naturales: Proyección Mágica como Ataque. Habilidades Esenciales: Características Anímicas Divinas, Características Físicas Sobrenaturales, Zen, Exención Física. Poderes: Armas Infernales, Defensa Existencial, Control del Destino, Barrera Existencial, Conocimiento Absoluto, Regeneración Absoluta, Corrupción, Avatar.\n\nTamaño: 28 Medio Regeneración: Especial Tipo de movimiento: 15 Cansancio: Incansable Habilidades Secundarias: 200 Todo (Conocimiento Absoluto). Armas Infernales: Defensa Existencial: Control del Destino: Barrera Existencial: Baal Conocimiento Absoluto: Regeneración Absoluta: Corrupción: Baal tiene la capacidad de corromper y vincular a su propia esencia a cualquier tipo de criatura que tenga suficiente maldad o emociones negativas. Este proceso puede ser más o menos problemático dependiendo de las circunstancias personales de cada individuo, pero una vez que alguien está ligado aBaal, esta unión no puede romperse y el objetivo es influenciado por Baal a voluntad. Cualquier entidad que acepte este enlace obtiene automáticamente un aumento de entre 1 y 3 niveles dependiendo de la atención que le ponga la Puerta del Infierno.\n\nEsta transformación Avatar: Gate of Memories Todos los ataques físicos de Baal son en realidad deformaciones en la realidad que destruyen la existencia misma de lo que golpean. Todos los ataques ignoran por completo cualquier Tipo de Armadura, excepto aquellas que tienen una presencia sobrenatural extremadamente alta, en cuyo caso se reducen a la mitad. Baal no bloquea ni esquiva de manera convencional. Simplemente, altera la realidad de manera que los ataques no le alcancen ni deteniéndolos ni alejándolos de su camino. Por tanto, Baal no aplica penalización alguna a su habilidad por los negativos que puedan existir por bloqueo o esquiva, ni por defensas adicionales en el mismo asalto. Baal puede repetir una tirada en cada ronda, ya sea una propia o una de sus oponentes. Entidades con mayor Gnosis que Baal no se ven afectados por esta regla.\n\nno puede perder más de 200 puntos de vida en un único asalto. La conexión de Baal con la conciencia humana en el Nexo de Almas le da acceso a una fuente de conocimiento casi infinito. Por lo tanto, puede usar cualquier habilidad secundaria con el valor equivalente a 200. Baal recupera al final de cada asalto la mitad de todos los puntos de vida que perdió en ese asalto. En caso de que no haya perdido ninguno en ese asalto, Baal recupera 10 puntos de vida. permite al objetivo elegir poderes de monstruo como un ser con Gnosis 30. Baal puede forzar esta unión con seres con altas dosis de maldad, obligándolos a superar un control contra 120 RM como acción automática o quedarán vinculados a él. Los demonios y seres cuya naturaleza es innatamente malvada son inmunes a esta habilidad.\n\nAlguien que supera el control se vuelve completamente inmune a la influencia de Baal y no puede vincularse a él más tarde, ni siquiera voluntariamente, por lo que la Puerta del Infierno nunca suele forzar esta unión, ya que espera corromper a sus futuros agentes con el paso del tiempo. puntos de vida. 25 de pérdida una sufre también método este usandoACT a +25 y accióntoda a +50 de bonificador un obtiene Baal turno un si ejemplo, Por día. por puntos 10 de razón a recuperan se vida de puntos los que lo por Sacrificio, un considera se que recibida, bonificación la de mitad la a equivalente daño un sufre cuerpo su hacerlo, Al terrenal. forma su destruir de costa aACT) su a +50 y +5 entre (y toda acción a +100 y +10 entre de bonificador un obtener de capaz es Baal tanto lo Por infierno.\n\nun en convertirlo para entorno el temporalmente alterando terrenal, forma su en mismo sí de más &quot;introducir&quot; puede Baal desesperados,momentos en embargo, Sin destruido. o dañado ser sin soportar puede Baal de cuerpo el que poder de cantidad la representan actuales estadísticas sus aunque turno, cada en Baal infunda le esencia cuanta de dependiendo poder su variar puede Avatar el tanto, lo Por real”. “cuerpo un de carece esencia, verdadera su reside donde es Nexo el en porque real, mundo el en forma su mide Baal de descripción Esta\n\n&lt;!-- tags: @personaje, @magia, @regla --&gt;\n\n_Página 31_\n\nErgo Mundus, El Monstruo Definitivo</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 30</p><p><strong>Entrada:</strong> Lúgubre</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Warlock Fue: 15 Des: 15 Agi: 15 Con: 17 Pod: 18 Int: 15 Vol: 18 Per: 15 RF 140 RM 150 RP 150 RV 140 RE 140</p><p><strong>Categoría:</strong> Entre Mundos 40</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Características Anímicas Divinas, Características Físicas Sobrenaturales, Zen, Exención Física.</p><p><strong>Poderes:</strong> Armas Infernales, Defensa Existencial, Control del Destino, Barrera Existencial, Conocimiento Absoluto, Regeneración Absoluta, Corrupción, Avatar.</p><p><strong>Daño:</strong> 150 Armas Infernales</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> 200 Todo (Conocimiento Absoluto)</p><p><strong>Descripción breve:</strong> Armas Infernales: Defensa Existencial: Control del Destino: Barrera Existencial: Baal Conocimiento Absoluto: Regeneración Absoluta: Corrupción: Baal tiene la capacidad de corromper y vincular a su propia esencia a cualquier tipo de criatura que tenga suficiente maldad o emociones negativas. Este proceso puede ser más o menos problemático dependiendo de las circunstancias personales de cada individuo, pero una vez que alguien está ligado aBaal, esta unión no puede romperse y el objetivo es influenciado por Baal a voluntad. Cualquier entidad que acepte este enlace obtiene automáticamente un aumento de entre 1 y 3 niveles dependiendo de la atención que le ponga la Puerta del Infierno. Esta transformación Av</p></section><details><summary>Texto extraído</summary><pre>Nivel: 17 Categoría: Entre Mundos 40 Puntos de Vida: 400\n\nClase: Warlock Fue: 15 Des: 15 Agi: 15 Con: 17 Pod: 18 Int: 15 Vol: 18 Per: 15 RF 140 RM 150 RP 150 RV 140 RE 140\n\nTurno: 180 Natural Habilidad de Ataque: 350 Armas Infernales Habilidad de Defensa: 340 Defensa Existencial Daño: 150 Armas Infernales ACT: 200\n\nZeon: 2.250\n\nProyección Mágica: 300 Nivel de Magia: Oscuridad 100, Destrucción 100, Illusión 100, Pecado 100, Caos 100, Tiempo 100 TA: Ninguna Habilidades Naturales: Proyección Mágica como Ataque. Habilidades Esenciales: Características Anímicas Divinas, Características Físicas Sobrenaturales, Zen, Exención Física. Poderes: Armas Infernales, Defensa Existencial, Control del Destino, Barrera Existencial, Conocimiento Absoluto, Regeneración Absoluta, Corrupción, Avatar.\n\nTamaño: 28 Medio Regeneración: Especial Tipo de movimiento: 15 Cansancio: Incansable Habilidades Secundarias: 200 Todo (Conocimiento Absoluto). Armas Infernales: Defensa Existencial: Control del Destino: Barrera Existencial: Baal Conocimiento Absoluto: Regeneración Absoluta: Corrupción: Baal tiene la capacidad de corromper y vincular a su propia esencia a cualquier tipo de criatura que tenga suficiente maldad o emociones negativas. Este proceso puede ser más o menos problemático dependiendo de las circunstancias personales de cada individuo, pero una vez que alguien está ligado aBaal, esta unión no puede romperse y el objetivo es influenciado por Baal a voluntad. Cualquier entidad que acepte este enlace obtiene automáticamente un aumento de entre 1 y 3 niveles dependiendo de la atención que le ponga la Puerta del Infierno.\n\nEsta transformación Avatar: Gate of Memories Todos los ataques físicos de Baal son en realidad deformaciones en la realidad que destruyen la existencia misma de lo que golpean. Todos los ataques ignoran por completo cualquier Tipo de Armadura, excepto aquellas que tienen una presencia sobrenatural extremadamente alta, en cuyo caso se reducen a la mitad. Baal no bloquea ni esquiva de manera convencional. Simplemente, altera la realidad de manera que los ataques no le alcancen ni deteniéndolos ni alejándolos de su camino. Por tanto, Baal no aplica penalización alguna a su habilidad por los negativos que puedan existir por bloqueo o esquiva, ni por defensas adicionales en el mismo asalto. Baal puede repetir una tirada en cada ronda, ya sea una propia o una de sus oponentes. Entidades con mayor Gnosis que Baal no se ven afectados por esta regla.\n\nno puede perder más de 200 puntos de vida en un único asalto. La conexión de Baal con la conciencia humana en el Nexo de Almas le da acceso a una fuente de conocimiento casi infinito. Por lo tanto, puede usar cualquier habilidad secundaria con el valor equivalente a 200. Baal recupera al final de cada asalto la mitad de todos los puntos de vida que perdió en ese asalto. En caso de que no haya perdido ninguno en ese asalto, Baal recupera 10 puntos de vida. permite al objetivo elegir poderes de monstruo como un ser con Gnosis 30. Baal puede forzar esta unión con seres con altas dosis de maldad, obligándolos a superar un control contra 120 RM como acción automática o quedarán vinculados a él. Los demonios y seres cuya naturaleza es innatamente malvada son inmunes a esta habilidad.\n\nAlguien que supera el control se vuelve completamente inmune a la influencia de Baal y no puede vincularse a él más tarde, ni siquiera voluntariamente, por lo que la Puerta del Infierno nunca suele forzar esta unión, ya que espera corromper a sus futuros agentes con el paso del tiempo. puntos de vida. 25 de pérdida una sufre también método este usandoACT a +25 y accióntoda a +50 de bonificador un obtiene Baal turno un si ejemplo, Por día. por puntos 10 de razón a recuperan se vida de puntos los que lo por Sacrificio, un considera se que recibida, bonificación la de mitad la a equivalente daño un sufre cuerpo su hacerlo, Al terrenal. forma su destruir de costa aACT) su a +50 y +5 entre (y toda acción a +100 y +10 entre de bonificador un obtener de capaz es Baal tanto lo Por infierno.\n\nun en convertirlo para entorno el temporalmente alterando terrenal, forma su en mismo sí de más &quot;introducir&quot; puede Baal desesperados,momentos en embargo, Sin destruido. o dañado ser sin soportar puede Baal de cuerpo el que poder de cantidad la representan actuales estadísticas sus aunque turno, cada en Baal infunda le esencia cuanta de dependiendo poder su variar puede Avatar el tanto, lo Por real”. “cuerpo un de carece esencia, verdadera su reside donde es Nexo el en porque real, mundo el en forma su mide Baal de descripción Esta\n\n&lt;!-- tags: @personaje, @magia, @regla --&gt;\n\n_Página 31_\n\nErgo Mundus, El Monstruo Definitivo</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +251,6 @@
           }
         }
       ],
-      "level": {
-        "value": 17
-      },
       "notes": [
         {
           "_id": "note-lugubre-2",
@@ -351,52 +276,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 17
-          }
+          "value": 17,
+          "mod": 35
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 18
-          }
+          "value": 18,
+          "mod": 40
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 18
-          }
+          "value": 18,
+          "mod": 40
         }
       },
       "secondaries": {
@@ -407,9 +316,6 @@
         "initiative": {
           "base": {
             "value": 180
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -460,10 +366,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -5
+              "value": 140
             },
             "final": {
               "value": 0
@@ -471,10 +374,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -5
+              "value": 140
             },
             "final": {
               "value": 0
@@ -482,10 +382,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -5
+              "value": 140
             },
             "final": {
               "value": 0
@@ -493,10 +390,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 150
             },
             "final": {
               "value": 0
@@ -504,10 +398,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 150
             },
             "final": {
               "value": 0
@@ -519,194 +410,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 350
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 340
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -737,11 +889,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -753,16 +901,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 2250,
         "max": 2250
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -774,14 +927,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -886,15 +1036,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -906,37 +1052,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1059,9 +1225,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

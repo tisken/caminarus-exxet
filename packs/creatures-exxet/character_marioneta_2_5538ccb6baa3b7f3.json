@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +144,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +164,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 50
         }
       },
       "aspect": {
@@ -274,7 +198,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +216,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 108</p><p><strong>Entrada:</strong> Marioneta</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Sombra Fue: 7 Des: 10 Agi: 8 Con: 7 Pod: 4 Int: 5 Vol: 5 Per: 7 RF 55 RM 45 RP 50 RV 55 RE 55</p><p><strong>Habilidades esenciales:</strong> Exención Física, Ambidiestro, Inmunidad Psicológica, Inmune al Dolor.</p><p><strong>Poderes:</strong> Personalización, Cuerpos Construidos (Regeneración Cero).</p><p><strong>Daño:</strong> 45 Agujas (Pen) o como arma</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 80, Saltar 45, Trepar 30, Robo 25, Advertir 80, Buscar 70</p><p><strong>Descripción breve:</strong> Las marionetas son muñecos animados por medios sobrenaturales, hermosas obras de arte confeccionadas por un artesano de gran talento que, posteriormente, han recibido alguna clase de poder que les permite moverse por sí mismas. Sus formas son muy variadas; tanto como amplia sea la imaginación de su creador. La mayoría aparenta ser humanas, pero en realidad pueden llegar a tener cualquier aspecto, desde animales a “cosas” únicas e inusuales. De igual manera, muchos son los procesos sobrenaturales que les permite moverse libremente, desde la intervención de fuerzas mayores hasta que se les introduzca un alma como fuente de energía. Actualmente hay bastantes marionetas animadas en Gaïa (o al menos, teniendo en consideración el limitado número de entidades sobrenaturales que quedan en el mundo), aunque sus clases son muy diferentes. José María Solano Albares PoSiBleS claSeSDependiendo de su manufactura, las fuerzas sobrenaturales empleadas en su construcción y la propia forma del muñeco estas criaturas pueden ser muy diferentes entre sí. No obstante, lo cierto es que existen algunas clases de marionetas mucho más conocidas en los círculos sobrenaturales. A continuación se citan las más importantes. k arakuri : Las Karakuri son marionetas de manufactura oriental, cuyos cuerpos han sido compuestos por un maestro artesano para posteriormente ser animados por el poder de algún Kami menor o un gran Oni. Normalmente suelen aparentar ser mujeres de frágil belleza ataviadas con hermosos kimonos y armadas con naginatas o katanas. No tienen personalidad, pero son ciegamente fieles a quien sea designado como su “maestro”, algo que se determina escribiendo en sus cuerpos el nombre de un individuo con sangre. Aparecen normalmente en Varja, tanto individualmente como en grupos numerosos, pero nunca actúan por voluntad propia; siempre son sirvientes de una persona o entidad. Estas muñecas tienen las capacidades especiales Asesina y Lanzador de Alfileres, poseen un +6 a su Agilidad y un +140 aAcrobacias. Además pueden reproducir una Técnica que su maestro les haya imbuido siempre que no tenga un CM superior a 30 y su coste total en Ki no supere los 10 puntos. Naturalmente ellas no regeneran el Ki gastado, por lo que una vez usada la técnica alguien debe de reintroducirles nuevos puntos en caso de que quieran volver a usarla. La mayoría de las Karakuri emplean las estadísticas de una marioneta menor, pero algunas especialmente bien construidas a las que se le ha imbuido poderes muy superiores puede ser considerada mayor. a rlequino : Estos horrores son, con toda probabilidad, la más temible clase de marioneta que alguien puede llegar a encontrarse en Gaïa. No se sabe con seguridad quien las pudo fabricar en tiempos remotos, pero lo cierto es que existen repartidas por todos los principados del mundo. Son muñecos de tamaño humano (tanto masculinos como femeninos) vestidos como arlequines o polichinelas sobre cuyos cuerpos se manifiestan extrañas fibras espectrales que hacen las veces de “hilos”. En consecuencia, se mueven de un modo completamente innatural, como si una fuerza desconocida estuviera en todo momento manejándolos a distancia. Su única finalidad consiste en matar y sembrar el miedo entre las personas. No suelen obedecer a maestro alguno, si bien en ocasiones se han dado casos en los que han servido instintivamente a criaturas que encarnan una poderosa fuerza destructiva. Los Arlequinos tienen las capacidades especiales Aguja de Marioneta, Hilos de Marioneta, Drenaje de Sangre y Andar por el Aire. Curiosamente, pueden quedar paralizadas entre cinco y diez asaltos si alguien con el don de Ver Espíritus realiza un ataque apuntado contra las cuerdas que los sostienen (-40 a los ataques apuntados) usando un arma capaz de dañar energía y causando al menos 20 puntos de daño. Los Arlequinos suelen aparecer en grupos medianos o muy numerosos en lugares poco transitado. Aunque carecen de personalidad, tienen un apego especial a las viejas mansiones o los teatros abandonados, donde les gusta reposar como meras marionetas inanimadas hasta que alguien se les acerca lo suficiente para “despertarlas”. Hay tanto menores como mayores, si bien los primeros son extremadamente más comunes. l as m arionetas De p álias : Hace tiempo un archimago extremadamente poderoso llamado Origal creó una hueste de marionetas sobrenaturales en una pequeña isla del Mar Interior conocida como Pálias. Estas creaciones se diferenciaban de otros muñecos animados por el hecho de que se les imbuyó almas humanas como fuente de energía; la fuerza vital de los anteriores habitantes de la isla. En consecuencia, las llamadas “Marionetas de Pálias” son copias exactas de seres vivos que simulan ser normales en todos sus aspectos. “Viven” en la isla escondiendo su secreto de posibles visitantes, a quienes no dudarían en matar de considerarlos una amenaza para Origal o su hija Alice. Naturalmente el archimago posee títeres mucho más poderosos dotados de poderes y perfiles únicos, pero la “gente normal” de Pálias son por lo general marionetas menores dotadas de las capacidades Apariencia Real y Raciocinio, junto a algún poder adicional escogido entre la lista de opciones del apartado Personalización. m oduS oPerandiCada marioneta actúa de un modo diferente dependiendo de su naturaleza pero por lo general o bien obedecen ciegamente a sus amos o bien cumplen mecánicamente las directrices que recibieron al ser creadas. Armas: Las marionetas pueden tener cualquier combinación posible de armas. Las estadísticas reflejadas arriba consideran que blande una clase de arma exclusiva llamada Aguja de Marioneta, pero esta puede ser sustituida por otras sin problemas. No obstante, una marioneta únicamente puede conocer un posible tipo de combinación. Inmunidad Psicológica y al Dolor: Una marioneta no posee ninguna clase de sentimiento y es inmune a cualquier estado psicológico como ira o miedo. De igual forma, ignora todos los penalizadores, naturales o místicos, que puedan ser provocados por el dolor. Cuerpos Construidos: Al tratarse de construcciones artificiales, las marionetas no son capaces de recuperarse del daño por si mismas. En lugar de ello, deben de ser reparadas por alguien que disponga de los conocimientos y los medios apropiados. PerSonalizaciónLas marionetas suelen ser muy diferentes a causa del amplio abanico de opciones que sus creadores tienen a su disposición a la hora de componerlas. A continuación hay un listado con los poderes, habilidad y elementos más característicos que pueden llegar a tener. Cualquier combinación es posible, si bien lo normal es que las menores dispongan de dos o tres cualidades y las mayores sobre las cuatro o cinco. -a pariEnCia rEal : Los rasgos de la marioneta son tan perfectos que cuesta diferenciarla de un ser vivo real. Para darse cuenta de que se trata de una criatura artificial es necesario superar un control de Casi Imposible en Advertir y de Muy difícil en Buscar. En caso de que la marioneta también posea la opción Raciocinio, sus gestos se vuelven tan humanos que la dificultad aumenta hasta Imposible y Absurdo respectivamente. -MEtáliCa : La estructura física de la marioneta es de una aleación metálica sobrenatural que la vuelve resistente tanto a los impactos físicos como sobrenaturales. La marioneta obtiene un Tipo de Armadura 5 contra todo tipo de ataque no basado en Energía y una Barrera de Daño 60. -g randE : Su tamaño es descomunal, llegando a medir entre los 3 y los 5 metros. En consecuencia, la marioneta obtiene un +6 a su Fuerza y +4 a su Constitución, además de incrementar en +100 sus Puntos de Vida. Por la misma razón, las armas que porta se consideran Grandes, con el consecuente aumento de su daño base. No obstante, dicho tamaño también hace que su reacción se ralentice; aplica un negativo de -30 a su turno. -r aCioCinio : Sin duda, esta es la cualidad más avanzada y única de cuantas pueden desarrollar las marionetas. Representa que la criatura tiene la capacidad de pensar y trazar planes más o menos complejos, así como simular una personalidad o sentimientos humanos. Una marioneta con raciocinio tiene un atributo de Inteligencia 6 y puede repartir 200 puntos entre sus Habilidades Secundarias Intelectuales y Sociales. -h ilos dE MarionEta : La marioneta puede controlar parcialmente sus hilos, permitiéndole manifestarlos a distancia de un modo sobrenatural para apresar a enemigos con ellos. Esta habilidad le permite realizar un ataque de Presa sin aplicar ningún penalizador a su habilidad ofensiva con el equivalente aFuerza 12. Este ataque es una acción completa y no produce daño alguno. -a utodEstruCCión : La marioneta posee en su interior un dispositivo que, en el momento en el que su estructura se termina de romper, estalla provocando una potente explosión. Todo aquel que se encuentre a menos de 10 metros de la marioneta al inicio del asalto siguiente a su destrucción sufre un ataque basado en calor (CAL) de Habilidad Final Absurdo con un daño base de 100 puntos. -a sEsina : La marioneta ha sido creada poniendo un énfasis especial a sus habilidades de subterfugio, haciendo más sutiles sus movimientos y suprimiendo cualquier sonido de sus articulaciones. En consecuencia, obtiene una base de 100 en sus Habilidades Secundarias Sigilo y Ocultarse. -d rEnajE dE s angrE : Las agujas de la marioneta están preparadas para extraer la sangre de sus víctimas, llenando a su portadora de energía vital que su sistema aprovecha para recuperarse. En el caso de que alguno de sus ataques produzca daño, el afectado debe superar una RF contra 80 o sufrir un daño equivalente al nivel de fracaso, mientras que la marioneta recupera la mitad de dicho daño en Puntos de Vida. -i nVisiblE : La marioneta está dotada de unos pigmentos especiales sobre su estructura y ropas que cambian adaptándose al entorno como un camaleón. Para darse cuenta de su presencia mientras está quieta, es necesario superar un control de Absurdo en Buscar y de Casi Imposible en Advertir, mientras que en movimiento, la dificultad baja aMuyDifícil y Absurdo respectivamente. -MiEMbros a diCionalEs : Dotada de brazos y articulaciones secundarios, la marioneta es capaz de realizar un Ataque adicional cada turno sin penalizador alguno. Esta opción puede escogerse varias veces (hasta un máximo de tres), otorgando un ataque adicional cada vez. Si posee la opción Apariencia Real, la articulación está inicialmente oculta en el interior de su cuerpo y sólo la despliega cuando va a luchar. -a rMas n aturalEs : La marioneta tiene garras, fauces u otra clase de arma natural con la que puede luchar si lo desea. Estas armas tienen un Daño base de 50 y emplean el turno natural de la criatura. Si posee la opción Apariencia Real, el arma sólo se manifiesta a la hora de luchar. -VEnEno : Las armas de la marioneta están conectadas a su cuerpo, el cual segrega un potente veneno que inyectan en sus victimas cuando las cortan o pinchan. La toxina puede ser cualquiera que haya deseado inocular su creador, pero esta ha de ser necesariamente de vía sanguínea. -a ndar por El a irE : Las cuerdas sobrenaturales de la marioneta le permiten “andar” directamente por el aire, sin la necesidad de apoyar los pies en el suelo. En ese sentido, puede moverse libremente con un Tipo de Vuelo 6. -a utorEparaCión : La forma física de la marioneta esta preparada para reconstruirse, reponiendo sus piezas sobrenaturalmente con cualquier material inorgánico que tenga cerca. Esta opción le otorga un Nivel de Regeneración 10 con todo lo que ello conlleva. -l anzador dE a lfilErEs : Através de sus brazos o sus dedos la marioneta posee la capacidad de disparar un cargador de alfileres a velocidad vertiginosa. Esta acción es equivalente a un ataque de disparo con Daño Base 60 (PEN) y un alcance de 30 metros. Dependiendo del tamaño de la marioneta, esta puede tener cargas suficientes para realizar entre cinco y diez disparos en total. -a guja dE M arionEta : La aguja de marioneta es un arma usada principalmente por los Arlequinos similar a un estilete gigante. Se trata de un arma corta y precisa que, pese a no ser de calidad, tiene la cualidad de disminuir dos puntos el tipo de armadura del defensor. Por lo general, llevan una en cada mano, lo que les permite realizar dos ataques por turno (por usar un arma de mano adicional). -MíMiCa : La marioneta tiene la capacidad de imitar los movimientos de su controlador a distancia como un verdadero títere sobrenatural. Gracias a ello, emplea las habilidades de combate de su señor (hasta un máximo de 200 en ataque y defensa). Naturalmente la marioneta mantiene sus propios atributos (Características, Daño Base y Puntos de Vida), y es incapaz de usar las cualidades sobrenaturales de su creador (como magia o Ki). El controlador puede ver a través de ojos de la marioneta, pero por cada 50 metros que este se encuentre apartado de ella, la criatura aplica un penalizador de -10 a su ataque y defensa. Arlequina José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>Nivel: 5 de Vida: 110 Categoría: Sombra Fue: 7 Des: 10 Agi: 8 Con: 7 Pod: 4 Int: 5 Vol: 5 Per: 7 RF 55 RM 45 RP 50 RV 55 RE 55\n\nTurno: 1 1 5 Natural Habilidad de ataque: 1 60 Aguja de Marioneta + 1 50 Aguja de Marioneta; o 1 60 Arma Habilidad de defensa: 1 55 Esquiva Daño: 45 Agujas (Pen) o como arma TA: Ninguna Habilidades esenciales: Exención Física, Ambidiestro, Inmunidad Psicológica, Inmune al Dolor. Poderes: Personalización, Cuerpos Construidos (Regeneración Cero). de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Acrobacias 80, Saltar 45, Trepar 30, Robo 25, Advertir 80, Buscar 70. Las marionetas son muñecos animados por medios sobrenaturales, hermosas obras de arte confeccionadas por un artesano de gran talento que, posteriormente, han recibido alguna clase de poder que les permite moverse por sí mismas. Sus formas son muy variadas; tanto como amplia sea la imaginación de su creador.\n\nLa mayoría aparenta ser humanas, pero en realidad pueden llegar a tener cualquier aspecto, desde animales a “cosas” únicas e inusuales. De igual manera, muchos son los procesos sobrenaturales que les permite moverse libremente, desde la intervención de fuerzas mayores hasta que se les introduzca un alma como fuente de energía. Actualmente hay bastantes marionetas animadas en Gaïa (o al menos, teniendo en consideración el limitado número de entidades sobrenaturales que quedan en el mundo), aunque sus clases son muy diferentes. José María Solano Albares (order #3443007) PoSiBleS claSeSDependiendo de su manufactura, las fuerzas sobrenaturales empleadas en su construcción y la propia forma del muñeco estas criaturas pueden ser muy diferentes entre sí. No obstante, lo cierto es que existen algunas clases de marionetas mucho más conocidas en los círculos sobrenaturales.\n\nA continuación se citan las más importantes. k arakuri : Las Karakuri son marionetas de manufactura oriental, cuyos cuerpos han sido compuestos por un maestro artesano para posteriormente ser animados por el poder de algún Kami menor o un gran Oni. Normalmente suelen aparentar ser mujeres de frágil belleza ataviadas con hermosos kimonos y armadas con naginatas o katanas. No tienen personalidad, pero son ciegamente fieles a quien sea designado como su “maestro”, algo que se determina escribiendo en sus cuerpos el nombre de un individuo con sangre. Aparecen normalmente en Varja, tanto individualmente como en grupos numerosos, pero nunca actúan por voluntad propia; siempre son sirvientes de una persona o entidad. Estas muñecas tienen las capacidades especiales Asesina y Lanzador de Alfileres, poseen un +6 a su Agilidad y un +1 40 aAcrobacias.\n\nAdemás pueden reproducir una Técnica que su maestro les haya imbuido siempre que no tenga un CM superior a 30 y su coste total en Ki no supere los 10 puntos. Naturalmente ellas no regeneran el Ki gastado, por lo que una vez usada la técnica alguien debe de reintroducirles nuevos puntos en caso de que quieran volver a usarla. La mayoría de las Karakuri emplean las estadísticas de una marioneta menor, pero algunas especialmente bien construidas a las que se le ha imbuido poderes muy superiores puede ser considerada mayor. a rlequino : Estos horrores son, con toda probabilidad, la más temible clase de marioneta que alguien puede llegar a encontrarse en Gaïa. No se sabe con seguridad quien las pudo fabricar en tiempos remotos, pero lo cierto es que existen repartidas por todos los principados del mundo.\n\nSon muñecos de tamaño humano (tanto masculinos como femeninos) vestidos como arlequines o polichinelas sobre cuyos cuerpos se manifiestan extrañas fibras espectrales que hacen las veces de “hilos”. En consecuencia, se mueven de un modo completamente innatural, como si una fuerza desconocida estuviera en todo momento manejándolos a distancia. Su única finalidad consiste en matar y sembrar el miedo entre las personas. No suelen obedecer a maestro alguno, si bien en ocasiones se han dado casos en los que han servido instintivamente a criaturas que encarnan una poderosa fuerza destructiva. Los Arlequinos tienen las capacidades especiales Aguja de Marioneta, Hilos de Marioneta, Drenaje de Sangre y Andar por el Aire.\n\nCuriosamente, pueden quedar paralizadas entre cinco y diez asaltos si alguien con el don de Ver Espíritus realiza un ataque apuntado contra las cuerdas que los sostienen (-40 a los ataques apuntados) usando un arma capaz de dañar energía y causando al menos 20 puntos de daño. Los Arlequinos suelen aparecer en grupos medianos o muy numerosos en lugares poco transitado. Aunque carecen de personalidad, tienen un apego especial a las viejas mansiones o los teatros abandonados, donde les gusta reposar como meras marionetas inanimadas hasta que alguien se les acerca lo suficiente para “despertarlas”. Hay tanto menores como mayores, si bien los primeros son extremadamente más comunes. l as m arionetas De p álias : Hace tiempo un archimago extremadamente poderoso llamado Origal creó una hueste de marionetas sobrenaturales en una pequeña isla del Mar Interior conocida como Pálias.\n\nEstas creaciones se diferenciaban de otros muñecos animados por el hecho de que se les imbuyó almas humanas como fuente de energía; la fuerza vital de los anteriores habitantes de la isla. En consecuencia, las llamadas “Marionetas de Pálias” son copias exactas de seres vivos que simulan ser normales en todos sus aspectos. “Viven” en la isla escondiendo su secreto de posibles visitantes, a quienes no dudarían en matar de considerarlos una amenaza para Origal o su hija Alice. Naturalmente el archimago posee títeres mucho más poderosos dotados de poderes y perfiles únicos, pero la “gente normal” de Pálias son por lo general marionetas menores dotadas de las capacidades Apariencia Real y Raciocinio, junto a algún poder adicional escogido entre la lista de opciones del apartado Personalización.\n\n(order #3443007) m oduS oPerandiCada marioneta actúa de un modo diferente dependiendo de su naturaleza pero por lo general o bien obedecen ciegamente a sus amos o bien cumplen mecánicamente las directrices que recibieron al ser creadas. Armas: Las marionetas pueden tener cualquier combinación posible de armas. Las estadísticas reflejadas arriba consideran que blande una clase de arma exclusiva llamada Aguja de Marioneta, pero esta puede ser sustituida por otras sin problemas. No obstante, una marioneta únicamente puede conocer un posible tipo de combinación. Inmunidad Psicológica y al Dolor: Una marioneta no posee ninguna clase de sentimiento y es inmune a cualquier estado psicológico como ira o miedo. De igual forma, ignora todos los penalizadores, naturales o místicos, que puedan ser provocados por el dolor.\n\nCuerpos Construidos: Al tratarse de construcciones artificiales, las marionetas no son capaces de recuperarse del daño por si mismas. En lugar de ello, deben de ser reparadas por alguien que disponga de los conocimientos y los medios apropiados. PerSonalizaciónLas marionetas suelen ser muy diferentes a causa del amplio abanico de opciones que sus creadores tienen a su disposición a la hora de componerlas. A continuación hay un listado con los poderes, habilidad y elementos más característicos que pueden llegar a tener. Cualquier combinación es posible, si bien lo normal es que las menores dispongan de dos o tres cualidades y las mayores sobre las cuatro o cinco. -a pariEnCia rEal : Los rasgos de la marioneta son tan perfectos que cuesta diferenciarla de un ser vivo real.\n\nPara darse cuenta de que se trata de una criatura artificial es necesario superar un control de Casi Imposible en Advertir y de Muy difícil en Buscar. En caso de que la marioneta también posea la opción Raciocinio, sus gestos se vuelven tan humanos que la dificultad aumenta hasta Imposible y Absurdo respectivamente. -MEtáliCa : La estructura física de la marioneta es de una aleación metálica sobrenatural que la vuelve resistente tanto a los impactos físicos como sobrenaturales. La marioneta obtiene un Tipo de Armadura 5 contra todo tipo de ataque no basado en Energía y una Barrera de Daño 60. -g randE : Su tamaño es descomunal, llegando a medir entre los 3 y los 5 metros. En consecuencia, la marioneta obtiene un +6 a su Fuerza y +4 a su Constitución, además de incrementar en +100 sus Puntos de Vida.\n\nPor la misma razón, las armas que porta se consideran Grandes, con el consecuente aumento de su daño base. No obstante, dicho tamaño también hace que su reacción se ralentice; aplica un negativo de -30 a su turno. -r aCioCinio : Sin duda, esta es la cualidad más avanzada y única de cuantas pueden desarrollar las marionetas. Representa que la criatura tiene la capacidad de pensar y trazar planes más o menos complejos, así como simular una personalidad o sentimientos humanos. Una marioneta con raciocinio tiene un atributo de Inteligencia 6 y puede repartir 200 puntos entre sus Habilidades Secundarias Intelectuales y Sociales. -h ilos dE MarionEta : La marioneta puede controlar parcialmente sus hilos, permitiéndole manifestarlos a distancia de un modo sobrenatural para apresar a enemigos con ellos.\n\nEsta habilidad le permite realizar un ataque de Presa sin aplicar ningún penalizador a su habilidad ofensiva con el equivalente aFuerza 12. Este ataque es una acción completa y no produce daño alguno. -a utodEstruCCión : La marioneta posee en su interior un dispositivo que, en el momento en el que su estructura se termina de romper, estalla provocando una potente explosión. Todo aquel que se encuentre a menos de 10 metros de la marioneta al inicio del asalto siguiente a su destrucción sufre un ataque basado en calor (CAL) de Habilidad Final Absurdo con un daño base de 100 puntos. -a sEsina : La marioneta ha sido creada poniendo un énfasis especial a sus habilidades de subterfugio, haciendo más sutiles sus movimientos y suprimiendo cualquier sonido de sus articulaciones. En consecuencia, obtiene una base de 100 en sus Habilidades Secundarias Sigilo y Ocultarse.\n\n-d rEnajE dE s angrE : Las agujas de la marioneta están preparadas para extraer la sangre de sus víctimas, llenando a su portadora de energía vital que su sistema aprovecha para recuperarse. En el caso de que alguno de sus ataques produzca daño, el afectado debe superar una RF contra 80 o sufrir un daño equivalente al nivel de fracaso, mientras que la marioneta recupera la mitad de dicho daño en Puntos de Vida. -i nVisiblE : La marioneta está dotada de unos pigmentos especiales sobre su estructura y ropas que cambian adaptándose al entorno como un camaleón. Para darse cuenta de su presencia mientras está quieta, es necesario superar un control de Absurdo en Buscar y de Casi Imposible en Advertir, mientras que en movimiento, la dificultad baja aMuyDifícil y Absurdo respectivamente.\n\n-MiEMbros a diCionalEs : Dotada de brazos y articulaciones secundarios, la marioneta es capaz de realizar un Ataque adicional cada turno sin penalizador alguno. Esta opción puede escogerse varias veces (hasta un máximo de tres), otorgando un ataque adicional cada vez. Si posee la opción Apariencia Real, la articulación está inicialmente oculta en el interior de su cuerpo y sólo la despliega cuando va a luchar. -a rMas n aturalEs : La marioneta tiene garras, fauces u otra clase de arma natural con la que puede luchar si lo desea. Estas armas tienen un Daño base de 50 y emplean el turno natural de la criatura. Si posee la opción Apariencia Real, el arma sólo se manifiesta a la hora de luchar. -VEnEno : Las armas de la marioneta están conectadas a su cuerpo, el cual segrega un potente veneno que inyectan en sus victimas cuando las cortan o pinchan.\n\nLa toxina puede ser cualquiera que haya deseado inocular su creador, pero esta ha de ser necesariamente de vía sanguínea. -a ndar por El a irE : Las cuerdas sobrenaturales de la marioneta le permiten “andar” directamente por el aire, sin la necesidad de apoyar los pies en el suelo. En ese sentido, puede moverse libremente con un Tipo de Vuelo 6. -a utorEparaCión : La forma física de la marioneta esta preparada para reconstruirse, reponiendo sus piezas sobrenaturalmente con cualquier material inorgánico que tenga cerca. Esta opción le otorga un Nivel de Regeneración 10 con todo lo que ello conlleva. -l anzador dE a lfilErEs : Através de sus brazos o sus dedos la marioneta posee la capacidad de disparar un cargador de alfileres a velocidad vertiginosa. Esta acción es equivalente a un ataque de disparo con Daño Base 60 (PEN) y un alcance de 30 metros.\n\nDependiendo del tamaño de la marioneta, esta puede tener cargas suficientes para realizar entre cinco y diez disparos en total. -a guja dE M arionEta : La aguja de marioneta es un arma usada principalmente por los Arlequinos similar a un estilete gigante. Se trata de un arma corta y precisa que, pese a no ser de calidad, tiene la cualidad de disminuir dos puntos el tipo de armadura del defensor. Por lo general, llevan una en cada mano, lo que les permite realizar dos ataques por turno (por usar un arma de mano adicional). -MíMiCa : La marioneta tiene la capacidad de imitar los movimientos de su controlador a distancia como un verdadero títere sobrenatural. Gracias a ello, emplea las habilidades de combate de su señor (hasta un máximo de 200 en ataque y defensa).\n\nNaturalmente la marioneta mantiene sus propios atributos (Características, Daño Base y Puntos de Vida), y es incapaz de usar las cualidades sobrenaturales de su creador (como magia o Ki). El controlador puede ver a través de ojos de la marioneta, pero por cada 50 metros que este se encuentre apartado de ella, la criatura aplica un penalizador de -10 a su ataque y defensa. Arlequina José María Solano Albares (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 108</p><p><strong>Entrada:</strong> Marioneta</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Sombra Fue: 7 Des: 10 Agi: 8 Con: 7 Pod: 4 Int: 5 Vol: 5 Per: 7 RF 55 RM 45 RP 50 RV 55 RE 55</p><p><strong>Habilidades esenciales:</strong> Exención Física, Ambidiestro, Inmunidad Psicológica, Inmune al Dolor.</p><p><strong>Poderes:</strong> Personalización, Cuerpos Construidos (Regeneración Cero).</p><p><strong>Daño:</strong> 45 Agujas (Pen) o como arma</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 80, Saltar 45, Trepar 30, Robo 25, Advertir 80, Buscar 70</p><p><strong>Descripción breve:</strong> Las marionetas son muñecos animados por medios sobrenaturales, hermosas obras de arte confeccionadas por un artesano de gran talento que, posteriormente, han recibido alguna clase de poder que les permite moverse por sí mismas. Sus formas son muy variadas; tanto como amplia sea la imaginación de su creador. La mayoría aparenta ser humanas, pero en realidad pueden llegar a tener cualquier aspecto, desde animales a “cosas” únicas e inusuales. De igual manera, muchos son los procesos sobrenaturales que les permite moverse libremente, desde la intervención de fuerzas mayores hasta que se les introduzca un alma como fuente de energía. Actualmente hay bastantes marionetas animadas en Gaïa (o al menos, teniendo en consideración el limitado número de entidades sobrenaturales que quedan en el mundo), aunque sus clases son muy diferentes. José María Solano Albares PoSiBleS claSeSDependiendo de su manufactura, las fuerzas sobrenaturales empleadas en su construcción y la propia forma del muñeco estas criaturas pueden ser muy diferentes entre sí. No obstante, lo cierto es que existen algunas clases de marionetas mucho más conocidas en los círculos sobrenaturales. A continuación se citan las más importantes. k arakuri : Las Karakuri son marionetas de manufactura oriental, cuyos cuerpos han sido compuestos por un maestro artesano para posteriormente ser animados por el poder de algún Kami menor o un gran Oni. Normalmente suelen aparentar ser mujeres de frágil belleza ataviadas con hermosos kimonos y armadas con naginatas o katanas. No tienen personalidad, pero son ciegamente fieles a quien sea designado como su “maestro”, algo que se determina escribiendo en sus cuerpos el nombre de un individuo con sangre. Aparecen normalmente en Varja, tanto individualmente como en grupos numerosos, pero nunca actúan por voluntad propia; siempre son sirvientes de una persona o entidad. Estas muñecas tienen las capacidades especiales Asesina y Lanzador de Alfileres, poseen un +6 a su Agilidad y un +140 aAcrobacias. Además pueden reproducir una Técnica que su maestro les haya imbuido siempre que no tenga un CM superior a 30 y su coste total en Ki no supere los 10 puntos. Naturalmente ellas no regeneran el Ki gastado, por lo que una vez usada la técnica alguien debe de reintroducirles nuevos puntos en caso de que quieran volver a usarla. La mayoría de las Karakuri emplean las estadísticas de una marioneta menor, pero algunas especialmente bien construidas a las que se le ha imbuido poderes muy superiores puede ser considerada mayor. a rlequino : Estos horrores son, con toda probabilidad, la más temible clase de marioneta que alguien puede llegar a encontrarse en Gaïa. No se sabe con seguridad quien las pudo fabricar en tiempos remotos, pero lo cierto es que existen repartidas por todos los principados del mundo. Son muñecos de tamaño humano (tanto masculinos como femeninos) vestidos como arlequines o polichinelas sobre cuyos cuerpos se manifiestan extrañas fibras espectrales que hacen las veces de “hilos”. En consecuencia, se mueven de un modo completamente innatural, como si una fuerza desconocida estuviera en todo momento manejándolos a distancia. Su única finalidad consiste en matar y sembrar el miedo entre las personas. No suelen obedecer a maestro alguno, si bien en ocasiones se han dado casos en los que han servido instintivamente a criaturas que encarnan una poderosa fuerza destructiva. Los Arlequinos tienen las capacidades especiales Aguja de Marioneta, Hilos de Marioneta, Drenaje de Sangre y Andar por el Aire. Curiosamente, pueden quedar paralizadas entre cinco y diez asaltos si alguien con el don de Ver Espíritus realiza un ataque apuntado contra las cuerdas que los sostienen (-40 a los ataques apuntados) usando un arma capaz de dañar energía y causando al menos 20 puntos de daño. Los Arlequinos suelen aparecer en grupos medianos o muy numerosos en lugares poco transitado. Aunque carecen de personalidad, tienen un apego especial a las viejas mansiones o los teatros abandonados, donde les gusta reposar como meras marionetas inanimadas hasta que alguien se les acerca lo suficiente para “despertarlas”. Hay tanto menores como mayores, si bien los primeros son extremadamente más comunes. l as m arionetas De p álias : Hace tiempo un archimago extremadamente poderoso llamado Origal creó una hueste de marionetas sobrenaturales en una pequeña isla del Mar Interior conocida como Pálias. Estas creaciones se diferenciaban de otros muñecos animados por el hecho de que se les imbuyó almas humanas como fuente de energía; la fuerza vital de los anteriores habitantes de la isla. En consecuencia, las llamadas “Marionetas de Pálias” son copias exactas de seres vivos que simulan ser normales en todos sus aspectos. “Viven” en la isla escondiendo su secreto de posibles visitantes, a quienes no dudarían en matar de considerarlos una amenaza para Origal o su hija Alice. Naturalmente el archimago posee títeres mucho más poderosos dotados de poderes y perfiles únicos, pero la “gente normal” de Pálias son por lo general marionetas menores dotadas de las capacidades Apariencia Real y Raciocinio, junto a algún poder adicional escogido entre la lista de opciones del apartado Personalización. m oduS oPerandiCada marioneta actúa de un modo diferente dependiendo de su naturaleza pero por lo general o bien obedecen ciegamente a sus amos o bien cumplen mecánicamente las directrices que recibieron al ser creadas. Armas: Las marionetas pueden tener cualquier combinación posible de armas. Las estadísticas reflejadas arriba consideran que blande una clase de arma exclusiva llamada Aguja de Marioneta, pero esta puede ser sustituida por otras sin problemas. No obstante, una marioneta únicamente puede conocer un posible tipo de combinación. Inmunidad Psicológica y al Dolor: Una marioneta no posee ninguna clase de sentimiento y es inmune a cualquier estado psicológico como ira o miedo. De igual forma, ignora todos los penalizadores, naturales o místicos, que puedan ser provocados por el dolor. Cuerpos Construidos: Al tratarse de construcciones artificiales, las marionetas no son capaces de recuperarse del daño por si mismas. En lugar de ello, deben de ser reparadas por alguien que disponga de los conocimientos y los medios apropiados. PerSonalizaciónLas marionetas suelen ser muy diferentes a causa del amplio abanico de opciones que sus creadores tienen a su disposición a la hora de componerlas. A continuación hay un listado con los poderes, habilidad y elementos más característicos que pueden llegar a tener. Cualquier combinación es posible, si bien lo normal es que las menores dispongan de dos o tres cualidades y las mayores sobre las cuatro o cinco. -a pariEnCia rEal : Los rasgos de la marioneta son tan perfectos que cuesta diferenciarla de un ser vivo real. Para darse cuenta de que se trata de una criatura artificial es necesario superar un control de Casi Imposible en Advertir y de Muy difícil en Buscar. En caso de que la marioneta también posea la opción Raciocinio, sus gestos se vuelven tan humanos que la dificultad aumenta hasta Imposible y Absurdo respectivamente. -MEtáliCa : La estructura física de la marioneta es de una aleación metálica sobrenatural que la vuelve resistente tanto a los impactos físicos como sobrenaturales. La marioneta obtiene un Tipo de Armadura 5 contra todo tipo de ataque no basado en Energía y una Barrera de Daño 60. -g randE : Su tamaño es descomunal, llegando a medir entre los 3 y los 5 metros. En consecuencia, la marioneta obtiene un +6 a su Fuerza y +4 a su Constitución, además de incrementar en +100 sus Puntos de Vida. Por la misma razón, las armas que porta se consideran Grandes, con el consecuente aumento de su daño base. No obstante, dicho tamaño también hace que su reacción se ralentice; aplica un negativo de -30 a su turno. -r aCioCinio : Sin duda, esta es la cualidad más avanzada y única de cuantas pueden desarrollar las marionetas. Representa que la criatura tiene la capacidad de pensar y trazar planes más o menos complejos, así como simular una personalidad o sentimientos humanos. Una marioneta con raciocinio tiene un atributo de Inteligencia 6 y puede repartir 200 puntos entre sus Habilidades Secundarias Intelectuales y Sociales. -h ilos dE MarionEta : La marioneta puede controlar parcialmente sus hilos, permitiéndole manifestarlos a distancia de un modo sobrenatural para apresar a enemigos con ellos. Esta habilidad le permite realizar un ataque de Presa sin aplicar ningún penalizador a su habilidad ofensiva con el equivalente aFuerza 12. Este ataque es una acción completa y no produce daño alguno. -a utodEstruCCión : La marioneta posee en su interior un dispositivo que, en el momento en el que su estructura se termina de romper, estalla provocando una potente explosión. Todo aquel que se encuentre a menos de 10 metros de la marioneta al inicio del asalto siguiente a su destrucción sufre un ataque basado en calor (CAL) de Habilidad Final Absurdo con un daño base de 100 puntos. -a sEsina : La marioneta ha sido creada poniendo un énfasis especial a sus habilidades de subterfugio, haciendo más sutiles sus movimientos y suprimiendo cualquier sonido de sus articulaciones. En consecuencia, obtiene una base de 100 en sus Habilidades Secundarias Sigilo y Ocultarse. -d rEnajE dE s angrE : Las agujas de la marioneta están preparadas para extraer la sangre de sus víctimas, llenando a su portadora de energía vital que su sistema aprovecha para recuperarse. En el caso de que alguno de sus ataques produzca daño, el afectado debe superar una RF contra 80 o sufrir un daño equivalente al nivel de fracaso, mientras que la marioneta recupera la mitad de dicho daño en Puntos de Vida. -i nVisiblE : La marioneta está dotada de unos pigmentos especiales sobre su estructura y ropas que cambian adaptándose al entorno como un camaleón. Para darse cuenta de su presencia mientras está quieta, es necesario superar un control de Absurdo en Buscar y de Casi Imposible en Advertir, mientras que en movimiento, la dificultad baja aMuyDifícil y Absurdo respectivamente. -MiEMbros a diCionalEs : Dotada de brazos y articulaciones secundarios, la marioneta es capaz de realizar un Ataque adicional cada turno sin penalizador alguno. Esta opción puede escogerse varias veces (hasta un máximo de tres), otorgando un ataque adicional cada vez. Si posee la opción Apariencia Real, la articulación está inicialmente oculta en el interior de su cuerpo y sólo la despliega cuando va a luchar. -a rMas n aturalEs : La marioneta tiene garras, fauces u otra clase de arma natural con la que puede luchar si lo desea. Estas armas tienen un Daño base de 50 y emplean el turno natural de la criatura. Si posee la opción Apariencia Real, el arma sólo se manifiesta a la hora de luchar. -VEnEno : Las armas de la marioneta están conectadas a su cuerpo, el cual segrega un potente veneno que inyectan en sus victimas cuando las cortan o pinchan. La toxina puede ser cualquiera que haya deseado inocular su creador, pero esta ha de ser necesariamente de vía sanguínea. -a ndar por El a irE : Las cuerdas sobrenaturales de la marioneta le permiten “andar” directamente por el aire, sin la necesidad de apoyar los pies en el suelo. En ese sentido, puede moverse libremente con un Tipo de Vuelo 6. -a utorEparaCión : La forma física de la marioneta esta preparada para reconstruirse, reponiendo sus piezas sobrenaturalmente con cualquier material inorgánico que tenga cerca. Esta opción le otorga un Nivel de Regeneración 10 con todo lo que ello conlleva. -l anzador dE a lfilErEs : Através de sus brazos o sus dedos la marioneta posee la capacidad de disparar un cargador de alfileres a velocidad vertiginosa. Esta acción es equivalente a un ataque de disparo con Daño Base 60 (PEN) y un alcance de 30 metros. Dependiendo del tamaño de la marioneta, esta puede tener cargas suficientes para realizar entre cinco y diez disparos en total. -a guja dE M arionEta : La aguja de marioneta es un arma usada principalmente por los Arlequinos similar a un estilete gigante. Se trata de un arma corta y precisa que, pese a no ser de calidad, tiene la cualidad de disminuir dos puntos el tipo de armadura del defensor. Por lo general, llevan una en cada mano, lo que les permite realizar dos ataques por turno (por usar un arma de mano adicional). -MíMiCa : La marioneta tiene la capacidad de imitar los movimientos de su controlador a distancia como un verdadero títere sobrenatural. Gracias a ello, emplea las habilidades de combate de su señor (hasta un máximo de 200 en ataque y defensa). Naturalmente la marioneta mantiene sus propios atributos (Características, Daño Base y Puntos de Vida), y es incapaz de usar las cualidades sobrenaturales de su creador (como magia o Ki). El controlador puede ver a través de ojos de la marioneta, pero por cada 50 metros que este se encuentre apartado de ella, la criatura aplica un penalizador de -10 a su ataque y defensa. Arlequina José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>Nivel: 5 de Vida: 110 Categoría: Sombra Fue: 7 Des: 10 Agi: 8 Con: 7 Pod: 4 Int: 5 Vol: 5 Per: 7 RF 55 RM 45 RP 50 RV 55 RE 55\n\nTurno: 1 1 5 Natural Habilidad de ataque: 1 60 Aguja de Marioneta + 1 50 Aguja de Marioneta; o 1 60 Arma Habilidad de defensa: 1 55 Esquiva Daño: 45 Agujas (Pen) o como arma TA: Ninguna Habilidades esenciales: Exención Física, Ambidiestro, Inmunidad Psicológica, Inmune al Dolor. Poderes: Personalización, Cuerpos Construidos (Regeneración Cero). de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Acrobacias 80, Saltar 45, Trepar 30, Robo 25, Advertir 80, Buscar 70. Las marionetas son muñecos animados por medios sobrenaturales, hermosas obras de arte confeccionadas por un artesano de gran talento que, posteriormente, han recibido alguna clase de poder que les permite moverse por sí mismas. Sus formas son muy variadas; tanto como amplia sea la imaginación de su creador.\n\nLa mayoría aparenta ser humanas, pero en realidad pueden llegar a tener cualquier aspecto, desde animales a “cosas” únicas e inusuales. De igual manera, muchos son los procesos sobrenaturales que les permite moverse libremente, desde la intervención de fuerzas mayores hasta que se les introduzca un alma como fuente de energía. Actualmente hay bastantes marionetas animadas en Gaïa (o al menos, teniendo en consideración el limitado número de entidades sobrenaturales que quedan en el mundo), aunque sus clases son muy diferentes. José María Solano Albares (order #3443007) PoSiBleS claSeSDependiendo de su manufactura, las fuerzas sobrenaturales empleadas en su construcción y la propia forma del muñeco estas criaturas pueden ser muy diferentes entre sí. No obstante, lo cierto es que existen algunas clases de marionetas mucho más conocidas en los círculos sobrenaturales.\n\nA continuación se citan las más importantes. k arakuri : Las Karakuri son marionetas de manufactura oriental, cuyos cuerpos han sido compuestos por un maestro artesano para posteriormente ser animados por el poder de algún Kami menor o un gran Oni. Normalmente suelen aparentar ser mujeres de frágil belleza ataviadas con hermosos kimonos y armadas con naginatas o katanas. No tienen personalidad, pero son ciegamente fieles a quien sea designado como su “maestro”, algo que se determina escribiendo en sus cuerpos el nombre de un individuo con sangre. Aparecen normalmente en Varja, tanto individualmente como en grupos numerosos, pero nunca actúan por voluntad propia; siempre son sirvientes de una persona o entidad. Estas muñecas tienen las capacidades especiales Asesina y Lanzador de Alfileres, poseen un +6 a su Agilidad y un +1 40 aAcrobacias.\n\nAdemás pueden reproducir una Técnica que su maestro les haya imbuido siempre que no tenga un CM superior a 30 y su coste total en Ki no supere los 10 puntos. Naturalmente ellas no regeneran el Ki gastado, por lo que una vez usada la técnica alguien debe de reintroducirles nuevos puntos en caso de que quieran volver a usarla. La mayoría de las Karakuri emplean las estadísticas de una marioneta menor, pero algunas especialmente bien construidas a las que se le ha imbuido poderes muy superiores puede ser considerada mayor. a rlequino : Estos horrores son, con toda probabilidad, la más temible clase de marioneta que alguien puede llegar a encontrarse en Gaïa. No se sabe con seguridad quien las pudo fabricar en tiempos remotos, pero lo cierto es que existen repartidas por todos los principados del mundo.\n\nSon muñecos de tamaño humano (tanto masculinos como femeninos) vestidos como arlequines o polichinelas sobre cuyos cuerpos se manifiestan extrañas fibras espectrales que hacen las veces de “hilos”. En consecuencia, se mueven de un modo completamente innatural, como si una fuerza desconocida estuviera en todo momento manejándolos a distancia. Su única finalidad consiste en matar y sembrar el miedo entre las personas. No suelen obedecer a maestro alguno, si bien en ocasiones se han dado casos en los que han servido instintivamente a criaturas que encarnan una poderosa fuerza destructiva. Los Arlequinos tienen las capacidades especiales Aguja de Marioneta, Hilos de Marioneta, Drenaje de Sangre y Andar por el Aire.\n\nCuriosamente, pueden quedar paralizadas entre cinco y diez asaltos si alguien con el don de Ver Espíritus realiza un ataque apuntado contra las cuerdas que los sostienen (-40 a los ataques apuntados) usando un arma capaz de dañar energía y causando al menos 20 puntos de daño. Los Arlequinos suelen aparecer en grupos medianos o muy numerosos en lugares poco transitado. Aunque carecen de personalidad, tienen un apego especial a las viejas mansiones o los teatros abandonados, donde les gusta reposar como meras marionetas inanimadas hasta que alguien se les acerca lo suficiente para “despertarlas”. Hay tanto menores como mayores, si bien los primeros son extremadamente más comunes. l as m arionetas De p álias : Hace tiempo un archimago extremadamente poderoso llamado Origal creó una hueste de marionetas sobrenaturales en una pequeña isla del Mar Interior conocida como Pálias.\n\nEstas creaciones se diferenciaban de otros muñecos animados por el hecho de que se les imbuyó almas humanas como fuente de energía; la fuerza vital de los anteriores habitantes de la isla. En consecuencia, las llamadas “Marionetas de Pálias” son copias exactas de seres vivos que simulan ser normales en todos sus aspectos. “Viven” en la isla escondiendo su secreto de posibles visitantes, a quienes no dudarían en matar de considerarlos una amenaza para Origal o su hija Alice. Naturalmente el archimago posee títeres mucho más poderosos dotados de poderes y perfiles únicos, pero la “gente normal” de Pálias son por lo general marionetas menores dotadas de las capacidades Apariencia Real y Raciocinio, junto a algún poder adicional escogido entre la lista de opciones del apartado Personalización.\n\n(order #3443007) m oduS oPerandiCada marioneta actúa de un modo diferente dependiendo de su naturaleza pero por lo general o bien obedecen ciegamente a sus amos o bien cumplen mecánicamente las directrices que recibieron al ser creadas. Armas: Las marionetas pueden tener cualquier combinación posible de armas. Las estadísticas reflejadas arriba consideran que blande una clase de arma exclusiva llamada Aguja de Marioneta, pero esta puede ser sustituida por otras sin problemas. No obstante, una marioneta únicamente puede conocer un posible tipo de combinación. Inmunidad Psicológica y al Dolor: Una marioneta no posee ninguna clase de sentimiento y es inmune a cualquier estado psicológico como ira o miedo. De igual forma, ignora todos los penalizadores, naturales o místicos, que puedan ser provocados por el dolor.\n\nCuerpos Construidos: Al tratarse de construcciones artificiales, las marionetas no son capaces de recuperarse del daño por si mismas. En lugar de ello, deben de ser reparadas por alguien que disponga de los conocimientos y los medios apropiados. PerSonalizaciónLas marionetas suelen ser muy diferentes a causa del amplio abanico de opciones que sus creadores tienen a su disposición a la hora de componerlas. A continuación hay un listado con los poderes, habilidad y elementos más característicos que pueden llegar a tener. Cualquier combinación es posible, si bien lo normal es que las menores dispongan de dos o tres cualidades y las mayores sobre las cuatro o cinco. -a pariEnCia rEal : Los rasgos de la marioneta son tan perfectos que cuesta diferenciarla de un ser vivo real.\n\nPara darse cuenta de que se trata de una criatura artificial es necesario superar un control de Casi Imposible en Advertir y de Muy difícil en Buscar. En caso de que la marioneta también posea la opción Raciocinio, sus gestos se vuelven tan humanos que la dificultad aumenta hasta Imposible y Absurdo respectivamente. -MEtáliCa : La estructura física de la marioneta es de una aleación metálica sobrenatural que la vuelve resistente tanto a los impactos físicos como sobrenaturales. La marioneta obtiene un Tipo de Armadura 5 contra todo tipo de ataque no basado en Energía y una Barrera de Daño 60. -g randE : Su tamaño es descomunal, llegando a medir entre los 3 y los 5 metros. En consecuencia, la marioneta obtiene un +6 a su Fuerza y +4 a su Constitución, además de incrementar en +100 sus Puntos de Vida.\n\nPor la misma razón, las armas que porta se consideran Grandes, con el consecuente aumento de su daño base. No obstante, dicho tamaño también hace que su reacción se ralentice; aplica un negativo de -30 a su turno. -r aCioCinio : Sin duda, esta es la cualidad más avanzada y única de cuantas pueden desarrollar las marionetas. Representa que la criatura tiene la capacidad de pensar y trazar planes más o menos complejos, así como simular una personalidad o sentimientos humanos. Una marioneta con raciocinio tiene un atributo de Inteligencia 6 y puede repartir 200 puntos entre sus Habilidades Secundarias Intelectuales y Sociales. -h ilos dE MarionEta : La marioneta puede controlar parcialmente sus hilos, permitiéndole manifestarlos a distancia de un modo sobrenatural para apresar a enemigos con ellos.\n\nEsta habilidad le permite realizar un ataque de Presa sin aplicar ningún penalizador a su habilidad ofensiva con el equivalente aFuerza 12. Este ataque es una acción completa y no produce daño alguno. -a utodEstruCCión : La marioneta posee en su interior un dispositivo que, en el momento en el que su estructura se termina de romper, estalla provocando una potente explosión. Todo aquel que se encuentre a menos de 10 metros de la marioneta al inicio del asalto siguiente a su destrucción sufre un ataque basado en calor (CAL) de Habilidad Final Absurdo con un daño base de 100 puntos. -a sEsina : La marioneta ha sido creada poniendo un énfasis especial a sus habilidades de subterfugio, haciendo más sutiles sus movimientos y suprimiendo cualquier sonido de sus articulaciones. En consecuencia, obtiene una base de 100 en sus Habilidades Secundarias Sigilo y Ocultarse.\n\n-d rEnajE dE s angrE : Las agujas de la marioneta están preparadas para extraer la sangre de sus víctimas, llenando a su portadora de energía vital que su sistema aprovecha para recuperarse. En el caso de que alguno de sus ataques produzca daño, el afectado debe superar una RF contra 80 o sufrir un daño equivalente al nivel de fracaso, mientras que la marioneta recupera la mitad de dicho daño en Puntos de Vida. -i nVisiblE : La marioneta está dotada de unos pigmentos especiales sobre su estructura y ropas que cambian adaptándose al entorno como un camaleón. Para darse cuenta de su presencia mientras está quieta, es necesario superar un control de Absurdo en Buscar y de Casi Imposible en Advertir, mientras que en movimiento, la dificultad baja aMuyDifícil y Absurdo respectivamente.\n\n-MiEMbros a diCionalEs : Dotada de brazos y articulaciones secundarios, la marioneta es capaz de realizar un Ataque adicional cada turno sin penalizador alguno. Esta opción puede escogerse varias veces (hasta un máximo de tres), otorgando un ataque adicional cada vez. Si posee la opción Apariencia Real, la articulación está inicialmente oculta en el interior de su cuerpo y sólo la despliega cuando va a luchar. -a rMas n aturalEs : La marioneta tiene garras, fauces u otra clase de arma natural con la que puede luchar si lo desea. Estas armas tienen un Daño base de 50 y emplean el turno natural de la criatura. Si posee la opción Apariencia Real, el arma sólo se manifiesta a la hora de luchar. -VEnEno : Las armas de la marioneta están conectadas a su cuerpo, el cual segrega un potente veneno que inyectan en sus victimas cuando las cortan o pinchan.\n\nLa toxina puede ser cualquiera que haya deseado inocular su creador, pero esta ha de ser necesariamente de vía sanguínea. -a ndar por El a irE : Las cuerdas sobrenaturales de la marioneta le permiten “andar” directamente por el aire, sin la necesidad de apoyar los pies en el suelo. En ese sentido, puede moverse libremente con un Tipo de Vuelo 6. -a utorEparaCión : La forma física de la marioneta esta preparada para reconstruirse, reponiendo sus piezas sobrenaturalmente con cualquier material inorgánico que tenga cerca. Esta opción le otorga un Nivel de Regeneración 10 con todo lo que ello conlleva. -l anzador dE a lfilErEs : Através de sus brazos o sus dedos la marioneta posee la capacidad de disparar un cargador de alfileres a velocidad vertiginosa. Esta acción es equivalente a un ataque de disparo con Daño Base 60 (PEN) y un alcance de 30 metros.\n\nDependiendo del tamaño de la marioneta, esta puede tener cargas suficientes para realizar entre cinco y diez disparos en total. -a guja dE M arionEta : La aguja de marioneta es un arma usada principalmente por los Arlequinos similar a un estilete gigante. Se trata de un arma corta y precisa que, pese a no ser de calidad, tiene la cualidad de disminuir dos puntos el tipo de armadura del defensor. Por lo general, llevan una en cada mano, lo que les permite realizar dos ataques por turno (por usar un arma de mano adicional). -MíMiCa : La marioneta tiene la capacidad de imitar los movimientos de su controlador a distancia como un verdadero títere sobrenatural. Gracias a ello, emplea las habilidades de combate de su señor (hasta un máximo de 200 en ataque y defensa).\n\nNaturalmente la marioneta mantiene sus propios atributos (Características, Daño Base y Puntos de Vida), y es incapaz de usar las cualidades sobrenaturales de su creador (como magia o Ki). El controlador puede ver a través de ojos de la marioneta, pero por cada 50 metros que este se encuentre apartado de ella, la criatura aplica un penalizador de -10 a su ataque y defensa. Arlequina José María Solano Albares (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +248,6 @@
           }
         }
       ],
-      "level": {
-        "value": 5
-      },
       "notes": [
         {
           "_id": "note-marioneta-2-3",
@@ -345,52 +267,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         }
       },
       "secondaries": {
@@ -401,9 +307,6 @@
         "initiative": {
           "base": {
             "value": 115
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +357,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 55
             },
             "final": {
               "value": 0
@@ -465,10 +365,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 55
             },
             "final": {
               "value": 0
@@ -476,10 +373,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 55060
+              "value": 55115
             },
             "final": {
               "value": 0
@@ -487,10 +381,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -498,10 +389,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -513,212 +401,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 70
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 160
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 155
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -749,11 +880,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -765,14 +892,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -786,14 +918,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -898,15 +1027,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -918,37 +1043,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1071,9 +1216,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

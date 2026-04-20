@@ -251,9 +251,12 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
@@ -262,16 +265,8 @@
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,25 @@
         "openOnDoubles": {
           "value": false
         },
+        "defenseType": {
+          "value": ""
+        },
+        "inmaterial": {
+          "value": true
+        },
         "perceiveMystic": {
           "value": true
         },
         "perceivePsychic": {
           "value": true
-        },
-        "inmaterial": {
-          "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +306,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +326,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 70
         }
       },
       "aspect": {
@@ -430,7 +360,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -448,7 +378,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 104</p><p><strong>Entrada:</strong> Maestro de las Sombras</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 30</p><p><strong>Categoría:</strong> Hechicero Fue: 7 Des: 13 Agi: 7 Con: 8 Pod: 13 Int: 12 Vol: 10 Per: 11 RF 80 RM 95 RP 85 RV 80 RE 80</p><p><strong>Habilidades esenciales:</strong> Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inmunidad Natural a un Elemento (Completa, Oscuridad), Recuperación Superior de Magia, Exención Física.</p><p><strong>Poderes:</strong> Armaduras Sombrías (Armadura Física 4, Armadura Mística 4), Forma Elemental, Resistencia a la Invocación, Indetección Mística +150, Percepción Tenebrosa (Visión Nocturna Completa, Ver lo Sobrenatural), Titeres Oscuros, Dones Oscuros.</p><p><strong>Daño:</strong> 15 Combate Desarmado (Con)</p><p><strong>TA:</strong> Armadura Sombría Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 4</p><p><strong>Habilidades secundarias:</strong> Liderazgo 30, Persuasión 125, Ocultarse 100, Sigilo 30, Advertir 50, Buscar 25, Historia 120, Ocultismo 150, Valoración Mágica 250</p><p><strong>Descripción breve:</strong> Los Nueve Maestros de la Sombra, también conocidos en algunos círculos ocultistas como la Cábala de Zenobius, son un grupo de poderosos elementales oscuros dotados de vastos poderes sobrenaturales. Los Nueve eran una cábala de grandes archimagos oscuros del Imperio de Yehudah que, intuyendo la caída de los suyos, decidieron tomar parte en un tenebroso experimento con el objetivo de hacerse uno con las sombras y volverse eternos. Para evitar llamar la atención de las Valkirias o contrariar a las tres Parcas crearon armaduras sobrenaturales y encerraron en ellas a poderosos elementales sombríos, a los que privaron de toda voluntad o inteligencia. A continuación los Nueve se quitaron la vida y alimentaron a los elementales con sus almas. Generalmente eso hubiera destruido por completo a los hechiceros pero, puesto que quienes los consumieron carecían de voluntad propia, los espíritus de los magos se impusieron tomando el control. De ese modo, los elementales y las almas se unieron para dar nacimiento a un nuevo tipo de ser; los Maestros de la Sombra. Con el paso de los siglos los Nueve han perdido toda consciencia humana así como el recuerdo de lo que una vez fueron. Ahora son criaturas tenebrosas incapaces de evolucionar, cuyo objetivo en la vida no es más que satisfacer los intereses que tenían cuando estaban vivos milenios atrás. Cada uno de ellos tiene “algo” que ocupa casi todo su tiempo, una especie de objetivo personal que le hace desear seguir adelante. Sin él, no serían más que simples masas de tinieblas repletas de emociones negativas. Hace ya muchos años que la Cábala se separó para seguir sus propios intereses individuales, por lo que ahora mismo no se relacionan entre sí (en algunos casos, los hay que no se han visto en siglos). Inmensamente inteligentes y con la sabiduría que sólo una vida inmortal es capaz de dar, los Maestros se comunican por igual con mortales y seres sobrenaturales según les convenga. Poseedores de una vasta red de contactos, a menudo usan desde la sombra a otras personas como intermediaros en sus asuntos en el mundo, comprando su fidelidad con riquezas o miedo. Naturalmente, al ser completamente amorales no se preocupan demasiado por “desembarazarse” de tales individuos una vez que han cumplido su labor. La mayoría no se relacionan con ninguna organización secreta, pero al menos tres de ellos tienen algún tipo de lazo con Samael y otro es profesor en la Orden de Magus. m oduS oPerandiLosMaestros de la Sombra son, por encima de todo, manipuladores que prefieren evitar ponerse en peligro directo. Tras haber vivido miles de años consideran que su propia seguridad es lo más importante, así que no dudan en huir (abandonándolo todo si es preciso) cuando creen estar en problemas. Gracias a su amplia experiencia siempre tienen alguna vía de escape preparada ante cualquier contingencia. En combate emplean habitualmente a sus títeres oscuros para luchar a distancia sin tener que exponerse personalmente, apoyándolos con conjuros y otros ataques de largo alcance. De ese modo, nunca peligran verdaderamente. Su punto vulnerable es la cabeza, donde reside el núcleo de su alma. Armaduras Sombrías: Las Armaduras Sombrías son los cuerpos tenebrosos donde reside la esencia oscura de los Maestros. Se consideran protecciones sobrenaturales que les proporcionan Tipo de Armadura 4 contra toda clase de ataque. Forma Elemental: Un Maestro de las Sombras está formado de tinieblas puras y, en consecuencia, es completamente inmaterial. Cualquier ataque que no sea de carácter sobrenatural no tiene efectos sobre él, al igual que es inmune a todo daño basado en oscuridad (salvo si su atacante posee un Gnosis superior al suyo). Las Armaduras Sombrías, como parte integral de sus cuerpos, también se atienen a estas reglas. Resistencia a la Invocación: Comprendiendo que como Seres Entre Mundos serían extremadamente vulnerables a habilidades de convocatoria, los Nueve se protegieron contra estas al crear sus nuevos cuerpos. Gracias a las runas sobrenaturales de sus Armaduras Sombrías se consideran que son de nivel once a la hora de determinar la dificultad de los controles de Controlar o Convocar. Indetección Mística: Y a que suele evitar una confrontación directa y utiliza sus discípulos para combatir, un Maestro de las Sombras prefiere permanecer oculto en una posición alejada usando sus capacidades innatas para no ser detectado. Y a sea mediante magia o matrices psíquicas, el Maestro obtiene un bono de +150 a sus Resistencias frente a cualquier clase de detección. Percepción Tenebrosa: Los sentidos de un Maestro son capaces de ver a través de la oscuridad completa (incluso de carácter sobrenatural) y percibe tanto matrices psíquicas como entes espirituales. José María Solano Albares : Cada Maestro puede invertir libremente hasta 30 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos haya cumplido. Títeres Oscuros: Los Maestros poseen extensiones de su ser llamados Discípulos de la Sombra. Estos entes, independientes de su creador a la vez que atados existencialmente a él, son sus principales “armas”. El Maestro puede controlarlos como marionetas a través de las que ver y oír, a una distancia que no suele ser mayor al kilómetro. Cada Maestro puede tener entre dos y cinco Discípulos. Dones Oscuros: Un Maestro puede imbuir a sus Discípulos diferentes poderes tenebrosos para cumplir con mayor efectividad sus designios. El número de Dones depende de las marionetas que tenga a su disposición; cuantas más haya creado, menos poder le quedará a repartir entre estas. Si el Maestro tiene dos Discípulos será capaz de conferirles hasta cuatro poderes diferentes, mientras que en caso de tener tres, cuatro y cinco, el número de dones se reducirá a tres, dos y uno respectivamente. El Maestro elige que poder es más conveniente en cada caso, aunque una vez conferido uno, no podrá cambiárselo por otro más tarde. En la siguiente lista están los poderes que puede otorgar: -a rMa a rC ana : El arma del Discípulo incrementa su poder, rodeándose de crepitantes descargas de energía oscura. Atodos los efectos, esta adquiere todas las propiedades de un arma +10 que ataca en la Tabla de Energía como un arma intangible (es decir, no puede ser detenida por armas convencionales). -g uadaña dEsoMbras : El arma del Discípulo cambia de forma convirtiéndose en una enorme guadaña de sombras vivientes. Por ello, como una acción de ataque completa puede realizar un ataque en área con un radio de 5 metros sin sufrir ningún penalizador a su habilidad. Si se combina aBrazos de Sombra, únicamente el ataque principal goza de este beneficio. -g arra dE t iniEblas : Cada vez que el Discípulo realiza un ataque, brazos espectrales surgen del suelo tratando de atrapar la sombra del defensor. Si lo consiguen, este queda paralizado sobrenaturalmente, siendo incapaz de moverse con verdadera libertad. A efectos de juego, cada vez que el Discípulo produzca daño a su adversario le obliga a realizar un control de RM contra 120 o verse sometido aParalizaciónParcial tantos asaltos como decenas por la que falló la Resistencia. Maestro de las Sombras y Nyx José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>SNivel: 9\n\nClase: Entre mundos, Elemental 30 Puntos de Vida: 155 Categoría: Hechicero Fue: 7 Des: 13 Agi: 7 Con: 8 Pod: 13 Int: 12 Vol: 10 Per: 11 RF 80 RM 95 RP 85 RV 80 RE 80\n\nTurno: 1 1 5 Natural Habilidad de ataque: 25 Combate Desarmado Habilidad de defensa: 5 Esquiva Daño: 1 5 Combate Desarmado (Con) TA: Armadura Sombría Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 4 ACT: 120\n\nZeon: 1.725\n\nProyección mágica: 220 Ofensiva, 240 Defensiva Nivel de Vía: 90 Oscuridad, 20 Otras Habilidades esenciales: Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inmunidad Natural a un Elemento (Completa, Oscuridad), Recuperación Superior de Magia, Exención Física. Poderes: Armaduras Sombrías (Armadura Física 4, Armadura Mística 4), Forma Elemental, Resistencia a la Invocación, Indetección Mística +1 50, Percepción Tenebrosa (Visión Nocturna Completa, Ver lo Sobrenatural), Titeres Oscuros, Dones Oscuros. de movimiento: 7 Cansancio: Incansable Habilidades Secundarias: Liderazgo 30, Persuasión 1 25, Ocultarse 100, Sigilo 30, Advertir 50, Buscar 25, Historia 1 20, Ocultismo 1 50, Valoración Mágica 250.\n\nLos Nueve Maestros de la Sombra, también conocidos en algunos círculos ocultistas como la Cábala de Zenobius, son un grupo de poderosos elementales oscuros dotados de vastos poderes sobrenaturales. Los Nueve eran una cábala de grandes archimagos oscuros del Imperio de Yehudah que, intuyendo la caída de los suyos, decidieron tomar parte en un tenebroso experimento con el objetivo de hacerse uno con las sombras y volverse eternos. Para evitar llamar la atención de las Valkirias o contrariar a las tres Parcas crearon armaduras sobrenaturales y encerraron en ellas a poderosos elementales sombríos, a los que privaron de toda voluntad o inteligencia. A continuación los Nueve se quitaron la vida y alimentaron a los elementales con sus almas.\n\nGeneralmente eso hubiera destruido por completo a los hechiceros pero, puesto que quienes los consumieron carecían de voluntad propia, los espíritus de los magos se impusieron tomando el control. De ese modo, los elementales y las almas se unieron para dar nacimiento a un nuevo tipo de ser; los Maestros de la Sombra. Con el paso de los siglos los Nueve han perdido toda consciencia humana así como el recuerdo de lo que una vez fueron. Ahora son criaturas tenebrosas incapaces de evolucionar, cuyo objetivo en la vida no es más que satisfacer los intereses que tenían cuando estaban vivos milenios atrás. Cada uno de ellos tiene “algo” que ocupa casi todo su tiempo, una especie de objetivo personal que le hace desear seguir adelante. Sin él, no serían más que simples masas de tinieblas repletas de emociones negativas.\n\nHace ya muchos años que la Cábala se separó para seguir sus propios intereses individuales, por lo que ahora mismo no se relacionan entre sí (en algunos casos, los hay que no se han visto en siglos). Inmensamente inteligentes y con la sabiduría que sólo una vida inmortal es capaz de dar, los Maestros se comunican por igual con mortales y seres sobrenaturales según les convenga. Poseedores de una vasta red de contactos, a menudo usan desde la sombra a otras personas como intermediaros en sus asuntos en el mundo, comprando su fidelidad con riquezas o miedo. Naturalmente, al ser completamente amorales no se preocupan demasiado por “desembarazarse” de tales individuos una vez que han cumplido su labor. La mayoría no se relacionan con ninguna organización secreta, pero al menos tres de ellos tienen algún tipo de lazo con Samael y otro es profesor en la Orden de Magus.\n\nm oduS oPerandiLosMaestros de la Sombra son, por encima de todo, manipuladores que prefieren evitar ponerse en peligro directo. Tras haber vivido miles de años consideran que su propia seguridad es lo más importante, así que no dudan en huir (abandonándolo todo si es preciso) cuando creen estar en problemas. Gracias a su amplia experiencia siempre tienen alguna vía de escape preparada ante cualquier contingencia. En combate emplean habitualmente a sus títeres oscuros para luchar a distancia sin tener que exponerse personalmente, apoyándolos con conjuros y otros ataques de largo alcance. De ese modo, nunca peligran verdaderamente. Su punto vulnerable es la cabeza, donde reside el núcleo de su alma. Armaduras Sombrías: Las Armaduras Sombrías son los cuerpos tenebrosos donde reside la esencia oscura de los Maestros.\n\nSe consideran protecciones sobrenaturales que les proporcionan Tipo de Armadura 4 contra toda clase de ataque. Forma Elemental: Un Maestro de las Sombras está formado de tinieblas puras y, en consecuencia, es completamente inmaterial. Cualquier ataque que no sea de carácter sobrenatural no tiene efectos sobre él, al igual que es inmune a todo daño basado en oscuridad (salvo si su atacante posee un Gnosis superior al suyo). Las Armaduras Sombrías, como parte integral de sus cuerpos, también se atienen a estas reglas. Resistencia a la Invocación: Comprendiendo que como Seres Entre Mundos serían extremadamente vulnerables a habilidades de convocatoria, los Nueve se protegieron contra estas al crear sus nuevos cuerpos.\n\nGracias a las runas sobrenaturales de sus Armaduras Sombrías se consideran que son de nivel once a la hora de determinar la dificultad de los controles de Controlar o Convocar. Indetección Mística: Y a que suele evitar una confrontación directa y utiliza sus discípulos para combatir, un Maestro de las Sombras prefiere permanecer oculto en una posición alejada usando sus capacidades innatas para no ser detectado. Y a sea mediante magia o matrices psíquicas, el Maestro obtiene un bono de +1 50 a sus Resistencias frente a cualquier clase de detección. Percepción Tenebrosa: Los sentidos de un Maestro son capaces de ver a través de la oscuridad completa (incluso de carácter sobrenatural) y percibe tanto matrices psíquicas como entes espirituales.\n\nJosé María Solano Albares (order #3443007) : Cada Maestro puede invertir libremente hasta 30 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos haya cumplido. Títeres Oscuros: Los Maestros poseen extensiones de su ser llamados Discípulos de la Sombra. Estos entes, independientes de su creador a la vez que atados existencialmente a él, son sus principales “armas”. El Maestro puede controlarlos como marionetas a través de las que ver y oír, a una distancia que no suele ser mayor al kilómetro. Cada Maestro puede tener entre dos y cinco Discípulos. Dones Oscuros: Un Maestro puede imbuir a sus Discípulos diferentes poderes tenebrosos para cumplir con mayor efectividad sus designios. El número de Dones depende de las marionetas que tenga a su disposición; cuantas más haya creado, menos poder le quedará a repartir entre estas.\n\nSi el Maestro tiene dos Discípulos será capaz de conferirles hasta cuatro poderes diferentes, mientras que en caso de tener tres, cuatro y cinco, el número de dones se reducirá a tres, dos y uno respectivamente. El Maestro elige que poder es más conveniente en cada caso, aunque una vez conferido uno, no podrá cambiárselo por otro más tarde. En la siguiente lista están los poderes que puede otorgar: -a rMa a rC ana : El arma del Discípulo incrementa su poder, rodeándose de crepitantes descargas de energía oscura. Atodos los efectos, esta adquiere todas las propiedades de un arma +10 que ataca en la Tabla de Energía como un arma intangible (es decir, no puede ser detenida por armas convencionales). -g uadaña dEsoMbras : El arma del Discípulo cambia de forma convirtiéndose en una enorme guadaña de sombras vivientes.\n\nPor ello, como una acción de ataque completa puede realizar un ataque en área con un radio de 5 metros sin sufrir ningún penalizador a su habilidad. Si se combina aBrazos de Sombra, únicamente el ataque principal goza de este beneficio. -g arra dE t iniEblas : Cada vez que el Discípulo realiza un ataque, brazos espectrales surgen del suelo tratando de atrapar la sombra del defensor. Si lo consiguen, este queda paralizado sobrenaturalmente, siendo incapaz de moverse con verdadera libertad. A efectos de juego, cada vez que el Discípulo produzca daño a su adversario le obliga a realizar un control de RM contra 120 o verse sometido aParalizaciónParcial tantos asaltos como decenas por la que falló la Resistencia. Maestro de las Sombras y Nyx José María Solano Albares (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 104</p><p><strong>Entrada:</strong> Maestro de las Sombras</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 30</p><p><strong>Categoría:</strong> Hechicero Fue: 7 Des: 13 Agi: 7 Con: 8 Pod: 13 Int: 12 Vol: 10 Per: 11 RF 80 RM 95 RP 85 RV 80 RE 80</p><p><strong>Habilidades esenciales:</strong> Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inmunidad Natural a un Elemento (Completa, Oscuridad), Recuperación Superior de Magia, Exención Física.</p><p><strong>Poderes:</strong> Armaduras Sombrías (Armadura Física 4, Armadura Mística 4), Forma Elemental, Resistencia a la Invocación, Indetección Mística +150, Percepción Tenebrosa (Visión Nocturna Completa, Ver lo Sobrenatural), Titeres Oscuros, Dones Oscuros.</p><p><strong>Daño:</strong> 15 Combate Desarmado (Con)</p><p><strong>TA:</strong> Armadura Sombría Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 4</p><p><strong>Habilidades secundarias:</strong> Liderazgo 30, Persuasión 125, Ocultarse 100, Sigilo 30, Advertir 50, Buscar 25, Historia 120, Ocultismo 150, Valoración Mágica 250</p><p><strong>Descripción breve:</strong> Los Nueve Maestros de la Sombra, también conocidos en algunos círculos ocultistas como la Cábala de Zenobius, son un grupo de poderosos elementales oscuros dotados de vastos poderes sobrenaturales. Los Nueve eran una cábala de grandes archimagos oscuros del Imperio de Yehudah que, intuyendo la caída de los suyos, decidieron tomar parte en un tenebroso experimento con el objetivo de hacerse uno con las sombras y volverse eternos. Para evitar llamar la atención de las Valkirias o contrariar a las tres Parcas crearon armaduras sobrenaturales y encerraron en ellas a poderosos elementales sombríos, a los que privaron de toda voluntad o inteligencia. A continuación los Nueve se quitaron la vida y alimentaron a los elementales con sus almas. Generalmente eso hubiera destruido por completo a los hechiceros pero, puesto que quienes los consumieron carecían de voluntad propia, los espíritus de los magos se impusieron tomando el control. De ese modo, los elementales y las almas se unieron para dar nacimiento a un nuevo tipo de ser; los Maestros de la Sombra. Con el paso de los siglos los Nueve han perdido toda consciencia humana así como el recuerdo de lo que una vez fueron. Ahora son criaturas tenebrosas incapaces de evolucionar, cuyo objetivo en la vida no es más que satisfacer los intereses que tenían cuando estaban vivos milenios atrás. Cada uno de ellos tiene “algo” que ocupa casi todo su tiempo, una especie de objetivo personal que le hace desear seguir adelante. Sin él, no serían más que simples masas de tinieblas repletas de emociones negativas. Hace ya muchos años que la Cábala se separó para seguir sus propios intereses individuales, por lo que ahora mismo no se relacionan entre sí (en algunos casos, los hay que no se han visto en siglos). Inmensamente inteligentes y con la sabiduría que sólo una vida inmortal es capaz de dar, los Maestros se comunican por igual con mortales y seres sobrenaturales según les convenga. Poseedores de una vasta red de contactos, a menudo usan desde la sombra a otras personas como intermediaros en sus asuntos en el mundo, comprando su fidelidad con riquezas o miedo. Naturalmente, al ser completamente amorales no se preocupan demasiado por “desembarazarse” de tales individuos una vez que han cumplido su labor. La mayoría no se relacionan con ninguna organización secreta, pero al menos tres de ellos tienen algún tipo de lazo con Samael y otro es profesor en la Orden de Magus. m oduS oPerandiLosMaestros de la Sombra son, por encima de todo, manipuladores que prefieren evitar ponerse en peligro directo. Tras haber vivido miles de años consideran que su propia seguridad es lo más importante, así que no dudan en huir (abandonándolo todo si es preciso) cuando creen estar en problemas. Gracias a su amplia experiencia siempre tienen alguna vía de escape preparada ante cualquier contingencia. En combate emplean habitualmente a sus títeres oscuros para luchar a distancia sin tener que exponerse personalmente, apoyándolos con conjuros y otros ataques de largo alcance. De ese modo, nunca peligran verdaderamente. Su punto vulnerable es la cabeza, donde reside el núcleo de su alma. Armaduras Sombrías: Las Armaduras Sombrías son los cuerpos tenebrosos donde reside la esencia oscura de los Maestros. Se consideran protecciones sobrenaturales que les proporcionan Tipo de Armadura 4 contra toda clase de ataque. Forma Elemental: Un Maestro de las Sombras está formado de tinieblas puras y, en consecuencia, es completamente inmaterial. Cualquier ataque que no sea de carácter sobrenatural no tiene efectos sobre él, al igual que es inmune a todo daño basado en oscuridad (salvo si su atacante posee un Gnosis superior al suyo). Las Armaduras Sombrías, como parte integral de sus cuerpos, también se atienen a estas reglas. Resistencia a la Invocación: Comprendiendo que como Seres Entre Mundos serían extremadamente vulnerables a habilidades de convocatoria, los Nueve se protegieron contra estas al crear sus nuevos cuerpos. Gracias a las runas sobrenaturales de sus Armaduras Sombrías se consideran que son de nivel once a la hora de determinar la dificultad de los controles de Controlar o Convocar. Indetección Mística: Y a que suele evitar una confrontación directa y utiliza sus discípulos para combatir, un Maestro de las Sombras prefiere permanecer oculto en una posición alejada usando sus capacidades innatas para no ser detectado. Y a sea mediante magia o matrices psíquicas, el Maestro obtiene un bono de +150 a sus Resistencias frente a cualquier clase de detección. Percepción Tenebrosa: Los sentidos de un Maestro son capaces de ver a través de la oscuridad completa (incluso de carácter sobrenatural) y percibe tanto matrices psíquicas como entes espirituales. José María Solano Albares : Cada Maestro puede invertir libremente hasta 30 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos haya cumplido. Títeres Oscuros: Los Maestros poseen extensiones de su ser llamados Discípulos de la Sombra. Estos entes, independientes de su creador a la vez que atados existencialmente a él, son sus principales “armas”. El Maestro puede controlarlos como marionetas a través de las que ver y oír, a una distancia que no suele ser mayor al kilómetro. Cada Maestro puede tener entre dos y cinco Discípulos. Dones Oscuros: Un Maestro puede imbuir a sus Discípulos diferentes poderes tenebrosos para cumplir con mayor efectividad sus designios. El número de Dones depende de las marionetas que tenga a su disposición; cuantas más haya creado, menos poder le quedará a repartir entre estas. Si el Maestro tiene dos Discípulos será capaz de conferirles hasta cuatro poderes diferentes, mientras que en caso de tener tres, cuatro y cinco, el número de dones se reducirá a tres, dos y uno respectivamente. El Maestro elige que poder es más conveniente en cada caso, aunque una vez conferido uno, no podrá cambiárselo por otro más tarde. En la siguiente lista están los poderes que puede otorgar: -a rMa a rC ana : El arma del Discípulo incrementa su poder, rodeándose de crepitantes descargas de energía oscura. Atodos los efectos, esta adquiere todas las propiedades de un arma +10 que ataca en la Tabla de Energía como un arma intangible (es decir, no puede ser detenida por armas convencionales). -g uadaña dEsoMbras : El arma del Discípulo cambia de forma convirtiéndose en una enorme guadaña de sombras vivientes. Por ello, como una acción de ataque completa puede realizar un ataque en área con un radio de 5 metros sin sufrir ningún penalizador a su habilidad. Si se combina aBrazos de Sombra, únicamente el ataque principal goza de este beneficio. -g arra dE t iniEblas : Cada vez que el Discípulo realiza un ataque, brazos espectrales surgen del suelo tratando de atrapar la sombra del defensor. Si lo consiguen, este queda paralizado sobrenaturalmente, siendo incapaz de moverse con verdadera libertad. A efectos de juego, cada vez que el Discípulo produzca daño a su adversario le obliga a realizar un control de RM contra 120 o verse sometido aParalizaciónParcial tantos asaltos como decenas por la que falló la Resistencia. Maestro de las Sombras y Nyx José María Solano Albares</p></section><details><summary>Texto extraído</summary><pre>SNivel: 9\n\nClase: Entre mundos, Elemental 30 Puntos de Vida: 155 Categoría: Hechicero Fue: 7 Des: 13 Agi: 7 Con: 8 Pod: 13 Int: 12 Vol: 10 Per: 11 RF 80 RM 95 RP 85 RV 80 RE 80\n\nTurno: 1 1 5 Natural Habilidad de ataque: 25 Combate Desarmado Habilidad de defensa: 5 Esquiva Daño: 1 5 Combate Desarmado (Con) TA: Armadura Sombría Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 4 ACT: 120\n\nZeon: 1.725\n\nProyección mágica: 220 Ofensiva, 240 Defensiva Nivel de Vía: 90 Oscuridad, 20 Otras Habilidades esenciales: Don, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas, Inmunidad Natural a un Elemento (Completa, Oscuridad), Recuperación Superior de Magia, Exención Física. Poderes: Armaduras Sombrías (Armadura Física 4, Armadura Mística 4), Forma Elemental, Resistencia a la Invocación, Indetección Mística +1 50, Percepción Tenebrosa (Visión Nocturna Completa, Ver lo Sobrenatural), Titeres Oscuros, Dones Oscuros. de movimiento: 7 Cansancio: Incansable Habilidades Secundarias: Liderazgo 30, Persuasión 1 25, Ocultarse 100, Sigilo 30, Advertir 50, Buscar 25, Historia 1 20, Ocultismo 1 50, Valoración Mágica 250.\n\nLos Nueve Maestros de la Sombra, también conocidos en algunos círculos ocultistas como la Cábala de Zenobius, son un grupo de poderosos elementales oscuros dotados de vastos poderes sobrenaturales. Los Nueve eran una cábala de grandes archimagos oscuros del Imperio de Yehudah que, intuyendo la caída de los suyos, decidieron tomar parte en un tenebroso experimento con el objetivo de hacerse uno con las sombras y volverse eternos. Para evitar llamar la atención de las Valkirias o contrariar a las tres Parcas crearon armaduras sobrenaturales y encerraron en ellas a poderosos elementales sombríos, a los que privaron de toda voluntad o inteligencia. A continuación los Nueve se quitaron la vida y alimentaron a los elementales con sus almas.\n\nGeneralmente eso hubiera destruido por completo a los hechiceros pero, puesto que quienes los consumieron carecían de voluntad propia, los espíritus de los magos se impusieron tomando el control. De ese modo, los elementales y las almas se unieron para dar nacimiento a un nuevo tipo de ser; los Maestros de la Sombra. Con el paso de los siglos los Nueve han perdido toda consciencia humana así como el recuerdo de lo que una vez fueron. Ahora son criaturas tenebrosas incapaces de evolucionar, cuyo objetivo en la vida no es más que satisfacer los intereses que tenían cuando estaban vivos milenios atrás. Cada uno de ellos tiene “algo” que ocupa casi todo su tiempo, una especie de objetivo personal que le hace desear seguir adelante. Sin él, no serían más que simples masas de tinieblas repletas de emociones negativas.\n\nHace ya muchos años que la Cábala se separó para seguir sus propios intereses individuales, por lo que ahora mismo no se relacionan entre sí (en algunos casos, los hay que no se han visto en siglos). Inmensamente inteligentes y con la sabiduría que sólo una vida inmortal es capaz de dar, los Maestros se comunican por igual con mortales y seres sobrenaturales según les convenga. Poseedores de una vasta red de contactos, a menudo usan desde la sombra a otras personas como intermediaros en sus asuntos en el mundo, comprando su fidelidad con riquezas o miedo. Naturalmente, al ser completamente amorales no se preocupan demasiado por “desembarazarse” de tales individuos una vez que han cumplido su labor. La mayoría no se relacionan con ninguna organización secreta, pero al menos tres de ellos tienen algún tipo de lazo con Samael y otro es profesor en la Orden de Magus.\n\nm oduS oPerandiLosMaestros de la Sombra son, por encima de todo, manipuladores que prefieren evitar ponerse en peligro directo. Tras haber vivido miles de años consideran que su propia seguridad es lo más importante, así que no dudan en huir (abandonándolo todo si es preciso) cuando creen estar en problemas. Gracias a su amplia experiencia siempre tienen alguna vía de escape preparada ante cualquier contingencia. En combate emplean habitualmente a sus títeres oscuros para luchar a distancia sin tener que exponerse personalmente, apoyándolos con conjuros y otros ataques de largo alcance. De ese modo, nunca peligran verdaderamente. Su punto vulnerable es la cabeza, donde reside el núcleo de su alma. Armaduras Sombrías: Las Armaduras Sombrías son los cuerpos tenebrosos donde reside la esencia oscura de los Maestros.\n\nSe consideran protecciones sobrenaturales que les proporcionan Tipo de Armadura 4 contra toda clase de ataque. Forma Elemental: Un Maestro de las Sombras está formado de tinieblas puras y, en consecuencia, es completamente inmaterial. Cualquier ataque que no sea de carácter sobrenatural no tiene efectos sobre él, al igual que es inmune a todo daño basado en oscuridad (salvo si su atacante posee un Gnosis superior al suyo). Las Armaduras Sombrías, como parte integral de sus cuerpos, también se atienen a estas reglas. Resistencia a la Invocación: Comprendiendo que como Seres Entre Mundos serían extremadamente vulnerables a habilidades de convocatoria, los Nueve se protegieron contra estas al crear sus nuevos cuerpos.\n\nGracias a las runas sobrenaturales de sus Armaduras Sombrías se consideran que son de nivel once a la hora de determinar la dificultad de los controles de Controlar o Convocar. Indetección Mística: Y a que suele evitar una confrontación directa y utiliza sus discípulos para combatir, un Maestro de las Sombras prefiere permanecer oculto en una posición alejada usando sus capacidades innatas para no ser detectado. Y a sea mediante magia o matrices psíquicas, el Maestro obtiene un bono de +1 50 a sus Resistencias frente a cualquier clase de detección. Percepción Tenebrosa: Los sentidos de un Maestro son capaces de ver a través de la oscuridad completa (incluso de carácter sobrenatural) y percibe tanto matrices psíquicas como entes espirituales.\n\nJosé María Solano Albares (order #3443007) : Cada Maestro puede invertir libremente hasta 30 niveles de magia para adquirir habilidades Metamágicas cuyos requisitos previos haya cumplido. Títeres Oscuros: Los Maestros poseen extensiones de su ser llamados Discípulos de la Sombra. Estos entes, independientes de su creador a la vez que atados existencialmente a él, son sus principales “armas”. El Maestro puede controlarlos como marionetas a través de las que ver y oír, a una distancia que no suele ser mayor al kilómetro. Cada Maestro puede tener entre dos y cinco Discípulos. Dones Oscuros: Un Maestro puede imbuir a sus Discípulos diferentes poderes tenebrosos para cumplir con mayor efectividad sus designios. El número de Dones depende de las marionetas que tenga a su disposición; cuantas más haya creado, menos poder le quedará a repartir entre estas.\n\nSi el Maestro tiene dos Discípulos será capaz de conferirles hasta cuatro poderes diferentes, mientras que en caso de tener tres, cuatro y cinco, el número de dones se reducirá a tres, dos y uno respectivamente. El Maestro elige que poder es más conveniente en cada caso, aunque una vez conferido uno, no podrá cambiárselo por otro más tarde. En la siguiente lista están los poderes que puede otorgar: -a rMa a rC ana : El arma del Discípulo incrementa su poder, rodeándose de crepitantes descargas de energía oscura. Atodos los efectos, esta adquiere todas las propiedades de un arma +10 que ataca en la Tabla de Energía como un arma intangible (es decir, no puede ser detenida por armas convencionales). -g uadaña dEsoMbras : El arma del Discípulo cambia de forma convirtiéndose en una enorme guadaña de sombras vivientes.\n\nPor ello, como una acción de ataque completa puede realizar un ataque en área con un radio de 5 metros sin sufrir ningún penalizador a su habilidad. Si se combina aBrazos de Sombra, únicamente el ataque principal goza de este beneficio. -g arra dE t iniEblas : Cada vez que el Discípulo realiza un ataque, brazos espectrales surgen del suelo tratando de atrapar la sombra del defensor. Si lo consiguen, este queda paralizado sobrenaturalmente, siendo incapaz de moverse con verdadera libertad. A efectos de juego, cada vez que el Discípulo produzca daño a su adversario le obliga a realizar un control de RM contra 120 o verse sometido aParalizaciónParcial tantos asaltos como decenas por la que falló la Resistencia. Maestro de las Sombras y Nyx José María Solano Albares (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +410,6 @@
           }
         }
       ],
-      "level": {
-        "value": 9
-      },
       "notes": [
         {
           "_id": "note-maestro-de-las-sombras-3",
@@ -501,52 +429,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -557,9 +469,6 @@
         "initiative": {
           "base": {
             "value": 115
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +519,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -621,10 +527,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -632,10 +535,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 80035
+              "value": 80115
             },
             "final": {
               "value": 0
@@ -643,10 +543,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 95
             },
             "final": {
               "value": 0
@@ -654,10 +551,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -669,221 +563,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 120
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 250
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 125
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 25
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 5
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -914,11 +1042,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -930,16 +1054,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 1725,
         "max": 1725
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -951,14 +1080,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1063,15 +1189,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1083,37 +1205,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1236,9 +1378,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

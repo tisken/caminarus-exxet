@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 26</p><p><strong>Entrada:</strong> Anis Beige</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Ladrón Fue: 6 Des: 9 Agi: 9 Con: 6 Pod: 7 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Ambidiestra, Afortunada, Sentido del peligro, Vicio grave (Robar)</p><p><strong>Habilidades naturales:</strong> Uso de arma similar (Estilete), Tabla de Precisión.</p><p><strong>Daño:</strong> 35 Daga, 30 Estilete.</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 20, Atletismo 20, Nadar 30, Trepar 30, Persuasión 15, Cerrajería 30, Disfraz 20, Ocultarse 50, Robo 80, Sigilo 40, Trampería 25, Advertir 40, Buscar 25, Trucos de manos 35</p><p><strong>Descripción breve:</strong> Anisse Beige (Anis para los amigos) es una alocada chica de dieciséis años de enormes ojos azules, cabello castaño claro y nariz respingona. Huérfana desde muy pequeña, tuvo que sobrevivir como una ladronzuela en los difíciles barrios de Remo, aunque gracias a su gran talento para el robo y simpatía, pronto lideró un diminuto grupo de pilluelos de los que se ocupaba como “hermana mayor”. Para la chiquilla fue un momento de alegría y felicidad, pues entre aquellos niños encontró a su familia. Además, poco a poco fue perfeccionando sus habilidades como ladrona, hasta hacerse con cierto renombre en los bajos fondos. Pero un día, mientras intentaba uno de sus robos más atrevidos, el grupo fue descubierto por la guardia del Conde al que iban a robar, y sólo Anis consiguió escabullirse. Sorprendentemente, el noble no castigó a los pequeños sino que los adoptó, pues él mismo había perdido a sus hijos en un accidente hacía poco más de un año. Anis se dio cuenta de que los chiquillos estarían mejor así: lejos de los peligros de la calle y con una esperanza de futuro. No obstante, esa no era la vida que ella sería capaz de soportar, por lo que un poco apenada, pero feliz por sus amigos, se marchó lejos. Desde entonces, se ha probado a sí misma como ladrona en multitud de ocasiones, aspirando siempre a robos más complejos y arriesgados. Y es que, aunque para ella el dinero es muy importante (disfruta consiguiéndolo y mucho más despilfarrándolo), sólo cuando afronta un reto exponiéndose realmente al peligro y la tensión, se siente realmente viva. Notas y curiosidades: Su afición por el robo ha acabado convirtiéndose en una verdadera pasión, y no puede sentirse satisfecha si no realiza algún hurto de importancia cada cierto tiempo. Si no lo consigue, puede calmar sus instintos sustrayendo pequeños objetos cada día; aunque es más importante para ella el reto que supone, que el valor de los mismos. Posesiones: Dos dagas, Ocho estiletes, Un saco con doble fondo, Un juego de ganzúas, Raciones de viaje (para 1 día), Una vieja moneda de cobre de la suerte, 1 Escudo de Oro. #### Julianne Amaya _Página 27_ Conde Marcus Drago</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 90 Categoría: Ladrón Fue: 6 Des: 9 Agi: 9 Con: 6 Pod: 7 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35\n\nTurno: 70 Natural 70 Daga, 70 Estilete. Habilidad de ataque: 70 Daga, Estilete Habilidad de defensa: 75 Esquiva Daño: 35 Daga, 30 Estilete. Llevar Armadura: 5 TA: Ninguna Ventajas y desventajas: Ambidiestra, Afortunada, Sentido del peligro, Vicio grave (Robar) Habilidades naturales: Uso de arma similar (Estilete), Tabla de Precisión. de movimiento: 9 Cansancio: 6 Habilidades Secundarias: Acrobacias 20, Atletismo 20, Nadar 30, Trepar 30, Persuasión 1 5, Cerrajería 30, Disfraz 20, Ocultarse 50, Robo 80, Sigilo 40, Trampería 25, Advertir 40, Buscar 25, Trucos de manos 35. Anisse Beige (Anis para los amigos) es una alocada chica de dieciséis años de enormes ojos azules, cabello castaño claro y nariz respingona.\n\nHuérfana desde muy pequeña, tuvo que sobrevivir como una ladronzuela en los difíciles barrios de Remo, aunque gracias a su gran talento para el robo y simpatía, pronto lideró un diminuto grupo de pilluelos de los que se ocupaba como “hermana mayor”. Para la chiquilla fue un momento de alegría y felicidad, pues entre aquellos niños encontró a su familia. Además, poco a poco fue perfeccionando sus habilidades como ladrona, hasta hacerse con cierto renombre en los bajos fondos. Pero un día, mientras intentaba uno de sus robos más atrevidos, el grupo fue descubierto por la guardia del Conde al que iban a robar, y sólo Anis consiguió escabullirse. Sorprendentemente, el noble no castigó a los pequeños sino que los adoptó, pues él mismo había perdido a sus hijos en un accidente hacía poco más de un año.\n\nAnis se dio cuenta de que los chiquillos estarían mejor así: lejos de los peligros de la calle y con una esperanza de futuro. No obstante, esa no era la vida que ella sería capaz de soportar, por lo que un poco apenada, pero feliz por sus amigos, se marchó lejos. Desde entonces, se ha probado a sí misma como ladrona en multitud de ocasiones, aspirando siempre a robos más complejos y arriesgados. Y es que, aunque para ella el dinero es muy importante (disfruta consiguiéndolo y mucho más despilfarrándolo), sólo cuando afronta un reto exponiéndose realmente al peligro y la tensión, se siente realmente viva. Notas y curiosidades: Su afición por el robo ha acabado convirtiéndose en una verdadera pasión, y no puede sentirse satisfecha si no realiza algún hurto de importancia cada cierto tiempo.\n\nSi no lo consigue, puede calmar sus instintos sustrayendo pequeños objetos cada día; aunque es más importante para ella el reto que supone, que el valor de los mismos. Posesiones: Dos dagas, Ocho estiletes, Un saco con doble fondo, Un juego de ganzúas, Raciones de viaje (para 1 día), Una vieja moneda de cobre de la suerte, 1 Escudo de Oro.\n\n#### Julianne Amaya\n\n&lt;!-- tags: @conjuro, @psiquico, @localizacion, @regla, @mentalismo --&gt;\n\n_Página 27_\n\nConde Marcus Drago</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 26</p><p><strong>Entrada:</strong> Anis Beige</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Ladrón Fue: 6 Des: 9 Agi: 9 Con: 6 Pod: 7 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Ambidiestra, Afortunada, Sentido del peligro, Vicio grave (Robar)</p><p><strong>Habilidades naturales:</strong> Uso de arma similar (Estilete), Tabla de Precisión.</p><p><strong>Daño:</strong> 35 Daga, 30 Estilete.</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 20, Atletismo 20, Nadar 30, Trepar 30, Persuasión 15, Cerrajería 30, Disfraz 20, Ocultarse 50, Robo 80, Sigilo 40, Trampería 25, Advertir 40, Buscar 25, Trucos de manos 35</p><p><strong>Descripción breve:</strong> Anisse Beige (Anis para los amigos) es una alocada chica de dieciséis años de enormes ojos azules, cabello castaño claro y nariz respingona. Huérfana desde muy pequeña, tuvo que sobrevivir como una ladronzuela en los difíciles barrios de Remo, aunque gracias a su gran talento para el robo y simpatía, pronto lideró un diminuto grupo de pilluelos de los que se ocupaba como “hermana mayor”. Para la chiquilla fue un momento de alegría y felicidad, pues entre aquellos niños encontró a su familia. Además, poco a poco fue perfeccionando sus habilidades como ladrona, hasta hacerse con cierto renombre en los bajos fondos. Pero un día, mientras intentaba uno de sus robos más atrevidos, el grupo fue descubierto por la guardia del Conde al que iban a robar, y sólo Anis consiguió escabullirse. Sorprendentemente, el noble no castigó a los pequeños sino que los adoptó, pues él mismo había perdido a sus hijos en un accidente hacía poco más de un año. Anis se dio cuenta de que los chiquillos estarían mejor así: lejos de los peligros de la calle y con una esperanza de futuro. No obstante, esa no era la vida que ella sería capaz de soportar, por lo que un poco apenada, pero feliz por sus amigos, se marchó lejos. Desde entonces, se ha probado a sí misma como ladrona en multitud de ocasiones, aspirando siempre a robos más complejos y arriesgados. Y es que, aunque para ella el dinero es muy importante (disfruta consiguiéndolo y mucho más despilfarrándolo), sólo cuando afronta un reto exponiéndose realmente al peligro y la tensión, se siente realmente viva. Notas y curiosidades: Su afición por el robo ha acabado convirtiéndose en una verdadera pasión, y no puede sentirse satisfecha si no realiza algún hurto de importancia cada cierto tiempo. Si no lo consigue, puede calmar sus instintos sustrayendo pequeños objetos cada día; aunque es más importante para ella el reto que supone, que el valor de los mismos. Posesiones: Dos dagas, Ocho estiletes, Un saco con doble fondo, Un juego de ganzúas, Raciones de viaje (para 1 día), Una vieja moneda de cobre de la suerte, 1 Escudo de Oro. #### Julianne Amaya _Página 27_ Conde Marcus Drago</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 90 Categoría: Ladrón Fue: 6 Des: 9 Agi: 9 Con: 6 Pod: 7 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35\n\nTurno: 70 Natural 70 Daga, 70 Estilete. Habilidad de ataque: 70 Daga, Estilete Habilidad de defensa: 75 Esquiva Daño: 35 Daga, 30 Estilete. Llevar Armadura: 5 TA: Ninguna Ventajas y desventajas: Ambidiestra, Afortunada, Sentido del peligro, Vicio grave (Robar) Habilidades naturales: Uso de arma similar (Estilete), Tabla de Precisión. de movimiento: 9 Cansancio: 6 Habilidades Secundarias: Acrobacias 20, Atletismo 20, Nadar 30, Trepar 30, Persuasión 1 5, Cerrajería 30, Disfraz 20, Ocultarse 50, Robo 80, Sigilo 40, Trampería 25, Advertir 40, Buscar 25, Trucos de manos 35. Anisse Beige (Anis para los amigos) es una alocada chica de dieciséis años de enormes ojos azules, cabello castaño claro y nariz respingona.\n\nHuérfana desde muy pequeña, tuvo que sobrevivir como una ladronzuela en los difíciles barrios de Remo, aunque gracias a su gran talento para el robo y simpatía, pronto lideró un diminuto grupo de pilluelos de los que se ocupaba como “hermana mayor”. Para la chiquilla fue un momento de alegría y felicidad, pues entre aquellos niños encontró a su familia. Además, poco a poco fue perfeccionando sus habilidades como ladrona, hasta hacerse con cierto renombre en los bajos fondos. Pero un día, mientras intentaba uno de sus robos más atrevidos, el grupo fue descubierto por la guardia del Conde al que iban a robar, y sólo Anis consiguió escabullirse. Sorprendentemente, el noble no castigó a los pequeños sino que los adoptó, pues él mismo había perdido a sus hijos en un accidente hacía poco más de un año.\n\nAnis se dio cuenta de que los chiquillos estarían mejor así: lejos de los peligros de la calle y con una esperanza de futuro. No obstante, esa no era la vida que ella sería capaz de soportar, por lo que un poco apenada, pero feliz por sus amigos, se marchó lejos. Desde entonces, se ha probado a sí misma como ladrona en multitud de ocasiones, aspirando siempre a robos más complejos y arriesgados. Y es que, aunque para ella el dinero es muy importante (disfruta consiguiéndolo y mucho más despilfarrándolo), sólo cuando afronta un reto exponiéndose realmente al peligro y la tensión, se siente realmente viva. Notas y curiosidades: Su afición por el robo ha acabado convirtiéndose en una verdadera pasión, y no puede sentirse satisfecha si no realiza algún hurto de importancia cada cierto tiempo.\n\nSi no lo consigue, puede calmar sus instintos sustrayendo pequeños objetos cada día; aunque es más importante para ella el reto que supone, que el valor de los mismos. Posesiones: Dos dagas, Ocho estiletes, Un saco con doble fondo, Un juego de ganzúas, Raciones de viaje (para 1 día), Una vieja moneda de cobre de la suerte, 1 Escudo de Oro.\n\n#### Julianne Amaya\n\n&lt;!-- tags: @conjuro, @psiquico, @localizacion, @regla, @mentalismo --&gt;\n\n_Página 27_\n\nConde Marcus Drago</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-anis-beige-1",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 70
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 3535
+              "value": 3570
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -513,236 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 70
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 75
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 5
-        }
+        "value": 5
       },
       "totalArmor": {
         "at": {
@@ -773,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -789,14 +889,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -810,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -922,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -942,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1095,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 35
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 62</p><p><strong>Entrada:</strong> La Legiónde Cuervo</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Novel Fue: 3 Des: 5 Agi: 3 Con: 3 Pod: 5 Int: 2 Vol: 2 Per: 8 RF 25 RM 35 RP 20 RV 25 RE 25</p><p><strong>Poderes:</strong> Arma natural: Garras y pico, Pasada rápida, Nube de picotazos, Legión de aves, Vuelo natural (Tipo 12). Las estadísticas reflejadas en esta ficha se corresponden a la bandada de cuervos Oscuros que se encuentran controlados por el Marqués desde su torre. Dado que actúan como un único enjambre con mente comunal, se les engloba a todos como un solo conjunto. La legión de cuervos emplea dos metodologías de ataque, la Pasada rápida y la Nube de picotazos, dependiendo de lo que le convenga en cada momento. Para pasar de un estilo de combate a otro, los cuervos tienen que reorganizarse, perdiendo un turno entero en el proceso. Pasada rápida: Los cuervos vuelan en línea a toda velocidad, haciendo un picado sobre un individuo en concreto y produciéndole un daño masivo. El daño que producen se corresponde a la totalidad de aves que componen la legión. Nube de picotazos: Los cuervos se dividen, atacando a todos los adversarios que se encuentren dentro de su área de alcance. El daño es considerablemente menor, pero sigue siendo muy efectivo para molestar y no dar la opción de actuar a sus blancos. Legión de aves: Por la naturaleza dispersa de su vuelo, todos los ataques que se realicen contra ella enarbolando armas naturales le producen sólo la mitad de daño. En el caso de que sufra un ataque en área que cubra por completo una amplia zona de terreno (como en el caso de explosiones, o efectos místicos como bolas de fuego), la legión sufre automáticamente doble daño. Además, es completamente inmune a los críticos; para acabar con la bandada, hay que destruir hasta el último de los cuervos. Vuelo natural: Los cuervos se mueven en vuelo 12. No obstante, dada su naturaleza, recibir un crítico no implica que la legión sea derribada en su conjunto. Los bonos del vuelo ya se encuentran añadidos a sus estadísticas. e mil z olt</p><p><strong>Daño:</strong> 50 Pasada rápida PEN, 20 Nube picotazos PEN.</p></section><details><summary>Texto extraído</summary><pre>sNivel: 2 Puntos de Vida: 915 Categoría: Novel Fue: 3 Des: 5 Agi: 3 Con: 3 Pod: 5 Int: 2 Vol: 2 Per: 8 RF 25 RM 35 RP 20 RV 25 RE 25\n\nTurno: 60 Natural Habilidad de ataque: 80 Pasada rápida, 60 nube de picotazos. Habilidad de defensa: Acumulación Daño: 50 Pasada rápida PEN, 20 Nube picotazos PEN. Poderes: Arma natural: Garras y pico, Pasada rápida, Nube de picotazos, Legión de aves, Vuelo natural (Tipo 12). Las estadísticas reflejadas en esta ficha se corresponden a la bandada de cuervos Oscuros que se encuentran controlados por el Marqués desde su torre. Dado que actúan como un único enjambre con mente comunal, se les engloba a todos como un solo conjunto. La legión de cuervos emplea dos metodologías de ataque, la Pasada rápida y la Nube de picotazos, dependiendo de lo que le convenga en cada momento. Para pasar de un estilo de combate a otro, los cuervos tienen que reorganizarse, perdiendo un turno entero en el proceso.\n\nPasada rápida: Los cuervos vuelan en línea a toda velocidad, haciendo un picado sobre un individuo en concreto y produciéndole un daño masivo. El daño que producen se corresponde a la totalidad de aves que componen la legión. Nube de picotazos: Los cuervos se dividen, atacando a todos los adversarios que se encuentren dentro de su área de alcance. El daño es considerablemente menor, pero sigue siendo muy efectivo para molestar y no dar la opción de actuar a sus blancos. Legión de aves: Por la naturaleza dispersa de su vuelo, todos los ataques que se realicen contra ella enarbolando armas naturales le producen sólo la mitad de daño. En el caso de que sufra un ataque en área que cubra por completo una amplia zona de terreno (como en el caso de explosiones, o efectos místicos como bolas de fuego), la legión sufre automáticamente doble daño.\n\nAdemás, es completamente inmune a los críticos; para acabar con la bandada, hay que destruir hasta el último de los cuervos. Vuelo natural: Los cuervos se mueven en vuelo 12. No obstante, dada su naturaleza, recibir un crítico no implica que la legión sea derribada en su conjunto. Los bonos del vuelo ya se encuentran añadidos a sus estadísticas. e mil z olt</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 62</p><p><strong>Entrada:</strong> La Legiónde Cuervo</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Novel Fue: 3 Des: 5 Agi: 3 Con: 3 Pod: 5 Int: 2 Vol: 2 Per: 8 RF 25 RM 35 RP 20 RV 25 RE 25</p><p><strong>Poderes:</strong> Arma natural: Garras y pico, Pasada rápida, Nube de picotazos, Legión de aves, Vuelo natural (Tipo 12). Las estadísticas reflejadas en esta ficha se corresponden a la bandada de cuervos Oscuros que se encuentran controlados por el Marqués desde su torre. Dado que actúan como un único enjambre con mente comunal, se les engloba a todos como un solo conjunto. La legión de cuervos emplea dos metodologías de ataque, la Pasada rápida y la Nube de picotazos, dependiendo de lo que le convenga en cada momento. Para pasar de un estilo de combate a otro, los cuervos tienen que reorganizarse, perdiendo un turno entero en el proceso. Pasada rápida: Los cuervos vuelan en línea a toda velocidad, haciendo un picado sobre un individuo en concreto y produciéndole un daño masivo. El daño que producen se corresponde a la totalidad de aves que componen la legión. Nube de picotazos: Los cuervos se dividen, atacando a todos los adversarios que se encuentren dentro de su área de alcance. El daño es considerablemente menor, pero sigue siendo muy efectivo para molestar y no dar la opción de actuar a sus blancos. Legión de aves: Por la naturaleza dispersa de su vuelo, todos los ataques que se realicen contra ella enarbolando armas naturales le producen sólo la mitad de daño. En el caso de que sufra un ataque en área que cubra por completo una amplia zona de terreno (como en el caso de explosiones, o efectos místicos como bolas de fuego), la legión sufre automáticamente doble daño. Además, es completamente inmune a los críticos; para acabar con la bandada, hay que destruir hasta el último de los cuervos. Vuelo natural: Los cuervos se mueven en vuelo 12. No obstante, dada su naturaleza, recibir un crítico no implica que la legión sea derribada en su conjunto. Los bonos del vuelo ya se encuentran añadidos a sus estadísticas. e mil z olt</p><p><strong>Daño:</strong> 50 Pasada rápida PEN, 20 Nube picotazos PEN.</p></section><details><summary>Texto extraído</summary><pre>sNivel: 2 Puntos de Vida: 915 Categoría: Novel Fue: 3 Des: 5 Agi: 3 Con: 3 Pod: 5 Int: 2 Vol: 2 Per: 8 RF 25 RM 35 RP 20 RV 25 RE 25\n\nTurno: 60 Natural Habilidad de ataque: 80 Pasada rápida, 60 nube de picotazos. Habilidad de defensa: Acumulación Daño: 50 Pasada rápida PEN, 20 Nube picotazos PEN. Poderes: Arma natural: Garras y pico, Pasada rápida, Nube de picotazos, Legión de aves, Vuelo natural (Tipo 12). Las estadísticas reflejadas en esta ficha se corresponden a la bandada de cuervos Oscuros que se encuentran controlados por el Marqués desde su torre. Dado que actúan como un único enjambre con mente comunal, se les engloba a todos como un solo conjunto. La legión de cuervos emplea dos metodologías de ataque, la Pasada rápida y la Nube de picotazos, dependiendo de lo que le convenga en cada momento. Para pasar de un estilo de combate a otro, los cuervos tienen que reorganizarse, perdiendo un turno entero en el proceso.\n\nPasada rápida: Los cuervos vuelan en línea a toda velocidad, haciendo un picado sobre un individuo en concreto y produciéndole un daño masivo. El daño que producen se corresponde a la totalidad de aves que componen la legión. Nube de picotazos: Los cuervos se dividen, atacando a todos los adversarios que se encuentren dentro de su área de alcance. El daño es considerablemente menor, pero sigue siendo muy efectivo para molestar y no dar la opción de actuar a sus blancos. Legión de aves: Por la naturaleza dispersa de su vuelo, todos los ataques que se realicen contra ella enarbolando armas naturales le producen sólo la mitad de daño. En el caso de que sufra un ataque en área que cubra por completo una amplia zona de terreno (como en el caso de explosiones, o efectos místicos como bolas de fuego), la legión sufre automáticamente doble daño.\n\nAdemás, es completamente inmune a los críticos; para acabar con la bandada, hay que destruir hasta el último de los cuervos. Vuelo natural: Los cuervos se mueven en vuelo 12. No obstante, dada su naturaleza, recibir un crítico no implica que la legión sea derribada en su conjunto. Los bonos del vuelo ya se encuentran añadidos a sus estadísticas. e mil z olt</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 2
-      },
       "notes": [
         {
           "_id": "note-la-legionde-cuervo-4",
@@ -339,52 +258,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 2
-          }
+          "value": 2,
+          "mod": -20
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 2
-          }
+          "value": 2,
+          "mod": -20
         }
       },
       "secondaries": {
@@ -395,9 +298,6 @@
         "initiative": {
           "base": {
             "value": 60
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -448,10 +348,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 25
             },
             "final": {
               "value": 0
@@ -459,10 +356,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 25
             },
             "final": {
               "value": 0
@@ -470,10 +364,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 2535
+              "value": 2560
             },
             "final": {
               "value": 0
@@ -481,10 +372,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -492,10 +380,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5
+              "value": 20
             },
             "final": {
               "value": 0
@@ -507,191 +392,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 80
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -722,11 +871,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -738,14 +883,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -759,14 +909,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -871,15 +1018,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -891,37 +1034,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1044,9 +1207,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

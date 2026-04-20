@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 33</p><p><strong>Entrada:</strong> Jin Chao Lan</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Ta o Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 6 Int: 6 Vol: 6 Per: 7 RF 40 RM 35 RP 35 RV 40 RE 40</p><p><strong>Ventajas y desventajas:</strong> Coste de campo reducido (atléticas), Habilidoso.</p><p><strong>Habilidades naturales:</strong> Kung Fu, Aikido, Shotokan, T ae Kwon Do, Tabla de desarme.</p><p><strong>Daño:</strong> 40 Artes marciales; estilo Fou Lan</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 50, Atletismo 30, Nadar 30, Saltar 40, Trepar 40, Estilo 25, Advertir 25, Buscar 15, Trucos de manos 55</p><p><strong>Descripción breve:</strong> Jin Chao Lan es un joven bien parecido, de ojos oscuros y pelo largo que lleva recogido en una coleta. Tiene un ornamental tatuaje de un dragón que le recorre todo el cuerpo. Algunas personas nacen con un talento especial para las artes marciales; y Jin Chao Lan es una de ellas. Hijo de un importante maestro de Kung Fu de Shivat, desde la más temprana edad, Jin demostró una devoción sin igual por el entrenamiento y las técnicas marciales de su padre. No obstante, lejos de conformarse con dominar una sola escuela, se instruyó con numerosos maestros, agregando nuevos estilos a su peculiar sistema de combate, al que llamó Kung Fu Fou Lan. Joven y temerario, Jin se creía invencible hasta que su camino se cruzó con el de Shao Lu Ming, un maestro del Maishen que derrotó al chico con tan sólo dos movimientos. “–Tienes talento, muchacho, mucho más del que crees. Pero mientras no seas capaz de ver más allá de tu nariz, jamás podrás comprenderlo.–” Con esa enigmática frase, Lu Ming se marchó, dejando aJin inundado por una emoción como nunca antes había sentido. Interpretando libremente el extraño consejo, a sus veintiún años ha decidido iniciar un viaje por todo el mundo para encontrar nuevos adversarios y perfeccionar su técnica, hasta convertirse algún día en un maestro sin igual, reconocido por el propio Maishen. Si lo consigue o no, solo el tiempo lo dirá. Por encima de todo, Jin desprecia aquellos que confían únicamente en las armas. De hecho, disfruta enormemente enseñando a quienes desprecian las artes marciales el enorme error que cometen. Notas y curiosidades: Combinando la Tabla de desarme con la ventaja Habilidoso, Jin tiene una increíble capacidad para desarmar a sus adversarios, puesto que sólo aplica un -20 a su habilidad cuando ejecuta dicha maniobra, y siempre suma un +3 al control enfrentado de características, gracias a la ventaja. Posesiones: Dos kimonos, Raciones de viaje (para 5 días), Una bolsa de viaje, 1 Escudo Oro. Vladimir Nux</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 120 Categoría: Ta o Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 6 Int: 6 Vol: 6 Per: 7 RF 40 RM 35 RP 35 RV 40 RE 40\n\nTurno: 70 Natural Habilidad de ataque: 85 Artes marciales; estilo Fou Lan + 75 Ataque adicional (T ae Kwon Do) Habilidad de defensa: 85 Artes marciales; estilo Fou Lan Daño: 40 Artes marciales; estilo Fou Lan Llevar Armadura: 10 TA: Ninguna Ventajas y desventajas: Coste de campo reducido (atléticas), Habilidoso. Habilidades naturales: Kung Fu, Aikido, Shotokan, T ae Kwon Do, Tabla de desarme. de movimiento: 8 Cansancio: 8 Habilidades Secundarias: Acrobacias 50, Atletismo 30, Nadar 30, Saltar 40, Trepar 40, Estilo 25, Advertir 25, Buscar 1 5, Trucos de manos 55. Jin Chao Lan es un joven bien parecido, de ojos oscuros y pelo largo que lleva recogido en una coleta. Tiene un ornamental tatuaje de un dragón que le recorre todo el cuerpo. Algunas personas nacen con un talento especial para las artes marciales; y Jin Chao Lan es una de ellas.\n\nHijo de un importante maestro de Kung Fu de Shivat, desde la más temprana edad, Jin demostró una devoción sin igual por el entrenamiento y las técnicas marciales de su padre. No obstante, lejos de conformarse con dominar una sola escuela, se instruyó con numerosos maestros, agregando nuevos estilos a su peculiar sistema de combate, al que llamó Kung Fu Fou Lan. Joven y temerario, Jin se creía invencible hasta que su camino se cruzó con el de Shao Lu Ming, un maestro del Maishen que derrotó al chico con tan sólo dos movimientos. “–Tienes talento, muchacho, mucho más del que crees. Pero mientras no seas capaz de ver más allá de tu nariz, jamás podrás comprenderlo.–” Con esa enigmática frase, Lu Ming se marchó, dejando aJin inundado por una emoción como nunca antes había sentido.\n\nInterpretando libremente el extraño consejo, a sus veintiún años ha decidido iniciar un viaje por todo el mundo para encontrar nuevos adversarios y perfeccionar su técnica, hasta convertirse algún día en un maestro sin igual, reconocido por el propio Maishen. Si lo consigue o no, solo el tiempo lo dirá. Por encima de todo, Jin desprecia aquellos que confían únicamente en las armas. De hecho, disfruta enormemente enseñando a quienes desprecian las artes marciales el enorme error que cometen. Notas y curiosidades: Combinando la Tabla de desarme con la ventaja Habilidoso, Jin tiene una increíble capacidad para desarmar a sus adversarios, puesto que sólo aplica un -20 a su habilidad cuando ejecuta dicha maniobra, y siempre suma un +3 al control enfrentado de características, gracias a la ventaja. Posesiones: Dos kimonos, Raciones de viaje (para 5 días), Una bolsa de viaje, 1 Escudo Oro.\n\nVladimir Nux</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 33</p><p><strong>Entrada:</strong> Jin Chao Lan</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Ta o Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 6 Int: 6 Vol: 6 Per: 7 RF 40 RM 35 RP 35 RV 40 RE 40</p><p><strong>Ventajas y desventajas:</strong> Coste de campo reducido (atléticas), Habilidoso.</p><p><strong>Habilidades naturales:</strong> Kung Fu, Aikido, Shotokan, T ae Kwon Do, Tabla de desarme.</p><p><strong>Daño:</strong> 40 Artes marciales; estilo Fou Lan</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 50, Atletismo 30, Nadar 30, Saltar 40, Trepar 40, Estilo 25, Advertir 25, Buscar 15, Trucos de manos 55</p><p><strong>Descripción breve:</strong> Jin Chao Lan es un joven bien parecido, de ojos oscuros y pelo largo que lleva recogido en una coleta. Tiene un ornamental tatuaje de un dragón que le recorre todo el cuerpo. Algunas personas nacen con un talento especial para las artes marciales; y Jin Chao Lan es una de ellas. Hijo de un importante maestro de Kung Fu de Shivat, desde la más temprana edad, Jin demostró una devoción sin igual por el entrenamiento y las técnicas marciales de su padre. No obstante, lejos de conformarse con dominar una sola escuela, se instruyó con numerosos maestros, agregando nuevos estilos a su peculiar sistema de combate, al que llamó Kung Fu Fou Lan. Joven y temerario, Jin se creía invencible hasta que su camino se cruzó con el de Shao Lu Ming, un maestro del Maishen que derrotó al chico con tan sólo dos movimientos. “–Tienes talento, muchacho, mucho más del que crees. Pero mientras no seas capaz de ver más allá de tu nariz, jamás podrás comprenderlo.–” Con esa enigmática frase, Lu Ming se marchó, dejando aJin inundado por una emoción como nunca antes había sentido. Interpretando libremente el extraño consejo, a sus veintiún años ha decidido iniciar un viaje por todo el mundo para encontrar nuevos adversarios y perfeccionar su técnica, hasta convertirse algún día en un maestro sin igual, reconocido por el propio Maishen. Si lo consigue o no, solo el tiempo lo dirá. Por encima de todo, Jin desprecia aquellos que confían únicamente en las armas. De hecho, disfruta enormemente enseñando a quienes desprecian las artes marciales el enorme error que cometen. Notas y curiosidades: Combinando la Tabla de desarme con la ventaja Habilidoso, Jin tiene una increíble capacidad para desarmar a sus adversarios, puesto que sólo aplica un -20 a su habilidad cuando ejecuta dicha maniobra, y siempre suma un +3 al control enfrentado de características, gracias a la ventaja. Posesiones: Dos kimonos, Raciones de viaje (para 5 días), Una bolsa de viaje, 1 Escudo Oro. Vladimir Nux</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 120 Categoría: Ta o Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 6 Int: 6 Vol: 6 Per: 7 RF 40 RM 35 RP 35 RV 40 RE 40\n\nTurno: 70 Natural Habilidad de ataque: 85 Artes marciales; estilo Fou Lan + 75 Ataque adicional (T ae Kwon Do) Habilidad de defensa: 85 Artes marciales; estilo Fou Lan Daño: 40 Artes marciales; estilo Fou Lan Llevar Armadura: 10 TA: Ninguna Ventajas y desventajas: Coste de campo reducido (atléticas), Habilidoso. Habilidades naturales: Kung Fu, Aikido, Shotokan, T ae Kwon Do, Tabla de desarme. de movimiento: 8 Cansancio: 8 Habilidades Secundarias: Acrobacias 50, Atletismo 30, Nadar 30, Saltar 40, Trepar 40, Estilo 25, Advertir 25, Buscar 1 5, Trucos de manos 55. Jin Chao Lan es un joven bien parecido, de ojos oscuros y pelo largo que lleva recogido en una coleta. Tiene un ornamental tatuaje de un dragón que le recorre todo el cuerpo. Algunas personas nacen con un talento especial para las artes marciales; y Jin Chao Lan es una de ellas.\n\nHijo de un importante maestro de Kung Fu de Shivat, desde la más temprana edad, Jin demostró una devoción sin igual por el entrenamiento y las técnicas marciales de su padre. No obstante, lejos de conformarse con dominar una sola escuela, se instruyó con numerosos maestros, agregando nuevos estilos a su peculiar sistema de combate, al que llamó Kung Fu Fou Lan. Joven y temerario, Jin se creía invencible hasta que su camino se cruzó con el de Shao Lu Ming, un maestro del Maishen que derrotó al chico con tan sólo dos movimientos. “–Tienes talento, muchacho, mucho más del que crees. Pero mientras no seas capaz de ver más allá de tu nariz, jamás podrás comprenderlo.–” Con esa enigmática frase, Lu Ming se marchó, dejando aJin inundado por una emoción como nunca antes había sentido.\n\nInterpretando libremente el extraño consejo, a sus veintiún años ha decidido iniciar un viaje por todo el mundo para encontrar nuevos adversarios y perfeccionar su técnica, hasta convertirse algún día en un maestro sin igual, reconocido por el propio Maishen. Si lo consigue o no, solo el tiempo lo dirá. Por encima de todo, Jin desprecia aquellos que confían únicamente en las armas. De hecho, disfruta enormemente enseñando a quienes desprecian las artes marciales el enorme error que cometen. Notas y curiosidades: Combinando la Tabla de desarme con la ventaja Habilidoso, Jin tiene una increíble capacidad para desarmar a sus adversarios, puesto que sólo aplica un -20 a su habilidad cuando ejecuta dicha maniobra, y siempre suma un +3 al control enfrentado de características, gracias a la ventaja. Posesiones: Dos kimonos, Raciones de viaje (para 5 días), Una bolsa de viaje, 1 Escudo Oro.\n\nVladimir Nux</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-jin-chao-lan-1",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 70
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 4030
+              "value": 4070
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -513,221 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 85
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 85
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 10
-        }
+        "value": 10
       },
       "totalArmor": {
         "at": {
@@ -758,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -774,14 +889,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -795,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -907,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -927,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1080,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

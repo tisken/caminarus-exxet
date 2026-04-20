@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +144,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +164,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 40
         }
       },
       "aspect": {
@@ -274,7 +198,7 @@
           "value": "Menor de Oscuridad"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +216,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 322</p><p><strong>Entrada:</strong> Sombra</p><p><strong>Variante:</strong> Menor de Oscuridad</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos, elemental 15</p><p><strong>Categoría:</strong> Sombra Fue: 8 Des: 8 Agi: 8 Con: 8 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 50 RM 50 RP 50 RV 50 RE 50</p><p><strong>Habilidades esenciales:</strong> Exención física, Miedo racial.</p><p><strong>Poderes:</strong> Arma natural: Garras de sombra (Daña energía, Ataque elemental: Frío, Ataque sobrenatural), Toque helado (Efectos: Negativo y muerte Condicionados), Forma elemental, Visión nocturna completa, Vulnerable a la luz. de mo vimiento: 8</p><p><strong>Daño:</strong> 50 Garras de sombra FRI</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 85, Buscar 75, Sigilo 165, Ocultarse 135</p><p><strong>Descripción breve:</strong> Una Sombra es una entidad tenebrosa formada por pura oscuridad, una criatura maliciosa sustentada por emociones negativas. Sienten aversión hacia los seres vivos que no sean afines a su elemento y, siempre que les es posible, tratan de destruir a cualquiera que se cruce en su camino. Sin embargo, también es cierto que tienen un impulso natural a seguir órdenes de entidades o individuos con poder, sin importar su alineamiento. Una vez que están al servicio de alguien, son extremadamente fieles y llevan a cabo sus cometidos intachablemente. Como su propio nombre indica, parecen verdaderas sombras, manchas oscuras que sólo pueden verse al ser iluminadas. De aspecto vagamente humanoide, cada una de ellas tiene una forma diferente, aunque todas poseen desproporcionadas extremidades acabadas en algo parecido a garras. Completamente planas, se mueven normalmente a través de suelos o paredes, pero son capaces de despegarse de ellas: cuando lo hacen, parecen un fragmento de pura oscuridad que se arrastra. No envejecen nunca ni tienen necesidades. Imperceptibles para los hombres comunes, las Sombras habitan en cualquier parte, pero lo más normal es que se reúnan alrededor de lugares donde las energías oscuras son más poderosas. Pueden actuar tanto solas como en grupos muy numerosos. Cuando varias están reunidas en un mismo lugar, la temperatura ambiental disminuye drásticamente a causa de sus cuerpos. m odus operandi Generalmente las Sombras actúan sólo de noche, rehuyendo el día por temor a la luz que les resulta tan perjudicial. Evitan los combates directos y los lugares abiertos, prefiriendo acechar en las tinieblas y sorprender a sus enemigos desde allí. Disfrutan produciendo terror por lo que, si saben que sus adversarios no pueden causarles daño, juegan con ellos antes de matarlos. Al luchar, actúan de un modo distinto dependiendo de si sus enemigos son seres físicos o espirituales, ya que sus garras dañan de un modo diferente a cada uno de estos. Por su naturaleza, no tienen ningún punto vulnerable. Forma elemental: Las Sombras son completamente inmateriales y sólo pueden ser dañadas por ataques de energía o fuego. De igual modo, no son capaces de tocar nada material que no se encuentre también basado en energía. Adicionalmente, su naturaleza les ofrece bonos a las habilidades secundarias de subterfugio, que ya se encuentran reflejadas en su ficha. Garras de sombra: Las Sombras emplean sus gélidas garras cuando entablan combate. Atacan en Frío como un arma capaz de dañar lo sobrenatural y con rotura 0. No obstante, dado que son completamente inmateriales, ningún arma convencional puede parar sus arremetidas si no es capaz de detener energía (son esquivables con normalidad). Al no ser físicas, las garras sólo son capaces de hacer daño a criaturas sobrenaturales que, como las Sombras, sean también etéreas o inmateriales. Cuando pasan a través de un ser vivo orgánico, causan el efecto de Toque helado. Toque helado: Al atacar a personas físicas, las garras de las Sombras no producen el mismo efecto que cuando sesgan seres etéreos. Si arremeten contra un ser vivo material, su contacto no produce ningún daño, pero el frío espiritual que generan en el interior de los cuerpos debilita la esencia de sus víctimas, e incluso llega a matarlas, provocándoles una parada cardiaca. Cuando una Sombra realiza un ataque con éxito contra un ser vivo orgánico, no disminuye los puntos de vida de su enemigo, pero le obliga a realizar un control de RF contra 120, o recibirá un penalizador acumulable de -10 a sus Resistencias y a toda acción. En el caso de que la víctima no llegue a superar ni siquiera una dificultad contra 60, morirá inmediatamente sufriendo terribles convulsiones. De este modo, las Sombras atacan continuamente a sus adversarios físicos hasta debilitarlos lo suficiente como para que su contacto resulte mortal. Visión nocturna completa: La oscuridad no afecta en absoluto a su capacidad de visión, ni siquiera la de origen sobrenatural. Sombras</p></section><details><summary>Texto extraído</summary><pre>Nivel: 3\n\nClase: Entr e mundos, elemental 1 5 Puntos de Vida: 125 Categoría: Sombra Fue: 8 Des: 8 Agi: 8 Con: 8 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 50 RM 50 RP 50 RV 50 RE 50\n\nTurno: 90 Natural Habilidad de ataque: 120 Garras de sombra Habilidad de defensa: 1 10 Esquiva Daño: 50 Garras de sombra FRI TA: Ninguna Habilidades esenciales: Exención física, Miedo racial. Poderes: Arma natural: Garras de sombra (Daña energía, Ataque elemental: Frío, Ataque sobrenatural), Toque helado (Efectos: Negativo y muerte Condicionados), Forma elemental, Visión nocturna completa, Vulnerable a la luz. de mo vimiento: 8 Cansancio: Incansable Habilidades Secundarias: Advertir 85, Buscar 75, Sigilo 1 65, Ocultarse 1 35. Una Sombra es una entidad tenebrosa formada por pura oscuridad, una criatura maliciosa sustentada por emociones negativas. Sienten aversión hacia los seres vivos que no sean afines a su elemento y, siempre que les es posible, tratan de destruir a cualquiera que se cruce en su camino.\n\nSin embargo, también es cierto que tienen un impulso natural a seguir órdenes de entidades o individuos con poder, sin importar su alineamiento. Una vez que están al servicio de alguien, son extremadamente fieles y llevan a cabo sus cometidos intachablemente. Como su propio nombre indica, parecen verdaderas sombras, manchas oscuras que sólo pueden verse al ser iluminadas. De aspecto vagamente humanoide, cada una de ellas tiene una forma diferente, aunque todas poseen desproporcionadas extremidades acabadas en algo parecido a garras. Completamente planas, se mueven normalmente a través de suelos o paredes, pero son capaces de despegarse de ellas: cuando lo hacen, parecen un fragmento de pura oscuridad que se arrastra. No envejecen nunca ni tienen necesidades.\n\nImperceptibles para los hombres comunes, las Sombras habitan en cualquier parte, pero lo más normal es que se reúnan alrededor de lugares donde las energías oscuras son más poderosas. Pueden actuar tanto solas como en grupos muy numerosos. Cuando varias están reunidas en un mismo lugar, la temperatura ambiental disminuye drásticamente a causa de sus cuerpos. m odus operandi Generalmente las Sombras actúan sólo de noche, rehuyendo el día por temor a la luz que les resulta tan perjudicial. Evitan los combates directos y los lugares abiertos, prefiriendo acechar en las tinieblas y sorprender a sus enemigos desde allí. Disfrutan produciendo terror por lo que, si saben que sus adversarios no pueden causarles daño, juegan con ellos antes de matarlos.\n\nAl luchar, actúan de un modo distinto dependiendo de si sus enemigos son seres físicos o espirituales, ya que sus garras dañan de un modo diferente a cada uno de estos. Por su naturaleza, no tienen ningún punto vulnerable. Forma elemental: Las Sombras son completamente inmateriales y sólo pueden ser dañadas por ataques de energía o fuego. De igual modo, no son capaces de tocar nada material que no se encuentre también basado en energía. Adicionalmente, su naturaleza les ofrece bonos a las habilidades secundarias de subterfugio, que ya se encuentran reflejadas en su ficha. Garras de sombra: Las Sombras emplean sus gélidas garras cuando entablan combate. Atacan en Frío como un arma capaz de dañar lo sobrenatural y con rotura 0.\n\nNo obstante, dado que son completamente inmateriales, ningún arma convencional puede parar sus arremetidas si no es capaz de detener energía (son esquivables con normalidad). Al no ser físicas, las garras sólo son capaces de hacer daño a criaturas sobrenaturales que, como las Sombras, sean también etéreas o inmateriales. Cuando pasan a través de un ser vivo orgánico, causan el efecto de Toque helado. Toque helado: Al atacar a personas físicas, las garras de las Sombras no producen el mismo efecto que cuando sesgan seres etéreos. Si arremeten contra un ser vivo material, su contacto no produce ningún daño, pero el frío espiritual que generan en el interior de los cuerpos debilita la esencia de sus víctimas, e incluso llega a matarlas, provocándoles una parada cardiaca.\n\nCuando una Sombra realiza un ataque con éxito contra un ser vivo orgánico, no disminuye los puntos de vida de su enemigo, pero le obliga a realizar un control de RF contra 120, o recibirá un penalizador acumulable de -10 a sus Resistencias y a toda acción. En el caso de que la víctima no llegue a superar ni siquiera una dificultad contra 60, morirá inmediatamente sufriendo terribles convulsiones. De este modo, las Sombras atacan continuamente a sus adversarios físicos hasta debilitarlos lo suficiente como para que su contacto resulte mortal. Visión nocturna completa: La oscuridad no afecta en absoluto a su capacidad de visión, ni siquiera la de origen sobrenatural. Sombras</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Core Exxet</p><p><strong>Página:</strong> 322</p><p><strong>Entrada:</strong> Sombra</p><p><strong>Variante:</strong> Menor de Oscuridad</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entr e mundos, elemental 15</p><p><strong>Categoría:</strong> Sombra Fue: 8 Des: 8 Agi: 8 Con: 8 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 50 RM 50 RP 50 RV 50 RE 50</p><p><strong>Habilidades esenciales:</strong> Exención física, Miedo racial.</p><p><strong>Poderes:</strong> Arma natural: Garras de sombra (Daña energía, Ataque elemental: Frío, Ataque sobrenatural), Toque helado (Efectos: Negativo y muerte Condicionados), Forma elemental, Visión nocturna completa, Vulnerable a la luz. de mo vimiento: 8</p><p><strong>Daño:</strong> 50 Garras de sombra FRI</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 85, Buscar 75, Sigilo 165, Ocultarse 135</p><p><strong>Descripción breve:</strong> Una Sombra es una entidad tenebrosa formada por pura oscuridad, una criatura maliciosa sustentada por emociones negativas. Sienten aversión hacia los seres vivos que no sean afines a su elemento y, siempre que les es posible, tratan de destruir a cualquiera que se cruce en su camino. Sin embargo, también es cierto que tienen un impulso natural a seguir órdenes de entidades o individuos con poder, sin importar su alineamiento. Una vez que están al servicio de alguien, son extremadamente fieles y llevan a cabo sus cometidos intachablemente. Como su propio nombre indica, parecen verdaderas sombras, manchas oscuras que sólo pueden verse al ser iluminadas. De aspecto vagamente humanoide, cada una de ellas tiene una forma diferente, aunque todas poseen desproporcionadas extremidades acabadas en algo parecido a garras. Completamente planas, se mueven normalmente a través de suelos o paredes, pero son capaces de despegarse de ellas: cuando lo hacen, parecen un fragmento de pura oscuridad que se arrastra. No envejecen nunca ni tienen necesidades. Imperceptibles para los hombres comunes, las Sombras habitan en cualquier parte, pero lo más normal es que se reúnan alrededor de lugares donde las energías oscuras son más poderosas. Pueden actuar tanto solas como en grupos muy numerosos. Cuando varias están reunidas en un mismo lugar, la temperatura ambiental disminuye drásticamente a causa de sus cuerpos. m odus operandi Generalmente las Sombras actúan sólo de noche, rehuyendo el día por temor a la luz que les resulta tan perjudicial. Evitan los combates directos y los lugares abiertos, prefiriendo acechar en las tinieblas y sorprender a sus enemigos desde allí. Disfrutan produciendo terror por lo que, si saben que sus adversarios no pueden causarles daño, juegan con ellos antes de matarlos. Al luchar, actúan de un modo distinto dependiendo de si sus enemigos son seres físicos o espirituales, ya que sus garras dañan de un modo diferente a cada uno de estos. Por su naturaleza, no tienen ningún punto vulnerable. Forma elemental: Las Sombras son completamente inmateriales y sólo pueden ser dañadas por ataques de energía o fuego. De igual modo, no son capaces de tocar nada material que no se encuentre también basado en energía. Adicionalmente, su naturaleza les ofrece bonos a las habilidades secundarias de subterfugio, que ya se encuentran reflejadas en su ficha. Garras de sombra: Las Sombras emplean sus gélidas garras cuando entablan combate. Atacan en Frío como un arma capaz de dañar lo sobrenatural y con rotura 0. No obstante, dado que son completamente inmateriales, ningún arma convencional puede parar sus arremetidas si no es capaz de detener energía (son esquivables con normalidad). Al no ser físicas, las garras sólo son capaces de hacer daño a criaturas sobrenaturales que, como las Sombras, sean también etéreas o inmateriales. Cuando pasan a través de un ser vivo orgánico, causan el efecto de Toque helado. Toque helado: Al atacar a personas físicas, las garras de las Sombras no producen el mismo efecto que cuando sesgan seres etéreos. Si arremeten contra un ser vivo material, su contacto no produce ningún daño, pero el frío espiritual que generan en el interior de los cuerpos debilita la esencia de sus víctimas, e incluso llega a matarlas, provocándoles una parada cardiaca. Cuando una Sombra realiza un ataque con éxito contra un ser vivo orgánico, no disminuye los puntos de vida de su enemigo, pero le obliga a realizar un control de RF contra 120, o recibirá un penalizador acumulable de -10 a sus Resistencias y a toda acción. En el caso de que la víctima no llegue a superar ni siquiera una dificultad contra 60, morirá inmediatamente sufriendo terribles convulsiones. De este modo, las Sombras atacan continuamente a sus adversarios físicos hasta debilitarlos lo suficiente como para que su contacto resulte mortal. Visión nocturna completa: La oscuridad no afecta en absoluto a su capacidad de visión, ni siquiera la de origen sobrenatural. Sombras</p></section><details><summary>Texto extraído</summary><pre>Nivel: 3\n\nClase: Entr e mundos, elemental 1 5 Puntos de Vida: 125 Categoría: Sombra Fue: 8 Des: 8 Agi: 8 Con: 8 Pod: 8 Int: 6 Vol: 8 Per: 8 RF 50 RM 50 RP 50 RV 50 RE 50\n\nTurno: 90 Natural Habilidad de ataque: 120 Garras de sombra Habilidad de defensa: 1 10 Esquiva Daño: 50 Garras de sombra FRI TA: Ninguna Habilidades esenciales: Exención física, Miedo racial. Poderes: Arma natural: Garras de sombra (Daña energía, Ataque elemental: Frío, Ataque sobrenatural), Toque helado (Efectos: Negativo y muerte Condicionados), Forma elemental, Visión nocturna completa, Vulnerable a la luz. de mo vimiento: 8 Cansancio: Incansable Habilidades Secundarias: Advertir 85, Buscar 75, Sigilo 1 65, Ocultarse 1 35. Una Sombra es una entidad tenebrosa formada por pura oscuridad, una criatura maliciosa sustentada por emociones negativas. Sienten aversión hacia los seres vivos que no sean afines a su elemento y, siempre que les es posible, tratan de destruir a cualquiera que se cruce en su camino.\n\nSin embargo, también es cierto que tienen un impulso natural a seguir órdenes de entidades o individuos con poder, sin importar su alineamiento. Una vez que están al servicio de alguien, son extremadamente fieles y llevan a cabo sus cometidos intachablemente. Como su propio nombre indica, parecen verdaderas sombras, manchas oscuras que sólo pueden verse al ser iluminadas. De aspecto vagamente humanoide, cada una de ellas tiene una forma diferente, aunque todas poseen desproporcionadas extremidades acabadas en algo parecido a garras. Completamente planas, se mueven normalmente a través de suelos o paredes, pero son capaces de despegarse de ellas: cuando lo hacen, parecen un fragmento de pura oscuridad que se arrastra. No envejecen nunca ni tienen necesidades.\n\nImperceptibles para los hombres comunes, las Sombras habitan en cualquier parte, pero lo más normal es que se reúnan alrededor de lugares donde las energías oscuras son más poderosas. Pueden actuar tanto solas como en grupos muy numerosos. Cuando varias están reunidas en un mismo lugar, la temperatura ambiental disminuye drásticamente a causa de sus cuerpos. m odus operandi Generalmente las Sombras actúan sólo de noche, rehuyendo el día por temor a la luz que les resulta tan perjudicial. Evitan los combates directos y los lugares abiertos, prefiriendo acechar en las tinieblas y sorprender a sus enemigos desde allí. Disfrutan produciendo terror por lo que, si saben que sus adversarios no pueden causarles daño, juegan con ellos antes de matarlos.\n\nAl luchar, actúan de un modo distinto dependiendo de si sus enemigos son seres físicos o espirituales, ya que sus garras dañan de un modo diferente a cada uno de estos. Por su naturaleza, no tienen ningún punto vulnerable. Forma elemental: Las Sombras son completamente inmateriales y sólo pueden ser dañadas por ataques de energía o fuego. De igual modo, no son capaces de tocar nada material que no se encuentre también basado en energía. Adicionalmente, su naturaleza les ofrece bonos a las habilidades secundarias de subterfugio, que ya se encuentran reflejadas en su ficha. Garras de sombra: Las Sombras emplean sus gélidas garras cuando entablan combate. Atacan en Frío como un arma capaz de dañar lo sobrenatural y con rotura 0.\n\nNo obstante, dado que son completamente inmateriales, ningún arma convencional puede parar sus arremetidas si no es capaz de detener energía (son esquivables con normalidad). Al no ser físicas, las garras sólo son capaces de hacer daño a criaturas sobrenaturales que, como las Sombras, sean también etéreas o inmateriales. Cuando pasan a través de un ser vivo orgánico, causan el efecto de Toque helado. Toque helado: Al atacar a personas físicas, las garras de las Sombras no producen el mismo efecto que cuando sesgan seres etéreos. Si arremeten contra un ser vivo material, su contacto no produce ningún daño, pero el frío espiritual que generan en el interior de los cuerpos debilita la esencia de sus víctimas, e incluso llega a matarlas, provocándoles una parada cardiaca.\n\nCuando una Sombra realiza un ataque con éxito contra un ser vivo orgánico, no disminuye los puntos de vida de su enemigo, pero le obliga a realizar un control de RF contra 120, o recibirá un penalizador acumulable de -10 a sus Resistencias y a toda acción. En el caso de que la víctima no llegue a superar ni siquiera una dificultad contra 60, morirá inmediatamente sufriendo terribles convulsiones. De este modo, las Sombras atacan continuamente a sus adversarios físicos hasta debilitarlos lo suficiente como para que su contacto resulte mortal. Visión nocturna completa: La oscuridad no afecta en absoluto a su capacidad de visión, ni siquiera la de origen sobrenatural. Sombras</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +248,6 @@
           }
         }
       ],
-      "level": {
-        "value": 3
-      },
       "notes": [
         {
           "_id": "note-sombra-menor-de-oscuridad-3",
@@ -345,52 +267,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -401,9 +307,6 @@
         "initiative": {
           "base": {
             "value": 90
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +357,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -465,10 +365,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -476,10 +373,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5040
+              "value": 5090
             },
             "final": {
               "value": 0
@@ -487,10 +381,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -498,10 +389,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 50
             },
             "final": {
               "value": 0
@@ -513,206 +401,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 85
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 75
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 135
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 165
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 120
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 110
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -743,11 +880,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -759,14 +892,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -780,14 +918,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -892,15 +1027,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -912,37 +1043,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1065,9 +1216,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

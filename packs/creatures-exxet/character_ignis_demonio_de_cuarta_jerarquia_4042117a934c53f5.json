@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +147,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +167,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 50
         }
       },
       "aspect": {
@@ -274,7 +201,7 @@
           "value": "Demonio de Cuarta Jerarquía"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +219,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 43</p><p><strong>Entrada:</strong> Ignis</p><p><strong>Variante:</strong> Demonio de Cuarta Jerarquía</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 15</p><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 11 Des: 11 Agi: 12 Con: 8 Pod: 7 Int: 6 Vol: 9 Per: 7 RF 60 RM 55 RP 60 RV 60 RE 60</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Exención Física, Inhumanidad, Inmunidad Natural a un Elemento (Completa, Fuego).</p><p><strong>Poderes:</strong> Armas Naturales: Garras de Llamas (+30 al Daño, +15 a la Rotura, -3 a la TA Defensora, Ataque Elemental Fuego), Velo de Cenizas, Consumir (Poder Psíquico Innato: Consumir, Sin Límite, Requiere 3 Turnos de Preparatoria), Esencia del Fuego (Regeneración 16, Condicionada), Aura de Fuego (Aura, 1 Metro, RF 100, Daño), Vulnerabilidad Extrema.</p><p><strong>Daño:</strong> 90 Garras de Llamas (Cal / Filo)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 75, Intimidar 25, Advertir 20, Buscar 10, Resistir el Dolor 45</p><p><strong>Descripción breve:</strong> Ignis es el nombre más común que reciben los incandescentes Demonios de las Cenizas. Se trata de criaturas originadas a partir de almas crueles que en su vida sólo conocieron la ira. Este sentimiento primario nutre la esencia del demonio, convirtiéndose en abrasivas llamas que envuelven el cuerpo de la criatura durante el resto de su existencia. Aprimera vista los Ignis no son sino esqueletos demoníacos de gran tamaño (a veces, llegan a medir más de dos metros), cuyo cuerpo no deja en ningún momento de desprender grandes llamaradas. De hecho, incluso podrían ser confundidos con elementales de fuego de no ser por los símbolos infernales que decoran sus extremidades. Se comportan de un modo muy violento y tienen un gusto por la barbarie que muy pocos de los suyos pueden igualar. Suelen estar siempre llenos de ira, salvo cuando se entretienen matando gente. Curiosamente, las llamas que expelen dependen de su estado de ánimo; cuanto más enfadados están, mas fieras y terribles son. Hay bastantes Ignis (o diferentes versiones de esta clase de demonio) trabajando para la nobleza infernal. Su función dentro de la jerarquía es la de guerreros y destructores; cada vez que un señor infernal desea provocar devastación y caos sin preocuparse por nada más, envía a los Ignis a hacer el trabajo. Pueden ser invocados por mortales que pretendan usarlos para destruir cosas, siempre y cuando les ofrezcan un sacrificio de sangre que les satisfaga. De no lograrlo, el demonio atacará al invocador y a todos quienes le acompañen reclamando sus almas para sí. m oduS oPerandiLosIgnis utilizan un estilo muy simple de combate pero, a la vez, muy espectacular. Saltan de un lado a otro envueltos en fuego tratando de prenderlo todo en llamas con sus cuerpos. De vez en cuando se apartan lo suficiente para tener tiempo de usar su poder de Consumir, pero por lo general prefieren el combate directo para ver arder de cerca a las personas con las que luchan. La cabeza es el único punto vulnerable conocido que poseen. Garras de Llamas: Los Ignis concentran en sus garras y cola el fuego más potente de su cuerpo, fundiendo de un modo casi automático todo lo que atacan con ellas. En consecuencia no tienen sólo rotura 19, sino que también restan tres puntos de la armadura del defensor. Velo de Cenizas: Puesto que suelen estar envueltos en llamaradas y humo, todos los ataques a distancia contra un Ignis aplican un penalizador de -30 a causa de la limitada visión que tiene el atacante. Aquellos con Percepción superior a 10 o quienes superen un control de Advertir contra Absurdo (180) o de Buscar contra Muy Difícil (140) pueden ignorar este negativo. Esencia del Fuego: El cuerpo de los Ignis está compuesto mayoritariamente de una concentración extrema de fuego, por lo que son capaces de nutrirse de las llamas que le rodean para recobrarse a gran velocidad. Si uno de estos demonios tiene a su alcance un mínimo de diez intensidades de fuego, es capaz de absorber hasta dos por turno para recuperar 10 Puntos de Vida. Consumir: Concentrando su psique en un sólo punto alejado, el demonio produce un inmenso calor en el interior de un cuerpo (orgánico o inorgánico) que lo calcina hasta dejar poco más que un montón de cenizas. Consumir actúa de un modo equivalente al poder psíquico con el mismo nombre; se considera un ataque a distancia invisible para todo aquel que no pueda ver matrices. Ignora cualquier armadura y, de conseguir impactar sobre su blanco, el afectado deberá superar una RF contra 120 o sufrir la perdida automática de 80 Puntos de Vida. La activación de este poder requiere tres asaltos de preparatoria. DEm onios</p></section><details><summary>Texto extraído</summary><pre>Nivel: 5\n\nClase: Entre mundos, Elemental 1 5 Puntos de Vida: 170 Categoría: Guerrero Acróbata Fue: 11 Des: 11 Agi: 12 Con: 8 Pod: 7 Int: 6 Vol: 9 Per: 7 RF 60 RM 55 RP 60 RV 60 RE 60\n\nTurno: 1 30 Natural Habilidad de ataque: 1 70 Garras de Llamas, 1 70 Consumir Habilidad de defensa: 1 70 Esquiva Daño: 90 Garras de Llamas (Cal / Filo) TA: Ninguna Habilidades esenciales: Características Físicas Sobrehumanas, Exención Física, Inhumanidad, Inmunidad Natural a un Elemento (Completa, Fuego). Poderes: Armas Naturales: Garras de Llamas (+30 al Daño, +1 5 a la Rotura, -3 a la TA Defensora, Ataque Elemental Fuego), Velo de Cenizas, Consumir (Poder Psíquico Innato: Consumir, Sin Límite, Requiere 3 Turnos de Preparatoria), Esencia del Fuego (Regeneración 1 6, Condicionada), Aura de Fuego (Aura, 1 Metro, RF 100, Daño), Vulnerabilidad Extrema. de movimiento: 12 Cansancio: Incansable Habilidades Secundarias: Acrobacias 75, Intimidar 25, Advertir 20, Buscar 10, Resistir el Dolor 45. Ignis es el nombre más común que reciben los incandescentes Demonios de las Cenizas.\n\nSe trata de criaturas originadas a partir de almas crueles que en su vida sólo conocieron la ira. Este sentimiento primario nutre la esencia del demonio, convirtiéndose en abrasivas llamas que envuelven el cuerpo de la criatura durante el resto de su existencia. Aprimera vista los Ignis no son sino esqueletos demoníacos de gran tamaño (a veces, llegan a medir más de dos metros), cuyo cuerpo no deja en ningún momento de desprender grandes llamaradas. De hecho, incluso podrían ser confundidos con elementales de fuego de no ser por los símbolos infernales que decoran sus extremidades. Se comportan de un modo muy violento y tienen un gusto por la barbarie que muy pocos de los suyos pueden igualar. Suelen estar siempre llenos de ira, salvo cuando se entretienen matando gente.\n\nCuriosamente, las llamas que expelen dependen de su estado de ánimo; cuanto más enfadados están, mas fieras y terribles son. Hay bastantes Ignis (o diferentes versiones de esta clase de demonio) trabajando para la nobleza infernal. Su función dentro de la jerarquía es la de guerreros y destructores; cada vez que un señor infernal desea provocar devastación y caos sin preocuparse por nada más, envía a los Ignis a hacer el trabajo. Pueden ser invocados por mortales que pretendan usarlos para destruir cosas, siempre y cuando les ofrezcan un sacrificio de sangre que les satisfaga. De no lograrlo, el demonio atacará al invocador y a todos quienes le acompañen reclamando sus almas para sí. m oduS oPerandiLosIgnis utilizan un estilo muy simple de combate pero, a la vez, muy espectacular. Saltan de un lado a otro envueltos en fuego tratando de prenderlo todo en llamas con sus cuerpos.\n\nDe vez en cuando se apartan lo suficiente para tener tiempo de usar su poder de Consumir, pero por lo general prefieren el combate directo para ver arder de cerca a las personas con las que luchan. La cabeza es el único punto vulnerable conocido que poseen. Garras de Llamas: Los Ignis concentran en sus garras y cola el fuego más potente de su cuerpo, fundiendo de un modo casi automático todo lo que atacan con ellas. En consecuencia no tienen sólo rotura 1 9, sino que también restan tres puntos de la armadura del defensor. Velo de Cenizas: Puesto que suelen estar envueltos en llamaradas y humo, todos los ataques a distancia contra un Ignis aplican un penalizador de -30 a causa de la limitada visión que tiene el atacante. Aquellos con Percepción superior a 10 o quienes superen un control de Advertir contra Absurdo (180) o de Buscar contra Muy Difícil (1 40) pueden ignorar este negativo.\n\nEsencia del Fuego: El cuerpo de los Ignis está compuesto mayoritariamente de una concentración extrema de fuego, por lo que son capaces de nutrirse de las llamas que le rodean para recobrarse a gran velocidad. Si uno de estos demonios tiene a su alcance un mínimo de diez intensidades de fuego, es capaz de absorber hasta dos por turno para recuperar 10 Puntos de Vida. Consumir: Concentrando su psique en un sólo punto alejado, el demonio produce un inmenso calor en el interior de un cuerpo (orgánico o inorgánico) que lo calcina hasta dejar poco más que un montón de cenizas. Consumir actúa de un modo equivalente al poder psíquico con el mismo nombre; se considera un ataque a distancia invisible para todo aquel que no pueda ver matrices.\n\nIgnora cualquier armadura y, de conseguir impactar sobre su blanco, el afectado deberá superar una RF contra 120 o sufrir la perdida automática de 80 Puntos de Vida. La activación de este poder requiere tres asaltos de preparatoria. DEm onios (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 43</p><p><strong>Entrada:</strong> Ignis</p><p><strong>Variante:</strong> Demonio de Cuarta Jerarquía</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 15</p><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 11 Des: 11 Agi: 12 Con: 8 Pod: 7 Int: 6 Vol: 9 Per: 7 RF 60 RM 55 RP 60 RV 60 RE 60</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Exención Física, Inhumanidad, Inmunidad Natural a un Elemento (Completa, Fuego).</p><p><strong>Poderes:</strong> Armas Naturales: Garras de Llamas (+30 al Daño, +15 a la Rotura, -3 a la TA Defensora, Ataque Elemental Fuego), Velo de Cenizas, Consumir (Poder Psíquico Innato: Consumir, Sin Límite, Requiere 3 Turnos de Preparatoria), Esencia del Fuego (Regeneración 16, Condicionada), Aura de Fuego (Aura, 1 Metro, RF 100, Daño), Vulnerabilidad Extrema.</p><p><strong>Daño:</strong> 90 Garras de Llamas (Cal / Filo)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 75, Intimidar 25, Advertir 20, Buscar 10, Resistir el Dolor 45</p><p><strong>Descripción breve:</strong> Ignis es el nombre más común que reciben los incandescentes Demonios de las Cenizas. Se trata de criaturas originadas a partir de almas crueles que en su vida sólo conocieron la ira. Este sentimiento primario nutre la esencia del demonio, convirtiéndose en abrasivas llamas que envuelven el cuerpo de la criatura durante el resto de su existencia. Aprimera vista los Ignis no son sino esqueletos demoníacos de gran tamaño (a veces, llegan a medir más de dos metros), cuyo cuerpo no deja en ningún momento de desprender grandes llamaradas. De hecho, incluso podrían ser confundidos con elementales de fuego de no ser por los símbolos infernales que decoran sus extremidades. Se comportan de un modo muy violento y tienen un gusto por la barbarie que muy pocos de los suyos pueden igualar. Suelen estar siempre llenos de ira, salvo cuando se entretienen matando gente. Curiosamente, las llamas que expelen dependen de su estado de ánimo; cuanto más enfadados están, mas fieras y terribles son. Hay bastantes Ignis (o diferentes versiones de esta clase de demonio) trabajando para la nobleza infernal. Su función dentro de la jerarquía es la de guerreros y destructores; cada vez que un señor infernal desea provocar devastación y caos sin preocuparse por nada más, envía a los Ignis a hacer el trabajo. Pueden ser invocados por mortales que pretendan usarlos para destruir cosas, siempre y cuando les ofrezcan un sacrificio de sangre que les satisfaga. De no lograrlo, el demonio atacará al invocador y a todos quienes le acompañen reclamando sus almas para sí. m oduS oPerandiLosIgnis utilizan un estilo muy simple de combate pero, a la vez, muy espectacular. Saltan de un lado a otro envueltos en fuego tratando de prenderlo todo en llamas con sus cuerpos. De vez en cuando se apartan lo suficiente para tener tiempo de usar su poder de Consumir, pero por lo general prefieren el combate directo para ver arder de cerca a las personas con las que luchan. La cabeza es el único punto vulnerable conocido que poseen. Garras de Llamas: Los Ignis concentran en sus garras y cola el fuego más potente de su cuerpo, fundiendo de un modo casi automático todo lo que atacan con ellas. En consecuencia no tienen sólo rotura 19, sino que también restan tres puntos de la armadura del defensor. Velo de Cenizas: Puesto que suelen estar envueltos en llamaradas y humo, todos los ataques a distancia contra un Ignis aplican un penalizador de -30 a causa de la limitada visión que tiene el atacante. Aquellos con Percepción superior a 10 o quienes superen un control de Advertir contra Absurdo (180) o de Buscar contra Muy Difícil (140) pueden ignorar este negativo. Esencia del Fuego: El cuerpo de los Ignis está compuesto mayoritariamente de una concentración extrema de fuego, por lo que son capaces de nutrirse de las llamas que le rodean para recobrarse a gran velocidad. Si uno de estos demonios tiene a su alcance un mínimo de diez intensidades de fuego, es capaz de absorber hasta dos por turno para recuperar 10 Puntos de Vida. Consumir: Concentrando su psique en un sólo punto alejado, el demonio produce un inmenso calor en el interior de un cuerpo (orgánico o inorgánico) que lo calcina hasta dejar poco más que un montón de cenizas. Consumir actúa de un modo equivalente al poder psíquico con el mismo nombre; se considera un ataque a distancia invisible para todo aquel que no pueda ver matrices. Ignora cualquier armadura y, de conseguir impactar sobre su blanco, el afectado deberá superar una RF contra 120 o sufrir la perdida automática de 80 Puntos de Vida. La activación de este poder requiere tres asaltos de preparatoria. DEm onios</p></section><details><summary>Texto extraído</summary><pre>Nivel: 5\n\nClase: Entre mundos, Elemental 1 5 Puntos de Vida: 170 Categoría: Guerrero Acróbata Fue: 11 Des: 11 Agi: 12 Con: 8 Pod: 7 Int: 6 Vol: 9 Per: 7 RF 60 RM 55 RP 60 RV 60 RE 60\n\nTurno: 1 30 Natural Habilidad de ataque: 1 70 Garras de Llamas, 1 70 Consumir Habilidad de defensa: 1 70 Esquiva Daño: 90 Garras de Llamas (Cal / Filo) TA: Ninguna Habilidades esenciales: Características Físicas Sobrehumanas, Exención Física, Inhumanidad, Inmunidad Natural a un Elemento (Completa, Fuego). Poderes: Armas Naturales: Garras de Llamas (+30 al Daño, +1 5 a la Rotura, -3 a la TA Defensora, Ataque Elemental Fuego), Velo de Cenizas, Consumir (Poder Psíquico Innato: Consumir, Sin Límite, Requiere 3 Turnos de Preparatoria), Esencia del Fuego (Regeneración 1 6, Condicionada), Aura de Fuego (Aura, 1 Metro, RF 100, Daño), Vulnerabilidad Extrema. de movimiento: 12 Cansancio: Incansable Habilidades Secundarias: Acrobacias 75, Intimidar 25, Advertir 20, Buscar 10, Resistir el Dolor 45. Ignis es el nombre más común que reciben los incandescentes Demonios de las Cenizas.\n\nSe trata de criaturas originadas a partir de almas crueles que en su vida sólo conocieron la ira. Este sentimiento primario nutre la esencia del demonio, convirtiéndose en abrasivas llamas que envuelven el cuerpo de la criatura durante el resto de su existencia. Aprimera vista los Ignis no son sino esqueletos demoníacos de gran tamaño (a veces, llegan a medir más de dos metros), cuyo cuerpo no deja en ningún momento de desprender grandes llamaradas. De hecho, incluso podrían ser confundidos con elementales de fuego de no ser por los símbolos infernales que decoran sus extremidades. Se comportan de un modo muy violento y tienen un gusto por la barbarie que muy pocos de los suyos pueden igualar. Suelen estar siempre llenos de ira, salvo cuando se entretienen matando gente.\n\nCuriosamente, las llamas que expelen dependen de su estado de ánimo; cuanto más enfadados están, mas fieras y terribles son. Hay bastantes Ignis (o diferentes versiones de esta clase de demonio) trabajando para la nobleza infernal. Su función dentro de la jerarquía es la de guerreros y destructores; cada vez que un señor infernal desea provocar devastación y caos sin preocuparse por nada más, envía a los Ignis a hacer el trabajo. Pueden ser invocados por mortales que pretendan usarlos para destruir cosas, siempre y cuando les ofrezcan un sacrificio de sangre que les satisfaga. De no lograrlo, el demonio atacará al invocador y a todos quienes le acompañen reclamando sus almas para sí. m oduS oPerandiLosIgnis utilizan un estilo muy simple de combate pero, a la vez, muy espectacular. Saltan de un lado a otro envueltos en fuego tratando de prenderlo todo en llamas con sus cuerpos.\n\nDe vez en cuando se apartan lo suficiente para tener tiempo de usar su poder de Consumir, pero por lo general prefieren el combate directo para ver arder de cerca a las personas con las que luchan. La cabeza es el único punto vulnerable conocido que poseen. Garras de Llamas: Los Ignis concentran en sus garras y cola el fuego más potente de su cuerpo, fundiendo de un modo casi automático todo lo que atacan con ellas. En consecuencia no tienen sólo rotura 1 9, sino que también restan tres puntos de la armadura del defensor. Velo de Cenizas: Puesto que suelen estar envueltos en llamaradas y humo, todos los ataques a distancia contra un Ignis aplican un penalizador de -30 a causa de la limitada visión que tiene el atacante. Aquellos con Percepción superior a 10 o quienes superen un control de Advertir contra Absurdo (180) o de Buscar contra Muy Difícil (1 40) pueden ignorar este negativo.\n\nEsencia del Fuego: El cuerpo de los Ignis está compuesto mayoritariamente de una concentración extrema de fuego, por lo que son capaces de nutrirse de las llamas que le rodean para recobrarse a gran velocidad. Si uno de estos demonios tiene a su alcance un mínimo de diez intensidades de fuego, es capaz de absorber hasta dos por turno para recuperar 10 Puntos de Vida. Consumir: Concentrando su psique en un sólo punto alejado, el demonio produce un inmenso calor en el interior de un cuerpo (orgánico o inorgánico) que lo calcina hasta dejar poco más que un montón de cenizas. Consumir actúa de un modo equivalente al poder psíquico con el mismo nombre; se considera un ataque a distancia invisible para todo aquel que no pueda ver matrices.\n\nIgnora cualquier armadura y, de conseguir impactar sobre su blanco, el afectado deberá superar una RF contra 120 o sufrir la perdida automática de 80 Puntos de Vida. La activación de este poder requiere tres asaltos de preparatoria. DEm onios (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +251,6 @@
           }
         }
       ],
-      "level": {
-        "value": 5
-      },
       "notes": [
         {
           "_id": "note-ignis-demonio-de-cuarta-jerarqui-3",
@@ -345,52 +270,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -401,9 +310,6 @@
         "initiative": {
           "base": {
             "value": 130
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +360,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -465,10 +368,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -476,10 +376,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 60070
+              "value": 60130
             },
             "final": {
               "value": 0
@@ -487,10 +384,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 55
             },
             "final": {
               "value": 0
@@ -498,10 +392,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 60
             },
             "final": {
               "value": 0
@@ -513,209 +404,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 75
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 10
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 170
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 170
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -746,11 +883,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -762,14 +895,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -783,14 +921,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -895,15 +1030,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -915,37 +1046,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1068,9 +1219,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

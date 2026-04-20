@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
           "value": true
-        },
-        "effects": {
-          "value": false
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 55
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": "La máquina"
         },
         "size": {
-          "value": 18
+          "value": "18"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 98</p><p><strong>Entrada:</strong> Tecnócrita</p><p><strong>Variante:</strong> La máquina</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos Especial</p><p><strong>Categoría:</strong> Mentalista Fue: 8 Des: 10 Agi: 6 Con: 10 Pod: 4 Int: 10 Vol: 13 Per: 8 RF 100 RM 20 RP 80 RV 70 RE 70</p><p><strong>Habilidades esenciales:</strong> Exención Física, Inmunidad Psicológica, Acceso aDisciplinasPsíquicas, Concentración Pasiva, Consumición Psíquica, Extenuación Psíquica.</p><p><strong>Poderes:</strong> Resistencia Físicas Única +30 RF, Armadura Física 4, Absorción, Cohesión, Vórtice, Transformación Completa, Vulnerabilidad a la Magia.</p><p><strong>Disciplinas:</strong> Psíquicas: Telequinesis.</p><p><strong>Daño:</strong> 20 Combate desarmado (Con), 100 Cohesión (Pen)</p><p><strong>TA:</strong> Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0</p><p><strong>Habilidades secundarias:</strong> Advertir 80, Buscar 80, Ciencia 180, Memorizar 240</p><p><strong>Descripción breve:</strong> Los Tecnócritas son los más peligrosos miembros de La Máquina, los guerreros de elite del “hormiguero”. Nacen de la innatural fusión de una larva avanzada con un cuerpo humano o Duk’zarist (por alguna razón desconocida, únicamente es viable la fusión con ambas especies) a los que se les realiza una delicada operación quirúrgica que sustituye partes de su anatomía por piezas tecnológicas y cristales psíquicos. El resultado es una forma humanoide, repleta de implantes mecánicos, que desarrolla incomparables habilidades psíquicas. La mayoría de los Tecnócritas son completamente lampiños (pierden el pelo durante su transformación) y visten oscuros ropajes ceremoniales, similares a los que podría llevar un sacerdote tenebroso. Se mueven mecánicamente, pero poseen un porte altivo y solemne, como si todos y cada uno de ellos fueran embajadores que La Máquina ha enviado al mundo. Únicamente siguen los dictados de la lógica, actuando más como máquinas que como seres vivos. Son capaces de hablar todos los idiomas conocidos y, en caso de considerarlo necesario, pueden comunicarse con otros seres. Por desgracia, son muy raras las ocasiones en las que encuentran la más mínima necesidad de hacerlo. En multitud de ocasiones actúan rodeados de Drones, a los que les dan órdenes mentales por la conexión natural que une a todos los integrantes de La Máquina. Prácticamente la totalidad de los Tecnócritas fueron destruidos hace miles de años, aunque aún quedan infinidad de larvas enterradas que permitirían crear nuevos. Por lo que se sabe, sólo han reaparecido en la isla de Kirdan, más nada dice que no puedan resurgir otras monstruosidades ancestrales en diversos lugares del globo. m oduS oPerandiEl poder de los Tecnócritas radica en sus descomunales habilidades psíquicas y su absoluto dominio telequinético. Gracias a sus poderes mentales, son capaces de protegerse y atacar a numerosos enemigos. Por lo general usan dos de sus innatos para mantener activos en todo momento un escudo y una armadura telequinéticas (que incrementa 2 puntos su armadura natural). Su metodología de ataque más habitual es la Balística Telequinética (usando la munición que su propio cuerpo almacena) o el poder Destrozar potenciado con muchos CV, cuando quieren asegurarse de acabar definitivamente con un contrincante. Por lo general, siempre atacarán primero a cualquier adversario de quien sepan o sospechen que posee habilidades mágicas, pues los conjuros son su mayor debilidad. Absorción: Un Tecnócrita tiene la capacidad de absorber todo tipo de material inorgánico en el interior de su cuerpo, “acumulándolo” como un contenedor casi ilimitado de materia. Usando sus capacidades psíquicas para comprimir el espacio que hay dentro de él, puede almacenar hasta veinte y treinta veces su propia masa corporal. Posteriormente, la criatura puede manifestar cualquiera de estos elementos según le convenga, ya sea para obtener munición para su Balística telequinética, reforzar partes de su cuerpo ante determinados tipos de ataque o cualquier otra cosa similar. Por todo ello, generalmente un Tecnócrita siempre posee la munición apropiada para sus ataques (desde estiletes a explosivos), y puede incrementar hasta 2 puntos su Armadura contra un tipo de ataque determinado. Cohesión: Cuando un Tecnócrita es destruido su cuerpo es incapaz de mantener la presión de todos los objetos alojados en su interior y, destrozándolo en el proceso, libera una lluvia de fragmentos de metal que atraviesan cuanto haya cerca de él. En el inicio del turno posterior a su muerte, el cuerpo del Tecnócrita ejecuta un ataque de habilidad final Casi Imposible (240) en un radio de 20 metros. Naturalmente, esto sólo ocurre si la criatura aún tiene multitud de objetos en su interior. Vórtice: Esta capacidad es muy poco habitual en los Tecnócritas, pues menos de un 5% llega a adquirirla (aparentemente, sólo la desarrollan aquellos que usan como base física a individuos que poseían el Don). Vórtice hace que las fibras de la magia se debiliten alrededor de los Tecnócritas, por lo que cualquier conjuro que sea lanzado o entre en una zona de 20 metros de radio de la criatura ve reducido automáticamente su potencial 10 puntos de Zeon. En caso de que esta sustracción disminuya el valor zeónico del sortilegio por debajo de su base, la magia no es capaz de manifestarse y el conjuro simplemente se disipa. Al contrario que las habilidades de Némesis o conjuros de anulación, aunque el foco del conjuro deje de encontrarse en el interior del Vórtice de magia no recupera su valor original, o lo que es lo mismo, pierde realmente esa cantidad de Zeon. En caso de que haya juntos dos o más Técnocritas con esta habilidad, los poderes de Vórtice no se apilan.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entre mundos Especial Puntos de Vida: 265 Categoría: Mentalista Fue: 8 Des: 10 Agi: 6 Con: 10 Pod: 4 Int: 10 Vol: 13 Per: 8 RF 100 RM 20 RP 80 RV 70 RE 70\n\nTurno: 85 Natural Habilidad de ataque: 1 5 Combate desarmado, 180 Cohesión Habilidad de defensa: 5 Esquiva Daño: 20 Combate desarmado (Con), 100 Cohesión (Pen) TA: Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0 CV Libres: 15 Proyección Psíquica: 180 Potencial Psíquico: 120 Disciplinas Psíquicas: Telequinesis. Poderes Psíquicos: Telequinesis menor, Impacto telequinético, Escudo telequinético, Armadura telequinética, Presa telequinetica, Balística, Repulsión, Destrozar, Detección de movimiento, Vuelo telequinético. Innatos: 3 Habilidades esenciales: Exención Física, Inmunidad Psicológica, Acceso aDisciplinasPsíquicas, Concentración Pasiva, Consumición Psíquica, Extenuación Psíquica. Poderes: Resistencia Físicas Única +30 RF, Armadura Física 4, Absorción, Cohesión, Vórtice, Transformación Completa, Vulnerabilidad a la Magia.\n\nTamaño: 18 Medio Regeneración: 3 Tipo de movimiento: 6 Cansancio: Incansable Habilidades Secundarias: Advertir 80, Buscar 80, Ciencia 180, Memorizar 240. Los Tecnócritas son los más peligrosos miembros de La Máquina, los guerreros de elite del “hormiguero”. Nacen de la innatural fusión de una larva avanzada con un cuerpo humano o Duk’zarist (por alguna razón desconocida, únicamente es viable la fusión con ambas especies) a los que se les realiza una delicada operación quirúrgica que sustituye partes de su anatomía por piezas tecnológicas y cristales psíquicos. El resultado es una forma humanoide, repleta de implantes mecánicos, que desarrolla incomparables habilidades psíquicas. La mayoría de los Tecnócritas son completamente lampiños (pierden el pelo durante su transformación) y visten oscuros ropajes ceremoniales, similares a los que podría llevar un sacerdote tenebroso.\n\nSe mueven mecánicamente, pero poseen un porte altivo y solemne, como si todos y cada uno de ellos fueran embajadores que La Máquina ha enviado al mundo. Únicamente siguen los dictados de la lógica, actuando más como máquinas que como seres vivos. Son capaces de hablar todos los idiomas conocidos y, en caso de considerarlo necesario, pueden comunicarse con otros seres. Por desgracia, son muy raras las ocasiones en las que encuentran la más mínima necesidad de hacerlo. En multitud de ocasiones actúan rodeados de Drones, a los que les dan órdenes mentales por la conexión natural que une a todos los integrantes de La Máquina. Prácticamente la totalidad de los Tecnócritas fueron destruidos hace miles de años, aunque aún quedan infinidad de larvas enterradas que permitirían crear nuevos.\n\nPor lo que se sabe, sólo han reaparecido en la isla de Kirdan, más nada dice que no puedan resurgir otras monstruosidades ancestrales en diversos lugares del globo. m oduS oPerandiEl poder de los Tecnócritas radica en sus descomunales habilidades psíquicas y su absoluto dominio telequinético. Gracias a sus poderes mentales, son capaces de protegerse y atacar a numerosos enemigos. Por lo general usan dos de sus innatos para mantener activos en todo momento un escudo y una armadura telequinéticas (que incrementa 2 puntos su armadura natural). Su metodología de ataque más habitual es la Balística Telequinética (usando la munición que su propio cuerpo almacena) o el poder Destrozar potenciado con muchos CV, cuando quieren asegurarse de acabar definitivamente con un contrincante.\n\nPor lo general, siempre atacarán primero a cualquier adversario de quien sepan o sospechen que posee habilidades mágicas, pues los conjuros son su mayor debilidad. Absorción: Un Tecnócrita tiene la capacidad de absorber todo tipo de material inorgánico en el interior de su cuerpo, “acumulándolo” como un contenedor casi ilimitado de materia. Usando sus capacidades psíquicas para comprimir el espacio que hay dentro de él, puede almacenar hasta veinte y treinta veces su propia masa corporal. Posteriormente, la criatura puede manifestar cualquiera de estos elementos según le convenga, ya sea para obtener munición para su Balística telequinética, reforzar partes de su cuerpo ante determinados tipos de ataque o cualquier otra cosa similar.\n\nPor todo ello, generalmente un Tecnócrita siempre posee la munición apropiada para sus ataques (desde estiletes a explosivos), y puede incrementar hasta 2 puntos su Armadura contra un tipo de ataque determinado. Cohesión: Cuando un Tecnócrita es destruido su cuerpo es incapaz de mantener la presión de todos los objetos alojados en su interior y, destrozándolo en el proceso, libera una lluvia de fragmentos de metal que atraviesan cuanto haya cerca de él. En el inicio del turno posterior a su muerte, el cuerpo del Tecnócrita ejecuta un ataque de habilidad final Casi Imposible (240) en un radio de 20 metros. Naturalmente, esto sólo ocurre si la criatura aún tiene multitud de objetos en su interior.\n\nVórtice: Esta capacidad es muy poco habitual en los Tecnócritas, pues menos de un 5% llega a adquirirla (aparentemente, sólo la desarrollan aquellos que usan como base física a individuos que poseían el Don). Vórtice hace que las fibras de la magia se debiliten alrededor de los Tecnócritas, por lo que cualquier conjuro que sea lanzado o entre en una zona de 20 metros de radio de la criatura ve reducido automáticamente su potencial 10 puntos de Zeon. En caso de que esta sustracción disminuya el valor zeónico del sortilegio por debajo de su base, la magia no es capaz de manifestarse y el conjuro simplemente se disipa. Al contrario que las habilidades de Némesis o conjuros de anulación, aunque el foco del conjuro deje de encontrarse en el interior del Vórtice de magia no recupera su valor original, o lo que es lo mismo, pierde realmente esa cantidad de Zeon.\n\nEn caso de que haya juntos dos o más Técnocritas con esta habilidad, los poderes de Vórtice no se apilan. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 98</p><p><strong>Entrada:</strong> Tecnócrita</p><p><strong>Variante:</strong> La máquina</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos Especial</p><p><strong>Categoría:</strong> Mentalista Fue: 8 Des: 10 Agi: 6 Con: 10 Pod: 4 Int: 10 Vol: 13 Per: 8 RF 100 RM 20 RP 80 RV 70 RE 70</p><p><strong>Habilidades esenciales:</strong> Exención Física, Inmunidad Psicológica, Acceso aDisciplinasPsíquicas, Concentración Pasiva, Consumición Psíquica, Extenuación Psíquica.</p><p><strong>Poderes:</strong> Resistencia Físicas Única +30 RF, Armadura Física 4, Absorción, Cohesión, Vórtice, Transformación Completa, Vulnerabilidad a la Magia.</p><p><strong>Disciplinas:</strong> Psíquicas: Telequinesis.</p><p><strong>Daño:</strong> 20 Combate desarmado (Con), 100 Cohesión (Pen)</p><p><strong>TA:</strong> Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0</p><p><strong>Habilidades secundarias:</strong> Advertir 80, Buscar 80, Ciencia 180, Memorizar 240</p><p><strong>Descripción breve:</strong> Los Tecnócritas son los más peligrosos miembros de La Máquina, los guerreros de elite del “hormiguero”. Nacen de la innatural fusión de una larva avanzada con un cuerpo humano o Duk’zarist (por alguna razón desconocida, únicamente es viable la fusión con ambas especies) a los que se les realiza una delicada operación quirúrgica que sustituye partes de su anatomía por piezas tecnológicas y cristales psíquicos. El resultado es una forma humanoide, repleta de implantes mecánicos, que desarrolla incomparables habilidades psíquicas. La mayoría de los Tecnócritas son completamente lampiños (pierden el pelo durante su transformación) y visten oscuros ropajes ceremoniales, similares a los que podría llevar un sacerdote tenebroso. Se mueven mecánicamente, pero poseen un porte altivo y solemne, como si todos y cada uno de ellos fueran embajadores que La Máquina ha enviado al mundo. Únicamente siguen los dictados de la lógica, actuando más como máquinas que como seres vivos. Son capaces de hablar todos los idiomas conocidos y, en caso de considerarlo necesario, pueden comunicarse con otros seres. Por desgracia, son muy raras las ocasiones en las que encuentran la más mínima necesidad de hacerlo. En multitud de ocasiones actúan rodeados de Drones, a los que les dan órdenes mentales por la conexión natural que une a todos los integrantes de La Máquina. Prácticamente la totalidad de los Tecnócritas fueron destruidos hace miles de años, aunque aún quedan infinidad de larvas enterradas que permitirían crear nuevos. Por lo que se sabe, sólo han reaparecido en la isla de Kirdan, más nada dice que no puedan resurgir otras monstruosidades ancestrales en diversos lugares del globo. m oduS oPerandiEl poder de los Tecnócritas radica en sus descomunales habilidades psíquicas y su absoluto dominio telequinético. Gracias a sus poderes mentales, son capaces de protegerse y atacar a numerosos enemigos. Por lo general usan dos de sus innatos para mantener activos en todo momento un escudo y una armadura telequinéticas (que incrementa 2 puntos su armadura natural). Su metodología de ataque más habitual es la Balística Telequinética (usando la munición que su propio cuerpo almacena) o el poder Destrozar potenciado con muchos CV, cuando quieren asegurarse de acabar definitivamente con un contrincante. Por lo general, siempre atacarán primero a cualquier adversario de quien sepan o sospechen que posee habilidades mágicas, pues los conjuros son su mayor debilidad. Absorción: Un Tecnócrita tiene la capacidad de absorber todo tipo de material inorgánico en el interior de su cuerpo, “acumulándolo” como un contenedor casi ilimitado de materia. Usando sus capacidades psíquicas para comprimir el espacio que hay dentro de él, puede almacenar hasta veinte y treinta veces su propia masa corporal. Posteriormente, la criatura puede manifestar cualquiera de estos elementos según le convenga, ya sea para obtener munición para su Balística telequinética, reforzar partes de su cuerpo ante determinados tipos de ataque o cualquier otra cosa similar. Por todo ello, generalmente un Tecnócrita siempre posee la munición apropiada para sus ataques (desde estiletes a explosivos), y puede incrementar hasta 2 puntos su Armadura contra un tipo de ataque determinado. Cohesión: Cuando un Tecnócrita es destruido su cuerpo es incapaz de mantener la presión de todos los objetos alojados en su interior y, destrozándolo en el proceso, libera una lluvia de fragmentos de metal que atraviesan cuanto haya cerca de él. En el inicio del turno posterior a su muerte, el cuerpo del Tecnócrita ejecuta un ataque de habilidad final Casi Imposible (240) en un radio de 20 metros. Naturalmente, esto sólo ocurre si la criatura aún tiene multitud de objetos en su interior. Vórtice: Esta capacidad es muy poco habitual en los Tecnócritas, pues menos de un 5% llega a adquirirla (aparentemente, sólo la desarrollan aquellos que usan como base física a individuos que poseían el Don). Vórtice hace que las fibras de la magia se debiliten alrededor de los Tecnócritas, por lo que cualquier conjuro que sea lanzado o entre en una zona de 20 metros de radio de la criatura ve reducido automáticamente su potencial 10 puntos de Zeon. En caso de que esta sustracción disminuya el valor zeónico del sortilegio por debajo de su base, la magia no es capaz de manifestarse y el conjuro simplemente se disipa. Al contrario que las habilidades de Némesis o conjuros de anulación, aunque el foco del conjuro deje de encontrarse en el interior del Vórtice de magia no recupera su valor original, o lo que es lo mismo, pierde realmente esa cantidad de Zeon. En caso de que haya juntos dos o más Técnocritas con esta habilidad, los poderes de Vórtice no se apilan.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 6\n\nClase: Entre mundos Especial Puntos de Vida: 265 Categoría: Mentalista Fue: 8 Des: 10 Agi: 6 Con: 10 Pod: 4 Int: 10 Vol: 13 Per: 8 RF 100 RM 20 RP 80 RV 70 RE 70\n\nTurno: 85 Natural Habilidad de ataque: 1 5 Combate desarmado, 180 Cohesión Habilidad de defensa: 5 Esquiva Daño: 20 Combate desarmado (Con), 100 Cohesión (Pen) TA: Natural Fil 4 Con 4 Pen 4 Cal 4 Fri 4 Ele 4 Ene 0 CV Libres: 15 Proyección Psíquica: 180 Potencial Psíquico: 120 Disciplinas Psíquicas: Telequinesis. Poderes Psíquicos: Telequinesis menor, Impacto telequinético, Escudo telequinético, Armadura telequinética, Presa telequinetica, Balística, Repulsión, Destrozar, Detección de movimiento, Vuelo telequinético. Innatos: 3 Habilidades esenciales: Exención Física, Inmunidad Psicológica, Acceso aDisciplinasPsíquicas, Concentración Pasiva, Consumición Psíquica, Extenuación Psíquica. Poderes: Resistencia Físicas Única +30 RF, Armadura Física 4, Absorción, Cohesión, Vórtice, Transformación Completa, Vulnerabilidad a la Magia.\n\nTamaño: 18 Medio Regeneración: 3 Tipo de movimiento: 6 Cansancio: Incansable Habilidades Secundarias: Advertir 80, Buscar 80, Ciencia 180, Memorizar 240. Los Tecnócritas son los más peligrosos miembros de La Máquina, los guerreros de elite del “hormiguero”. Nacen de la innatural fusión de una larva avanzada con un cuerpo humano o Duk’zarist (por alguna razón desconocida, únicamente es viable la fusión con ambas especies) a los que se les realiza una delicada operación quirúrgica que sustituye partes de su anatomía por piezas tecnológicas y cristales psíquicos. El resultado es una forma humanoide, repleta de implantes mecánicos, que desarrolla incomparables habilidades psíquicas. La mayoría de los Tecnócritas son completamente lampiños (pierden el pelo durante su transformación) y visten oscuros ropajes ceremoniales, similares a los que podría llevar un sacerdote tenebroso.\n\nSe mueven mecánicamente, pero poseen un porte altivo y solemne, como si todos y cada uno de ellos fueran embajadores que La Máquina ha enviado al mundo. Únicamente siguen los dictados de la lógica, actuando más como máquinas que como seres vivos. Son capaces de hablar todos los idiomas conocidos y, en caso de considerarlo necesario, pueden comunicarse con otros seres. Por desgracia, son muy raras las ocasiones en las que encuentran la más mínima necesidad de hacerlo. En multitud de ocasiones actúan rodeados de Drones, a los que les dan órdenes mentales por la conexión natural que une a todos los integrantes de La Máquina. Prácticamente la totalidad de los Tecnócritas fueron destruidos hace miles de años, aunque aún quedan infinidad de larvas enterradas que permitirían crear nuevos.\n\nPor lo que se sabe, sólo han reaparecido en la isla de Kirdan, más nada dice que no puedan resurgir otras monstruosidades ancestrales en diversos lugares del globo. m oduS oPerandiEl poder de los Tecnócritas radica en sus descomunales habilidades psíquicas y su absoluto dominio telequinético. Gracias a sus poderes mentales, son capaces de protegerse y atacar a numerosos enemigos. Por lo general usan dos de sus innatos para mantener activos en todo momento un escudo y una armadura telequinéticas (que incrementa 2 puntos su armadura natural). Su metodología de ataque más habitual es la Balística Telequinética (usando la munición que su propio cuerpo almacena) o el poder Destrozar potenciado con muchos CV, cuando quieren asegurarse de acabar definitivamente con un contrincante.\n\nPor lo general, siempre atacarán primero a cualquier adversario de quien sepan o sospechen que posee habilidades mágicas, pues los conjuros son su mayor debilidad. Absorción: Un Tecnócrita tiene la capacidad de absorber todo tipo de material inorgánico en el interior de su cuerpo, “acumulándolo” como un contenedor casi ilimitado de materia. Usando sus capacidades psíquicas para comprimir el espacio que hay dentro de él, puede almacenar hasta veinte y treinta veces su propia masa corporal. Posteriormente, la criatura puede manifestar cualquiera de estos elementos según le convenga, ya sea para obtener munición para su Balística telequinética, reforzar partes de su cuerpo ante determinados tipos de ataque o cualquier otra cosa similar.\n\nPor todo ello, generalmente un Tecnócrita siempre posee la munición apropiada para sus ataques (desde estiletes a explosivos), y puede incrementar hasta 2 puntos su Armadura contra un tipo de ataque determinado. Cohesión: Cuando un Tecnócrita es destruido su cuerpo es incapaz de mantener la presión de todos los objetos alojados en su interior y, destrozándolo en el proceso, libera una lluvia de fragmentos de metal que atraviesan cuanto haya cerca de él. En el inicio del turno posterior a su muerte, el cuerpo del Tecnócrita ejecuta un ataque de habilidad final Casi Imposible (240) en un radio de 20 metros. Naturalmente, esto sólo ocurre si la criatura aún tiene multitud de objetos en su interior.\n\nVórtice: Esta capacidad es muy poco habitual en los Tecnócritas, pues menos de un 5% llega a adquirirla (aparentemente, sólo la desarrollan aquellos que usan como base física a individuos que poseían el Don). Vórtice hace que las fibras de la magia se debiliten alrededor de los Tecnócritas, por lo que cualquier conjuro que sea lanzado o entre en una zona de 20 metros de radio de la criatura ve reducido automáticamente su potencial 10 puntos de Zeon. En caso de que esta sustracción disminuya el valor zeónico del sortilegio por debajo de su base, la magia no es capaz de manifestarse y el conjuro simplemente se disipa. Al contrario que las habilidades de Némesis o conjuros de anulación, aunque el foco del conjuro deje de encontrarse en el interior del Vórtice de magia no recupera su valor original, o lo que es lo mismo, pierde realmente esa cantidad de Zeon.\n\nEn caso de que haya juntos dos o más Técnocritas con esta habilidad, los poderes de Vórtice no se apilan. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 6
-      },
       "notes": [
         {
           "_id": "note-tecnocrita-la-maquina-3",
@@ -513,52 +435,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         }
       },
       "secondaries": {
@@ -569,9 +475,6 @@
         "initiative": {
           "base": {
             "value": 85
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -622,10 +525,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 30
+              "value": 100
             },
             "final": {
               "value": 0
@@ -633,10 +533,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -644,10 +541,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 7015
+              "value": 7085
             },
             "final": {
               "value": 0
@@ -655,10 +549,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -30
+              "value": 20
             },
             "final": {
               "value": 0
@@ -666,10 +557,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 80
             },
             "final": {
               "value": 0
@@ -681,206 +569,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 80
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 180
+          },
+          "final": {
+            "value": 0
           }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 240
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 180
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 5
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -911,11 +1048,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -927,14 +1060,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -948,14 +1086,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1060,15 +1195,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1080,37 +1211,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1233,9 +1384,6 @@
       "psychicPoints": {
         "value": 15,
         "max": 15
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

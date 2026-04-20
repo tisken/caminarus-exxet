@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
           "value": true
-        },
-        "effects": {
-          "value": false
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 31</p><p><strong>Entrada:</strong> Anne Aslind Shotterlein</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Hechiz. Mentalista Fue: 5 Des: 7 Agi: 6 Con: 6 Pod: 10 Int: 10 Vol: 9 Per: 7 RF 35 RM 55 RP 40 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Don, Acceso a un poder mental, Concentración extrema, Consumición Psíquica.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 5 Combate desarmado</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Estilo 20, Advertir 15, Buscar 15, Baile 20, Historia 20, Memorizar 20, Ocultismo 25, Valoración mágica 60</p><p><strong>Descripción breve:</strong> Anne Aslind es la hija menor de la familia Shotterlein, una importante casa noble de Gabriel. Criada entre lujos, la joven es una belleza frágil y delicada, de tez pálida y largos cabellos castaños. Desde el momento en que nació, el destino presagió que Anne no iba a ser normal. Sus poderes psíquicos latentes no tardaron en despertar, e involuntariamente comenzó a escuchar los pensamientos de todos aquellos que la rodeaban. Para la chiquilla fue una experiencia traumática, sobre todo el día que descubrió que su familia se preocupaba más por los títulos nobiliarios que por ella misma. Además, de algún modo, sus habilidades mentales le provocaban terribles dolores, sobre todo cuando a su alrededor se agolpaban muchas personas. Por ello empezó a evitar a la gente, convirtiéndose en una joven solitaria y sin amigas. Alos doce años, cuando en contra de sus propios deseos fue presentada oficialmente en sociedad, Anne sufrió un ataque a causa de la multitud que por poco le cuesta la vida. Desde entonces se apartó completamente del mundo, encerrándose en la gran biblioteca de su mansión, rodeada de la seguridad que los libros le brindaban. No le interesaban las ciencias ni el aprendizaje; para ella, su verdadera obsesión fue comprender el origen de su “maldición” y aprender a controlarla. No obstante, durante esos años hizo un importante descubrimiento cuando uno de los pensamientos de su padre se filtró por error en su cabeza: en los sótanos de la casa había un pequeño emplazamiento oculto, que su progenitor había tratado de mantener en secreto. Perteneció a su abuelo, quien había estudiado las ciencias ocultas invirtiendo en ello una considerable fortuna. Anne comenzó a visitar el lugar con mayor frecuencia, empapándose de todos los conocimientos arcanos que contenían aquellos libros y llegando a dominar sus habilidades; como su antecesor, ella misma había nacido con el Don de la magia. Finalmente, fue incluso capaz de comprender en qué consistían sus poderes mentales y, con mucho esfuerzo, logró finalmente controlarlos. Pero no hubo descanso para Anne. Justo cuando pensaba que podría tener un poco de paz y ser capaz de relacionarse con la gente, sus padres le anunciaron que debía casarse con un noble importante. Aquel hombre no sólo la quintuplicaba en edad, sino que sus oscuros y crueles pensamientos enfermaban a la joven cada vez que se acercaba a ella. Por ello, y a falta de un año para la ceremonia, Anne le rogó a sus padres que le permitieran hacer un pequeño viaje por el mundo, a lo que ellos accedieron de buena gana por librarse un tiempo de su problemática hija. Anne huye de su pasado; en su interior, desea romper todos los lazos con su familia y llevar una vida normal. Aun así, es consciente de que sus habilidades y conocimientos difícilmente van a permitírselo. Posesiones: Dos maletas, Cuatro mudas de ropa cara, Un sello familiar, 150 Escudos de Oro. Lamya Maximov</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 90 Categoría: Hechiz. Mentalista Fue: 5 Des: 7 Agi: 6 Con: 6 Pod: 10 Int: 10 Vol: 9 Per: 7 RF 35 RM 55 RP 40 RV 35 RE 35\n\nTurno: 60 Natural Habilidad de ataque: 5 Combate desarmado Habilidad de defensa: 5 Esquiva Daño: 5 Combate desarmado Llevar Armadura: 0 TA: Ninguna ACT: 40\n\nZeon: 485\n\nProyección Mágica: 55 Nivel de magia: 26 Creación Ventajas y desventajas: Don, Acceso a un poder mental, Concentración extrema, Consumición Psíquica. Habilidades naturales: Ninguna. Potencial: 50 CVs libres: 5 Poderes psíquicos: Afinidad a una disciplina; Telepatía (Lectura mental, Ilusión psíquica, Análisis mental). Proyección Psíquica: 30 Innatos: 1 de movimiento: 6 Cansancio: 6 Habilidades Secundarias: Estilo 20, Advertir 1 5, Buscar 1 5, Baile 20, Historia 20, Memorizar 20, Ocultismo 25, Valoración mágica 60. Anne Aslind es la hija menor de la familia Shotterlein, una importante casa noble de Gabriel. Criada entre lujos, la joven es una belleza frágil y delicada, de tez pálida y largos cabellos castaños. Desde el momento en que nació, el destino presagió que Anne no iba a ser normal.\n\nSus poderes psíquicos latentes no tardaron en despertar, e involuntariamente comenzó a escuchar los pensamientos de todos aquellos que la rodeaban. Para la chiquilla fue una experiencia traumática, sobre todo el día que descubrió que su familia se preocupaba más por los títulos nobiliarios que por ella misma. Además, de algún modo, sus habilidades mentales le provocaban terribles dolores, sobre todo cuando a su alrededor se agolpaban muchas personas. Por ello empezó a evitar a la gente, convirtiéndose en una joven solitaria y sin amigas. Alos doce años, cuando en contra de sus propios deseos fue presentada oficialmente en sociedad, Anne sufrió un ataque a causa de la multitud que por poco le cuesta la vida. Desde entonces se apartó completamente del mundo, encerrándose en la gran biblioteca de su mansión, rodeada de la seguridad que los libros le brindaban.\n\nNo le interesaban las ciencias ni el aprendizaje; para ella, su verdadera obsesión fue comprender el origen de su “maldición” y aprender a controlarla. No obstante, durante esos años hizo un importante descubrimiento cuando uno de los pensamientos de su padre se filtró por error en su cabeza: en los sótanos de la casa había un pequeño emplazamiento oculto, que su progenitor había tratado de mantener en secreto. Perteneció a su abuelo, quien había estudiado las ciencias ocultas invirtiendo en ello una considerable fortuna. Anne comenzó a visitar el lugar con mayor frecuencia, empapándose de todos los conocimientos arcanos que contenían aquellos libros y llegando a dominar sus habilidades; como su antecesor, ella misma había nacido con el Don de la magia. Finalmente, fue incluso capaz de comprender en qué consistían sus poderes mentales y, con mucho esfuerzo, logró finalmente controlarlos.\n\nPero no hubo descanso para Anne. Justo cuando pensaba que podría tener un poco de paz y ser capaz de relacionarse con la gente, sus padres le anunciaron que debía casarse con un noble importante. Aquel hombre no sólo la quintuplicaba en edad, sino que sus oscuros y crueles pensamientos enfermaban a la joven cada vez que se acercaba a ella. Por ello, y a falta de un año para la ceremonia, Anne le rogó a sus padres que le permitieran hacer un pequeño viaje por el mundo, a lo que ellos accedieron de buena gana por librarse un tiempo de su problemática hija. Anne huye de su pasado; en su interior, desea romper todos los lazos con su familia y llevar una vida normal. Aun así, es consciente de que sus habilidades y conocimientos difícilmente van a permitírselo. Posesiones: Dos maletas, Cuatro mudas de ropa cara, Un sello familiar, 1 50 Escudos de Oro. Lamya Maximov</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 31</p><p><strong>Entrada:</strong> Anne Aslind Shotterlein</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Hechiz. Mentalista Fue: 5 Des: 7 Agi: 6 Con: 6 Pod: 10 Int: 10 Vol: 9 Per: 7 RF 35 RM 55 RP 40 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Don, Acceso a un poder mental, Concentración extrema, Consumición Psíquica.</p><p><strong>Habilidades naturales:</strong> Ninguna.</p><p><strong>Daño:</strong> 5 Combate desarmado</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Estilo 20, Advertir 15, Buscar 15, Baile 20, Historia 20, Memorizar 20, Ocultismo 25, Valoración mágica 60</p><p><strong>Descripción breve:</strong> Anne Aslind es la hija menor de la familia Shotterlein, una importante casa noble de Gabriel. Criada entre lujos, la joven es una belleza frágil y delicada, de tez pálida y largos cabellos castaños. Desde el momento en que nació, el destino presagió que Anne no iba a ser normal. Sus poderes psíquicos latentes no tardaron en despertar, e involuntariamente comenzó a escuchar los pensamientos de todos aquellos que la rodeaban. Para la chiquilla fue una experiencia traumática, sobre todo el día que descubrió que su familia se preocupaba más por los títulos nobiliarios que por ella misma. Además, de algún modo, sus habilidades mentales le provocaban terribles dolores, sobre todo cuando a su alrededor se agolpaban muchas personas. Por ello empezó a evitar a la gente, convirtiéndose en una joven solitaria y sin amigas. Alos doce años, cuando en contra de sus propios deseos fue presentada oficialmente en sociedad, Anne sufrió un ataque a causa de la multitud que por poco le cuesta la vida. Desde entonces se apartó completamente del mundo, encerrándose en la gran biblioteca de su mansión, rodeada de la seguridad que los libros le brindaban. No le interesaban las ciencias ni el aprendizaje; para ella, su verdadera obsesión fue comprender el origen de su “maldición” y aprender a controlarla. No obstante, durante esos años hizo un importante descubrimiento cuando uno de los pensamientos de su padre se filtró por error en su cabeza: en los sótanos de la casa había un pequeño emplazamiento oculto, que su progenitor había tratado de mantener en secreto. Perteneció a su abuelo, quien había estudiado las ciencias ocultas invirtiendo en ello una considerable fortuna. Anne comenzó a visitar el lugar con mayor frecuencia, empapándose de todos los conocimientos arcanos que contenían aquellos libros y llegando a dominar sus habilidades; como su antecesor, ella misma había nacido con el Don de la magia. Finalmente, fue incluso capaz de comprender en qué consistían sus poderes mentales y, con mucho esfuerzo, logró finalmente controlarlos. Pero no hubo descanso para Anne. Justo cuando pensaba que podría tener un poco de paz y ser capaz de relacionarse con la gente, sus padres le anunciaron que debía casarse con un noble importante. Aquel hombre no sólo la quintuplicaba en edad, sino que sus oscuros y crueles pensamientos enfermaban a la joven cada vez que se acercaba a ella. Por ello, y a falta de un año para la ceremonia, Anne le rogó a sus padres que le permitieran hacer un pequeño viaje por el mundo, a lo que ellos accedieron de buena gana por librarse un tiempo de su problemática hija. Anne huye de su pasado; en su interior, desea romper todos los lazos con su familia y llevar una vida normal. Aun así, es consciente de que sus habilidades y conocimientos difícilmente van a permitírselo. Posesiones: Dos maletas, Cuatro mudas de ropa cara, Un sello familiar, 150 Escudos de Oro. Lamya Maximov</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 90 Categoría: Hechiz. Mentalista Fue: 5 Des: 7 Agi: 6 Con: 6 Pod: 10 Int: 10 Vol: 9 Per: 7 RF 35 RM 55 RP 40 RV 35 RE 35\n\nTurno: 60 Natural Habilidad de ataque: 5 Combate desarmado Habilidad de defensa: 5 Esquiva Daño: 5 Combate desarmado Llevar Armadura: 0 TA: Ninguna ACT: 40\n\nZeon: 485\n\nProyección Mágica: 55 Nivel de magia: 26 Creación Ventajas y desventajas: Don, Acceso a un poder mental, Concentración extrema, Consumición Psíquica. Habilidades naturales: Ninguna. Potencial: 50 CVs libres: 5 Poderes psíquicos: Afinidad a una disciplina; Telepatía (Lectura mental, Ilusión psíquica, Análisis mental). Proyección Psíquica: 30 Innatos: 1 de movimiento: 6 Cansancio: 6 Habilidades Secundarias: Estilo 20, Advertir 1 5, Buscar 1 5, Baile 20, Historia 20, Memorizar 20, Ocultismo 25, Valoración mágica 60. Anne Aslind es la hija menor de la familia Shotterlein, una importante casa noble de Gabriel. Criada entre lujos, la joven es una belleza frágil y delicada, de tez pálida y largos cabellos castaños. Desde el momento en que nació, el destino presagió que Anne no iba a ser normal.\n\nSus poderes psíquicos latentes no tardaron en despertar, e involuntariamente comenzó a escuchar los pensamientos de todos aquellos que la rodeaban. Para la chiquilla fue una experiencia traumática, sobre todo el día que descubrió que su familia se preocupaba más por los títulos nobiliarios que por ella misma. Además, de algún modo, sus habilidades mentales le provocaban terribles dolores, sobre todo cuando a su alrededor se agolpaban muchas personas. Por ello empezó a evitar a la gente, convirtiéndose en una joven solitaria y sin amigas. Alos doce años, cuando en contra de sus propios deseos fue presentada oficialmente en sociedad, Anne sufrió un ataque a causa de la multitud que por poco le cuesta la vida. Desde entonces se apartó completamente del mundo, encerrándose en la gran biblioteca de su mansión, rodeada de la seguridad que los libros le brindaban.\n\nNo le interesaban las ciencias ni el aprendizaje; para ella, su verdadera obsesión fue comprender el origen de su “maldición” y aprender a controlarla. No obstante, durante esos años hizo un importante descubrimiento cuando uno de los pensamientos de su padre se filtró por error en su cabeza: en los sótanos de la casa había un pequeño emplazamiento oculto, que su progenitor había tratado de mantener en secreto. Perteneció a su abuelo, quien había estudiado las ciencias ocultas invirtiendo en ello una considerable fortuna. Anne comenzó a visitar el lugar con mayor frecuencia, empapándose de todos los conocimientos arcanos que contenían aquellos libros y llegando a dominar sus habilidades; como su antecesor, ella misma había nacido con el Don de la magia. Finalmente, fue incluso capaz de comprender en qué consistían sus poderes mentales y, con mucho esfuerzo, logró finalmente controlarlos.\n\nPero no hubo descanso para Anne. Justo cuando pensaba que podría tener un poco de paz y ser capaz de relacionarse con la gente, sus padres le anunciaron que debía casarse con un noble importante. Aquel hombre no sólo la quintuplicaba en edad, sino que sus oscuros y crueles pensamientos enfermaban a la joven cada vez que se acercaba a ella. Por ello, y a falta de un año para la ceremonia, Anne le rogó a sus padres que le permitieran hacer un pequeño viaje por el mundo, a lo que ellos accedieron de buena gana por librarse un tiempo de su problemática hija. Anne huye de su pasado; en su interior, desea romper todos los lazos con su familia y llevar una vida normal. Aun así, es consciente de que sus habilidades y conocimientos difícilmente van a permitírselo. Posesiones: Dos maletas, Cuatro mudas de ropa cara, Un sello familiar, 1 50 Escudos de Oro. Lamya Maximov</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-anne-aslind-shotterlein-1",
@@ -351,52 +270,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -407,9 +310,6 @@
         "initiative": {
           "base": {
             "value": 60
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -460,10 +360,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -471,10 +368,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -482,10 +376,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 3525
+              "value": 3560
             },
             "final": {
               "value": 0
@@ -493,10 +384,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10
+              "value": 55
             },
             "final": {
               "value": 0
@@ -504,10 +392,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -519,218 +404,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 5
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 5
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -761,11 +883,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -777,16 +895,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 485,
         "max": 485
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -798,14 +921,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -910,15 +1030,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -930,37 +1046,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1083,9 +1219,6 @@
       "psychicPoints": {
         "value": 5,
         "max": 5
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

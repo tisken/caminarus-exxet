@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,28 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
-        "perceivePsychic": {
+        "inhuman": {
           "value": true
         },
         "inmaterial": {
           "value": true
         },
-        "inhuman": {
+        "perceiveMystic": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "perceivePsychic": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +153,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +173,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 80
         }
       },
       "aspect": {
@@ -274,7 +207,7 @@
           "value": "Soberano de las bestias del mundo"
         },
         "size": {
-          "value": 28
+          "value": "28"
         }
       },
       "advantages": [],
@@ -292,7 +225,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 28</p><p><strong>Entrada:</strong> Behemoth</p><p><strong>Variante:</strong> Soberano de las bestias del mundo</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 35</p><p><strong>Categoría:</strong> Maestro en armas Fue: 15 Des: 13 Agi: 9 Con: 15 Pod: 10 Int: 5 Vol: 10 Per: 9 RF 150 RM 135 RP 95 RV 150 RE 150</p><p><strong>Habilidades naturales:</strong> Tabla de Ataque en Área.</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrenaturales, Inhumanidad, Tamaño Innatural, Exención Física.</p><p><strong>Poderes:</strong> Armas Naturales: Mezira (Crítico Incrementado +40), Akamuth (Ataque Adicional -20, +60 al Daño) y Cola, Daña Energía, Jinku Enkido, Resistencia Física +40, Resistencia Mística +40, Expulsión, Inmunidad Física, Ver lo Sobrenatural.</p><p><strong>Daño:</strong> 130 Mezira (Fil / Pen), 100 Coletazo (CON), 190 Akamuth (Fil), 100 Jinku Enkido (Ene)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Intimidar 40, Advertir 25, Buscar 25, Frialdad 85, Proezas de Fuerza 150, Resistir el Dolor 160</p><p><strong>Descripción breve:</strong> Las leyendas cuentan que el Behemoth es el supremo soberano de todas las bestias que caminan sobre la tierra, una antigua fuerza destructiva cuyo poder es equivalente incluso al de los dragones más antiguos. No es mucho lo que se sabe de él; ni sus orígenes ni su naturaleza han sido nunca develadas. Una vieja teoría asegura que es una representación del espíritu violento de todas las criaturas de la tierra (lo que, de algún modo, lo convertiría en un Aeon), pero no hay nada que l o sustente más allá de las meras especulaciones. Sea como sea, el Behemoth es un titán humanoide de piel azulada (erguido mide alrededor de los 8 metros de altura). Sus manos son garras que supuran sangre constantemente y de su espalda brotan dos protuberancias que parecen una mezcla entre alas y descomunales zarpas. También posee una monstruosa cola, aunque su característica más llamativa es el demoníaco rostro que se encuentra situado en su pecho, como una segunda cara. Pese a que supuestamente tiene cierto grado de inteligencia, lo cierto es que el Behemoth nunca se ha comunicado con nadie. Siempre aparece misteriosamente en lugares dispares, sin aparente conexión entre sí, y empieza a destruirlo todo mientras busca a los oponentes más poderosos que pueda encontrar. Su apodo de “Soberano de las Bestias” proviene del hecho de que cada vez que aparece, junto a él se alzan todo tipo de monstruosidades que siguen su estela de destrucción. Como si trasmitiera su ferocidad, simplemente por andar por el mundo todos los seres que hay cerca de él incrementan su violencia natural. Otro de los mayores misterios relacionados con esta criatura es que se ignora completamente si se trata o no de un ente único. Pese a su considerable poder, a lo largo de la historia ha sido destruido en varias ocasiones, sólo para reaparecer aparentemente indemne algún tiempo después en algún lugar remoto. Por ello nadie sabe si sólo existe uno, pero por alguna causa ignota puede volver a la vida, o si por el contrario hay multitud de ellos. Actualmente lleva varios siglos sin aparecer, pero nadie duda de que pueda hacerlo en algún momento inesperado para dar comienzo nuevamente a su destructivo ciclo. m oduS oPerandiElBehemoth lucha motivado por un sentimiento primario de medir su poder con el de otros seres que no se sometan a él. No tiene deseos de conquistar; sólo de combatir. Por ello, cada vez que se manifiesta en el mundo vaga luchando con todo aquello que no le siga, destruyendo pueblos o ejércitos por igual. Cuando encuentra a una persona o grupo de individuos a los que reconoce como dignos antagonistas activa Jinku Enkido, encerrando a sus deseados adversarios dentro de una impenetrable cúpula de energía que le permite luchar sin interrupción. Si bien no le importa que las criaturas que le siguen luchen a su lado en combates multitudinarios (como cuando en el pasado ha afrontado grandes ejércitos) jamás permite que se involucren a su favor en una lucha contra los que considera sus enemigos. En tales casos, únicamente se sirve de su poder personal. Mezira: Mezira o “Las Manos Ensangrentadas que lo Despedazan Todo” son las terroríficas garras del Behemoth, que poseen la capacidad sobrenatural de despedazar al instante todo aquello que tocan. El Soberano de las Bestias las utiliza como principal medio de ataque y, en caso de que cause un crítico con ellas, obtiene un bono de +40 a la tirada para determinar sus efectos. Coletazo: La cola del Behemoth le permite realizar un ataque en área sobre todos aquellos que se encuentren a menos de 10 metros de él. Akamuth: De la espalda del Behemoth brotan Akamuth, “Las Alas que Desgarran los Cielos”, dos colosales extremidades afiladas como garras con un potencial destructivo incomparable. En combate, puede usarlas para realizar un ataque adicional cada asalto ya sea junto a un golpe de cola o de garras. Jinku Enkido: El Soberano de las Bestias únicamente activa esta habilidad al iniciar un combate que considera interesante. Como un vórtice de pura destrucción, el Behemoth desencadena una ola de poder que arrasa todo lo que se encuentre a un centenar de metros creando el Jinku Enkido o “Mundo de la Destrucción Perfecta”. Al usarlo, la cara de su pecho despierta y abre los ojos, provocando la aparición de una cúpula de energía que ataca y engulle a todo aquel que esté a menos de cien metros de él. Aquellos que sobrevivan quedan automáticamente atrapados en el interior de la cúpula; mientras esta se mantiene, nadie es capaz de entrar o salir de ella de modo alguno. No se sabe exactamente cuales son las características sobrenaturales de ese espacio, pero se teoriza que es un lugar a medio camino entre La Vigilia y la realidad creado a partir del poder existencial del Behemoth. Únicamente seres con Gnosis superior al del Soberano son libres de entrar y salir de esa zona. En el interior del Jinku Enkido cada turno ocurren sucesos inesperados, que modifican ligeramente el curso de los acontecimientos del combate. Al inicio de cada asalto, lanza un D10 atendiendo a los siguientes resultados; 1-2; Este turno el Behemoth obtiene un +20 a su Habilidad de Ataque y no pierde la acción ni siquiera si recibe daños o es puesto a la defensiva. 3-4; Al inicio del asalto, todos aquellos que no hayan obtenido un resultado de sorpresa en su iniciativa contra él han de superar un control de Agilidad aplicando un penalizador de -1 a su atributo o son derribados automáticamente. Naturalmente, sólo afecta a individuos que caminen sobre la superficie del suelo. El terremoto tiene como punto de inicio el Behemot, y este no es afectado por el temblor. 5-6; El Behemoth recupera 100 Puntos de Vida al inicio del turno. 7-8; Toda la cúpula se llena de imágenes aterradoras que penetran en la mente de quienes se encuentren en ella. Aquellos que durante ese asalto usen su sentido de la vista han de superar un control de RP contra 140 o sufrirán el estado de Miedo durante un turno por cada diez puntos por los que fallaron la Resistencia. El Behemoth no es afectado por esta habilidad. 9-10; La gravedad dentro de la cúpula se dobla, por lo que todos aquellos que se encuentren en su interior han de superar un control de de Fuerza aplicando un penalizador de -1 a su atributo o sufren un -20 a toda acción. Si fallan el control por más de 5 puntos, quedan sometidos aParalizaciónParcial. El Behemoth no es afectado por esta habilidad. La cúpula del Jinku Enkido permanece activa hasta que el Behemoth es destruido o este acaba con todos los adversarios que se encuentren en su interior. Tras activarla, ha de esperar al menos una hora antes de poder volver a utilizarla. Expulsión: Si lo desea, el Behemoth puede expulsar a un único individuo del Jinku Enkido, que será incapaz de regresar al interior de la cúpula hasta que esta no desaparezca. Esta habilidad es una acción completa, y el Behemoth no puede atacar en el mismo asalto en el que la usa. Inmunidad Física: Sólo las armas y ataques capaces de dañar energía pueden afectar al Soberano. l a b estia p rimorDialLa teoría más oscura sobre el Soberano de las Bestias es que no se trata de un auténtico ser viviente, sino la sombra onírica del verdadero Behemoth, un Aeon mayor que, como sus hermanos Leviatán y Ziz, lleva durmiendo en las profundidades de la tierra desde la Guerra de la Oscuridad. De ser así, la entidad que se manifiesta en Gaïa no sería más que una representación inconsciente del deseo del Aeon tomando posesión del cuerpo y alma de un ser humano que sincronice con él en sus sueños. Eso explicaría sus continuas reapariciones.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 11\n\nClase: Entre mundos 35 Puntos de Vida: 620 Categoría: Maestro en armas Fue: 15 Des: 13 Agi: 9 Con: 15 Pod: 10 Int: 5 Vol: 10 Per: 9 RF 15 0 RM 135 RP 95 RV 15 0 RE 15 0\n\nTurno: 120 Natural Habilidad de ataque: 270 Mezira + 250 Akamuth; o 270 Coletazo + 250 Akamuth; o 250 Jinku Enkido. Habilidad de defensa: 275 Mezira Daño: 1 30 Mezira (Fil / Pen), 100 Coletazo (CON), 1 90 Akamuth (Fil), 100 Jinku Enkido (Ene) TA: Ninguna Habilidades naturales: Tabla de Ataque en Área. Habilidades esenciales: Características Físicas Sobrenaturales, Inhumanidad, Tamaño Innatural, Exención Física. Poderes: Armas Naturales: Mezira (Crítico Incrementado +40), Akamuth (Ataque Adicional -20, +60 al Daño) y Cola, Daña Energía, Jinku Enkido, Resistencia Física +40, Resistencia Mística +40, Expulsión, Inmunidad Física, Ver lo Sobrenatural.\n\nTamaño: 28 Enorme Regeneración: 6 Tipo de movimiento: 10 Cansancio: Incansable Habilidades Secundarias: Intimidar 40, Advertir 25, Buscar 25, Frialdad 85, Proezas de Fuerza 1 50, Resistir el Dolor 160. Las leyendas cuentan que el Behemoth es el supremo soberano de todas las bestias que caminan sobre la tierra, una antigua fuerza destructiva cuyo poder es equivalente incluso al de los dragones más antiguos. No es mucho lo que se sabe de él; ni sus orígenes ni su naturaleza han sido nunca develadas. Una vieja teoría asegura que es una representación del espíritu violento de todas las criaturas de la tierra (lo que, de algún modo, lo convertiría en un Aeon), pero no hay nada que l o sustente más allá de las meras especulaciones. Sea como sea, el Behemoth es un titán humanoide de piel azulada (erguido mide alrededor de los 8 metros de altura).\n\nSus manos son garras que supuran sangre constantemente y de su espalda brotan dos protuberancias que parecen una mezcla entre alas y descomunales zarpas. También posee una monstruosa cola, aunque su característica más llamativa es el demoníaco rostro que se encuentra situado en su pecho, como una segunda cara. Pese a que supuestamente tiene cierto grado de inteligencia, lo cierto es que el Behemoth nunca se ha comunicado con nadie. Siempre aparece misteriosamente en lugares dispares, sin aparente conexión entre sí, y empieza a destruirlo todo mientras busca a los oponentes más poderosos que pueda encontrar. Su apodo de “Soberano de las Bestias” proviene del hecho de que cada vez que aparece, junto a él se alzan todo tipo de monstruosidades que siguen su estela de destrucción.\n\nComo si trasmitiera su ferocidad, simplemente por andar por el mundo todos los seres que hay cerca de él incrementan su violencia natural. Otro de los mayores misterios relacionados con esta criatura es que se ignora completamente si se trata o no de un ente único. Pese a su considerable poder, a lo largo de la historia ha sido destruido en varias ocasiones, sólo para reaparecer aparentemente indemne algún tiempo después en algún lugar remoto. Por ello nadie sabe si sólo existe uno, pero por alguna causa ignota puede volver a la vida, o si por el contrario hay multitud de ellos. Actualmente lleva varios siglos sin aparecer, pero nadie duda de que pueda hacerlo en algún momento inesperado para dar comienzo nuevamente a su destructivo ciclo. m oduS oPerandiElBehemoth lucha motivado por un sentimiento primario de medir su poder con el de otros seres que no se sometan a él.\n\nNo tiene deseos de conquistar; sólo de combatir. Por ello, cada vez que se manifiesta en el mundo vaga luchando con todo aquello que no le siga, destruyendo pueblos o ejércitos por igual. Cuando encuentra a una persona o grupo de individuos a los que reconoce como dignos antagonistas activa Jinku Enkido, encerrando a sus deseados adversarios dentro de una impenetrable cúpula de energía que le permite luchar sin interrupción. Si bien no le importa que las criaturas que le siguen luchen a su lado en combates multitudinarios (como cuando en el pasado ha afrontado grandes ejércitos) jamás permite que se involucren a su favor en una lucha contra los que considera sus enemigos. En tales casos, únicamente se sirve de su poder personal.\n\nMezira: Mezira o “Las Manos Ensangrentadas que lo Despedazan Todo” son las terroríficas garras del Behemoth, que poseen la capacidad sobrenatural de despedazar al instante todo aquello que tocan. El Soberano de las Bestias las utiliza como principal medio de ataque y, en caso de que cause un crítico con ellas, obtiene un bono de +40 a la tirada para determinar sus efectos. (order #3443007) Coletazo: La cola del Behemoth le permite realizar un ataque en área sobre todos aquellos que se encuentren a menos de 10 metros de él. Akamuth: De la espalda del Behemoth brotan Akamuth, “Las Alas que Desgarran los Cielos”, dos colosales extremidades afiladas como garras con un potencial destructivo incomparable. En combate, puede usarlas para realizar un ataque adicional cada asalto ya sea junto a un golpe de cola o de garras.\n\nJinku Enkido: El Soberano de las Bestias únicamente activa esta habilidad al iniciar un combate que considera interesante. Como un vórtice de pura destrucción, el Behemoth desencadena una ola de poder que arrasa todo lo que se encuentre a un centenar de metros creando el Jinku Enkido o “Mundo de la Destrucción Perfecta”. Al usarlo, la cara de su pecho despierta y abre los ojos, provocando la aparición de una cúpula de energía que ataca y engulle a todo aquel que esté a menos de cien metros de él. Aquellos que sobrevivan quedan automáticamente atrapados en el interior de la cúpula; mientras esta se mantiene, nadie es capaz de entrar o salir de ella de modo alguno. No se sabe exactamente cuales son las características sobrenaturales de ese espacio, pero se teoriza que es un lugar a medio camino entre La Vigilia y la realidad creado a partir del poder existencial del Behemoth.\n\nÚnicamente seres con Gnosis superior al del Soberano son libres de entrar y salir de esa zona. En el interior del Jinku Enkido cada turno ocurren sucesos inesperados, que modifican ligeramente el curso de los acontecimientos del combate. Al inicio de cada asalto, lanza un D10 atendiendo a los siguientes resultados; 1-2; Este turno el Behemoth obtiene un +20 a su Habilidad de Ataque y no pierde la acción ni siquiera si recibe daños o es puesto a la defensiva. 3-4; Al inicio del asalto, todos aquellos que no hayan obtenido un resultado de sorpresa en su iniciativa contra él han de superar un control de Agilidad aplicando un penalizador de -1 a su atributo o son derribados automáticamente. Naturalmente, sólo afecta a individuos que caminen sobre la superficie del suelo. El terremoto tiene como punto de inicio el Behemot, y este no es afectado por el temblor.\n\n5-6; El Behemoth recupera 100 Puntos de Vida al inicio del turno. 7-8; Toda la cúpula se llena de imágenes aterradoras que penetran en la mente de quienes se encuentren en ella. Aquellos que durante ese asalto usen su sentido de la vista han de superar un control de RP contra 1 40 o sufrirán el estado de Miedo durante un turno por cada diez puntos por los que fallaron la Resistencia. El Behemoth no es afectado por esta habilidad. 9-10; La gravedad dentro de la cúpula se dobla, por lo que todos aquellos que se encuentren en su interior han de superar un control de de Fuerza aplicando un penalizador de -1 a su atributo o sufren un -20 a toda acción. Si fallan el control por más de 5 puntos, quedan sometidos aParalizaciónParcial. El Behemoth no es afectado por esta habilidad.\n\nLa cúpula del Jinku Enkido permanece activa hasta que el Behemoth es destruido o este acaba con todos los adversarios que se encuentren en su interior. Tras activarla, ha de esperar al menos una hora antes de poder volver a utilizarla. Expulsión: Si lo desea, el Behemoth puede expulsar a un único individuo del Jinku Enkido, que será incapaz de regresar al interior de la cúpula hasta que esta no desaparezca. Esta habilidad es una acción completa, y el Behemoth no puede atacar en el mismo asalto en el que la usa. Inmunidad Física: Sólo las armas y ataques capaces de dañar energía pueden afectar al Soberano.\n\nl a b estia p rimorDialLa teoría más oscura sobre el Soberano de las Bestias es que no se trata de un auténtico ser viviente, sino la sombra onírica del verdadero Behemoth, un Aeon mayor que, como sus hermanos Leviatán y Ziz, lleva durmiendo en las profundidades de la tierra desde la Guerra de la Oscuridad. De ser así, la entidad que se manifiesta en Gaïa no sería más que una representación inconsciente del deseo del Aeon tomando posesión del cuerpo y alma de un ser humano que sincronice con él en sus sueños. Eso explicaría sus continuas reapariciones. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 28</p><p><strong>Entrada:</strong> Behemoth</p><p><strong>Variante:</strong> Soberano de las bestias del mundo</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 35</p><p><strong>Categoría:</strong> Maestro en armas Fue: 15 Des: 13 Agi: 9 Con: 15 Pod: 10 Int: 5 Vol: 10 Per: 9 RF 150 RM 135 RP 95 RV 150 RE 150</p><p><strong>Habilidades naturales:</strong> Tabla de Ataque en Área.</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrenaturales, Inhumanidad, Tamaño Innatural, Exención Física.</p><p><strong>Poderes:</strong> Armas Naturales: Mezira (Crítico Incrementado +40), Akamuth (Ataque Adicional -20, +60 al Daño) y Cola, Daña Energía, Jinku Enkido, Resistencia Física +40, Resistencia Mística +40, Expulsión, Inmunidad Física, Ver lo Sobrenatural.</p><p><strong>Daño:</strong> 130 Mezira (Fil / Pen), 100 Coletazo (CON), 190 Akamuth (Fil), 100 Jinku Enkido (Ene)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Intimidar 40, Advertir 25, Buscar 25, Frialdad 85, Proezas de Fuerza 150, Resistir el Dolor 160</p><p><strong>Descripción breve:</strong> Las leyendas cuentan que el Behemoth es el supremo soberano de todas las bestias que caminan sobre la tierra, una antigua fuerza destructiva cuyo poder es equivalente incluso al de los dragones más antiguos. No es mucho lo que se sabe de él; ni sus orígenes ni su naturaleza han sido nunca develadas. Una vieja teoría asegura que es una representación del espíritu violento de todas las criaturas de la tierra (lo que, de algún modo, lo convertiría en un Aeon), pero no hay nada que l o sustente más allá de las meras especulaciones. Sea como sea, el Behemoth es un titán humanoide de piel azulada (erguido mide alrededor de los 8 metros de altura). Sus manos son garras que supuran sangre constantemente y de su espalda brotan dos protuberancias que parecen una mezcla entre alas y descomunales zarpas. También posee una monstruosa cola, aunque su característica más llamativa es el demoníaco rostro que se encuentra situado en su pecho, como una segunda cara. Pese a que supuestamente tiene cierto grado de inteligencia, lo cierto es que el Behemoth nunca se ha comunicado con nadie. Siempre aparece misteriosamente en lugares dispares, sin aparente conexión entre sí, y empieza a destruirlo todo mientras busca a los oponentes más poderosos que pueda encontrar. Su apodo de “Soberano de las Bestias” proviene del hecho de que cada vez que aparece, junto a él se alzan todo tipo de monstruosidades que siguen su estela de destrucción. Como si trasmitiera su ferocidad, simplemente por andar por el mundo todos los seres que hay cerca de él incrementan su violencia natural. Otro de los mayores misterios relacionados con esta criatura es que se ignora completamente si se trata o no de un ente único. Pese a su considerable poder, a lo largo de la historia ha sido destruido en varias ocasiones, sólo para reaparecer aparentemente indemne algún tiempo después en algún lugar remoto. Por ello nadie sabe si sólo existe uno, pero por alguna causa ignota puede volver a la vida, o si por el contrario hay multitud de ellos. Actualmente lleva varios siglos sin aparecer, pero nadie duda de que pueda hacerlo en algún momento inesperado para dar comienzo nuevamente a su destructivo ciclo. m oduS oPerandiElBehemoth lucha motivado por un sentimiento primario de medir su poder con el de otros seres que no se sometan a él. No tiene deseos de conquistar; sólo de combatir. Por ello, cada vez que se manifiesta en el mundo vaga luchando con todo aquello que no le siga, destruyendo pueblos o ejércitos por igual. Cuando encuentra a una persona o grupo de individuos a los que reconoce como dignos antagonistas activa Jinku Enkido, encerrando a sus deseados adversarios dentro de una impenetrable cúpula de energía que le permite luchar sin interrupción. Si bien no le importa que las criaturas que le siguen luchen a su lado en combates multitudinarios (como cuando en el pasado ha afrontado grandes ejércitos) jamás permite que se involucren a su favor en una lucha contra los que considera sus enemigos. En tales casos, únicamente se sirve de su poder personal. Mezira: Mezira o “Las Manos Ensangrentadas que lo Despedazan Todo” son las terroríficas garras del Behemoth, que poseen la capacidad sobrenatural de despedazar al instante todo aquello que tocan. El Soberano de las Bestias las utiliza como principal medio de ataque y, en caso de que cause un crítico con ellas, obtiene un bono de +40 a la tirada para determinar sus efectos. Coletazo: La cola del Behemoth le permite realizar un ataque en área sobre todos aquellos que se encuentren a menos de 10 metros de él. Akamuth: De la espalda del Behemoth brotan Akamuth, “Las Alas que Desgarran los Cielos”, dos colosales extremidades afiladas como garras con un potencial destructivo incomparable. En combate, puede usarlas para realizar un ataque adicional cada asalto ya sea junto a un golpe de cola o de garras. Jinku Enkido: El Soberano de las Bestias únicamente activa esta habilidad al iniciar un combate que considera interesante. Como un vórtice de pura destrucción, el Behemoth desencadena una ola de poder que arrasa todo lo que se encuentre a un centenar de metros creando el Jinku Enkido o “Mundo de la Destrucción Perfecta”. Al usarlo, la cara de su pecho despierta y abre los ojos, provocando la aparición de una cúpula de energía que ataca y engulle a todo aquel que esté a menos de cien metros de él. Aquellos que sobrevivan quedan automáticamente atrapados en el interior de la cúpula; mientras esta se mantiene, nadie es capaz de entrar o salir de ella de modo alguno. No se sabe exactamente cuales son las características sobrenaturales de ese espacio, pero se teoriza que es un lugar a medio camino entre La Vigilia y la realidad creado a partir del poder existencial del Behemoth. Únicamente seres con Gnosis superior al del Soberano son libres de entrar y salir de esa zona. En el interior del Jinku Enkido cada turno ocurren sucesos inesperados, que modifican ligeramente el curso de los acontecimientos del combate. Al inicio de cada asalto, lanza un D10 atendiendo a los siguientes resultados; 1-2; Este turno el Behemoth obtiene un +20 a su Habilidad de Ataque y no pierde la acción ni siquiera si recibe daños o es puesto a la defensiva. 3-4; Al inicio del asalto, todos aquellos que no hayan obtenido un resultado de sorpresa en su iniciativa contra él han de superar un control de Agilidad aplicando un penalizador de -1 a su atributo o son derribados automáticamente. Naturalmente, sólo afecta a individuos que caminen sobre la superficie del suelo. El terremoto tiene como punto de inicio el Behemot, y este no es afectado por el temblor. 5-6; El Behemoth recupera 100 Puntos de Vida al inicio del turno. 7-8; Toda la cúpula se llena de imágenes aterradoras que penetran en la mente de quienes se encuentren en ella. Aquellos que durante ese asalto usen su sentido de la vista han de superar un control de RP contra 140 o sufrirán el estado de Miedo durante un turno por cada diez puntos por los que fallaron la Resistencia. El Behemoth no es afectado por esta habilidad. 9-10; La gravedad dentro de la cúpula se dobla, por lo que todos aquellos que se encuentren en su interior han de superar un control de de Fuerza aplicando un penalizador de -1 a su atributo o sufren un -20 a toda acción. Si fallan el control por más de 5 puntos, quedan sometidos aParalizaciónParcial. El Behemoth no es afectado por esta habilidad. La cúpula del Jinku Enkido permanece activa hasta que el Behemoth es destruido o este acaba con todos los adversarios que se encuentren en su interior. Tras activarla, ha de esperar al menos una hora antes de poder volver a utilizarla. Expulsión: Si lo desea, el Behemoth puede expulsar a un único individuo del Jinku Enkido, que será incapaz de regresar al interior de la cúpula hasta que esta no desaparezca. Esta habilidad es una acción completa, y el Behemoth no puede atacar en el mismo asalto en el que la usa. Inmunidad Física: Sólo las armas y ataques capaces de dañar energía pueden afectar al Soberano. l a b estia p rimorDialLa teoría más oscura sobre el Soberano de las Bestias es que no se trata de un auténtico ser viviente, sino la sombra onírica del verdadero Behemoth, un Aeon mayor que, como sus hermanos Leviatán y Ziz, lleva durmiendo en las profundidades de la tierra desde la Guerra de la Oscuridad. De ser así, la entidad que se manifiesta en Gaïa no sería más que una representación inconsciente del deseo del Aeon tomando posesión del cuerpo y alma de un ser humano que sincronice con él en sus sueños. Eso explicaría sus continuas reapariciones.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 11\n\nClase: Entre mundos 35 Puntos de Vida: 620 Categoría: Maestro en armas Fue: 15 Des: 13 Agi: 9 Con: 15 Pod: 10 Int: 5 Vol: 10 Per: 9 RF 15 0 RM 135 RP 95 RV 15 0 RE 15 0\n\nTurno: 120 Natural Habilidad de ataque: 270 Mezira + 250 Akamuth; o 270 Coletazo + 250 Akamuth; o 250 Jinku Enkido. Habilidad de defensa: 275 Mezira Daño: 1 30 Mezira (Fil / Pen), 100 Coletazo (CON), 1 90 Akamuth (Fil), 100 Jinku Enkido (Ene) TA: Ninguna Habilidades naturales: Tabla de Ataque en Área. Habilidades esenciales: Características Físicas Sobrenaturales, Inhumanidad, Tamaño Innatural, Exención Física. Poderes: Armas Naturales: Mezira (Crítico Incrementado +40), Akamuth (Ataque Adicional -20, +60 al Daño) y Cola, Daña Energía, Jinku Enkido, Resistencia Física +40, Resistencia Mística +40, Expulsión, Inmunidad Física, Ver lo Sobrenatural.\n\nTamaño: 28 Enorme Regeneración: 6 Tipo de movimiento: 10 Cansancio: Incansable Habilidades Secundarias: Intimidar 40, Advertir 25, Buscar 25, Frialdad 85, Proezas de Fuerza 1 50, Resistir el Dolor 160. Las leyendas cuentan que el Behemoth es el supremo soberano de todas las bestias que caminan sobre la tierra, una antigua fuerza destructiva cuyo poder es equivalente incluso al de los dragones más antiguos. No es mucho lo que se sabe de él; ni sus orígenes ni su naturaleza han sido nunca develadas. Una vieja teoría asegura que es una representación del espíritu violento de todas las criaturas de la tierra (lo que, de algún modo, lo convertiría en un Aeon), pero no hay nada que l o sustente más allá de las meras especulaciones. Sea como sea, el Behemoth es un titán humanoide de piel azulada (erguido mide alrededor de los 8 metros de altura).\n\nSus manos son garras que supuran sangre constantemente y de su espalda brotan dos protuberancias que parecen una mezcla entre alas y descomunales zarpas. También posee una monstruosa cola, aunque su característica más llamativa es el demoníaco rostro que se encuentra situado en su pecho, como una segunda cara. Pese a que supuestamente tiene cierto grado de inteligencia, lo cierto es que el Behemoth nunca se ha comunicado con nadie. Siempre aparece misteriosamente en lugares dispares, sin aparente conexión entre sí, y empieza a destruirlo todo mientras busca a los oponentes más poderosos que pueda encontrar. Su apodo de “Soberano de las Bestias” proviene del hecho de que cada vez que aparece, junto a él se alzan todo tipo de monstruosidades que siguen su estela de destrucción.\n\nComo si trasmitiera su ferocidad, simplemente por andar por el mundo todos los seres que hay cerca de él incrementan su violencia natural. Otro de los mayores misterios relacionados con esta criatura es que se ignora completamente si se trata o no de un ente único. Pese a su considerable poder, a lo largo de la historia ha sido destruido en varias ocasiones, sólo para reaparecer aparentemente indemne algún tiempo después en algún lugar remoto. Por ello nadie sabe si sólo existe uno, pero por alguna causa ignota puede volver a la vida, o si por el contrario hay multitud de ellos. Actualmente lleva varios siglos sin aparecer, pero nadie duda de que pueda hacerlo en algún momento inesperado para dar comienzo nuevamente a su destructivo ciclo. m oduS oPerandiElBehemoth lucha motivado por un sentimiento primario de medir su poder con el de otros seres que no se sometan a él.\n\nNo tiene deseos de conquistar; sólo de combatir. Por ello, cada vez que se manifiesta en el mundo vaga luchando con todo aquello que no le siga, destruyendo pueblos o ejércitos por igual. Cuando encuentra a una persona o grupo de individuos a los que reconoce como dignos antagonistas activa Jinku Enkido, encerrando a sus deseados adversarios dentro de una impenetrable cúpula de energía que le permite luchar sin interrupción. Si bien no le importa que las criaturas que le siguen luchen a su lado en combates multitudinarios (como cuando en el pasado ha afrontado grandes ejércitos) jamás permite que se involucren a su favor en una lucha contra los que considera sus enemigos. En tales casos, únicamente se sirve de su poder personal.\n\nMezira: Mezira o “Las Manos Ensangrentadas que lo Despedazan Todo” son las terroríficas garras del Behemoth, que poseen la capacidad sobrenatural de despedazar al instante todo aquello que tocan. El Soberano de las Bestias las utiliza como principal medio de ataque y, en caso de que cause un crítico con ellas, obtiene un bono de +40 a la tirada para determinar sus efectos. (order #3443007) Coletazo: La cola del Behemoth le permite realizar un ataque en área sobre todos aquellos que se encuentren a menos de 10 metros de él. Akamuth: De la espalda del Behemoth brotan Akamuth, “Las Alas que Desgarran los Cielos”, dos colosales extremidades afiladas como garras con un potencial destructivo incomparable. En combate, puede usarlas para realizar un ataque adicional cada asalto ya sea junto a un golpe de cola o de garras.\n\nJinku Enkido: El Soberano de las Bestias únicamente activa esta habilidad al iniciar un combate que considera interesante. Como un vórtice de pura destrucción, el Behemoth desencadena una ola de poder que arrasa todo lo que se encuentre a un centenar de metros creando el Jinku Enkido o “Mundo de la Destrucción Perfecta”. Al usarlo, la cara de su pecho despierta y abre los ojos, provocando la aparición de una cúpula de energía que ataca y engulle a todo aquel que esté a menos de cien metros de él. Aquellos que sobrevivan quedan automáticamente atrapados en el interior de la cúpula; mientras esta se mantiene, nadie es capaz de entrar o salir de ella de modo alguno. No se sabe exactamente cuales son las características sobrenaturales de ese espacio, pero se teoriza que es un lugar a medio camino entre La Vigilia y la realidad creado a partir del poder existencial del Behemoth.\n\nÚnicamente seres con Gnosis superior al del Soberano son libres de entrar y salir de esa zona. En el interior del Jinku Enkido cada turno ocurren sucesos inesperados, que modifican ligeramente el curso de los acontecimientos del combate. Al inicio de cada asalto, lanza un D10 atendiendo a los siguientes resultados; 1-2; Este turno el Behemoth obtiene un +20 a su Habilidad de Ataque y no pierde la acción ni siquiera si recibe daños o es puesto a la defensiva. 3-4; Al inicio del asalto, todos aquellos que no hayan obtenido un resultado de sorpresa en su iniciativa contra él han de superar un control de Agilidad aplicando un penalizador de -1 a su atributo o son derribados automáticamente. Naturalmente, sólo afecta a individuos que caminen sobre la superficie del suelo. El terremoto tiene como punto de inicio el Behemot, y este no es afectado por el temblor.\n\n5-6; El Behemoth recupera 100 Puntos de Vida al inicio del turno. 7-8; Toda la cúpula se llena de imágenes aterradoras que penetran en la mente de quienes se encuentren en ella. Aquellos que durante ese asalto usen su sentido de la vista han de superar un control de RP contra 1 40 o sufrirán el estado de Miedo durante un turno por cada diez puntos por los que fallaron la Resistencia. El Behemoth no es afectado por esta habilidad. 9-10; La gravedad dentro de la cúpula se dobla, por lo que todos aquellos que se encuentren en su interior han de superar un control de de Fuerza aplicando un penalizador de -1 a su atributo o sufren un -20 a toda acción. Si fallan el control por más de 5 puntos, quedan sometidos aParalizaciónParcial. El Behemoth no es afectado por esta habilidad.\n\nLa cúpula del Jinku Enkido permanece activa hasta que el Behemoth es destruido o este acaba con todos los adversarios que se encuentren en su interior. Tras activarla, ha de esperar al menos una hora antes de poder volver a utilizarla. Expulsión: Si lo desea, el Behemoth puede expulsar a un único individuo del Jinku Enkido, que será incapaz de regresar al interior de la cúpula hasta que esta no desaparezca. Esta habilidad es una acción completa, y el Behemoth no puede atacar en el mismo asalto en el que la usa. Inmunidad Física: Sólo las armas y ataques capaces de dañar energía pueden afectar al Soberano.\n\nl a b estia p rimorDialLa teoría más oscura sobre el Soberano de las Bestias es que no se trata de un auténtico ser viviente, sino la sombra onírica del verdadero Behemoth, un Aeon mayor que, como sus hermanos Leviatán y Ziz, lleva durmiendo en las profundidades de la tierra desde la Guerra de la Oscuridad. De ser así, la entidad que se manifiesta en Gaïa no sería más que una representación inconsciente del deseo del Aeon tomando posesión del cuerpo y alma de un ser humano que sincronice con él en sus sueños. Eso explicaría sus continuas reapariciones. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +257,6 @@
           }
         }
       ],
-      "level": {
-        "value": 11
-      },
       "notes": [
         {
           "_id": "note-behemoth-soberano-de-las-bestias-2",
@@ -351,52 +282,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         }
       },
       "secondaries": {
@@ -407,9 +322,6 @@
         "initiative": {
           "base": {
             "value": 120
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -460,10 +372,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 40
+              "value": 150
             },
             "final": {
               "value": 0
@@ -471,10 +380,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 40
+              "value": 150
             },
             "final": {
               "value": 0
@@ -482,10 +388,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 150010
+              "value": 150120
             },
             "final": {
               "value": 0
@@ -493,10 +396,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 40
+              "value": 135
             },
             "final": {
               "value": 0
@@ -504,10 +404,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 95
             },
             "final": {
               "value": 0
@@ -519,212 +416,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 85
+          },
+          "final": {
+            "value": 0
           }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 160
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 270
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 275
+        },
+        "final": {
+          "value": 0
         }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -755,11 +895,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -771,14 +907,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -792,14 +933,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -904,15 +1042,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -924,37 +1058,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1077,9 +1231,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -251,9 +251,12 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
@@ -263,15 +266,7 @@
         },
         "psychic": {
           "value": true
-        },
-        "effects": {
-          "value": false
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
-        },
-        "inhuman": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "zen": {
           "value": true
         },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +303,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +323,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 70
         }
       },
       "aspect": {
@@ -430,7 +357,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -448,7 +375,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 3</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Portador Leviatán (La Máquina · Varna mayor)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Guerrero Mentalista Fue: 15 Des: 8 Agi: 9 Con: 16 Pod: 3 Int: 8 Vol: 15 Per: 10 RF 105 RM 15 RP 100 RV 105 RE 105</p><p><strong>Habilidades esenciales:</strong> Exención física, Zen, Inmunidad psicológica, Inmune al dolor, Características físicas divinas, Características anímicas sobrenaturales, Acceso aDisciplinasPsíquicas, Matrices potenciadas (Desequilibrio psíquico: Energía, Desequilibrio psíquico: Telepatía, Sin concentración), Extremidades atrofiadas.</p><p><strong>Poderes:</strong> Portador de Leviatanes, Brazos Cuchillas (Armas naturales, Ataque adicional: Completo, -3 a la TA defensora), Barrera de daño 100, Vuelo místico 10, Portador Marino, Cuerpo artificial (Regeneración 0), Vulnerabilidad a la Magia. Esta creación de La Máquina, apodada “Kraken” por los soldados de Dravenor, es una variante especializada de los Portadores capaz de desplazarse por las profundidades marinas. Igual que sus gemelos voladores, reciben su nombre por el hecho de que transportan en su interior decenas y decenas de leviatanes, que liberan en combate cuando son requeridos. Miden alrededor de cien metros de longitud, aunque dada su rareza hay muy poca gente que haya podido atestiguarlo. Su aspecto es similar al de un Portador convencional, pero su forma está ligeramente adaptada para el movimiento marítimo, por lo que tiene ciertos detalles que le hacen asemejarse a una especie de pez repleto de tentáculos y cuchillas. Su construcción es muy compleja y requieren una gran cantidad de materia prima, entre la que se incluye casi un centenar de larvas y decenas de seres vivos (sobre todo de criaturas marinas de gran tamaño, como ballenas o cachalotes). Los Krakens poseen una notable inteligencia basada en la lógica, pero no se puede decir que tengan nada remotamente parecido a una personalidad; son completamente mecánicos y jamás se comunican con nadie salvo con otros componentes de La Máquina. Es fácil ver como una simple versión marina de un portador, más lo cierto es que las capacidades combativas de este ser están mucho más especializadas para actuar en medios acuáticos. No solo dispone de varios tentáculos que usan como efectivo método de ataque, sino que es capaz de usar sus matrices psíquicas para lanzar destructoras descargas capaces de enormes daños. Aunque su principal función es moverse por el agua, son capaces hasta de flotar por el aire usando una versión de los generadores de ingravidez de los portadores normales con una movilidad reducida. Lo cierto es que raro que lo hagan, dado que reducen no sólo su velocidad, sino también su capacidad combativa y no pueden desplegar sus Leviatanes. Hasta hace pocos años, muchos miembros del Imperio ponían en duda incluso la existencia de este ser, afirmando que los soldados que lo habían visto se confundían con un Portador mayor que había sido derribado en el océano y al que, víctimas del shock provocado, habían atribuido falsamente características excepcionales. Sin embargo, las dudas fueron zanjadas cuando tres años atrás uno de estos seres fue abatido. Esto permitió al alto mando desarrollar algunas tácticas para combatirlos. En primer lugar, dado que todos sus ataques comprenden un área considerable, no es recomendable atacarlos en grandes grupos, sino en pequeños equipos separados, pero bien comunicados entre sí. En segundo lugar es necesario contar o bien con un gran número de hechiceros o bien con artillería pesada. Entonces debe lanzarse un ataque coordinado y simultáneo desde todos los grupos con cuantas armas de largo alcance se dispongan. Resulta muy importante que el daño sea rápido y masivo, dado que, si no es destruido en un corto periodo de tiempo, se corre el riesgo de que la criatura se escape resguardándose en las profundidades del océano. MODUS OPERANDIAunque conceptualmente son “comandantes” y “trasportes” de tropas, lo cierto es que la capacidad destructiva y resistencia de un Portador Leviatán es muy elevada. Por lo general, viajan por las profundidades del océano hasta detectar sus objetivos, momento en el que liberan su carga de leviatanes. Naturalmente, si consideran que el objetivo merece poca atención, es posible que simplemente desplieguen unos cuantos de ellos y ni se molesten en detenerse. Si por el contrario se trata de un objetivo valioso o de riesgo, emergen de las aguas y usan sus tentáculos para destrozar las embarcaciones, mientras se apoyan si lo consideran apropiados con sus poderes psíquicos. Portador de Leviatanes: Un “Kraken” puede albergar en su interior hasta 100 leviatanes, siendo capaz de liberar hasta 20 por asalto, “disparándolos” a toda velocidad desde su boca. Matrices Potenciadas: Los Portadores Leviatán poseen decenas de cristales psíquicos en el interior de sus cuerpos conectados entre sí que les permiten usar poderosos poderes mentales. Esta estructura es muy estable, por lo que siempre los lanzan con un potencial equivalente a una dificultad Casi Imposible, sin la necesidad de lanzar los dados. No obstante, los daños severos pueden causar una disrupción de este sistema, por lo que, si los Puntos de Vida de la criatura quedan reducidos a la mitad o menos de su total, el potencial se reduce aAbsurdo. Tentáculos Afilados: El letal método principal de ataque de los portadores leviatán son sus extremidades, a medio camino entre brazos y tentáculos afilados como cuchillas. Un solo impacto puede destrozar por completo cualquier navío mediano y hacer que se hunda en las profundidades. No solo poseen daño base 150 y reducen en 3 puntos el Tipo de Armadura del defensor, sino que, además, dado lo numerosos que son, pueden hacer por asalto hasta dos ataques sin penalizadores (aunque el tamaño de los tentáculos le impide efectuar el segundo ataque contra el mismo blanco salvo si este es de tamaño enorme o superior). Dado que el control de sus extremidades mientras vuela es más limitado que en el agua, si el Portador se encuentra volando aplica un penalizador de -40 a su habilidad ofensiva. Nexo de</p><p><strong>Disciplinas:</strong> Psíquicas: Energía, Telepatía</p><p><strong>Daño:</strong> 150 Brazos Cuchillas (Fil)</p><p><strong>TA:</strong> Natural 8</p></section><details><summary>Texto extraído</summary><pre>Nivel: 9\n\nClase: Entre Mundos Especial Puntos de Vida: 6.000 Acumulación Categoría: Guerrero Mentalista Fue: 15 Des: 8 Agi: 9 Con: 16 Pod: 3 Int: 8 Vol: 15 Per: 10 RF 105 RM 15 RP 100 RV 105 RE 105\n\nTurno: 75 Natural Habilidad de ataque: 2 10 + 2 10 Brazos Cuchillas Habilidad de defensa: Acumulación Daño: 1 50 Brazos Cuchillas (Fil) TA: Natural 8 Proyección Psíquica: 200 Potencial: 180 (+1 Grado adicional) CVsLibres: 0 Innatos: 1 Disciplinas Psíquicas: Energía, Telepatía Poderes Psíquicos: Descarga de energía, Controlar Energía, Cúpula de energía, Comunicación mental, Conexión psíquica, Área. Habilidades Esenciales: Exención física, Zen, Inmunidad psicológica, Inmune al dolor, Características físicas divinas, Características anímicas sobrenaturales, Acceso aDisciplinasPsíquicas, Matrices potenciadas (Desequilibrio psíquico: Energía, Desequilibrio psíquico: Telepatía, Sin concentración), Extremidades atrofiadas.\n\nPoderes: Portador de Leviatanes, Brazos Cuchillas (Armas naturales, Ataque adicional: Completo, -3 a la TA defensora), Barrera de daño 100, Vuelo místico 10, Portador Marino, Cuerpo artificial (Regeneración 0), Vulnerabilidad a la Magia. Esta creación de La Máquina, apodada “Kraken” por los soldados de Dravenor, es una variante especializada de los Portadores capaz de desplazarse por las profundidades marinas. Igual que sus gemelos voladores, reciben su nombre por el hecho de que transportan en su interior decenas y decenas de leviatanes, que liberan en combate cuando son requeridos. Miden alrededor de cien metros de longitud, aunque dada su rareza hay muy poca gente que haya podido atestiguarlo.\n\nSu aspecto es similar al de un Portador convencional, pero su forma está ligeramente adaptada para el movimiento marítimo, por lo que tiene ciertos detalles que le hacen asemejarse a una especie de pez repleto de tentáculos y cuchillas. Su construcción es muy compleja y requieren una gran cantidad de materia prima, entre la que se incluye casi un centenar de larvas y decenas de seres vivos (sobre todo de criaturas marinas de gran tamaño, como ballenas o cachalotes). Los Krakens poseen una notable inteligencia basada en la lógica, pero no se puede decir que tengan nada remotamente parecido a una personalidad; son completamente mecánicos y jamás se comunican con nadie salvo con otros componentes de La Máquina.\n\nEs fácil ver como una simple versión marina de un portador, más lo cierto es que las capacidades combativas de este ser están mucho más especializadas para actuar en medios acuáticos. No solo dispone de varios tentáculos que usan como efectivo método de ataque, sino que es capaz de usar sus matrices psíquicas para lanzar destructoras descargas capaces de enormes daños. Aunque su principal función es moverse por el agua, son capaces hasta de flotar por el aire usando una versión de los generadores de ingravidez de los portadores normales con una movilidad reducida. Lo cierto es que raro que lo hagan, dado que reducen no sólo su velocidad, sino también su capacidad combativa y no pueden desplegar sus Leviatanes.\n\nHasta hace pocos años, muchos miembros del Imperio ponían en duda incluso la existencia de este ser, afirmando que los soldados que lo habían visto se confundían con un Portador mayor que había sido derribado en el océano y al que, víctimas del shock provocado, habían atribuido falsamente características excepcionales. Sin embargo, las dudas fueron zanjadas cuando tres años atrás uno de estos seres fue abatido. Esto permitió al alto mando desarrollar algunas tácticas para combatirlos. En primer lugar, dado que todos sus ataques comprenden un área considerable, no es recomendable atacarlos en grandes grupos, sino en pequeños equipos separados, pero bien comunicados entre sí. En segundo lugar es necesario contar o bien con un gran número de hechiceros o bien con artillería pesada.\n\nEntonces debe lanzarse un ataque coordinado y simultáneo desde todos los grupos con cuantas armas de largo alcance se dispongan. Resulta muy importante que el daño sea rápido y masivo, dado que, si no es destruido en un corto periodo de tiempo, se corre el riesgo de que la criatura se escape resguardándose en las profundidades del océano. MODUS OPERANDIAunque conceptualmente son “comandantes” y “trasportes” de tropas, lo cierto es que la capacidad destructiva y resistencia de un Portador Leviatán es muy elevada. Por lo general, viajan por las profundidades del océano hasta detectar sus objetivos, momento en el que liberan su carga de leviatanes. Naturalmente, si consideran que el objetivo merece poca atención, es posible que simplemente desplieguen unos cuantos de ellos y ni se molesten en detenerse.\n\nSi por el contrario se trata de un objetivo valioso o de riesgo, emergen de las aguas y usan sus tentáculos para destrozar las embarcaciones, mientras se apoyan si lo consideran apropiados con sus poderes psíquicos. Portador de Leviatanes: Un “Kraken” puede albergar en su interior hasta 100 leviatanes, siendo capaz de liberar hasta 20 por asalto, “disparándolos” a toda velocidad desde su boca. Matrices Potenciadas: Los Portadores Leviatán poseen decenas de cristales psíquicos en el interior de sus cuerpos conectados entre sí que les permiten usar poderosos poderes mentales. Esta estructura es muy estable, por lo que siempre los lanzan con un potencial equivalente a una dificultad Casi Imposible, sin la necesidad de lanzar los dados.\n\nNo obstante, los daños severos pueden causar una disrupción de este sistema, por lo que, si los Puntos de Vida de la criatura quedan reducidos a la mitad o menos de su total, el potencial se reduce aAbsurdo. Tentáculos Afilados: El letal método principal de ataque de los portadores leviatán son sus extremidades, a medio camino entre brazos y tentáculos afilados como cuchillas. Un solo impacto puede destrozar por completo cualquier navío mediano y hacer que se hunda en las profundidades. No solo poseen daño base 1 50 y reducen en 3 puntos el Tipo de Armadura del defensor, sino que, además, dado lo numerosos que son, pueden hacer por asalto hasta dos ataques sin penalizadores (aunque el tamaño de los tentáculos le impide efectuar el segundo ataque contra el mismo blanco salvo si este es de tamaño enorme o superior).\n\nDado que el control de sus extremidades mientras vuela es más limitado que en el agua, si el Portador se encuentra volando aplica un penalizador de -40 a su habilidad ofensiva. Nexo de Control: El Portador mantiene un lazo mental con todos los Leviatanes que lo rodean en un área de 1 kilómetros, influenciando su comportamiento e incrementando exponencialmente sus capacidades de combate. Mientras estén dentro de su zona de control los Leviatanes obtienen un +10 a su habilidad de Ataque y Defensa así como poder ejecutar complejas maniobras tácticas. Generador de Ingravidez Acuática: Los portadores generan un campo de ingravidez que les permite desplazarse por las profundidades del agua con un Tipo de Movimiento 10 sin aplicar ningún tipo de penalizador debido a la profundidad a la que se encuentren.\n\nEste generador también les permite flotar y moverse por el aire, aunque de hacerlo, su velocidad queda reducida a 6. Esta es su única manera de moverse, pues no tienen ninguna extremidad que les permita desplazarse por sí mismos. Cuerpo Artificial: La estructura metálica de un portador es incapaz de regenerar daños por sí sola. Sólo puede repararse manualmente por otros individuos o miembros de La Máquina. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los portadores leviatán poseen una absoluta vulnerabilidad a la magia. No solamente tienen RM 10, sino que cualquier descarga de energía sobrenatural les produce doble daño. Portador a bisaL La Máquina (Varna Mayor )</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> DRAVENOR Ejército regular de La Máquina · Parte 3</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Portador Leviatán (La Máquina · Varna mayor)</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre Mundos Especial</p><p><strong>Categoría:</strong> Guerrero Mentalista Fue: 15 Des: 8 Agi: 9 Con: 16 Pod: 3 Int: 8 Vol: 15 Per: 10 RF 105 RM 15 RP 100 RV 105 RE 105</p><p><strong>Habilidades esenciales:</strong> Exención física, Zen, Inmunidad psicológica, Inmune al dolor, Características físicas divinas, Características anímicas sobrenaturales, Acceso aDisciplinasPsíquicas, Matrices potenciadas (Desequilibrio psíquico: Energía, Desequilibrio psíquico: Telepatía, Sin concentración), Extremidades atrofiadas.</p><p><strong>Poderes:</strong> Portador de Leviatanes, Brazos Cuchillas (Armas naturales, Ataque adicional: Completo, -3 a la TA defensora), Barrera de daño 100, Vuelo místico 10, Portador Marino, Cuerpo artificial (Regeneración 0), Vulnerabilidad a la Magia. Esta creación de La Máquina, apodada “Kraken” por los soldados de Dravenor, es una variante especializada de los Portadores capaz de desplazarse por las profundidades marinas. Igual que sus gemelos voladores, reciben su nombre por el hecho de que transportan en su interior decenas y decenas de leviatanes, que liberan en combate cuando son requeridos. Miden alrededor de cien metros de longitud, aunque dada su rareza hay muy poca gente que haya podido atestiguarlo. Su aspecto es similar al de un Portador convencional, pero su forma está ligeramente adaptada para el movimiento marítimo, por lo que tiene ciertos detalles que le hacen asemejarse a una especie de pez repleto de tentáculos y cuchillas. Su construcción es muy compleja y requieren una gran cantidad de materia prima, entre la que se incluye casi un centenar de larvas y decenas de seres vivos (sobre todo de criaturas marinas de gran tamaño, como ballenas o cachalotes). Los Krakens poseen una notable inteligencia basada en la lógica, pero no se puede decir que tengan nada remotamente parecido a una personalidad; son completamente mecánicos y jamás se comunican con nadie salvo con otros componentes de La Máquina. Es fácil ver como una simple versión marina de un portador, más lo cierto es que las capacidades combativas de este ser están mucho más especializadas para actuar en medios acuáticos. No solo dispone de varios tentáculos que usan como efectivo método de ataque, sino que es capaz de usar sus matrices psíquicas para lanzar destructoras descargas capaces de enormes daños. Aunque su principal función es moverse por el agua, son capaces hasta de flotar por el aire usando una versión de los generadores de ingravidez de los portadores normales con una movilidad reducida. Lo cierto es que raro que lo hagan, dado que reducen no sólo su velocidad, sino también su capacidad combativa y no pueden desplegar sus Leviatanes. Hasta hace pocos años, muchos miembros del Imperio ponían en duda incluso la existencia de este ser, afirmando que los soldados que lo habían visto se confundían con un Portador mayor que había sido derribado en el océano y al que, víctimas del shock provocado, habían atribuido falsamente características excepcionales. Sin embargo, las dudas fueron zanjadas cuando tres años atrás uno de estos seres fue abatido. Esto permitió al alto mando desarrollar algunas tácticas para combatirlos. En primer lugar, dado que todos sus ataques comprenden un área considerable, no es recomendable atacarlos en grandes grupos, sino en pequeños equipos separados, pero bien comunicados entre sí. En segundo lugar es necesario contar o bien con un gran número de hechiceros o bien con artillería pesada. Entonces debe lanzarse un ataque coordinado y simultáneo desde todos los grupos con cuantas armas de largo alcance se dispongan. Resulta muy importante que el daño sea rápido y masivo, dado que, si no es destruido en un corto periodo de tiempo, se corre el riesgo de que la criatura se escape resguardándose en las profundidades del océano. MODUS OPERANDIAunque conceptualmente son “comandantes” y “trasportes” de tropas, lo cierto es que la capacidad destructiva y resistencia de un Portador Leviatán es muy elevada. Por lo general, viajan por las profundidades del océano hasta detectar sus objetivos, momento en el que liberan su carga de leviatanes. Naturalmente, si consideran que el objetivo merece poca atención, es posible que simplemente desplieguen unos cuantos de ellos y ni se molesten en detenerse. Si por el contrario se trata de un objetivo valioso o de riesgo, emergen de las aguas y usan sus tentáculos para destrozar las embarcaciones, mientras se apoyan si lo consideran apropiados con sus poderes psíquicos. Portador de Leviatanes: Un “Kraken” puede albergar en su interior hasta 100 leviatanes, siendo capaz de liberar hasta 20 por asalto, “disparándolos” a toda velocidad desde su boca. Matrices Potenciadas: Los Portadores Leviatán poseen decenas de cristales psíquicos en el interior de sus cuerpos conectados entre sí que les permiten usar poderosos poderes mentales. Esta estructura es muy estable, por lo que siempre los lanzan con un potencial equivalente a una dificultad Casi Imposible, sin la necesidad de lanzar los dados. No obstante, los daños severos pueden causar una disrupción de este sistema, por lo que, si los Puntos de Vida de la criatura quedan reducidos a la mitad o menos de su total, el potencial se reduce aAbsurdo. Tentáculos Afilados: El letal método principal de ataque de los portadores leviatán son sus extremidades, a medio camino entre brazos y tentáculos afilados como cuchillas. Un solo impacto puede destrozar por completo cualquier navío mediano y hacer que se hunda en las profundidades. No solo poseen daño base 150 y reducen en 3 puntos el Tipo de Armadura del defensor, sino que, además, dado lo numerosos que son, pueden hacer por asalto hasta dos ataques sin penalizadores (aunque el tamaño de los tentáculos le impide efectuar el segundo ataque contra el mismo blanco salvo si este es de tamaño enorme o superior). Dado que el control de sus extremidades mientras vuela es más limitado que en el agua, si el Portador se encuentra volando aplica un penalizador de -40 a su habilidad ofensiva. Nexo de</p><p><strong>Disciplinas:</strong> Psíquicas: Energía, Telepatía</p><p><strong>Daño:</strong> 150 Brazos Cuchillas (Fil)</p><p><strong>TA:</strong> Natural 8</p></section><details><summary>Texto extraído</summary><pre>Nivel: 9\n\nClase: Entre Mundos Especial Puntos de Vida: 6.000 Acumulación Categoría: Guerrero Mentalista Fue: 15 Des: 8 Agi: 9 Con: 16 Pod: 3 Int: 8 Vol: 15 Per: 10 RF 105 RM 15 RP 100 RV 105 RE 105\n\nTurno: 75 Natural Habilidad de ataque: 2 10 + 2 10 Brazos Cuchillas Habilidad de defensa: Acumulación Daño: 1 50 Brazos Cuchillas (Fil) TA: Natural 8 Proyección Psíquica: 200 Potencial: 180 (+1 Grado adicional) CVsLibres: 0 Innatos: 1 Disciplinas Psíquicas: Energía, Telepatía Poderes Psíquicos: Descarga de energía, Controlar Energía, Cúpula de energía, Comunicación mental, Conexión psíquica, Área. Habilidades Esenciales: Exención física, Zen, Inmunidad psicológica, Inmune al dolor, Características físicas divinas, Características anímicas sobrenaturales, Acceso aDisciplinasPsíquicas, Matrices potenciadas (Desequilibrio psíquico: Energía, Desequilibrio psíquico: Telepatía, Sin concentración), Extremidades atrofiadas.\n\nPoderes: Portador de Leviatanes, Brazos Cuchillas (Armas naturales, Ataque adicional: Completo, -3 a la TA defensora), Barrera de daño 100, Vuelo místico 10, Portador Marino, Cuerpo artificial (Regeneración 0), Vulnerabilidad a la Magia. Esta creación de La Máquina, apodada “Kraken” por los soldados de Dravenor, es una variante especializada de los Portadores capaz de desplazarse por las profundidades marinas. Igual que sus gemelos voladores, reciben su nombre por el hecho de que transportan en su interior decenas y decenas de leviatanes, que liberan en combate cuando son requeridos. Miden alrededor de cien metros de longitud, aunque dada su rareza hay muy poca gente que haya podido atestiguarlo.\n\nSu aspecto es similar al de un Portador convencional, pero su forma está ligeramente adaptada para el movimiento marítimo, por lo que tiene ciertos detalles que le hacen asemejarse a una especie de pez repleto de tentáculos y cuchillas. Su construcción es muy compleja y requieren una gran cantidad de materia prima, entre la que se incluye casi un centenar de larvas y decenas de seres vivos (sobre todo de criaturas marinas de gran tamaño, como ballenas o cachalotes). Los Krakens poseen una notable inteligencia basada en la lógica, pero no se puede decir que tengan nada remotamente parecido a una personalidad; son completamente mecánicos y jamás se comunican con nadie salvo con otros componentes de La Máquina.\n\nEs fácil ver como una simple versión marina de un portador, más lo cierto es que las capacidades combativas de este ser están mucho más especializadas para actuar en medios acuáticos. No solo dispone de varios tentáculos que usan como efectivo método de ataque, sino que es capaz de usar sus matrices psíquicas para lanzar destructoras descargas capaces de enormes daños. Aunque su principal función es moverse por el agua, son capaces hasta de flotar por el aire usando una versión de los generadores de ingravidez de los portadores normales con una movilidad reducida. Lo cierto es que raro que lo hagan, dado que reducen no sólo su velocidad, sino también su capacidad combativa y no pueden desplegar sus Leviatanes.\n\nHasta hace pocos años, muchos miembros del Imperio ponían en duda incluso la existencia de este ser, afirmando que los soldados que lo habían visto se confundían con un Portador mayor que había sido derribado en el océano y al que, víctimas del shock provocado, habían atribuido falsamente características excepcionales. Sin embargo, las dudas fueron zanjadas cuando tres años atrás uno de estos seres fue abatido. Esto permitió al alto mando desarrollar algunas tácticas para combatirlos. En primer lugar, dado que todos sus ataques comprenden un área considerable, no es recomendable atacarlos en grandes grupos, sino en pequeños equipos separados, pero bien comunicados entre sí. En segundo lugar es necesario contar o bien con un gran número de hechiceros o bien con artillería pesada.\n\nEntonces debe lanzarse un ataque coordinado y simultáneo desde todos los grupos con cuantas armas de largo alcance se dispongan. Resulta muy importante que el daño sea rápido y masivo, dado que, si no es destruido en un corto periodo de tiempo, se corre el riesgo de que la criatura se escape resguardándose en las profundidades del océano. MODUS OPERANDIAunque conceptualmente son “comandantes” y “trasportes” de tropas, lo cierto es que la capacidad destructiva y resistencia de un Portador Leviatán es muy elevada. Por lo general, viajan por las profundidades del océano hasta detectar sus objetivos, momento en el que liberan su carga de leviatanes. Naturalmente, si consideran que el objetivo merece poca atención, es posible que simplemente desplieguen unos cuantos de ellos y ni se molesten en detenerse.\n\nSi por el contrario se trata de un objetivo valioso o de riesgo, emergen de las aguas y usan sus tentáculos para destrozar las embarcaciones, mientras se apoyan si lo consideran apropiados con sus poderes psíquicos. Portador de Leviatanes: Un “Kraken” puede albergar en su interior hasta 100 leviatanes, siendo capaz de liberar hasta 20 por asalto, “disparándolos” a toda velocidad desde su boca. Matrices Potenciadas: Los Portadores Leviatán poseen decenas de cristales psíquicos en el interior de sus cuerpos conectados entre sí que les permiten usar poderosos poderes mentales. Esta estructura es muy estable, por lo que siempre los lanzan con un potencial equivalente a una dificultad Casi Imposible, sin la necesidad de lanzar los dados.\n\nNo obstante, los daños severos pueden causar una disrupción de este sistema, por lo que, si los Puntos de Vida de la criatura quedan reducidos a la mitad o menos de su total, el potencial se reduce aAbsurdo. Tentáculos Afilados: El letal método principal de ataque de los portadores leviatán son sus extremidades, a medio camino entre brazos y tentáculos afilados como cuchillas. Un solo impacto puede destrozar por completo cualquier navío mediano y hacer que se hunda en las profundidades. No solo poseen daño base 1 50 y reducen en 3 puntos el Tipo de Armadura del defensor, sino que, además, dado lo numerosos que son, pueden hacer por asalto hasta dos ataques sin penalizadores (aunque el tamaño de los tentáculos le impide efectuar el segundo ataque contra el mismo blanco salvo si este es de tamaño enorme o superior).\n\nDado que el control de sus extremidades mientras vuela es más limitado que en el agua, si el Portador se encuentra volando aplica un penalizador de -40 a su habilidad ofensiva. Nexo de Control: El Portador mantiene un lazo mental con todos los Leviatanes que lo rodean en un área de 1 kilómetros, influenciando su comportamiento e incrementando exponencialmente sus capacidades de combate. Mientras estén dentro de su zona de control los Leviatanes obtienen un +10 a su habilidad de Ataque y Defensa así como poder ejecutar complejas maniobras tácticas. Generador de Ingravidez Acuática: Los portadores generan un campo de ingravidez que les permite desplazarse por las profundidades del agua con un Tipo de Movimiento 10 sin aplicar ningún tipo de penalizador debido a la profundidad a la que se encuentren.\n\nEste generador también les permite flotar y moverse por el aire, aunque de hacerlo, su velocidad queda reducida a 6. Esta es su única manera de moverse, pues no tienen ninguna extremidad que les permita desplazarse por sí mismos. Cuerpo Artificial: La estructura metálica de un portador es incapaz de regenerar daños por sí sola. Sólo puede repararse manualmente por otros individuos o miembros de La Máquina. Vulnerabilidad a la Magia: Como todas las tropas de La Máquina, los portadores leviatán poseen una absoluta vulnerabilidad a la magia. No solamente tienen RM 10, sino que cualquier descarga de energía sobrenatural les produce doble daño. Portador a bisaL La Máquina (Varna Mayor )</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +407,6 @@
           }
         }
       ],
-      "level": {
-        "value": 9
-      },
       "notes": [
         {
           "_id": "note-portador-leviatan-la-maquina-var-3",
@@ -513,52 +438,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 16
-          }
+          "value": 16,
+          "mod": 35
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         }
       },
       "secondaries": {
@@ -569,9 +478,6 @@
         "initiative": {
           "base": {
             "value": 75
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -622,10 +528,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 105
             },
             "final": {
               "value": 0
@@ -633,10 +536,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 105
             },
             "final": {
               "value": 0
@@ -644,10 +544,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 10470
+              "value": 10575
             },
             "final": {
               "value": 0
@@ -655,10 +552,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": -45
+              "value": 15
             },
             "final": {
               "value": 0
@@ -666,10 +560,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -681,191 +572,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 210
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -896,11 +1051,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -912,14 +1063,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -933,14 +1089,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1045,15 +1198,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1065,37 +1214,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1218,9 +1387,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

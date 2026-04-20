@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +300,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +320,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 60
         }
       },
       "aspect": {
@@ -430,7 +354,7 @@
           "value": "Bestia Mayor"
         },
         "size": {
-          "value": 26
+          "value": "26"
         }
       },
       "advantages": [],
@@ -448,7 +372,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 21</p><p><strong>Entrada:</strong> Archiquimera</p><p><strong>Variante:</strong> Bestia Mayor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 25</p><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 13 Des: 10 Agi: 11 Con: 13 Pod: 8 Int: 6 Vol: 8 Per: 9 RF 85 RM 70 RP 70 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Sentido Agudo, Inhumanidad.</p><p><strong>Poderes:</strong> Armas Naturales; Garras (+30 al turno), Mordisco de Serpiente (Ataque Adicional -30, RV 120, Dolor), Cola, Hombros, Daña Energía, Aliento de Fuego (Distancia 25 Metros, Área 25 Metros, Daño Base 100, Ataque Elemental, Sin Límite, Requiere 2 Turnos de Preparatoria), Vuelo Natural 10.</p><p><strong>Daño:</strong> 120 Garras (Fil), 50 Mordisco de Serpiente (Pen), 100 Aliento de Fuego (Cal)</p><p><strong>TA:</strong> Natural 8</p><p><strong>Habilidades secundarias:</strong> Atletismo 105, Saltar 105, Resistir el Dolor 50, Advertir 50 (80), Buscar 15 (45), Liderazgo 60</p><p><strong>Descripción breve:</strong> Las Archiquimeras son los híbridos más poderosos, los “reyes” de todas las quimeras, creadas en eras pasadas para ser las mayores bestias de combate. Guerreros natos, estos seres sólo viven para luchar. Su aspecto es realmente majestuoso; aunque aterradores, a su manera poseen cierta magnificencia y gracia natural. Se yerguen sobre dos pies como los hombres, pero sus cuerpos están compuestos por partes de diversas criaturas; alas y garras de águila, piernas de león, dos cabezas de halcón en los hombros, una serpiente de cola y la impresionante cabeza de un dragón. Miden entre los tres metros y medio y los cuatro, y los colores de su pelaje siempre son vivos y llamativos. Son considerablemente inteligentes y, aunque no hablan ningún idioma, tienen la capacidad de lograr que otras bestias o monstruos se subyuguen ante su poder. A veces, una Archiquimera ha llegado a reunir pequeños grupos de criaturas monstruosas para atacar fortificaciones o castillos sin otro objetivo que poner a prueba sus propias capacidades. Es poco lo que se conoce del ecosistema de estas criaturas, pero se cree que pueden reproducirse asexuadamente mediante huevos. Sin embargo, lejos de de proteger o cuidar a su progenie, los abandonan a su suerte cuando aún son simples huevos; de ese modo, sólo los más fuertes llegan a sobrevivir. Pese a ser muy escasas en número, las Archiquimeras pueden encontrarse en todos los rincones del mundo, aunque prefieren como hábitat los bosques espesos o las montañas rocosas. m oduS oPerandiLos instintos bélicos de una Archiquimera hacen que estas sientan un impulso natural a luchar contra toda clase de soldado o amenaza con la que se crucen. Podría decirse que “notan” la agresividad de otros seres y responden a ella del único modo que conocen. Sin embargo, no suelen atacar a criaturas indefensas o niños, pues la mayoría no concibe el matar por matar ni son especialmente crueles. Pese a su considerable tamaño, las Archiquimeras explotan su velocidad y sus rápidos reflejos para evitar dar a los enemigos la oportunidad de actuar. Si tienen espacio para moverse por el aire suelen iniciar los combates haciendo una pasada previa con su aliento de fuego antes de descender sobre ellos para rematarlos. Mordisco de Serpiente: La cola de una Archiquimera es una serpiente venenosa que ataca a sus enemigos inyectando veneno con sus mordiscos. Si produce daños, la víctima ha de superar un control de RV contra 120 o verse sometida de inmediato al estado de Dolor. Si falla la Resistencia por una diferencia superior a 40, se considera que sufre Dolor Extremo. El mordisco es independiente de los ataques que la Archiquimera realiza con sus garras, pero no puede usarlo si lanza su aliento de fuego en el mismo asalto. Cola: En el caso de recibir ataques, la cola cuenta como punto vulnerable de la Archiquimera (-30 a la habilidad al realizar un ataque apuntado contra ella). Tiene el equivalente a 500 Puntos de Vida (independientes a los del cuerpo central), pero si en cualquier momento recibe un único ataque que le produzca más de 100 puntos de daño, es amputada y la serpiente se “separa” del cuerpo. Desde ese momento actúa como un ser independiente a la propia Archiquimera, usando las reglas de acumulación de daño con TA 3 y 500 Puntos de Vida. Su habilidad sigue siendo la misma que cuando se encontraba unida al cuerpo y sigue pudiendo envenenar a sus enemigos. Aliento de Fuego: Las cabezas que están situadas en los hombros de la Archiquimera son capaces de proyectar chorros de fuego que abrasan aquello que tocan. Este ataque tiene forma de cono y se extiende hasta 25 metros en la dirección determinada por la criatura. Para activarlo las cabezas necesitan pasar al menos dos turnos preparándolo, aunque mientras la Archiquimera puede realizar cualquier otra acción. Hombros: Igual que la cola, las cabezas de los hombros de la Archiquimera también pueden ser blancos de ataques apuntados (-40 a la habilidad ofensiva) y cada una aguanta hasta 300 Puntos de Vida antes de quedar inutilizadas (distintos a los de la Archiquimera). Para poder usar su aliento la criatura sólo requiere una de ellas, pero de este modo aplicará un penalizador de -30 a su habilidad ofensiva con el Aliento. Vuelo Natural: La Quimera está dotada de un par de alas que puede utilizar para desplazarse a un Tipo de Vuelo 10. Los bonos que esto le proporciona no se encuentran reflejados en sus estadísticas, puesto que a menudo combate en el suelo. Cuando lucha con suficiente espacio como para volar con libertad, incrementa 10 puntos su habilidad de Ataque. Sentido Agudo: Con sus ojos de dragón las Archiquimeras ven el mundo como el depredador definitivo. Por ello, su agudizado sentido de la vista les proporciona un bono de +30 a todas las tiradas perceptivas.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos 25 Puntos de Vida: 3.885 Acumulación Categoría: Guerrero Acróbata Fue: 13 Des: 10 Agi: 11 Con: 13 Pod: 8 Int: 6 Vol: 8 Per: 9 RF 85 RM 70 RP 70 RV 85 RE 85\n\nTurno: 1 55 Natural Habilidad de ataque: 1 90 Garras + 1 60 Mordisco de Serpiente; o 2 10 Aliento de Fuego Habilidad de defensa: Acumulación Daño: 120 Garras (Fil), 50 Mordisco de Serpiente (Pen), 100 Aliento de Fuego (Cal) TA: Natural 8 Habilidades esenciales: Características Físicas Sobrehumanas, Sentido Agudo, Inhumanidad. Poderes: Armas Naturales; Garras (+30 al turno), Mordisco de Serpiente (Ataque Adicional -30, RV 120, Dolor), Cola, Hombros, Daña Energía, Aliento de Fuego (Distancia 25 Metros, Área 25 Metros, Daño Base 100, Ataque Elemental, Sin Límite, Requiere 2 Turnos de Preparatoria), Vuelo Natural 10.\n\nTamaño: 26 Enorme Regeneración: 7 Tipo de movimiento: 12/10 Cansancio: 13 Habilidades Secundarias: Atletismo 105, Saltar 105, Resistir el Dolor 50, Advertir 50 (80), Buscar 1 5 (45), Liderazgo 60. Las Archiquimeras son los híbridos más poderosos, los “reyes” de todas las quimeras, creadas en eras pasadas para ser las mayores bestias de combate. Guerreros natos, estos seres sólo viven para luchar. Su aspecto es realmente majestuoso; aunque aterradores, a su manera poseen cierta magnificencia y gracia natural. Se yerguen sobre dos pies como los hombres, pero sus cuerpos están compuestos por partes de diversas criaturas; alas y garras de águila, piernas de león, dos cabezas de halcón en los hombros, una serpiente de cola y la impresionante cabeza de un dragón. Miden entre los tres metros y medio y los cuatro, y los colores de su pelaje siempre son vivos y llamativos.\n\nSon considerablemente inteligentes y, aunque no hablan ningún idioma, tienen la capacidad de lograr que otras bestias o monstruos se subyuguen ante su poder. A veces, una Archiquimera ha llegado a reunir pequeños grupos de criaturas monstruosas para atacar fortificaciones o castillos sin otro objetivo que poner a prueba sus propias capacidades. Es poco lo que se conoce del ecosistema de estas criaturas, pero se cree que pueden reproducirse asexuadamente mediante huevos. Sin embargo, lejos de de proteger o cuidar a su progenie, los abandonan a su suerte cuando aún son simples huevos; de ese modo, sólo los más fuertes llegan a sobrevivir. Pese a ser muy escasas en número, las Archiquimeras pueden encontrarse en todos los rincones del mundo, aunque prefieren como hábitat los bosques espesos o las montañas rocosas.\n\nm oduS oPerandiLos instintos bélicos de una Archiquimera hacen que estas sientan un impulso natural a luchar contra toda clase de soldado o amenaza con la que se crucen. Podría decirse que “notan” la agresividad de otros seres y responden a ella del único modo que conocen. Sin embargo, no suelen atacar a criaturas indefensas o niños, pues la mayoría no concibe el matar por matar ni son especialmente crueles. Pese a su considerable tamaño, las Archiquimeras explotan su velocidad y sus rápidos reflejos para evitar dar a los enemigos la oportunidad de actuar. Si tienen espacio para moverse por el aire suelen iniciar los combates haciendo una pasada previa con su aliento de fuego antes de descender sobre ellos para rematarlos. Mordisco de Serpiente: La cola de una Archiquimera es una serpiente venenosa que ataca a sus enemigos inyectando veneno con sus mordiscos.\n\nSi produce daños, la víctima ha de superar un control de RV contra 120 o verse sometida de inmediato al estado de Dolor. Si falla la Resistencia por una diferencia superior a 40, se considera que sufre Dolor Extremo. El mordisco es independiente de los ataques que la Archiquimera realiza con sus garras, pero no puede usarlo si lanza su aliento de fuego en el mismo asalto. Cola: En el caso de recibir ataques, la cola cuenta como punto vulnerable de la Archiquimera (-30 a la habilidad al realizar un ataque apuntado contra ella). Tiene el equivalente a 500 Puntos de Vida (independientes a los del cuerpo central), pero si en cualquier momento recibe un único ataque que le produzca más de 100 puntos de daño, es amputada y la serpiente se “separa” del cuerpo.\n\nDesde ese momento actúa como un ser independiente a la propia Archiquimera, usando las reglas de acumulación de daño con TA 3 y 500 Puntos de Vida. Su habilidad sigue siendo la misma que cuando se encontraba unida al cuerpo y sigue pudiendo envenenar a sus enemigos. Aliento de Fuego: Las cabezas que están situadas en los hombros de la Archiquimera son capaces de proyectar chorros de fuego que abrasan aquello que tocan. Este ataque tiene forma de cono y se extiende hasta 25 metros en la dirección determinada por la criatura. Para activarlo las cabezas necesitan pasar al menos dos turnos preparándolo, aunque mientras la Archiquimera puede realizar cualquier otra acción.\n\nHombros: Igual que la cola, las cabezas de los hombros de la Archiquimera también pueden ser blancos de ataques apuntados (-40 a la habilidad ofensiva) y cada una aguanta hasta 300 Puntos de Vida antes de quedar inutilizadas (distintos a los de la Archiquimera). Para poder usar su aliento la criatura sólo requiere una de ellas, pero de este modo aplicará un penalizador de -30 a su habilidad ofensiva con el Aliento. Vuelo Natural: La Quimera está dotada de un par de alas que puede utilizar para desplazarse a un Tipo de Vuelo 10. Los bonos que esto le proporciona no se encuentran reflejados en sus estadísticas, puesto que a menudo combate en el suelo. Cuando lucha con suficiente espacio como para volar con libertad, incrementa 10 puntos su habilidad de Ataque. Sentido Agudo: Con sus ojos de dragón las Archiquimeras ven el mundo como el depredador definitivo.\n\nPor ello, su agudizado sentido de la vista les proporciona un bono de +30 a todas las tiradas perceptivas. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 21</p><p><strong>Entrada:</strong> Archiquimera</p><p><strong>Variante:</strong> Bestia Mayor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 25</p><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 13 Des: 10 Agi: 11 Con: 13 Pod: 8 Int: 6 Vol: 8 Per: 9 RF 85 RM 70 RP 70 RV 85 RE 85</p><p><strong>Habilidades esenciales:</strong> Características Físicas Sobrehumanas, Sentido Agudo, Inhumanidad.</p><p><strong>Poderes:</strong> Armas Naturales; Garras (+30 al turno), Mordisco de Serpiente (Ataque Adicional -30, RV 120, Dolor), Cola, Hombros, Daña Energía, Aliento de Fuego (Distancia 25 Metros, Área 25 Metros, Daño Base 100, Ataque Elemental, Sin Límite, Requiere 2 Turnos de Preparatoria), Vuelo Natural 10.</p><p><strong>Daño:</strong> 120 Garras (Fil), 50 Mordisco de Serpiente (Pen), 100 Aliento de Fuego (Cal)</p><p><strong>TA:</strong> Natural 8</p><p><strong>Habilidades secundarias:</strong> Atletismo 105, Saltar 105, Resistir el Dolor 50, Advertir 50 (80), Buscar 15 (45), Liderazgo 60</p><p><strong>Descripción breve:</strong> Las Archiquimeras son los híbridos más poderosos, los “reyes” de todas las quimeras, creadas en eras pasadas para ser las mayores bestias de combate. Guerreros natos, estos seres sólo viven para luchar. Su aspecto es realmente majestuoso; aunque aterradores, a su manera poseen cierta magnificencia y gracia natural. Se yerguen sobre dos pies como los hombres, pero sus cuerpos están compuestos por partes de diversas criaturas; alas y garras de águila, piernas de león, dos cabezas de halcón en los hombros, una serpiente de cola y la impresionante cabeza de un dragón. Miden entre los tres metros y medio y los cuatro, y los colores de su pelaje siempre son vivos y llamativos. Son considerablemente inteligentes y, aunque no hablan ningún idioma, tienen la capacidad de lograr que otras bestias o monstruos se subyuguen ante su poder. A veces, una Archiquimera ha llegado a reunir pequeños grupos de criaturas monstruosas para atacar fortificaciones o castillos sin otro objetivo que poner a prueba sus propias capacidades. Es poco lo que se conoce del ecosistema de estas criaturas, pero se cree que pueden reproducirse asexuadamente mediante huevos. Sin embargo, lejos de de proteger o cuidar a su progenie, los abandonan a su suerte cuando aún son simples huevos; de ese modo, sólo los más fuertes llegan a sobrevivir. Pese a ser muy escasas en número, las Archiquimeras pueden encontrarse en todos los rincones del mundo, aunque prefieren como hábitat los bosques espesos o las montañas rocosas. m oduS oPerandiLos instintos bélicos de una Archiquimera hacen que estas sientan un impulso natural a luchar contra toda clase de soldado o amenaza con la que se crucen. Podría decirse que “notan” la agresividad de otros seres y responden a ella del único modo que conocen. Sin embargo, no suelen atacar a criaturas indefensas o niños, pues la mayoría no concibe el matar por matar ni son especialmente crueles. Pese a su considerable tamaño, las Archiquimeras explotan su velocidad y sus rápidos reflejos para evitar dar a los enemigos la oportunidad de actuar. Si tienen espacio para moverse por el aire suelen iniciar los combates haciendo una pasada previa con su aliento de fuego antes de descender sobre ellos para rematarlos. Mordisco de Serpiente: La cola de una Archiquimera es una serpiente venenosa que ataca a sus enemigos inyectando veneno con sus mordiscos. Si produce daños, la víctima ha de superar un control de RV contra 120 o verse sometida de inmediato al estado de Dolor. Si falla la Resistencia por una diferencia superior a 40, se considera que sufre Dolor Extremo. El mordisco es independiente de los ataques que la Archiquimera realiza con sus garras, pero no puede usarlo si lanza su aliento de fuego en el mismo asalto. Cola: En el caso de recibir ataques, la cola cuenta como punto vulnerable de la Archiquimera (-30 a la habilidad al realizar un ataque apuntado contra ella). Tiene el equivalente a 500 Puntos de Vida (independientes a los del cuerpo central), pero si en cualquier momento recibe un único ataque que le produzca más de 100 puntos de daño, es amputada y la serpiente se “separa” del cuerpo. Desde ese momento actúa como un ser independiente a la propia Archiquimera, usando las reglas de acumulación de daño con TA 3 y 500 Puntos de Vida. Su habilidad sigue siendo la misma que cuando se encontraba unida al cuerpo y sigue pudiendo envenenar a sus enemigos. Aliento de Fuego: Las cabezas que están situadas en los hombros de la Archiquimera son capaces de proyectar chorros de fuego que abrasan aquello que tocan. Este ataque tiene forma de cono y se extiende hasta 25 metros en la dirección determinada por la criatura. Para activarlo las cabezas necesitan pasar al menos dos turnos preparándolo, aunque mientras la Archiquimera puede realizar cualquier otra acción. Hombros: Igual que la cola, las cabezas de los hombros de la Archiquimera también pueden ser blancos de ataques apuntados (-40 a la habilidad ofensiva) y cada una aguanta hasta 300 Puntos de Vida antes de quedar inutilizadas (distintos a los de la Archiquimera). Para poder usar su aliento la criatura sólo requiere una de ellas, pero de este modo aplicará un penalizador de -30 a su habilidad ofensiva con el Aliento. Vuelo Natural: La Quimera está dotada de un par de alas que puede utilizar para desplazarse a un Tipo de Vuelo 10. Los bonos que esto le proporciona no se encuentran reflejados en sus estadísticas, puesto que a menudo combate en el suelo. Cuando lucha con suficiente espacio como para volar con libertad, incrementa 10 puntos su habilidad de Ataque. Sentido Agudo: Con sus ojos de dragón las Archiquimeras ven el mundo como el depredador definitivo. Por ello, su agudizado sentido de la vista les proporciona un bono de +30 a todas las tiradas perceptivas.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 7\n\nClase: Entre mundos 25 Puntos de Vida: 3.885 Acumulación Categoría: Guerrero Acróbata Fue: 13 Des: 10 Agi: 11 Con: 13 Pod: 8 Int: 6 Vol: 8 Per: 9 RF 85 RM 70 RP 70 RV 85 RE 85\n\nTurno: 1 55 Natural Habilidad de ataque: 1 90 Garras + 1 60 Mordisco de Serpiente; o 2 10 Aliento de Fuego Habilidad de defensa: Acumulación Daño: 120 Garras (Fil), 50 Mordisco de Serpiente (Pen), 100 Aliento de Fuego (Cal) TA: Natural 8 Habilidades esenciales: Características Físicas Sobrehumanas, Sentido Agudo, Inhumanidad. Poderes: Armas Naturales; Garras (+30 al turno), Mordisco de Serpiente (Ataque Adicional -30, RV 120, Dolor), Cola, Hombros, Daña Energía, Aliento de Fuego (Distancia 25 Metros, Área 25 Metros, Daño Base 100, Ataque Elemental, Sin Límite, Requiere 2 Turnos de Preparatoria), Vuelo Natural 10.\n\nTamaño: 26 Enorme Regeneración: 7 Tipo de movimiento: 12/10 Cansancio: 13 Habilidades Secundarias: Atletismo 105, Saltar 105, Resistir el Dolor 50, Advertir 50 (80), Buscar 1 5 (45), Liderazgo 60. Las Archiquimeras son los híbridos más poderosos, los “reyes” de todas las quimeras, creadas en eras pasadas para ser las mayores bestias de combate. Guerreros natos, estos seres sólo viven para luchar. Su aspecto es realmente majestuoso; aunque aterradores, a su manera poseen cierta magnificencia y gracia natural. Se yerguen sobre dos pies como los hombres, pero sus cuerpos están compuestos por partes de diversas criaturas; alas y garras de águila, piernas de león, dos cabezas de halcón en los hombros, una serpiente de cola y la impresionante cabeza de un dragón. Miden entre los tres metros y medio y los cuatro, y los colores de su pelaje siempre son vivos y llamativos.\n\nSon considerablemente inteligentes y, aunque no hablan ningún idioma, tienen la capacidad de lograr que otras bestias o monstruos se subyuguen ante su poder. A veces, una Archiquimera ha llegado a reunir pequeños grupos de criaturas monstruosas para atacar fortificaciones o castillos sin otro objetivo que poner a prueba sus propias capacidades. Es poco lo que se conoce del ecosistema de estas criaturas, pero se cree que pueden reproducirse asexuadamente mediante huevos. Sin embargo, lejos de de proteger o cuidar a su progenie, los abandonan a su suerte cuando aún son simples huevos; de ese modo, sólo los más fuertes llegan a sobrevivir. Pese a ser muy escasas en número, las Archiquimeras pueden encontrarse en todos los rincones del mundo, aunque prefieren como hábitat los bosques espesos o las montañas rocosas.\n\nm oduS oPerandiLos instintos bélicos de una Archiquimera hacen que estas sientan un impulso natural a luchar contra toda clase de soldado o amenaza con la que se crucen. Podría decirse que “notan” la agresividad de otros seres y responden a ella del único modo que conocen. Sin embargo, no suelen atacar a criaturas indefensas o niños, pues la mayoría no concibe el matar por matar ni son especialmente crueles. Pese a su considerable tamaño, las Archiquimeras explotan su velocidad y sus rápidos reflejos para evitar dar a los enemigos la oportunidad de actuar. Si tienen espacio para moverse por el aire suelen iniciar los combates haciendo una pasada previa con su aliento de fuego antes de descender sobre ellos para rematarlos. Mordisco de Serpiente: La cola de una Archiquimera es una serpiente venenosa que ataca a sus enemigos inyectando veneno con sus mordiscos.\n\nSi produce daños, la víctima ha de superar un control de RV contra 120 o verse sometida de inmediato al estado de Dolor. Si falla la Resistencia por una diferencia superior a 40, se considera que sufre Dolor Extremo. El mordisco es independiente de los ataques que la Archiquimera realiza con sus garras, pero no puede usarlo si lanza su aliento de fuego en el mismo asalto. Cola: En el caso de recibir ataques, la cola cuenta como punto vulnerable de la Archiquimera (-30 a la habilidad al realizar un ataque apuntado contra ella). Tiene el equivalente a 500 Puntos de Vida (independientes a los del cuerpo central), pero si en cualquier momento recibe un único ataque que le produzca más de 100 puntos de daño, es amputada y la serpiente se “separa” del cuerpo.\n\nDesde ese momento actúa como un ser independiente a la propia Archiquimera, usando las reglas de acumulación de daño con TA 3 y 500 Puntos de Vida. Su habilidad sigue siendo la misma que cuando se encontraba unida al cuerpo y sigue pudiendo envenenar a sus enemigos. Aliento de Fuego: Las cabezas que están situadas en los hombros de la Archiquimera son capaces de proyectar chorros de fuego que abrasan aquello que tocan. Este ataque tiene forma de cono y se extiende hasta 25 metros en la dirección determinada por la criatura. Para activarlo las cabezas necesitan pasar al menos dos turnos preparándolo, aunque mientras la Archiquimera puede realizar cualquier otra acción.\n\nHombros: Igual que la cola, las cabezas de los hombros de la Archiquimera también pueden ser blancos de ataques apuntados (-40 a la habilidad ofensiva) y cada una aguanta hasta 300 Puntos de Vida antes de quedar inutilizadas (distintos a los de la Archiquimera). Para poder usar su aliento la criatura sólo requiere una de ellas, pero de este modo aplicará un penalizador de -30 a su habilidad ofensiva con el Aliento. Vuelo Natural: La Quimera está dotada de un par de alas que puede utilizar para desplazarse a un Tipo de Vuelo 10. Los bonos que esto le proporciona no se encuentran reflejados en sus estadísticas, puesto que a menudo combate en el suelo. Cuando lucha con suficiente espacio como para volar con libertad, incrementa 10 puntos su habilidad de Ataque. Sentido Agudo: Con sus ojos de dragón las Archiquimeras ven el mundo como el depredador definitivo.\n\nPor ello, su agudizado sentido de la vista les proporciona un bono de +30 a todas las tiradas perceptivas. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +404,6 @@
           }
         }
       ],
-      "level": {
-        "value": 7
-      },
       "notes": [
         {
           "_id": "note-archiquimera-bestia-mayor-3",
@@ -501,52 +423,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         }
       },
       "secondaries": {
@@ -557,9 +463,6 @@
         "initiative": {
           "base": {
             "value": 155
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +513,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -621,10 +521,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -632,10 +529,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 85070
+              "value": 85155
             },
             "final": {
               "value": 0
@@ -643,10 +537,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -654,10 +545,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 70
             },
             "final": {
               "value": 0
@@ -669,209 +557,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 105
+          },
+          "final": {
+            "value": 0
           }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 105
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 60
+          },
+          "final": {
+            "value": 0
           }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 210
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -902,11 +1036,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -918,14 +1048,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -939,14 +1074,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1051,15 +1183,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1071,37 +1199,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1224,9 +1372,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

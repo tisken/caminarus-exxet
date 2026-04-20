@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 166</p><p><strong>Entrada:</strong> Zopo</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Natural 0</p><p><strong>Categoría:</strong> Asesino Fue: 5 Des: 6 Agi: 5 Con: 4 Pod: 5 Int: 1 Vol: 2 Per: 8 RF 25 RM 30 RP 10 RV 25 RE 25</p><p><strong>Habilidades esenciales:</strong> No duerme, Miembros atrofiados, Inmunidad Psicológica, Tamaño Innatural, Vulnerabilidad.</p><p><strong>Poderes:</strong> Armas Naturales: Lengua y Fauces (+40 al Crítico, Ataque Adicional, Presa 10, Condicionado), Vuelo (Vuelo Natural 6, Condicionado), Visión Radial, Esquiva en Vuelo.</p><p><strong>Daño:</strong> 0 Lengua, 40 Fauces (Fil).</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Ocultarse 50, Sigilo 50, Advertir 50</p><p><strong>Descripción breve:</strong> Hay veces en las que las cosas de apariencia más inofensiva pueden ser también las más peligrosas. Los Zopos son extrañas plantas carnívoras que han evolucionado de manera anormal para alimentarse de grandes presas. Pese a ser relativamente pequeños (alrededor de unos 50 centímetros), estos inusuales depredadores son capaces de matar incluso a seres humanos con relativa facilidad. Están compuestos por un bulbo con cuatro ojos del que cuelgan unas enormes fauces dentadas y una larga lengua retráctil. Sorprendentemente, poseen varias hojas en la parte superior que giran como hélices a gran velocidad, permitiéndoles flotar por el aire en busca de “alimento”. Tienen un ciclo vital muy acelerado; viven poco más de una semana, periodo del que pasan de ser un simple planta en el suelo a marchitarse en el aire. No poseen verdadera inteligencia (o al menos, no mucha más de la que pueda tener una planta), pues sus mentes funcionan a un nivel tan básico que son incapaces de sentir emociones. A pesar de las dimensiones de sus “hélices”, los Zopo no producen prácticamente ningún sonido mientras vuelan. Por ello permanecen quietos a la espera de percibir algún ruido o movimiento que los haga activarse. Esa es la razón por la que es fácil hacer analogía con una “trampa voladora”; cepos monstruosos que persiguen a sus víctimas para arrancarles la cabeza de un mordisco. Los Zopos pueden aparecer en cualquier sitio y en cualquier cantidad, pero son mucho más comunes en lugares subterráneos o bosques. m oduS oPerandiComo su curioso apodo sugiere, estas criaturas actúan como verdaderas trampas voladoras; incansables y siempre despiertas, una vez que sienten una presa cercana se dirigen volando hacia ellas. Curiosamente, tienen algún tipo de conexión entre ellos, pues si alguna pasa cerca de otro zopo, este se activa también siguiendo la estela del anterior. Por ello, huir de ellos llega a ser muy peligroso, pues alguien puede empezar escapando de una para descubrir poco después que hay decenas persiguiéndole. Lengua y Fauces: Rodeando con su larga lengua el cuello de sus víctimas, los Zopos primero se sujetan a ellas para, tras abrir sus grandes fauces, dar un fuerte tirón mientras cierran de un golpe seco sus mandíbulas. En la mayoría de los casos eso representa la muerte automática de su enemigo por decapitación, si bien a veces, de no conseguir alcanzar la cabeza, pueden buscar otros puntos del cuerpo. Esta maniobra tiene dos etapas. En primer lugar los Zopos realizan un ataque especial de Presa con su lengua usando el equivalente aFuerza 10 (no importa cual sea el resultado final, nunca puede causar más que Parálisis Menor, pues se considera que se han agarrado al cuello u otra extremidad). De tener éxito, en el mismo asalto realizan un ataque adicional apuntado con sus fauces, aunque no sufren por ello penalizador alguno a su habilidad. Al hacerlo la trampa voladora siempre suelta a su objetivo, aunque este sí aplica el negativo correspondiente por encontrarse atrapado (que es de -20 a la parada o -40 a la esquiva) y recibir un ataque adicional. Salvo si el individuo atrapado carece de ellos (o es físicamente imposible), este segundo ataque siempre se considera que tiene como objetivo un punto vulnerable, e incrementa en +40 el resultado de cualquier crítico que pudiera producir. Vuelo: Haciendo girar las hojas que tiene en la parte superior a modo de hélice, un Zopo es capaz de mantenerse en el aire con Tipo de Vuelo 6. Sin embargo, su pequeño tamaño le impide tomar mucha altura, así que no se eleva más de tres o cuatro metros. Si sus Puntos de Vida se reducen a 25 o menos, las hojas están tan dañadas que pierde la capacidad de volar y, consecuentemente, de moverse lo más mínimo. Visión Radial: La trampa voladora posee cuatro ojos que miran sin parar en todas direcciones. Su único punto ciego es la parte superior de su cuerpo. Esquiva en Vuelo: Pese a lo que puedan aparentar los Zopos son muy hábiles esquivando y, dado que son considerablemente pequeñas, sus enemigos de tamaño medio o superior sufren un penalizador de -20 a su habilidad ofensiva (-10 en caso de que reduzca a la mitad los negativos de los golpes apuntados). Sin embargo, de perder la capacidad de volar, su Esquiva se reduce automáticamente a 0. Vulnerable: Como plantas que son, cualquier daño basado en fuego consume sus cuerpos con facilidad, produciéndoles doble daño. e StadoS de d eSarrolloAdemás del estado adulto, los Zopos pueden encontrarse en dos estados evolutivos más; larvario y marchito. l ar Vario : En este estado son simples capullos incapaces de volar que se desplazan por el suelo apoyándose en sus raíces. Se alimentan de pequeños animales e insectos, pero son relativamente inofensivos para los hombres. Su única cualidad peligrosa es que, en caso de que sean golpeados con fuerza (como un simple pisotón), estallan provocando una pequeña nube de polen que irrita los ojos y produce fuertes reacciones alérgicas (especialmente estornudos o vómitos). Si bien no es demasiado problemático en si mismo (los efectos desaparecen en pocos minutos), la parcial ceguera y la temporal debilidad pueden ser terribles si hay más Zopos en las inmediaciones. Cualquiera que esté a menos de tres metros de la larva cuando estalla ha de superar un control de RV contra 100 o sufrir un efecto inmediato de Ceguera Parcial (a causa de los ojos lacrimosos) y -20 a toda acción (por los estornudos y vómitos) un número de asaltos equivalente al nivel de fracaso. m archito : Es la fase final de la vida de un Zopo, justo antes de que muera dando nacimiento a varias larvas. En este estado, sus fauces son inservibles y su velocidad de vuelo queda reducida a 3 (haciendo consecuentemente que su Esquiva sea sólo de 20). Sin embargo, su flor se ha abierto, lo que genera grandes cantidades de invisible polen infeccioso que, igual que las larvas, causa efectos alérgicos en las personas. Todo aquel que permanezca al menos un turno a menos de 20 metros de un Zopo en estado marchito ha de superar un control de RV contra 100 o sufrir un efecto inmediato de Ceguera Parcial y -20 a toda acción un número de asaltos equivalente al nivel de fracaso.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1\n\nClase: Natural 0 Puntos de Vida: 55 Categoría: Asesino Fue: 5 Des: 6 Agi: 5 Con: 4 Pod: 5 Int: 1 Vol: 2 Per: 8 RF 25 RM 30 RP 10 RV 25 RE 25\n\nTurno: 55 Natural Habilidad de ataque: 80 Lengua + 80 Fauces. Habilidad de defensa: 40 Esquiva Daño: 0 Lengua, 40 Fauces (Fil). TA: Ninguna Habilidades esenciales: No duerme, Miembros atrofiados, Inmunidad Psicológica, Tamaño Innatural, Vulnerabilidad. Poderes: Armas Naturales: Lengua y Fauces (+40 al Crítico, Ataque Adicional, Presa 10, Condicionado), Vuelo (Vuelo Natural 6, Condicionado), Visión Radial, Esquiva en Vuelo. de movimiento: 0/6 Cansancio: 4 Habilidades Secundarias: Ocultarse 50, Sigilo 50, Advertir 50. Hay veces en las que las cosas de apariencia más inofensiva pueden ser también las más peligrosas. Los Zopos son extrañas plantas carnívoras que han evolucionado de manera anormal para alimentarse de grandes presas.\n\nPese a ser relativamente pequeños (alrededor de unos 50 centímetros), estos inusuales depredadores son capaces de matar incluso a seres humanos con relativa facilidad. Están compuestos por un bulbo con cuatro ojos del que cuelgan unas enormes fauces dentadas y una larga lengua retráctil. Sorprendentemente, poseen varias hojas en la parte superior que giran como hélices a gran velocidad, permitiéndoles flotar por el aire en busca de “alimento”. Tienen un ciclo vital muy acelerado; viven poco más de una semana, periodo del que pasan de ser un simple planta en el suelo a marchitarse en el aire. No poseen verdadera inteligencia (o al menos, no mucha más de la que pueda tener una planta), pues sus mentes funcionan a un nivel tan básico que son incapaces de sentir emociones. A pesar de las dimensiones de sus “hélices”, los Zopo no producen prácticamente ningún sonido mientras vuelan.\n\nPor ello permanecen quietos a la espera de percibir algún ruido o movimiento que los haga activarse. Esa es la razón por la que es fácil hacer analogía con una “trampa voladora”; cepos monstruosos que persiguen a sus víctimas para arrancarles la cabeza de un mordisco. Los Zopos pueden aparecer en cualquier sitio y en cualquier cantidad, pero son mucho más comunes en lugares subterráneos o bosques. m oduS oPerandiComo su curioso apodo sugiere, estas criaturas actúan como verdaderas trampas voladoras; incansables y siempre despiertas, una vez que sienten una presa cercana se dirigen volando hacia ellas. Curiosamente, tienen algún tipo de conexión entre ellos, pues si alguna pasa cerca de otro zopo, este se activa también siguiendo la estela del anterior.\n\nPor ello, huir de ellos llega a ser muy peligroso, pues alguien puede empezar escapando de una para descubrir poco después que hay decenas persiguiéndole. (order #3443007) Lengua y Fauces: Rodeando con su larga lengua el cuello de sus víctimas, los Zopos primero se sujetan a ellas para, tras abrir sus grandes fauces, dar un fuerte tirón mientras cierran de un golpe seco sus mandíbulas. En la mayoría de los casos eso representa la muerte automática de su enemigo por decapitación, si bien a veces, de no conseguir alcanzar la cabeza, pueden buscar otros puntos del cuerpo. Esta maniobra tiene dos etapas. En primer lugar los Zopos realizan un ataque especial de Presa con su lengua usando el equivalente aFuerza 10 (no importa cual sea el resultado final, nunca puede causar más que Parálisis Menor, pues se considera que se han agarrado al cuello u otra extremidad).\n\nDe tener éxito, en el mismo asalto realizan un ataque adicional apuntado con sus fauces, aunque no sufren por ello penalizador alguno a su habilidad. Al hacerlo la trampa voladora siempre suelta a su objetivo, aunque este sí aplica el negativo correspondiente por encontrarse atrapado (que es de -20 a la parada o -40 a la esquiva) y recibir un ataque adicional. Salvo si el individuo atrapado carece de ellos (o es físicamente imposible), este segundo ataque siempre se considera que tiene como objetivo un punto vulnerable, e incrementa en +40 el resultado de cualquier crítico que pudiera producir. Vuelo: Haciendo girar las hojas que tiene en la parte superior a modo de hélice, un Zopo es capaz de mantenerse en el aire con Tipo de Vuelo 6. Sin embargo, su pequeño tamaño le impide tomar mucha altura, así que no se eleva más de tres o cuatro metros.\n\nSi sus Puntos de Vida se reducen a 25 o menos, las hojas están tan dañadas que pierde la capacidad de volar y, consecuentemente, de moverse lo más mínimo. Visión Radial: La trampa voladora posee cuatro ojos que miran sin parar en todas direcciones. Su único punto ciego es la parte superior de su cuerpo. Esquiva en Vuelo: Pese a lo que puedan aparentar los Zopos son muy hábiles esquivando y, dado que son considerablemente pequeñas, sus enemigos de tamaño medio o superior sufren un penalizador de -20 a su habilidad ofensiva (-10 en caso de que reduzca a la mitad los negativos de los golpes apuntados). Sin embargo, de perder la capacidad de volar, su Esquiva se reduce automáticamente a 0. Vulnerable: Como plantas que son, cualquier daño basado en fuego consume sus cuerpos con facilidad, produciéndoles doble daño.\n\ne StadoS de d eSarrolloAdemás del estado adulto, los Zopos pueden encontrarse en dos estados evolutivos más; larvario y marchito. l ar Vario : En este estado son simples capullos incapaces de volar que se desplazan por el suelo apoyándose en sus raíces. Se alimentan de pequeños animales e insectos, pero son relativamente inofensivos para los hombres. Su única cualidad peligrosa es que, en caso de que sean golpeados con fuerza (como un simple pisotón), estallan provocando una pequeña nube de polen que irrita los ojos y produce fuertes reacciones alérgicas (especialmente estornudos o vómitos). Si bien no es demasiado problemático en si mismo (los efectos desaparecen en pocos minutos), la parcial ceguera y la temporal debilidad pueden ser terribles si hay más Zopos en las inmediaciones.\n\nCualquiera que esté a menos de tres metros de la larva cuando estalla ha de superar un control de RV contra 100 o sufrir un efecto inmediato de Ceguera Parcial (a causa de los ojos lacrimosos) y -20 a toda acción (por los estornudos y vómitos) un número de asaltos equivalente al nivel de fracaso. m archito : Es la fase final de la vida de un Zopo, justo antes de que muera dando nacimiento a varias larvas. En este estado, sus fauces son inservibles y su velocidad de vuelo queda reducida a 3 (haciendo consecuentemente que su Esquiva sea sólo de 20). Sin embargo, su flor se ha abierto, lo que genera grandes cantidades de invisible polen infeccioso que, igual que las larvas, causa efectos alérgicos en las personas.\n\nTodo aquel que permanezca al menos un turno a menos de 20 metros de un Zopo en estado marchito ha de superar un control de RV contra 100 o sufrir un efecto inmediato de Ceguera Parcial y -20 a toda acción un número de asaltos equivalente al nivel de fracaso. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 166</p><p><strong>Entrada:</strong> Zopo</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Natural 0</p><p><strong>Categoría:</strong> Asesino Fue: 5 Des: 6 Agi: 5 Con: 4 Pod: 5 Int: 1 Vol: 2 Per: 8 RF 25 RM 30 RP 10 RV 25 RE 25</p><p><strong>Habilidades esenciales:</strong> No duerme, Miembros atrofiados, Inmunidad Psicológica, Tamaño Innatural, Vulnerabilidad.</p><p><strong>Poderes:</strong> Armas Naturales: Lengua y Fauces (+40 al Crítico, Ataque Adicional, Presa 10, Condicionado), Vuelo (Vuelo Natural 6, Condicionado), Visión Radial, Esquiva en Vuelo.</p><p><strong>Daño:</strong> 0 Lengua, 40 Fauces (Fil).</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Ocultarse 50, Sigilo 50, Advertir 50</p><p><strong>Descripción breve:</strong> Hay veces en las que las cosas de apariencia más inofensiva pueden ser también las más peligrosas. Los Zopos son extrañas plantas carnívoras que han evolucionado de manera anormal para alimentarse de grandes presas. Pese a ser relativamente pequeños (alrededor de unos 50 centímetros), estos inusuales depredadores son capaces de matar incluso a seres humanos con relativa facilidad. Están compuestos por un bulbo con cuatro ojos del que cuelgan unas enormes fauces dentadas y una larga lengua retráctil. Sorprendentemente, poseen varias hojas en la parte superior que giran como hélices a gran velocidad, permitiéndoles flotar por el aire en busca de “alimento”. Tienen un ciclo vital muy acelerado; viven poco más de una semana, periodo del que pasan de ser un simple planta en el suelo a marchitarse en el aire. No poseen verdadera inteligencia (o al menos, no mucha más de la que pueda tener una planta), pues sus mentes funcionan a un nivel tan básico que son incapaces de sentir emociones. A pesar de las dimensiones de sus “hélices”, los Zopo no producen prácticamente ningún sonido mientras vuelan. Por ello permanecen quietos a la espera de percibir algún ruido o movimiento que los haga activarse. Esa es la razón por la que es fácil hacer analogía con una “trampa voladora”; cepos monstruosos que persiguen a sus víctimas para arrancarles la cabeza de un mordisco. Los Zopos pueden aparecer en cualquier sitio y en cualquier cantidad, pero son mucho más comunes en lugares subterráneos o bosques. m oduS oPerandiComo su curioso apodo sugiere, estas criaturas actúan como verdaderas trampas voladoras; incansables y siempre despiertas, una vez que sienten una presa cercana se dirigen volando hacia ellas. Curiosamente, tienen algún tipo de conexión entre ellos, pues si alguna pasa cerca de otro zopo, este se activa también siguiendo la estela del anterior. Por ello, huir de ellos llega a ser muy peligroso, pues alguien puede empezar escapando de una para descubrir poco después que hay decenas persiguiéndole. Lengua y Fauces: Rodeando con su larga lengua el cuello de sus víctimas, los Zopos primero se sujetan a ellas para, tras abrir sus grandes fauces, dar un fuerte tirón mientras cierran de un golpe seco sus mandíbulas. En la mayoría de los casos eso representa la muerte automática de su enemigo por decapitación, si bien a veces, de no conseguir alcanzar la cabeza, pueden buscar otros puntos del cuerpo. Esta maniobra tiene dos etapas. En primer lugar los Zopos realizan un ataque especial de Presa con su lengua usando el equivalente aFuerza 10 (no importa cual sea el resultado final, nunca puede causar más que Parálisis Menor, pues se considera que se han agarrado al cuello u otra extremidad). De tener éxito, en el mismo asalto realizan un ataque adicional apuntado con sus fauces, aunque no sufren por ello penalizador alguno a su habilidad. Al hacerlo la trampa voladora siempre suelta a su objetivo, aunque este sí aplica el negativo correspondiente por encontrarse atrapado (que es de -20 a la parada o -40 a la esquiva) y recibir un ataque adicional. Salvo si el individuo atrapado carece de ellos (o es físicamente imposible), este segundo ataque siempre se considera que tiene como objetivo un punto vulnerable, e incrementa en +40 el resultado de cualquier crítico que pudiera producir. Vuelo: Haciendo girar las hojas que tiene en la parte superior a modo de hélice, un Zopo es capaz de mantenerse en el aire con Tipo de Vuelo 6. Sin embargo, su pequeño tamaño le impide tomar mucha altura, así que no se eleva más de tres o cuatro metros. Si sus Puntos de Vida se reducen a 25 o menos, las hojas están tan dañadas que pierde la capacidad de volar y, consecuentemente, de moverse lo más mínimo. Visión Radial: La trampa voladora posee cuatro ojos que miran sin parar en todas direcciones. Su único punto ciego es la parte superior de su cuerpo. Esquiva en Vuelo: Pese a lo que puedan aparentar los Zopos son muy hábiles esquivando y, dado que son considerablemente pequeñas, sus enemigos de tamaño medio o superior sufren un penalizador de -20 a su habilidad ofensiva (-10 en caso de que reduzca a la mitad los negativos de los golpes apuntados). Sin embargo, de perder la capacidad de volar, su Esquiva se reduce automáticamente a 0. Vulnerable: Como plantas que son, cualquier daño basado en fuego consume sus cuerpos con facilidad, produciéndoles doble daño. e StadoS de d eSarrolloAdemás del estado adulto, los Zopos pueden encontrarse en dos estados evolutivos más; larvario y marchito. l ar Vario : En este estado son simples capullos incapaces de volar que se desplazan por el suelo apoyándose en sus raíces. Se alimentan de pequeños animales e insectos, pero son relativamente inofensivos para los hombres. Su única cualidad peligrosa es que, en caso de que sean golpeados con fuerza (como un simple pisotón), estallan provocando una pequeña nube de polen que irrita los ojos y produce fuertes reacciones alérgicas (especialmente estornudos o vómitos). Si bien no es demasiado problemático en si mismo (los efectos desaparecen en pocos minutos), la parcial ceguera y la temporal debilidad pueden ser terribles si hay más Zopos en las inmediaciones. Cualquiera que esté a menos de tres metros de la larva cuando estalla ha de superar un control de RV contra 100 o sufrir un efecto inmediato de Ceguera Parcial (a causa de los ojos lacrimosos) y -20 a toda acción (por los estornudos y vómitos) un número de asaltos equivalente al nivel de fracaso. m archito : Es la fase final de la vida de un Zopo, justo antes de que muera dando nacimiento a varias larvas. En este estado, sus fauces son inservibles y su velocidad de vuelo queda reducida a 3 (haciendo consecuentemente que su Esquiva sea sólo de 20). Sin embargo, su flor se ha abierto, lo que genera grandes cantidades de invisible polen infeccioso que, igual que las larvas, causa efectos alérgicos en las personas. Todo aquel que permanezca al menos un turno a menos de 20 metros de un Zopo en estado marchito ha de superar un control de RV contra 100 o sufrir un efecto inmediato de Ceguera Parcial y -20 a toda acción un número de asaltos equivalente al nivel de fracaso.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1\n\nClase: Natural 0 Puntos de Vida: 55 Categoría: Asesino Fue: 5 Des: 6 Agi: 5 Con: 4 Pod: 5 Int: 1 Vol: 2 Per: 8 RF 25 RM 30 RP 10 RV 25 RE 25\n\nTurno: 55 Natural Habilidad de ataque: 80 Lengua + 80 Fauces. Habilidad de defensa: 40 Esquiva Daño: 0 Lengua, 40 Fauces (Fil). TA: Ninguna Habilidades esenciales: No duerme, Miembros atrofiados, Inmunidad Psicológica, Tamaño Innatural, Vulnerabilidad. Poderes: Armas Naturales: Lengua y Fauces (+40 al Crítico, Ataque Adicional, Presa 10, Condicionado), Vuelo (Vuelo Natural 6, Condicionado), Visión Radial, Esquiva en Vuelo. de movimiento: 0/6 Cansancio: 4 Habilidades Secundarias: Ocultarse 50, Sigilo 50, Advertir 50. Hay veces en las que las cosas de apariencia más inofensiva pueden ser también las más peligrosas. Los Zopos son extrañas plantas carnívoras que han evolucionado de manera anormal para alimentarse de grandes presas.\n\nPese a ser relativamente pequeños (alrededor de unos 50 centímetros), estos inusuales depredadores son capaces de matar incluso a seres humanos con relativa facilidad. Están compuestos por un bulbo con cuatro ojos del que cuelgan unas enormes fauces dentadas y una larga lengua retráctil. Sorprendentemente, poseen varias hojas en la parte superior que giran como hélices a gran velocidad, permitiéndoles flotar por el aire en busca de “alimento”. Tienen un ciclo vital muy acelerado; viven poco más de una semana, periodo del que pasan de ser un simple planta en el suelo a marchitarse en el aire. No poseen verdadera inteligencia (o al menos, no mucha más de la que pueda tener una planta), pues sus mentes funcionan a un nivel tan básico que son incapaces de sentir emociones. A pesar de las dimensiones de sus “hélices”, los Zopo no producen prácticamente ningún sonido mientras vuelan.\n\nPor ello permanecen quietos a la espera de percibir algún ruido o movimiento que los haga activarse. Esa es la razón por la que es fácil hacer analogía con una “trampa voladora”; cepos monstruosos que persiguen a sus víctimas para arrancarles la cabeza de un mordisco. Los Zopos pueden aparecer en cualquier sitio y en cualquier cantidad, pero son mucho más comunes en lugares subterráneos o bosques. m oduS oPerandiComo su curioso apodo sugiere, estas criaturas actúan como verdaderas trampas voladoras; incansables y siempre despiertas, una vez que sienten una presa cercana se dirigen volando hacia ellas. Curiosamente, tienen algún tipo de conexión entre ellos, pues si alguna pasa cerca de otro zopo, este se activa también siguiendo la estela del anterior.\n\nPor ello, huir de ellos llega a ser muy peligroso, pues alguien puede empezar escapando de una para descubrir poco después que hay decenas persiguiéndole. (order #3443007) Lengua y Fauces: Rodeando con su larga lengua el cuello de sus víctimas, los Zopos primero se sujetan a ellas para, tras abrir sus grandes fauces, dar un fuerte tirón mientras cierran de un golpe seco sus mandíbulas. En la mayoría de los casos eso representa la muerte automática de su enemigo por decapitación, si bien a veces, de no conseguir alcanzar la cabeza, pueden buscar otros puntos del cuerpo. Esta maniobra tiene dos etapas. En primer lugar los Zopos realizan un ataque especial de Presa con su lengua usando el equivalente aFuerza 10 (no importa cual sea el resultado final, nunca puede causar más que Parálisis Menor, pues se considera que se han agarrado al cuello u otra extremidad).\n\nDe tener éxito, en el mismo asalto realizan un ataque adicional apuntado con sus fauces, aunque no sufren por ello penalizador alguno a su habilidad. Al hacerlo la trampa voladora siempre suelta a su objetivo, aunque este sí aplica el negativo correspondiente por encontrarse atrapado (que es de -20 a la parada o -40 a la esquiva) y recibir un ataque adicional. Salvo si el individuo atrapado carece de ellos (o es físicamente imposible), este segundo ataque siempre se considera que tiene como objetivo un punto vulnerable, e incrementa en +40 el resultado de cualquier crítico que pudiera producir. Vuelo: Haciendo girar las hojas que tiene en la parte superior a modo de hélice, un Zopo es capaz de mantenerse en el aire con Tipo de Vuelo 6. Sin embargo, su pequeño tamaño le impide tomar mucha altura, así que no se eleva más de tres o cuatro metros.\n\nSi sus Puntos de Vida se reducen a 25 o menos, las hojas están tan dañadas que pierde la capacidad de volar y, consecuentemente, de moverse lo más mínimo. Visión Radial: La trampa voladora posee cuatro ojos que miran sin parar en todas direcciones. Su único punto ciego es la parte superior de su cuerpo. Esquiva en Vuelo: Pese a lo que puedan aparentar los Zopos son muy hábiles esquivando y, dado que son considerablemente pequeñas, sus enemigos de tamaño medio o superior sufren un penalizador de -20 a su habilidad ofensiva (-10 en caso de que reduzca a la mitad los negativos de los golpes apuntados). Sin embargo, de perder la capacidad de volar, su Esquiva se reduce automáticamente a 0. Vulnerable: Como plantas que son, cualquier daño basado en fuego consume sus cuerpos con facilidad, produciéndoles doble daño.\n\ne StadoS de d eSarrolloAdemás del estado adulto, los Zopos pueden encontrarse en dos estados evolutivos más; larvario y marchito. l ar Vario : En este estado son simples capullos incapaces de volar que se desplazan por el suelo apoyándose en sus raíces. Se alimentan de pequeños animales e insectos, pero son relativamente inofensivos para los hombres. Su única cualidad peligrosa es que, en caso de que sean golpeados con fuerza (como un simple pisotón), estallan provocando una pequeña nube de polen que irrita los ojos y produce fuertes reacciones alérgicas (especialmente estornudos o vómitos). Si bien no es demasiado problemático en si mismo (los efectos desaparecen en pocos minutos), la parcial ceguera y la temporal debilidad pueden ser terribles si hay más Zopos en las inmediaciones.\n\nCualquiera que esté a menos de tres metros de la larva cuando estalla ha de superar un control de RV contra 100 o sufrir un efecto inmediato de Ceguera Parcial (a causa de los ojos lacrimosos) y -20 a toda acción (por los estornudos y vómitos) un número de asaltos equivalente al nivel de fracaso. m archito : Es la fase final de la vida de un Zopo, justo antes de que muera dando nacimiento a varias larvas. En este estado, sus fauces son inservibles y su velocidad de vuelo queda reducida a 3 (haciendo consecuentemente que su Esquiva sea sólo de 20). Sin embargo, su flor se ha abierto, lo que genera grandes cantidades de invisible polen infeccioso que, igual que las larvas, causa efectos alérgicos en las personas.\n\nTodo aquel que permanezca al menos un turno a menos de 20 metros de un Zopo en estado marchito ha de superar un control de RV contra 100 o sufrir un efecto inmediato de Ceguera Parcial y -20 a toda acción un número de asaltos equivalente al nivel de fracaso. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-zopo-3",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 1
-          }
+          "value": 1,
+          "mod": -30
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 2
-          }
+          "value": 2,
+          "mod": -20
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 55
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 25
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 25
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 2530
+              "value": 2555
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 30
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 10
             },
             "final": {
               "value": 0
@@ -513,203 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 80
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 40
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -740,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -756,14 +889,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -777,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -889,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -909,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1062,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

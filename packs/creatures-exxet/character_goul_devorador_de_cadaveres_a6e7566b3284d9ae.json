@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 35
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> ABF Complemento Web Vol. 1</p><p><strong>Entrada:</strong> Goul Devorador de Cadáveres</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, no muerto 10</p><p><strong>Categoría:</strong> Asesino Fue: 7 Des: 7 Agi: 8 Con: 6 Pod: 5 Int: 4 Vol: 5 Per: 6 RF 40 RM 35 RP 35 RV 40 RE 40 _Página 8_</p><p><strong>Habilidades esenciales:</strong> Sentido agudizado (Olfato), Inmune a las enfermedades naturales, No respira, Vicio racial, Necesidad física, Miedo racial, Vulnerable.</p><p><strong>Poderes:</strong> Arma natural: garras y fauces, Movimiento subterráneo, Regeneración 14 (Condicionada), Visión nocturna.</p><p><strong>Daño:</strong> 45 Garras</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 70 (100 olfato), Buscar 50 (80 olfato), Ocultarse 50, Sigilo 70, Trepar 50, Atletismo 30, Saltar 30</p><p><strong>Descripción breve:</strong> Un goul es el resultado de que un ser humano sea expuesto a potentes energías nigromanticas durante un largo periodo de tiempo. Gradualmente, estas personas empiezan a sufrir cambios físicos, hasta que al final dejan de estar realmente vivos para convertirse en criaturas no muertas. Por regla general un goul mantiene un aspecto vagamente humano, aunque con el cuerpo mucho más fibroso y lleno de deformidades. Sus brazos y piernas son desproporcionadamente largos y finos, pero a la vez con músculos muy marcados. Tienen afiladas garras en pies y manos, al igual que unas monstruosas mandíbulas cuyos enormes dientes sobresalen a través de sus labios. También se caracterizan por una caja torácica hinchada y un diminuto abdomen. Estas criaturas, al contrario que otros no muertos menores, tienen un gran sentido de grupo, y tienden reunirse en núcleos numerosos. Suelen establecer madrigueras subterráneas, por lo general cerca de cementerios o lugares rodeados de muerte, donde no tienen demasiados problemas para hallar alimentos. A veces, cuando uno o varios humanos se ven obligados a alimentarse de cuerpos descompuestos durante años enteros, acaban convirtiéndose paulatinamente en gouls, aunque no es la única manera de que esto ocurra. También se ha dado el caso de que en algunas de las bases secretas de Sol Negro pertenecientes a la familia Delacroix, donde se realizan experimentos nigromanticos para obtener nuevas y sofisticadas armas, han aparecido gouls entre los trabajadores. En las tres ocasiones en las que una de dichas bases ha sufrido un “accidente” y las creaciones tomaron el control de las instalaciones, algunos de los supervivientes que quedaron atrapados en cámaras de seguridad se convirtieron en gouls, y acabaron pululando junto a otros seres no muertos por los pasillos en busca de alimento. Modus operandi La metodología de combate de los Gouls es muy variable. Si se ven obligados a salir de sus madrigueras, suelen aprovechar las excelentes habilidades de subterfugio de las que están dotados, atacando desde las sombras con sus garras y fauces. Por el contrario, en sus guaridas lo más habitual es que actúen en grupos numerosos, tratando de acabar con sus enemigos gracias a la acumulación de ataques. A pesar de ser una criatura no muerta, su cabeza es un punto vulnerable. Ansia de carne: Los Gouls necesitan alimentarse de carne muerta para sobrevivir. Aunque no requieren grandes cantidades al día, si no obtienen sustento con regularidad empiezan a sentirse ansiosos y pierden el control. Pasada una semana, entran en un estado de frenesí que les impulsa a salir de sus madrigueras y matar todo lo que encuentren a su paso. Si un Goul permanece más de dos semanas sin alimentarse comienza a devorarse a si mismo hasta matarse.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 2\n\nClase: Entre mundos, no muerto 10 Puntos de Vida: 95 Categoría: Asesino Fue: 7 Des: 7 Agi: 8 Con: 6 Pod: 5 Int: 4 Vol: 5 Per: 6 RF 40 RM 35 RP 35 RV 40 RE 40\n\n&lt;!-- tags: @personaje, @regla, @sol_negro --&gt;\n\n_Página 8_\n\nTurno: 75 Natural Habilidad de ataque: 90 Garras y fauces Habilidad de defensa: 80 Esquiva Daño: 45 Garras TA: Ninguna Habilidades esenciales: Sentido agudizado (Olfato), Inmune a las enfermedades naturales, No respira, Vicio racial, Necesidad física, Miedo racial, Vulnerable. Poderes: Arma natural: garras y fauces, Movimiento subterráneo, Regeneración 1 4 (Condicionada), Visión nocturna. de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Advertir 70 (100 olfato), Buscar 50 (80 olfato), Ocultarse 50, Sigilo 70, Trepar 50, Atletismo 30, Saltar 30. Un goul es el resultado de que un ser humano sea expuesto a potentes energías nigromanticas durante un largo periodo de tiempo. Gradualmente, estas personas empiezan a sufrir cambios físicos, hasta que al final dejan de estar realmente vivos para convertirse en criaturas no muertas.\n\nPor regla general un goul mantiene un aspecto vagamente humano, aunque con el cuerpo mucho más fibroso y lleno de deformidades. Sus brazos y piernas son desproporcionadamente largos y finos, pero a la vez con músculos muy marcados. Tienen afiladas garras en pies y manos, al igual que unas monstruosas mandíbulas cuyos enormes dientes sobresalen a través de sus labios. También se caracterizan por una caja torácica hinchada y un diminuto abdomen. Estas criaturas, al contrario que otros no muertos menores, tienen un gran sentido de grupo, y tienden reunirse en núcleos numerosos. Suelen establecer madrigueras subterráneas, por lo general cerca de cementerios o lugares rodeados de muerte, donde no tienen demasiados problemas para hallar alimentos.\n\nA veces, cuando uno o varios humanos se ven obligados a alimentarse de cuerpos descompuestos durante años enteros, acaban convirtiéndose paulatinamente en gouls, aunque no es la única manera de que esto ocurra. También se ha dado el caso de que en algunas de las bases secretas de Sol Negro pertenecientes a la familia Delacroix, donde se realizan experimentos nigromanticos para obtener nuevas y sofisticadas armas, han aparecido gouls entre los trabajadores. En las tres ocasiones en las que una de dichas bases ha sufrido un “accidente” y las creaciones tomaron el control de las instalaciones, algunos de los supervivientes que quedaron atrapados en cámaras de seguridad se convirtieron en gouls, y acabaron pululando junto a otros seres no muertos por los pasillos en busca de alimento. Modus operandi La metodología de combate de los Gouls es muy variable.\n\nSi se ven obligados a salir de sus madrigueras, suelen aprovechar las excelentes habilidades de subterfugio de las que están dotados, atacando desde las sombras con sus garras y fauces. Por el contrario, en sus guaridas lo más habitual es que actúen en grupos numerosos, tratando de acabar con sus enemigos gracias a la acumulación de ataques. A pesar de ser una criatura no muerta, su cabeza es un punto vulnerable. Ansia de carne: Los Gouls necesitan alimentarse de carne muerta para sobrevivir. Aunque no requieren grandes cantidades al día, si no obtienen sustento con regularidad empiezan a sentirse ansiosos y pierden el control. Pasada una semana, entran en un estado de frenesí que les impulsa a salir de sus madrigueras y matar todo lo que encuentren a su paso. Si un Goul permanece más de dos semanas sin alimentarse comienza a devorarse a si mismo hasta matarse.\n\nRegeneración: Aunque por su condición de no muerto los Gouls son incapaces de sanar sus cuerpos, durante el tiempo que se alimentan de carne putrefacta sus heridas comienzan a cerrarse con gran velocidad. De este modo, cada asalto que pasen comiendo recuperan un punto de vida. Debilidad ante el fuego: El fuego es el enemigo natural de los gouls. Estas criaturas sienten su presencia y les aterra, por lo que al estar delante de llamas del tamaño de una antorcha o mayor, aplican el estado de Miedo. Además, cualquier daño basado en dicho elemento les produce automáticamente doble daño. Karridor Portador de plagas</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> ABF Complemento Web Vol. 1</p><p><strong>Entrada:</strong> Goul Devorador de Cadáveres</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, no muerto 10</p><p><strong>Categoría:</strong> Asesino Fue: 7 Des: 7 Agi: 8 Con: 6 Pod: 5 Int: 4 Vol: 5 Per: 6 RF 40 RM 35 RP 35 RV 40 RE 40 _Página 8_</p><p><strong>Habilidades esenciales:</strong> Sentido agudizado (Olfato), Inmune a las enfermedades naturales, No respira, Vicio racial, Necesidad física, Miedo racial, Vulnerable.</p><p><strong>Poderes:</strong> Arma natural: garras y fauces, Movimiento subterráneo, Regeneración 14 (Condicionada), Visión nocturna.</p><p><strong>Daño:</strong> 45 Garras</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 70 (100 olfato), Buscar 50 (80 olfato), Ocultarse 50, Sigilo 70, Trepar 50, Atletismo 30, Saltar 30</p><p><strong>Descripción breve:</strong> Un goul es el resultado de que un ser humano sea expuesto a potentes energías nigromanticas durante un largo periodo de tiempo. Gradualmente, estas personas empiezan a sufrir cambios físicos, hasta que al final dejan de estar realmente vivos para convertirse en criaturas no muertas. Por regla general un goul mantiene un aspecto vagamente humano, aunque con el cuerpo mucho más fibroso y lleno de deformidades. Sus brazos y piernas son desproporcionadamente largos y finos, pero a la vez con músculos muy marcados. Tienen afiladas garras en pies y manos, al igual que unas monstruosas mandíbulas cuyos enormes dientes sobresalen a través de sus labios. También se caracterizan por una caja torácica hinchada y un diminuto abdomen. Estas criaturas, al contrario que otros no muertos menores, tienen un gran sentido de grupo, y tienden reunirse en núcleos numerosos. Suelen establecer madrigueras subterráneas, por lo general cerca de cementerios o lugares rodeados de muerte, donde no tienen demasiados problemas para hallar alimentos. A veces, cuando uno o varios humanos se ven obligados a alimentarse de cuerpos descompuestos durante años enteros, acaban convirtiéndose paulatinamente en gouls, aunque no es la única manera de que esto ocurra. También se ha dado el caso de que en algunas de las bases secretas de Sol Negro pertenecientes a la familia Delacroix, donde se realizan experimentos nigromanticos para obtener nuevas y sofisticadas armas, han aparecido gouls entre los trabajadores. En las tres ocasiones en las que una de dichas bases ha sufrido un “accidente” y las creaciones tomaron el control de las instalaciones, algunos de los supervivientes que quedaron atrapados en cámaras de seguridad se convirtieron en gouls, y acabaron pululando junto a otros seres no muertos por los pasillos en busca de alimento. Modus operandi La metodología de combate de los Gouls es muy variable. Si se ven obligados a salir de sus madrigueras, suelen aprovechar las excelentes habilidades de subterfugio de las que están dotados, atacando desde las sombras con sus garras y fauces. Por el contrario, en sus guaridas lo más habitual es que actúen en grupos numerosos, tratando de acabar con sus enemigos gracias a la acumulación de ataques. A pesar de ser una criatura no muerta, su cabeza es un punto vulnerable. Ansia de carne: Los Gouls necesitan alimentarse de carne muerta para sobrevivir. Aunque no requieren grandes cantidades al día, si no obtienen sustento con regularidad empiezan a sentirse ansiosos y pierden el control. Pasada una semana, entran en un estado de frenesí que les impulsa a salir de sus madrigueras y matar todo lo que encuentren a su paso. Si un Goul permanece más de dos semanas sin alimentarse comienza a devorarse a si mismo hasta matarse.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 2\n\nClase: Entre mundos, no muerto 10 Puntos de Vida: 95 Categoría: Asesino Fue: 7 Des: 7 Agi: 8 Con: 6 Pod: 5 Int: 4 Vol: 5 Per: 6 RF 40 RM 35 RP 35 RV 40 RE 40\n\n&lt;!-- tags: @personaje, @regla, @sol_negro --&gt;\n\n_Página 8_\n\nTurno: 75 Natural Habilidad de ataque: 90 Garras y fauces Habilidad de defensa: 80 Esquiva Daño: 45 Garras TA: Ninguna Habilidades esenciales: Sentido agudizado (Olfato), Inmune a las enfermedades naturales, No respira, Vicio racial, Necesidad física, Miedo racial, Vulnerable. Poderes: Arma natural: garras y fauces, Movimiento subterráneo, Regeneración 1 4 (Condicionada), Visión nocturna. de movimiento: 8 Cansancio: Incansable Habilidades Secundarias: Advertir 70 (100 olfato), Buscar 50 (80 olfato), Ocultarse 50, Sigilo 70, Trepar 50, Atletismo 30, Saltar 30. Un goul es el resultado de que un ser humano sea expuesto a potentes energías nigromanticas durante un largo periodo de tiempo. Gradualmente, estas personas empiezan a sufrir cambios físicos, hasta que al final dejan de estar realmente vivos para convertirse en criaturas no muertas.\n\nPor regla general un goul mantiene un aspecto vagamente humano, aunque con el cuerpo mucho más fibroso y lleno de deformidades. Sus brazos y piernas son desproporcionadamente largos y finos, pero a la vez con músculos muy marcados. Tienen afiladas garras en pies y manos, al igual que unas monstruosas mandíbulas cuyos enormes dientes sobresalen a través de sus labios. También se caracterizan por una caja torácica hinchada y un diminuto abdomen. Estas criaturas, al contrario que otros no muertos menores, tienen un gran sentido de grupo, y tienden reunirse en núcleos numerosos. Suelen establecer madrigueras subterráneas, por lo general cerca de cementerios o lugares rodeados de muerte, donde no tienen demasiados problemas para hallar alimentos.\n\nA veces, cuando uno o varios humanos se ven obligados a alimentarse de cuerpos descompuestos durante años enteros, acaban convirtiéndose paulatinamente en gouls, aunque no es la única manera de que esto ocurra. También se ha dado el caso de que en algunas de las bases secretas de Sol Negro pertenecientes a la familia Delacroix, donde se realizan experimentos nigromanticos para obtener nuevas y sofisticadas armas, han aparecido gouls entre los trabajadores. En las tres ocasiones en las que una de dichas bases ha sufrido un “accidente” y las creaciones tomaron el control de las instalaciones, algunos de los supervivientes que quedaron atrapados en cámaras de seguridad se convirtieron en gouls, y acabaron pululando junto a otros seres no muertos por los pasillos en busca de alimento. Modus operandi La metodología de combate de los Gouls es muy variable.\n\nSi se ven obligados a salir de sus madrigueras, suelen aprovechar las excelentes habilidades de subterfugio de las que están dotados, atacando desde las sombras con sus garras y fauces. Por el contrario, en sus guaridas lo más habitual es que actúen en grupos numerosos, tratando de acabar con sus enemigos gracias a la acumulación de ataques. A pesar de ser una criatura no muerta, su cabeza es un punto vulnerable. Ansia de carne: Los Gouls necesitan alimentarse de carne muerta para sobrevivir. Aunque no requieren grandes cantidades al día, si no obtienen sustento con regularidad empiezan a sentirse ansiosos y pierden el control. Pasada una semana, entran en un estado de frenesí que les impulsa a salir de sus madrigueras y matar todo lo que encuentren a su paso. Si un Goul permanece más de dos semanas sin alimentarse comienza a devorarse a si mismo hasta matarse.\n\nRegeneración: Aunque por su condición de no muerto los Gouls son incapaces de sanar sus cuerpos, durante el tiempo que se alimentan de carne putrefacta sus heridas comienzan a cerrarse con gran velocidad. De este modo, cada asalto que pasen comiendo recuperan un punto de vida. Debilidad ante el fuego: El fuego es el enemigo natural de los gouls. Estas criaturas sienten su presencia y les aterra, por lo que al estar delante de llamas del tamaño de una antorcha o mayor, aplican el estado de Miedo. Además, cualquier daño basado en dicho elemento les produce automáticamente doble daño. Karridor Portador de plagas</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 2
-      },
       "notes": [
         {
           "_id": "note-goul-devorador-de-cadaveres-3",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 4
-          }
+          "value": 4,
+          "mod": -5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 75
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -513,215 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 30
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 70
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 70
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 90
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 80
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -752,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -768,14 +889,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -789,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -901,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -921,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1074,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

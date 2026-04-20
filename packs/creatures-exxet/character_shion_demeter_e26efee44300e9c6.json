@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 24</p><p><strong>Entrada:</strong> Shion Demeter</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Asesina Fue: 6 Des: 10 Agi: 8 Con: 6 Pod: 7 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Encanto, Visión nocturna, Sueño ligero, Sentidos agudos, Vulnerable al dolor.</p><p><strong>Habilidades naturales:</strong> Tabla de Armas cortas.</p><p><strong>Daño:</strong> 35 Daga, 45 Espada corta</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 15, Saltar 15, Trepar 15, Persuasión 15, Cerrajería 20, Ocultarse 55, Sigilo 115, Venenos 20, Trampería 35, Advertir 65, Buscar 35, Memorizar 10, Frialdad 20</p><p><strong>Descripción breve:</strong> Shion es una joven de diecinueve años de incomparable belleza; su piel pálida, sus hermosos ojos azules y su rubio cabello le dan un aspecto frágil y hechizador. La historia de Shion es oscura y triste. Cuando la pequeña no tenía más que tres años, sus padres, unos ricos comerciantes de Gabriel, murieron a manos de Ashton Demeter, un maestro asesino que descubrió algo especial en ella y la llevó consigo. Ashton solía recoger niños para entrenarlos como agentes, destruyendo sus sentimientos y convirtiéndolos en máquinas a su servicio. De ese modo, Shion fue adiestrada en el arte de la muerte, viéndose obligada a acabar poco a poco con sus compañeros para seguir viviendo. Cuando, como prueba final, descubrió que tenia que matar aKassandra, la única de todos aquellos huérfanos a la que quería como una hermana, fue incapaz de seguir esa vida y huyó de su “padre” adoptivo. Pero Ashton no se tomó nada bien que su joven promesa decidiera dejarle, y no dudó en enviar a sus hermanos a darle caza. Desde entonces Shion vive en las sombras, usando para subsistir las habilidades que tanto odia. Aunque sus capacidades de combate son considerables, sus armas más peligrosas son el sigilo y su encanto natural, con el que consigue habitualmente todos sus objetivos. De momento, la suerte la acompaña y ha conseguido eludir siempre a sus acosadores, pero tiene que aguardar en la sombra a sabiendas de que su pasado la perseguirá siempre. Porque en el fondo, sabe que tarde o temprano llegará un momento en el que no podrá seguir huyendo y deberá afrontar su destino, ya sea para bien o para mal. Notas y curiosidades: Desde que Shion era una niña, Ashton usó refinadas torturas para tratar de quebrar la voluntad de la chiquilla, haciendo que llegase a odiar el dolor físico. Por ello, incluso en la actualidad, el daño es algo que aterra a la joven, y sus efectos provocan en ella una respuesta exagerada. Posesiones: Una espada corta, Dos dagas, Una muda de ropa cara para situaciones especiales, Un pequeño kit de maquillaje, Un saco de viaje, Raciones de viaje (para 2 días), 55 Escudos de Plata. #### Khaine Delacreu _Página 25_ 1 Puntos de Vida: 125 Categoría: Guerrero Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 7 Int: 6 Vol: 6 Per: 7 RF 65 RM 35 RP 35 RV 65 RE 65 Turno: 70 Natural, 50 Espada larga. Habilidad de ataque: 70 Espada larga, 80 Shotokan. Habilidad de defensa: 80 Espada larga, 80 Shotokan. Daño: 60 Espada larga, 30 Shotokan. Llevar Armadura: 60 TA: Piezas Fil 4 Con 3 Pen 2 Cal 3 Ele 2 Fri 2 Ene 0. Ventajas y desventajas: Al límite, Inmune al dolor y al cansancio, Resistencia física excepcional. Habilidades naturales: Shotokan. de movimiento: 8 Cansancio: 8 Habilidades Secundarias: Atletismo 20, Montar 20, Nadar 20, Saltar 15, Trepar 15, Estilo 15, Intimidar 10, Liderazgo 10, Advertir 35, Buscar 15, Frialdad 10, Proezas de fuerza 40, Resistir el dolor 15. Dotado de un físico excepcional y unos rasgos bien formados, Dereck Shezzard es un joven que llama fácilmente la atención. Si a esto le sumamos el hecho de que tiene el pelo completamente blanco con tan solo veintidós años, no es de extrañar que resulte fácil fijarse en él. La madre de Dereck dio a luz en un campo de batalla, y el niño nació rodeado de muerte por todas partes. Durante días, la mujer vagó de un lado a otro entre los cadáveres, negándose a morir sin antes haber puesto a salvo a su hijo. Finalmente, cuando apenas era capaz de seguir caminado, fue descubierta por Tereshia Shezzard, una alta templaria de T ol Rauko, que le prometió ocuparse del pequeño. Aun así, la guerrera jamás olvidaría las ultimas palabras de la moribunda: “-Este niño… lo que ha vivido… lo que ha presenciado… algún día, él llevará en sus manos… el propio destino…-.” Fiel a su promesa, Tereshia crió al pequeño como si fuera su propio hijo, enseñándole todo lo que era necesario sobre el mundo y la lucha. De ese modo Dereck, rebelde y cabezota, creció siendo un chico fuerte de inquebrantable carácter. Era común que se metiera en toda clase de líos, e incluso disfrutaba enfrentándose a grupos de enemigos mucho mayores que él, aunque sorprendentemente siempre salía bien parado. Pero a partir de los dieciocho años, empezó a tener unos extraños sueños recurrentes en los que presenciaba una guerra entre dos fuerzas desconocidas, y a un caballero ataviado con una armadura oscura que se dirigía a él. Al principio no les hizo mucho caso, pero la frecuencia e intensidad de los mismos empezó a inquietarle. Finalmente, aprovechó una de las largas ausencias de su madre para marcharse de su casa, buscando buenas peleas, aventuras desconocidas y quizás, sólo quizás, una respuesta a sus sueños. Notas y curiosidades: Dado que nació más cerca de la muerte que nadie, Dereck no sólo tiene un aguante y una resistencia casi inhumanas, sino que cuanto más daño recibe y en mayor peligro se encuentra, sus capacidades se incrementan hasta niveles insospechados. Posesiones: Armadura de piezas, Espada larga, Un saco de dormir, Raciones de viaje (para 2 días), 1 Escudo de Oro. Khaine D´ elacreu</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 90 Categoría: Asesina Fue: 6 Des: 10 Agi: 8 Con: 6 Pod: 7 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35\n\nTurno: 75 Natural, 75 Daga, 70 Espada corta Habilidad de ataque: 70 Espada corta / Daga Habilidad de defensa: 80 Esquiva Daño: 35 Daga, 45 Espada corta Llevar Armadura: 5 TA: Ninguna Ventajas y desventajas: Encanto, Visión nocturna, Sueño ligero, Sentidos agudos, Vulnerable al dolor. Habilidades naturales: Tabla de Armas cortas. de movimiento: 8 Cansancio: 6 Habilidades Secundarias: Acrobacias 1 5, Saltar 1 5, Trepar 1 5, Persuasión 1 5, Cerrajería 20, Ocultarse 55, Sigilo 1 1 5, Venenos 20, Trampería 35, Advertir 65, Buscar 35, Memorizar 10, Frialdad 20. Shion es una joven de diecinueve años de incomparable belleza; su piel pálida, sus hermosos ojos azules y su rubio cabello le dan un aspecto frágil y hechizador. La historia de Shion es oscura y triste.\n\nCuando la pequeña no tenía más que tres años, sus padres, unos ricos comerciantes de Gabriel, murieron a manos de Ashton Demeter, un maestro asesino que descubrió algo especial en ella y la llevó consigo. Ashton solía recoger niños para entrenarlos como agentes, destruyendo sus sentimientos y convirtiéndolos en máquinas a su servicio. De ese modo, Shion fue adiestrada en el arte de la muerte, viéndose obligada a acabar poco a poco con sus compañeros para seguir viviendo. Cuando, como prueba final, descubrió que tenia que matar aKassandra, la única de todos aquellos huérfanos a la que quería como una hermana, fue incapaz de seguir esa vida y huyó de su “padre” adoptivo. Pero Ashton no se tomó nada bien que su joven promesa decidiera dejarle, y no dudó en enviar a sus hermanos a darle caza. Desde entonces Shion vive en las sombras, usando para subsistir las habilidades que tanto odia.\n\nAunque sus capacidades de combate son considerables, sus armas más peligrosas son el sigilo y su encanto natural, con el que consigue habitualmente todos sus objetivos. De momento, la suerte la acompaña y ha conseguido eludir siempre a sus acosadores, pero tiene que aguardar en la sombra a sabiendas de que su pasado la perseguirá siempre. Porque en el fondo, sabe que tarde o temprano llegará un momento en el que no podrá seguir huyendo y deberá afrontar su destino, ya sea para bien o para mal. Notas y curiosidades: Desde que Shion era una niña, Ashton usó refinadas torturas para tratar de quebrar la voluntad de la chiquilla, haciendo que llegase a odiar el dolor físico. Por ello, incluso en la actualidad, el daño es algo que aterra a la joven, y sus efectos provocan en ella una respuesta exagerada.\n\nPosesiones: Una espada corta, Dos dagas, Una muda de ropa cara para situaciones especiales, Un pequeño kit de maquillaje, Un saco de viaje, Raciones de viaje (para 2 días), 55 Escudos de Plata.\n\n#### Khaine Delacreu\n\n&lt;!-- tags: @sistema, @regla --&gt;\n\n_Página 25_\n\n1 Puntos de Vida: 125 Categoría: Guerrero Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 7 Int: 6 Vol: 6 Per: 7 RF 65 RM 35 RP 35 RV 65 RE 65\n\nTurno: 70 Natural, 50 Espada larga. Habilidad de ataque: 70 Espada larga, 80 Shotokan. Habilidad de defensa: 80 Espada larga, 80 Shotokan. Daño: 60 Espada larga, 30 Shotokan. Llevar Armadura: 60 TA: Piezas Fil 4 Con 3 Pen 2 Cal 3 Ele 2 Fri 2 Ene 0. Ventajas y desventajas: Al límite, Inmune al dolor y al cansancio, Resistencia física excepcional. Habilidades naturales: Shotokan. de movimiento: 8 Cansancio: 8 Habilidades Secundarias: Atletismo 20, Montar 20, Nadar 20, Saltar 1 5, Trepar 1 5, Estilo 1 5, Intimidar 10, Liderazgo 10, Advertir 35, Buscar 1 5, Frialdad 10, Proezas de fuerza 40, Resistir el dolor 1 5. Dotado de un físico excepcional y unos rasgos bien formados, Dereck Shezzard es un joven que llama fácilmente la atención. Si a esto le sumamos el hecho de que tiene el pelo completamente blanco con tan solo veintidós años, no es de extrañar que resulte fácil fijarse en él.\n\nLa madre de Dereck dio a luz en un campo de batalla, y el niño nació rodeado de muerte por todas partes. Durante días, la mujer vagó de un lado a otro entre los cadáveres, negándose a morir sin antes haber puesto a salvo a su hijo. Finalmente, cuando apenas era capaz de seguir caminado, fue descubierta por Tereshia Shezzard, una alta templaria de T ol Rauko, que le prometió ocuparse del pequeño. Aun así, la guerrera jamás olvidaría las ultimas palabras de la moribunda: “-Este niño… lo que ha vivido… lo que ha presenciado… algún día, él llevará en sus manos… el propio destino…-.” Fiel a su promesa, Tereshia crió al pequeño como si fuera su propio hijo, enseñándole todo lo que era necesario sobre el mundo y la lucha. De ese modo Dereck, rebelde y cabezota, creció siendo un chico fuerte de inquebrantable carácter.\n\nEra común que se metiera en toda clase de líos, e incluso disfrutaba enfrentándose a grupos de enemigos mucho mayores que él, aunque sorprendentemente siempre salía bien parado. Pero a partir de los dieciocho años, empezó a tener unos extraños sueños recurrentes en los que presenciaba una guerra entre dos fuerzas desconocidas, y a un caballero ataviado con una armadura oscura que se dirigía a él. Al principio no les hizo mucho caso, pero la frecuencia e intensidad de los mismos empezó a inquietarle. Finalmente, aprovechó una de las largas ausencias de su madre para marcharse de su casa, buscando buenas peleas, aventuras desconocidas y quizás, sólo quizás, una respuesta a sus sueños.\n\nNotas y curiosidades: Dado que nació más cerca de la muerte que nadie, Dereck no sólo tiene un aguante y una resistencia casi inhumanas, sino que cuanto más daño recibe y en mayor peligro se encuentra, sus capacidades se incrementan hasta niveles insospechados. Posesiones: Armadura de piezas, Espada larga, Un saco de dormir, Raciones de viaje (para 2 días), 1 Escudo de Oro. Khaine D´ elacreu</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 24</p><p><strong>Entrada:</strong> Shion Demeter</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Asesina Fue: 6 Des: 10 Agi: 8 Con: 6 Pod: 7 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Encanto, Visión nocturna, Sueño ligero, Sentidos agudos, Vulnerable al dolor.</p><p><strong>Habilidades naturales:</strong> Tabla de Armas cortas.</p><p><strong>Daño:</strong> 35 Daga, 45 Espada corta</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 15, Saltar 15, Trepar 15, Persuasión 15, Cerrajería 20, Ocultarse 55, Sigilo 115, Venenos 20, Trampería 35, Advertir 65, Buscar 35, Memorizar 10, Frialdad 20</p><p><strong>Descripción breve:</strong> Shion es una joven de diecinueve años de incomparable belleza; su piel pálida, sus hermosos ojos azules y su rubio cabello le dan un aspecto frágil y hechizador. La historia de Shion es oscura y triste. Cuando la pequeña no tenía más que tres años, sus padres, unos ricos comerciantes de Gabriel, murieron a manos de Ashton Demeter, un maestro asesino que descubrió algo especial en ella y la llevó consigo. Ashton solía recoger niños para entrenarlos como agentes, destruyendo sus sentimientos y convirtiéndolos en máquinas a su servicio. De ese modo, Shion fue adiestrada en el arte de la muerte, viéndose obligada a acabar poco a poco con sus compañeros para seguir viviendo. Cuando, como prueba final, descubrió que tenia que matar aKassandra, la única de todos aquellos huérfanos a la que quería como una hermana, fue incapaz de seguir esa vida y huyó de su “padre” adoptivo. Pero Ashton no se tomó nada bien que su joven promesa decidiera dejarle, y no dudó en enviar a sus hermanos a darle caza. Desde entonces Shion vive en las sombras, usando para subsistir las habilidades que tanto odia. Aunque sus capacidades de combate son considerables, sus armas más peligrosas son el sigilo y su encanto natural, con el que consigue habitualmente todos sus objetivos. De momento, la suerte la acompaña y ha conseguido eludir siempre a sus acosadores, pero tiene que aguardar en la sombra a sabiendas de que su pasado la perseguirá siempre. Porque en el fondo, sabe que tarde o temprano llegará un momento en el que no podrá seguir huyendo y deberá afrontar su destino, ya sea para bien o para mal. Notas y curiosidades: Desde que Shion era una niña, Ashton usó refinadas torturas para tratar de quebrar la voluntad de la chiquilla, haciendo que llegase a odiar el dolor físico. Por ello, incluso en la actualidad, el daño es algo que aterra a la joven, y sus efectos provocan en ella una respuesta exagerada. Posesiones: Una espada corta, Dos dagas, Una muda de ropa cara para situaciones especiales, Un pequeño kit de maquillaje, Un saco de viaje, Raciones de viaje (para 2 días), 55 Escudos de Plata. #### Khaine Delacreu _Página 25_ 1 Puntos de Vida: 125 Categoría: Guerrero Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 7 Int: 6 Vol: 6 Per: 7 RF 65 RM 35 RP 35 RV 65 RE 65 Turno: 70 Natural, 50 Espada larga. Habilidad de ataque: 70 Espada larga, 80 Shotokan. Habilidad de defensa: 80 Espada larga, 80 Shotokan. Daño: 60 Espada larga, 30 Shotokan. Llevar Armadura: 60 TA: Piezas Fil 4 Con 3 Pen 2 Cal 3 Ele 2 Fri 2 Ene 0. Ventajas y desventajas: Al límite, Inmune al dolor y al cansancio, Resistencia física excepcional. Habilidades naturales: Shotokan. de movimiento: 8 Cansancio: 8 Habilidades Secundarias: Atletismo 20, Montar 20, Nadar 20, Saltar 15, Trepar 15, Estilo 15, Intimidar 10, Liderazgo 10, Advertir 35, Buscar 15, Frialdad 10, Proezas de fuerza 40, Resistir el dolor 15. Dotado de un físico excepcional y unos rasgos bien formados, Dereck Shezzard es un joven que llama fácilmente la atención. Si a esto le sumamos el hecho de que tiene el pelo completamente blanco con tan solo veintidós años, no es de extrañar que resulte fácil fijarse en él. La madre de Dereck dio a luz en un campo de batalla, y el niño nació rodeado de muerte por todas partes. Durante días, la mujer vagó de un lado a otro entre los cadáveres, negándose a morir sin antes haber puesto a salvo a su hijo. Finalmente, cuando apenas era capaz de seguir caminado, fue descubierta por Tereshia Shezzard, una alta templaria de T ol Rauko, que le prometió ocuparse del pequeño. Aun así, la guerrera jamás olvidaría las ultimas palabras de la moribunda: “-Este niño… lo que ha vivido… lo que ha presenciado… algún día, él llevará en sus manos… el propio destino…-.” Fiel a su promesa, Tereshia crió al pequeño como si fuera su propio hijo, enseñándole todo lo que era necesario sobre el mundo y la lucha. De ese modo Dereck, rebelde y cabezota, creció siendo un chico fuerte de inquebrantable carácter. Era común que se metiera en toda clase de líos, e incluso disfrutaba enfrentándose a grupos de enemigos mucho mayores que él, aunque sorprendentemente siempre salía bien parado. Pero a partir de los dieciocho años, empezó a tener unos extraños sueños recurrentes en los que presenciaba una guerra entre dos fuerzas desconocidas, y a un caballero ataviado con una armadura oscura que se dirigía a él. Al principio no les hizo mucho caso, pero la frecuencia e intensidad de los mismos empezó a inquietarle. Finalmente, aprovechó una de las largas ausencias de su madre para marcharse de su casa, buscando buenas peleas, aventuras desconocidas y quizás, sólo quizás, una respuesta a sus sueños. Notas y curiosidades: Dado que nació más cerca de la muerte que nadie, Dereck no sólo tiene un aguante y una resistencia casi inhumanas, sino que cuanto más daño recibe y en mayor peligro se encuentra, sus capacidades se incrementan hasta niveles insospechados. Posesiones: Armadura de piezas, Espada larga, Un saco de dormir, Raciones de viaje (para 2 días), 1 Escudo de Oro. Khaine D´ elacreu</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 90 Categoría: Asesina Fue: 6 Des: 10 Agi: 8 Con: 6 Pod: 7 Int: 7 Vol: 6 Per: 10 RF 35 RM 35 RP 35 RV 35 RE 35\n\nTurno: 75 Natural, 75 Daga, 70 Espada corta Habilidad de ataque: 70 Espada corta / Daga Habilidad de defensa: 80 Esquiva Daño: 35 Daga, 45 Espada corta Llevar Armadura: 5 TA: Ninguna Ventajas y desventajas: Encanto, Visión nocturna, Sueño ligero, Sentidos agudos, Vulnerable al dolor. Habilidades naturales: Tabla de Armas cortas. de movimiento: 8 Cansancio: 6 Habilidades Secundarias: Acrobacias 1 5, Saltar 1 5, Trepar 1 5, Persuasión 1 5, Cerrajería 20, Ocultarse 55, Sigilo 1 1 5, Venenos 20, Trampería 35, Advertir 65, Buscar 35, Memorizar 10, Frialdad 20. Shion es una joven de diecinueve años de incomparable belleza; su piel pálida, sus hermosos ojos azules y su rubio cabello le dan un aspecto frágil y hechizador. La historia de Shion es oscura y triste.\n\nCuando la pequeña no tenía más que tres años, sus padres, unos ricos comerciantes de Gabriel, murieron a manos de Ashton Demeter, un maestro asesino que descubrió algo especial en ella y la llevó consigo. Ashton solía recoger niños para entrenarlos como agentes, destruyendo sus sentimientos y convirtiéndolos en máquinas a su servicio. De ese modo, Shion fue adiestrada en el arte de la muerte, viéndose obligada a acabar poco a poco con sus compañeros para seguir viviendo. Cuando, como prueba final, descubrió que tenia que matar aKassandra, la única de todos aquellos huérfanos a la que quería como una hermana, fue incapaz de seguir esa vida y huyó de su “padre” adoptivo. Pero Ashton no se tomó nada bien que su joven promesa decidiera dejarle, y no dudó en enviar a sus hermanos a darle caza. Desde entonces Shion vive en las sombras, usando para subsistir las habilidades que tanto odia.\n\nAunque sus capacidades de combate son considerables, sus armas más peligrosas son el sigilo y su encanto natural, con el que consigue habitualmente todos sus objetivos. De momento, la suerte la acompaña y ha conseguido eludir siempre a sus acosadores, pero tiene que aguardar en la sombra a sabiendas de que su pasado la perseguirá siempre. Porque en el fondo, sabe que tarde o temprano llegará un momento en el que no podrá seguir huyendo y deberá afrontar su destino, ya sea para bien o para mal. Notas y curiosidades: Desde que Shion era una niña, Ashton usó refinadas torturas para tratar de quebrar la voluntad de la chiquilla, haciendo que llegase a odiar el dolor físico. Por ello, incluso en la actualidad, el daño es algo que aterra a la joven, y sus efectos provocan en ella una respuesta exagerada.\n\nPosesiones: Una espada corta, Dos dagas, Una muda de ropa cara para situaciones especiales, Un pequeño kit de maquillaje, Un saco de viaje, Raciones de viaje (para 2 días), 55 Escudos de Plata.\n\n#### Khaine Delacreu\n\n&lt;!-- tags: @sistema, @regla --&gt;\n\n_Página 25_\n\n1 Puntos de Vida: 125 Categoría: Guerrero Fue: 8 Des: 10 Agi: 8 Con: 8 Pod: 7 Int: 6 Vol: 6 Per: 7 RF 65 RM 35 RP 35 RV 65 RE 65\n\nTurno: 70 Natural, 50 Espada larga. Habilidad de ataque: 70 Espada larga, 80 Shotokan. Habilidad de defensa: 80 Espada larga, 80 Shotokan. Daño: 60 Espada larga, 30 Shotokan. Llevar Armadura: 60 TA: Piezas Fil 4 Con 3 Pen 2 Cal 3 Ele 2 Fri 2 Ene 0. Ventajas y desventajas: Al límite, Inmune al dolor y al cansancio, Resistencia física excepcional. Habilidades naturales: Shotokan. de movimiento: 8 Cansancio: 8 Habilidades Secundarias: Atletismo 20, Montar 20, Nadar 20, Saltar 1 5, Trepar 1 5, Estilo 1 5, Intimidar 10, Liderazgo 10, Advertir 35, Buscar 1 5, Frialdad 10, Proezas de fuerza 40, Resistir el dolor 1 5. Dotado de un físico excepcional y unos rasgos bien formados, Dereck Shezzard es un joven que llama fácilmente la atención. Si a esto le sumamos el hecho de que tiene el pelo completamente blanco con tan solo veintidós años, no es de extrañar que resulte fácil fijarse en él.\n\nLa madre de Dereck dio a luz en un campo de batalla, y el niño nació rodeado de muerte por todas partes. Durante días, la mujer vagó de un lado a otro entre los cadáveres, negándose a morir sin antes haber puesto a salvo a su hijo. Finalmente, cuando apenas era capaz de seguir caminado, fue descubierta por Tereshia Shezzard, una alta templaria de T ol Rauko, que le prometió ocuparse del pequeño. Aun así, la guerrera jamás olvidaría las ultimas palabras de la moribunda: “-Este niño… lo que ha vivido… lo que ha presenciado… algún día, él llevará en sus manos… el propio destino…-.” Fiel a su promesa, Tereshia crió al pequeño como si fuera su propio hijo, enseñándole todo lo que era necesario sobre el mundo y la lucha. De ese modo Dereck, rebelde y cabezota, creció siendo un chico fuerte de inquebrantable carácter.\n\nEra común que se metiera en toda clase de líos, e incluso disfrutaba enfrentándose a grupos de enemigos mucho mayores que él, aunque sorprendentemente siempre salía bien parado. Pero a partir de los dieciocho años, empezó a tener unos extraños sueños recurrentes en los que presenciaba una guerra entre dos fuerzas desconocidas, y a un caballero ataviado con una armadura oscura que se dirigía a él. Al principio no les hizo mucho caso, pero la frecuencia e intensidad de los mismos empezó a inquietarle. Finalmente, aprovechó una de las largas ausencias de su madre para marcharse de su casa, buscando buenas peleas, aventuras desconocidas y quizás, sólo quizás, una respuesta a sus sueños.\n\nNotas y curiosidades: Dado que nació más cerca de la muerte que nadie, Dereck no sólo tiene un aguante y una resistencia casi inhumanas, sino que cuanto más daño recibe y en mayor peligro se encuentra, sus capacidades se incrementan hasta niveles insospechados. Posesiones: Armadura de piezas, Espada larga, Un saco de dormir, Raciones de viaje (para 2 días), 1 Escudo de Oro. Khaine D´ elacreu</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-shion-demeter-1",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 75
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 3540
+              "value": 3575
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -513,233 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 65
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 10
+          },
+          "final": {
+            "value": 0
           }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 115
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 35
+          },
+          "final": {
+            "value": 0
           }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 70
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 80
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 5
-        }
+        "value": 5
       },
       "totalArmor": {
         "at": {
@@ -770,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -786,14 +889,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -807,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -919,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -939,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1092,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

@@ -1275,7 +1275,7 @@ def apply_ui_flags(system: dict, joined_text: str) -> None:
     normalized = normalize_key(joined_text)
     for key, keywords in UI_SETTING_KEYWORDS.items():
         if any(keyword in normalized for keyword in keywords):
-            system["general"]["settings"][key]["value"] = True
+            system["general"]["settings"].setdefault(key, {})["value"] = True
 
 
 NOTE_FIELDS = [
@@ -1332,9 +1332,9 @@ def build_actor_document(record: dict, template: dict) -> dict:
         ("power", stats.get("power", 0)),
         ("willPower", stats.get("willPower", 0)),
     ):
-        system["characteristics"]["primaries"][key]["base"] = {"value": value}
+        system["characteristics"]["primaries"][key]["value"] = value
+        system["characteristics"]["primaries"][key]["mod"] = calculate_attribute_modifier(value)
 
-    system["general"]["level"]["value"] = level
     system["general"]["levels"] = [
         {
             "_id": f"lvl-{slugify(record['name'])[:24] or 'creature'}",
@@ -1344,12 +1344,12 @@ def build_actor_document(record: dict, template: dict) -> dict:
             "system": {"level": level},
         }
     ]
-    system["general"]["presence"]["special"]["value"] = 0
+    system["general"]["presence"]["base"] = {"value": presence_base}
     system["general"]["aspect"]["race"]["value"] = (
         record.get("race") or record.get("creature_class") or ""
     )
     system["general"]["aspect"]["appearance"]["value"] = record.get("variant") or ""
-    system["general"]["aspect"]["size"]["value"] = record.get("size_value") or 0
+    system["general"]["aspect"]["size"]["value"] = str(record.get("size_value") or 0)
     system["general"]["description"]["value"] = build_description(record)
     system["general"]["notes"] = build_note_entries(record)
 
@@ -1372,19 +1372,15 @@ def build_actor_document(record: dict, template: dict) -> dict:
         regeneration - calculate_regeneration_type_from_constitution(stats.get("constitution", 0))
     )
 
-    resistance_map = {
-        "physical": ("constitution", "physical"),
-        "disease": ("constitution", "disease"),
-        "poison": ("constitution", "poison"),
-        "magic": ("power", "magic"),
-        "psychic": ("willPower", "psychic"),
-    }
-    for resistance_key, (attribute_key, manual_key) in resistance_map.items():
-        base = presence_base + calculate_attribute_modifier(stats.get(attribute_key, 0))
-        final = resistances.get(manual_key, base)
-        system["characteristics"]["secondaries"]["resistances"][resistance_key]["special"] = {
-            "value": final - base
-        }
+    for resistance_key, manual_key in (
+        ("physical", "physical"),
+        ("disease", "disease"),
+        ("poison", "poison"),
+        ("magic", "magic"),
+        ("psychic", "psychic"),
+    ):
+        final = resistances.get(manual_key, 0)
+        system["characteristics"]["secondaries"]["resistances"][resistance_key]["base"]["value"] = final
 
     for path, value in record.get("secondary_skills", {}).items():
         set_secondary_value(system, path, value)
@@ -1393,12 +1389,12 @@ def build_actor_document(record: dict, template: dict) -> dict:
     defense_value = record.get("defense")
     defense_mode = record.get("defense_mode")
     if attack_value is not None:
-        system["combat"]["attack"]["base"] = {"value": attack_value}
+        system["combat"]["attack"]["base"]["value"] = attack_value
     if defense_mode == "dodge" and defense_value is not None:
-        system["combat"]["dodge"]["base"] = {"value": defense_value}
+        system["combat"]["dodge"]["base"]["value"] = defense_value
     elif defense_mode == "block" and defense_value is not None:
-        system["combat"]["block"]["base"] = {"value": defense_value}
-    system["combat"]["wearArmor"]["base"] = {"value": wear_armor}
+        system["combat"]["block"]["base"]["value"] = defense_value
+    system["combat"]["wearArmor"]["value"] = wear_armor
 
     act_value = record.get("act")
     if act_value is not None:

@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
+        "defenseType": {
+          "value": ""
         },
         "inhuman": {
           "value": true
         },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +303,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +323,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 40
         }
       },
       "aspect": {
@@ -430,7 +357,7 @@
           "value": "De Espina"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -448,7 +375,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 36</p><p><strong>Entrada:</strong> Cath Flidais</p><p><strong>Variante:</strong> De Espina</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 8 Des: 9 Agi: 11 Con: 7 Pod: 7 Int: 3 Vol: 7 Per: 8 RF 45 RM 45 RP 45 RV 45 RE 45</p><p><strong>Habilidades esenciales:</strong> Exención Física, Características Físicas Sobrehumanas, Inhumanidad, Vulnerabilidad Natural a un Elemento, Ciego.</p><p><strong>Poderes:</strong> Garras y Fauces de Espinas (Armas Naturales), Daña Energía, Mundo de Olores (Visión Extrasensorial, Condicionada), Fragancia del Sueño (Veneno, RV 120, Aturdimiento), Flores Vertebrales, Infierno de Espinas, Movimiento Libre por Naturaleza, Armadura Física 2.</p><p><strong>Daño:</strong> 50 Garras y fauces de espinas (Fil / Pen)</p><p><strong>TA:</strong> Cuerpo de Madera Fil 2 Con 2 Pen 2 Cal 2 Fri 2 Ele 2 Ene 0</p><p><strong>Habilidades secundarias:</strong> Saltar 50, Trepar 25, Ocultarse 50, Sigilo 45, Advertir 50, Buscar 25, Rastrear 50 (sólo olores)</p><p><strong>Descripción breve:</strong> Los Cath Flidais, o Leones de Espinas, son extraños espíritus de la naturaleza que se han encarnado en el mundo usando como forma física un árbol de espino. Muy a menudo se les asocia con la religión Lilium y los Grandes Árboles, aunque nunca se ha probado que exista una relación directa entre ambos. Su apariencia, tal como su pseudónimo sugiere, es similar a un pequeño león o felino de grandes dimensiones, cuyo cuerpo no es más que un amasijo de raíces y ramas espinosas recubiertas de algunas hermosas flores. Curiosamente no tienen ojos; perciben el mundo como un amasijo de olores y fragancias. Algunos mitos Lillium aseguran que los Cath Flidais nacen cuando un depredador muy anciano muere cerca de un espino y su sangre se mezcla con las raíces de este. En ese momento, si el animal aún tiene fuertes lazos con el mundo, una parte de su esencia penetra en las raíces del árbol dando como resultado la aparición de la criatura, que toma el espino como nueva forma física. También es posible que poderosos espíritus de la foresta (como un Harekawa) conviertan voluntariamente a un animal anciano al que tengan cariño en un Cath Flidais, para que así siga a su servicio durante los siglos venideros. Pese a su naturaleza sobrenatural, el comportamiento de estos seres es del todo animal; actúan únicamente movidos por sus instintos. Son territoriales y a menudo violentos, pero no suelen atacar sin un motivo o razón determinado (mas ciertamente, no se necesita demasiado para provocarlos). Lamentablemente, hay casos en los que pueden señalar a alguien como enemigo por el simple hecho de que no les guste su olor. Suelen ser independientes, pero en ocasiones sirven a los espíritus mayores de las forestas en grandes mandas. Dada su naturaleza, únicamente viven en zonas boscosas o selváticas. Si se separan mucho tiempo de ellas, no tardan en marchitarse y morir. La mayoría se encuentra en Albería, aunque es posible encontrar algunos en cualquier Principado del mundo en el que haya vegetación. m oduS oPerandiLosCathFlidais son feroces criaturas depredadoras con una predisposición natural para el combate. Saben como aprovechar perfectamente su entorno y sacar el máximo partido a la espesura que suele rodearles. Si quieren iniciar una lucha lo normal es que primero acechen desde la espesura tratando de aturdir a sus objetivos con su veneno y, en caso de ser descubiertos, tratan de guiar a sus enemigos hasta un lugar que les sea propicio (mientras esperan que su fragancia haga efecto). Sólo en combate uno contra uno o cuando superan en número a sus enemigos utilizan Infierno de Espinas pues, aunque es su mejor truco para acabar con un rival, también les deja muy desprotegidos. Garras y Fauces de Espinas: Por su cercanía al mundo espiritual, los Cath Flidais son capaces de dañar criaturas sobrenaturales con sus ataques físicos. Mundo de Olores: Los Cath Flidais perciben el mundo a través de un único sentido; el olfato. Utilizando las flores situadas sobre su lomo, el León capta cada matiz y cada diferencia de las fragancias del ambiente, lo que le permite sentir todo lo que le rodea con precisión. Al no usar su vista, no sufre ningún penalizador por oscuridad u otros factores similares, y es capaz de “mirar” hacia todas las direcciones a la vez. Sin embargo, los olores extremadamente fuertes pueden llegar a perturbar sus sentidos y, de encontrarse en un ambiente extremadamente cargado de un aroma así, podría llegar a aplicar el penalizador de invisibilidad parcial.</p></section><details><summary>Texto extraído</summary><pre>SNivel: 3 de Vida: 125 Categoría: Guerrero Acróbata Fue: 8 Des: 9 Agi: 11 Con: 7 Pod: 7 Int: 3 Vol: 7 Per: 8 RF 45 RM 45 RP 45 RV 45 RE 45\n\nTurno: 100 Natural Habilidad de ataque: 125 Garras y fauces de espinas Habilidad de defensa: 1 35 Esquiva Daño: 50 Garras y fauces de espinas (Fil / Pen) TA: Cuerpo de Madera Fil 2 Con 2 Pen 2 Cal 2 Fri 2 Ele 2 Ene 0 Habilidades esenciales: Exención Física, Características Físicas Sobrehumanas, Inhumanidad, Vulnerabilidad Natural a un Elemento, Ciego. Poderes: Garras y Fauces de Espinas (Armas Naturales), Daña Energía, Mundo de Olores (Visión Extrasensorial, Condicionada), Fragancia del Sueño (Veneno, RV 120, Aturdimiento), Flores Vertebrales, Infierno de Espinas, Movimiento Libre por Naturaleza, Armadura Física 2. de movimiento: 11 Cansancio: Incansable Habilidades Secundarias: Saltar 50, Trepar 25, Ocultarse 50, Sigilo 45, Advertir 50, Buscar 25, Rastrear 50 (sólo olores).\n\nLos Cath Flidais, o Leones de Espinas, son extraños espíritus de la naturaleza que se han encarnado en el mundo usando como forma física un árbol de espino. Muy a menudo se les asocia con la religión Lilium y los Grandes Árboles, aunque nunca se ha probado que exista una relación directa entre ambos. Su apariencia, tal como su pseudónimo sugiere, es similar a un pequeño león o felino de grandes dimensiones, cuyo cuerpo no es más que un amasijo de raíces y ramas espinosas recubiertas de algunas hermosas flores. Curiosamente no tienen ojos; perciben el mundo como un amasijo de olores y fragancias. Algunos mitos Lillium aseguran que los Cath Flidais nacen cuando un depredador muy anciano muere cerca de un espino y su sangre se mezcla con las raíces de este.\n\nEn ese momento, si el animal aún tiene fuertes lazos con el mundo, una parte de su esencia penetra en las raíces del árbol dando como resultado la aparición de la criatura, que toma el espino como nueva forma física. También es posible que poderosos espíritus de la foresta (como un Harekawa) conviertan voluntariamente a un animal anciano al que tengan cariño en un Cath Flidais, para que así siga a su servicio durante los siglos venideros. Pese a su naturaleza sobrenatural, el comportamiento de estos seres es del todo animal; actúan únicamente movidos por sus instintos. Son territoriales y a menudo violentos, pero no suelen atacar sin un motivo o razón determinado (mas ciertamente, no se necesita demasiado para provocarlos). Lamentablemente, hay casos en los que pueden señalar a alguien como enemigo por el simple hecho de que no les guste su olor.\n\nSuelen ser independientes, pero en ocasiones sirven a los espíritus mayores de las forestas en grandes mandas. Dada su naturaleza, únicamente viven en zonas boscosas o selváticas. Si se separan mucho tiempo de ellas, no tardan en marchitarse y morir. La mayoría se encuentra en Albería, aunque es posible encontrar algunos en cualquier Principado del mundo en el que haya vegetación. m oduS oPerandiLosCathFlidais son feroces criaturas depredadoras con una predisposición natural para el combate. Saben como aprovechar perfectamente su entorno y sacar el máximo partido a la espesura que suele rodearles. Si quieren iniciar una lucha lo normal es que primero acechen desde la espesura tratando de aturdir a sus objetivos con su veneno y, en caso de ser descubiertos, tratan de guiar a sus enemigos hasta un lugar que les sea propicio (mientras esperan que su fragancia haga efecto).\n\nSólo en combate uno contra uno o cuando superan en número a sus enemigos utilizan Infierno de Espinas pues, aunque es su mejor truco para acabar con un rival, también les deja muy desprotegidos. Garras y Fauces de Espinas: Por su cercanía al mundo espiritual, los Cath Flidais son capaces de dañar criaturas sobrenaturales con sus ataques físicos. Mundo de Olores: Los Cath Flidais perciben el mundo a través de un único sentido; el olfato. Utilizando las flores situadas sobre su lomo, el León capta cada matiz y cada diferencia de las fragancias del ambiente, lo que le permite sentir todo lo que le rodea con precisión. Al no usar su vista, no sufre ningún penalizador por oscuridad u otros factores similares, y es capaz de “mirar” hacia todas las direcciones a la vez.\n\nSin embargo, los olores extremadamente fuertes pueden llegar a perturbar sus sentidos y, de encontrarse en un ambiente extremadamente cargado de un aroma así, podría llegar a aplicar el penalizador de invisibilidad parcial. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 36</p><p><strong>Entrada:</strong> Cath Flidais</p><p><strong>Variante:</strong> De Espina</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Guerrero Acróbata Fue: 8 Des: 9 Agi: 11 Con: 7 Pod: 7 Int: 3 Vol: 7 Per: 8 RF 45 RM 45 RP 45 RV 45 RE 45</p><p><strong>Habilidades esenciales:</strong> Exención Física, Características Físicas Sobrehumanas, Inhumanidad, Vulnerabilidad Natural a un Elemento, Ciego.</p><p><strong>Poderes:</strong> Garras y Fauces de Espinas (Armas Naturales), Daña Energía, Mundo de Olores (Visión Extrasensorial, Condicionada), Fragancia del Sueño (Veneno, RV 120, Aturdimiento), Flores Vertebrales, Infierno de Espinas, Movimiento Libre por Naturaleza, Armadura Física 2.</p><p><strong>Daño:</strong> 50 Garras y fauces de espinas (Fil / Pen)</p><p><strong>TA:</strong> Cuerpo de Madera Fil 2 Con 2 Pen 2 Cal 2 Fri 2 Ele 2 Ene 0</p><p><strong>Habilidades secundarias:</strong> Saltar 50, Trepar 25, Ocultarse 50, Sigilo 45, Advertir 50, Buscar 25, Rastrear 50 (sólo olores)</p><p><strong>Descripción breve:</strong> Los Cath Flidais, o Leones de Espinas, son extraños espíritus de la naturaleza que se han encarnado en el mundo usando como forma física un árbol de espino. Muy a menudo se les asocia con la religión Lilium y los Grandes Árboles, aunque nunca se ha probado que exista una relación directa entre ambos. Su apariencia, tal como su pseudónimo sugiere, es similar a un pequeño león o felino de grandes dimensiones, cuyo cuerpo no es más que un amasijo de raíces y ramas espinosas recubiertas de algunas hermosas flores. Curiosamente no tienen ojos; perciben el mundo como un amasijo de olores y fragancias. Algunos mitos Lillium aseguran que los Cath Flidais nacen cuando un depredador muy anciano muere cerca de un espino y su sangre se mezcla con las raíces de este. En ese momento, si el animal aún tiene fuertes lazos con el mundo, una parte de su esencia penetra en las raíces del árbol dando como resultado la aparición de la criatura, que toma el espino como nueva forma física. También es posible que poderosos espíritus de la foresta (como un Harekawa) conviertan voluntariamente a un animal anciano al que tengan cariño en un Cath Flidais, para que así siga a su servicio durante los siglos venideros. Pese a su naturaleza sobrenatural, el comportamiento de estos seres es del todo animal; actúan únicamente movidos por sus instintos. Son territoriales y a menudo violentos, pero no suelen atacar sin un motivo o razón determinado (mas ciertamente, no se necesita demasiado para provocarlos). Lamentablemente, hay casos en los que pueden señalar a alguien como enemigo por el simple hecho de que no les guste su olor. Suelen ser independientes, pero en ocasiones sirven a los espíritus mayores de las forestas en grandes mandas. Dada su naturaleza, únicamente viven en zonas boscosas o selváticas. Si se separan mucho tiempo de ellas, no tardan en marchitarse y morir. La mayoría se encuentra en Albería, aunque es posible encontrar algunos en cualquier Principado del mundo en el que haya vegetación. m oduS oPerandiLosCathFlidais son feroces criaturas depredadoras con una predisposición natural para el combate. Saben como aprovechar perfectamente su entorno y sacar el máximo partido a la espesura que suele rodearles. Si quieren iniciar una lucha lo normal es que primero acechen desde la espesura tratando de aturdir a sus objetivos con su veneno y, en caso de ser descubiertos, tratan de guiar a sus enemigos hasta un lugar que les sea propicio (mientras esperan que su fragancia haga efecto). Sólo en combate uno contra uno o cuando superan en número a sus enemigos utilizan Infierno de Espinas pues, aunque es su mejor truco para acabar con un rival, también les deja muy desprotegidos. Garras y Fauces de Espinas: Por su cercanía al mundo espiritual, los Cath Flidais son capaces de dañar criaturas sobrenaturales con sus ataques físicos. Mundo de Olores: Los Cath Flidais perciben el mundo a través de un único sentido; el olfato. Utilizando las flores situadas sobre su lomo, el León capta cada matiz y cada diferencia de las fragancias del ambiente, lo que le permite sentir todo lo que le rodea con precisión. Al no usar su vista, no sufre ningún penalizador por oscuridad u otros factores similares, y es capaz de “mirar” hacia todas las direcciones a la vez. Sin embargo, los olores extremadamente fuertes pueden llegar a perturbar sus sentidos y, de encontrarse en un ambiente extremadamente cargado de un aroma así, podría llegar a aplicar el penalizador de invisibilidad parcial.</p></section><details><summary>Texto extraído</summary><pre>SNivel: 3 de Vida: 125 Categoría: Guerrero Acróbata Fue: 8 Des: 9 Agi: 11 Con: 7 Pod: 7 Int: 3 Vol: 7 Per: 8 RF 45 RM 45 RP 45 RV 45 RE 45\n\nTurno: 100 Natural Habilidad de ataque: 125 Garras y fauces de espinas Habilidad de defensa: 1 35 Esquiva Daño: 50 Garras y fauces de espinas (Fil / Pen) TA: Cuerpo de Madera Fil 2 Con 2 Pen 2 Cal 2 Fri 2 Ele 2 Ene 0 Habilidades esenciales: Exención Física, Características Físicas Sobrehumanas, Inhumanidad, Vulnerabilidad Natural a un Elemento, Ciego. Poderes: Garras y Fauces de Espinas (Armas Naturales), Daña Energía, Mundo de Olores (Visión Extrasensorial, Condicionada), Fragancia del Sueño (Veneno, RV 120, Aturdimiento), Flores Vertebrales, Infierno de Espinas, Movimiento Libre por Naturaleza, Armadura Física 2. de movimiento: 11 Cansancio: Incansable Habilidades Secundarias: Saltar 50, Trepar 25, Ocultarse 50, Sigilo 45, Advertir 50, Buscar 25, Rastrear 50 (sólo olores).\n\nLos Cath Flidais, o Leones de Espinas, son extraños espíritus de la naturaleza que se han encarnado en el mundo usando como forma física un árbol de espino. Muy a menudo se les asocia con la religión Lilium y los Grandes Árboles, aunque nunca se ha probado que exista una relación directa entre ambos. Su apariencia, tal como su pseudónimo sugiere, es similar a un pequeño león o felino de grandes dimensiones, cuyo cuerpo no es más que un amasijo de raíces y ramas espinosas recubiertas de algunas hermosas flores. Curiosamente no tienen ojos; perciben el mundo como un amasijo de olores y fragancias. Algunos mitos Lillium aseguran que los Cath Flidais nacen cuando un depredador muy anciano muere cerca de un espino y su sangre se mezcla con las raíces de este.\n\nEn ese momento, si el animal aún tiene fuertes lazos con el mundo, una parte de su esencia penetra en las raíces del árbol dando como resultado la aparición de la criatura, que toma el espino como nueva forma física. También es posible que poderosos espíritus de la foresta (como un Harekawa) conviertan voluntariamente a un animal anciano al que tengan cariño en un Cath Flidais, para que así siga a su servicio durante los siglos venideros. Pese a su naturaleza sobrenatural, el comportamiento de estos seres es del todo animal; actúan únicamente movidos por sus instintos. Son territoriales y a menudo violentos, pero no suelen atacar sin un motivo o razón determinado (mas ciertamente, no se necesita demasiado para provocarlos). Lamentablemente, hay casos en los que pueden señalar a alguien como enemigo por el simple hecho de que no les guste su olor.\n\nSuelen ser independientes, pero en ocasiones sirven a los espíritus mayores de las forestas en grandes mandas. Dada su naturaleza, únicamente viven en zonas boscosas o selváticas. Si se separan mucho tiempo de ellas, no tardan en marchitarse y morir. La mayoría se encuentra en Albería, aunque es posible encontrar algunos en cualquier Principado del mundo en el que haya vegetación. m oduS oPerandiLosCathFlidais son feroces criaturas depredadoras con una predisposición natural para el combate. Saben como aprovechar perfectamente su entorno y sacar el máximo partido a la espesura que suele rodearles. Si quieren iniciar una lucha lo normal es que primero acechen desde la espesura tratando de aturdir a sus objetivos con su veneno y, en caso de ser descubiertos, tratan de guiar a sus enemigos hasta un lugar que les sea propicio (mientras esperan que su fragancia haga efecto).\n\nSólo en combate uno contra uno o cuando superan en número a sus enemigos utilizan Infierno de Espinas pues, aunque es su mejor truco para acabar con un rival, también les deja muy desprotegidos. Garras y Fauces de Espinas: Por su cercanía al mundo espiritual, los Cath Flidais son capaces de dañar criaturas sobrenaturales con sus ataques físicos. Mundo de Olores: Los Cath Flidais perciben el mundo a través de un único sentido; el olfato. Utilizando las flores situadas sobre su lomo, el León capta cada matiz y cada diferencia de las fragancias del ambiente, lo que le permite sentir todo lo que le rodea con precisión. Al no usar su vista, no sufre ningún penalizador por oscuridad u otros factores similares, y es capaz de “mirar” hacia todas las direcciones a la vez.\n\nSin embargo, los olores extremadamente fuertes pueden llegar a perturbar sus sentidos y, de encontrarse en un ambiente extremadamente cargado de un aroma así, podría llegar a aplicar el penalizador de invisibilidad parcial. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +407,6 @@
           }
         }
       ],
-      "level": {
-        "value": 3
-      },
       "notes": [
         {
           "_id": "note-cath-flidais-de-espina-3",
@@ -501,52 +426,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 11
-          }
+          "value": 11,
+          "mod": 20
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 3
-          }
+          "value": 3,
+          "mod": -10
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -557,9 +466,6 @@
         "initiative": {
           "base": {
             "value": 100
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -610,10 +516,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -621,10 +524,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -632,10 +532,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 45055
+              "value": 45100
             },
             "final": {
               "value": 0
@@ -643,10 +540,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -654,10 +548,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 45
             },
             "final": {
               "value": 0
@@ -669,215 +560,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 125
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 135
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -908,11 +1039,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -924,14 +1051,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -945,14 +1077,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1057,15 +1186,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1077,37 +1202,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1230,9 +1375,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

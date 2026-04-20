@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
-        },
-        "inhuman": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "zen": {
           "value": true
         },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +147,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +167,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 75
         }
       },
       "aspect": {
@@ -274,7 +201,7 @@
           "value": "Al Superior de Aire"
         },
         "size": {
-          "value": 0
+          "value": "0"
         }
       },
       "advantages": [],
@@ -292,7 +219,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 14</p><p><strong>Entrada:</strong> Arias Vayu</p><p><strong>Variante:</strong> Al Superior de Aire</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 30</p><p><strong>Categoría:</strong> Warlock Fue: 5 Des: 14 Agi: 15 Con: 8 Pod: 13 Int: 13 Vol: 7 Per: 10 RF 85 RM 100 RP 85 RV 85 RE 85</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Don, Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Zen, Exención Física, Inmunidad Natural a un Elemento (Completa, Aire), Inutilidad Somática, Inutilidad Oral.</p><p><strong>Poderes:</strong> +30 al Turno Natural, Forma Elemental, Cuchilla de Viento (Ataque Elemental, -2 a la TA Defensora, Distancia 250 Metros, Daño Base 80), Daña Energía, Transporte Innato (Distancia 30 Metros, Através de un Elemento, Sin Límite), Dominio Elemental, Los Cuatro Cristales Elementales.</p><p><strong>Daño:</strong> 80 Cuchilla de Viento (Fil), 100 Tetraformación (Ele)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 125, Baile 180, Persuasión 55, Advertir 40, Buscar 20, Historia 50, Valoración Mágica 150</p><p><strong>Descripción breve:</strong> Reina de los Vientos, Señora de los Silfos, Portadora de Tormentas… muchos son los nombres con los que se conocen a las Arias Vayu, la más alta jerarquía elemental del aire. Sus cuerpos están compuestos por una masificación de corrientes de viento y electricidad condensada por la poderosa energía espiritual que las ha hecho nacer. Realmente no poseen una forma definida, pero siempre toman una apariencia femenina excepcionalmente hermosa y mantienen en todo momento ese aspecto, al que ellas mismas consideran su “verdadero yo”. Contrariamente a lo que ocurre con los silfos, cuyos cuerpos parecen etéreos, una Vayu puede tomar color y adoptar “masa” a voluntad, aunque su pelo siempre es de color azulado y, al igual que sus ropas (también compuestas por corrientes de viento), este flota alrededor de la elemental confiriéndole un porte regio y señorial. Su personalidad, como el viento que las forma, es voluble y cambiante; se comportan caprichosamente, mostrando responsabilidad sólo en los asuntos más serios o para cumplir promesas (algo que para ellas resulta absolutamente vital). Si bien en el pasado estuvieron directamente involucradas en los asuntos de la humanidad y de otras muchas razas, tras la Guerra de Dios su implicación con el mundo es muchísimo menor. Ahora, simplemente viajan de un lado a otro sin dejarse ver por el hombre, manteniendo poca o ninguna relación con los asuntos mundanos. Las Arias Vayu tienen un enorme control sobre clima de Gaïa y cada una de ellas determina cuando estallan tormentas o hay épocas de sequía en diferentes territorios. No es que sean necesarias para que esto ocurra, pero en virtud de ancestrales acuerdos con los primeros pobladores del mundo consideran que asegurar el correcto funcionamiento de la meteorología forma parte de su responsabilidad. De hecho, muchos pueblos y aldeas alejadas del corazón del Imperio aún rinden homenaje a las “hadas de la tormenta” o “ángeles de la lluvia” con grandes festividades para pedirles que les bendigan con buenas precipitaciones. Al t o sElEmEn tAlEsLasVayu conocen todos los idiomas que existen y saben hablarlos fluidamente. Dada su naturaleza refinada les atraen la música y la danza, la que consideran la mayor creación de los mortales (y es lo que precisamente les atrae de las fiestas en su honor). Según el mito de los Sylvain, cuando una tormenta es excepcionalmente fuerte se debe a que una Arias Vayu está danzando en los cielos. Hoy en día se desconoce el número exacto de Reinas de los Vientos que permanece en Gaïa, pero se calcula que han de quedar como mínimo alrededor de diez. m oduS oPerandiLasAriasVayu entran muy pocas veces en combate, ya que su naturaleza no violenta y su enorme poder le permiten generalmente evitar con mucha facilidad los enfrentamientos; en el peor de los casos, simplemente se dejan llevar por las corrientes de viento transportándose a grandes distancias. Por el contrario, cuando son ellas las que quieren llevar la iniciativa, sus descomunales habilidades mágicas, su capacidad combativa y sus poderes innatos les dan una ventaja desmedida contra cualquier adversario. Su metodología de combate habitual consiste en transportarse continuamente de un lado a otro atacando a gran distancia a sus enemigos con sus tajos de viento, mientras acumulan Zeon para lanzar conjuros que puedan llegar a necesitar. Por su naturaleza etérea, no tienen puntos vulnerables. Forma Elemental: El cuerpo de una Arias Vayu está formado por infinidad de corrientes de aire, por lo que las armas que no dañen energía son incapaces de alcanzarla y aquellos que no vean magia deben superar un control de Advertir contra Casi imposible o de Buscar contra Muy Difícil para detectarla. No obstante, a pesar de estar compuesta de aire, la señora elemental puede tomar forma física a voluntad si lo desea, siendo visible para todos. Gracias también a su naturaleza elemental, una Arias Vayu puede desplazarse libremente por el aire con su Tipo de Movimiento y, aunque no es propiamente intangible, es capaz de colarse por cualquier apertura, por minúscula que sea, siempre y cuando pueda filtrarse una pequeña ráfaga de aire. Cuchilla de Viento: Dado el innato control que una Arias Vayu ejerce sobre las corrientes de viento, el principal método de ataque de la señora elemental consiste en generar enormes filos de aire concentrado que lanza contra sus enemigos. La Cuchilla de Viento es equivalente a un ataque a distancia capaz de dañar energía con un alcance máximo de 250 metros y que reduce dos puntos la Armadura del defensor. Transporte Innato: Moviéndose por las corrientes de aire, una Arias Vayu puede transportarse innatamente de un sitio a otro hasta una distancia máxima de 30 metros. Por tanto, puede retirarse de cualquier combate sin otorgar a sus adversarios bonos en sus ataques de oportunidad por su posicionamiento. Esta habilidad solo funciona en sitios abiertos donde corra el aire. Dominio Elemental: Todos los conjuros de la vía de Aire que la señora elemental realice son lanzados con dos añadidos adicionales sin coste alguno. Los conjuros mantenidos también se benefician de este bono, pero no cuentan para el coste de Mantenimiento del hechizo. Inmunidad Elemental: Los ataques, naturales o sobrenaturales, basados en electricidad o aire no producen daño en las Arias Vayu. Los Cuatro Cristales Elementales: Al inicio de cualquier turno y antes de determinar su iniciativa una Arias Vayu puede activar sus esferas elementales. Para ello ha de invertir 50 puntos de Zeon, que se descuentan de su reserva sin la necesidad de tener que acumularlos. Desgraciadamente, el poder de los cristales es caótico y nunca se sabe con exactitud cual de ellos funcionará. Para saberlo, Vayu lanza un D10 atendiendo a los siguientes resultados: 1-2 Cristal del Viento, 3-4 Cristal del Rayo, 5-6 Cristal del Tifón, 7-8 Cristal del Relámpago y 9-10 Tetraformación. Los Cristales no pueden ser dañados de ningún modo mientras la Arias Vayu siga con vida, pero mientras los está usando estos se vuelven temporalmente vulnerables a un ataque. Los Cristales se defienden con una Habilidad de Esquiva 250 y, si reciben algún tipo de daño, simplemente se desactivan durante el resto del turno, anulando temporalmente los poderes especiales que confieren a la señora elemental. 1-2 Cristal dEl ViEnto : Levanta una potente corriente de viento sobrenatural que rodea a la Arias Vayu protegiéndola de toda clase de ataque físico o espiritual. Durante ese turno la señora elemental incrementa su Habilidad de Defensa hasta 280 y cualquier daño que reciba procedente de ataques físicos queda reducido a la mitad. 3-4 Cristal dEl r ayo : Genera una potente descarga eléctrica que actúa igual que el conjuro de Aire Rayo, lanzado con un valor zeónico de 100 puntos y el equivalente a una Habilidad de Ataque 280. Este ataque es completamente independiente a las acciones de la señora elemental, por lo que se activará incluso si esta no tiene acción durante el asalto. 5-6 Cristal dEl t ifón : Desencadena un potente remolino alrededor de la Vayu que arrasa cualquier cosa que esté cerca de ella. Todo aquel que se encuentre a menos de 10 metros de la elemental o se le acerque recibe un impacto automático de Fuerza 14 que lo aparta de su lado. Durante este turno, todos los ataques de Cuchilla de Viento de la Arias Vayu incrementan su Daño Base hasta 100.7-8 Cristal dEl rEláMpago : La Vayu obtiene un bono de +100 a su Turno, incrementa su ACT 20 puntos y no sufre penalizadores a la acción por usar conjuros y atacar físicamente. 9-10 tEtraforMaCión : Al usar este poder los Cuatro Cristales Elementales se activan al unísono, creando una potente onda expansiva que combina electricidad y viento. La Tetraformación ejecuta un ataque eléctrico en un área de 30 metros de radio empleando la habilidad ofensiva de la Vayu, y que produce además un Impacto de Fuerza 14. No obstante, todo aquel que consiga defenderse con éxito del ataque deberá superar un control de RF contra 120 a causa del campo eléctrico que forman las esferas, o de lo contrario sufrir un penalizador a toda acción de -40 a causa de las descargas en su sistema nervioso. Este ataque es completamente independiente a las acciones de la señora elemental, por lo que se activará incluso si esta no tiene acción durante el asalto. Para anularlo, basta con dañar al menos uno de los cuatro Cristales.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: Entre mundos, Elemental 30 Puntos de Vida: 210 Categoría: Warlock Fue: 5 Des: 14 Agi: 15 Con: 8 Pod: 13 Int: 13 Vol: 7 Per: 10 RF 85 RM 100 RP 85 RV 85 RE 85\n\nTurno: 1 75 Natural Habilidad de ataque: 240 Cuchilla de Viento Habilidad de defensa: 250 Esquiva Daño: 80 Cuchilla de Viento (Fil), 100 Tetraformación (Ele) TA: Ninguna ACT: 80 Aire\n\nZeon: 900\n\nProyección mágica: 200 Ofensiva Nivel de Vía: 90 Aire Habilidades naturales: Proyección Mágica como Ataque. Habilidades esenciales: Don, Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Zen, Exención Física, Inmunidad Natural a un Elemento (Completa, Aire), Inutilidad Somática, Inutilidad Oral. Poderes: +30 al Turno Natural, Forma Elemental, Cuchilla de Viento (Ataque Elemental, -2 a la TA Defensora, Distancia 250 Metros, Daño Base 80), Daña Energía, Transporte Innato (Distancia 30 Metros, Através de un Elemento, Sin Límite), Dominio Elemental, Los Cuatro Cristales Elementales. de movimiento: 15 Cansancio: Incansable Habilidades Secundarias: Acrobacias 1 25, Baile 180, Persuasión 55, Advertir 40, Buscar 20, Historia 50, Valoración Mágica 1 50.\n\nReina de los Vientos, Señora de los Silfos, Portadora de Tormentas… muchos son los nombres con los que se conocen a las Arias Vayu, la más alta jerarquía elemental del aire. Sus cuerpos están compuestos por una masificación de corrientes de viento y electricidad condensada por la poderosa energía espiritual que las ha hecho nacer. Realmente no poseen una forma definida, pero siempre toman una apariencia femenina excepcionalmente hermosa y mantienen en todo momento ese aspecto, al que ellas mismas consideran su “verdadero yo”. Contrariamente a lo que ocurre con los silfos, cuyos cuerpos parecen etéreos, una Vayu puede tomar color y adoptar “masa” a voluntad, aunque su pelo siempre es de color azulado y, al igual que sus ropas (también compuestas por corrientes de viento), este flota alrededor de la elemental confiriéndole un porte regio y señorial.\n\nSu personalidad, como el viento que las forma, es voluble y cambiante; se comportan caprichosamente, mostrando responsabilidad sólo en los asuntos más serios o para cumplir promesas (algo que para ellas resulta absolutamente vital). Si bien en el pasado estuvieron directamente involucradas en los asuntos de la humanidad y de otras muchas razas, tras la Guerra de Dios su implicación con el mundo es muchísimo menor. Ahora, simplemente viajan de un lado a otro sin dejarse ver por el hombre, manteniendo poca o ninguna relación con los asuntos mundanos. Las Arias Vayu tienen un enorme control sobre clima de Gaïa y cada una de ellas determina cuando estallan tormentas o hay épocas de sequía en diferentes territorios.\n\nNo es que sean necesarias para que esto ocurra, pero en virtud de ancestrales acuerdos con los primeros pobladores del mundo consideran que asegurar el correcto funcionamiento de la meteorología forma parte de su responsabilidad. De hecho, muchos pueblos y aldeas alejadas del corazón del Imperio aún rinden homenaje a las “hadas de la tormenta” o “ángeles de la lluvia” con grandes festividades para pedirles que les bendigan con buenas precipitaciones. (order #3443007) Al t o sElEmEn tAlEsLasVayu conocen todos los idiomas que existen y saben hablarlos fluidamente. Dada su naturaleza refinada les atraen la música y la danza, la que consideran la mayor creación de los mortales (y es lo que precisamente les atrae de las fiestas en su honor). Según el mito de los Sylvain, cuando una tormenta es excepcionalmente fuerte se debe a que una Arias Vayu está danzando en los cielos.\n\nHoy en día se desconoce el número exacto de Reinas de los Vientos que permanece en Gaïa, pero se calcula que han de quedar como mínimo alrededor de diez. m oduS oPerandiLasAriasVayu entran muy pocas veces en combate, ya que su naturaleza no violenta y su enorme poder le permiten generalmente evitar con mucha facilidad los enfrentamientos; en el peor de los casos, simplemente se dejan llevar por las corrientes de viento transportándose a grandes distancias. Por el contrario, cuando son ellas las que quieren llevar la iniciativa, sus descomunales habilidades mágicas, su capacidad combativa y sus poderes innatos les dan una ventaja desmedida contra cualquier adversario.\n\nSu metodología de combate habitual consiste en transportarse continuamente de un lado a otro atacando a gran distancia a sus enemigos con sus tajos de viento, mientras acumulan Zeon para lanzar conjuros que puedan llegar a necesitar. Por su naturaleza etérea, no tienen puntos vulnerables. Forma Elemental: El cuerpo de una Arias Vayu está formado por infinidad de corrientes de aire, por lo que las armas que no dañen energía son incapaces de alcanzarla y aquellos que no vean magia deben superar un control de Advertir contra Casi imposible o de Buscar contra Muy Difícil para detectarla. No obstante, a pesar de estar compuesta de aire, la señora elemental puede tomar forma física a voluntad si lo desea, siendo visible para todos.\n\nGracias también a su naturaleza elemental, una Arias Vayu puede desplazarse libremente por el aire con su Tipo de Movimiento y, aunque no es propiamente intangible, es capaz de colarse por cualquier apertura, por minúscula que sea, siempre y cuando pueda filtrarse una pequeña ráfaga de aire. Cuchilla de Viento: Dado el innato control que una Arias Vayu ejerce sobre las corrientes de viento, el principal método de ataque de la señora elemental consiste en generar enormes filos de aire concentrado que lanza contra sus enemigos. La Cuchilla de Viento es equivalente a un ataque a distancia capaz de dañar energía con un alcance máximo de 250 metros y que reduce dos puntos la Armadura del defensor. Transporte Innato: Moviéndose por las corrientes de aire, una Arias Vayu puede transportarse innatamente de un sitio a otro hasta una distancia máxima de 30 metros.\n\nPor tanto, puede retirarse de cualquier combate sin otorgar a sus adversarios bonos en sus ataques de oportunidad por su posicionamiento. Esta habilidad solo funciona en sitios abiertos donde corra el aire. Dominio Elemental: Todos los conjuros de la vía de Aire que la señora elemental realice son lanzados con dos añadidos adicionales sin coste alguno. Los conjuros mantenidos también se benefician de este bono, pero no cuentan para el coste de Mantenimiento del hechizo. Inmunidad Elemental: Los ataques, naturales o sobrenaturales, basados en electricidad o aire no producen daño en las Arias Vayu. Los Cuatro Cristales Elementales: Al inicio de cualquier turno y antes de determinar su iniciativa una Arias Vayu puede activar sus esferas elementales. Para ello ha de invertir 50 puntos de Zeon, que se descuentan de su reserva sin la necesidad de tener que acumularlos.\n\nDesgraciadamente, el poder de los cristales es caótico y nunca se sabe con exactitud cual de ellos funcionará. Para saberlo, Vayu lanza un D10 atendiendo a los siguientes resultados: 1-2 Cristal del Viento, 3-4 Cristal del Rayo, 5-6 Cristal del Tifón, 7-8 Cristal del Relámpago y 9-10 Tetraformación. Los Cristales no pueden ser dañados de ningún modo mientras la Arias Vayu siga con vida, pero mientras los está usando estos se vuelven temporalmente vulnerables a un ataque. Los Cristales se defienden con una Habilidad de Esquiva 250 y, si reciben algún tipo de daño, simplemente se desactivan durante el resto del turno, anulando temporalmente los poderes especiales que confieren a la señora elemental. 1-2 Cristal dEl ViEnto : Levanta una potente corriente de viento sobrenatural que rodea a la Arias Vayu protegiéndola de toda clase de ataque físico o espiritual.\n\nDurante ese turno la señora elemental incrementa su Habilidad de Defensa hasta 280 y cualquier daño que reciba procedente de ataques físicos queda reducido a la mitad. 3-4 Cristal dEl r ayo : Genera una potente descarga eléctrica que actúa igual que el conjuro de Aire Rayo, lanzado con un valor zeónico de 100 puntos y el equivalente a una Habilidad de Ataque 280. Este ataque es completamente independiente a las acciones de la señora elemental, por lo que se activará incluso si esta no tiene acción durante el asalto. 5-6 Cristal dEl t ifón : Desencadena un potente remolino alrededor de la Vayu que arrasa cualquier cosa que esté cerca de ella. Todo aquel que se encuentre a menos de 10 metros de la elemental o se le acerque recibe un impacto automático de Fuerza 1 4 que lo aparta de su lado.\n\nDurante este turno, todos los ataques de Cuchilla de Viento de la Arias Vayu incrementan su Daño Base hasta 100. 7-8 Cristal dEl rEláMpago : La Vayu obtiene un bono de +100 a su Turno, incrementa su ACT 20 puntos y no sufre penalizadores a la acción por usar conjuros y atacar físicamente. 9-10 tEtraforMaCión : Al usar este poder los Cuatro Cristales Elementales se activan al unísono, creando una potente onda expansiva que combina electricidad y viento. La Tetraformación ejecuta un ataque eléctrico en un área de 30 metros de radio empleando la habilidad ofensiva de la Vayu, y que produce además un Impacto de Fuerza 1 4. No obstante, todo aquel que consiga defenderse con éxito del ataque deberá superar un control de RF contra 120 a causa del campo eléctrico que forman las esferas, o de lo contrario sufrir un penalizador a toda acción de -40 a causa de las descargas en su sistema nervioso.\n\nEste ataque es completamente independiente a las acciones de la señora elemental, por lo que se activará incluso si esta no tiene acción durante el asalto. Para anularlo, basta con dañar al menos uno de los cuatro Cristales. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 14</p><p><strong>Entrada:</strong> Arias Vayu</p><p><strong>Variante:</strong> Al Superior de Aire</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 30</p><p><strong>Categoría:</strong> Warlock Fue: 5 Des: 14 Agi: 15 Con: 8 Pod: 13 Int: 13 Vol: 7 Per: 10 RF 85 RM 100 RP 85 RV 85 RE 85</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Don, Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Zen, Exención Física, Inmunidad Natural a un Elemento (Completa, Aire), Inutilidad Somática, Inutilidad Oral.</p><p><strong>Poderes:</strong> +30 al Turno Natural, Forma Elemental, Cuchilla de Viento (Ataque Elemental, -2 a la TA Defensora, Distancia 250 Metros, Daño Base 80), Daña Energía, Transporte Innato (Distancia 30 Metros, Através de un Elemento, Sin Límite), Dominio Elemental, Los Cuatro Cristales Elementales.</p><p><strong>Daño:</strong> 80 Cuchilla de Viento (Fil), 100 Tetraformación (Ele)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 125, Baile 180, Persuasión 55, Advertir 40, Buscar 20, Historia 50, Valoración Mágica 150</p><p><strong>Descripción breve:</strong> Reina de los Vientos, Señora de los Silfos, Portadora de Tormentas… muchos son los nombres con los que se conocen a las Arias Vayu, la más alta jerarquía elemental del aire. Sus cuerpos están compuestos por una masificación de corrientes de viento y electricidad condensada por la poderosa energía espiritual que las ha hecho nacer. Realmente no poseen una forma definida, pero siempre toman una apariencia femenina excepcionalmente hermosa y mantienen en todo momento ese aspecto, al que ellas mismas consideran su “verdadero yo”. Contrariamente a lo que ocurre con los silfos, cuyos cuerpos parecen etéreos, una Vayu puede tomar color y adoptar “masa” a voluntad, aunque su pelo siempre es de color azulado y, al igual que sus ropas (también compuestas por corrientes de viento), este flota alrededor de la elemental confiriéndole un porte regio y señorial. Su personalidad, como el viento que las forma, es voluble y cambiante; se comportan caprichosamente, mostrando responsabilidad sólo en los asuntos más serios o para cumplir promesas (algo que para ellas resulta absolutamente vital). Si bien en el pasado estuvieron directamente involucradas en los asuntos de la humanidad y de otras muchas razas, tras la Guerra de Dios su implicación con el mundo es muchísimo menor. Ahora, simplemente viajan de un lado a otro sin dejarse ver por el hombre, manteniendo poca o ninguna relación con los asuntos mundanos. Las Arias Vayu tienen un enorme control sobre clima de Gaïa y cada una de ellas determina cuando estallan tormentas o hay épocas de sequía en diferentes territorios. No es que sean necesarias para que esto ocurra, pero en virtud de ancestrales acuerdos con los primeros pobladores del mundo consideran que asegurar el correcto funcionamiento de la meteorología forma parte de su responsabilidad. De hecho, muchos pueblos y aldeas alejadas del corazón del Imperio aún rinden homenaje a las “hadas de la tormenta” o “ángeles de la lluvia” con grandes festividades para pedirles que les bendigan con buenas precipitaciones. Al t o sElEmEn tAlEsLasVayu conocen todos los idiomas que existen y saben hablarlos fluidamente. Dada su naturaleza refinada les atraen la música y la danza, la que consideran la mayor creación de los mortales (y es lo que precisamente les atrae de las fiestas en su honor). Según el mito de los Sylvain, cuando una tormenta es excepcionalmente fuerte se debe a que una Arias Vayu está danzando en los cielos. Hoy en día se desconoce el número exacto de Reinas de los Vientos que permanece en Gaïa, pero se calcula que han de quedar como mínimo alrededor de diez. m oduS oPerandiLasAriasVayu entran muy pocas veces en combate, ya que su naturaleza no violenta y su enorme poder le permiten generalmente evitar con mucha facilidad los enfrentamientos; en el peor de los casos, simplemente se dejan llevar por las corrientes de viento transportándose a grandes distancias. Por el contrario, cuando son ellas las que quieren llevar la iniciativa, sus descomunales habilidades mágicas, su capacidad combativa y sus poderes innatos les dan una ventaja desmedida contra cualquier adversario. Su metodología de combate habitual consiste en transportarse continuamente de un lado a otro atacando a gran distancia a sus enemigos con sus tajos de viento, mientras acumulan Zeon para lanzar conjuros que puedan llegar a necesitar. Por su naturaleza etérea, no tienen puntos vulnerables. Forma Elemental: El cuerpo de una Arias Vayu está formado por infinidad de corrientes de aire, por lo que las armas que no dañen energía son incapaces de alcanzarla y aquellos que no vean magia deben superar un control de Advertir contra Casi imposible o de Buscar contra Muy Difícil para detectarla. No obstante, a pesar de estar compuesta de aire, la señora elemental puede tomar forma física a voluntad si lo desea, siendo visible para todos. Gracias también a su naturaleza elemental, una Arias Vayu puede desplazarse libremente por el aire con su Tipo de Movimiento y, aunque no es propiamente intangible, es capaz de colarse por cualquier apertura, por minúscula que sea, siempre y cuando pueda filtrarse una pequeña ráfaga de aire. Cuchilla de Viento: Dado el innato control que una Arias Vayu ejerce sobre las corrientes de viento, el principal método de ataque de la señora elemental consiste en generar enormes filos de aire concentrado que lanza contra sus enemigos. La Cuchilla de Viento es equivalente a un ataque a distancia capaz de dañar energía con un alcance máximo de 250 metros y que reduce dos puntos la Armadura del defensor. Transporte Innato: Moviéndose por las corrientes de aire, una Arias Vayu puede transportarse innatamente de un sitio a otro hasta una distancia máxima de 30 metros. Por tanto, puede retirarse de cualquier combate sin otorgar a sus adversarios bonos en sus ataques de oportunidad por su posicionamiento. Esta habilidad solo funciona en sitios abiertos donde corra el aire. Dominio Elemental: Todos los conjuros de la vía de Aire que la señora elemental realice son lanzados con dos añadidos adicionales sin coste alguno. Los conjuros mantenidos también se benefician de este bono, pero no cuentan para el coste de Mantenimiento del hechizo. Inmunidad Elemental: Los ataques, naturales o sobrenaturales, basados en electricidad o aire no producen daño en las Arias Vayu. Los Cuatro Cristales Elementales: Al inicio de cualquier turno y antes de determinar su iniciativa una Arias Vayu puede activar sus esferas elementales. Para ello ha de invertir 50 puntos de Zeon, que se descuentan de su reserva sin la necesidad de tener que acumularlos. Desgraciadamente, el poder de los cristales es caótico y nunca se sabe con exactitud cual de ellos funcionará. Para saberlo, Vayu lanza un D10 atendiendo a los siguientes resultados: 1-2 Cristal del Viento, 3-4 Cristal del Rayo, 5-6 Cristal del Tifón, 7-8 Cristal del Relámpago y 9-10 Tetraformación. Los Cristales no pueden ser dañados de ningún modo mientras la Arias Vayu siga con vida, pero mientras los está usando estos se vuelven temporalmente vulnerables a un ataque. Los Cristales se defienden con una Habilidad de Esquiva 250 y, si reciben algún tipo de daño, simplemente se desactivan durante el resto del turno, anulando temporalmente los poderes especiales que confieren a la señora elemental. 1-2 Cristal dEl ViEnto : Levanta una potente corriente de viento sobrenatural que rodea a la Arias Vayu protegiéndola de toda clase de ataque físico o espiritual. Durante ese turno la señora elemental incrementa su Habilidad de Defensa hasta 280 y cualquier daño que reciba procedente de ataques físicos queda reducido a la mitad. 3-4 Cristal dEl r ayo : Genera una potente descarga eléctrica que actúa igual que el conjuro de Aire Rayo, lanzado con un valor zeónico de 100 puntos y el equivalente a una Habilidad de Ataque 280. Este ataque es completamente independiente a las acciones de la señora elemental, por lo que se activará incluso si esta no tiene acción durante el asalto. 5-6 Cristal dEl t ifón : Desencadena un potente remolino alrededor de la Vayu que arrasa cualquier cosa que esté cerca de ella. Todo aquel que se encuentre a menos de 10 metros de la elemental o se le acerque recibe un impacto automático de Fuerza 14 que lo aparta de su lado. Durante este turno, todos los ataques de Cuchilla de Viento de la Arias Vayu incrementan su Daño Base hasta 100.7-8 Cristal dEl rEláMpago : La Vayu obtiene un bono de +100 a su Turno, incrementa su ACT 20 puntos y no sufre penalizadores a la acción por usar conjuros y atacar físicamente. 9-10 tEtraforMaCión : Al usar este poder los Cuatro Cristales Elementales se activan al unísono, creando una potente onda expansiva que combina electricidad y viento. La Tetraformación ejecuta un ataque eléctrico en un área de 30 metros de radio empleando la habilidad ofensiva de la Vayu, y que produce además un Impacto de Fuerza 14. No obstante, todo aquel que consiga defenderse con éxito del ataque deberá superar un control de RF contra 120 a causa del campo eléctrico que forman las esferas, o de lo contrario sufrir un penalizador a toda acción de -40 a causa de las descargas en su sistema nervioso. Este ataque es completamente independiente a las acciones de la señora elemental, por lo que se activará incluso si esta no tiene acción durante el asalto. Para anularlo, basta con dañar al menos uno de los cuatro Cristales.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: Entre mundos, Elemental 30 Puntos de Vida: 210 Categoría: Warlock Fue: 5 Des: 14 Agi: 15 Con: 8 Pod: 13 Int: 13 Vol: 7 Per: 10 RF 85 RM 100 RP 85 RV 85 RE 85\n\nTurno: 1 75 Natural Habilidad de ataque: 240 Cuchilla de Viento Habilidad de defensa: 250 Esquiva Daño: 80 Cuchilla de Viento (Fil), 100 Tetraformación (Ele) TA: Ninguna ACT: 80 Aire\n\nZeon: 900\n\nProyección mágica: 200 Ofensiva Nivel de Vía: 90 Aire Habilidades naturales: Proyección Mágica como Ataque. Habilidades esenciales: Don, Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Zen, Exención Física, Inmunidad Natural a un Elemento (Completa, Aire), Inutilidad Somática, Inutilidad Oral. Poderes: +30 al Turno Natural, Forma Elemental, Cuchilla de Viento (Ataque Elemental, -2 a la TA Defensora, Distancia 250 Metros, Daño Base 80), Daña Energía, Transporte Innato (Distancia 30 Metros, Através de un Elemento, Sin Límite), Dominio Elemental, Los Cuatro Cristales Elementales. de movimiento: 15 Cansancio: Incansable Habilidades Secundarias: Acrobacias 1 25, Baile 180, Persuasión 55, Advertir 40, Buscar 20, Historia 50, Valoración Mágica 1 50.\n\nReina de los Vientos, Señora de los Silfos, Portadora de Tormentas… muchos son los nombres con los que se conocen a las Arias Vayu, la más alta jerarquía elemental del aire. Sus cuerpos están compuestos por una masificación de corrientes de viento y electricidad condensada por la poderosa energía espiritual que las ha hecho nacer. Realmente no poseen una forma definida, pero siempre toman una apariencia femenina excepcionalmente hermosa y mantienen en todo momento ese aspecto, al que ellas mismas consideran su “verdadero yo”. Contrariamente a lo que ocurre con los silfos, cuyos cuerpos parecen etéreos, una Vayu puede tomar color y adoptar “masa” a voluntad, aunque su pelo siempre es de color azulado y, al igual que sus ropas (también compuestas por corrientes de viento), este flota alrededor de la elemental confiriéndole un porte regio y señorial.\n\nSu personalidad, como el viento que las forma, es voluble y cambiante; se comportan caprichosamente, mostrando responsabilidad sólo en los asuntos más serios o para cumplir promesas (algo que para ellas resulta absolutamente vital). Si bien en el pasado estuvieron directamente involucradas en los asuntos de la humanidad y de otras muchas razas, tras la Guerra de Dios su implicación con el mundo es muchísimo menor. Ahora, simplemente viajan de un lado a otro sin dejarse ver por el hombre, manteniendo poca o ninguna relación con los asuntos mundanos. Las Arias Vayu tienen un enorme control sobre clima de Gaïa y cada una de ellas determina cuando estallan tormentas o hay épocas de sequía en diferentes territorios.\n\nNo es que sean necesarias para que esto ocurra, pero en virtud de ancestrales acuerdos con los primeros pobladores del mundo consideran que asegurar el correcto funcionamiento de la meteorología forma parte de su responsabilidad. De hecho, muchos pueblos y aldeas alejadas del corazón del Imperio aún rinden homenaje a las “hadas de la tormenta” o “ángeles de la lluvia” con grandes festividades para pedirles que les bendigan con buenas precipitaciones. (order #3443007) Al t o sElEmEn tAlEsLasVayu conocen todos los idiomas que existen y saben hablarlos fluidamente. Dada su naturaleza refinada les atraen la música y la danza, la que consideran la mayor creación de los mortales (y es lo que precisamente les atrae de las fiestas en su honor). Según el mito de los Sylvain, cuando una tormenta es excepcionalmente fuerte se debe a que una Arias Vayu está danzando en los cielos.\n\nHoy en día se desconoce el número exacto de Reinas de los Vientos que permanece en Gaïa, pero se calcula que han de quedar como mínimo alrededor de diez. m oduS oPerandiLasAriasVayu entran muy pocas veces en combate, ya que su naturaleza no violenta y su enorme poder le permiten generalmente evitar con mucha facilidad los enfrentamientos; en el peor de los casos, simplemente se dejan llevar por las corrientes de viento transportándose a grandes distancias. Por el contrario, cuando son ellas las que quieren llevar la iniciativa, sus descomunales habilidades mágicas, su capacidad combativa y sus poderes innatos les dan una ventaja desmedida contra cualquier adversario.\n\nSu metodología de combate habitual consiste en transportarse continuamente de un lado a otro atacando a gran distancia a sus enemigos con sus tajos de viento, mientras acumulan Zeon para lanzar conjuros que puedan llegar a necesitar. Por su naturaleza etérea, no tienen puntos vulnerables. Forma Elemental: El cuerpo de una Arias Vayu está formado por infinidad de corrientes de aire, por lo que las armas que no dañen energía son incapaces de alcanzarla y aquellos que no vean magia deben superar un control de Advertir contra Casi imposible o de Buscar contra Muy Difícil para detectarla. No obstante, a pesar de estar compuesta de aire, la señora elemental puede tomar forma física a voluntad si lo desea, siendo visible para todos.\n\nGracias también a su naturaleza elemental, una Arias Vayu puede desplazarse libremente por el aire con su Tipo de Movimiento y, aunque no es propiamente intangible, es capaz de colarse por cualquier apertura, por minúscula que sea, siempre y cuando pueda filtrarse una pequeña ráfaga de aire. Cuchilla de Viento: Dado el innato control que una Arias Vayu ejerce sobre las corrientes de viento, el principal método de ataque de la señora elemental consiste en generar enormes filos de aire concentrado que lanza contra sus enemigos. La Cuchilla de Viento es equivalente a un ataque a distancia capaz de dañar energía con un alcance máximo de 250 metros y que reduce dos puntos la Armadura del defensor. Transporte Innato: Moviéndose por las corrientes de aire, una Arias Vayu puede transportarse innatamente de un sitio a otro hasta una distancia máxima de 30 metros.\n\nPor tanto, puede retirarse de cualquier combate sin otorgar a sus adversarios bonos en sus ataques de oportunidad por su posicionamiento. Esta habilidad solo funciona en sitios abiertos donde corra el aire. Dominio Elemental: Todos los conjuros de la vía de Aire que la señora elemental realice son lanzados con dos añadidos adicionales sin coste alguno. Los conjuros mantenidos también se benefician de este bono, pero no cuentan para el coste de Mantenimiento del hechizo. Inmunidad Elemental: Los ataques, naturales o sobrenaturales, basados en electricidad o aire no producen daño en las Arias Vayu. Los Cuatro Cristales Elementales: Al inicio de cualquier turno y antes de determinar su iniciativa una Arias Vayu puede activar sus esferas elementales. Para ello ha de invertir 50 puntos de Zeon, que se descuentan de su reserva sin la necesidad de tener que acumularlos.\n\nDesgraciadamente, el poder de los cristales es caótico y nunca se sabe con exactitud cual de ellos funcionará. Para saberlo, Vayu lanza un D10 atendiendo a los siguientes resultados: 1-2 Cristal del Viento, 3-4 Cristal del Rayo, 5-6 Cristal del Tifón, 7-8 Cristal del Relámpago y 9-10 Tetraformación. Los Cristales no pueden ser dañados de ningún modo mientras la Arias Vayu siga con vida, pero mientras los está usando estos se vuelven temporalmente vulnerables a un ataque. Los Cristales se defienden con una Habilidad de Esquiva 250 y, si reciben algún tipo de daño, simplemente se desactivan durante el resto del turno, anulando temporalmente los poderes especiales que confieren a la señora elemental. 1-2 Cristal dEl ViEnto : Levanta una potente corriente de viento sobrenatural que rodea a la Arias Vayu protegiéndola de toda clase de ataque físico o espiritual.\n\nDurante ese turno la señora elemental incrementa su Habilidad de Defensa hasta 280 y cualquier daño que reciba procedente de ataques físicos queda reducido a la mitad. 3-4 Cristal dEl r ayo : Genera una potente descarga eléctrica que actúa igual que el conjuro de Aire Rayo, lanzado con un valor zeónico de 100 puntos y el equivalente a una Habilidad de Ataque 280. Este ataque es completamente independiente a las acciones de la señora elemental, por lo que se activará incluso si esta no tiene acción durante el asalto. 5-6 Cristal dEl t ifón : Desencadena un potente remolino alrededor de la Vayu que arrasa cualquier cosa que esté cerca de ella. Todo aquel que se encuentre a menos de 10 metros de la elemental o se le acerque recibe un impacto automático de Fuerza 1 4 que lo aparta de su lado.\n\nDurante este turno, todos los ataques de Cuchilla de Viento de la Arias Vayu incrementan su Daño Base hasta 100. 7-8 Cristal dEl rEláMpago : La Vayu obtiene un bono de +100 a su Turno, incrementa su ACT 20 puntos y no sufre penalizadores a la acción por usar conjuros y atacar físicamente. 9-10 tEtraforMaCión : Al usar este poder los Cuatro Cristales Elementales se activan al unísono, creando una potente onda expansiva que combina electricidad y viento. La Tetraformación ejecuta un ataque eléctrico en un área de 30 metros de radio empleando la habilidad ofensiva de la Vayu, y que produce además un Impacto de Fuerza 1 4. No obstante, todo aquel que consiga defenderse con éxito del ataque deberá superar un control de RF contra 120 a causa del campo eléctrico que forman las esferas, o de lo contrario sufrir un penalizador a toda acción de -40 a causa de las descargas en su sistema nervioso.\n\nEste ataque es completamente independiente a las acciones de la señora elemental, por lo que se activará incluso si esta no tiene acción durante el asalto. Para anularlo, basta con dañar al menos uno de los cuatro Cristales. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +251,6 @@
           }
         }
       ],
-      "level": {
-        "value": 10
-      },
       "notes": [
         {
           "_id": "note-arias-vayu-al-superior-de-aire-2",
@@ -351,52 +276,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 14
-          }
+          "value": 14,
+          "mod": 25
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -407,9 +316,6 @@
         "initiative": {
           "base": {
             "value": 175
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -460,10 +366,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -471,10 +374,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 85
             },
             "final": {
               "value": 0
@@ -482,10 +382,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 85090
+              "value": 85175
             },
             "final": {
               "value": 0
@@ -493,10 +390,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -504,10 +398,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 5
+              "value": 85
             },
             "final": {
               "value": 0
@@ -519,215 +410,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 125
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 40
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}",
           "base": {
             "value": 55
+          },
+          "final": {
+            "value": 0
           }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 180
+          },
+          "final": {
+            "value": 0
           }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 240
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 250
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -758,11 +889,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -774,16 +901,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 900,
         "max": 900
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -795,14 +927,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -907,15 +1036,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -927,37 +1052,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1080,9 +1225,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

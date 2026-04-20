@@ -251,27 +251,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
           "value": true
         },
         "domine": {
-          "value": false
+          "value": 0
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -285,59 +280,22 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": true
-        },
-        "inhuman": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "zen": {
           "value": true
         },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
+        "inmaterial": {
+          "value": true
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -345,41 +303,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -391,14 +323,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 75
         }
       },
       "aspect": {
@@ -430,7 +357,7 @@
           "value": ""
         },
         "size": {
-          "value": 29
+          "value": "29"
         }
       },
       "advantages": [],
@@ -448,7 +375,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 12</p><p><strong>Entrada:</strong> Agni</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 30</p><p><strong>Categoría:</strong> Warlock Fue: 15 Des: 10 Agi: 7 Con: 14 Pod: 13 Int: 13 Vol: 12 Per: 8 RF 100 RM 100 RP 95 RV 100 RE 100</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Don, Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Tamaño Innatural, Zen, Exención Física, Inmunidad Natural a un Elemento (Completa, Fuego), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad a un Elemento (Doble Daño, Agua).</p><p><strong>Poderes:</strong> Armas naturales: Garras Ígneas (Ataque Elemental), Daña Energía, Inferno (Daño 150, Área 50 Metros, Sin Límite, Requiere 1 Turno de Preparatoria), Contacto Abrasivo, Alas de Fuego (Vuelo Místico 8), Forma Elemental, Aura de Fuego, Consunción, Dominio Elemental, Vulnerabilidad Extrema: Agua (Debilidad, Daño Equivalente, RF 180).</p><p><strong>Daño:</strong> 130 Garras Ígneas (Cal), 150 Inferno (Cal)</p><p><strong>TA:</strong> Natural 6</p><p><strong>Habilidades secundarias:</strong> Intimidar 150, Advertir 50, Buscar 50, Valoración Mágica 100, Proezas de Fuerza 100</p><p><strong>Descripción breve:</strong> Adorados en Baho y otras zonas orientales como deidades menores de las llamas, las entidades conocidas como Agni son la máxima potencia entre los elementales de fuego. Similares en aspecto a los efreet pero de tamaño y envergadura muy superior (llegan a medir incluso más de seis metros de altura), los Agni se caracterizan por sus demoníacos rostros y las descomunales alas de fuego que pueden manifestar a voluntad. Por ello son consideraros “ángeles caídos del fuego” por la Iglesia de Abel, uno de los demonios más poderosos y de mayor jerarquía. Se dice que, al contrario que otros altos señores elementales, los Agni no nacen como tal, sino que son el resultado de la evolución de un ancestral efreet que ha consumido la llama existencial de miles de sus iguales. El resultado es la unión de incontables fuerzas vitales, que se extinguen para dar nacimiento a una nueva potencia que une elementos de todos los anteriores. Por norma general, la personalidad de los Agni es cruel y despiadada. Adoran los conflictos, la violencia y la guerra, pues la destrucción forma una parte inherente de las llamas y, en consecuencia, de su naturaleza. Sin embargo tampoco son ineludiblemente malvados, pues entienden que es necesaria cierta moderación y equilibrio en todo. De todos los altos elementales son quizás los que mantienen una mayor relación con otros de su clase. Incluso se podría llegar a aseverar que tienen una estructura militarizada y, pese a estar separados, cada uno de ellos tiene un férreo control de los elementales menores que se encuentran en sus zonas de influencia. Afines a su esencia, los Agni viven habitualmente en zonas volcánicas o en lugares donde hace un asfixiante calor. Se ignora por completo cuantos de ellos quedan en Gaïa, pero la mayoría se encuentran muy activos tras los acontecimientos de la Ruptura de los Cielos. m oduS oPerandiCriaturas violentas y con un amor ciego por la lucha, los Agni no dudan ni un solo instante en lanzarse al combate siempre que se les presente una excusa convincente. Simplemente medir sus capacidades contra las de contrincantes a su medida es razón suficiente para ellos. Naturalmente, su descomunal capacidad combativa es simplemente apabullante. Entre su potencia física, sus capacidades sobrenaturales y su maestría mágica son imparables. Les da igual enfrentarse a un adversario o a cientos; para ellos, el resultado es exactamente el mismo. No tienen puntos vulnerables conocidos, ni siquiera la cabeza. Inferno: Aparte de sus garras y fauces, un Agni puede usar sus enormes alas ígneas para barrer a sus enemigos con enormes lenguas de fuego. Cuando pretende usar este ataque, repliega sus alas envolviéndose con ellas mientras acumula una gran cantidad de energía. Al extenderlas, crea una enorme explosión abrasiva que abarca todo lo que esté a menos de 50 metros del señor elemental. Inferno ataca en la tabla de CALor y requiere un asalto entero de preparación, durante el cual el Agni no puede usar acciones Activas. Tras usar este ataque, el señor elemental tiene que esperar como recuperación entre uno y cinco asaltos (determinados por el lanzamiento de un D10; 1-2 un asalto, 3-4 dos asaltos, 5-6 tres asaltos, 7-8 cuatro asaltos y 9-10 cinco asaltos) antes de volver a utilizarlo. Aura de Fuego: El señor elemental es una fuente tan grande de calor que cualquiera que se exponga a estar cerca de él sufre serias consecuencias. El aire se vuelve irrespirable, el metal se pone al rojo vivo e incluso las rocas se funden a su alrededor. Todo aquel que esté a un radio de 10 metros del Agni al inicio de un asalto, debe superar una RF contra 120 o sufrir un daño equivalente al nivel de fracaso. En el caso de que alguien lleve encima elementos fácilmente inflamables, como ropas o madera, la dificultad de la RF aumenta 20 puntos y, de fallar el control, el personaje entrará inmediatamente en el estado de En Llamas. Forma Elemental: El cuerpo de los Agni está completamente hecho de fuego, por lo que son inmunes a cualquier ataque convencional que no esté basado en Energía, Agua o Frío. Contacto Abrasivo: Además de su Aura de Fuego todo individuo que entre en contacto con el señor elemental, ya sea por atacarlo físicamente o recibir una acometida suya, corre el riesgo de quedar reducido a un montón de cenizas. En consecuencia, aquel que toque o sea tocado directamente por el Agni ha de superar una RM contra 140 o sufrir un daño equivalente al doble del nivel de fracaso. a ltos s eñores e lementales Altos El Em Ent Al Es   Consunción: Como habilidad pasiva, el señor del fuego puede sacrificar parte de su energía vital para incrementar sus habilidades temporalmente. De ese modo, cada 50 PV que sacrifique le otorgarán un bono de +5 a toda acción durante ese asalto, hasta un máximo de +50. Alas de Fuego: El señor elemental se desplaza por el aire gracias a sus inmensas alas de fuego a la misma velocidad que lo hace por el suelo. No obstante, es completamente incapaz de activar Inferno mientras las está usando para volar. Dominio Elemental: Todos los conjuros de la vía de Fuego que el señor elemental realice son lanzados con dos añadidos adicionales sin coste alguno. Los conjuros mantenidos también se benefician de este bono, pero no cuentan para el coste de Mantenimiento del hechizo. Inmunidad Elemental: Los ataques basados en fuego o calor no producen daño en los Agni. Vulnerabilidad Extrema: Si Agni pone en contacto más de la mitad de su cuerpo con agua fría o hielo debe superar una RF contra 180 o recibir un daño equivalente a su nivel de fracaso por cinco. Cada 1.000 puntos de daño que sufra por esta causa le producen la pérdida temporal de un punto de Agilidad, Destreza y Fuerza.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: Entre mundos, Elemental 30 Puntos de Vida: 4.500 Acumulación Categoría: Warlock Fue: 15 Des: 10 Agi: 7 Con: 14 Pod: 13 Int: 13 Vol: 12 Per: 8 RF 100 RM 100 RP 95 RV 100 RE 100\n\nTurno: 90 Natural Habilidad de ataque: 250 Garras Ígneas, 300 Inferno Habilidad de defensa: Acumulación Daño: 1 30 Garras Ígneas (Cal), 1 50 Inferno (Cal) TA: Natural 6 ACT: 50 Fuego, 30 otras\n\nZeon: 625\n\nProyección mágica: 220 Ofensiva Nivel de Vía: 90 Fuego Habilidades naturales: Proyección Mágica como Ataque. Habilidades esenciales: Don, Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Tamaño Innatural, Zen, Exención Física, Inmunidad Natural a un Elemento (Completa, Fuego), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad a un Elemento (Doble Daño, Agua). Poderes: Armas naturales: Garras Ígneas (Ataque Elemental), Daña Energía, Inferno (Daño 1 50, Área 50 Metros, Sin Límite, Requiere 1 Turno de Preparatoria), Contacto Abrasivo, Alas de Fuego (Vuelo Místico 8), Forma Elemental, Aura de Fuego, Consunción, Dominio Elemental, Vulnerabilidad Extrema: Agua (Debilidad, Daño Equivalente, RF 180).\n\nTamaño: 29 Enorme Regeneración: 7 Tipo de movimiento: 8/8 Cansancio: Incansable Habilidades Secundarias: Intimidar 1 50, Advertir 50, Buscar 50, Valoración Mágica 100, Proezas de Fuerza 100. Adorados en Baho y otras zonas orientales como deidades menores de las llamas, las entidades conocidas como Agni son la máxima potencia entre los elementales de fuego. Similares en aspecto a los efreet pero de tamaño y envergadura muy superior (llegan a medir incluso más de seis metros de altura), los Agni se caracterizan por sus demoníacos rostros y las descomunales alas de fuego que pueden manifestar a voluntad. Por ello son consideraros “ángeles caídos del fuego” por la Iglesia de Abel, uno de los demonios más poderosos y de mayor jerarquía.\n\nSe dice que, al contrario que otros altos señores elementales, los Agni no nacen como tal, sino que son el resultado de la evolución de un ancestral efreet que ha consumido la llama existencial de miles de sus iguales. El resultado es la unión de incontables fuerzas vitales, que se extinguen para dar nacimiento a una nueva potencia que une elementos de todos los anteriores. Por norma general, la personalidad de los Agni es cruel y despiadada. Adoran los conflictos, la violencia y la guerra, pues la destrucción forma una parte inherente de las llamas y, en consecuencia, de su naturaleza. Sin embargo tampoco son ineludiblemente malvados, pues entienden que es necesaria cierta moderación y equilibrio en todo. De todos los altos elementales son quizás los que mantienen una mayor relación con otros de su clase.\n\nIncluso se podría llegar a aseverar que tienen una estructura militarizada y, pese a estar separados, cada uno de ellos tiene un férreo control de los elementales menores que se encuentran en sus zonas de influencia. Afines a su esencia, los Agni viven habitualmente en zonas volcánicas o en lugares donde hace un asfixiante calor. Se ignora por completo cuantos de ellos quedan en Gaïa, pero la mayoría se encuentran muy activos tras los acontecimientos de la Ruptura de los Cielos. m oduS oPerandiCriaturas violentas y con un amor ciego por la lucha, los Agni no dudan ni un solo instante en lanzarse al combate siempre que se les presente una excusa convincente. Simplemente medir sus capacidades contra las de contrincantes a su medida es razón suficiente para ellos. Naturalmente, su descomunal capacidad combativa es simplemente apabullante.\n\nEntre su potencia física, sus capacidades sobrenaturales y su maestría mágica son imparables. Les da igual enfrentarse a un adversario o a cientos; para ellos, el resultado es exactamente el mismo. No tienen puntos vulnerables conocidos, ni siquiera la cabeza. Inferno: Aparte de sus garras y fauces, un Agni puede usar sus enormes alas ígneas para barrer a sus enemigos con enormes lenguas de fuego. Cuando pretende usar este ataque, repliega sus alas envolviéndose con ellas mientras acumula una gran cantidad de energía. Al extenderlas, crea una enorme explosión abrasiva que abarca todo lo que esté a menos de 50 metros del señor elemental. Inferno ataca en la tabla de CALor y requiere un asalto entero de preparación, durante el cual el Agni no puede usar acciones Activas.\n\nTras usar este ataque, el señor elemental tiene que esperar como recuperación entre uno y cinco asaltos (determinados por el lanzamiento de un D10; 1-2 un asalto, 3-4 dos asaltos, 5-6 tres asaltos, 7-8 cuatro asaltos y 9-10 cinco asaltos) antes de volver a utilizarlo. Aura de Fuego: El señor elemental es una fuente tan grande de calor que cualquiera que se exponga a estar cerca de él sufre serias consecuencias. El aire se vuelve irrespirable, el metal se pone al rojo vivo e incluso las rocas se funden a su alrededor. Todo aquel que esté a un radio de 10 metros del Agni al inicio de un asalto, debe superar una RF contra 120 o sufrir un daño equivalente al nivel de fracaso.\n\nEn el caso de que alguien lleve encima elementos fácilmente inflamables, como ropas o madera, la dificultad de la RF aumenta 20 puntos y, de fallar el control, el personaje entrará inmediatamente en el estado de En Llamas. Forma Elemental: El cuerpo de los Agni está completamente hecho de fuego, por lo que son inmunes a cualquier ataque convencional que no esté basado en Energía, Agua o Frío. Contacto Abrasivo: Además de su Aura de Fuego todo individuo que entre en contacto con el señor elemental, ya sea por atacarlo físicamente o recibir una acometida suya, corre el riesgo de quedar reducido a un montón de cenizas. En consecuencia, aquel que toque o sea tocado directamente por el Agni ha de superar una RM contra 1 40 o sufrir un daño equivalente al doble del nivel de fracaso.\n\na ltos s eñores e lementales Altos El Em Ent Al Es   (order #3443007) Consunción: Como habilidad pasiva, el señor del fuego puede sacrificar parte de su energía vital para incrementar sus habilidades temporalmente. De ese modo, cada 50 PV que sacrifique le otorgarán un bono de +5 a toda acción durante ese asalto, hasta un máximo de +50. Alas de Fuego: El señor elemental se desplaza por el aire gracias a sus inmensas alas de fuego a la misma velocidad que lo hace por el suelo. No obstante, es completamente incapaz de activar Inferno mientras las está usando para volar. Dominio Elemental: Todos los conjuros de la vía de Fuego que el señor elemental realice son lanzados con dos añadidos adicionales sin coste alguno. Los conjuros mantenidos también se benefician de este bono, pero no cuentan para el coste de Mantenimiento del hechizo.\n\nInmunidad Elemental: Los ataques basados en fuego o calor no producen daño en los Agni. Vulnerabilidad Extrema: Si Agni pone en contacto más de la mitad de su cuerpo con agua fría o hielo debe superar una RF contra 180 o recibir un daño equivalente a su nivel de fracaso por cinco. Cada 1.000 puntos de daño que sufra por esta causa le producen la pérdida temporal de un punto de Agilidad, Destreza y Fuerza. (order #3443007)</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 12</p><p><strong>Entrada:</strong> Agni</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos, Elemental 30</p><p><strong>Categoría:</strong> Warlock Fue: 15 Des: 10 Agi: 7 Con: 14 Pod: 13 Int: 13 Vol: 12 Per: 8 RF 100 RM 100 RP 95 RV 100 RE 100</p><p><strong>Habilidades naturales:</strong> Proyección Mágica como Ataque.</p><p><strong>Habilidades esenciales:</strong> Don, Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Tamaño Innatural, Zen, Exención Física, Inmunidad Natural a un Elemento (Completa, Fuego), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad a un Elemento (Doble Daño, Agua).</p><p><strong>Poderes:</strong> Armas naturales: Garras Ígneas (Ataque Elemental), Daña Energía, Inferno (Daño 150, Área 50 Metros, Sin Límite, Requiere 1 Turno de Preparatoria), Contacto Abrasivo, Alas de Fuego (Vuelo Místico 8), Forma Elemental, Aura de Fuego, Consunción, Dominio Elemental, Vulnerabilidad Extrema: Agua (Debilidad, Daño Equivalente, RF 180).</p><p><strong>Daño:</strong> 130 Garras Ígneas (Cal), 150 Inferno (Cal)</p><p><strong>TA:</strong> Natural 6</p><p><strong>Habilidades secundarias:</strong> Intimidar 150, Advertir 50, Buscar 50, Valoración Mágica 100, Proezas de Fuerza 100</p><p><strong>Descripción breve:</strong> Adorados en Baho y otras zonas orientales como deidades menores de las llamas, las entidades conocidas como Agni son la máxima potencia entre los elementales de fuego. Similares en aspecto a los efreet pero de tamaño y envergadura muy superior (llegan a medir incluso más de seis metros de altura), los Agni se caracterizan por sus demoníacos rostros y las descomunales alas de fuego que pueden manifestar a voluntad. Por ello son consideraros “ángeles caídos del fuego” por la Iglesia de Abel, uno de los demonios más poderosos y de mayor jerarquía. Se dice que, al contrario que otros altos señores elementales, los Agni no nacen como tal, sino que son el resultado de la evolución de un ancestral efreet que ha consumido la llama existencial de miles de sus iguales. El resultado es la unión de incontables fuerzas vitales, que se extinguen para dar nacimiento a una nueva potencia que une elementos de todos los anteriores. Por norma general, la personalidad de los Agni es cruel y despiadada. Adoran los conflictos, la violencia y la guerra, pues la destrucción forma una parte inherente de las llamas y, en consecuencia, de su naturaleza. Sin embargo tampoco son ineludiblemente malvados, pues entienden que es necesaria cierta moderación y equilibrio en todo. De todos los altos elementales son quizás los que mantienen una mayor relación con otros de su clase. Incluso se podría llegar a aseverar que tienen una estructura militarizada y, pese a estar separados, cada uno de ellos tiene un férreo control de los elementales menores que se encuentran en sus zonas de influencia. Afines a su esencia, los Agni viven habitualmente en zonas volcánicas o en lugares donde hace un asfixiante calor. Se ignora por completo cuantos de ellos quedan en Gaïa, pero la mayoría se encuentran muy activos tras los acontecimientos de la Ruptura de los Cielos. m oduS oPerandiCriaturas violentas y con un amor ciego por la lucha, los Agni no dudan ni un solo instante en lanzarse al combate siempre que se les presente una excusa convincente. Simplemente medir sus capacidades contra las de contrincantes a su medida es razón suficiente para ellos. Naturalmente, su descomunal capacidad combativa es simplemente apabullante. Entre su potencia física, sus capacidades sobrenaturales y su maestría mágica son imparables. Les da igual enfrentarse a un adversario o a cientos; para ellos, el resultado es exactamente el mismo. No tienen puntos vulnerables conocidos, ni siquiera la cabeza. Inferno: Aparte de sus garras y fauces, un Agni puede usar sus enormes alas ígneas para barrer a sus enemigos con enormes lenguas de fuego. Cuando pretende usar este ataque, repliega sus alas envolviéndose con ellas mientras acumula una gran cantidad de energía. Al extenderlas, crea una enorme explosión abrasiva que abarca todo lo que esté a menos de 50 metros del señor elemental. Inferno ataca en la tabla de CALor y requiere un asalto entero de preparación, durante el cual el Agni no puede usar acciones Activas. Tras usar este ataque, el señor elemental tiene que esperar como recuperación entre uno y cinco asaltos (determinados por el lanzamiento de un D10; 1-2 un asalto, 3-4 dos asaltos, 5-6 tres asaltos, 7-8 cuatro asaltos y 9-10 cinco asaltos) antes de volver a utilizarlo. Aura de Fuego: El señor elemental es una fuente tan grande de calor que cualquiera que se exponga a estar cerca de él sufre serias consecuencias. El aire se vuelve irrespirable, el metal se pone al rojo vivo e incluso las rocas se funden a su alrededor. Todo aquel que esté a un radio de 10 metros del Agni al inicio de un asalto, debe superar una RF contra 120 o sufrir un daño equivalente al nivel de fracaso. En el caso de que alguien lleve encima elementos fácilmente inflamables, como ropas o madera, la dificultad de la RF aumenta 20 puntos y, de fallar el control, el personaje entrará inmediatamente en el estado de En Llamas. Forma Elemental: El cuerpo de los Agni está completamente hecho de fuego, por lo que son inmunes a cualquier ataque convencional que no esté basado en Energía, Agua o Frío. Contacto Abrasivo: Además de su Aura de Fuego todo individuo que entre en contacto con el señor elemental, ya sea por atacarlo físicamente o recibir una acometida suya, corre el riesgo de quedar reducido a un montón de cenizas. En consecuencia, aquel que toque o sea tocado directamente por el Agni ha de superar una RM contra 140 o sufrir un daño equivalente al doble del nivel de fracaso. a ltos s eñores e lementales Altos El Em Ent Al Es   Consunción: Como habilidad pasiva, el señor del fuego puede sacrificar parte de su energía vital para incrementar sus habilidades temporalmente. De ese modo, cada 50 PV que sacrifique le otorgarán un bono de +5 a toda acción durante ese asalto, hasta un máximo de +50. Alas de Fuego: El señor elemental se desplaza por el aire gracias a sus inmensas alas de fuego a la misma velocidad que lo hace por el suelo. No obstante, es completamente incapaz de activar Inferno mientras las está usando para volar. Dominio Elemental: Todos los conjuros de la vía de Fuego que el señor elemental realice son lanzados con dos añadidos adicionales sin coste alguno. Los conjuros mantenidos también se benefician de este bono, pero no cuentan para el coste de Mantenimiento del hechizo. Inmunidad Elemental: Los ataques basados en fuego o calor no producen daño en los Agni. Vulnerabilidad Extrema: Si Agni pone en contacto más de la mitad de su cuerpo con agua fría o hielo debe superar una RF contra 180 o recibir un daño equivalente a su nivel de fracaso por cinco. Cada 1.000 puntos de daño que sufra por esta causa le producen la pérdida temporal de un punto de Agilidad, Destreza y Fuerza.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: Entre mundos, Elemental 30 Puntos de Vida: 4.500 Acumulación Categoría: Warlock Fue: 15 Des: 10 Agi: 7 Con: 14 Pod: 13 Int: 13 Vol: 12 Per: 8 RF 100 RM 100 RP 95 RV 100 RE 100\n\nTurno: 90 Natural Habilidad de ataque: 250 Garras Ígneas, 300 Inferno Habilidad de defensa: Acumulación Daño: 1 30 Garras Ígneas (Cal), 1 50 Inferno (Cal) TA: Natural 6 ACT: 50 Fuego, 30 otras\n\nZeon: 625\n\nProyección mágica: 220 Ofensiva Nivel de Vía: 90 Fuego Habilidades naturales: Proyección Mágica como Ataque. Habilidades esenciales: Don, Características Físicas Sobrenaturales, Características Anímicas Sobrehumanas, Tamaño Innatural, Zen, Exención Física, Inmunidad Natural a un Elemento (Completa, Fuego), Inutilidad Somática, Inutilidad Oral, Vulnerabilidad a un Elemento (Doble Daño, Agua). Poderes: Armas naturales: Garras Ígneas (Ataque Elemental), Daña Energía, Inferno (Daño 1 50, Área 50 Metros, Sin Límite, Requiere 1 Turno de Preparatoria), Contacto Abrasivo, Alas de Fuego (Vuelo Místico 8), Forma Elemental, Aura de Fuego, Consunción, Dominio Elemental, Vulnerabilidad Extrema: Agua (Debilidad, Daño Equivalente, RF 180).\n\nTamaño: 29 Enorme Regeneración: 7 Tipo de movimiento: 8/8 Cansancio: Incansable Habilidades Secundarias: Intimidar 1 50, Advertir 50, Buscar 50, Valoración Mágica 100, Proezas de Fuerza 100. Adorados en Baho y otras zonas orientales como deidades menores de las llamas, las entidades conocidas como Agni son la máxima potencia entre los elementales de fuego. Similares en aspecto a los efreet pero de tamaño y envergadura muy superior (llegan a medir incluso más de seis metros de altura), los Agni se caracterizan por sus demoníacos rostros y las descomunales alas de fuego que pueden manifestar a voluntad. Por ello son consideraros “ángeles caídos del fuego” por la Iglesia de Abel, uno de los demonios más poderosos y de mayor jerarquía.\n\nSe dice que, al contrario que otros altos señores elementales, los Agni no nacen como tal, sino que son el resultado de la evolución de un ancestral efreet que ha consumido la llama existencial de miles de sus iguales. El resultado es la unión de incontables fuerzas vitales, que se extinguen para dar nacimiento a una nueva potencia que une elementos de todos los anteriores. Por norma general, la personalidad de los Agni es cruel y despiadada. Adoran los conflictos, la violencia y la guerra, pues la destrucción forma una parte inherente de las llamas y, en consecuencia, de su naturaleza. Sin embargo tampoco son ineludiblemente malvados, pues entienden que es necesaria cierta moderación y equilibrio en todo. De todos los altos elementales son quizás los que mantienen una mayor relación con otros de su clase.\n\nIncluso se podría llegar a aseverar que tienen una estructura militarizada y, pese a estar separados, cada uno de ellos tiene un férreo control de los elementales menores que se encuentran en sus zonas de influencia. Afines a su esencia, los Agni viven habitualmente en zonas volcánicas o en lugares donde hace un asfixiante calor. Se ignora por completo cuantos de ellos quedan en Gaïa, pero la mayoría se encuentran muy activos tras los acontecimientos de la Ruptura de los Cielos. m oduS oPerandiCriaturas violentas y con un amor ciego por la lucha, los Agni no dudan ni un solo instante en lanzarse al combate siempre que se les presente una excusa convincente. Simplemente medir sus capacidades contra las de contrincantes a su medida es razón suficiente para ellos. Naturalmente, su descomunal capacidad combativa es simplemente apabullante.\n\nEntre su potencia física, sus capacidades sobrenaturales y su maestría mágica son imparables. Les da igual enfrentarse a un adversario o a cientos; para ellos, el resultado es exactamente el mismo. No tienen puntos vulnerables conocidos, ni siquiera la cabeza. Inferno: Aparte de sus garras y fauces, un Agni puede usar sus enormes alas ígneas para barrer a sus enemigos con enormes lenguas de fuego. Cuando pretende usar este ataque, repliega sus alas envolviéndose con ellas mientras acumula una gran cantidad de energía. Al extenderlas, crea una enorme explosión abrasiva que abarca todo lo que esté a menos de 50 metros del señor elemental. Inferno ataca en la tabla de CALor y requiere un asalto entero de preparación, durante el cual el Agni no puede usar acciones Activas.\n\nTras usar este ataque, el señor elemental tiene que esperar como recuperación entre uno y cinco asaltos (determinados por el lanzamiento de un D10; 1-2 un asalto, 3-4 dos asaltos, 5-6 tres asaltos, 7-8 cuatro asaltos y 9-10 cinco asaltos) antes de volver a utilizarlo. Aura de Fuego: El señor elemental es una fuente tan grande de calor que cualquiera que se exponga a estar cerca de él sufre serias consecuencias. El aire se vuelve irrespirable, el metal se pone al rojo vivo e incluso las rocas se funden a su alrededor. Todo aquel que esté a un radio de 10 metros del Agni al inicio de un asalto, debe superar una RF contra 120 o sufrir un daño equivalente al nivel de fracaso.\n\nEn el caso de que alguien lleve encima elementos fácilmente inflamables, como ropas o madera, la dificultad de la RF aumenta 20 puntos y, de fallar el control, el personaje entrará inmediatamente en el estado de En Llamas. Forma Elemental: El cuerpo de los Agni está completamente hecho de fuego, por lo que son inmunes a cualquier ataque convencional que no esté basado en Energía, Agua o Frío. Contacto Abrasivo: Además de su Aura de Fuego todo individuo que entre en contacto con el señor elemental, ya sea por atacarlo físicamente o recibir una acometida suya, corre el riesgo de quedar reducido a un montón de cenizas. En consecuencia, aquel que toque o sea tocado directamente por el Agni ha de superar una RM contra 1 40 o sufrir un daño equivalente al doble del nivel de fracaso.\n\na ltos s eñores e lementales Altos El Em Ent Al Es   (order #3443007) Consunción: Como habilidad pasiva, el señor del fuego puede sacrificar parte de su energía vital para incrementar sus habilidades temporalmente. De ese modo, cada 50 PV que sacrifique le otorgarán un bono de +5 a toda acción durante ese asalto, hasta un máximo de +50. Alas de Fuego: El señor elemental se desplaza por el aire gracias a sus inmensas alas de fuego a la misma velocidad que lo hace por el suelo. No obstante, es completamente incapaz de activar Inferno mientras las está usando para volar. Dominio Elemental: Todos los conjuros de la vía de Fuego que el señor elemental realice son lanzados con dos añadidos adicionales sin coste alguno. Los conjuros mantenidos también se benefician de este bono, pero no cuentan para el coste de Mantenimiento del hechizo.\n\nInmunidad Elemental: Los ataques basados en fuego o calor no producen daño en los Agni. Vulnerabilidad Extrema: Si Agni pone en contacto más de la mitad de su cuerpo con agua fría o hielo debe superar una RF contra 180 o recibir un daño equivalente a su nivel de fracaso por cinco. Cada 1.000 puntos de daño que sufra por esta causa le producen la pérdida temporal de un punto de Agilidad, Destreza y Fuerza. (order #3443007)</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -479,9 +407,6 @@
           }
         }
       ],
-      "level": {
-        "value": 10
-      },
       "notes": [
         {
           "_id": "note-agni-2",
@@ -507,52 +432,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 14
-          }
+          "value": 14,
+          "mod": 25
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 15
-          }
+          "value": 15,
+          "mod": 30
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 13
-          }
+          "value": 13,
+          "mod": 25
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         }
       },
       "secondaries": {
@@ -563,9 +472,6 @@
         "initiative": {
           "base": {
             "value": 90
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -616,10 +522,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -627,10 +530,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -638,10 +538,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 9990
+              "value": 10090
             },
             "final": {
               "value": 0
@@ -649,10 +546,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 100
             },
             "final": {
               "value": 0
@@ -660,10 +554,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 95
             },
             "final": {
               "value": 0
@@ -675,206 +566,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 50
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 100
+          },
+          "final": {
+            "value": 0
           }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}",
           "base": {
             "value": 150
+          },
+          "final": {
+            "value": 0
           }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 300
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
-      },
-      "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}"
-      },
-      "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
         "base": {
           "value": 0
+        },
+        "final": {
+          "value": 0
         }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -905,11 +1045,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -921,16 +1057,21 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
+        "accumulated": {
+          "value": null
+        },
         "value": 625,
         "max": 625
-      },
-      "zeonMaintained": {
-        "value": 0,
-        "max": 0
       },
       "zeonRegeneration": {
         "base": {
@@ -942,14 +1083,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -1054,15 +1192,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -1074,37 +1208,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1227,9 +1381,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

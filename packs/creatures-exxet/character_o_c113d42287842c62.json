@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,19 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
+        "defenseType": {
+          "value": ""
         },
         "inmaterial": {
           "value": true
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
-        "defenseType": {
-          "value": ""
-        }
-      },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
         }
       },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +144,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +164,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 50
         }
       },
       "aspect": {
@@ -274,7 +198,7 @@
           "value": ""
         },
         "size": {
-          "value": 15
+          "value": "15"
         }
       },
       "advantages": [],
@@ -292,7 +216,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 8</p><p><strong>Entrada:</strong> O</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Sombra Fue: 8 Des: 8 Agi: 12 Con: 7 Pod: - Int: 5 Vol: - Per: 9 RF - RM - RP - RV - RE -</p><p><strong>Categoría:</strong> Entre Mundos EX</p><p><strong>Habilidades esenciales:</strong> Exención Física, Inmunidad Psicológica.</p><p><strong>Poderes:</strong> Arma Natural, Movimiento no Natural (Vuelo Místico 10), Carga Antinatural, Echo de Vacío (Distancia 50 Metros, Daño 60, Sin Límites, Requiere un turno de preparación), Forma Antinatural (Regeneración 0).</p><p><strong>Daño:</strong> 50 Garras (PEN) Eco de Vacío 60 (ENE) 60 Carga (PEN)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 145, Buscar 125, Sigilo 145</p><p><strong>Descripción breve:</strong> Los Ophanim siempre se manifiestan en grupos bastante grandes; Modus Operandi Eco de Vacío: Carga Antinatural: Movimiento Antinatural: Forma Antinatural: Los Ophanim son inusuales porque sus manifestaciones siguen reglas ligeramente diferentes a las del Noth. En primer lugar, rara vez tienen cordones existenciales, son mucho más débiles que los demás y solo aparecen en áreas donde se manifestó un Noth mayor. En ese sentido es como si fueran energía residual que queda cuando llegan los verdaderos Noth o pequeñas alimañas que se cuelan por las grietas de los portales. Los Ophanim tienen una forma extraña, a medio camino entre una serpiente grotesca y un pez. Miden más de metro y medio de largo y tienen algo parecido a unas fauces en la zona que debe ser su cabeza. Son bastante activos y les atrae la energía existencial, pero en menor medida que los otros Noth. Por lo tanto, atacan a todo tipo de criaturas con un nivel mínimo de poder existencial, y van consumiendo energía constantemente hasta que desaparecen o son destruidos. generalmente entre tres y diez, en áreas donde ha aparecido el “verdadero Noth”. Nunca se alejan del portal que solían manifestar en el mundo y por lo general, tienden a desaparecer después de un par de horas. En raras ocasiones y solo si han consumido grandes cantidades de energía, pueden permanecer más tiempo en el mundo. Los Ophanim detectan a sus objetivos a grandes distancias (a veces a más de un kilómetro) y una vez que los han localizado, su único objetivo sería devorarlos. Por lo general, se lanzan a toda velocidad hacia sus objetivos utilizando su carga antinatural para destruirlos. Si por casualidad los objetivos son capaces de defenderse, los Ophanim demuestran ser extremadamente cautelosos y hábiles. Se retirarán si es posible, utilizando su Eco de Vacío para realizar ataques a distancia sin correr riesgo, o intentarán luchar junto con más Ophanim para eliminar a sus objetivos. Los Ophanim pueden generar rayos de energía existencial ilimitada. Para ello, necesitan prepararse durante al menos un asalto, antes de proyectar un rayo de energía sobre un objetivo que no se encuentre a más de 50 metros de distancia. Cuando el Noth detecta un objetivo, corre hacia él lo más rápido posible sin importar la distancia. Al hacerlo, cargan hacia su objetivo con un tipo de vuelo de 14, aplicando bonificadores especiales a su capacidad de ataque y daño. Si un Ophanim quiere usar esta habilidad, debe estar a más de 50 metros de su objetivo y lanzarse al menos un asalto completo hacia él. Los Ophanim viajan por el aire como si tuvieran Tipo de Vuelo 10 y cuando se mueven ignoran cualquier obstáculo natural como paredes que tienen una presencia baja. Sólo los objetos antiguos (o con mucha presencia), son sólidos para ellos. Los Ophanim nunca se recuperan del daño sufrido. phanim _Página 9_ n othp</p></section><details><summary>Texto extraído</summary><pre>Nivel: 5 Categoría: Entre Mundos EX Puntos de Vida: 120\n\nClase: Sombra Fue: 8 Des: 8 Agi: 12 Con: 7 Pod: - Int: 5 Vol: - Per: 9 RF - RM - RP - RV - RE -\n\nTurno: 120 Natural Hab. de Ataque: 170 Garras, 160 Eco de Vacío, 190 Carga Habilidad de Defensa: 150 Esquiva Daño: 50 Garras (PEN) Eco de Vacío 60 (ENE) 60 Carga (PEN) TA: Ninguna Habilidades Esenciales: Exención Física, Inmunidad Psicológica. Poderes: Arma Natural, Movimiento no Natural (Vuelo Místico 10), Carga Antinatural, Echo de Vacío (Distancia 50 Metros, Daño 60, Sin Límites, Requiere un turno de preparación), Forma Antinatural (Regeneración 0).\n\nTamaño: 15 Medio Regeneración: 0 Tipo de movimiento: 12/10 Cansancio:Incansable Habilidades Secundarias: Advertir 145, Buscar 125, Sigilo 145. Los Ophanim siempre se manifiestan en grupos bastante grandes; Modus Operandi Eco de Vacío: Carga Antinatural: Movimiento Antinatural: Forma Antinatural: Los Ophanim son inusuales porque sus manifestaciones siguen reglas ligeramente diferentes a las del Noth. En primer lugar, rara vez tienen cordones existenciales, son mucho más débiles que los demás y solo aparecen en áreas donde se manifestó un Noth mayor. En ese sentido es como si fueran energía residual que queda cuando llegan los verdaderos Noth o pequeñas alimañas que se cuelan por las grietas de los portales. Los Ophanim tienen una forma extraña, a medio camino entre una serpiente grotesca y un pez.\n\nMiden más de metro y medio de largo y tienen algo parecido a unas fauces en la zona que debe ser su cabeza. Son bastante activos y les atrae la energía existencial, pero en menor medida que los otros Noth. Por lo tanto, atacan a todo tipo de criaturas con un nivel mínimo de poder existencial, y van consumiendo energía constantemente hasta que desaparecen o son destruidos. generalmente entre tres y diez, en áreas donde ha aparecido el “verdadero Noth”. Nunca se alejan del portal que solían manifestar en el mundo y por lo general, tienden a desaparecer después de un par de horas. En raras ocasiones y solo si han consumido grandes cantidades de energía, pueden permanecer más tiempo en el mundo. Los Ophanim detectan a sus objetivos a grandes distancias (a veces a más de un kilómetro) y una vez que los han localizado, su único objetivo sería devorarlos.\n\nPor lo general, se lanzan a toda velocidad hacia sus objetivos utilizando su carga antinatural para destruirlos. Si por casualidad los objetivos son capaces de defenderse, los Ophanim demuestran ser extremadamente cautelosos y hábiles. Se retirarán si es posible, utilizando su Eco de Vacío para realizar ataques a distancia sin correr riesgo, o intentarán luchar junto con más Ophanim para eliminar a sus objetivos. Los Ophanim pueden generar rayos de energía existencial ilimitada. Para ello, necesitan prepararse durante al menos un asalto, antes de proyectar un rayo de energía sobre un objetivo que no se encuentre a más de 50 metros de distancia. Cuando el Noth detecta un objetivo, corre hacia él lo más rápido posible sin importar la distancia. Al hacerlo, cargan hacia su objetivo con un tipo de vuelo de 14, aplicando bonificadores especiales a su capacidad de ataque y daño.\n\nSi un Ophanim quiere usar esta habilidad, debe estar a más de 50 metros de su objetivo y lanzarse al menos un asalto completo hacia él. Los Ophanim viajan por el aire como si tuvieran Tipo de Vuelo 10 y cuando se mueven ignoran cualquier obstáculo natural como paredes que tienen una presencia baja. Sólo los objetos antiguos (o con mucha presencia), son sólidos para ellos. Los Ophanim nunca se recuperan del daño sufrido. phanim\n\n&lt;!-- tags: @personaje, @regla --&gt;\n\n_Página 9_\n\nn othp</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Gate of Memories - Guía del Mundo Perfecto</p><p><strong>Página:</strong> 8</p><p><strong>Entrada:</strong> O</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Sombra Fue: 8 Des: 8 Agi: 12 Con: 7 Pod: - Int: 5 Vol: - Per: 9 RF - RM - RP - RV - RE -</p><p><strong>Categoría:</strong> Entre Mundos EX</p><p><strong>Habilidades esenciales:</strong> Exención Física, Inmunidad Psicológica.</p><p><strong>Poderes:</strong> Arma Natural, Movimiento no Natural (Vuelo Místico 10), Carga Antinatural, Echo de Vacío (Distancia 50 Metros, Daño 60, Sin Límites, Requiere un turno de preparación), Forma Antinatural (Regeneración 0).</p><p><strong>Daño:</strong> 50 Garras (PEN) Eco de Vacío 60 (ENE) 60 Carga (PEN)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 145, Buscar 125, Sigilo 145</p><p><strong>Descripción breve:</strong> Los Ophanim siempre se manifiestan en grupos bastante grandes; Modus Operandi Eco de Vacío: Carga Antinatural: Movimiento Antinatural: Forma Antinatural: Los Ophanim son inusuales porque sus manifestaciones siguen reglas ligeramente diferentes a las del Noth. En primer lugar, rara vez tienen cordones existenciales, son mucho más débiles que los demás y solo aparecen en áreas donde se manifestó un Noth mayor. En ese sentido es como si fueran energía residual que queda cuando llegan los verdaderos Noth o pequeñas alimañas que se cuelan por las grietas de los portales. Los Ophanim tienen una forma extraña, a medio camino entre una serpiente grotesca y un pez. Miden más de metro y medio de largo y tienen algo parecido a unas fauces en la zona que debe ser su cabeza. Son bastante activos y les atrae la energía existencial, pero en menor medida que los otros Noth. Por lo tanto, atacan a todo tipo de criaturas con un nivel mínimo de poder existencial, y van consumiendo energía constantemente hasta que desaparecen o son destruidos. generalmente entre tres y diez, en áreas donde ha aparecido el “verdadero Noth”. Nunca se alejan del portal que solían manifestar en el mundo y por lo general, tienden a desaparecer después de un par de horas. En raras ocasiones y solo si han consumido grandes cantidades de energía, pueden permanecer más tiempo en el mundo. Los Ophanim detectan a sus objetivos a grandes distancias (a veces a más de un kilómetro) y una vez que los han localizado, su único objetivo sería devorarlos. Por lo general, se lanzan a toda velocidad hacia sus objetivos utilizando su carga antinatural para destruirlos. Si por casualidad los objetivos son capaces de defenderse, los Ophanim demuestran ser extremadamente cautelosos y hábiles. Se retirarán si es posible, utilizando su Eco de Vacío para realizar ataques a distancia sin correr riesgo, o intentarán luchar junto con más Ophanim para eliminar a sus objetivos. Los Ophanim pueden generar rayos de energía existencial ilimitada. Para ello, necesitan prepararse durante al menos un asalto, antes de proyectar un rayo de energía sobre un objetivo que no se encuentre a más de 50 metros de distancia. Cuando el Noth detecta un objetivo, corre hacia él lo más rápido posible sin importar la distancia. Al hacerlo, cargan hacia su objetivo con un tipo de vuelo de 14, aplicando bonificadores especiales a su capacidad de ataque y daño. Si un Ophanim quiere usar esta habilidad, debe estar a más de 50 metros de su objetivo y lanzarse al menos un asalto completo hacia él. Los Ophanim viajan por el aire como si tuvieran Tipo de Vuelo 10 y cuando se mueven ignoran cualquier obstáculo natural como paredes que tienen una presencia baja. Sólo los objetos antiguos (o con mucha presencia), son sólidos para ellos. Los Ophanim nunca se recuperan del daño sufrido. phanim _Página 9_ n othp</p></section><details><summary>Texto extraído</summary><pre>Nivel: 5 Categoría: Entre Mundos EX Puntos de Vida: 120\n\nClase: Sombra Fue: 8 Des: 8 Agi: 12 Con: 7 Pod: - Int: 5 Vol: - Per: 9 RF - RM - RP - RV - RE -\n\nTurno: 120 Natural Hab. de Ataque: 170 Garras, 160 Eco de Vacío, 190 Carga Habilidad de Defensa: 150 Esquiva Daño: 50 Garras (PEN) Eco de Vacío 60 (ENE) 60 Carga (PEN) TA: Ninguna Habilidades Esenciales: Exención Física, Inmunidad Psicológica. Poderes: Arma Natural, Movimiento no Natural (Vuelo Místico 10), Carga Antinatural, Echo de Vacío (Distancia 50 Metros, Daño 60, Sin Límites, Requiere un turno de preparación), Forma Antinatural (Regeneración 0).\n\nTamaño: 15 Medio Regeneración: 0 Tipo de movimiento: 12/10 Cansancio:Incansable Habilidades Secundarias: Advertir 145, Buscar 125, Sigilo 145. Los Ophanim siempre se manifiestan en grupos bastante grandes; Modus Operandi Eco de Vacío: Carga Antinatural: Movimiento Antinatural: Forma Antinatural: Los Ophanim son inusuales porque sus manifestaciones siguen reglas ligeramente diferentes a las del Noth. En primer lugar, rara vez tienen cordones existenciales, son mucho más débiles que los demás y solo aparecen en áreas donde se manifestó un Noth mayor. En ese sentido es como si fueran energía residual que queda cuando llegan los verdaderos Noth o pequeñas alimañas que se cuelan por las grietas de los portales. Los Ophanim tienen una forma extraña, a medio camino entre una serpiente grotesca y un pez.\n\nMiden más de metro y medio de largo y tienen algo parecido a unas fauces en la zona que debe ser su cabeza. Son bastante activos y les atrae la energía existencial, pero en menor medida que los otros Noth. Por lo tanto, atacan a todo tipo de criaturas con un nivel mínimo de poder existencial, y van consumiendo energía constantemente hasta que desaparecen o son destruidos. generalmente entre tres y diez, en áreas donde ha aparecido el “verdadero Noth”. Nunca se alejan del portal que solían manifestar en el mundo y por lo general, tienden a desaparecer después de un par de horas. En raras ocasiones y solo si han consumido grandes cantidades de energía, pueden permanecer más tiempo en el mundo. Los Ophanim detectan a sus objetivos a grandes distancias (a veces a más de un kilómetro) y una vez que los han localizado, su único objetivo sería devorarlos.\n\nPor lo general, se lanzan a toda velocidad hacia sus objetivos utilizando su carga antinatural para destruirlos. Si por casualidad los objetivos son capaces de defenderse, los Ophanim demuestran ser extremadamente cautelosos y hábiles. Se retirarán si es posible, utilizando su Eco de Vacío para realizar ataques a distancia sin correr riesgo, o intentarán luchar junto con más Ophanim para eliminar a sus objetivos. Los Ophanim pueden generar rayos de energía existencial ilimitada. Para ello, necesitan prepararse durante al menos un asalto, antes de proyectar un rayo de energía sobre un objetivo que no se encuentre a más de 50 metros de distancia. Cuando el Noth detecta un objetivo, corre hacia él lo más rápido posible sin importar la distancia. Al hacerlo, cargan hacia su objetivo con un tipo de vuelo de 14, aplicando bonificadores especiales a su capacidad de ataque y daño.\n\nSi un Ophanim quiere usar esta habilidad, debe estar a más de 50 metros de su objetivo y lanzarse al menos un asalto completo hacia él. Los Ophanim viajan por el aire como si tuvieran Tipo de Vuelo 10 y cuando se mueven ignoran cualquier obstáculo natural como paredes que tienen una presencia baja. Sólo los objetos antiguos (o con mucha presencia), son sólidos para ellos. Los Ophanim nunca se recuperan del daño sufrido. phanim\n\n&lt;!-- tags: @personaje, @regla --&gt;\n\n_Página 9_\n\nn othp</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +248,6 @@
           }
         }
       ],
-      "level": {
-        "value": 5
-      },
       "notes": [
         {
           "_id": "note-o-3",
@@ -345,52 +267,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 12
-          }
+          "value": 12,
+          "mod": 20
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 5
-          }
+          "value": 5,
+          "mod": 0
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 0
-          }
+          "value": 0,
+          "mod": 0
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 0
-          }
+          "value": 0,
+          "mod": 0
         }
       },
       "secondaries": {
@@ -401,9 +307,6 @@
         "initiative": {
           "base": {
             "value": 120
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -456,9 +359,6 @@
             "base": {
               "value": 0
             },
-            "special": {
-              "value": -55
-            },
             "final": {
               "value": 0
             }
@@ -466,9 +366,6 @@
           "disease": {
             "base": {
               "value": 0
-            },
-            "special": {
-              "value": -55
             },
             "final": {
               "value": 0
@@ -478,9 +375,6 @@
             "base": {
               "value": 0
             },
-            "special": {
-              "value": -55
-            },
             "final": {
               "value": 0
             }
@@ -489,9 +383,6 @@
             "base": {
               "value": 0
             },
-            "special": {
-              "value": -50
-            },
             "final": {
               "value": 0
             }
@@ -499,9 +390,6 @@
           "psychic": {
             "base": {
               "value": 0
-            },
-            "special": {
-              "value": -50
             },
             "final": {
               "value": 0
@@ -513,203 +401,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 145
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 125
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}",
           "base": {
             "value": 145
+          },
+          "final": {
+            "value": 0
           }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 190
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 150
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 0
-        }
+        "value": 0
       },
       "totalArmor": {
         "at": {
@@ -740,11 +880,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -756,14 +892,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -777,14 +918,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -889,15 +1027,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -909,37 +1043,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1062,9 +1216,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],

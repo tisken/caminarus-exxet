@@ -95,27 +95,22 @@
     }
   },
   "system": {
-    "version": 0,
+    "version": 1,
     "ui": {
-      "contractibleItems": {},
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
       "tabVisibility": {
         "mystic": {
-          "value": false
+          "value": 0
         },
         "domine": {
           "value": true
         },
         "psychic": {
-          "value": false
-        },
-        "effects": {
-          "value": false
+          "value": 0
         }
-      }
-    },
-    "automationOptions": {
-      "calculateFatigueModifier": {
-        "value": true
       }
     },
     "general": {
@@ -129,59 +124,16 @@
         "openOnDoubles": {
           "value": false
         },
-        "perceiveMystic": {
-          "value": false
-        },
-        "perceivePsychic": {
-          "value": false
-        },
-        "inmaterial": {
-          "value": false
-        },
-        "inhuman": {
-          "value": false
-        },
-        "zen": {
-          "value": false
-        },
         "defenseType": {
           "value": ""
         }
       },
-      "diceSettings": {
-        "characteristicDie": {
-          "value": "1d10ControlRoll"
-        },
-        "initiativeDie": {
-          "value": "1d100Initiative"
-        },
-        "resistanceDie": {
-          "value": "1d100"
-        },
-        "abilityDie": {
-          "value": "1d100xa"
-        },
-        "abilityMasteryDie": {
-          "value": "1d100xamastery"
-        }
-      },
       "modifiers": {
         "physicalActions": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
         "allActions": {
           "base": {
-            "value": 0
-          },
-          "special": {
             "value": 0
           },
           "final": {
@@ -189,41 +141,15 @@
           }
         },
         "naturalPenalty": {
-          "unreduced": {
+          "byArmors": {
             "value": 0
           },
-          "reduction": {
-            "value": 0
-          },
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
-        },
-        "perceptionPenalty": {
-          "base": {
-            "value": 0
-          },
-          "special": {
-            "value": 0
-          },
-          "final": {
+          "byWearArmorRequirement": {
             "value": 0
           }
         },
         "extraDamage": {
-          "__type": "{\"type\":\"NumericalValue\"}"
-        },
-        "automaticCrit": {
-          "value": false
-        },
-        "critDamageBonus": {
-          "__type": "{\"type\":\"NumericalValue\"}"
+          "value": 0
         }
       },
       "destinyPoints": {
@@ -235,14 +161,9 @@
         }
       },
       "presence": {
+        "value": 0,
         "base": {
-          "value": 0
-        },
-        "special": {
-          "value": 0
-        },
-        "final": {
-          "value": 0
+          "value": 30
         }
       },
       "aspect": {
@@ -274,7 +195,7 @@
           "value": ""
         },
         "size": {
-          "value": 12
+          "value": "12"
         }
       },
       "advantages": [],
@@ -292,7 +213,8 @@
         }
       },
       "description": {
-        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 24</p><p><strong>Entrada:</strong> Allete Percivan</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Guerrero acróbata Fue: 7 Des: 9 Agi: 10 Con: 6 Pod: 8 Int: 7 Vol: 6 Per: 7 RF 35 RM 40 RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Reflejos rápidos, Afortunado, Encanto.</p><p><strong>Habilidades naturales:</strong> Arma distinta (Vara), Arte marcial (Aikido).</p><p><strong>Daño:</strong> 40 Vara, 45 Estoque, 15 Aikido (Especial)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 75, Atletismo 45, Montar 25, Nadar 20, Saltar 25, Trepar 25, Estilo 25, Advertir 20, Buscar 15, Baile 25, Trucos de manos 25</p><p><strong>Descripción breve:</strong> Allete es una preciosa chica de diecinueve años, de ojos azules y cabello castaño claro. Normalmente viste con ropas tan atrevidas como cómodas, con las que pretende ser el centro de atención de cualquiera que se le acerque. Es originaria de Dafne, pero bien poco recuerda de su infancia allí. Cuando no era más que una niña, ella y su madre Monique, una prestigiosa paladín del principado, dejaron la Isla de las Rosas a causa de un serio altercado con la nobleza. Se trasladaron hasta Abel, donde Monique trabajó como mercenaria para importantes burgueses. La pequeña se crió entre toda clase de altercados y aventuras, viajando de un lado a otro y aprendiendo lo que podía de la lucha y el combate, para el que demostró un talento natural. Fueron días alegres para ella, metiendo en cientos de problemas a su madre y escapando de ellos gracias a una suerte incomparable. Aun así, ambas eran muy felices juntas y el lazo que las unía se fue haciendo cada vez más fuerte. Pero cuando Alette alcanzó los dieciséis años, tuvieron una seria discusión, ya que Monique soñaba con que su hija regresara aDafne y se convirtiera en un Caballero de la Rosa como lo fue ella, reclamando todo lo que merecidamente le pertenecía. Para Allete, rebelde y poco formal, esa vida le parecía impensable y sólo quería seguir viviendo como lo había hecho hasta entonces. Cabezotas las dos, ninguna dio su brazo a torcer y la joven se marchó esa misma noche sin mirar atrás, buscando fama y renombre para demostrar a su madre lo que era capaz de hacer. Aunque en realidad, tales cosas le importaban bien poco; lo que realmente le impulsaba era el ansia de aventura y peligro que cualquier chica de dieciséis años con poco sentido común tendría. Meses después, cuando Eljared fue nombrada Sumo Arzobispo y estalló la guerra entre el Imperio y varios principados, Allete perdió el rastro de su madre y oyó decir que estaba muerta. A pesar de que la noticia la llenó de preocupación, sabe que sigue viva; más que nada, lo siente en su alma. Piensa que si sigue viajando de un lado a otro y viviendo aventuras, la encontrará; al fin y al cabo, ambas son muy parecidas. Posesiones: Vara, Estoque, Dos mudas de ropa, Raciones de viaje (para 3 días), Una cuerda, Un saco de dormir, Un collar, Una mochila, 80 Escudos de Plata. Shion Demeter</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 95 Categoría: Guerrero acróbata Fue: 7 Des: 9 Agi: 10 Con: 6 Pod: 8 Int: 7 Vol: 6 Per: 7 RF 35 RM 40 RP 35 RV 35 RE 35\n\nTurno: 100 Natural, 90 Vara, 95 Estoque Habilidad de ataque: 85 Estoque / Vara / Aikido Habilidad de defensa: 75 Esquiva Daño: 40 Vara, 45 Estoque, 1 5 Aikido (Especial) Llevar Armadura: 5 TA: Ninguna Ventajas y desventajas: Reflejos rápidos, Afortunado, Encanto. Habilidades naturales: Arma distinta (Vara), Arte marcial (Aikido).\n\nTamaño: 12 Medio Regeneración: 1 Tipo de movimiento: 10 Cansancio: 6 Habilidades Secundarias: Acrobacias 75, Atletismo 45, Montar 25, Nadar 20, Saltar 25, Trepar 25, Estilo 25, Advertir 20, Buscar 1 5, Baile 25, Trucos de manos 25. Allete es una preciosa chica de diecinueve años, de ojos azules y cabello castaño claro. Normalmente viste con ropas tan atrevidas como cómodas, con las que pretende ser el centro de atención de cualquiera que se le acerque. Es originaria de Dafne, pero bien poco recuerda de su infancia allí. Cuando no era más que una niña, ella y su madre Monique, una prestigiosa paladín del principado, dejaron la Isla de las Rosas a causa de un serio altercado con la nobleza. Se trasladaron hasta Abel, donde Monique trabajó como mercenaria para importantes burgueses.\n\nLa pequeña se crió entre toda clase de altercados y aventuras, viajando de un lado a otro y aprendiendo lo que podía de la lucha y el combate, para el que demostró un talento natural. Fueron días alegres para ella, metiendo en cientos de problemas a su madre y escapando de ellos gracias a una suerte incomparable. Aun así, ambas eran muy felices juntas y el lazo que las unía se fue haciendo cada vez más fuerte. Pero cuando Alette alcanzó los dieciséis años, tuvieron una seria discusión, ya que Monique soñaba con que su hija regresara aDafne y se convirtiera en un Caballero de la Rosa como lo fue ella, reclamando todo lo que merecidamente le pertenecía. Para Allete, rebelde y poco formal, esa vida le parecía impensable y sólo quería seguir viviendo como lo había hecho hasta entonces.\n\nCabezotas las dos, ninguna dio su brazo a torcer y la joven se marchó esa misma noche sin mirar atrás, buscando fama y renombre para demostrar a su madre lo que era capaz de hacer. Aunque en realidad, tales cosas le importaban bien poco; lo que realmente le impulsaba era el ansia de aventura y peligro que cualquier chica de dieciséis años con poco sentido común tendría. Meses después, cuando Eljared fue nombrada Sumo Arzobispo y estalló la guerra entre el Imperio y varios principados, Allete perdió el rastro de su madre y oyó decir que estaba muerta. A pesar de que la noticia la llenó de preocupación, sabe que sigue viva; más que nada, lo siente en su alma. Piensa que si sigue viajando de un lado a otro y viviendo aventuras, la encontrará; al fin y al cabo, ambas son muy parecidas.\n\nPosesiones: Vara, Estoque, Dos mudas de ropa, Raciones de viaje (para 3 días), Una cuerda, Un saco de dormir, Un collar, Una mochila, 80 Escudos de Plata. Shion Demeter</pre></details>"
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Pantalla del Director</p><p><strong>Página:</strong> 24</p><p><strong>Entrada:</strong> Allete Percivan</p></section><section><h2>Resumen importado</h2><p><strong>Categoría:</strong> Guerrero acróbata Fue: 7 Des: 9 Agi: 10 Con: 6 Pod: 8 Int: 7 Vol: 6 Per: 7 RF 35 RM 40 RP 35 RV 35 RE 35</p><p><strong>Ventajas y desventajas:</strong> Reflejos rápidos, Afortunado, Encanto.</p><p><strong>Habilidades naturales:</strong> Arma distinta (Vara), Arte marcial (Aikido).</p><p><strong>Daño:</strong> 40 Vara, 45 Estoque, 15 Aikido (Especial)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Acrobacias 75, Atletismo 45, Montar 25, Nadar 20, Saltar 25, Trepar 25, Estilo 25, Advertir 20, Buscar 15, Baile 25, Trucos de manos 25</p><p><strong>Descripción breve:</strong> Allete es una preciosa chica de diecinueve años, de ojos azules y cabello castaño claro. Normalmente viste con ropas tan atrevidas como cómodas, con las que pretende ser el centro de atención de cualquiera que se le acerque. Es originaria de Dafne, pero bien poco recuerda de su infancia allí. Cuando no era más que una niña, ella y su madre Monique, una prestigiosa paladín del principado, dejaron la Isla de las Rosas a causa de un serio altercado con la nobleza. Se trasladaron hasta Abel, donde Monique trabajó como mercenaria para importantes burgueses. La pequeña se crió entre toda clase de altercados y aventuras, viajando de un lado a otro y aprendiendo lo que podía de la lucha y el combate, para el que demostró un talento natural. Fueron días alegres para ella, metiendo en cientos de problemas a su madre y escapando de ellos gracias a una suerte incomparable. Aun así, ambas eran muy felices juntas y el lazo que las unía se fue haciendo cada vez más fuerte. Pero cuando Alette alcanzó los dieciséis años, tuvieron una seria discusión, ya que Monique soñaba con que su hija regresara aDafne y se convirtiera en un Caballero de la Rosa como lo fue ella, reclamando todo lo que merecidamente le pertenecía. Para Allete, rebelde y poco formal, esa vida le parecía impensable y sólo quería seguir viviendo como lo había hecho hasta entonces. Cabezotas las dos, ninguna dio su brazo a torcer y la joven se marchó esa misma noche sin mirar atrás, buscando fama y renombre para demostrar a su madre lo que era capaz de hacer. Aunque en realidad, tales cosas le importaban bien poco; lo que realmente le impulsaba era el ansia de aventura y peligro que cualquier chica de dieciséis años con poco sentido común tendría. Meses después, cuando Eljared fue nombrada Sumo Arzobispo y estalló la guerra entre el Imperio y varios principados, Allete perdió el rastro de su madre y oyó decir que estaba muerta. A pesar de que la noticia la llenó de preocupación, sabe que sigue viva; más que nada, lo siente en su alma. Piensa que si sigue viajando de un lado a otro y viviendo aventuras, la encontrará; al fin y al cabo, ambas son muy parecidas. Posesiones: Vara, Estoque, Dos mudas de ropa, Raciones de viaje (para 3 días), Una cuerda, Un saco de dormir, Un collar, Una mochila, 80 Escudos de Plata. Shion Demeter</p></section><details><summary>Texto extraído</summary><pre>Nivel: 1 Puntos de Vida: 95 Categoría: Guerrero acróbata Fue: 7 Des: 9 Agi: 10 Con: 6 Pod: 8 Int: 7 Vol: 6 Per: 7 RF 35 RM 40 RP 35 RV 35 RE 35\n\nTurno: 100 Natural, 90 Vara, 95 Estoque Habilidad de ataque: 85 Estoque / Vara / Aikido Habilidad de defensa: 75 Esquiva Daño: 40 Vara, 45 Estoque, 1 5 Aikido (Especial) Llevar Armadura: 5 TA: Ninguna Ventajas y desventajas: Reflejos rápidos, Afortunado, Encanto. Habilidades naturales: Arma distinta (Vara), Arte marcial (Aikido).\n\nTamaño: 12 Medio Regeneración: 1 Tipo de movimiento: 10 Cansancio: 6 Habilidades Secundarias: Acrobacias 75, Atletismo 45, Montar 25, Nadar 20, Saltar 25, Trepar 25, Estilo 25, Advertir 20, Buscar 1 5, Baile 25, Trucos de manos 25. Allete es una preciosa chica de diecinueve años, de ojos azules y cabello castaño claro. Normalmente viste con ropas tan atrevidas como cómodas, con las que pretende ser el centro de atención de cualquiera que se le acerque. Es originaria de Dafne, pero bien poco recuerda de su infancia allí. Cuando no era más que una niña, ella y su madre Monique, una prestigiosa paladín del principado, dejaron la Isla de las Rosas a causa de un serio altercado con la nobleza. Se trasladaron hasta Abel, donde Monique trabajó como mercenaria para importantes burgueses.\n\nLa pequeña se crió entre toda clase de altercados y aventuras, viajando de un lado a otro y aprendiendo lo que podía de la lucha y el combate, para el que demostró un talento natural. Fueron días alegres para ella, metiendo en cientos de problemas a su madre y escapando de ellos gracias a una suerte incomparable. Aun así, ambas eran muy felices juntas y el lazo que las unía se fue haciendo cada vez más fuerte. Pero cuando Alette alcanzó los dieciséis años, tuvieron una seria discusión, ya que Monique soñaba con que su hija regresara aDafne y se convirtiera en un Caballero de la Rosa como lo fue ella, reclamando todo lo que merecidamente le pertenecía. Para Allete, rebelde y poco formal, esa vida le parecía impensable y sólo quería seguir viviendo como lo había hecho hasta entonces.\n\nCabezotas las dos, ninguna dio su brazo a torcer y la joven se marchó esa misma noche sin mirar atrás, buscando fama y renombre para demostrar a su madre lo que era capaz de hacer. Aunque en realidad, tales cosas le importaban bien poco; lo que realmente le impulsaba era el ansia de aventura y peligro que cualquier chica de dieciséis años con poco sentido común tendría. Meses después, cuando Eljared fue nombrada Sumo Arzobispo y estalló la guerra entre el Imperio y varios principados, Allete perdió el rastro de su madre y oyó decir que estaba muerta. A pesar de que la noticia la llenó de preocupación, sabe que sigue viva; más que nada, lo siente en su alma. Piensa que si sigue viajando de un lado a otro y viviendo aventuras, la encontrará; al fin y al cabo, ambas son muy parecidas.\n\nPosesiones: Vara, Estoque, Dos mudas de ropa, Raciones de viaje (para 3 días), Una cuerda, Un saco de dormir, Un collar, Una mochila, 80 Escudos de Plata. Shion Demeter</pre></details>",
+        "enriched": ""
       },
       "disadvantages": [],
       "elan": [],
@@ -323,9 +245,6 @@
           }
         }
       ],
-      "level": {
-        "value": 1
-      },
       "notes": [
         {
           "_id": "note-allete-percivan-1",
@@ -345,52 +264,36 @@
     "characteristics": {
       "primaries": {
         "agility": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 10
-          }
+          "value": 10,
+          "mod": 15
         },
         "constitution": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         },
         "dexterity": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 9
-          }
+          "value": 9,
+          "mod": 10
         },
         "strength": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "intelligence": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "perception": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 7
-          }
+          "value": 7,
+          "mod": 5
         },
         "power": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 8
-          }
+          "value": 8,
+          "mod": 10
         },
         "willPower": {
-          "__type": "{\"type\":\"Characteristic\"}",
-          "base": {
-            "value": 6
-          }
+          "value": 6,
+          "mod": 5
         }
       },
       "secondaries": {
@@ -401,9 +304,6 @@
         "initiative": {
           "base": {
             "value": 100
-          },
-          "special": {
-            "value": 0
           },
           "final": {
             "value": 0
@@ -454,10 +354,7 @@
         "resistances": {
           "physical": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -465,10 +362,7 @@
           },
           "disease": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -476,10 +370,7 @@
           },
           "poison": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 35065
+              "value": 35100
             },
             "final": {
               "value": 0
@@ -487,10 +378,7 @@
           },
           "magic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 40
             },
             "final": {
               "value": 0
@@ -498,10 +386,7 @@
           },
           "psychic": {
             "base": {
-              "value": 0
-            },
-            "special": {
-              "value": 0
+              "value": 35
             },
             "final": {
               "value": 0
@@ -513,227 +398,455 @@
     "secondaries": {
       "athletics": {
         "acrobatics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 75
+          },
+          "final": {
+            "value": 0
           }
         },
         "athleticism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 45
+          },
+          "final": {
+            "value": 0
           }
         },
         "ride": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "swim": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"0\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "climb": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "jump": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "piloting": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "vigor": {
         "composure": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "featsOfStrength": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"strength\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "withstandPain": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "perception": {
         "notice": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 20
+          },
+          "final": {
+            "value": 0
           }
         },
         "search": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyPerceptionPenalty\":\"true\"}",
           "base": {
             "value": 15
+          },
+          "final": {
+            "value": 0
           }
         },
         "track": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "intellectual": {
         "animals": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "science": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "law": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "herbalLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "history": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tactics": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "medicine": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "memorize": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "navigation": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "occult": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "appraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "magicAppraisal": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "social": {
         "style": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "intimidate": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"willPower\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "leadership": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "persuasion": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trading": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "streetwise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "etiquette": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "subterfuge": {
         "lockPicking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "disguise": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "hide": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"perception\",\"applyNaturalPenalty\":\"true\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "theft": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "stealth": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\",\"maxNaturalPenaltyReductionPercentage\":\"50\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "trapLore": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "poisons": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "creative": {
         "art": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "dance": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"agility\",\"applyNaturalPenalty\":\"true\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "forging": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "runes": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "alchemy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"intelligence\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "animism": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "music": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "sleightOfHand": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}",
           "base": {
             "value": 25
+          },
+          "final": {
+            "value": 0
           }
         },
         "ritualCalligraphy": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "jewelry": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "tailoring": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"dexterity\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         },
         "puppetMaking": {
-          "__type": "{\"type\":\"SecondaryAbility\",\"attribute\":\"power\"}"
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
         }
       },
       "secondarySpecialSkills": []
     },
     "combat": {
       "attack": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}",
         "base": {
           "value": 85
+        },
+        "final": {
+          "value": 0
         }
       },
       "block": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"dexterity\"}"
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
       },
       "dodge": {
-        "__type": "{\"type\":\"Ability\",\"attribute\":\"agility\"}",
         "base": {
           "value": 75
+        },
+        "final": {
+          "value": 0
         }
       },
       "wearArmor": {
-        "__type": "{\"type\":\"AffectedByCharacteristicValue\",\"attribute\":\"strength\"}",
-        "base": {
-          "value": 5
-        }
+        "value": 5
       },
       "totalArmor": {
         "at": {
@@ -764,11 +877,7 @@
       "combatTables": [],
       "ammo": [],
       "weapons": [],
-      "armors": [],
-      "supernaturalShields": [],
-      "damageReduction": {
-        "__type": "{\"type\":\"NumericalValue\"}"
-      }
+      "armors": []
     },
     "mystic": {
       "act": {
@@ -780,14 +889,19 @@
             "value": 0
           }
         },
-        "via": []
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
       },
       "zeon": {
-        "accumulated": 0,
-        "value": 0,
-        "max": 0
-      },
-      "zeonMaintained": {
+        "accumulated": {
+          "value": null
+        },
         "value": 0,
         "max": 0
       },
@@ -801,14 +915,11 @@
       },
       "innateMagic": {
         "main": {
-          "base": {
-            "value": 0
-          },
-          "final": {
-            "value": 0
-          }
+          "value": 0
         },
-        "via": []
+        "alternative": {
+          "value": 0
+        }
       },
       "magicProjection": {
         "base": {
@@ -913,15 +1024,11 @@
           }
         }
       },
-      "mysticSettings": {
-        "aptitudeForMagicDevelopment": false
-      },
       "spells": [],
       "spellMaintenances": [],
       "selectedSpells": [],
       "summons": [],
-      "metamagics": [],
-      "preparedSpells": []
+      "metamagics": []
     },
     "domine": {
       "kiSkills": [],
@@ -933,37 +1040,57 @@
       "techniques": [],
       "seals": {
         "minor": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         },
         "major": {
-          "fire": {
-            "isActive": false
+          "earth": {
+            "isActive": {
+              "value": false
+            }
           },
           "metal": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wind": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "water": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           },
           "wood": {
-            "isActive": false
+            "isActive": {
+              "value": false
+            }
           }
         }
       },
@@ -1086,9 +1213,6 @@
       "psychicPoints": {
         "value": 0,
         "max": 0
-      },
-      "psychicSettings": {
-        "fatigueResistance": false
       },
       "psychicPowers": [],
       "psychicDisciplines": [],
