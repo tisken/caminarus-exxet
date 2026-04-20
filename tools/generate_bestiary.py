@@ -234,6 +234,46 @@ BOOKS = {
         "start_marker": "Arquetipos",
         "end_marker": None,
         "mode": "inline",
+        "sequential_title_overrides": [
+            "Marinero", "Burgués", "Soldado Imperial", "Soldado de Élite",
+            "Oficial Imperial", "Noble", "Noble de la Corte", "Guardia de Abel",
+            "Gran Erudito Ilmorense", "Artista Ilmorense",
+            "Alto Caballero de Santa Helena", "Noble Dalense",
+            "Caballero Dalense", "Guardia Dalense", "Guardia Albera",
+            "Guía Profesional", "Cabalgavientos", "Burgués Arlarense",
+            "Comerciante Arlarense", "Guardia de Arlan", "Maestro Astillero",
+            "Capitán de Fragata", "Soldado de Azur", "Soldado Profesional de Azur",
+            "Oficial de Azur", "Agente de Les Jaeger", "Noble Togarense",
+            "Templario de la Fuente / La Orden Sagrada",
+            "Templario del Corazón de Cristo",
+            "Miembro de la Orden de la Cruz", "Hermanos de la Alianza",
+            "Guerrero de los Yermos", "Chamán", "Ygnling", "Uzuring",
+            "Thurizung", "Baldisung", "Skuling", "Guerrero Frostkolier Común",
+            "Saerinmir", "Lochgjest", "Gigante de Olafer",
+            "Adiestrador de Animales", "Viajero Les Zigeuner",
+            "Guardia de Dwänholf", "Pirata", "Señor Pirata",
+            "Orden de Justine", "Diva", "Guardia Gabrielense",
+            "Noble de Alta Alcurnia", "Maestro Burgués", "Burgués de Haufman",
+            "Capitán de Akaryu", "Guardia de la Asociación",
+            "Guardia Eclesiástica / Templarios del Santuario",
+            "Sacerdote", "Alto Cargo Eclesiástico",
+            "Cruzado de la Cruz Blanca", "Nómada",
+            "Guerrero del Sultanato", "Soldado del Faraón",
+            "Asimbomani", "Guardia Negra", "Harumai", "Indígena",
+            "Diplomático Universitario", "Nómada de Kushistan",
+            "Cazador de la Sabana",
+            "Miembro de la Casta de los Guerreros",
+            "Miembro de la Casta de los Sabios",
+            "Soldado Samurái", "Guerrero-Demonio Kurokami",
+            "Onmyoji Imperial", "Doncellas Guerreras Asakura",
+            "Maestro de Dojo", "Campesino", "Burgués de Lannet",
+            "Zorro", "León", "Búho", "Ilona",
+            "Caballo Purasangre de Baho", "Yöur Goulat", "Nyaleusi",
+            "Acinonyx", "Mamut", "Mono", "Dientes de Sable",
+            "Tiranosaurio", "Cocodrilo", "Mesagardón", "Gato", "Perro",
+            "Lobo de Wulfgar", "Tigre", "Comadreja", "Culastis",
+            "Lija Coralina",
+        ],
     },
     "gaia-vol-2": {
         "label": "Gaia Vol. II",
@@ -247,6 +287,30 @@ BOOKS = {
         "start_marker": "Arquetipos",
         "end_marker": None,
         "mode": "inline",
+        "sequential_title_overrides": [
+            "Indígena", "Guardia Manterro", "Soldado Manterro",
+            "Caballero de Libra", "Agente Básico de Equilibrium",
+            "Noble Local", "Avestruz Roja", "Colono",
+            "Bárbaro de las Llanuras", "Bárbaro Jayán de las Llanuras",
+            "Chamán Jayán", "Búfalo de Montaña",
+            "Habitante de la Cicatriz", "Miembro Genérico del Clan Blanco",
+            "Ciudadano Arabalés Medio", "Capitán Arabalés",
+            "Cazador Pristino", "Montaraz de Elna", "Lobo de Cubal",
+            "Gorila Gigante Alejandrino", "Explorador de Arces Daimah",
+            "Campesino", "Caballero Regular", "Noble",
+            "Miembro del Jardín de las Sinfonías",
+            "Miembro de Gatislam Brogio", "Miembro de el Círculo",
+            "Miembro de Cuervo de Sombras", "Miembro de la Mano de Hierro",
+            "Miembro de Lobos del Crepúsculo", "Hechicero Reglamentado",
+            "Aborigen", "Chamán de Varja", "Soldado de las Rosas",
+            "Dama Noble de Alta Alcurnia", "Nómada de los Hielos",
+            "Chamán de los Hielos", "Habitante de Heinlein",
+            "Cazador de Monstruos Veterano", "Nómada de Ark Morpheon",
+            "Soldado de la Gran Guerra", "Capitán de la Gran Guerra",
+            "Agente de Operaciones Especiales", "Soldado Imperial",
+            "Cazador de Pesadillas Arquetípico",
+            "Guardia de Sangre Arquetípico",
+        ],
     },
     "fichas-sueltas": {
         "label": "Fichas Sueltas",
@@ -262,7 +326,7 @@ BOOKS = {
             ("ABF_Ficha_Etheldrea.md", "Etheldrea, la Primera Bruja"),
             ("ABF_Ficha_Jigoku.md", "Jigoku No Kami, el Kami Oscuro"),
             ("ABF_Ficha_Orochi.md", "Orochi, el Aeon Oscuro"),
-            ("ABF_Ficha_Stravos.md", "Stravos Veritas, el Rey Negro de Ygdramar"),
+            ("ABF_Ficha_Stravos.md", "Stravos Veritas, el Rey Negro"),
             ("ABF_Pazusu.md", "Pazusu, el Demonio de las Moscas"),
         ],
     },
@@ -1149,6 +1213,86 @@ def parse_ta_values(ta_raw: str | None) -> dict[str, int]:
     }
 
 
+WEAPON_DAMAGE_RE = re.compile(
+    r"(\d+)\s+([A-Za-z\u00c0-\u00ff][A-Za-z\u00c0-\u00ff\s+.'/-]{1,50}?)\s*"
+    r"(?:\(\s*([A-Za-z\u00c0-\u00ff]+(?:\s*/\s*[A-Za-z\u00c0-\u00ff]+)?)\s*\)|\b(FIL|CON|PEN|CAL|ELE|FRI|ENE)\b)",
+    re.IGNORECASE,
+)
+
+CRITIC_MAP = {
+    "fil": "cut", "filo": "cut",
+    "con": "impact", "contundente": "impact",
+    "pen": "thrust", "penetrante": "thrust",
+    "cal": "heat", "calor": "heat",
+    "ele": "electricity", "electricidad": "electricity",
+    "fri": "cold", "frio": "cold", "fr\u00edo": "cold",
+    "ene": "energy", "energia": "energy", "energ\u00eda": "energy",
+}
+
+
+def parse_weapons_from_damage(damage_raw: str | None) -> list[dict]:
+    if not damage_raw:
+        return []
+    flat = normalize_digit_spacing(damage_raw)
+    weapons = []
+    for m in WEAPON_DAMAGE_RE.finditer(flat):
+        dmg = parse_int(m.group(1)) or 0
+        name = collapse_spaces(m.group(2)).strip(" ,;")
+        critic_raw = (m.group(3) or m.group(4) or "").strip()
+        primary_critic = CRITIC_MAP.get(normalize_key(critic_raw.split("/")[0].strip()), "-")
+        secondary_critic = "-"
+        if "/" in critic_raw:
+            secondary_critic = CRITIC_MAP.get(normalize_key(critic_raw.split("/")[1].strip()), "-")
+        weapons.append({
+            "name": name,
+            "damage": dmg,
+            "primary_critic": primary_critic,
+            "secondary_critic": secondary_critic,
+        })
+    return weapons
+
+
+def build_weapon_item(weapon: dict) -> dict:
+    return {
+        "name": weapon["name"],
+        "type": "weapon",
+        "img": "icons/creatures/claws/claw-hooked-curved.webp",
+        "effects": [],
+        "system": {
+            "special": {"value": ""},
+            "integrity": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
+            "breaking": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
+            "attack": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
+            "block": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
+            "damage": {"base": {"value": weapon["damage"]}, "final": {"value": 0}, "special": {"value": 0}},
+            "initiative": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
+            "presence": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
+            "size": {"value": "medium"},
+            "strRequired": {
+                "oneHand": {"base": {"value": 0}, "final": {"value": 0}},
+                "twoHands": {"base": {"value": 0}, "final": {"value": 0}},
+            },
+            "quality": {"value": 0},
+            "oneOrTwoHanded": {"value": ""},
+            "knowledgeType": {"value": "known"},
+            "manageabilityType": {"value": "one_hand"},
+            "shotType": {"value": "throw"},
+            "isRanged": {"value": False},
+            "range": {"base": {"value": 0}, "final": {"value": 0}},
+            "cadence": {"value": ""},
+            "reload": {"base": {"value": 0}, "final": {"value": 0}},
+            "sizeProportion": {"value": "normal"},
+            "weaponStrength": {"base": {"value": 0}, "final": {"value": 0}},
+            "critic": {
+                "primary": {"value": weapon["primary_critic"]},
+                "secondary": {"value": weapon["secondary_critic"]},
+            },
+            "isShield": {"value": False},
+            "equipped": {"value": True},
+        },
+    }
+
+
 def build_armor_item(name: str, ta_raw: str | None) -> dict | None:
     values = parse_ta_values(ta_raw)
     if not values:
@@ -1191,8 +1335,8 @@ def build_armor_item(name: str, ta_raw: str | None) -> dict | None:
             "movementRestriction": {"base": {"value": 0}, "final": {"value": 0}},
             "naturalPenalty": {"base": {"value": 0}, "final": {"value": 0}, "value": 0},
             "wearArmorRequirement": {"base": {"value": 0}, "final": {"value": 0}, "value": 0},
-            "type": {"value": "hard"},
-            "localization": {"value": "breastplate"},
+            "type": {"value": "natural"},
+            "localization": {"value": "complete"},
             "isEnchanted": {"value": False},
             "quality": {"value": 0},
             "equipped": {"value": True},
@@ -1550,6 +1694,8 @@ def build_actor_document(record: dict, template: dict) -> dict:
     armor_item = build_armor_item(record["name"], record.get("ta_raw"))
     if armor_item:
         items.append(armor_item)
+    for weapon in parse_weapons_from_damage(record.get("damage_raw")):
+        items.append(build_weapon_item(weapon))
 
     prepared_items = []
     for index, item in enumerate(items):
@@ -1956,6 +2102,7 @@ def parse_inline_record(book_id: str, block_text: str, title: str, page: int | N
 
 def extract_records_inline(book_id: str, source_text: str) -> list[dict]:
     config = BOOKS[book_id]
+    sequential_overrides = config.get("sequential_title_overrides", [])
     start_marker = config.get("start_marker")
     start_pos = source_text.find(start_marker) if start_marker else 0
     if start_pos == -1:
@@ -1967,16 +2114,21 @@ def extract_records_inline(book_id: str, source_text: str) -> list[dict]:
     for profile_index, m in enumerate(matches, start=1):
         abs_pos = start_pos + m.start()
         page = extract_page(source_text, abs_pos)
-        pre = scoped[max(0, m.start() - 300) : m.start()]
-        title_m = INLINE_TITLE_RE.search(pre + " Categor")
-        if title_m:
-            raw_title = collapse_spaces(title_m.group(1).strip())
-            raw_title = merge_ocr_title_fragments(raw_title)
-            title = smart_title(collapse_spaces(raw_title.strip(" .,;:")))
+
+        if len(records) < len(sequential_overrides):
+            title = sequential_overrides[len(records)]
         else:
-            title = extract_inline_title(scoped, m.start())
-        if not title or title == "Desconocido" or len(title) > 80:
-            title = extract_inline_title(scoped, m.start())
+            pre = scoped[max(0, m.start() - 300) : m.start()]
+            title_m = INLINE_TITLE_RE.search(pre + " Categor")
+            if title_m:
+                raw_title = collapse_spaces(title_m.group(1).strip())
+                raw_title = merge_ocr_title_fragments(raw_title)
+                title = smart_title(collapse_spaces(raw_title.strip(" .,;:")))
+            else:
+                title = extract_inline_title(scoped, m.start())
+            if not title or title == "Desconocido" or len(title) > 80:
+                title = extract_inline_title(scoped, m.start())
+
         record = parse_inline_record(book_id, m.group(0), title, page, profile_index)
         if record:
             records.append(record)
@@ -1992,6 +2144,7 @@ def extract_records_multi_file(book_id: str) -> list[dict]:
         path = discover_path(None, default_candidates(filename))
         source_text = path.read_text(encoding="utf-8")
         matches = list(LEVEL_MARKER_RE.finditer(source_text))
+        file_records: list[dict] = []
         for profile_index, match in enumerate(matches, start=1):
             start = match.start()
             end = matches[profile_index].start() if profile_index < len(matches) else len(source_text)
@@ -1999,13 +2152,14 @@ def extract_records_multi_file(book_id: str) -> list[dict]:
             if not POINTS_MARKER_RE.search(chunk):
                 continue
             page = extract_page(source_text, start)
-            title = extract_flat_title(source_text, start) or default_title
-            record = make_record(book_id, title, source_text, chunk, start, profile_index)
+            record = make_record(book_id, default_title, source_text, chunk, start, profile_index)
             record["variant"] = None
-            record["name"] = record["source_heading"]
+            record["name"] = default_title
+            record["source_heading"] = default_title
             if is_viable_record(record):
-                all_records.append(record)
-    dedupe_names(all_records)
+                file_records.append(record)
+        dedupe_names(file_records)
+        all_records.extend(file_records)
     return all_records
 
 
