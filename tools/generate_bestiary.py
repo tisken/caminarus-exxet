@@ -1331,8 +1331,38 @@ def build_weapon_item(weapon: dict) -> dict:
     }
 
 
+STANDARD_ARMOR_TA = {
+    "piel": {"cut": 1, "impact": 0, "thrust": 0, "heat": 0, "electricity": 0, "cold": 1, "energy": 0},
+    "cuero": {"cut": 2, "impact": 1, "thrust": 1, "heat": 1, "electricity": 1, "cold": 1, "energy": 0},
+    "cuero endurecido": {"cut": 3, "impact": 1, "thrust": 2, "heat": 1, "electricity": 1, "cold": 1, "energy": 0},
+    "cuero tachonado": {"cut": 3, "impact": 2, "thrust": 2, "heat": 1, "electricity": 1, "cold": 1, "energy": 0},
+    "completa de cuero": {"cut": 3, "impact": 2, "thrust": 2, "heat": 1, "electricity": 1, "cold": 1, "energy": 0},
+    "gabardina armada": {"cut": 3, "impact": 2, "thrust": 2, "heat": 1, "electricity": 1, "cold": 1, "energy": 0},
+    "gabardina armada (especial)": {"cut": 4, "impact": 3, "thrust": 3, "heat": 2, "electricity": 2, "cold": 2, "energy": 0},
+    "acolc": {"cut": 2, "impact": 2, "thrust": 0, "heat": 1, "electricity": 1, "cold": 1, "energy": 0},
+    "mallas": {"cut": 4, "impact": 2, "thrust": 2, "heat": 1, "electricity": 2, "cold": 1, "energy": 0},
+    "piezas": {"cut": 4, "impact": 4, "thrust": 4, "heat": 2, "electricity": 2, "cold": 2, "energy": 0},
+    "semicompleta": {"cut": 5, "impact": 5, "thrust": 5, "heat": 3, "electricity": 3, "cold": 3, "energy": 0},
+    "semicompleta, completo abierto": {"cut": 5, "impact": 5, "thrust": 5, "heat": 3, "electricity": 3, "cold": 3, "energy": 0},
+    "peto": {"cut": 4, "impact": 4, "thrust": 3, "heat": 2, "electricity": 2, "cold": 2, "energy": 0},
+    "placas": {"cut": 6, "impact": 6, "thrust": 6, "heat": 4, "electricity": 4, "cold": 4, "energy": 0},
+}
+
+
 def build_armor_item(name: str, ta_raw: str | None) -> dict | None:
     values = parse_ta_values(ta_raw)
+    if not values and ta_raw:
+        standard = STANDARD_ARMOR_TA.get(ta_raw.lower().strip())
+        if not standard and ta_raw.strip().isdigit():
+            uniform = int(ta_raw.strip())
+            standard = {k: uniform for k in ("cut","impact","thrust","heat","electricity","cold","energy")}
+        if not standard:
+            for key, val in STANDARD_ARMOR_TA.items():
+                if key in ta_raw.lower():
+                    standard = val
+                    break
+        if standard:
+            values = standard
     if not values:
         return None
 
@@ -1342,6 +1372,8 @@ def build_armor_item(name: str, ta_raw: str | None) -> dict | None:
         prefix = collapse_spaces(prefix.strip(" :;,."))
         if prefix and normalize_key(prefix) not in {"natural", "ta"}:
             item_name = prefix
+        elif ta_raw.lower().strip() in STANDARD_ARMOR_TA:
+            item_name = smart_title(ta_raw.strip())
 
     highest_armor = max(values.values())
     presence = max(5, 20 + highest_armor * 5)
