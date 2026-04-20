@@ -1,0 +1,2153 @@
+{
+  "_id": "d447f1001e6db9ba",
+  "name": "Stravos Veritas (Schreckliche)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Stravos Veritas (Schreckliche)",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 5,
+    "height": 5,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "characteristics.secondaries.lifePoints"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "levels": {
+        "tokenHeight": 0
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "detectionModes": []
+  },
+  "items": [
+    {
+      "name": "Natural + escamas",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "effects": [],
+      "system": {
+        "cut": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "pierce": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "impact": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "thrust": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "heat": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "electricity": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "cold": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "energy": {
+          "base": {
+            "value": 12
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 12
+        },
+        "integrity": {
+          "base": {
+            "value": 34
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 34
+        },
+        "presence": {
+          "base": {
+            "value": 80
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 80
+        },
+        "movementRestriction": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "wearArmorRequirement": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "value": 0
+        },
+        "type": {
+          "value": "natural"
+        },
+        "localization": {
+          "value": "complete"
+        },
+        "isEnchanted": {
+          "value": false
+        },
+        "quality": {
+          "value": 0
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "45d2f212ed5e3ab2",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d447f1001e6db9ba.45d2f212ed5e3ab2"
+    },
+    {
+      "name": "Garras",
+      "type": "weapon",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "effects": [],
+      "system": {
+        "special": {
+          "value": ""
+        },
+        "integrity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "breaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "attack": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "block": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "damage": {
+          "base": {
+            "value": 170
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "presence": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "size": {
+          "value": "medium"
+        },
+        "strRequired": {
+          "oneHand": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "twoHands": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        },
+        "quality": {
+          "value": 0
+        },
+        "oneOrTwoHanded": {
+          "value": ""
+        },
+        "knowledgeType": {
+          "value": "known"
+        },
+        "manageabilityType": {
+          "value": "one_hand"
+        },
+        "shotType": {
+          "value": "throw"
+        },
+        "isRanged": {
+          "value": false
+        },
+        "range": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "cadence": {
+          "value": ""
+        },
+        "reload": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sizeProportion": {
+          "value": "normal"
+        },
+        "weaponStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "critic": {
+          "primary": {
+            "value": "cut"
+          },
+          "secondary": {
+            "value": "-"
+          }
+        },
+        "isShield": {
+          "value": false
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "1f539858589e5407",
+      "folder": null,
+      "sort": 10,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d447f1001e6db9ba.1f539858589e5407"
+    },
+    {
+      "name": "Mordisco",
+      "type": "weapon",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "effects": [],
+      "system": {
+        "special": {
+          "value": ""
+        },
+        "integrity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "breaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "attack": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "block": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "damage": {
+          "base": {
+            "value": 190
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "presence": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "size": {
+          "value": "medium"
+        },
+        "strRequired": {
+          "oneHand": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "twoHands": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        },
+        "quality": {
+          "value": 0
+        },
+        "oneOrTwoHanded": {
+          "value": ""
+        },
+        "knowledgeType": {
+          "value": "known"
+        },
+        "manageabilityType": {
+          "value": "one_hand"
+        },
+        "shotType": {
+          "value": "throw"
+        },
+        "isRanged": {
+          "value": false
+        },
+        "range": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "cadence": {
+          "value": ""
+        },
+        "reload": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sizeProportion": {
+          "value": "normal"
+        },
+        "weaponStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "critic": {
+          "primary": {
+            "value": "thrust"
+          },
+          "secondary": {
+            "value": "-"
+          }
+        },
+        "isShield": {
+          "value": false
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "b0b6f32f8388e461",
+      "folder": null,
+      "sort": 20,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d447f1001e6db9ba.b0b6f32f8388e461"
+    },
+    {
+      "name": "Coletazo",
+      "type": "weapon",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "effects": [],
+      "system": {
+        "special": {
+          "value": ""
+        },
+        "integrity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "breaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "attack": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "block": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "damage": {
+          "base": {
+            "value": 140
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "presence": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "size": {
+          "value": "medium"
+        },
+        "strRequired": {
+          "oneHand": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "twoHands": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        },
+        "quality": {
+          "value": 0
+        },
+        "oneOrTwoHanded": {
+          "value": ""
+        },
+        "knowledgeType": {
+          "value": "known"
+        },
+        "manageabilityType": {
+          "value": "one_hand"
+        },
+        "shotType": {
+          "value": "throw"
+        },
+        "isRanged": {
+          "value": false
+        },
+        "range": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "cadence": {
+          "value": ""
+        },
+        "reload": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sizeProportion": {
+          "value": "normal"
+        },
+        "weaponStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "critic": {
+          "primary": {
+            "value": "impact"
+          },
+          "secondary": {
+            "value": "-"
+          }
+        },
+        "isShield": {
+          "value": false
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "6dade1d6b02f4457",
+      "folder": null,
+      "sort": 30,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d447f1001e6db9ba.6dade1d6b02f4457"
+    },
+    {
+      "name": "Aliento",
+      "type": "weapon",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "effects": [],
+      "system": {
+        "special": {
+          "value": ""
+        },
+        "integrity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "breaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "attack": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "block": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "damage": {
+          "base": {
+            "value": 250
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "presence": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "size": {
+          "value": "medium"
+        },
+        "strRequired": {
+          "oneHand": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "twoHands": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        },
+        "quality": {
+          "value": 0
+        },
+        "oneOrTwoHanded": {
+          "value": ""
+        },
+        "knowledgeType": {
+          "value": "known"
+        },
+        "manageabilityType": {
+          "value": "one_hand"
+        },
+        "shotType": {
+          "value": "throw"
+        },
+        "isRanged": {
+          "value": false
+        },
+        "range": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "cadence": {
+          "value": ""
+        },
+        "reload": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sizeProportion": {
+          "value": "normal"
+        },
+        "weaponStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "critic": {
+          "primary": {
+            "value": "electricity"
+          },
+          "secondary": {
+            "value": "-"
+          }
+        },
+        "isShield": {
+          "value": false
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "bedb2cd22dad4559",
+      "folder": null,
+      "sort": 40,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d447f1001e6db9ba.bedb2cd22dad4559"
+    }
+  ],
+  "effects": [],
+  "folder": "b6e273d57a292256",
+  "sort": 80,
+  "flags": {
+    "core": {},
+    "animu-exxet": {
+      "sourceBook": "ABF Fichas Sueltas",
+      "sourceHeading": "Stravos Veritas",
+      "page": 1,
+      "variant": "Schreckliche",
+      "rawClass": "Entre mundos 30",
+      "rawDamage": "170 Garras FIL, 190 Mordisco PEN, 140 Coletazo CON, 250 Aliento ELE",
+      "rawTA": "Natural + escamas: Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 12",
+      "warnings": []
+    },
+    "cf": {
+      "id": "temp_d447f1001e",
+      "path": "Creatures Exxet#/CF_SEP/Fichas Sueltas",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "version": 1,
+    "ui": {
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
+      "tabVisibility": {
+        "mystic": {
+          "value": 0
+        },
+        "domine": {
+          "value": 0
+        },
+        "psychic": {
+          "value": 0
+        }
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        },
+        "zen": {
+          "value": true
+        },
+        "perceiveMystic": {
+          "value": true
+        },
+        "perceivePsychic": {
+          "value": true
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "value": 0
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "byArmors": {
+            "value": 0
+          },
+          "byWearArmorRequirement": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "value": 0
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "value": 0,
+        "base": {
+          "value": 80
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Entre mundos 30"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": "Schreckliche"
+        },
+        "size": {
+          "value": "34"
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> ABF Fichas Sueltas</p><p><strong>Página:</strong> 1</p><p><strong>Entrada:</strong> Stravos Veritas</p><p><strong>Variante:</strong> Schreckliche</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Entre mundos 30</p><p><strong>Categoría:</strong> Guerrero Fue: 17 Des: 9 Agi: 6 Con: 17 Pod: 13 Int: 12 Vol: 12 Per: 11 RF 170 RM 135 RP 100 RV 125 RE 125</p><p><strong>Habilidades esenciales:</strong> Características físicas divinas, Características anímicas sobrehumanas, Sentido agudizado, Zen, Inmunidad natural, Vulnerabilidad (Frío).</p><p><strong>Poderes:</strong> Arma natural: Garras, Mordisco (Ataque adicional, Daño incrementado +20, Armadura -3) y Cola, Aliento, Daña energía, Armadura natural, Vuelo natural 12, Batir de alas, Resistencias incrementadas +10, RM incrementada +30, Barrera de daño 160, Ver lo sobrenatural.</p><p><strong>Daño:</strong> 170 Garras FIL, 190 Mordisco PEN, 140 Coletazo CON, 250 Aliento ELE</p><p><strong>TA:</strong> Natural + escamas: Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 12</p><p><strong>Habilidades secundarias:</strong> Intimidar 130, Persuasión 95, Advertir 160 (190 Escuchar), Buscar 150, Rastrear 75, Historia 200, Ocultismo 220, Memorizar 140, Proezas de fuerza 180, Resistir el dolor 120</p><p><strong>Descripción breve:</strong> Schreckliche (Avatar Oscuro)</p></section><details><summary>Texto extraído</summary><pre>Nivel: 11\n\nClase: Entre mundos 30 Puntos de Vida: 7 .01 5 Acumulación Categoría: Guerrero Fue: 17 Des: 9 Agi: 6 Con: 17 Pod: 13 Int: 12 Vol: 12 Per: 11 RF 170 RM 135 RP 100 RV 125 RE 125\n\nTurno: 70 Natural Habilidad de ataque: 240 Garras + 220 Mordisco, 240 Aliento, 1 90 Coletazo Habilidad de defensa: Acumulación Daño: 1 70 Garras FIL, 1 90 Mordisco PEN, 1 40 Coletazo CON, 250 Aliento ELE TA: Natural + escamas: Fil 12 Con 12 Pen 12 Cal 12 Ele 12 Fri 12 Ene 12 Habilidades esenciales: Características físicas divinas, Características anímicas sobrehumanas, Sentido agudizado, Zen, Inmunidad natural, Vulnerabilidad (Frío). Poderes: Arma natural: Garras, Mordisco (Ataque adicional, Daño incrementado +20, Armadura -3) y Cola, Aliento, Daña energía, Armadura natural, Vuelo natural 12, Batir de alas, Resistencias incrementadas +10, RM incrementada +30, Barrera de daño 1 60, Ver lo sobrenatural.\n\nTamaño: 34 Colosal Regeneración: 11 Tipo de movimiento: 9 / 12 Cansancio: 17 Habilidades Secundarias: Intimidar 1 30, Persuasión 95, Advertir 1 60 (1 90 Escuchar), Buscar 1 50, Rastrear 75, Historia 200, Ocultismo 220, Memorizar 1 40, Proezas de fuerza 180, Resistir el dolor 120. Schreckliche (Avatar Oscuro)</pre></details>",
+        "enriched": ""
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-stravos-veritas-schreckl",
+          "type": "level",
+          "name": "Stravos Veritas (Schreckliche)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 11
+          }
+        }
+      ],
+      "notes": [
+        {
+          "_id": "note-stravos-veritas-schreckliche-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Características físicas divinas, Características anímicas sobrehumanas, Sentido agudizado, Zen, Inmunidad natural, Vulnerabilidad (Frío).",
+          "system": {}
+        },
+        {
+          "_id": "note-stravos-veritas-schreckliche-4",
+          "type": "note",
+          "name": "Poderes: Arma natural: Garras, Mordisco (Ataque adicional, Daño incrementado +20, Armadura -3) y Cola, Aliento, Daña energía, Armadura natural, Vuelo natural 12, Batir de alas, Resistencias incrementadas +10, RM incrementada +30, Barrera de daño 160, Ver lo sobrenatural.",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "value": 6,
+          "mod": 5
+        },
+        "constitution": {
+          "value": 17,
+          "mod": 35
+        },
+        "dexterity": {
+          "value": 9,
+          "mod": 10
+        },
+        "strength": {
+          "value": 17,
+          "mod": 35
+        },
+        "intelligence": {
+          "value": 12,
+          "mod": 20
+        },
+        "perception": {
+          "value": 11,
+          "mod": 20
+        },
+        "power": {
+          "value": 13,
+          "mod": 25
+        },
+        "willPower": {
+          "value": 12,
+          "mod": 20
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 7015,
+          "max": 7015
+        },
+        "initiative": {
+          "base": {
+            "value": 70
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 17,
+          "max": 17
+        },
+        "regenerationType": {
+          "mod": {
+            "value": 1
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 3
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 170
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 125
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 12570
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 135
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 100
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "athleticism": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "ride": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "swim": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "climb": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "jump": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "piloting": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "vigor": {
+        "composure": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "featsOfStrength": {
+          "base": {
+            "value": 180
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "withstandPain": {
+          "base": {
+            "value": 120
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "base": {
+            "value": 160
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "search": {
+          "base": {
+            "value": 150
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "track": {
+          "base": {
+            "value": 75
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "science": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "law": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "herbalLore": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "history": {
+          "base": {
+            "value": 200
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "tactics": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "medicine": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "memorize": {
+          "base": {
+            "value": 140
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "navigation": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "occult": {
+          "base": {
+            "value": 220
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "appraisal": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "magicAppraisal": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "social": {
+        "style": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "intimidate": {
+          "base": {
+            "value": 130
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "leadership": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "persuasion": {
+          "base": {
+            "value": 95
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "trading": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "streetwise": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "etiquette": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "disguise": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "hide": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "theft": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "stealth": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "trapLore": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "poisons": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "creative": {
+        "art": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dance": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "forging": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "runes": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "alchemy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "animism": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "music": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sleightOfHand": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "ritualCalligraphy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "jewelry": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "tailoring": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "puppetMaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "base": {
+          "value": 240
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "block": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": []
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "zeon": {
+        "accumulated": {
+          "value": null
+        },
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "value": 0
+        },
+        "alternative": {
+          "value": 0
+        }
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "earth": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "metal": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wind": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "water": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wood": {
+            "isActive": {
+              "value": false
+            }
+          }
+        },
+        "major": {
+          "earth": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "metal": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wind": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "water": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wood": {
+            "isActive": {
+              "value": false
+            }
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!d447f1001e6db9ba"
+}

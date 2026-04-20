@@ -1,0 +1,1434 @@
+{
+  "_id": "385c720756792e36",
+  "name": "Shinigami (Mayor)",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Shinigami (Mayor)",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "characteristics.secondaries.lifePoints"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "levels": {
+        "tokenHeight": 0
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "detectionModes": []
+  },
+  "items": [
+    {
+      "name": "Tamashi no Buki",
+      "type": "weapon",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "effects": [],
+      "system": {
+        "special": {
+          "value": ""
+        },
+        "integrity": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "breaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "attack": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "block": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "damage": {
+          "base": {
+            "value": 90
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "initiative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "presence": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          },
+          "special": {
+            "value": 0
+          }
+        },
+        "size": {
+          "value": "medium"
+        },
+        "strRequired": {
+          "oneHand": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "twoHands": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        },
+        "quality": {
+          "value": 0
+        },
+        "oneOrTwoHanded": {
+          "value": ""
+        },
+        "knowledgeType": {
+          "value": "known"
+        },
+        "manageabilityType": {
+          "value": "one_hand"
+        },
+        "shotType": {
+          "value": "throw"
+        },
+        "isRanged": {
+          "value": false
+        },
+        "range": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "cadence": {
+          "value": ""
+        },
+        "reload": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sizeProportion": {
+          "value": "normal"
+        },
+        "weaponStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "critic": {
+          "primary": {
+            "value": "cut"
+          },
+          "secondary": {
+            "value": "-"
+          }
+        },
+        "isShield": {
+          "value": false
+        },
+        "equipped": {
+          "value": true
+        }
+      },
+      "_id": "05b61674ef8b104a",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "animabf",
+        "systemVersion": "2.2.1",
+        "coreVersion": "14.359",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!385c720756792e36.05b61674ef8b104a"
+    }
+  ],
+  "effects": [],
+  "folder": "0b28d5ee8c291c4e",
+  "sort": 810,
+  "flags": {
+    "core": {},
+    "animu-exxet": {
+      "sourceBook": "Anima Beyond Fantasy - Los que caminaron con nosotros",
+      "sourceHeading": "Shinigami",
+      "page": 152,
+      "variant": "Mayor",
+      "rawClass": "Ánima 30",
+      "rawDamage": "90 Tamashi no Buki (Fil)",
+      "rawTA": "Ninguna",
+      "warnings": []
+    },
+    "cf": {
+      "id": "temp_385c720756",
+      "path": "Creatures Exxet#/CF_SEP/Los que caminaron con nosotros",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "version": 1,
+    "ui": {
+      "contractibleItems": {
+        "3vfdUpXPjhK0dieW": 0,
+        "aRYzrwtmwYvZ5keE": 0
+      },
+      "tabVisibility": {
+        "mystic": {
+          "value": 0
+        },
+        "domine": {
+          "value": true
+        },
+        "psychic": {
+          "value": 0
+        }
+      }
+    },
+    "general": {
+      "settings": {
+        "openRolls": {
+          "value": 90
+        },
+        "fumbles": {
+          "value": 3
+        },
+        "openOnDoubles": {
+          "value": false
+        },
+        "defenseType": {
+          "value": ""
+        },
+        "inhuman": {
+          "value": true
+        },
+        "inmaterial": {
+          "value": true
+        }
+      },
+      "modifiers": {
+        "physicalActions": {
+          "value": 0
+        },
+        "allActions": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "naturalPenalty": {
+          "byArmors": {
+            "value": 0
+          },
+          "byWearArmorRequirement": {
+            "value": 0
+          }
+        },
+        "extraDamage": {
+          "value": 0
+        }
+      },
+      "destinyPoints": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "presence": {
+        "value": 0,
+        "base": {
+          "value": 75
+        }
+      },
+      "aspect": {
+        "hair": {
+          "value": ""
+        },
+        "eyes": {
+          "value": ""
+        },
+        "height": {
+          "value": ""
+        },
+        "weight": {
+          "value": ""
+        },
+        "age": {
+          "value": ""
+        },
+        "gender": {
+          "value": ""
+        },
+        "race": {
+          "value": "Ánima 30"
+        },
+        "ethnicity": {
+          "value": ""
+        },
+        "appearance": {
+          "value": "Mayor"
+        },
+        "size": {
+          "value": "0"
+        }
+      },
+      "advantages": [],
+      "contacts": [],
+      "inventory": [],
+      "money": {
+        "cooper": {
+          "value": 0
+        },
+        "silver": {
+          "value": 0
+        },
+        "gold": {
+          "value": 0
+        }
+      },
+      "description": {
+        "value": "<section><h2>Fuente</h2><p><strong>Fuente:</strong> Anima Beyond Fantasy - Los que caminaron con nosotros</p><p><strong>Página:</strong> 152</p><p><strong>Entrada:</strong> Shinigami</p><p><strong>Variante:</strong> Mayor</p></section><section><h2>Resumen importado</h2><p><strong>Clase:</strong> Ánima 30</p><p><strong>Categoría:</strong> Guerrero Fue: 8 Des: 13 Agi: 10 Con: - Pod: 13 Int: 10 Vol: 12 Per: 11 RF 100 RM 100 RP 95 RV 100 RE 100</p><p><strong>Habilidades esenciales:</strong> Exención Física, Inhumanidad, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas.</p><p><strong>Poderes:</strong> Tamashi no Buki (Ataque Sobrenatural, Destructora de Espíritus, RM 160, Condicionada), Los Espíritus Sesgados, Saco de Almas, Ojos de Shinigami, Visión de los Condenados, Imitación de Daño (Aura, Área 20 Metros, RM 140, Daño Variable), Forma de Sangre (Manifestación, Condicionada).</p><p><strong>Daño:</strong> 90 Tamashi no Buki (Fil)</p><p><strong>TA:</strong> Ninguna</p><p><strong>Habilidades secundarias:</strong> Advertir 60, Buscar 55, Medicina 150, Historia 150, Ocultismo 150, Memorizar 50</p><p><strong>Descripción breve:</strong> José María Solano Albares Hay tantas historias en las tierras orientales acerca de las entidades conocidas como Shinigami que es difícil determinar qué es mito y qué es realidad. En Varja se los considera los dioses de la muerte (de hecho, su propio nombre puede traducirse más o menos como “deidad de la muerte”), los espíritus oscuros que deciden la duración de la vida humana y protegen las puertas del más allá. Hay relatos en los que se habla de ellos tanto como fuerzas benignas como malignas, que ayudan de vez en cuando a los mortales a cumplir ciertas tareas para después condenarlos de las más crueles maneras. Lo cierto es que los Shinigami son entidades muy enigmáticas en el folklore oriental, similares a las Valkyrias pero con matices mucho más oscuros. No habitan cuerpos físicos, pues son espíritus cuasi divinos de alto poder que se mueven por el mundo sin ser vistos por los hombres. Aunque todos poseen siempre una apariencia casi humana, se dice que no hay dos iguales; sus rostros, manera de vestir y su personalidad son siempre únicas. Además de su naturaleza espiritual, cada uno adopta además algún rasgo monstruoso que los caracteriza como Shinigami; placas quitinosas en ciertas partes de sus cuerpos, alas demoníacas, una mascara en lugar de rostro… Son, esencialmente, criaturas muy inteligentes que han pasado tanto tiempo observando a los mortales que saben utilizarlos a su antojo. Puesto que en raras ocasiones son también capaces de tomar forma física y caminar como personas normales, aprovechan estos breves momentos para jugar con la gente y obtener todo lo que necesiten. Su única aparente debilidad es su completa imposibilidad de incumplir una promesa o pacto, razón por la que es raro que se comprometan a algo si no están del todo seguros de poder (o querer) hacerlo. Es posible que haya alrededor de un centenar de Shinigamis en Gaïa. Su ámbito de actuación habitual es Varja, de donde rara vez salen. c laSeS de SHinigamiExisten dos tipos de Shinigami diferentes, dependiendo de si se trata de un espíritu creado por las deidades del Tengatti o es en si mismo un Kami menor de la muerte. Los Shinigami menores son en realidad agentes de las deidades que residen en el Tengatti. Su función es la de capturar aquellas almas que escapan a los designios de los Kami y a sus castigos, así como asegurarse de que los mortales no traten de abrir puertas al Samsara que pueda poner en peligro la ya de por si frágil estructura del más allá. Siempre actúan por petición de sus señores, siendo poco más que marionetas que meramente obedecen las órdenes que reciben. Si ejecutan con corrección su labor durante largos periodos de tiempo (varios siglos o incluso milenios), pueden ser recompensados recibiendo el pleno estatus de Kami, y siendo puesto a cargo de otros Shinigami menores. Por el contrario, los verdaderos Kami de la Muerte tienen un origen mucho más ignoto. Son independientes y actúan movidos únicamente por sus propios caprichos, que a menudo pueden llegar a parecer crueles a los ojos de los mortales. Caminan por el mundo sin ser vistos por los mortales, eligiendo de vez en cuando a personas que deben de perder la vida y llevándose consigo sus almas por mero afán de coleccionismo. m oduS oPerandiLosShinigamis suelen caminar entre los hombres llevándose consigo las almas que más les interesan. Normalmente, atacan a las personas separando temporalmente sus espíritus de sus cuerpos para guardarlas en sus sacos. Les gusta coleccionar almas poderosas, ya que cuando las consumen sus habilidades se incrementan mucho más que con las de personas normales. Si se enfrentan a enemigos que pueden verlos, hacen un cuidadoso uso de su poder de imitar el daño, lo que les otorga una completa superioridad sobre sus rivales. En la mayoría de casos, o bien su corazón o bien su cabeza son puntos vulnerables, aunque nunca ambos a la vez.</p></section><details><summary>Texto extraído</summary><pre>Nivel: 10\n\nClase: Ánima 30 Puntos de Vida: 325 Categoría: Guerrero Fue: 8 Des: 13 Agi: 10 Con: - Pod: 13 Int: 10 Vol: 12 Per: 11 RF 100 RM 100 RP 95 RV 100 RE 100\n\nTurno: 1 30 Natural, 125 Tamashi no Buki Habilidad de ataque: 285 Tamashi no Buki Habilidad de defensa: 270 Tamashi no Buki Daño: 90 Tamashi no Buki (Fil) TA: Ninguna Habilidades esenciales: Exención Física, Inhumanidad, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas. Poderes: Tamashi no Buki (Ataque Sobrenatural, Destructora de Espíritus, RM 1 60, Condicionada), Los Espíritus Sesgados, Saco de Almas, Ojos de Shinigami, Visión de los Condenados, Imitación de Daño (Aura, Área 20 Metros, RM 1 40, Daño Variable), Forma de Sangre (Manifestación, Condicionada). de movimiento: 10 Cansancio: Incansable Habilidades Secundarias: Advertir 60, Buscar 55, Medicina 1 50, Historia 1 50, Ocultismo 1 50, Memorizar 50.\n\nJosé María Solano Albares (order #3443007) Hay tantas historias en las tierras orientales acerca de las entidades conocidas como Shinigami que es difícil determinar qué es mito y qué es realidad. En Varja se los considera los dioses de la muerte (de hecho, su propio nombre puede traducirse más o menos como “deidad de la muerte”), los espíritus oscuros que deciden la duración de la vida humana y protegen las puertas del más allá. Hay relatos en los que se habla de ellos tanto como fuerzas benignas como malignas, que ayudan de vez en cuando a los mortales a cumplir ciertas tareas para después condenarlos de las más crueles maneras. Lo cierto es que los Shinigami son entidades muy enigmáticas en el folklore oriental, similares a las Valkyrias pero con matices mucho más oscuros.\n\nNo habitan cuerpos físicos, pues son espíritus cuasi divinos de alto poder que se mueven por el mundo sin ser vistos por los hombres. Aunque todos poseen siempre una apariencia casi humana, se dice que no hay dos iguales; sus rostros, manera de vestir y su personalidad son siempre únicas. Además de su naturaleza espiritual, cada uno adopta además algún rasgo monstruoso que los caracteriza como Shinigami; placas quitinosas en ciertas partes de sus cuerpos, alas demoníacas, una mascara en lugar de rostro… Son, esencialmente, criaturas muy inteligentes que han pasado tanto tiempo observando a los mortales que saben utilizarlos a su antojo. Puesto que en raras ocasiones son también capaces de tomar forma física y caminar como personas normales, aprovechan estos breves momentos para jugar con la gente y obtener todo lo que necesiten.\n\nSu única aparente debilidad es su completa imposibilidad de incumplir una promesa o pacto, razón por la que es raro que se comprometan a algo si no están del todo seguros de poder (o querer) hacerlo. Es posible que haya alrededor de un centenar de Shinigamis en Gaïa. Su ámbito de actuación habitual es Varja, de donde rara vez salen. c laSeS de SHinigamiExisten dos tipos de Shinigami diferentes, dependiendo de si se trata de un espíritu creado por las deidades del Tengatti o es en si mismo un Kami menor de la muerte. Los Shinigami menores son en realidad agentes de las deidades que residen en el Tengatti. Su función es la de capturar aquellas almas que escapan a los designios de los Kami y a sus castigos, así como asegurarse de que los mortales no traten de abrir puertas al Samsara que pueda poner en peligro la ya de por si frágil estructura del más allá.\n\nSiempre actúan por petición de sus señores, siendo poco más que marionetas que meramente obedecen las órdenes que reciben. Si ejecutan con corrección su labor durante largos periodos de tiempo (varios siglos o incluso milenios), pueden ser recompensados recibiendo el pleno estatus de Kami, y siendo puesto a cargo de otros Shinigami menores. Por el contrario, los verdaderos Kami de la Muerte tienen un origen mucho más ignoto. Son independientes y actúan movidos únicamente por sus propios caprichos, que a menudo pueden llegar a parecer crueles a los ojos de los mortales. Caminan por el mundo sin ser vistos por los mortales, eligiendo de vez en cuando a personas que deben de perder la vida y llevándose consigo sus almas por mero afán de coleccionismo. m oduS oPerandiLosShinigamis suelen caminar entre los hombres llevándose consigo las almas que más les interesan.\n\nNormalmente, atacan a las personas separando temporalmente sus espíritus de sus cuerpos para guardarlas en sus sacos. Les gusta coleccionar almas poderosas, ya que cuando las consumen sus habilidades se incrementan mucho más que con las de personas normales. Si se enfrentan a enemigos que pueden verlos, hacen un cuidadoso uso de su poder de imitar el daño, lo que les otorga una completa superioridad sobre sus rivales. En la mayoría de casos, o bien su corazón o bien su cabeza son puntos vulnerables, aunque nunca ambos a la vez. (order #3443007)</pre></details>",
+        "enriched": ""
+      },
+      "disadvantages": [],
+      "elan": [],
+      "experience": {
+        "current": {
+          "value": 0
+        },
+        "next": {
+          "value": 0
+        }
+      },
+      "languages": {
+        "base": {
+          "value": ""
+        },
+        "others": []
+      },
+      "levels": [
+        {
+          "_id": "lvl-shinigami-mayor",
+          "type": "level",
+          "name": "Shinigami (Mayor)",
+          "flags": {
+            "version": 1
+          },
+          "system": {
+            "level": 10
+          }
+        }
+      ],
+      "notes": [
+        {
+          "_id": "note-shinigami-mayor-3",
+          "type": "note",
+          "name": "Habilidades esenciales: Exención Física, Inhumanidad, Características Físicas Sobrehumanas, Características Anímicas Sobrehumanas.",
+          "system": {}
+        },
+        {
+          "_id": "note-shinigami-mayor-4",
+          "type": "note",
+          "name": "Poderes: Tamashi no Buki (Ataque Sobrenatural, Destructora de Espíritus, RM 160, Condicionada), Los Espíritus Sesgados, Saco de Almas, Ojos de Shinigami, Visión de los Condenados, Imitación de Daño (Aura, Área 20 Metros, RM 140, Daño Variable), Forma de Sangre (Manifestación, Condicionada).",
+          "system": {}
+        }
+      ],
+      "titles": []
+    },
+    "characteristics": {
+      "primaries": {
+        "agility": {
+          "value": 10,
+          "mod": 15
+        },
+        "constitution": {
+          "value": 0,
+          "mod": 0
+        },
+        "dexterity": {
+          "value": 13,
+          "mod": 25
+        },
+        "strength": {
+          "value": 8,
+          "mod": 10
+        },
+        "intelligence": {
+          "value": 10,
+          "mod": 15
+        },
+        "perception": {
+          "value": 11,
+          "mod": 20
+        },
+        "power": {
+          "value": 13,
+          "mod": 25
+        },
+        "willPower": {
+          "value": 12,
+          "mod": 20
+        }
+      },
+      "secondaries": {
+        "lifePoints": {
+          "value": 325,
+          "max": 325
+        },
+        "initiative": {
+          "base": {
+            "value": 130
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 0
+        },
+        "regenerationType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "regeneration": {
+          "normal": {
+            "value": 0,
+            "period": ""
+          },
+          "resting": {
+            "value": 0,
+            "period": ""
+          },
+          "recovery": {
+            "value": 0,
+            "period": ""
+          }
+        },
+        "movementType": {
+          "mod": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "movement": {
+          "maximum": {
+            "value": 0
+          },
+          "running": {
+            "value": 0
+          }
+        },
+        "resistances": {
+          "physical": {
+            "base": {
+              "value": 100
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "disease": {
+            "base": {
+              "value": 100
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "poison": {
+            "base": {
+              "value": 100130
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "magic": {
+            "base": {
+              "value": 100
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "psychic": {
+            "base": {
+              "value": 95
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "secondaries": {
+      "athletics": {
+        "acrobatics": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "athleticism": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "ride": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "swim": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "climb": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "jump": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "piloting": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "vigor": {
+        "composure": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "featsOfStrength": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "withstandPain": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "perception": {
+        "notice": {
+          "base": {
+            "value": 60
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "search": {
+          "base": {
+            "value": 55
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "track": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "intellectual": {
+        "animals": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "science": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "law": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "herbalLore": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "history": {
+          "base": {
+            "value": 150
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "tactics": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "medicine": {
+          "base": {
+            "value": 150
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "memorize": {
+          "base": {
+            "value": 50
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "navigation": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "occult": {
+          "base": {
+            "value": 150
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "appraisal": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "magicAppraisal": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "social": {
+        "style": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "intimidate": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "leadership": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "persuasion": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "trading": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "streetwise": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "etiquette": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "subterfuge": {
+        "lockPicking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "disguise": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "hide": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "theft": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "stealth": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "trapLore": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "poisons": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "creative": {
+        "art": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dance": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "forging": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "runes": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "alchemy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "animism": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "music": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "sleightOfHand": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "ritualCalligraphy": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "jewelry": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "tailoring": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "puppetMaking": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "secondarySpecialSkills": []
+    },
+    "combat": {
+      "attack": {
+        "base": {
+          "value": 285
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "block": {
+        "base": {
+          "value": 270
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "dodge": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "wearArmor": {
+        "value": 0
+      },
+      "totalArmor": {
+        "at": {
+          "cut": {
+            "value": 0
+          },
+          "impact": {
+            "value": 0
+          },
+          "thrust": {
+            "value": 0
+          },
+          "heat": {
+            "value": 0
+          },
+          "electricity": {
+            "value": 0
+          },
+          "cold": {
+            "value": 0
+          },
+          "energy": {
+            "value": 0
+          }
+        }
+      },
+      "combatSpecialSkills": [],
+      "combatTables": [],
+      "ammo": [],
+      "weapons": [],
+      "armors": []
+    },
+    "mystic": {
+      "act": {
+        "main": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "alternative": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "zeon": {
+        "accumulated": {
+          "value": null
+        },
+        "value": 0,
+        "max": 0
+      },
+      "zeonRegeneration": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "innateMagic": {
+        "main": {
+          "value": 0
+        },
+        "alternative": {
+          "value": 0
+        }
+      },
+      "magicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "magicLevel": {
+        "spheres": {
+          "essence": {
+            "value": 0
+          },
+          "water": {
+            "value": 0
+          },
+          "earth": {
+            "value": 0
+          },
+          "creation": {
+            "value": 0
+          },
+          "darkness": {
+            "value": 0
+          },
+          "necromancy": {
+            "value": 0
+          },
+          "light": {
+            "value": 0
+          },
+          "destruction": {
+            "value": 0
+          },
+          "air": {
+            "value": 0
+          },
+          "fire": {
+            "value": 0
+          },
+          "illusion": {
+            "value": 0
+          }
+        },
+        "total": {
+          "value": 0
+        },
+        "used": {
+          "value": 0
+        }
+      },
+      "summoning": {
+        "summon": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "banish": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "bind": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "control": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      },
+      "spells": [],
+      "spellMaintenances": [],
+      "selectedSpells": [],
+      "summons": [],
+      "metamagics": []
+    },
+    "domine": {
+      "kiSkills": [],
+      "nemesisSkills": [],
+      "arsMagnus": [],
+      "martialArts": [],
+      "creatures": [],
+      "specialSkills": [],
+      "techniques": [],
+      "seals": {
+        "minor": {
+          "earth": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "metal": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wind": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "water": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wood": {
+            "isActive": {
+              "value": false
+            }
+          }
+        },
+        "major": {
+          "earth": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "metal": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wind": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "water": {
+            "isActive": {
+              "value": false
+            }
+          },
+          "wood": {
+            "isActive": {
+              "value": false
+            }
+          }
+        }
+      },
+      "martialKnowledge": {
+        "used": {
+          "value": 0
+        },
+        "max": {
+          "value": 0
+        }
+      },
+      "kiAccumulation": {
+        "strength": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "agility": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "dexterity": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "constitution": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "willPower": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "power": {
+          "accumulated": {
+            "value": 0
+          },
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "generic": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "psychic": {
+      "psychicPotential": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "psychicProjection": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        },
+        "imbalance": {
+          "offensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          },
+          "defensive": {
+            "base": {
+              "value": 0
+            },
+            "final": {
+              "value": 0
+            }
+          }
+        }
+      },
+      "psychicPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "psychicPowers": [],
+      "psychicDisciplines": [],
+      "mentalPatterns": [],
+      "innatePsychicPower": {
+        "amount": {
+          "value": 0
+        }
+      },
+      "innatePsychicPowers": []
+    }
+  },
+  "_stats": {
+    "systemId": "animabf",
+    "systemVersion": "2.2.1",
+    "coreVersion": "14.359",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!385c720756792e36"
+}

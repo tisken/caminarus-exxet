@@ -351,10 +351,14 @@ BOOKS = {
         "source_files": [
             ("ABF_Ficha_Etheldrea.md", "Etheldrea, la Primera Bruja"),
             ("ABF_Ficha_Jigoku.md", "Jigoku No Kami, el Kami Oscuro"),
-            ("ABF_Ficha_Orochi.md", "Orochi, el Aeon Oscuro"),
-            ("ABF_Ficha_Stravos.md", "Stravos Veritas, el Rey Negro"),
+            ("ABF_Ficha_Orochi.md", "Orochi"),
+            ("ABF_Ficha_Stravos.md", "Stravos Veritas"),
             ("ABF_Pazusu.md", "Pazusu, el Demonio de las Moscas"),
         ],
+        "variant_overrides": {
+            "Orochi": [None, "Forma Nioh", "Forma Yinglu", "Forma Dragón"],
+            "Stravos Veritas": ["El Rey Negro", "Avatar de la Guerra", "Schreckliche", "Schreckliche Avatar Oscuro"],
+        },
     },
 }
 
@@ -575,6 +579,33 @@ RECORD_OVERRIDES = {
     },
     ("caminaron-con-nosotros", "Rudraskha", 15, 142, 1): {
         "variant": "Eon de las tormentas",
+    },
+    ("caminaron-con-nosotros", "Fantasma", 9, 72, 3): {
+        "variant": "Espíritu Mayor",
+    },
+    ("caminaron-con-nosotros", "Fantasma", 4, 72, 2): {
+        "variant": "Espíritu Medio",
+    },
+    ("caminaron-con-nosotros", "Omega", 16, 119, 2): {
+        "variant": "El Señor del Infinito",
+    },
+    ("caminaron-con-nosotros", "Omega", 16, 119, 3): {
+        "variant": "Lucifer",
+    },
+    ("caminaron-con-nosotros", "Shinigami", 10, 152, 2): {
+        "variant": "Mayor",
+    },
+    ("caminaron-con-nosotros", "Sierpe", 7, 154, 2): {
+        "variant": "Mayor",
+    },
+    ("caminaron-con-nosotros", "Simbiosis", 6, 156, 2): {
+        "variant": "Forma Elemental",
+    },
+    ("caminaron-con-nosotros", "Súcubo", 3, 158, 2): {
+        "variant": "Hija de Abrael",
+    },
+    ("caminaron-con-nosotros", "Marioneta", 5, 108, 2): {
+        "variant": "Mayor",
     },
 }
 
@@ -2240,6 +2271,7 @@ def extract_records_inline(book_id: str, source_text: str) -> list[dict]:
 
 def extract_records_multi_file(book_id: str) -> list[dict]:
     config = BOOKS[book_id]
+    variant_overrides = config.get("variant_overrides", {})
     all_records: list[dict] = []
     for filename, default_title in config["source_files"]:
         path = discover_path(None, default_candidates(filename))
@@ -2254,9 +2286,16 @@ def extract_records_multi_file(book_id: str) -> list[dict]:
                 continue
             page = extract_page(source_text, start)
             record = make_record(book_id, default_title, source_text, chunk, start, profile_index)
-            record["variant"] = None
-            record["name"] = default_title
             record["source_heading"] = default_title
+            variants = variant_overrides.get(default_title, [])
+            rec_idx = len(file_records)
+            if rec_idx < len(variants):
+                variant = variants[rec_idx]
+                record["variant"] = variant
+                record["name"] = f"{default_title} ({variant})" if variant else default_title
+            else:
+                record["variant"] = None
+                record["name"] = default_title
             if is_viable_record(record):
                 file_records.append(record)
         dedupe_names(file_records)
