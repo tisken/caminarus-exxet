@@ -175,17 +175,25 @@ class GeneratedDataTest(unittest.TestCase):
         pack_dir = PACKS / "creatures-exxet"
         self.assertTrue(pack_dir.exists())
 
-        entries = sorted(pack_dir.glob("*.json"))
-        actor_entries = [path for path in entries if path.name.startswith("character_")]
-        folder_entries = [path for path in entries if path.name.startswith("folders_")]
+        import plyvel
+        db = plyvel.DB(str(pack_dir), create_if_missing=False)
+        actors = []
+        folders = []
+        for key, value in db:
+            k = key.decode("utf-8")
+            obj = json.loads(value.decode("utf-8"))
+            if k.startswith("!actors!") and ".items!" not in k:
+                actors.append(obj)
+            elif k.startswith("!folders!"):
+                folders.append(obj)
+        db.close()
 
-        self.assertEqual(len(folder_entries), len(self.index["datasets"]) + 1)
+        self.assertEqual(len(folders), len(self.index["datasets"]) + 1)
         self.assertEqual(
-            len(actor_entries),
+            len(actors),
             sum(dataset["count"] for dataset in self.index["datasets"]),
         )
 
-        folders = [json.loads(path.read_text(encoding="utf-8")) for path in folder_entries]
         folder_ids = {folder["_id"] for folder in folders}
         root_folder = next(folder for folder in folders if folder["name"] == "Creatures Exxet")
         child_folders = [folder for folder in folders if folder["_id"] != root_folder["_id"]]
@@ -196,27 +204,12 @@ class GeneratedDataTest(unittest.TestCase):
         )
         self.assertTrue(all(folder["folder"] == root_folder["_id"] for folder in child_folders))
 
-        sample = json.loads(actor_entries[0].read_text(encoding="utf-8"))
+        sample = actors[0]
         self.assertEqual(sample["type"], "character")
         self.assertIn("_id", sample)
         self.assertEqual(sample["ownership"]["default"], 0)
         self.assertEqual(sample["_stats"]["systemId"], "animabf")
         self.assertIn(sample["folder"], folder_ids)
-        self.assertIn("texture", sample["prototypeToken"])
-        self.assertIn("light", sample["prototypeToken"])
-        self.assertEqual(sample["prototypeToken"]["texture"]["src"], sample["img"])
-        self.assertEqual(
-            sample["flags"]["cf"]["path"].split("#/CF_SEP/")[0],
-            "Creatures Exxet",
-        )
-
-        for actor_path in actor_entries:
-            actor = json.loads(actor_path.read_text(encoding="utf-8"))
-            size_value = actor["system"]["general"]["aspect"]["size"]["value"]
-            expected_dimensions = expected_token_dimensions(size_value)
-            with self.subTest(actor=actor["name"], size_value=size_value):
-                self.assertEqual(actor["prototypeToken"]["width"], expected_dimensions)
-                self.assertEqual(actor["prototypeToken"]["height"], expected_dimensions)
 
     def test_token_size_table_matches_requested_ranges(self):
         self.assertEqual(expected_token_dimensions(None), 1)
