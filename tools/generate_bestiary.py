@@ -780,8 +780,9 @@ def token_dimensions_for_size(size_value: int | None) -> float:
     return 5
 
 
-def build_prototype_token(name: str, image_path: str, size_value: int | None = None) -> dict:
+def build_prototype_token(name: str, image_path: str, size_value: int | None = None, perception: int = 0) -> dict:
     token_dimensions = token_dimensions_for_size(size_value)
+    sight_range = perception * 20 if perception > 0 else 0
     return {
         "name": name,
         "displayName": 0,
@@ -835,8 +836,8 @@ def build_prototype_token(name: str, image_path: str, size_value: int | None = N
         },
         "sight": {
             "angle": 360,
-            "enabled": False,
-            "range": 0,
+            "enabled": sight_range > 0,
+            "range": sight_range,
             "brightness": 1,
             "visionMode": "basic",
             "attenuation": 0.1,
@@ -1891,6 +1892,7 @@ def build_actor_document(record: dict, template: dict) -> dict:
             record["name"],
             "icons/svg/mystery-man.svg",
             record.get("size_value"),
+            stats.get("perception", 0),
         ),
         "items": prepared_items,
         "effects": [],
