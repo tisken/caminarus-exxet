@@ -1321,6 +1321,7 @@ def parse_weapons_from_damage(damage_raw: str | None) -> list[dict]:
     weapons = []
     used_spans: list[tuple[int, int]] = []
 
+    # Pattern 1: DAÑO NOMBRE (CRITICO) or DAÑO NOMBRE CRITICO_KEYWORD
     for m in WEAPON_WITH_CRITIC_RE.finditer(flat):
         dmg = parse_int(m.group(1)) or 0
         name = _clean_weapon_name(m.group(2))
@@ -1330,6 +1331,37 @@ def parse_weapons_from_damage(damage_raw: str | None) -> list[dict]:
             weapons.append({"name": name, "damage": dmg, "primary_critic": primary, "secondary_critic": secondary})
             used_spans.append((m.start(), m.end()))
 
+    # Pattern 2: DAÑO (CRITICO) NOMBRE — e.g. "100 (FIL) Desgarrar la Realidad"
+    for m in re.finditer(
+        r"(\d+)\s*\(\s*(" + CRITIC_KEYWORDS + r"(?:\s*/\s*(?:" + CRITIC_KEYWORDS + r"))?)\s*\)\s+([A-Za-z\u00c0-\u00ff][A-Za-z\u00c0-\u00ff\s'.]{2,40})",
+        flat, re.IGNORECASE,
+    ):
+        if any(m.start() >= s and m.start() < e for s, e in used_spans):
+            continue
+        dmg = parse_int(m.group(1)) or 0
+        critic_raw = m.group(2).strip()
+        name = _clean_weapon_name(m.group(3))
+        primary, secondary = _resolve_critic(critic_raw)
+        if name and dmg > 0:
+            weapons.append({"name": name, "damage": dmg, "primary_critic": primary, "secondary_critic": secondary})
+            used_spans.append((m.start(), m.end()))
+
+    # Pattern 3: NOMBRE (INFO) DAÑO (CRITICO) — e.g. "Espada larga (Instrumento) 50 (Fil)"
+    for m in re.finditer(
+        r"([A-Za-z\u00c0-\u00ff][A-Za-z\u00c0-\u00ff\s'.]{2,30})\s*\([^)]+\)\s*(\d+)\s*\(\s*(" + CRITIC_KEYWORDS + r"(?:\s*/\s*(?:" + CRITIC_KEYWORDS + r"))?)\s*\)",
+        flat, re.IGNORECASE,
+    ):
+        if any(m.start() >= s and m.start() < e for s, e in used_spans):
+            continue
+        name = _clean_weapon_name(m.group(1))
+        dmg = parse_int(m.group(2)) or 0
+        critic_raw = m.group(3).strip()
+        primary, secondary = _resolve_critic(critic_raw)
+        if name and dmg > 0:
+            weapons.append({"name": name, "damage": dmg, "primary_critic": primary, "secondary_critic": secondary})
+            used_spans.append((m.start(), m.end()))
+
+    # Pattern 4: plain DAÑO NOMBRE (no critic)
     for m in WEAPON_PLAIN_RE.finditer(flat):
         if any(m.start() >= s and m.start() < e for s, e in used_spans):
             continue
@@ -1342,6 +1374,12 @@ def parse_weapons_from_damage(damage_raw: str | None) -> list[dict]:
         if len(name) < 3 or name[0].isdigit():
             continue
         weapons.append({"name": name, "damage": dmg, "primary_critic": "-", "secondary_critic": "-"})
+
+    # Fallback: if damage_raw has a number but no weapons parsed, create "Desarmado"
+    if not weapons:
+        dmg_values = parse_all_ints(flat)
+        if dmg_values and dmg_values[0] > 0:
+            weapons.append({"name": "Desarmado", "damage": dmg_values[0], "primary_critic": "-", "secondary_critic": "-"})
 
     return weapons
 
@@ -1723,6 +1761,11 @@ def build_actor_document(record: dict, template: dict) -> dict:
         system["combat"]["dodge"]["base"]["value"] = defense_value
     elif defense_mode == "block" and defense_value is not None:
         system["combat"]["block"]["base"]["value"] = defense_value
+    elif defense_mode == "accumulation":
+        accum_value = defense_value if defense_value is not None else attack_value
+        if accum_value is not None:
+            system["combat"]["block"]["base"]["value"] = accum_value
+        system["general"]["settings"].setdefault("defenseType", {})["value"] = "accumulation"
     system["combat"]["wearArmor"]["value"] = wear_armor
 
     act_value = record.get("act")
