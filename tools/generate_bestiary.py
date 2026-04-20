@@ -1213,9 +1213,16 @@ def parse_ta_values(ta_raw: str | None) -> dict[str, int]:
     }
 
 
-WEAPON_DAMAGE_RE = re.compile(
+CRITIC_KEYWORDS = r"FIL|CON|PEN|CAL|ELE|FRI|ENE|Fil|Con|Pen|Cal|Ele|Fri|Ene|Filo|Contundente|Penetrante|Calor|Electricidad|Fr[\u00ed]o|Energ[\u00ed]a"
+
+WEAPON_WITH_CRITIC_RE = re.compile(
     r"(\d+)\s+([A-Za-z\u00c0-\u00ff][A-Za-z\u00c0-\u00ff\s+.'/-]{1,50}?)\s*"
-    r"(?:\(\s*([A-Za-z\u00c0-\u00ff]+(?:\s*/\s*[A-Za-z\u00c0-\u00ff]+)?)\s*\)|\b(FIL|CON|PEN|CAL|ELE|FRI|ENE)\b)",
+    r"(?:\(\s*(" + CRITIC_KEYWORDS + r"(?:\s*/\s*(?:" + CRITIC_KEYWORDS + r"))?)\s*\)|\b(" + CRITIC_KEYWORDS + r")\b)",
+    re.IGNORECASE,
+)
+
+WEAPON_PLAIN_RE = re.compile(
+    r"(\d+)\s+([A-Za-z\u00c0-\u00ff][A-Za-z\u00c0-\u00ff\s+.']{1,40})",
     re.IGNORECASE,
 )
 
@@ -1229,26 +1236,55 @@ CRITIC_MAP = {
     "ene": "energy", "energia": "energy", "energ\u00eda": "energy",
 }
 
+DAMAGE_SKIP = {"ninguno", "variable", "como objeto lanzado", "como arma", "especial"}
+
+
+def _resolve_critic(raw: str) -> tuple[str, str]:
+    if not raw:
+        return "-", "-"
+    parts = [p.strip() for p in raw.split("/")]
+    primary = CRITIC_MAP.get(normalize_key(parts[0]), "-")
+    secondary = CRITIC_MAP.get(normalize_key(parts[1]), "-") if len(parts) > 1 else "-"
+    return primary, secondary
+
+
+def _clean_weapon_name(name: str) -> str:
+    name = re.sub(r"\+\d+", "", name)
+    name = re.sub(r"\([^)]*\)", "", name)
+    return collapse_spaces(name.strip(" ,;./"))
+
 
 def parse_weapons_from_damage(damage_raw: str | None) -> list[dict]:
     if not damage_raw:
         return []
+    if normalize_key(damage_raw) in DAMAGE_SKIP:
+        return []
     flat = normalize_digit_spacing(damage_raw)
     weapons = []
-    for m in WEAPON_DAMAGE_RE.finditer(flat):
+    used_spans: list[tuple[int, int]] = []
+
+    for m in WEAPON_WITH_CRITIC_RE.finditer(flat):
         dmg = parse_int(m.group(1)) or 0
-        name = collapse_spaces(m.group(2)).strip(" ,;")
+        name = _clean_weapon_name(m.group(2))
         critic_raw = (m.group(3) or m.group(4) or "").strip()
-        primary_critic = CRITIC_MAP.get(normalize_key(critic_raw.split("/")[0].strip()), "-")
-        secondary_critic = "-"
-        if "/" in critic_raw:
-            secondary_critic = CRITIC_MAP.get(normalize_key(critic_raw.split("/")[1].strip()), "-")
-        weapons.append({
-            "name": name,
-            "damage": dmg,
-            "primary_critic": primary_critic,
-            "secondary_critic": secondary_critic,
-        })
+        primary, secondary = _resolve_critic(critic_raw)
+        if name and dmg > 0:
+            weapons.append({"name": name, "damage": dmg, "primary_critic": primary, "secondary_critic": secondary})
+            used_spans.append((m.start(), m.end()))
+
+    for m in WEAPON_PLAIN_RE.finditer(flat):
+        if any(m.start() >= s and m.start() < e for s, e in used_spans):
+            continue
+        dmg = parse_int(m.group(1)) or 0
+        name = _clean_weapon_name(m.group(2))
+        if not name or dmg <= 0:
+            continue
+        if normalize_key(name) in DAMAGE_SKIP:
+            continue
+        if len(name) < 3 or name[0].isdigit():
+            continue
+        weapons.append({"name": name, "damage": dmg, "primary_critic": "-", "secondary_critic": "-"})
+
     return weapons
 
 
@@ -1991,6 +2027,9 @@ def parse_inline_record(book_id: str, block_text: str, title: str, page: int | N
     he_m = re.search(r"(?:HE|HP|Hab\.?\s*(?:Esquiva|Defensa))\s+(\d+)", flat, re.IGNORECASE)
     defense = parse_int(he_m.group(1)) if he_m else None
     damage_m = re.search(r"Da[ñn]o\s+(\d+)", flat, re.IGNORECASE)
+    armas_m = re.search(r"Armas\s+([^;]+?)\s*;\s*Da[ñn]o", flat, re.IGNORECASE)
+    inline_weapon_name = collapse_spaces(armas_m.group(1)).strip() if armas_m else None
+    inline_damage = parse_int(damage_m.group(1)) if damage_m else None
     ta_m = re.search(r"TA\s+([^;]+?)(?:;|HA|HP|HE|AGI|$)", flat, re.IGNORECASE)
     ta_raw = collapse_spaces(ta_m.group(1)).rstrip(" ;") if ta_m else None
     if ta_raw and normalize_key(ta_raw) in {"no", "ninguna", "na", ""}:
@@ -2056,7 +2095,7 @@ def parse_inline_record(book_id: str, block_text: str, title: str, page: int | N
         "defense_raw": he_m.group(0) if he_m else None,
         "defense": defense,
         "defense_mode": "dodge" if he_m and "esquiva" in (he_m.group(0) or "").lower() else "block",
-        "damage_raw": damage_m.group(0) if damage_m else None,
+        "damage_raw": f"{inline_damage} {inline_weapon_name}" if inline_damage and inline_weapon_name else (damage_m.group(0) if damage_m else None),
         "wear_armor_raw": None,
         "wear_armor": None,
         "ta_raw": ta_raw,

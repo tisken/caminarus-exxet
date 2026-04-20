@@ -10,21 +10,24 @@ Addon para Foundry VTT orientado al sistema `animabf` que importa fichas de cria
 - `Dramatis Personae Vol. 2`
 - `Anima Pantalla del Director`
 - `DRAVENOR Ejército regular de La Máquina` partes `1`, `2` y `3`
+- `Anima Beyond Fantasy - Gaia Volumen I`
+- `Anima Beyond Fantasy - Gaia Volumen II`
+- `Fichas sueltas` (Etheldrea, Jigoku, Orochi, Stravos, Pazusu)
 
-El proyecto crea automáticamente un compendio de mundo llamado `Creatures Exxet`, con una carpeta interna por manual, y además incluye JSON generados a partir de los manuales para poder copiar esas fichas a compendios de mundo si hace falta.
+El proyecto genera **361 fichas** con atributos, resistencias, habilidades secundarias, armas naturales y armaduras embebidas, organizadas en un compendio `Creatures Exxet` con una carpeta por manual.
 
-## Qué hace ahora
+## Qué hace
 
-- Genera documentos de actor compatibles con `animabf`.
-- Crea automáticamente el compendio de mundo `Creatures Exxet` con subcarpetas por libro al activar el addon siendo GM.
-- Permite copiar esas fichas a compendios de mundo independientes desde el importador.
-- Conserva el bloque original extraído y metadatos de fuente dentro de cada ficha.
-- Intenta mapear automáticamente atributos, resistencias, iniciativa, vida, movimiento, regeneración, habilidades secundarias y parte de lo sobrenatural.
+- Genera documentos de actor compatibles con `animabf` con la estructura real del sistema (verificada contra las fichas oficiales del Caballo y ABF-Compendiums).
+- Incluye el compendio estático `Creatures Exxet` con subcarpetas por libro.
+- Permite copiar fichas a compendios de mundo independientes desde el importador.
+- Mapea automáticamente atributos primarios (con modificador), resistencias, iniciativa, vida, movimiento, regeneración, habilidades secundarias y parte de lo sobrenatural.
+- Genera **518 armas naturales** embebidas con daño base y tipo de crítico.
+- Genera **144 armaduras naturales** embebidas con valores de TA por tipo de daño.
 - Coloca ventajas, técnicas, Ki, invocaciones, poderes y otros campos no estructurados en las notas internas de `animabf`.
 
 ## Qué no hace todavía
 
-- No convierte todos los ataques naturales en armas embebidas.
 - No enlaza técnicas, conjuros o poderes psíquicos con ítems oficiales.
 - No corrige manualmente todos los artefactos OCR de los nombres variantes.
 
@@ -42,16 +45,14 @@ Después instala el addon con esta `Manifest URL`:
 
 1. Asegúrate de tener instalado y activado el sistema `Anima Beyond Fantasy` (`animabf`).
 2. Activa el módulo `Animu Exxet` en tu mundo.
-3. En la primera carga con un GM, el módulo prepara automáticamente el compendio `Creatures Exxet`.
-4. Dentro verás una carpeta por manual y, dentro de cada una, sus criaturas.
-5. Si quieres versiones de mundo editables o reconstruibles, abre el importador del módulo y copia allí uno o varios libros.
+3. El compendio `Creatures Exxet` aparecerá directamente en la lista de compendios con todas las criaturas organizadas por manual.
+4. Si quieres versiones de mundo editables, abre el importador del módulo y copia allí uno o varios libros.
 
 ## Estructura
 
 - `data/generated/`: datasets JSON listos para importar a compendios de mundo.
 - `data/reference/animabf-template.json`: plantilla de datos del sistema fuente.
-- `packs/`: exportación JSON del compendio generado, útil como referencia y verificación.
+- `packs/`: compendio estático con los actores generados.
 - `scripts/`: lógica del módulo dentro de Foundry.
 - `templates/`: interfaz Handlebars del importador.
 - `tools/`: utilidades de generación y mantenimiento.
-- `docs/roadmap.md`: mejoras siguientes sugeridas.

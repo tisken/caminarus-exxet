@@ -1,5 +1,5 @@
 import { AnimuExxetImporterMenu } from './apps/importer-menu.js';
-import { ensureRuntimeBestiaryCompendium, loadIndex } from './services/compendium-service.js';
+import { loadIndex } from './services/compendium-service.js';
 
 const MODULE_ID = 'animu-exxet';
 
@@ -21,13 +21,6 @@ const registerSettings = () => {
     type: String,
     default: ''
   });
-
-  game.settings.register(MODULE_ID, 'runtimePackVersion', {
-    scope: 'world',
-    config: false,
-    type: String,
-    default: ''
-  });
 };
 
 Hooks.once('init', () => {
@@ -44,11 +37,6 @@ Hooks.once('ready', async () => {
     const index = await loadIndex();
     if (!index.datasets?.length) {
       ui.notifications.warn(game.i18n.localize('ANIMU_EXXET.notifications.emptyIndex'));
-      return;
-    }
-
-    if (game.user.isGM) {
-      await ensureRuntimeBestiaryCompendium(index);
     }
   } catch (error) {
     console.error(`${MODULE_ID} | Error loading generated index`, error);

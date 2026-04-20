@@ -1,9 +1,5 @@
 const MODULE_ID = 'animu-exxet';
 const INDEX_PATH = `modules/${MODULE_ID}/data/generated/index.json`;
-const RUNTIME_PACK_LABEL = 'Creatures Exxet';
-const RUNTIME_PACK_NAME = 'animu_exxet_creatures_exxet';
-const ROOT_FOLDER_NAME = RUNTIME_PACK_LABEL;
-const FOLDER_SEPARATOR = '#/CF_SEP/';
 
 let indexCache;
 const datasetCache = new Map();
@@ -38,149 +34,6 @@ export const loadDataset = async datasetId => {
   return dataset;
 };
 
-const getRuntimePack = () =>
-  game.packs.find(
-    pack => pack.collection === `world.${RUNTIME_PACK_NAME}` || pack.metadata?.name === RUNTIME_PACK_NAME
-  );
-
-const buildRuntimeFolders = index => {
-  const rootId = foundry.utils.randomID();
-  const folderIds = new Map();
-  const folders = [
-    {
-      _id: rootId,
-      name: ROOT_FOLDER_NAME,
-      type: 'Actor',
-      sorting: 'a',
-      folder: null,
-      sort: 0,
-      color: '#000000',
-      flags: {}
-    }
-  ];
-
-  for (const [datasetIndex, dataset] of index.datasets.entries()) {
-    const folderId = foundry.utils.randomID();
-    folderIds.set(dataset.id, folderId);
-    folders.push({
-      _id: folderId,
-      name: dataset.label,
-      type: 'Actor',
-      sorting: 'a',
-      folder: rootId,
-      sort: (datasetIndex + 1) * 10,
-      color: '#000000',
-      flags: {}
-    });
-  }
-
-  return { folders, folderIds };
-};
-
-const sanitizeEmbeddedItem = item => {
-  const prepared = foundry.utils.deepClone(item);
-  delete prepared._id;
-  delete prepared._key;
-  delete prepared._stats;
-  return prepared;
-};
-
-const prepareRuntimeActor = ({ document, folderId, folderPath, sort }) => {
-  const actor = foundry.utils.deepClone(document);
-  delete actor._id;
-  delete actor._key;
-  delete actor._stats;
-  actor.folder = folderId;
-  actor.sort = sort;
-  actor.flags ??= {};
-  actor.flags.core ??= {};
-  actor.flags.cf = {
-    ...(actor.flags.cf ?? {}),
-    id: actor.flags?.cf?.id ?? `temp_${foundry.utils.randomID(10)}`,
-    path: folderPath,
-    color: actor.flags?.cf?.color ?? '#000000'
-  };
-  actor.items = (actor.items ?? []).map(sanitizeEmbeddedItem);
-  return actor;
-};
-
-const createRuntimeActors = async ({ pack, index, folderIds }) => {
-  const documents = [];
-
-  for (const datasetMeta of index.datasets) {
-    const dataset = await loadDataset(datasetMeta.id);
-    const folderId = folderIds.get(datasetMeta.id);
-    const folderPath = `${ROOT_FOLDER_NAME}${FOLDER_SEPARATOR}${datasetMeta.label}`;
-
-    for (const [documentIndex, document] of dataset.documents.entries()) {
-      documents.push(
-        prepareRuntimeActor({
-          document,
-          folderId,
-          folderPath,
-          sort: documentIndex * 10
-        })
-      );
-    }
-  }
-
-  const chunkSize = 25;
-  for (let index = 0; index < documents.length; index += chunkSize) {
-    const chunk = documents.slice(index, index + chunkSize);
-    await Actor.createDocuments(chunk, { pack: pack.collection, keepId: false });
-  }
-
-  return documents.length;
-};
-
-export const ensureRuntimeBestiaryCompendium = async (index = null) => {
-  const resolvedIndex = index ?? (await loadIndex());
-  const moduleVersion = game.modules.get(MODULE_ID)?.version ?? '';
-  const builtVersion = game.settings.get(MODULE_ID, 'runtimePackVersion');
-  const existingPack = getRuntimePack();
-
-  let rebuildPack = !existingPack || builtVersion !== moduleVersion;
-  if (existingPack && !rebuildPack) {
-    const existingIndex = await existingPack.getIndex({ fields: ['folder'] });
-    rebuildPack = existingIndex.size === 0;
-  }
-
-  if (!rebuildPack) return existingPack;
-
-  ui.notifications.info(
-    game.i18n.format('ANIMU_EXXET.notifications.startRuntimePack', {
-      label: RUNTIME_PACK_LABEL
-    })
-  );
-
-  if (existingPack) {
-    await existingPack.deleteCompendium();
-  }
-
-  const pack = await CompendiumCollection.createCompendium({
-    label: RUNTIME_PACK_LABEL,
-    name: RUNTIME_PACK_NAME,
-    type: 'Actor',
-    package: 'world',
-    system: 'animabf'
-  });
-
-  const { folders, folderIds } = buildRuntimeFolders(resolvedIndex);
-  await Folder.createDocuments(folders, { pack: pack.collection, keepId: true });
-  const count = await createRuntimeActors({ pack, index: resolvedIndex, folderIds });
-
-  await game.settings.set(MODULE_ID, 'runtimePackVersion', moduleVersion);
-  ui.notifications.info(
-    game.i18n.format('ANIMU_EXXET.notifications.finishRuntimePack', {
-      label: RUNTIME_PACK_LABEL,
-      count,
-      pack: pack.title
-    })
-  );
-
-  return pack;
-};
-
 const ensureCompendium = async ({ dataset, rebuildExisting }) => {
   const packName = sanitizePackName(`${MODULE_ID}_${dataset.id}`);
   const packLabel = dataset.compendiumLabel ?? dataset.label;
@@ -191,10 +44,7 @@ const ensureCompendium = async ({ dataset, rebuildExisting }) => {
   if (existingPack && rebuildExisting) {
     await existingPack.deleteCompendium();
   } else if (existingPack) {
-    return {
-      pack: existingPack,
-      rebuilt: false
-    };
+    return { pack: existingPack, rebuilt: false };
   }
 
   const pack = await CompendiumCollection.createCompendium({
@@ -205,14 +55,7 @@ const ensureCompendium = async ({ dataset, rebuildExisting }) => {
     system: 'animabf'
   });
 
-  return {
-    pack,
-    rebuilt: true
-  };
-};
-
-const storeImportTimestamp = async () => {
-  await game.settings.set(MODULE_ID, 'lastImportAt', new Date().toISOString());
+  return { pack, rebuilt: true };
 };
 
 export const importDataset = async (datasetId, options = {}) => {
@@ -235,9 +78,16 @@ export const importDataset = async (datasetId, options = {}) => {
   }
 
   if (documents.length) {
-    await Actor.createDocuments(documents, { pack: pack.collection, keepId: false });
+    const chunkSize = 25;
+    for (let i = 0; i < documents.length; i += chunkSize) {
+      await Actor.createDocuments(documents.slice(i, i + chunkSize), {
+        pack: pack.collection,
+        keepId: false
+      });
+    }
   }
-  await storeImportTimestamp();
+
+  await game.settings.set(MODULE_ID, 'lastImportAt', new Date().toISOString());
 
   ui.notifications.info(
     game.i18n.format('ANIMU_EXXET.notifications.finishImport', {
@@ -247,11 +97,7 @@ export const importDataset = async (datasetId, options = {}) => {
     })
   );
 
-  return {
-    count: documents.length,
-    dataset,
-    pack
-  };
+  return { count: documents.length, dataset, pack };
 };
 
 export const importAllDatasets = async (options = {}) => {
@@ -259,7 +105,6 @@ export const importAllDatasets = async (options = {}) => {
   const results = [];
 
   for (const dataset of index.datasets) {
-    // Import sequentially to keep Foundry document creation predictable.
     const result = await importDataset(dataset.id, options);
     results.push(result);
   }
