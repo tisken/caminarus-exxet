@@ -753,7 +753,7 @@ def build_stats_block() -> dict:
         "coreVersion": FOUNDRY_CORE_VERSION,
         "createdTime": 1713571200000,
         "modifiedTime": 1713571200000,
-        "lastModifiedBy": "animu-exxet-generator",
+        "lastModifiedBy": "animuExxetGen001",
     }
 
 
