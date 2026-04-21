@@ -196,6 +196,11 @@ for m in NIVEL_RE.finditer(text):
     
     if title in SKIP_NAMES or any(s.lower() in title.lower() for s in SKIP_NAMES) or (title and title[0].isdigit()):
         continue
+    if len(title) > 45 or title.endswith('.') or title.endswith(','):
+        continue
+    title_lower = title.lower()
+    if any(w in title_lower for w in ['actualmente', 'cómo', 'durante', 'posesión', 'ignora', 'sigue siendo', 'fábula:', 'un broche', 'un nudus', 'estos objetos', 'la esencia', 'la prisión', 'las dagas', 'el arma se', 'el reloj se', 'el sistema io', 'de momento', 'nekomusume', 'se ha podido']):
+        continue
     name = uname(title)
     
     if title in FORCE_NOTE:
@@ -215,17 +220,11 @@ for m in NIVEL_RE.finditer(text):
             )
             stats = parse_weapon(after_text[wm.end():block_end])
             items.append(("weapon", mk_weapon(wname, wid, stats), page))
-        # Companion note
-        nid = sid(PACK_ID, "wn", name)
-        items.append(("note", mk_note(f"{name} (nota)", nid), page))
     elif armor_tables:
         aid = sid(PACK_ID, "a", name)
-        # Parse armor TA values from the text after the table header
         armor_block = text[m.start():m.start()+500]
         ta_vals = parse_armor_values(armor_block)
         items.append(("armor", mk_armor(name, aid, ta_vals), page))
-        nid = sid(PACK_ID, "an", name)
-        items.append(("note", mk_note(f"{name} (nota)", nid), page))
     else:
         nid = sid(PACK_ID, "n", name)
         items.append(("note", mk_note(name, nid), page))
