@@ -30,7 +30,7 @@ function injectButton(el) {
   btn.type = 'button';
   btn.className = 'animu-exxet-bulk-btn';
   btn.style.margin = '2px';
-  btn.innerHTML = `<i class="fas fa-file-import"></i> ${game.i18n.localize('ANIMU_EXXET.excel.openImporter')}`;
+  btn.innerHTML = `<i class="fas fa-file-import"></i> Importar fichas Excel`;
   btn.addEventListener('click', () => BulkImportApp.show());
 
   const target =
