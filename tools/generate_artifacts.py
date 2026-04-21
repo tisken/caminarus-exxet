@@ -127,10 +127,32 @@ def mk_weapon(name, wid, s):
                 "critic":{"primary":{"value":s["crit1"]},"secondary":{"value":s["crit2"]}},
                 "isShield":{"value":False},"equipped":{"value":True}}}
 
-def mk_armor(name, aid):
+def parse_armor_values(block_text):
+    lines = [l.strip() for l in block_text.split("\n") if l.strip()]
+    keys = ["cut", "impact", "thrust", "heat", "electricity", "cold", "energy"]
+    vals = {}
+    for i, l in enumerate(lines):
+        if l == "FIL":
+            nums = []
+            for j in range(i + 1, min(i + 20, len(lines))):
+                if lines[j] in ("FIL", "CON", "PEN", "CAL", "ELE", "FRI", "ENE"):
+                    continue
+                try:
+                    nums.append(int(lines[j]))
+                except ValueError:
+                    if len(nums) >= 7 or lines[j].startswith("Reglas"):
+                        break
+            for ki, key in enumerate(keys):
+                vals[key] = nums[ki] if ki < len(nums) else 0
+            break
+    return vals
+
+
+def mk_armor(name, aid, ta=None):
+    tv = ta or {}
     return {"_id":aid,"name":name,"type":"armor","img":"icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
             "effects":[],"folder":None,"sort":0,"flags":{},"ownership":{"default":0},"_stats":st(),"_key":f"!items!{aid}",
-            "system":{**{k:{"base":{"value":0},"final":{"value":0},"value":0} for k in ("cut","pierce","impact","thrust","heat","electricity","cold","energy")},
+            "system":{**{k:{"base":{"value":tv.get(k,0)},"final":{"value":0},"value":tv.get(k,0)} for k in ("cut","pierce","impact","thrust","heat","electricity","cold","energy")},
                 "integrity":{"base":{"value":0},"final":{"value":0}},"presence":{"base":{"value":0},"final":{"value":0}},
                 "movementRestriction":{"base":{"value":0},"final":{"value":0}},"naturalPenalty":{"base":{"value":0},"final":{"value":0}},
                 "wearArmorRequirement":{"base":{"value":0},"final":{"value":0}},"isEnchanted":{"value":True},
@@ -198,7 +220,10 @@ for m in NIVEL_RE.finditer(text):
         items.append(("note", mk_note(f"{name} (nota)", nid), page))
     elif armor_tables:
         aid = sid(PACK_ID, "a", name)
-        items.append(("armor", mk_armor(name, aid), page))
+        # Parse armor TA values from the text after the table header
+        armor_block = text[m.start():m.start()+500]
+        ta_vals = parse_armor_values(armor_block)
+        items.append(("armor", mk_armor(name, aid, ta_vals), page))
         nid = sid(PACK_ID, "an", name)
         items.append(("note", mk_note(f"{name} (nota)", nid), page))
     else:
