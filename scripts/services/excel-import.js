@@ -261,11 +261,11 @@ export function parseExcelToActorData(workbook, fileName) {
     [dynEssentialAbilities || getStr(CELLS.essentialAbilities), 'Habilidades esenciales'],
     [dynPowers || getStr(CELLS.powers), 'Poderes'],
     [dynSpecial || getStr(CELLS.special), 'Especial'],
-    [CELLS.kiSkills, 'Habilidades de Ki'],
+    [safeStr(findValue(sheet, 'Habilidades de Ki:', 35, 45)), 'Habilidades de Ki'],
     [CELLS.techniques, 'Técnicas'],
-    [CELLS.magicLevel, 'Nivel de Magia'],
-    [CELLS.psychicDisciplines, 'Disciplinas Psíquicas'],
-    [CELLS.psychicPowers, 'Poderes Psíquicos'],
+    [safeStr(findValue(sheet, 'Nivel de Magia:', 45, 60) || findValue(sheet, 'Nivel de magia:', 45, 60)), 'Nivel de Magia'],
+    [safeStr(findValue(sheet, 'Disciplinas Psíquicas:', 60, 75)), 'Disciplinas Psíquicas'],
+    [safeStr(findValue(sheet, 'Poderes Psíquicos:', 60, 75)), 'Poderes Psíquicos'],
   ];
   const notes = [];
   for (const [val, label] of dynNoteValues) {
@@ -284,9 +284,9 @@ export function parseExcelToActorData(workbook, fileName) {
       ui: {
         contractibleItems: {},
         tabVisibility: {
-          mystic: { value: !!(getInt(CELLS.zeon) || getInt(CELLS.act) || getInt(CELLS.magicProjection)) },
-          domine: { value: !!(getStr(CELLS.kiSkills) || getStr(CELLS.techniques)) },
-          psychic: { value: !!(getInt(CELLS.psychicPotential) || getInt(CELLS.cv)) },
+          mystic: { value: !!(safeInt(findValue(sheet, 'Zeón:', 40, 60) || findValue(sheet, 'Zeon:', 40, 60)) || safeInt(findValue(sheet, 'ACT:', 40, 60)) || safeInt(findValue(sheet, 'Proyección Mágica:', 40, 60) || findValue(sheet, 'Proyección mágica:', 40, 60))) },
+          domine: { value: !!(safeStr(findValue(sheet, 'Habilidades de Ki:', 35, 45)) || safeStr(findValue(sheet, 'Técnicas:', 40, 50))) },
+          psychic: { value: !!(safeInt(findValue(sheet, 'Potencial Psíquico:', 55, 70)) || safeInt(findValue(sheet, 'CV Libres:', 55, 70))) },
         }
       },
       general: {
@@ -346,12 +346,12 @@ export function parseExcelToActorData(workbook, fileName) {
         combatSpecialSkills: [], combatTables: [], ammo: [], weapons: [], armors: [],
       },
       mystic: {
-        act: { main: { base: { value: getInt(CELLS.act) }, final: { value: 0 } }, alternative: { base: { value: 0 }, final: { value: 0 } } },
-        zeon: { accumulated: { value: null }, value: getInt(CELLS.zeon), max: getInt(CELLS.zeon) },
-        zeonRegeneration: { base: { value: getInt(CELLS.zeonRegen) }, final: { value: 0 } },
+        act: { main: { base: { value: safeInt(findValue(sheet, 'ACT:', 40, 60)) }, final: { value: 0 } }, alternative: { base: { value: 0 }, final: { value: 0 } } },
+        zeon: { accumulated: { value: null }, value: safeInt(findValue(sheet, 'Zeón:', 40, 60) || findValue(sheet, 'Zeon:', 40, 60)), max: safeInt(findValue(sheet, 'Zeón:', 40, 60) || findValue(sheet, 'Zeon:', 40, 60)) },
+        zeonRegeneration: { base: { value: safeInt(findValue(sheet, 'Reg. Zeon:', 40, 60) || findValue(sheet, 'Reg. Zeón:', 40, 60)) }, final: { value: 0 } },
         innateMagic: { main: { value: 0 }, alternative: { value: 0 } },
         magicProjection: (() => {
-          const mpRaw = getStr(CELLS.magicProjection);
+          const mpRaw = safeStr(findValue(sheet, 'Proyección Mágica:', 40, 60) || findValue(sheet, 'Proyección mágica:', 40, 60));
           const mpNums = mpRaw.match(/-?\d+/g) || [];
           const mpBase = parseInt(mpNums[0]) || 0;
           const mpOff = mpRaw.toLowerCase().includes('ofensiva') && mpNums.length >= 1 ? parseInt(mpNums[0]) || 0 : mpBase;
@@ -359,7 +359,7 @@ export function parseExcelToActorData(workbook, fileName) {
           return { base: { value: mpBase }, final: { value: 0 }, imbalance: { offensive: { base: { value: mpOff }, final: { value: 0 } }, defensive: { base: { value: mpDef }, final: { value: 0 } } } };
         })(),
         magicLevel: (() => {
-          const mlRaw = getStr(CELLS.magicLevel).toLowerCase();
+          const mlRaw = safeStr(findValue(sheet, 'Nivel de Magia:', 45, 60) || findValue(sheet, 'Nivel de magia:', 45, 60)).toLowerCase();
           const sphereMap = {esencia:'essence',agua:'water',tierra:'earth',creacion:'creation',oscuridad:'darkness',nigromancia:'necromancy',luz:'light',destruccion:'destruction',aire:'air',fuego:'fire',ilusion:'illusion',vacio:'destruction'};
           const spheres = Object.fromEntries(['essence','water','earth','creation','darkness','necromancy','light','destruction','air','fire','illusion'].map(k => [k, {value: 0}]));
           for (const [es, en] of Object.entries(sphereMap)) {
@@ -371,10 +371,10 @@ export function parseExcelToActorData(workbook, fileName) {
           return { spheres, total: { value: total }, used: { value: total } };
         })(),
         summoning: {
-          summon: { base: { value: getInt(CELLS.summon) }, final: { value: 0 } },
-          banish: { base: { value: getInt(CELLS.banish) }, final: { value: 0 } },
-          bind: { base: { value: getInt(CELLS.bind) }, final: { value: 0 } },
-          control: { base: { value: getInt(CELLS.control) }, final: { value: 0 } },
+          summon: { base: { value: safeInt(findValue(sheet, 'Convocar:', 40, 60)) }, final: { value: 0 } },
+          banish: { base: { value: safeInt(findValue(sheet, 'Desconvocar:', 40, 60)) }, final: { value: 0 } },
+          bind: { base: { value: safeInt(findValue(sheet, 'Atar:', 40, 60)) }, final: { value: 0 } },
+          control: { base: { value: safeInt(findValue(sheet, 'Dominar:', 40, 60)) }, final: { value: 0 } },
         },
         spells: [], spellMaintenances: [], selectedSpells: [], summons: [], metamagics: [],
       },
@@ -382,29 +382,45 @@ export function parseExcelToActorData(workbook, fileName) {
         kiSkills: [], nemesisSkills: [], arsMagnus: [], martialArts: [], creatures: [], specialSkills: [], techniques: [],
         seals: { minor: Object.fromEntries(['earth', 'metal', 'wind', 'water', 'wood'].map(k => [k, { isActive: { value: false } }])), major: Object.fromEntries(['earth', 'metal', 'wind', 'water', 'wood'].map(k => [k, { isActive: { value: false } }])) },
         martialKnowledge: { used: { value: 0 }, max: { value: 0 } },
-        kiAccumulation: {
-          strength: { accumulated: { value: 0 }, base: { value: getInt(CELLS.kiAccFue) }, final: { value: 0 } },
-          agility: { accumulated: { value: 0 }, base: { value: getInt(CELLS.kiAccAgi) }, final: { value: 0 } },
-          dexterity: { accumulated: { value: 0 }, base: { value: getInt(CELLS.kiAccDes) }, final: { value: 0 } },
-          constitution: { accumulated: { value: 0 }, base: { value: getInt(CELLS.kiAccCon) }, final: { value: 0 } },
-          willPower: { accumulated: { value: 0 }, base: { value: getInt(CELLS.kiAccVol) }, final: { value: 0 } },
-          power: { accumulated: { value: 0 }, base: { value: getInt(CELLS.kiAccPod) }, final: { value: 0 } },
-          generic: { value: getInt(CELLS.kiPoints), max: getInt(CELLS.kiPoints) },
-        },
+        kiAccumulation: (() => {
+          const accCell = findCell(sheet, 'Acumulaciones:', 30, 45);
+          if (!accCell) return {
+            strength: { accumulated: { value: 0 }, base: { value: 0 }, final: { value: 0 } },
+            dexterity: { accumulated: { value: 0 }, base: { value: 0 }, final: { value: 0 } },
+            agility: { accumulated: { value: 0 }, base: { value: 0 }, final: { value: 0 } },
+            constitution: { accumulated: { value: 0 }, base: { value: 0 }, final: { value: 0 } },
+            willPower: { accumulated: { value: 0 }, base: { value: 0 }, final: { value: 0 } },
+            power: { accumulated: { value: 0 }, base: { value: 0 }, final: { value: 0 } },
+            generic: { value: 0, max: 0 },
+          };
+          const r = accCell.row;
+          const fueCol = findCell(sheet, 'Fue:', r, r, 10, 35);
+          const fc = fueCol ? fueCol.col : 13;
+          const step = 4;
+          return {
+            strength: { accumulated: { value: 0 }, base: { value: safeInt(cellAt(sheet, r, fc + 1)) }, final: { value: 0 } },
+            dexterity: { accumulated: { value: 0 }, base: { value: safeInt(cellAt(sheet, r, fc + 1 + step)) }, final: { value: 0 } },
+            agility: { accumulated: { value: 0 }, base: { value: safeInt(cellAt(sheet, r, fc + 1 + step*2)) }, final: { value: 0 } },
+            constitution: { accumulated: { value: 0 }, base: { value: safeInt(cellAt(sheet, r, fc + 1 + step*3)) }, final: { value: 0 } },
+            power: { accumulated: { value: 0 }, base: { value: safeInt(cellAt(sheet, r, fc + 1 + step*4)) }, final: { value: 0 } },
+            willPower: { accumulated: { value: 0 }, base: { value: safeInt(cellAt(sheet, r, fc + 1 + step*5)) }, final: { value: 0 } },
+            generic: { value: safeInt(findValue(sheet, 'Puntos de Ki:', 30, 45)), max: safeInt(findValue(sheet, 'Puntos de Ki:', 30, 45)) },
+          };
+        })(),
       },
       psychic: {
-        psychicPotential: { base: { value: getInt(CELLS.psychicPotential) }, final: { value: 0 } },
+        psychicPotential: { base: { value: safeInt(findValue(sheet, 'Potencial Psíquico:', 55, 70)) }, final: { value: 0 } },
         psychicProjection: (() => {
-          const ppRaw = getStr(CELLS.psychicProjection);
+          const ppRaw = safeStr(findValue(sheet, 'Proyección Psíquica:', 55, 70));
           const ppNums = ppRaw.match(/-?\d+/g) || [];
           const ppBase = parseInt(ppNums[0]) || 0;
           const ppOff = ppRaw.toLowerCase().includes('ofensiva') && ppNums.length >= 1 ? parseInt(ppNums[0]) || 0 : ppBase;
           const ppDef = ppRaw.toLowerCase().includes('defensiva') && ppNums.length >= 2 ? parseInt(ppNums[1]) || 0 : ppBase;
           return { base: { value: ppBase }, final: { value: 0 }, imbalance: { offensive: { base: { value: ppOff }, final: { value: 0 } }, defensive: { base: { value: ppDef }, final: { value: 0 } } } };
         })(),
-        psychicPoints: { value: getInt(CELLS.cv), max: getInt(CELLS.cv) },
+        psychicPoints: { value: safeInt(findValue(sheet, 'CV Libres:', 55, 70)), max: safeInt(findValue(sheet, 'CV Libres:', 55, 70)) },
         psychicPowers: [], psychicDisciplines: [], mentalPatterns: [],
-        innatePsychicPower: { amount: { value: getInt(CELLS.innate) } },
+        innatePsychicPower: { amount: { value: safeInt(findValue(sheet, 'Innatos:', 55, 70)) } },
         // psychicLevel not directly mapped in animabf system
         innatePsychicPowers: [],
       },
