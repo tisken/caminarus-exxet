@@ -22,31 +22,25 @@ const registerSettings = () => {
   });
 };
 
-function injectButton(html, cssClass, label, icon, onClick) {
-  // Foundry v13+ passes native DOM element, not jQuery
-  const el = html instanceof HTMLElement ? html : html[0] ?? html;
-  if (!el || !(el instanceof HTMLElement)) return;
-  if (el.querySelector(`.${cssClass}`)) return;
+function injectButton(el) {
+  if (!(el instanceof HTMLElement)) return;
+  if (el.querySelector('.animu-exxet-bulk-btn')) return;
 
   const btn = document.createElement('button');
   btn.type = 'button';
-  btn.className = cssClass;
+  btn.className = 'animu-exxet-bulk-btn';
   btn.style.margin = '2px';
-  btn.innerHTML = `<i class="${icon}"></i> ${label}`;
-  btn.addEventListener('click', onClick);
+  btn.innerHTML = `<i class="fas fa-file-import"></i> ${game.i18n.localize('ANIMU_EXXET.excel.openImporter')}`;
+  btn.addEventListener('click', () => BulkImportApp.show());
 
   const target =
     el.querySelector('.header-actions') ??
     el.querySelector('.action-buttons') ??
     el.querySelector('.directory-footer') ??
-    el.querySelector('[class*="footer"]') ??
     el.querySelector('.directory-header');
 
-  if (target) {
-    target.appendChild(btn);
-  } else {
-    el.prepend(btn);
-  }
+  if (target) target.appendChild(btn);
+  else el.prepend(btn);
 }
 
 Hooks.once('init', () => {
@@ -71,22 +65,5 @@ Hooks.once('ready', async () => {
 
 Hooks.on('renderActorDirectory', (_app, html) => {
   if (!game.user.isGM || game.system?.id !== 'animabf') return;
-  injectButton(
-    html,
-    'animu-exxet-bulk-btn',
-    game.i18n.localize('ANIMU_EXXET.bulk.openBulkImport'),
-    'fas fa-file-import',
-    () => new BulkImportApp().render(true)
-  );
-});
-
-Hooks.on('renderItemDirectory', (_app, html) => {
-  if (!game.user.isGM || game.system?.id !== 'animabf') return;
-  injectButton(
-    html,
-    'animu-exxet-bulk-btn',
-    game.i18n.localize('ANIMU_EXXET.bulk.openBulkImport'),
-    'fas fa-file-import',
-    () => new BulkImportApp().render(true)
-  );
+  injectButton(html instanceof HTMLElement ? html : html[0] ?? html);
 });
