@@ -6,9 +6,18 @@ export class BulkImportApp {
   static show(targetFolder = null) {
     const folders = game.folders.filter(f => f.type === 'Actor');
     const folderOptions = folders.map(f => {
-      const label = f.name.replace(/[_.]/g, ' ');
+      let label = f.name.replace(/[_.]/g, ' ').replace(/\s+/g, ' ').trim();
+      // Add indent for nested folders
+      let depth = 0;
+      let parent = f.folder;
+      while (parent) {
+        depth++;
+        const pf = folders.find(x => x.id === parent);
+        parent = pf ? pf.folder : null;
+      }
+      const indent = '\u00a0\u00a0'.repeat(depth);
       const selected = targetFolder?.id === f.id ? 'selected' : '';
-      return `<option value="${f.id}" ${selected}>${label}</option>`;
+      return `<option value="${f.id}" ${selected}>${indent}${label}</option>`;
     }).join('');
 
     const content = `
