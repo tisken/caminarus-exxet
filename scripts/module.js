@@ -42,27 +42,32 @@ Hooks.once('ready', async () => {
   }
 });
 
-Hooks.on('renderCompendiumDirectory', (_app, html) => {
-  if (!game.user.isGM || game.system?.id !== 'animabf') return;
-  if (html.find('.animu-exxet-directory-button').length) return;
+// Context menu on Actor Directory folders
+Hooks.on('getActorDirectoryFolderContext', (html, options) => {
+  if (!game.user.isGM) return;
 
-  const footer = html.find('.directory-footer');
+  options.push({
+    name: game.i18n.localize('ANIMU_EXXET.bulk.importToFolder'),
+    icon: '<i class="fas fa-file-import"></i>',
+    callback: li => {
+      const folderId = li.data('folderId') ?? li.closest('[data-folder-id]')?.dataset?.folderId;
+      const folder = game.folders.get(folderId);
+      new BulkImportApp({ targetFolder: folder }).render(true);
+    }
+  });
+});
 
-  const importerBtn = $(`
-    <button type="button" class="animu-exxet-directory-button">
-      <i class="fas fa-dragon"></i>
-      ${game.i18n.localize('ANIMU_EXXET.ui.openImporter')}
-    </button>
-  `);
-  importerBtn.on('click', () => new AnimuExxetImporterMenu().render(true));
-  footer.append(importerBtn);
+// Also add to Item Directory folders
+Hooks.on('getItemDirectoryFolderContext', (html, options) => {
+  if (!game.user.isGM) return;
 
-  const bulkBtn = $(`
-    <button type="button" class="animu-exxet-directory-button animu-exxet-bulk-button">
-      <i class="fas fa-file-import"></i>
-      ${game.i18n.localize('ANIMU_EXXET.bulk.openBulkImport')}
-    </button>
-  `);
-  bulkBtn.on('click', () => new BulkImportApp().render(true));
-  footer.append(bulkBtn);
+  options.push({
+    name: game.i18n.localize('ANIMU_EXXET.bulk.importToFolder'),
+    icon: '<i class="fas fa-file-import"></i>',
+    callback: li => {
+      const folderId = li.data('folderId') ?? li.closest('[data-folder-id]')?.dataset?.folderId;
+      const folder = game.folders.get(folderId);
+      new BulkImportApp({ targetFolder: folder }).render(true);
+    }
+  });
 });
