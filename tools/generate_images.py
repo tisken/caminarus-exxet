@@ -28,13 +28,16 @@ def slugify(value: str) -> str:
 
 
 def extract_search_terms(doc: dict) -> str:
+    """Build a rich search query synthesizing creature visual description."""
     name = doc["name"]
     desc = doc["system"]["general"]["description"]["value"]
 
+    # Extract variant (what's in parentheses)
     paren = re.search(r"\((.+)\)", name)
     variant = paren.group(1) if paren else ""
     base_name = re.sub(r"\s*\(.*\)", "", name).strip()
 
+    # Generic variants that need the base name
     generic = {"Menor", "Mayor", "Guerrero", "Sacerdote", "Forma Elemental",
                "Forma Nioh", "Forma Yinglu", "El Rey Negro", "Antiguo",
                "Del Dolor", "Elemental mayor", "Elemental Mayor",
@@ -44,22 +47,80 @@ def extract_search_terms(doc: dict) -> str:
                "Avatar de la Guerra", "Schreckliche",
                "Schreckliche Avatar Oscuro"}
 
+    # Build the creature type description
     if variant and variant not in generic:
-        query = variant
+        creature_desc = variant
     elif variant:
-        query = f"{base_name} {variant}"
+        creature_desc = f"{base_name} {variant}"
     else:
-        query = base_name
+        creature_desc = base_name
 
-    visual_keywords = re.findall(
-        r"(?:fuego|hielo|sombra|luz|oscur\w*|drag[o\u00f3]n|serpiente|espectral|demonio|\u00e1ngel|elemental|muerto|esqueleto|fantasma|bestia|gigante|insecto|lobo|ara\u00f1a|vampir\w*|golem|caballero|guerrero|hechicero|monstruo|espiritu|planta|animal|agua|tierra|aire)",
-        desc.lower()
-    )
-    unique_visual = list(dict.fromkeys(visual_keywords))[:2]
+    # Extract visual keywords from powers and abilities
+    powers_match = re.search(r"Poderes:</strong>\s*([^<]+)", desc)
+    essentials_match = re.search(r"Habilidades esenciales:</strong>\s*([^<]+)", desc)
+    
+    visual_hints = []
+    
+    # From powers: extract weapon/attack types and visual elements
+    if powers_match:
+        powers_text = powers_match.group(1).lower()
+        # Physical features
+        for pattern, hint in [
+            (r"garras de (\w+)", "garras"),
+            (r"alas", "alado"),
+            (r"mordisco", "fauces"),
+            (r"aliento", "aliento"),
+            (r"cuerpo de", "cuerpo especial"),
+            (r"forma elemental", "etéreo"),
+            (r"vuelo", "volador"),
+            (r"espiritus", "espectral"),
+            (r"veneno", "venenoso"),
+            (r"fuego|ígneo|llamas|calor", "fuego"),
+            (r"hielo|frío|congelación", "hielo"),
+            (r"sombra|oscur", "oscuro"),
+            (r"luz|luminoso|brillante", "luminoso"),
+            (r"rayo|eléctric|voltaico", "eléctrico"),
+            (r"agua|acuático|marea", "acuático"),
+            (r"tierra|roca|piedra", "pétreo"),
+            (r"viento|aire|tormenta", "viento"),
+            (r"sangre|vampír", "sangriento"),
+            (r"hueso|esquelet", "óseo"),
+            (r"metal|acero|hierro", "metálico"),
+        ]:
+            if re.search(pattern, powers_text):
+                hint_resolved = hint.strip()
+                if hint_resolved and hint_resolved not in visual_hints:
+                    visual_hints.append(hint_resolved)
+    
+    # From essentials: physical traits
+    if essentials_match:
+        ess_text = essentials_match.group(1).lower()
+        for pattern, hint in [
+            (r"exención física", "incorpóreo"),
+            (r"inhumanidad", "sobrehumano"),
+            (r"zen", "maestro marcial"),
+            (r"inmune", "resistente"),
+            (r"tamaño innatural", "tamaño anormal"),
+            (r"características físicas sobrehumanas", "poderoso"),
+        ]:
+            if re.search(pattern, ess_text):
+                if hint not in visual_hints:
+                    visual_hints.append(hint)
 
-    parts = [query]
-    parts.extend(unique_visual)
-    parts.append("anime fantasy art")
+    # Size hint
+    size = int(doc["system"]["general"]["aspect"]["size"]["value"] or 0)
+    if size > 25:
+        visual_hints.append("colosal")
+    elif size > 20:
+        visual_hints.append("grande")
+    elif size < 5 and size > 0:
+        visual_hints.append("diminuto")
+
+    # Build final query
+    parts = [creature_desc]
+    parts.extend(visual_hints[:3])
+    parts.append("anima beyond fantasy anime art")
+    
     return " ".join(parts)
 
 
