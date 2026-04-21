@@ -275,14 +275,45 @@ export function parseExcelToActorData(workbook, fileName) {
   }
 
 
-  // Read Combate sheet for weapons and wearArmor
+  // Read Combate sheet for weapons, armors and wearArmor
   const combateSheet = workbook.Sheets['Combate'];
   if (combateSheet) {
-    // Llevar Armadura (Requisito)
-    const wearArmorCell = findCell(combateSheet, 'Requisito:', 10, 20, 1, 15);
-    if (wearArmorCell) {
-      const waVal = safeInt(cellRight(combateSheet, wearArmorCell.row, wearArmorCell.col));
-      if (waVal > 0) items.push({ _id: foundry.utils.randomID(), type: 'note', name: `Llevar Armadura: ${waVal}`, system: {} });
+    // Armor pieces (rows 12-15, cols C=name F=loc H=quality I=FIL J=CON K=PEN L=CAL M=ELE N=FRI O=ENE)
+    const armorColMap = { cut: 9, impact: 10, thrust: 11, heat: 12, electricity: 13, cold: 14, energy: 15 };
+    for (let row = 12; row <= 15; row++) {
+      const armorName = safeStr(cellAt(combateSheet, row, 3));
+      if (!armorName || armorName.toLowerCase().includes('restricción') || armorName.toLowerCase().includes('restriccion')) continue;
+      const quality = safeInt(cellAt(combateSheet, row, 8));
+      const taVals = {};
+      for (const [dmgType, col] of Object.entries(armorColMap)) {
+        taVals[dmgType] = safeInt(cellAt(combateSheet, row, col));
+      }
+      if (Object.values(taVals).some(v => v > 0) || quality > 0) {
+        items.push({
+          _id: foundry.utils.randomID(), name: armorName, type: 'armor',
+          img: 'icons/equipment/chest/breastplate-cuirass-steel-grey.webp',
+          system: {
+            ...Object.fromEntries(Object.entries(taVals).map(([k, v]) => [k, { base: { value: v }, final: { value: 0 }, value: v }])),
+            pierce: { base: { value: 0 }, final: { value: 0 }, value: 0 },
+            integrity: { base: { value: 0 }, final: { value: 0 } },
+            presence: { base: { value: 0 }, final: { value: 0 } },
+            movementRestriction: { base: { value: 0 }, final: { value: 0 } },
+            naturalPenalty: { base: { value: 0 }, final: { value: 0 } },
+            wearArmorRequirement: { base: { value: 0 }, final: { value: 0 } },
+            isEnchanted: { value: quality > 0 }, type: { value: 'hard' },
+            localization: { value: safeStr(cellAt(combateSheet, row, 6)) || 'complete' },
+            quality: { value: quality }, equipped: { value: true },
+          },
+        });
+      }
+    }
+
+    // Llevar Armadura (Requisito) and penalties from row 16-17
+    const reqRow = 16;
+    const wearArmorReq = safeInt(cellAt(combateSheet, reqRow, 8));
+    const penNatural = safeInt(cellAt(combateSheet, reqRow + 1, 8));
+    if (wearArmorReq > 0) {
+      notes.push({ _id: foundry.utils.randomID(), type: 'note', name: `Llevar Armadura: ${wearArmorReq} | Pen. Natural: ${penNatural}`, system: {} });
     }
 
     // Weapons from slots (rows 20-60, each weapon block is ~7 rows)
