@@ -42,32 +42,55 @@ Hooks.once('ready', async () => {
   }
 });
 
-// Context menu on Actor Directory folders
-Hooks.on('getActorDirectoryFolderContext', (html, options) => {
-  if (!game.user.isGM) return;
+// Inject button in Actor Directory
+Hooks.on('renderActorDirectory', (_app, html) => {
+  if (!game.user.isGM || game.system?.id !== 'animabf') return;
+  if (html.find('.animu-exxet-bulk-btn').length) return;
 
-  options.push({
-    name: game.i18n.localize('ANIMU_EXXET.bulk.importToFolder'),
-    icon: '<i class="fas fa-file-import"></i>',
-    callback: li => {
-      const folderId = li.data('folderId') ?? li.closest('[data-folder-id]')?.dataset?.folderId;
-      const folder = game.folders.get(folderId);
-      new BulkImportApp({ targetFolder: folder }).render(true);
-    }
-  });
+  const btn = $(`
+    <button type="button" class="animu-exxet-bulk-btn">
+      <i class="fas fa-file-import"></i>
+      ${game.i18n.localize('ANIMU_EXXET.bulk.openBulkImport')}
+    </button>
+  `);
+
+  btn.on('click', () => new BulkImportApp().render(true));
+
+  // Insert in header actions, footer, or fallback
+  const headerActions = html.find('.header-actions, .action-buttons, .directory-header .action-buttons');
+  const footer = html.find('.directory-footer');
+
+  if (headerActions.length) {
+    headerActions.first().append(btn);
+  } else if (footer.length) {
+    footer.append(btn);
+  } else {
+    html.find('.directory-header').after(btn);
+  }
 });
 
-// Also add to Item Directory folders
-Hooks.on('getItemDirectoryFolderContext', (html, options) => {
-  if (!game.user.isGM) return;
+// Inject button in Item Directory too
+Hooks.on('renderItemDirectory', (_app, html) => {
+  if (!game.user.isGM || game.system?.id !== 'animabf') return;
+  if (html.find('.animu-exxet-bulk-btn').length) return;
 
-  options.push({
-    name: game.i18n.localize('ANIMU_EXXET.bulk.importToFolder'),
-    icon: '<i class="fas fa-file-import"></i>',
-    callback: li => {
-      const folderId = li.data('folderId') ?? li.closest('[data-folder-id]')?.dataset?.folderId;
-      const folder = game.folders.get(folderId);
-      new BulkImportApp({ targetFolder: folder }).render(true);
-    }
-  });
+  const btn = $(`
+    <button type="button" class="animu-exxet-bulk-btn">
+      <i class="fas fa-file-import"></i>
+      ${game.i18n.localize('ANIMU_EXXET.bulk.openBulkImport')}
+    </button>
+  `);
+
+  btn.on('click', () => new BulkImportApp().render(true));
+
+  const headerActions = html.find('.header-actions, .action-buttons');
+  const footer = html.find('.directory-footer');
+
+  if (headerActions.length) {
+    headerActions.first().append(btn);
+  } else if (footer.length) {
+    footer.append(btn);
+  } else {
+    html.find('.directory-header').after(btn);
+  }
 });
