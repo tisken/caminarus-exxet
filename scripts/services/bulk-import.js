@@ -1,62 +1,70 @@
 const MODULE_ID = 'animu-exxet';
 
-async function getCompendiumFolderActors(pack, folderId, recursive = false) {
+async function getPackFolderTree(pack) {
   const index = await pack.getIndex({ fields: ['name', 'folder', 'type'] });
-  const folders = await pack.getDocuments({ type: 'Folder' }).catch(() => []);
+  const folders = [];
+  const entries = [];
 
-  const targetFolderIds = new Set([folderId]);
-  if (recursive) {
-    const allFolders = [];
-    for (const entry of index) {
-      if (entry.type === undefined) continue;
-    }
-    const packFolders = folders.length
-      ? folders
-      : Array.from(index.values()).filter(e => e instanceof Folder);
-
-    const findChildren = parentId => {
-      for (const f of packFolders) {
-        if (f.folder === parentId) {
-          targetFolderIds.add(f._id);
-          findChildren(f._id);
-        }
-      }
-    };
-    findChildren(folderId);
-  }
-
-  const actorIds = [];
   for (const entry of index) {
-    if (targetFolderIds.has(entry.folder)) {
-      actorIds.push(entry._id);
+    if (entry._id && entry.name) {
+      entries.push(entry);
     }
   }
-  return actorIds;
+
+  const folderDocs = entries.filter(e => e.type === undefined || e instanceof Folder);
+  const db = await pack.getDocuments();
+  for (const doc of db) {
+    if (doc.documentName === 'Folder' || doc instanceof Folder) {
+      folders.push({ _id: doc.id, name: doc.name, folder: doc.folder });
+    }
+  }
+
+  if (!folders.length) {
+    for (const entry of index) {
+      try {
+        if (entry._id && !entry.type) {
+          folders.push({ _id: entry._id, name: entry.name, folder: entry.folder ?? null });
+        }
+      } catch (e) { /* skip */ }
+    }
+  }
+
+  return { folders, entryCount: entries.filter(e => e.type).length };
 }
 
-async function importActorsToWorld(pack, actorIds, targetFolder = null) {
-  if (!actorIds.length) {
+async function importDocumentsFromPack(pack, folderIds, targetFolder = null) {
+  const index = await pack.getIndex({ fields: ['name', 'folder', 'type'] });
+  const targetSet = new Set(folderIds);
+
+  const docIds = [];
+  for (const entry of index) {
+    if (targetSet.has(entry.folder) && entry.type) {
+      docIds.push(entry._id);
+    }
+  }
+
+  if (!docIds.length) {
     ui.notifications.warn(game.i18n.localize('ANIMU_EXXET.bulk.noActors'));
     return 0;
   }
 
   ui.notifications.info(
-    game.i18n.format('ANIMU_EXXET.bulk.startImport', { count: actorIds.length })
+    game.i18n.format('ANIMU_EXXET.bulk.startImport', { count: docIds.length })
   );
 
-  const chunkSize = 10;
   let imported = 0;
+  const chunkSize = 10;
+  const DocumentClass = pack.documentClass;
 
-  for (let i = 0; i < actorIds.length; i += chunkSize) {
-    const chunk = actorIds.slice(i, i + chunkSize);
+  for (let i = 0; i < docIds.length; i += chunkSize) {
+    const chunk = docIds.slice(i, i + chunkSize);
     const docs = await pack.getDocuments({ _id__in: chunk });
 
     for (const doc of docs) {
       const data = doc.toObject();
       delete data._id;
-      if (targetFolder) data.folder = targetFolder.id;
-      else data.folder = null;
-      await Actor.create(data);
+      data.folder = targetFolder?.id ?? null;
+      await DocumentClass.create(data);
       imported++;
     }
   }
@@ -67,86 +75,116 @@ async function importActorsToWorld(pack, actorIds, targetFolder = null) {
   return imported;
 }
 
-async function chooseWorldFolder() {
-  const folders = game.folders.filter(f => f.type === 'Actor');
-  if (!folders.length) return null;
-
-  const options = folders.map(f => `<option value="${f.id}">${f.name}</option>`).join('');
-  const content = `
-    <form>
-      <div class="form-group">
-        <label>${game.i18n.localize('ANIMU_EXXET.bulk.targetFolder')}</label>
-        <select name="folder">
-          <option value="">${game.i18n.localize('ANIMU_EXXET.bulk.rootFolder')}</option>
-          ${options}
-        </select>
-      </div>
-    </form>
-  `;
-
-  return new Promise(resolve => {
-    new Dialog({
-      title: game.i18n.localize('ANIMU_EXXET.bulk.chooseFolder'),
-      content,
-      buttons: {
-        ok: {
-          icon: '<i class="fas fa-check"></i>',
-          label: game.i18n.localize('ANIMU_EXXET.bulk.import'),
-          callback: html => {
-            const folderId = html.find('[name=folder]').val();
-            resolve(folderId ? game.folders.get(folderId) : null);
-          }
-        },
-        cancel: {
-          icon: '<i class="fas fa-times"></i>',
-          label: game.i18n.localize('ANIMU_EXXET.bulk.cancel'),
-          callback: () => resolve(undefined)
-        }
-      },
-      default: 'ok'
-    }).render(true);
-  });
-}
-
-export async function bulkImportFolder(pack, folderId, recursive = false) {
-  const targetFolder = await chooseWorldFolder();
-  if (targetFolder === undefined) return;
-
-  const actorIds = await getCompendiumFolderActors(pack, folderId, recursive);
-  return importActorsToWorld(pack, actorIds, targetFolder);
-}
-
-export function addContextMenuOptions() {
-  const modulePackName = `${MODULE_ID}.creatures-exxet`;
-
-  Hooks.on('getCompendiumDirectoryFolderContext', (html, options) => {
-    options.push(
-      {
-        name: game.i18n.localize('ANIMU_EXXET.bulk.importFolder'),
-        icon: '<i class="fas fa-download"></i>',
-        condition: li => {
-          const pack = game.packs.get(modulePackName);
-          return pack && game.user.isGM;
-        },
-        callback: async li => {
-          const pack = game.packs.get(modulePackName);
-          const folderId = li.data('folderId') || li.closest('[data-folder-id]')?.dataset?.folderId;
-          if (pack && folderId) await bulkImportFolder(pack, folderId, false);
-        }
-      },
-      {
-        name: game.i18n.localize('ANIMU_EXXET.bulk.importFolderRecursive'),
-        icon: '<i class="fas fa-layer-group"></i>',
-        condition: li => {
-          const pack = game.packs.get(modulePackName);
-          return pack && game.user.isGM;
-        },
-        callback: async li => {
-          const pack = game.packs.get(modulePackName);
-          const folderId = li.data('folderId') || li.closest('[data-folder-id]')?.dataset?.folderId;
-          if (pack && folderId) await bulkImportFolder(pack, folderId, true);
-        }
+function getChildFolderIds(folders, parentId) {
+  const ids = new Set([parentId]);
+  const findChildren = pid => {
+    for (const f of folders) {
+      if (f.folder === pid && !ids.has(f._id)) {
+        ids.add(f._id);
+        findChildren(f._id);
       }
-    );
+    }
+  };
+  findChildren(parentId);
+  return ids;
+}
+
+export class BulkImportApp extends Application {
+  static get defaultOptions() {
+    return foundry.utils.mergeObject(super.defaultOptions, {
+      id: `${MODULE_ID}-bulk-import`,
+      title: game.i18n.localize('ANIMU_EXXET.bulk.windowTitle'),
+      template: `modules/${MODULE_ID}/templates/bulk-import.hbs`,
+      width: 520,
+      height: 'auto',
+      classes: [MODULE_ID]
+    });
+  }
+
+  async getData() {
+    const packs = [];
+    for (const pack of game.packs) {
+      if (pack.metadata.packageName === MODULE_ID) {
+        const { folders } = await getPackFolderTree(pack);
+        const root = folders.find(f => f.folder === null);
+        const children = folders.filter(f => f.folder === root?._id);
+
+        const buildTree = (parent, depth = 0) => {
+          const result = [{ ...parent, depth, indent: '\u00a0\u00a0'.repeat(depth) }];
+          const kids = folders.filter(f => f.folder === parent._id).sort((a, b) => a.name.localeCompare(b.name));
+          for (const kid of kids) {
+            result.push(...buildTree(kid, depth + 1));
+          }
+          return result;
+        };
+
+        const tree = root ? buildTree(root) : [];
+
+        packs.push({
+          collection: pack.collection,
+          label: pack.metadata.label,
+          type: pack.metadata.type,
+          folders: tree
+        });
+      }
+    }
+
+    const worldFolders = game.folders.filter(f => f.type === 'Actor' || f.type === 'Item');
+
+    return { packs, worldFolders };
+  }
+
+  activateListeners(html) {
+    super.activateListeners(html);
+
+    html.find('[data-action="import-folder"]').on('click', async event => {
+      const btn = event.currentTarget;
+      const packId = btn.dataset.pack;
+      const folderId = btn.dataset.folder;
+      const recursive = btn.dataset.recursive === 'true';
+      const pack = game.packs.get(packId);
+      if (!pack) return;
+
+      const worldFolderId = html.find(`[name="worldFolder-${packId}"]`).val();
+      const worldFolder = worldFolderId ? game.folders.get(worldFolderId) : null;
+
+      const { folders } = await getPackFolderTree(pack);
+      const folderIds = recursive
+        ? getChildFolderIds(folders, folderId)
+        : new Set([folderId]);
+
+      await importDocumentsFromPack(pack, folderIds, worldFolder);
+    });
+
+    html.find('[data-action="import-all"]').on('click', async event => {
+      const packId = event.currentTarget.dataset.pack;
+      const pack = game.packs.get(packId);
+      if (!pack) return;
+
+      const worldFolderId = html.find(`[name="worldFolder-${packId}"]`).val();
+      const worldFolder = worldFolderId ? game.folders.get(worldFolderId) : null;
+
+      const { folders } = await getPackFolderTree(pack);
+      const allIds = new Set(folders.map(f => f._id));
+
+      await importDocumentsFromPack(pack, allIds, worldFolder);
+    });
+  }
+}
+
+export function addBulkImportButton() {
+  Hooks.on('renderCompendiumDirectory', (_app, html) => {
+    if (!game.user.isGM || game.system?.id !== 'animabf') return;
+    if (html.find('.animu-exxet-bulk-button').length) return;
+
+    const button = $(`
+      <button type="button" class="animu-exxet-bulk-button">
+        <i class="fas fa-file-import"></i>
+        ${game.i18n.localize('ANIMU_EXXET.bulk.openBulkImport')}
+      </button>
+    `);
+
+    button.on('click', () => new BulkImportApp().render(true));
+    html.find('.directory-footer').append(button);
   });
 }

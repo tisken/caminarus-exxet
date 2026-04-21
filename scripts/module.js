@@ -1,6 +1,6 @@
 import { AnimuExxetImporterMenu } from './apps/importer-menu.js';
 import { loadIndex } from './services/compendium-service.js';
-import { addContextMenuOptions } from './services/bulk-import.js';
+import { addBulkImportButton } from './services/bulk-import.js';
 
 const MODULE_ID = 'animu-exxet';
 
@@ -26,7 +26,6 @@ const registerSettings = () => {
 
 Hooks.once('init', () => {
   registerSettings();
-  addContextMenuOptions();
 });
 
 Hooks.once('ready', async () => {
@@ -34,6 +33,8 @@ Hooks.once('ready', async () => {
     ui.notifications.warn(game.i18n.localize('ANIMU_EXXET.notifications.missingSystem'));
     return;
   }
+
+  addBulkImportButton();
 
   try {
     const index = await loadIndex();

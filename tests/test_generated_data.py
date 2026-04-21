@@ -152,7 +152,7 @@ class GeneratedDataTest(unittest.TestCase):
 
     def test_manifest_is_installable_from_github(self):
         self.assertEqual(self.manifest["id"], "animu-exxet")
-        self.assertEqual(self.manifest["version"], "0.8.0")
+        self.assertEqual(self.manifest["version"], "0.8.1")
         self.assertTrue(DIST_ZIP.exists())
         self.assertEqual(
             self.manifest["manifest"],
