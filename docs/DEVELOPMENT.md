@@ -1,217 +1,150 @@
-# Entorno de desarrollo y referencias
+# Documentación técnica — Animu Exxet
 
-Guía de rutas, fuentes, proyectos relacionados y flujo de trabajo para `animu-exxet`.
+## Arquitectura
 
-## Estructura de directorios
+El módulo tiene dos capas:
 
-### `/animu-exxet/` — el addon de Foundry (este repo)
+**Offline (Python)** — `tools/`
+- `generate_bestiary.py`: extrae stat blocks de markdowns y genera los compendios de criaturas
+- `generate_artifacts.py`: extrae artefactos de Prometheum y genera el compendio de artefactos
+- `extract_prometheum.py`: re-extrae el PDF de Prometheum respetando columnas
+- `import_excel.py`: convierte fichas Excel a JSON de animabf (uso offline)
 
-```
-animu-exxet/
-├── data/
-│   ├── generated/          # JSON generados por generate_bestiary.py
-│   │   ├── index.json      # índice maestro de todos los datasets
-│   │   ├── *.actors.json   # documentos de actor listos para Foundry
-│   │   └── *.records.json  # registros de depuración con campos crudos
-│   └── reference/
-│       └── animabf-template.json   # plantilla del sistema animabf
-├── docs/
-│   ├── roadmap.md          # mejoras pendientes del addon
-│   └── DEVELOPMENT.md      # este archivo
-├── lang/
-│   └── es.json             # traducciones del módulo
-├── packs/
-│   └── creatures-exxet/    # compendio estático exportado (JSON por actor y carpeta)
-├── scripts/
-│   ├── module.js           # punto de entrada del módulo en Foundry
-│   ├── apps/
-│   │   └── importer-menu.js
-│   └── services/
-│       └── compendium-service.js
-├── styles/
-│   └── animu-exxet.css
-├── templates/
-│   └── importer-menu.hbs
-├── tests/
-│   └── test_generated_data.py   # tests de integridad sobre los JSON generados
-├── tools/
-│   └── generate_bestiary.py     # generador principal de fichas
-├── module.json             # manifiesto de Foundry
-└── README.md
-```
+**Online (JavaScript)** — `scripts/`
+- `module.js`: punto de entrada, registra hooks y botones
+- `services/compendium-service.js`: importador de datasets a compendios de mundo
+- `services/bulk-import.js`: diálogo de importación múltiple de Excel
+- `services/excel-import.js`: parser de Excel a actor animabf
 
-### `/animu/` — proyecto padre (RAG + generación)
+---
 
-El proyecto padre es un RAG local para consulta sobre el corpus de Anima Beyond Fantasy.
-`animu-exxet` vive como subdirectorio dentro de él (`/animu/animu-exxet/`).
+## Compendios
+
+### Creatures Exxet (`packs/creatures-exxet`)
+
+LevelDB con actores de tipo `character`. Estructura de carpetas:
 
 ```
-/animu/
-├── animu-exxet/            # ← este addon (submódulo / subdirectorio)
-├── data/
-│   ├── docs/               # PDFs y docx originales de los manuales
-│   ├── docs_md/            # Markdown generado desde los PDFs (corpus operativo)
-│   └── rag.db              # base de datos SQLite del RAG
-├── docs/
-│   ├── ARCHITECTURE.md     # arquitectura del RAG
-│   ├── EXTRACTION_NOTES.md # notas sobre extracción y limpieza OCR
-│   └── MODEL_NOTES.md      # notas sobre modelos y retrieval
-├── qa/                     # benchmarks de calidad del RAG
-├── src/                    # código Python del RAG
-├── tests/                  # tests del RAG
-├── web/                    # interfaz web del RAG
-├── .env / .env.example     # configuración de Ollama, modelos, etc.
-├── requirements.txt
-└── README.md
+Creatures Exxet/
+  [Fuente 1]/
+  [Fuente 2]/
+    [Región A]/   ← solo en fuentes con datos geográficos
+    [Región B]/
+  ...
 ```
 
-## Fuentes de datos
+Cada actor incluye:
+- Sistema completo de animabf (atributos, resistencias, combate, magia, psíquico, dominé)
+- Items embebidos: armas naturales (tipo `weapon`) y armaduras (tipo `armor`)
+- Notas con ventajas, poderes, Ki, técnicas y otros campos no estructurados
+- Token con tamaño según Tamaño del ser y visión según Percepción × 20m
 
-### PDFs originales → `/animu/data/docs/`
+### Artifacts Exxet (`packs/artifacts-exxet`)
 
-Manuales en PDF (algunos `_unlocked`) que sirven como fuente primaria:
+LevelDB con items de tipo `weapon`, `armor` y `note`. Estructura:
 
-| Archivo | Manual |
-|---------|--------|
-| `Anima Beyond Fantasy - Core Exxet.pdf` | Core Exxet |
-| `Anima Beyond Fantasy - Los que caminaron con nosotros_unlocked.pdf` | Los que caminaron con nosotros |
-| `ABF_Complemento_Web_Vol1.pdf` | Complemento Web Vol. 1 |
-| `ABF_Complemento_Web_Vol2.pdf` | Complemento Web Vol. 2 (sin fichas aún) |
-| `ABF_Complemento_Web_Vol3.pdf` | Complemento Web Vol. 3 (sin fichas aún) |
-| `Anima Gate of Memories - Guia_del_Mundo_Perfecto.pdf` | Guía del Mundo Perfecto |
-| `Dramatis personae.pdf` | Dramatis Personae |
-| `DramatisPersonaeVolumen2.pdf` | Dramatis Personae Vol. 2 |
-| `Anima_Pantalla_del_Director_unlocked.pdf` | Pantalla del Director |
-| `DRAVENOR_Ejercito_regular_de_La_Maquina_Parte_1.pdf` | Dravenor Parte 1 |
-| `DRAVENOR_Ejercito_regular_de_La_Maquina_Parte_2.pdf` | Dravenor Parte 2 |
-| `DRAVENOR_Ejercito_regular_de_La_Maquina_Parte_3.pdf` | Dravenor Parte 3 |
-| `Anima Beyond Fantasy - Gaia Volumen I  - Más Allá de los Sueños_unlocked.pdf` | Gaia Vol. I |
-| `Anima Beyond Fantasy - Gaia Volumen II - Más Allá del espejo_unlocked.pdf` | Gaia Vol. II |
-| `ABF_Ficha_Etheldrea.pdf` | Ficha suelta: Etheldrea |
-| `ABF_Ficha_Jigoku.pdf` | Ficha suelta: Jigoku No Kami |
-| `ABF_Ficha_Orochi.pdf` | Ficha suelta: Orochi |
-| `ABF_Ficha_Stravos.pdf` | Ficha suelta: Stravos Veritas |
-| `ABF_Pazusu.pdf` | Ficha suelta: Pazusu |
-| `Anima Beyond Fantasy - Arcana Exxet_unlocked.pdf` | Arcana Exxet (sin fichas) |
-| `Anima Beyond Fantasy - Dominus Exxet - Los Dominios del Ki_unlocked.pdf` | Dominus Exxet (sin fichas) |
-| `Anima Beyond Fantasy - Prometheum exxet.pdf` | Prometheum Exxet (sin fichas) |
-| `Anima Beyond Fantasy - Gates of Memories.pdf` | Gates of Memories (sin fichas) |
-| `Dramatis_Personae_-_Organizaciones.pdf` | Organizaciones (sin fichas) |
-| `Info_general.docx` | Documento general de referencia |
+```
+Artifacts Exxet/
+  Armas/
+  Armaduras/
+  Artefactos y Notas/
+```
 
-### Markdown extraído → `/animu/data/docs_md/`
+---
 
-Versiones `.md` generadas desde los PDFs con el comando del RAG:
+## Importador de Excel
+
+### Campos importados desde la hoja `Resumen`
+
+| Campo | Celdas | Método |
+|---|---|---|
+| Nombre | M3 | Fijo |
+| Nivel | F11 | Fijo |
+| Clase / Raza | L11 | Fijo |
+| PV | E12 | Fijo |
+| Categoría | L12 | Fijo |
+| Atributos (8) | F13-R14 | Fijo |
+| Presencia | H15 | Fijo |
+| Resistencias (5) | F16-V16 | Fijo |
+| Turno / Ataque / Defensa / Daño | H19-H28 | Fijo |
+| TA (7 tipos) | H32-AF32 | Fijo |
+| ACT | Busca "ACT:" | Dinámico |
+| Zeón | Busca "Zeón:" | Dinámico |
+| Reg. Zeón | Busca "Reg. Zeon:" | Dinámico |
+| Proyección Mágica (off/def) | Busca "Proyección Mágica:" | Dinámico |
+| Nivel de Magia (vías) | Busca "Nivel de Magia:" | Dinámico |
+| Convocar / Dominar / Atar / Desconvocar | Busca labels | Dinámico |
+| Potencial Psíquico | Busca "Potencial Psíquico:" | Dinámico |
+| Proyección Psíquica (off/def) | Busca "Proyección Psíquica:" | Dinámico |
+| CV Libres / Innatos | Busca "CV Libres:" | Dinámico |
+| Disciplinas / Poderes Psíquicos | Busca labels | Dinámico |
+| Puntos de Ki | Busca "Puntos de Ki:" | Dinámico |
+| Acumulaciones Ki (6 stats) | Busca "Acumulaciones:" | Dinámico |
+| Habilidades de Ki | Busca "Habilidades de Ki:" | Dinámico |
+| Técnicas | Busca "Técnicas:" | Dinámico |
+| Tamaño / Movimiento | Busca labels | Dinámico |
+| Cansancio / Regeneración | Busca labels | Dinámico |
+| Habilidades secundarias | Busca "Habilidades secundarias:" | Dinámico |
+| Ventajas / Poderes / Especial | Busca labels | Dinámico |
+| Lenguas | Busca "Lenguas:" | Dinámico |
+
+### Campos importados desde la hoja `Combate`
+
+- Piezas de armadura individuales (rows 12-15) con TA por tipo
+- Llevar Armadura (requisito) y Penalizador Natural
+- Armas equipadas (hasta 10 slots) con daño, turno, críticos, entereza, rotura, presencia, calidad
+- Artes Marciales como arma si tiene datos
+
+### Campos importados desde la hoja `Ki`
+
+- Conocimiento Marcial total y usado
+
+### Notas generadas
+
+Cuando hay múltiples armas, se generan notas con el texto completo de:
+- Turno, Ataque, Defensa, Daño
+
+---
+
+## Generación de compendios (offline)
+
+### Requisitos
 
 ```bash
-cd /animu && source .venv/bin/activate
-python -m src.main export-md --source data/docs --output-dir data/docs_md --overwrite
+pip install openpyxl plyvel pymupdf
 ```
 
-Estos `.md` son la fuente que lee `generate_bestiary.py`. La ruta por defecto que busca el generador es:
-
-```python
-Path("/animu/data/docs_md") / filename
-```
-
-Con fallback a `MODULE_ROOT.parent / "data/docs_md" / filename`.
-
-## Documentación del proyecto
-
-| Archivo | Ubicación | Contenido |
-|---------|-----------|-----------|
-| `README.md` | `/animu-exxet/README.md` | Descripción del addon, instalación y uso en Foundry |
-| `roadmap.md` | `/animu-exxet/docs/roadmap.md` | Mejoras pendientes del addon |
-| `DEVELOPMENT.md` | `/animu-exxet/docs/DEVELOPMENT.md` | Este archivo |
-| `README.md` | `/animu/README.md` | Descripción del RAG, instalación y comandos |
-| `ARCHITECTURE.md` | `/animu/docs/ARCHITECTURE.md` | Arquitectura del RAG, mapa de módulos, flujos |
-| `EXTRACTION_NOTES.md` | `/animu/docs/EXTRACTION_NOTES.md` | Notas sobre extracción OCR y limpieza del corpus |
-| `MODEL_NOTES.md` | `/animu/docs/MODEL_NOTES.md` | Notas sobre modelos, retrieval y evaluación |
-
-## Proyectos de referencia en `/tmp/`
-
-Estos repos se clonaron como referencia durante el desarrollo:
-
-### `/tmp/animabf/` y `/tmp/AnimaBeyondFoundry/`
-
-Repo oficial del sistema `animabf` para Foundry VTT.
-- GitHub: `https://github.com/AnimaBeyondDevelop/AnimaBeyondFoundry`
-- Contiene `src/template.json` → base para `data/reference/animabf-template.json`
-- Contiene `src/system.json` → manifiesto del sistema (versión, compatibilidad)
-- Útil para entender la estructura de datos de actores, ítems y campos del sistema
-
-### `/tmp/abf-compendiums/`
-
-Módulo comunitario `abf-compendiums` con compendios de conjuros, armas, etc.
-- Contiene `packs/` con compendios existentes del sistema
-- Contiene `Images/` e `Icons/` con recursos gráficos
-- Útil como referencia de cómo otros módulos organizan compendios para `animabf`
-
-### `/tmp/abf_reference.json`
-
-Extracto de referencia con datos de criaturas del sistema, usado para validación cruzada.
-
-### `/tmp/real_template.json`
-
-Copia de la plantilla real de `animabf` (`template.json`), usada para generar `animabf-template.json`.
-
-### `/tmp/animu_md_smoke/` y `/tmp/animu_md_smoke_pdf/`
-
-Directorios temporales de pruebas de humo para la exportación de Markdown.
-
-### `/tmp/animu_md_check/`
-
-Directorio temporal con `.md` regenerados para verificar cambios en la extracción.
-
-## Flujo de generación
-
-```
-PDFs originales (/animu/data/docs/)
-        │
-        ▼
-  export-md del RAG (/animu/)
-        │
-        ▼
-Markdown extraído (/animu/data/docs_md/)
-        │
-        ▼
-  generate_bestiary.py (/animu-exxet/tools/)
-        │
-        ├──▶ data/generated/*.actors.json   (datasets para Foundry)
-        ├──▶ data/generated/*.records.json  (registros de depuración)
-        ├──▶ data/generated/index.json      (índice maestro)
-        └──▶ packs/creatures-exxet/         (compendio estático)
-```
-
-### Comandos de generación
+### Regenerar Creatures Exxet
 
 ```bash
-cd /animu-exxet
-python tools/generate_bestiary.py
+cd tools/
+python3 generate_bestiary.py
 ```
 
-### Comandos de test
+Los markdowns fuente deben estar en `/animu/data/docs_md/`.
+
+### Regenerar Artifacts Exxet
 
 ```bash
-cd /animu-exxet
-python -m pytest tests/test_generated_data.py -v
+# Primero re-extraer el PDF con respeto de columnas
+python3 extract_prometheum.py
+
+# Luego generar el compendio
+python3 generate_artifacts.py
 ```
 
-## Conteo actual de fichas por libro
+### Importar fichas Excel (offline)
 
-| Dataset | Fichas |
-|---------|--------|
-| Core Exxet | 20 |
-| Los que caminaron con nosotros | 92 |
-| Complemento Web Vol. 1 | 5 |
-| Guía del Mundo Perfecto | 20 |
-| Dramatis Personae | 11 |
-| Dramatis Personae Vol. 2 | 11 |
-| Pantalla del Director | 33 |
-| Dravenor Parte 1 | 5 |
-| Dravenor Parte 2 | 5 |
-| Dravenor Parte 3 | 3 |
-| Gaia Vol. I | 99 |
-| Gaia Vol. II | 46 |
-| Fichas Sueltas | 11 |
-| **Total** | **361** |
+```bash
+python3 tools/import_excel.py ficha1.xlsm ficha2.xlsm -o output/
+```
+
+Genera JSONs que se pueden importar manualmente en Foundry.
+
+---
+
+## Compatibilidad
+
+- Foundry VTT: v13+
+- Sistema animabf: v2.2.1+
+- Excel: cualquier versión con hoja `Resumen` (no requiere `NamedRangesList`)

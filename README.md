@@ -1,58 +1,53 @@
 # Animu Exxet
 
-Addon para Foundry VTT orientado al sistema `animabf` que importa fichas de criaturas y PNJ desde:
+Addon para Foundry VTT orientado al sistema `animabf` que incluye compendios de criaturas, artefactos y un importador de fichas Excel.
 
-- `Anima Beyond Fantasy - Core Exxet`
-- `Anima Beyond Fantasy - Los que caminaron con nosotros`
-- `ABF Complemento Web Vol. 1`
-- `Anima Gate of Memories - Guía del Mundo Perfecto`
-- `Dramatis Personae`
-- `Dramatis Personae Vol. 2`
-- `Anima Pantalla del Director`
-- `DRAVENOR Ejército regular de La Máquina` partes `1`, `2` y `3`
-- `Anima Beyond Fantasy - Gaia Volumen I`
-- `Anima Beyond Fantasy - Gaia Volumen II`
-- `Fichas sueltas` (Etheldrea, Jigoku, Orochi, Stravos, Pazusu)
-
-El proyecto genera **361 fichas** con atributos, resistencias, habilidades secundarias, armas naturales y armaduras embebidas, organizadas en un compendio `Creatures Exxet` con una carpeta por manual.
-
-## Qué hace
-
-- Genera documentos de actor compatibles con `animabf` con la estructura real del sistema (verificada contra las fichas oficiales del Caballo y ABF-Compendiums).
-- Incluye el compendio estático `Creatures Exxet` con subcarpetas por libro.
-- Permite copiar fichas a compendios de mundo independientes desde el importador.
-- Mapea automáticamente atributos primarios (con modificador), resistencias, iniciativa, vida, movimiento, regeneración, habilidades secundarias y parte de lo sobrenatural.
-- Genera **518 armas naturales** embebidas con daño base y tipo de crítico.
-- Genera **144 armaduras naturales** embebidas con valores de TA por tipo de daño.
-- Coloca ventajas, técnicas, Ki, invocaciones, poderes y otros campos no estructurados en las notas internas de `animabf`.
-
-## Qué no hace todavía
-
-- No enlaza técnicas, conjuros o poderes psíquicos con ítems oficiales.
-- No corrige manualmente todos los artefactos OCR de los nombres variantes.
-
-## Instalación en Foundry
+## Instalación
 
 Instala primero el sistema base:
 
 - Sistema `animabf`: `https://raw.githubusercontent.com/AnimaBeyondDevelop/AnimaBeyondFoundry/main/src/system.json`
 
-Después instala el addon con esta `Manifest URL`:
+Después instala el addon:
 
 - Módulo `animu-exxet`: `https://raw.githubusercontent.com/tisken/caminarus-exxet/main/module.json`
 
-## Uso en Foundry
+## Compendios incluidos
 
-1. Asegúrate de tener instalado y activado el sistema `Anima Beyond Fantasy` (`animabf`).
-2. Activa el módulo `Animu Exxet` en tu mundo.
-3. El compendio `Creatures Exxet` aparecerá directamente en la lista de compendios con todas las criaturas organizadas por manual.
-4. Si quieres versiones de mundo editables, abre el importador del módulo y copia allí uno o varios libros.
+### Creatures Exxet
+Más de **360 fichas** de criaturas y PNJ organizadas por fuente, con subcarpetas por región geográfica donde aplica. Cada ficha incluye:
+- Atributos, resistencias, iniciativa, vida, movimiento y regeneración
+- Habilidades secundarias
+- Armas naturales embebidas con daño y tipo de crítico
+- Armaduras naturales con valores de TA
+- Tabs de místico, psíquico y dominé activados según corresponda
+- Visión del token basada en Percepción
 
-## Estructura
+### Artifacts Exxet
+Más de **100 artefactos** clasificados en Armas, Armaduras y Artefactos Varios, con stats de combate y descripción de poderes.
 
-- `data/generated/`: datasets JSON listos para importar a compendios de mundo.
-- `data/reference/animabf-template.json`: plantilla de datos del sistema fuente.
-- `packs/`: compendio estático con los actores generados.
-- `scripts/`: lógica del módulo dentro de Foundry.
-- `templates/`: interfaz Handlebars del importador.
-- `tools/`: utilidades de generación y mantenimiento.
+## Importador de fichas Excel (Multiimport)
+
+Botón **"Multiimport fichas Excel"** en la pestaña de Actores. Permite importar fichas de personaje desde archivos `.xlsm` del Excel estándar de Anima Beyond Fantasy.
+
+- Selección múltiple de archivos
+- Compatible con cualquier versión del Excel que tenga la hoja `Resumen`
+- Importa: atributos, resistencias, combate, armaduras, armas, magia, psíquico, Ki, habilidades secundarias, ventajas, técnicas y más
+- Selector de carpeta de destino
+
+## Uso
+
+1. Activa el módulo en tu mundo con el sistema `animabf`.
+2. Los compendios aparecen directamente en la lista de compendios.
+3. Para importar fichas Excel: pestaña Actores → **"Multiimport fichas Excel"**.
+
+## Estructura del proyecto
+
+```
+packs/          Compendios estáticos (LevelDB)
+scripts/        Lógica del módulo en Foundry
+tools/          Generadores Python (offline)
+data/generated/ Datasets JSON de los compendios
+images/         Carpetas para tokens y portraits
+docs/           Documentación técnica
+```
