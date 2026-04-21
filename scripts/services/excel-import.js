@@ -273,11 +273,16 @@ export function parseExcelToActorData(workbook, fileName) {
 }
 
 export async function importExcelFiles(files, targetFolder) {
-  const { read, utils } = await import('../../systems/animabf/node_modules/xlsx/xlsx.mjs').catch(() => {
-    // Fallback: try global
-    if (globalThis.XLSX) return globalThis.XLSX;
-    throw new Error('xlsx library not available');
-  });
+  // Get xlsx from the system's bundle (animabf bundles it)
+  let read, utils;
+  try {
+    const xlsx = await import('xlsx');
+    read = xlsx.read;
+    utils = xlsx.utils;
+  } catch {
+    ui.notifications.error('La librer\u00eda xlsx no est\u00e1 disponible. Aseg\u00farate de que el sistema animabf est\u00e1 activo.');
+    return 0;
+  }
 
   let imported = 0;
   const errors = [];
@@ -298,11 +303,8 @@ export async function importExcelFiles(files, targetFolder) {
   }
 
   if (errors.length) {
-    ui.notifications.warn(`${errors.length} errores: ${errors.join(', ')}`);
+    ui.notifications.warn(`${errors.length} errores: ${errors.slice(0, 3).join(', ')}`);
   }
 
-  ui.notifications.info(
-    game.i18n.format('ANIMU_EXXET.bulk.finishImport', { count: imported })
-  );
   return imported;
 }
