@@ -16,6 +16,24 @@ ARMOR_RE = re.compile(r"Requ\.?\s*de\s*\nArmadura", re.IGNORECASE)
 NUMBER_RE = re.compile(r"-?\d+")
 CRITIC_MAP = {"fil":"cut","con":"impact","pen":"thrust","cal":"heat","ele":"electricity","fri":"cold","ene":"energy"}
 
+
+# Names that are clearly wrong - skip these entries
+SKIP_NAMES = {
+    "0 8 2",
+    "Apolyon Es Un Ente Consciente, Capaz de",
+    "Con la Desaparición de Thanos, el Legislador",
+    "En Estos Momentos, Hace Más de Trescientos",
+    "En Estos Momentos Dos de las Armaduras Están",
+    "Necrom Se Volvió Infamemente Conocida Durante la",
+    "Naturalmente, Espera Con Ansia A Alguien Que la",
+    "El Arma Tiene al Menos Unos Dos",
+    "Pese A Que, Igual Que las Otras, el Arma Fue",
+    "Ondinias Es Visualmente Fascinante Por Su",
+}
+
+# Force certain items to be notes instead of weapons/armors
+FORCE_NOTE = {"Onydas", "Redes Mantincore", "Ondinias"}
+
 def sid(*p, l=16): return hashlib.sha1("::".join(p).encode()).hexdigest()[:l]
 def pi(s):
     m = NUMBER_RE.search(re.sub(r"\s+","",str(s or "")))
@@ -154,8 +172,15 @@ for m in NIVEL_RE.finditer(text):
     weapon_tables = list(WEAPON_RE.finditer(after_text))
     armor_tables = list(ARMOR_RE.finditer(after_text))
     
+    if title in SKIP_NAMES or any(s.lower() in title.lower() for s in SKIP_NAMES) or (title and title[0].isdigit()):
+        continue
     name = uname(title)
     
+    if title in FORCE_NOTE:
+        nid = sid(PACK_ID, "n", name)
+        items.append(("note", mk_note(name, nid), page))
+        continue
+
     if weapon_tables:
         for wi, wm in enumerate(weapon_tables):
             suffix = f" ({wi+1})" if len(weapon_tables) > 1 else ""
