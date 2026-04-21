@@ -63,16 +63,30 @@ def extract_page(text: str, pos: int) -> int | None:
     return int(matches[-1].group(1)) if matches else None
 
 
-def classify_artifact(body: str) -> str:
-    lower = body.lower()
-    weapon_hints = ["espada", "hacha", "lanza", "arco", "daga", "mandoble",
-                    "katana", "sable", "bastón", "vara", "filo", "hoja",
-                    "flecha", "virote", "pico", "martillo", "guadaña"]
-    armor_hints = ["armadura", "escudo", "coraza", "yelmo", "casco",
-                   "peto", "guantelete", "protección"]
-    if any(h in lower for h in weapon_hints):
+WEAPON_TABLE_RE = re.compile(
+    r"Da[ñn]o\s+Turno\s+FUE\s*R\.?\s*Cr[í]tico",
+    re.IGNORECASE,
+)
+ARMOR_TABLE_RE = re.compile(
+    r"Requ\.?\s*(?:de\s+)?Armadura|FIL\s+CON\s+PEN\s+CAL",
+    re.IGNORECASE,
+)
+
+
+def classify_artifact(name: str, body: str) -> str:
+    first_500 = body[:500]
+    if WEAPON_TABLE_RE.search(first_500):
         return "weapon"
-    if any(h in lower for h in armor_hints):
+    if ARMOR_TABLE_RE.search(first_500):
+        return "armor"
+    name_lower = name.lower()
+    weapon_name_hints = ["espada", "katana", "sable", "lanza", "hacha",
+                         "daga", "arco", "mandoble", "flechas", "virotes",
+                         "martillo", "guadaña"]
+    if any(h in name_lower for h in weapon_name_hints):
+        return "weapon"
+    armor_name_hints = ["armadura", "escudo", "coraza", "yelmo", "peto"]
+    if any(h in name_lower for h in armor_name_hints):
         return "armor"
     return "note"
 
@@ -212,7 +226,7 @@ def extract_artifacts(source_path: Path) -> list[dict]:
         presencia_m = PRESENCIA_RE.search(body)
         presencia = int(presencia_m.group(1)) if presencia_m else 0
 
-        item_type = classify_artifact(body)
+        item_type = classify_artifact(name, body)
         clean_body = re.sub(r"_Página\s+\d+_", "", body)
         clean_body = collapse_spaces(clean_body)
 
