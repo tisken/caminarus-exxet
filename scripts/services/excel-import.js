@@ -15,12 +15,17 @@ const CELLS = {
   cv: 'H60', innate: 'O60',
   psychicPotential: 'J62', psychicProjection: 'K64',
   fatigue: 'H95', size: 'G93', movement: 'S93', regeneration: 'Q95',
-  taEle: 'X32', taFri: 'AB32', taEne: 'P33',
+  taEle: 'X32', taFri: 'AB32', taEne: 'AF32',
   zeonRegen: 'AD48',
-  bind: 'AB50', banish: 'X51',
+  bind: 'AB50', banish: 'AH50',
   kiPoints: 'I35',
   kiAccFue: 'M37', kiAccDes: 'Q37', kiAccAgi: 'U37',
   kiAccCon: 'Y37', kiAccPod: 'AC37', kiAccVol: 'AC38',
+  techniques: 'G43',
+  psychicDisciplinesAlt: 'K66',
+  psychicPowersAlt: 'J68',
+  psychicLevel: 'I71',
+  actionsPerTurn: 'AG95',
   languages: 'D112',
   secondarySkills: 'D98',
   advantages: 'K73', naturalAbilities: 'K76', special: 'G79',
@@ -325,10 +330,18 @@ export function parseExcelToActorData(workbook, fileName) {
       },
       psychic: {
         psychicPotential: { base: { value: getInt(CELLS.psychicPotential) }, final: { value: 0 } },
-        psychicProjection: { base: { value: getInt(CELLS.psychicProjection) }, final: { value: 0 }, imbalance: { offensive: { base: { value: 0 }, final: { value: 0 } }, defensive: { base: { value: 0 }, final: { value: 0 } } } },
+        psychicProjection: (() => {
+          const ppRaw = getStr(CELLS.psychicProjection);
+          const ppNums = ppRaw.match(/-?\d+/g) || [];
+          const ppBase = parseInt(ppNums[0]) || 0;
+          const ppOff = ppRaw.toLowerCase().includes('ofensiva') && ppNums.length >= 1 ? parseInt(ppNums[0]) || 0 : ppBase;
+          const ppDef = ppRaw.toLowerCase().includes('defensiva') && ppNums.length >= 2 ? parseInt(ppNums[1]) || 0 : ppBase;
+          return { base: { value: ppBase }, final: { value: 0 }, imbalance: { offensive: { base: { value: ppOff }, final: { value: 0 } }, defensive: { base: { value: ppDef }, final: { value: 0 } } } };
+        })(),
         psychicPoints: { value: getInt(CELLS.cv), max: getInt(CELLS.cv) },
         psychicPowers: [], psychicDisciplines: [], mentalPatterns: [],
         innatePsychicPower: { amount: { value: getInt(CELLS.innate) } },
+        // psychicLevel not directly mapped in animabf system
         innatePsychicPowers: [],
       },
     },
