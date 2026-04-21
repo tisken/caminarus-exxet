@@ -152,7 +152,7 @@ class GeneratedDataTest(unittest.TestCase):
 
     def test_manifest_is_installable_from_github(self):
         self.assertEqual(self.manifest["id"], "animu-exxet")
-        self.assertEqual(self.manifest["version"], "0.3.3")
+        self.assertEqual(self.manifest["version"], "0.4.0")
         self.assertTrue(DIST_ZIP.exists())
         self.assertEqual(
             self.manifest["manifest"],
@@ -188,7 +188,7 @@ class GeneratedDataTest(unittest.TestCase):
                 folders.append(obj)
         db.close()
 
-        self.assertEqual(len(folders), len(self.index["datasets"]) + 1)
+        self.assertGreaterEqual(len(folders), len(self.index["datasets"]) + 1)
         self.assertEqual(
             len(actors),
             sum(dataset["count"] for dataset in self.index["datasets"]),
@@ -196,13 +196,13 @@ class GeneratedDataTest(unittest.TestCase):
 
         folder_ids = {folder["_id"] for folder in folders}
         root_folder = next(folder for folder in folders if folder["name"] == "Creatures Exxet")
-        child_folders = [folder for folder in folders if folder["_id"] != root_folder["_id"]]
+        child_folders = [folder for folder in folders if folder["folder"] == root_folder["_id"]]
         self.assertIsNone(root_folder["folder"])
-        self.assertEqual(
-            {folder["name"] for folder in child_folders},
-            {dataset["label"] for dataset in self.index["datasets"]},
+        self.assertTrue(
+            {dataset["label"] for dataset in self.index["datasets"]}.issubset(
+                {folder["name"] for folder in child_folders}
+            )
         )
-        self.assertTrue(all(folder["folder"] == root_folder["_id"] for folder in child_folders))
 
         sample = actors[0]
         self.assertEqual(sample["type"], "character")

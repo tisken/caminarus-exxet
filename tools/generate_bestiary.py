@@ -260,6 +260,19 @@ BOOKS = {
         "start_marker": "Arquetipos",
         "end_marker": None,
         "mode": "inline",
+        "location_ranges": [
+            (36, 91, "Sacro Santo Imperio de Abel"),
+            (92, 110, "Alianza Azur"),
+            (111, 132, "Yermos Gélidos"),
+            (133, 147, "Tierras Oscuras"),
+            (148, 163, "Costa de Comercio"),
+            (164, 178, "Estados Episcopales"),
+            (179, 195, "Tierras de Al-enneth"),
+            (196, 219, "Estados Independientes"),
+            (220, 244, "Tierras Orientales"),
+            (245, 289, "Mar Interior"),
+            (298, 999, "Animales"),
+        ],
         "sequential_title_overrides": [
             "Marinero", "Burgués", "Soldado Imperial", "Soldado de Élite",
             "Oficial Imperial", "Noble", "Noble de la Corte", "Guardia de Abel",
@@ -313,6 +326,20 @@ BOOKS = {
         "start_marker": "Arquetipos",
         "end_marker": None,
         "mode": "inline",
+        "location_ranges": [
+            (20, 29, "Manterra"),
+            (30, 38, "Corinia"),
+            (39, 48, "Arabal"),
+            (49, 56, "Pristina"),
+            (57, 67, "Ygdramar"),
+            (68, 77, "Elcia"),
+            (78, 87, "Espheria"),
+            (88, 97, "Itzi"),
+            (98, 105, "Dafne"),
+            (106, 111, "Bekent"),
+            (112, 117, "Zonas Independientes"),
+            (118, 163, "Interregnos"),
+        ],
         "sequential_title_overrides": [
             "Indígena", "Guardia Manterro", "Soldado Manterro",
             "Caballero de Libra", "Agente Básico de Equilibrium",
@@ -361,6 +388,15 @@ BOOKS = {
         },
     },
 }
+
+def get_location_for_page(page: int | None, location_ranges: list) -> str | None:
+    if page is None or not location_ranges:
+        return None
+    for lo, hi, name in location_ranges:
+        if lo <= page <= hi:
+            return name
+    return None
+
 
 INLINE_BLOCK_RE = re.compile(
     r"Categor[íi]a\s*\w[^;]*?;\s*Nivel\s+\d+.*?Resistencias\s*:\s*RF\s+\d+.*?RP\s+\d+\.?",
@@ -1907,6 +1943,7 @@ def build_actor_document(record: dict, template: dict) -> dict:
                 "rawClass": record.get("creature_class"),
                 "rawDamage": record.get("damage_raw"),
                 "rawTA": record.get("ta_raw"),
+                "location": record.get("location"),
                 "warnings": record.get("warnings", []),
             }
         },
@@ -2279,6 +2316,7 @@ def parse_inline_record(book_id: str, block_text: str, title: str, page: int | N
 def extract_records_inline(book_id: str, source_text: str) -> list[dict]:
     config = BOOKS[book_id]
     sequential_overrides = config.get("sequential_title_overrides", [])
+    location_ranges = config.get("location_ranges", [])
     start_marker = config.get("start_marker")
     start_pos = source_text.find(start_marker) if start_marker else 0
     if start_pos == -1:
@@ -2307,6 +2345,7 @@ def extract_records_inline(book_id: str, source_text: str) -> list[dict]:
 
         record = parse_inline_record(book_id, m.group(0), title, page, profile_index)
         if record:
+            record["location"] = get_location_for_page(page, location_ranges)
             records.append(record)
 
     dedupe_names(records)
