@@ -273,14 +273,8 @@ export function parseExcelToActorData(workbook, fileName) {
 }
 
 export async function importExcelFiles(files, targetFolder) {
-  // Get xlsx from the system's bundle (animabf bundles it)
-  let read, utils;
-  try {
-    const xlsx = await import('xlsx');
-    read = xlsx.read;
-    utils = xlsx.utils;
-  } catch {
-    ui.notifications.error('La librer\u00eda xlsx no est\u00e1 disponible. Aseg\u00farate de que el sistema animabf est\u00e1 activo.');
+  if (typeof XLSX === 'undefined') {
+    ui.notifications.error('La librer\u00eda XLSX no est\u00e1 cargada.');
     return 0;
   }
 
@@ -290,7 +284,7 @@ export async function importExcelFiles(files, targetFolder) {
   for (const file of files) {
     try {
       const data = await file.arrayBuffer();
-      const workbook = read(data, { type: 'array' });
+      const workbook = XLSX.read(data, { type: 'array' });
       const actorData = parseExcelToActorData(workbook, file.name);
       actorData.folder = targetFolder?.id ?? null;
       await Actor.create(actorData);

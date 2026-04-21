@@ -2,7 +2,7 @@
   "id": "animu-exxet",
   "title": "Animu Exxet",
   "description": "Addon para Anima Beyond Foundry que importa bestiarios, criaturas y PNJ desde Core Exxet, Los que caminaron con nosotros y otros manuales como compendios de actores.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "13",
     "verified": "14.359"
@@ -14,6 +14,9 @@
   ],
   "esmodules": [
     "scripts/module.js"
+  ],
+  "scripts": [
+    "scripts/lib/xlsx.full.min.js"
   ],
   "styles": [
     "styles/animu-exxet.css"
