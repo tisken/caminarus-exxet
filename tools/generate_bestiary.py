@@ -12,6 +12,17 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
+def sanitize_html(raw: str) -> str:
+    import re as _re
+    result = _re.sub(r"<(script|style|iframe|object|embed|form|input)[^>]*>.*?</\\1>", "", raw, flags=_re.IGNORECASE | _re.DOTALL)
+    result = _re.sub(r"<(script|style|iframe|object|embed|form|input)[^>]*/?>", "", result, flags=_re.IGNORECASE)
+    result = _re.sub(r"\s+on[a-zA-Z]+=", " ", result)
+    result = result.replace("\x00", "")
+    result = _re.sub(r"\n{3,}", "\n\n", result)
+    return result.strip()
+
+
+
 MODULE_ID = "animu-exxet"
 MODULE_ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE_PATH = MODULE_ROOT / "data/reference/animabf-template.json"
@@ -1634,7 +1645,7 @@ def build_description(record: dict) -> str:
     raw_chunk = html.escape(record["raw_chunk"].strip())
     parts.append(f"<details><summary>Texto extraído (OCR)</summary><pre style='white-space:pre-wrap;font-size:0.85em;'>{raw_chunk}</pre></details>")
 
-    return "\n".join(parts)
+    return sanitize_html("\n".join(parts))
 
 def set_secondary_value(system: dict, path: tuple[str, ...], value: int) -> None:
     node = system
@@ -1690,6 +1701,7 @@ def build_note_entries(record: dict) -> list[dict]:
             continue
         # Truncate name to 200 chars for readability, full text in description
         display = raw_value if len(raw_value) <= 200 else raw_value[:197] + "..."
+        display = display.replace("\x00", "").replace("<", "&lt;").replace(">", "&gt;")
         notes.append(
             {
                 "_id": stable_id(record["id"], "note", str(index)),
