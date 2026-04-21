@@ -12,25 +12,25 @@ export class BulkImportApp {
     }).join('');
 
     const content = `
-      <form class="animu-exxet-excel-import" style="display:grid; gap:0.75rem;">
+      <form style="display:grid; gap:0.75rem; padding:0.25rem;">
         <p style="margin:0;">${game.i18n.localize('ANIMU_EXXET.excel.description')}</p>
         <div class="form-group">
-          <label>${game.i18n.localize('ANIMU_EXXET.excel.selectFiles')}</label>
-          <input type="file" name="files" accept=".xlsm,.xlsx" multiple style="width:100%;" />
+          <label><i class="fas fa-folder-open"></i> ${game.i18n.localize('ANIMU_EXXET.excel.selectFiles')}</label>
+          <input type="file" name="files" accept=".xlsm,.xlsx" multiple="multiple" style="width:100%;" />
         </div>
         <div class="form-group">
-          <label>${game.i18n.localize('ANIMU_EXXET.bulk.targetFolder')}</label>
+          <label><i class="fas fa-folder"></i> ${game.i18n.localize('ANIMU_EXXET.excel.destination')}</label>
           <select name="folder" style="width:100%;">
-            <option value="">${game.i18n.localize('ANIMU_EXXET.bulk.rootFolder')}</option>
+            <option value="">${game.i18n.localize('ANIMU_EXXET.excel.rootActors')}</option>
             ${folderOptions}
           </select>
         </div>
       </form>
     `;
 
-    let dialogInstance = null;
+    let dlg = null;
 
-    dialogInstance = new foundry.applications.api.DialogV2({
+    dlg = new foundry.applications.api.DialogV2({
       window: {
         title: game.i18n.localize('ANIMU_EXXET.excel.windowTitle'),
         icon: 'fas fa-file-import',
@@ -39,20 +39,17 @@ export class BulkImportApp {
       buttons: [
         {
           action: 'cancel',
-          label: game.i18n.localize('ANIMU_EXXET.bulk.cancel'),
+          label: game.i18n.localize('ANIMU_EXXET.excel.cancel'),
           icon: 'fas fa-times',
         },
         {
           action: 'import',
-          label: game.i18n.localize('ANIMU_EXXET.excel.importButton'),
-          icon: 'fas fa-file-import',
+          label: game.i18n.localize('ANIMU_EXXET.excel.accept'),
+          icon: 'fas fa-check',
           default: true,
           callback: async () => {
-            const html = dialogInstance.element;
-            if (!html) {
-              ui.notifications.error('Error interno: no se pudo acceder al formulario.');
-              return;
-            }
+            const html = dlg.element;
+            if (!html) return;
             const fileInput = html.querySelector('input[name="files"]');
             const folderSelect = html.querySelector('select[name="folder"]');
             const files = Array.from(fileInput?.files ?? []);
@@ -70,6 +67,6 @@ export class BulkImportApp {
       ],
     });
 
-    dialogInstance.render(true);
+    dlg.render(true);
   }
 }

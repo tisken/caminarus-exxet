@@ -151,8 +151,53 @@ export function parseExcelToActorData(workbook, fileName) {
 
   const skills = parseSecondarySkills(getStr(CELLS.secondarySkills));
 
-  // Build the actor data matching animabf structure
-  const system = {};
+
+  // Build armor item from TA values
+  const taValues = {
+    cut: getInt(CELLS.taFil), impact: getInt(CELLS.taCon), thrust: getInt(CELLS.taPen),
+    heat: getInt(CELLS.taCal), electricity: getInt(CELLS.taEle),
+    cold: getInt(CELLS.taFri), energy: getInt(CELLS.taEne),
+  };
+  const items = [];
+  if (Object.values(taValues).some(v => v > 0)) {
+    items.push({
+      name: getStr(CELLS.taLabel) || 'Armadura',
+      type: 'armor',
+      img: 'icons/equipment/chest/breastplate-cuirass-steel-grey.webp',
+      system: {
+        ...Object.fromEntries(Object.entries(taValues).map(([k, v]) => [k, { base: { value: v }, final: { value: 0 }, value: v }])),
+        pierce: { base: { value: 0 }, final: { value: 0 }, value: 0 },
+        integrity: { base: { value: 0 }, final: { value: 0 } },
+        presence: { base: { value: 0 }, final: { value: 0 } },
+        movementRestriction: { base: { value: 0 }, final: { value: 0 } },
+        naturalPenalty: { base: { value: 0 }, final: { value: 0 } },
+        wearArmorRequirement: { base: { value: 0 }, final: { value: 0 } },
+        isEnchanted: { value: false }, type: { value: 'hard' },
+        localization: { value: 'complete' }, quality: { value: 0 }, equipped: { value: true },
+      },
+    });
+  }
+
+  // Build notes from text fields
+  const noteFields = [
+    [CELLS.advantages, 'Ventajas y desventajas'],
+    [CELLS.naturalAbilities, 'Habilidades naturales'],
+    [CELLS.essentialAbilities, 'Habilidades esenciales'],
+    [CELLS.powers, 'Poderes'],
+    [CELLS.special, 'Especial'],
+    [CELLS.kiSkills, 'Habilidades de Ki'],
+    [CELLS.techniques, 'Técnicas'],
+    [CELLS.magicLevel, 'Nivel de Magia'],
+    [CELLS.psychicDisciplines, 'Disciplinas Psíquicas'],
+    [CELLS.psychicPowers, 'Poderes Psíquicos'],
+  ];
+  const notes = [];
+  for (const [ref, label] of noteFields) {
+    const val = getStr(ref);
+    if (val) notes.push({ _id: foundry.utils.randomID(), type: 'note', name: `${label}: ${val}`, system: {} });
+  }
+
+  // Build the actor data
 
   // We'll let Foundry/animabf fill the template, just set the values we have
   return {
@@ -182,7 +227,7 @@ export function parseExcelToActorData(workbook, fileName) {
         experience: { current: { value: 0 }, next: { value: 0 } },
         languages: { base: { value: '' }, others: [] },
         levels: [{ _id: foundry.utils.randomID(), type: 'level', name, flags: { version: 1 }, system: { level } }],
-        notes: [],
+        notes,
         titles: [],
       },
       characteristics: {
@@ -267,7 +312,7 @@ export function parseExcelToActorData(workbook, fileName) {
       sight: { angle: 360, enabled: primaries.perception > 0, range: primaries.perception * 20, brightness: 1, visionMode: 'basic', attenuation: 0.1, saturation: 0, contrast: 0 },
       appendNumber: false, prependAdjective: false, detectionModes: [],
     },
-    items: [],
+    items,
     effects: [],
   };
 }
