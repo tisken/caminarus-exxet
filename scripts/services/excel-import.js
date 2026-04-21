@@ -15,7 +15,7 @@ const CELLS = {
   summon: 'S50', control: 'X50', bind: 'S51', banish: 'X51',
   cv: 'H60', innate: 'O60',
   psychicPotential: 'J62', psychicProjection: 'K64',
-  fatigue: 'H95', size: 'G93', movement: 'S93',
+  fatigue: 'H95', size: 'G93', movement: 'S93', regeneration: 'Q95',
   secondarySkills: 'D98',
   advantages: 'K73', naturalAbilities: 'K76', special: 'G79',
   essentialAbilities: 'K84', powers: 'K87',
@@ -238,7 +238,7 @@ export function parseExcelToActorData(workbook, fileName) {
           lifePoints: { value: getInt(CELLS.lifePoints), max: getInt(CELLS.lifePoints) },
           initiative: { base: { value: getInt(CELLS.initiative) }, final: { value: 0 } },
           fatigue: { value: getInt(CELLS.fatigue), max: getInt(CELLS.fatigue) },
-          regenerationType: { mod: { value: 0 }, final: { value: 0 } },
+          regenerationType: { mod: { value: getInt(CELLS.regeneration) }, final: { value: 0 } },
           regeneration: { normal: { value: 0, period: '' }, resting: { value: 0, period: '' }, recovery: { value: 0, period: '' } },
           movementType: { mod: { value: getInt(CELLS.movement) - primaries.agility }, final: { value: 0 } },
           movement: { maximum: { value: 0 }, running: { value: 0 } },
@@ -275,8 +275,26 @@ export function parseExcelToActorData(workbook, fileName) {
         zeon: { accumulated: { value: null }, value: getInt(CELLS.zeon), max: getInt(CELLS.zeon) },
         zeonRegeneration: { base: { value: 0 }, final: { value: 0 } },
         innateMagic: { main: { value: 0 }, alternative: { value: 0 } },
-        magicProjection: { base: { value: getInt(CELLS.magicProjection) }, final: { value: 0 }, imbalance: { offensive: { base: { value: 0 }, final: { value: 0 } }, defensive: { base: { value: 0 }, final: { value: 0 } } } },
-        magicLevel: { spheres: Object.fromEntries(['essence', 'water', 'earth', 'creation', 'darkness', 'necromancy', 'light', 'destruction', 'air', 'fire', 'illusion'].map(k => [k, { value: 0 }])), total: { value: 0 }, used: { value: 0 } },
+        magicProjection: (() => {
+          const mpRaw = getStr(CELLS.magicProjection);
+          const mpNums = mpRaw.match(/-?\d+/g) || [];
+          const mpBase = parseInt(mpNums[0]) || 0;
+          const mpOff = mpRaw.toLowerCase().includes('ofensiva') && mpNums.length >= 1 ? parseInt(mpNums[0]) || 0 : mpBase;
+          const mpDef = mpRaw.toLowerCase().includes('defensiva') && mpNums.length >= 2 ? parseInt(mpNums[1]) || 0 : mpBase;
+          return { base: { value: mpBase }, final: { value: 0 }, imbalance: { offensive: { base: { value: mpOff }, final: { value: 0 } }, defensive: { base: { value: mpDef }, final: { value: 0 } } } };
+        })(),
+        magicLevel: (() => {
+          const mlRaw = getStr(CELLS.magicLevel).toLowerCase();
+          const sphereMap = {esencia:'essence',agua:'water',tierra:'earth',creacion:'creation',oscuridad:'darkness',nigromancia:'necromancy',luz:'light',destruccion:'destruction',aire:'air',fuego:'fire',ilusion:'illusion',vacio:'destruction'};
+          const spheres = Object.fromEntries(['essence','water','earth','creation','darkness','necromancy','light','destruction','air','fire','illusion'].map(k => [k, {value: 0}]));
+          for (const [es, en] of Object.entries(sphereMap)) {
+            const m = mlRaw.match(new RegExp(es + '[^,]*?(\\d+)'));
+            if (!m) { const m2 = mlRaw.match(new RegExp('(\\d+)\\s*' + es)); if (m2) spheres[en].value = parseInt(m2[1]); }
+            else spheres[en].value = parseInt(m[1]);
+          }
+          const total = Object.values(spheres).reduce((s, v) => s + v.value, 0);
+          return { spheres, total: { value: total }, used: { value: total } };
+        })(),
         summoning: {
           summon: { base: { value: getInt(CELLS.summon) }, final: { value: 0 } },
           banish: { base: { value: getInt(CELLS.banish) }, final: { value: 0 } },
