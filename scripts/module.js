@@ -1,5 +1,6 @@
 import { AnimuExxetImporterMenu } from './apps/importer-menu.js';
 import { loadIndex } from './services/compendium-service.js';
+import { addContextMenuOptions } from './services/bulk-import.js';
 
 const MODULE_ID = 'animu-exxet';
 
@@ -25,6 +26,7 @@ const registerSettings = () => {
 
 Hooks.once('init', () => {
   registerSettings();
+  addContextMenuOptions();
 });
 
 Hooks.once('ready', async () => {
