@@ -1569,89 +1569,72 @@ def is_viable_record(record: dict) -> bool:
 
 
 def build_description(record: dict) -> str:
-    source_bits = [
-        f"<p><strong>Fuente:</strong> {html.escape(record['source_book'])}</p>",
-    ]
-    if record.get("page"):
-        source_bits.append(f"<p><strong>Página:</strong> {record['page']}</p>")
-    if record.get("source_heading"):
-        source_bits.append(
-            f"<p><strong>Entrada:</strong> {html.escape(record['source_heading'])}</p>"
-        )
-    if record.get("variant"):
-        source_bits.append(
-            f"<p><strong>Variante:</strong> {html.escape(record['variant'])}</p>"
-        )
+    parts = []
 
-    summary_bits = []
-    if record.get("race"):
-        summary_bits.append(
-            f"<p><strong>Raza:</strong> {html.escape(record['race'])}</p>"
-        )
+    # Header
+    name = html.escape(record.get("name", ""))
+    source = html.escape(record["source_book"])
+    page = record.get("page", "")
+    parts.append(f"<h2>{name}</h2>")
+    parts.append(f"<p><em>{source}{f', p.{page}' if page else ''}</em></p>")
+    parts.append("<hr/>")
+
+    # Identity
+    identity = []
     if record.get("creature_class"):
-        summary_bits.append(
-            f"<p><strong>Clase:</strong> {html.escape(record['creature_class'])}</p>"
-        )
+        identity.append(f"<strong>Clase:</strong> {html.escape(record['creature_class'])}")
     if record.get("category"):
-        summary_bits.append(
-            f"<p><strong>Categoría:</strong> {html.escape(record['category'])}</p>"
-        )
-    if record.get("advantages"):
-        summary_bits.append(
-            f"<p><strong>Ventajas y desventajas:</strong> {html.escape(record['advantages'])}</p>"
-        )
-    if record.get("natural_abilities"):
-        summary_bits.append(
-            f"<p><strong>Habilidades naturales:</strong> {html.escape(record['natural_abilities'])}</p>"
-        )
-    if record.get("essentials"):
-        summary_bits.append(
-            f"<p><strong>Habilidades esenciales:</strong> {html.escape(record['essentials'])}</p>"
-        )
-    if record.get("powers"):
-        summary_bits.append(
-            f"<p><strong>Poderes:</strong> {html.escape(record['powers'])}</p>"
-        )
-    if record.get("disciplines"):
-        summary_bits.append(
-            f"<p><strong>Disciplinas:</strong> {html.escape(record['disciplines'])}</p>"
-        )
+        identity.append(f"<strong>Categoría:</strong> {html.escape(record['category'])}")
+    if record.get("race"):
+        identity.append(f"<strong>Raza:</strong> {html.escape(record['race'])}")
+    if record.get("variant"):
+        identity.append(f"<strong>Variante:</strong> {html.escape(record['variant'])}")
+    if identity:
+        parts.append("<p>" + " · ".join(identity) + "</p>")
+
+    # Combat summary
+    combat = []
     if record.get("damage_raw"):
-        summary_bits.append(
-            f"<p><strong>Daño:</strong> {html.escape(record['damage_raw'])}</p>"
-        )
+        combat.append(f"<strong>Daño:</strong> {html.escape(record['damage_raw'])}")
     if record.get("ta_raw"):
-        summary_bits.append(
-            f"<p><strong>TA:</strong> {html.escape(record['ta_raw'])}</p>"
-        )
+        combat.append(f"<strong>TA:</strong> {html.escape(record['ta_raw'])}")
+    if combat:
+        parts.append("<h3>Combate</h3>")
+        for c in combat:
+            parts.append(f"<p>{c}</p>")
+
+    # Abilities
+    ability_fields = [
+        ("advantages", "Ventajas y desventajas"),
+        ("natural_abilities", "Habilidades naturales"),
+        ("essentials", "Habilidades esenciales"),
+        ("powers", "Poderes"),
+        ("disciplines", "Disciplinas"),
+    ]
+    ability_bits = []
+    for field, label in ability_fields:
+        val = record.get(field)
+        if val:
+            ability_bits.append(f"<p><strong>{label}:</strong> {html.escape(val)}</p>")
+    if ability_bits:
+        parts.append("<h3>Habilidades y poderes</h3>")
+        parts.extend(ability_bits)
+
+    # Secondary skills
     if record.get("secondary_skills_raw"):
-        summary_bits.append(
-            f"<p><strong>Habilidades secundarias:</strong> {html.escape(record['secondary_skills_raw'])}</p>"
-        )
+        parts.append("<h3>Habilidades secundarias</h3>")
+        parts.append(f"<p>{html.escape(record['secondary_skills_raw'])}</p>")
+
+    # Narrative
     if record.get("narrative"):
-        summary_bits.append(
-            f"<p><strong>Descripción breve:</strong> {html.escape(record['narrative'])}</p>"
-        )
-    if record.get("warnings"):
-        summary_bits.append(
-            f"<p><strong>Avisos de extracción:</strong> {html.escape('; '.join(record['warnings']))}</p>"
-        )
+        parts.append("<h3>Descripción</h3>")
+        parts.append(f"<p><em>{html.escape(record['narrative'])}</em></p>")
 
+    # Raw text (collapsed)
     raw_chunk = html.escape(record["raw_chunk"].strip())
-    raw_block = f"<details><summary>Texto extraído</summary><pre>{raw_chunk}</pre></details>"
+    parts.append(f"<details><summary>Texto extraído (OCR)</summary><pre style='white-space:pre-wrap;font-size:0.85em;'>{raw_chunk}</pre></details>")
 
-    return "".join(
-        [
-            "<section><h2>Fuente</h2>",
-            *source_bits,
-            "</section>",
-            "<section><h2>Resumen importado</h2>",
-            *summary_bits,
-            "</section>",
-            raw_block,
-        ]
-    )
-
+    return "\n".join(parts)
 
 def set_secondary_value(system: dict, path: tuple[str, ...], value: int) -> None:
     node = system
@@ -1705,11 +1688,13 @@ def build_note_entries(record: dict) -> list[dict]:
         raw_value = collapse_spaces(record.get(field_name) or "")
         if not raw_value:
             continue
+        # Truncate name to 200 chars for readability, full text in description
+        display = raw_value if len(raw_value) <= 200 else raw_value[:197] + "..."
         notes.append(
             {
                 "_id": stable_id(record["id"], "note", str(index)),
                 "type": "note",
-                "name": f"{label}: {raw_value}",
+                "name": f"{label}: {display}",
                 "system": {},
             }
         )
