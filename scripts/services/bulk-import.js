@@ -52,12 +52,12 @@ export class BulkImportApp {
       buttons: [
         {
           action: 'cancel',
-          label: game.i18n.localize('ANIMU_EXXET.excel.cancel'),
+          label: game.i18n.localize('ANIMU_EXXET.excel.cancel') || 'Cancelar',
           icon: 'fas fa-times',
         },
         {
           action: 'import',
-          label: game.i18n.localize('ANIMU_EXXET.excel.accept'),
+          label: game.i18n.localize('ANIMU_EXXET.excel.accept') || 'Aceptar',
           icon: 'fas fa-check',
           default: true,
           callback: async () => {

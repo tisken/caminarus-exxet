@@ -69,14 +69,16 @@ function cellBelow(sheet, row, col, offset = 1) {
 function findValue(sheet, label, startRow = 1, endRow = 130) {
   const found = findCell(sheet, label, startRow, endRow);
   if (!found) return null;
-  // Try right neighbors
-  for (let offset = 1; offset <= 5; offset++) {
+  // Try right neighbors on same row
+  for (let offset = 1; offset <= 8; offset++) {
     const v = cellRight(sheet, found.row, found.col, offset);
-    if (v != null && String(v).trim() !== '') return v;
+    if (v != null && String(v).trim() !== '' && !String(v).includes(':')) return v;
   }
-  // Try below
-  const v = cellBelow(sheet, found.row, found.col);
-  if (v != null) return v;
+  // Try row below, same column and right
+  for (let offset = 0; offset <= 8; offset++) {
+    const v = cellRight(sheet, found.row + 1, found.col, offset);
+    if (v != null && String(v).trim() !== '' && !String(v).includes(':')) return v;
+  }
   return null;
 }
 
@@ -407,7 +409,7 @@ export function parseExcelToActorData(workbook, fileName) {
         modifiers: { physicalActions: { value: 0 }, allActions: { base: { value: 0 }, final: { value: 0 } }, naturalPenalty: { byArmors: { value: 0 }, byWearArmorRequirement: { value: 0 } }, extraDamage: { value: 0 } },
         destinyPoints: { base: { value: 0 }, final: { value: 0 } },
         presence: { value: 0, base: { value: presenceBase } },
-        aspect: { hair: { value: '' }, eyes: { value: '' }, height: { value: '' }, weight: { value: '' }, age: { value: '' }, gender: { value: '' }, race: { value: getStr(CELLS.class) }, ethnicity: { value: '' }, appearance: { value: '' }, size: { value: String(dynSize || getInt(CELLS.size)) } },
+        aspect: { hair: { value: '' }, eyes: { value: '' }, height: { value: '' }, weight: { value: '' }, age: { value: '' }, gender: { value: '' }, race: { value: getStr(CELLS.class) }, ethnicity: { value: '' }, appearance: { value: '' }, size: { value: String(dynSize || getInt(CELLS.size) || 0) } },
         advantages: [], contacts: [], inventory: [],
         money: { cooper: { value: 0 }, silver: { value: 0 }, gold: { value: 0 } },
         description: { value: `<p>Importado desde ${fileName}</p><p>${dynLanguages || getStr(CELLS.languages)}</p>`, enriched: '' },
