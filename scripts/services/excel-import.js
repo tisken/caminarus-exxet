@@ -272,7 +272,120 @@ export function parseExcelToActorData(workbook, fileName) {
     if (val) notes.push({ _id: foundry.utils.randomID(), type: 'note', name: `${label}: ${val}`, system: {} });
   }
 
-  // Build the actor data
+
+  // Read Combate sheet for weapons and wearArmor
+  const combateSheet = workbook.Sheets['Combate'];
+  if (combateSheet) {
+    // Llevar Armadura (Requisito)
+    const wearArmorCell = findCell(combateSheet, 'Requisito:', 10, 20, 1, 15);
+    if (wearArmorCell) {
+      const waVal = safeInt(cellRight(combateSheet, wearArmorCell.row, wearArmorCell.col));
+      if (waVal > 0) items.push({ _id: foundry.utils.randomID(), type: 'note', name: `Llevar Armadura: ${waVal}`, system: {} });
+    }
+
+    // Weapons from slots (rows 20-60, each weapon block is ~7 rows)
+    const weaponSlots = [20, 27, 34, 41, 48, 57];
+    for (const startRow of weaponSlots) {
+      const weaponName = safeStr(cellAt(combateSheet, startRow, 3)); // C column
+      if (!weaponName || weaponName === 'Artes Marciales') {
+        // Check if Artes Marciales has data
+        if (weaponName === 'Artes Marciales') {
+          const turno = safeInt(cellAt(combateSheet, startRow + 1, 8));
+          const ataque = safeInt(cellAt(combateSheet, startRow + 1, 9));
+          const defensa = safeInt(cellAt(combateSheet, startRow + 1, 10));
+          const dmg = safeInt(cellAt(combateSheet, startRow + 1, 12));
+          const crit1 = safeStr(cellAt(combateSheet, startRow + 3, 3)).toLowerCase();
+          const crit2 = safeStr(cellAt(combateSheet, startRow + 3, 4)).toLowerCase();
+          const critMap = {fil:'cut',con:'impact',pen:'thrust',cal:'heat',ele:'electricity',fri:'cold',ene:'energy'};
+          if (ataque > 0 || dmg > 0) {
+            items.push({
+              name: 'Artes Marciales', type: 'weapon',
+              img: 'icons/creatures/claws/claw-hooked-curved.webp',
+              system: {
+                special: { value: '' },
+                integrity: { base: { value: safeInt(cellAt(combateSheet, startRow + 3, 5)) }, final: { value: 0 }, special: { value: 0 } },
+                breaking: { base: { value: safeInt(cellAt(combateSheet, startRow + 3, 6)) }, final: { value: 0 }, special: { value: 0 } },
+                attack: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
+                block: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
+                damage: { base: { value: dmg }, final: { value: 0 }, special: { value: 0 } },
+                initiative: { base: { value: turno }, final: { value: 0 }, special: { value: 0 } },
+                presence: { base: { value: safeInt(cellAt(combateSheet, startRow + 3, 7)) }, final: { value: 0 }, special: { value: 0 } },
+                size: { value: 'medium' },
+                strRequired: { oneHand: { base: { value: 0 }, final: { value: 0 } }, twoHands: { base: { value: 0 }, final: { value: 0 } } },
+                quality: { value: 0 }, oneOrTwoHanded: { value: '' },
+                knowledgeType: { value: 'known' }, manageabilityType: { value: 'one_hand' },
+                shotType: { value: 'throw' }, isRanged: { value: false },
+                range: { base: { value: 0 }, final: { value: 0 } },
+                cadence: { value: '' }, reload: { base: { value: 0 }, final: { value: 0 } },
+                sizeProportion: { value: 'normal' },
+                weaponStrength: { base: { value: 0 }, final: { value: 0 } },
+                critic: { primary: { value: critMap[crit1] || '-' }, secondary: { value: critMap[crit2] || '-' } },
+                isShield: { value: false }, equipped: { value: true },
+              },
+            });
+          }
+        }
+        continue;
+      }
+
+      // Named weapon
+      const wName = safeStr(cellAt(combateSheet, startRow + 1, 5)) || weaponName; // E has full name
+      const turno = safeInt(cellAt(combateSheet, startRow + 1, 8));
+      const ataque = safeInt(cellAt(combateSheet, startRow + 1, 9));
+      const dmg = safeInt(cellAt(combateSheet, startRow + 1, 12));
+      const crit1 = safeStr(cellAt(combateSheet, startRow + 3, 3)).toLowerCase();
+      const crit2 = safeStr(cellAt(combateSheet, startRow + 3, 4)).toLowerCase();
+      const entereza = safeInt(cellAt(combateSheet, startRow + 3, 5));
+      const rotura = safeInt(cellAt(combateSheet, startRow + 3, 6));
+      const presencia = safeInt(cellAt(combateSheet, startRow + 3, 7));
+      const calidad = safeInt(cellAt(combateSheet, startRow + 4, 8));
+      const critMap = {fil:'cut',con:'impact',pen:'thrust',cal:'heat',ele:'electricity',fri:'cold',ene:'energy'};
+
+      if (ataque > 0 || dmg > 0) {
+        items.push({
+          name: wName || weaponName, type: 'weapon',
+          img: 'icons/weapons/swords/greatsword-crossguard-steel.webp',
+          system: {
+            special: { value: '' },
+            integrity: { base: { value: entereza }, final: { value: 0 }, special: { value: 0 } },
+            breaking: { base: { value: rotura }, final: { value: 0 }, special: { value: 0 } },
+            attack: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
+            block: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
+            damage: { base: { value: dmg }, final: { value: 0 }, special: { value: 0 } },
+            initiative: { base: { value: turno }, final: { value: 0 }, special: { value: 0 } },
+            presence: { base: { value: presencia }, final: { value: 0 }, special: { value: 0 } },
+            size: { value: 'medium' },
+            strRequired: { oneHand: { base: { value: 0 }, final: { value: 0 } }, twoHands: { base: { value: 0 }, final: { value: 0 } } },
+            quality: { value: calidad }, oneOrTwoHanded: { value: '' },
+            knowledgeType: { value: 'known' }, manageabilityType: { value: 'one_hand' },
+            shotType: { value: 'throw' }, isRanged: { value: false },
+            range: { base: { value: 0 }, final: { value: 0 } },
+            cadence: { value: '' }, reload: { base: { value: 0 }, final: { value: 0 } },
+            sizeProportion: { value: 'normal' },
+            weaponStrength: { base: { value: 0 }, final: { value: 0 } },
+            critic: { primary: { value: critMap[crit1] || '-' }, secondary: { value: critMap[crit2] || '-' } },
+            isShield: { value: false }, equipped: { value: true },
+          },
+        });
+      }
+    }
+  }
+
+  // Read Ki sheet for Conocimiento Marcial
+  const kiSheet = workbook.Sheets['Ki'];
+  if (kiSheet) {
+    const cmCell = findCell(kiSheet, 'CM Total', 20, 35, 1, 10);
+    if (cmCell) {
+      const cmTotal = safeInt(cellBelow(kiSheet, cmCell.row, cmCell.col));
+      const cmUsed = safeInt(cellAt(kiSheet, cmCell.row + 1, cmCell.col + 2));
+      if (cmTotal > 0) {
+        notes.push({ _id: foundry.utils.randomID(), type: 'note', name: \`Conocimiento Marcial: \${cmTotal} (usado: \${cmUsed})\`, system: {} });
+      }
+    }
+  }
+
+
+    // Build the actor data
 
   // We'll let Foundry/animabf fill the template, just set the values we have
   return {
