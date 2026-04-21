@@ -2,8 +2,13 @@
 
 Addon para Foundry VTT orientado al sistema `animabf` que incluye compendios de criaturas, artefactos y un importador de fichas Excel.
 
-> **Aviso legal:** Este módulo es un proyecto personal gratuito, desarrollado a partir de manuales físicos en posesión del autor. No distribuye ni reproduce contenido con derechos de autor. Todos los nombres, personajes, criaturas y contenido de Anima Beyond Fantasy son © 2005 – 2026 Anima Project. Todos los derechos reservados. Este módulo no está afiliado ni respaldado por Anima Project.
+> Proyecto no oficial y gratuito para Foundry VTT.
+> Requiere disponer legalmente de los manuales originales de Anima Beyond Fantasy.
+> Este repositorio no pretende sustituir ni redistribuir las publicaciones oficiales.
+> Si algún contenido infringe derechos de autor, será retirado a solicitud del titular.
+> No afiliado ni respaldado por Anima Project Studio.
 >
+> Anima Beyond Fantasy © 2005 – 2026 Anima Project. Todos los derechos reservados.
 > Sitio oficial: [animaproject.studio](https://www.animaproject.studio/juego-de-rol/)
 
 ## Instalación
