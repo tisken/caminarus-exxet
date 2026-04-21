@@ -379,7 +379,7 @@ export function parseExcelToActorData(workbook, fileName) {
       const cmTotal = safeInt(cellBelow(kiSheet, cmCell.row, cmCell.col));
       const cmUsed = safeInt(cellAt(kiSheet, cmCell.row + 1, cmCell.col + 2));
       if (cmTotal > 0) {
-        notes.push({ _id: foundry.utils.randomID(), type: 'note', name: \`Conocimiento Marcial: \${cmTotal} (usado: \${cmUsed})\`, system: {} });
+        notes.push({ _id: foundry.utils.randomID(), type: 'note', name: `Conocimiento Marcial: ${cmTotal} (usado: ${cmUsed})`, system: {} });
       }
     }
   }
