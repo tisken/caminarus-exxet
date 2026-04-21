@@ -119,31 +119,103 @@ def extract_search_terms(doc: dict) -> str:
     # Build final query
     parts = [creature_desc]
     parts.extend(visual_hints[:3])
-    parts.append("anima beyond fantasy anime art")
+    parts.append("anime fantasy")
     
     return " ".join(parts)
 
 
-def search_image(query: str, max_results: int = 10) -> list[str]:
-    """Search for images using Bing Images."""
+# Tag translation for Safebooru searches
+TAG_MAP = {
+    "dragón": "dragon", "dragon": "dragon",
+    "elemental": "elemental", "fuego": "fire", "hielo": "ice",
+    "agua": "water", "tierra": "earth", "aire": "wind",
+    "luz": "light", "sombra": "shadow", "oscuro": "dark",
+    "demonio": "demon", "ángel": "angel", "fantasma": "ghost",
+    "esqueleto": "skeleton", "zombi": "zombie", "muerto": "undead",
+    "araña": "spider", "lobo": "wolf", "serpiente": "snake",
+    "golem": "golem", "bestia": "beast", "monstruo": "monster",
+    "caballero": "knight", "guerrero": "warrior", "hechicero": "mage",
+    "vampiro": "vampire", "banshee": "banshee", "hidra": "hydra",
+    "esfinge": "sphinx", "medusa": "medusa", "quimera": "chimera",
+    "gigante": "giant", "insecto": "insect", "espectral": "spectral",
+    "luminoso": "glowing", "etéreo": "ethereal", "incorpóreo": "ghost",
+    "alado": "wings", "volador": "flying", "acuático": "underwater",
+    "pétreo": "stone", "metálico": "metal", "óseo": "bone",
+    "venenoso": "poison", "sangriento": "blood",
+    "pirata": "pirate", "samurái": "samurai", "ninja": "ninja",
+    "sacerdote": "priest", "noble": "noble", "soldado": "soldier",
+    "marinero": "sailor", "campesino": "peasant", "mercader": "merchant",
+    "asesino": "assassin", "cazador": "hunter", "explorador": "explorer",
+    "bárbaro": "barbarian", "nómada": "nomad", "chamán": "shaman",
+}
+
+
+def build_safebooru_tags(query):
+    """Convert a search query to Safebooru tags."""
+    words = query.lower().split()
+    tags = set()
+    for word in words:
+        # Direct tag match
+        clean = re.sub(r"[^a-záéíóúüñ]", "", word)
+        if clean in TAG_MAP:
+            tags.add(TAG_MAP[clean])
+        # Also try the word itself as English tag
+        eng = re.sub(r"[^a-z]", "", word)
+        if eng and len(eng) > 2:
+            tags.add(eng)
+    # Always add fantasy tag
+    tags.add("fantasy")
+    # Limit to 4 tags (Safebooru limit)
+    return "+".join(list(tags)[:4])
+
+
+def search_safebooru(tags, limit=5):
+    """Search Safebooru for anime images by tags."""
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        }
+        url = f"https://safebooru.org/index.php?page=dapi&s=post&q=index&json=1&tags={tags}&limit={limit}"
+        resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        if resp.status_code != 200 or not resp.text.strip():
+            return []
+        posts = resp.json()
+        if not isinstance(posts, list):
+            return []
+        urls = []
+        for p in posts:
+            directory = p.get("directory", "")
+            image = p.get("image", "")
+            if directory and image:
+                urls.append(f"https://safebooru.org/images/{directory}/{image}")
+        return urls
+    except Exception:
+        return []
+
+
+def search_bing(query, max_results=10):
+    """Search Bing Images as fallback."""
+    try:
         url = f"https://www.bing.com/images/search?q={requests.utils.quote(query)}&form=HDRSC2&first=1"
-        resp = requests.get(url, headers=headers, timeout=10)
+        resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}, timeout=10)
         if resp.status_code != 200:
             return []
-        # Extract image URLs from Bing's murl attribute
         img_urls = re.findall(r"murl&quot;:&quot;(https?://[^&]+\.(?:jpg|jpeg|png|webp)[^&]*)&quot;", resp.text)
         if not img_urls:
             img_urls = re.findall(r'"murl":"(https?://[^"]+)"', resp.text)
-        # Filter out tiny thumbnails and icons
-        good_urls = [u for u in img_urls if "thumb" not in u.lower() and "icon" not in u.lower()]
-        return good_urls[:max_results]
-    except Exception as e:
-        print(f"  Search error: {e}")
+        return [u for u in img_urls if "thumb" not in u.lower()][:max_results]
+    except Exception:
         return []
+
+
+def search_image(query, max_results=10):
+    """Search for images: Safebooru first, Bing fallback."""
+    # Try Safebooru with translated tags
+    tags = build_safebooru_tags(query)
+    urls = search_safebooru(tags, limit=5)
+    if urls:
+        return urls
+
+    # Fallback to Bing with anime style
+    bing_query = query + " anime fantasy art"
+    return search_bing(bing_query, max_results)
 
 
 def download_image(url: str, timeout: int = 10) -> Image.Image | None:
