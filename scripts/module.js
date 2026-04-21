@@ -23,34 +23,30 @@ const registerSettings = () => {
 };
 
 function injectButton(html, cssClass, label, icon, onClick) {
-  if (html.find(`.${cssClass}`).length) return;
+  // Foundry v13+ passes native DOM element, not jQuery
+  const el = html instanceof HTMLElement ? html : html[0] ?? html;
+  if (!el || !(el instanceof HTMLElement)) return;
+  if (el.querySelector(`.${cssClass}`)) return;
 
-  const btn = $(`
-    <button type="button" class="${cssClass}" style="margin: 2px;">
-      <i class="${icon}"></i> ${label}
-    </button>
-  `);
-  btn.on('click', onClick);
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = cssClass;
+  btn.style.margin = '2px';
+  btn.innerHTML = `<i class="${icon}"></i> ${label}`;
+  btn.addEventListener('click', onClick);
 
-  // Try multiple insertion points for v13/v14 compatibility
-  const targets = [
-    html.find('.header-actions'),
-    html.find('.action-buttons'),
-    html.find('.directory-footer'),
-    html.find('[class*="footer"]'),
-    html.find('[class*="header"] .flexrow'),
-    html.find('[class*="header"]'),
-  ];
+  const target =
+    el.querySelector('.header-actions') ??
+    el.querySelector('.action-buttons') ??
+    el.querySelector('.directory-footer') ??
+    el.querySelector('[class*="footer"]') ??
+    el.querySelector('.directory-header');
 
-  for (const target of targets) {
-    if (target.length) {
-      target.first().append(btn);
-      return;
-    }
+  if (target) {
+    target.appendChild(btn);
+  } else {
+    el.prepend(btn);
   }
-
-  // Last resort: append to the html element itself
-  html.append(btn);
 }
 
 Hooks.once('init', () => {
@@ -73,7 +69,6 @@ Hooks.once('ready', async () => {
   }
 });
 
-// Inject in Actor Directory
 Hooks.on('renderActorDirectory', (_app, html) => {
   if (!game.user.isGM || game.system?.id !== 'animabf') return;
   injectButton(
@@ -85,7 +80,6 @@ Hooks.on('renderActorDirectory', (_app, html) => {
   );
 });
 
-// Inject in Item Directory
 Hooks.on('renderItemDirectory', (_app, html) => {
   if (!game.user.isGM || game.system?.id !== 'animabf') return;
   injectButton(
@@ -95,39 +89,4 @@ Hooks.on('renderItemDirectory', (_app, html) => {
     'fas fa-file-import',
     () => new BulkImportApp().render(true)
   );
-});
-
-// Also try the generic sidebar tab hook
-Hooks.on('renderSidebarTab', (app, html) => {
-  if (!game.user.isGM || game.system?.id !== 'animabf') return;
-  const tabName = app.constructor?.name ?? app.tabName ?? '';
-  if (!['ActorDirectory', 'ItemDirectory'].includes(tabName)) return;
-  injectButton(
-    html,
-    'animu-exxet-bulk-btn',
-    game.i18n.localize('ANIMU_EXXET.bulk.openBulkImport'),
-    'fas fa-file-import',
-    () => new BulkImportApp().render(true)
-  );
-});
-
-// V2 Application hook for Foundry v14+
-Hooks.on('changeSidebarTab', app => {
-  if (!game.user.isGM || game.system?.id !== 'animabf') return;
-  const tabName = app.constructor?.name ?? '';
-  if (!['ActorDirectory', 'ItemDirectory'].includes(tabName)) return;
-
-  // Wait for DOM to be ready
-  setTimeout(() => {
-    const el = app.element;
-    if (!el) return;
-    const html = $(el instanceof jQuery ? el : el);
-    injectButton(
-      html,
-      'animu-exxet-bulk-btn',
-      game.i18n.localize('ANIMU_EXXET.bulk.openBulkImport'),
-      'fas fa-file-import',
-      () => new BulkImportApp().render(true)
-    );
-  }, 100);
 });
