@@ -1,10 +1,8 @@
 import { AnimuExxetImporterMenu } from './apps/importer-menu.js';
 import { loadIndex } from './services/compendium-service.js';
-import { addBulkImportButton } from './services/bulk-import.js';
+import { BulkImportApp } from './services/bulk-import.js';
 
 const MODULE_ID = 'animu-exxet';
-
-const openImporter = () => new AnimuExxetImporterMenu().render(true);
 
 const registerSettings = () => {
   game.settings.registerMenu(MODULE_ID, 'importer', {
@@ -34,8 +32,6 @@ Hooks.once('ready', async () => {
     return;
   }
 
-  addBulkImportButton();
-
   try {
     const index = await loadIndex();
     if (!index.datasets?.length) {
@@ -50,13 +46,23 @@ Hooks.on('renderCompendiumDirectory', (_app, html) => {
   if (!game.user.isGM || game.system?.id !== 'animabf') return;
   if (html.find('.animu-exxet-directory-button').length) return;
 
-  const button = $(`
+  const footer = html.find('.directory-footer');
+
+  const importerBtn = $(`
     <button type="button" class="animu-exxet-directory-button">
       <i class="fas fa-dragon"></i>
       ${game.i18n.localize('ANIMU_EXXET.ui.openImporter')}
     </button>
   `);
+  importerBtn.on('click', () => new AnimuExxetImporterMenu().render(true));
+  footer.append(importerBtn);
 
-  button.on('click', openImporter);
-  html.find('.directory-footer').append(button);
+  const bulkBtn = $(`
+    <button type="button" class="animu-exxet-directory-button animu-exxet-bulk-button">
+      <i class="fas fa-file-import"></i>
+      ${game.i18n.localize('ANIMU_EXXET.bulk.openBulkImport')}
+    </button>
+  `);
+  bulkBtn.on('click', () => new BulkImportApp().render(true));
+  footer.append(bulkBtn);
 });

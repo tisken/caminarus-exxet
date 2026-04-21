@@ -172,19 +172,4 @@ export class BulkImportApp extends Application {
   }
 }
 
-export function addBulkImportButton() {
-  Hooks.on('renderCompendiumDirectory', (_app, html) => {
-    if (!game.user.isGM || game.system?.id !== 'animabf') return;
-    if (html.find('.animu-exxet-bulk-button').length) return;
 
-    const button = $(`
-      <button type="button" class="animu-exxet-bulk-button">
-        <i class="fas fa-file-import"></i>
-        ${game.i18n.localize('ANIMU_EXXET.bulk.openBulkImport')}
-      </button>
-    `);
-
-    button.on('click', () => new BulkImportApp().render(true));
-    html.find('.directory-footer').append(button);
-  });
-}
