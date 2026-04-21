@@ -35,6 +35,51 @@ const CELLS = {
   psychicDisciplines: 'H66', psychicPowers: 'H69',
 };
 
+
+// Dynamic cell finder - searches for labels in the sheet
+function findCell(sheet, label, startRow = 1, endRow = 130, startCol = 1, endCol = 35) {
+  const labelLower = label.toLowerCase();
+  for (let r = startRow; r <= endRow; r++) {
+    for (let c = startCol; c <= endCol; c++) {
+      const ref = XLSX.utils.encode_cell({ r: r - 1, c: c - 1 });
+      const cell = sheet[ref];
+      if (cell && String(cell.v).toLowerCase().includes(labelLower)) {
+        return { row: r, col: c, ref };
+      }
+    }
+  }
+  return null;
+}
+
+function cellAt(sheet, row, col) {
+  const ref = XLSX.utils.encode_cell({ r: row - 1, c: col - 1 });
+  const cell = sheet[ref];
+  return cell ? cell.v : null;
+}
+
+function cellRight(sheet, row, col, offset = 1) {
+  return cellAt(sheet, row, col + offset);
+}
+
+function cellBelow(sheet, row, col, offset = 1) {
+  return cellAt(sheet, row + offset, col);
+}
+
+// Find value cell next to a label (searches right and below)
+function findValue(sheet, label, startRow = 1, endRow = 130) {
+  const found = findCell(sheet, label, startRow, endRow);
+  if (!found) return null;
+  // Try right neighbors
+  for (let offset = 1; offset <= 5; offset++) {
+    const v = cellRight(sheet, found.row, found.col, offset);
+    if (v != null && String(v).trim() !== '') return v;
+  }
+  // Try below
+  const v = cellBelow(sheet, found.row, found.col);
+  if (v != null) return v;
+  return null;
+}
+
 const SECONDARY_MAP = {
   'acrobacias': ['secondaries', 'athletics', 'acrobatics'],
   'atletismo': ['secondaries', 'athletics', 'athleticism'],
@@ -158,9 +203,28 @@ export function parseExcelToActorData(workbook, fileName) {
   };
 
   const defenseRaw = getStr(CELLS.defense);
+
+  // Dynamic fields (position varies between Excel versions)
+  const dynSize = safeInt(findValue(sheet, 'Tamaño:', 85, 120));
+  const dynMovement = safeInt(findValue(sheet, 'Tipo de movimiento:', 85, 120));
+  const dynFatigue = safeInt(findValue(sheet, 'Cansancio:', 85, 120));
+  const dynRegen = safeInt(findValue(sheet, 'Regeneración:', 85, 120));
+  const dynActionsPerTurn = safeInt(findValue(sheet, 'Acciones por turno:', 85, 120));
+
+  // Dynamic secondary skills - find the label then read the cell below
+  const habSecCell = findCell(sheet, 'Habilidades secundarias:', 85, 120);
+  const dynSecondarySkills = habSecCell ? safeStr(cellBelow(sheet, habSecCell.row, habSecCell.col - 1)) || safeStr(cellAt(sheet, habSecCell.row + 1, 4)) : '';
+
+  // Dynamic text fields
+  const dynAdvantages = safeStr(findValue(sheet, 'Ventajas y desventajas:', 65, 100));
+  const dynNaturalAbilities = safeStr(findValue(sheet, 'Habilidades naturales:', 65, 100));
+  const dynSpecial = safeStr(findValue(sheet, 'Especial:', 65, 100));
+  const dynEssentialAbilities = safeStr(findValue(sheet, 'Habilidades esenciales:', 65, 100));
+  const dynPowers = safeStr(findValue(sheet, 'Poderes:', 65, 100));
+  const dynLanguages = safeStr(findValue(sheet, 'Lenguas:', 100, 130));
   const isBlock = defenseRaw.toLowerCase().includes('parada');
 
-  const skills = parseSecondarySkills(getStr(CELLS.secondarySkills));
+  const skills = parseSecondarySkills(dynSecondarySkills || getStr(CELLS.secondarySkills));
 
 
   // Build armor item from TA values
@@ -190,12 +254,13 @@ export function parseExcelToActorData(workbook, fileName) {
   }
 
   // Build notes from text fields
-  const noteFields = [
-    [CELLS.advantages, 'Ventajas y desventajas'],
-    [CELLS.naturalAbilities, 'Habilidades naturales'],
-    [CELLS.essentialAbilities, 'Habilidades esenciales'],
-    [CELLS.powers, 'Poderes'],
-    [CELLS.special, 'Especial'],
+  // Use dynamic values for notes (handles shifted rows)
+  const dynNoteValues = [
+    [dynAdvantages || getStr(CELLS.advantages), 'Ventajas y desventajas'],
+    [dynNaturalAbilities || getStr(CELLS.naturalAbilities), 'Habilidades naturales'],
+    [dynEssentialAbilities || getStr(CELLS.essentialAbilities), 'Habilidades esenciales'],
+    [dynPowers || getStr(CELLS.powers), 'Poderes'],
+    [dynSpecial || getStr(CELLS.special), 'Especial'],
     [CELLS.kiSkills, 'Habilidades de Ki'],
     [CELLS.techniques, 'Técnicas'],
     [CELLS.magicLevel, 'Nivel de Magia'],
@@ -203,8 +268,7 @@ export function parseExcelToActorData(workbook, fileName) {
     [CELLS.psychicPowers, 'Poderes Psíquicos'],
   ];
   const notes = [];
-  for (const [ref, label] of noteFields) {
-    const val = getStr(ref);
+  for (const [val, label] of dynNoteValues) {
     if (val) notes.push({ _id: foundry.utils.randomID(), type: 'note', name: `${label}: ${val}`, system: {} });
   }
 
@@ -230,10 +294,10 @@ export function parseExcelToActorData(workbook, fileName) {
         modifiers: { physicalActions: { value: 0 }, allActions: { base: { value: 0 }, final: { value: 0 } }, naturalPenalty: { byArmors: { value: 0 }, byWearArmorRequirement: { value: 0 } }, extraDamage: { value: 0 } },
         destinyPoints: { base: { value: 0 }, final: { value: 0 } },
         presence: { value: 0, base: { value: presenceBase } },
-        aspect: { hair: { value: '' }, eyes: { value: '' }, height: { value: '' }, weight: { value: '' }, age: { value: '' }, gender: { value: '' }, race: { value: getStr(CELLS.class) }, ethnicity: { value: '' }, appearance: { value: '' }, size: { value: String(getInt(CELLS.size)) } },
+        aspect: { hair: { value: '' }, eyes: { value: '' }, height: { value: '' }, weight: { value: '' }, age: { value: '' }, gender: { value: '' }, race: { value: getStr(CELLS.class) }, ethnicity: { value: '' }, appearance: { value: '' }, size: { value: String(dynSize || getInt(CELLS.size)) } },
         advantages: [], contacts: [], inventory: [],
         money: { cooper: { value: 0 }, silver: { value: 0 }, gold: { value: 0 } },
-        description: { value: `<p>Importado desde ${fileName}</p><p>${getStr(CELLS.languages)}</p>`, enriched: '' },
+        description: { value: `<p>Importado desde ${fileName}</p><p>${dynLanguages || getStr(CELLS.languages)}</p>`, enriched: '' },
         disadvantages: [], elan: [],
         experience: { current: { value: 0 }, next: { value: 0 } },
         languages: { base: { value: '' }, others: [] },
@@ -248,10 +312,10 @@ export function parseExcelToActorData(workbook, fileName) {
         secondaries: {
           lifePoints: { value: getInt(CELLS.lifePoints), max: getInt(CELLS.lifePoints) },
           initiative: { base: { value: getInt(CELLS.initiative) }, final: { value: 0 } },
-          fatigue: { value: getInt(CELLS.fatigue), max: getInt(CELLS.fatigue) },
-          regenerationType: { mod: { value: getInt(CELLS.regeneration) }, final: { value: 0 } },
+          fatigue: { value: dynFatigue || getInt(CELLS.fatigue), max: dynFatigue || getInt(CELLS.fatigue) },
+          regenerationType: { mod: { value: dynRegen || getInt(CELLS.regeneration) }, final: { value: 0 } },
           regeneration: { normal: { value: 0, period: '' }, resting: { value: 0, period: '' }, recovery: { value: 0, period: '' } },
-          movementType: { mod: { value: getInt(CELLS.movement) - primaries.agility }, final: { value: 0 } },
+          movementType: { mod: { value: (dynMovement || getInt(CELLS.movement)) - primaries.agility }, final: { value: 0 } },
           movement: { maximum: { value: 0 }, running: { value: 0 } },
           resistances: {
             physical: { base: { value: getInt(CELLS.rf) }, final: { value: 0 } },
