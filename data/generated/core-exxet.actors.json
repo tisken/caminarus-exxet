@@ -9576,323 +9576,2015 @@
           "_key": "!actors.items!87d3658a1f2ddb3f.c67ce91f27bf04a7"
         },
         {
+          "_id": "8254401160f643ce",
+          "name": "Pyrokinesis",
+          "type": "psychicDiscipline",
+          "img": "icons/svg/eye.svg",
+          "system": {
+            "imbalance": false
+          }
+        },
+        {
           "_id": "2hUsg2sJ7xXbFlT1",
           "name": "Raise Temperature",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "The Psychic may affect the climate by raising temperature in a wide area.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "2",
-            "action": "1",
-            "maint": "Yes",
-            "effect20": "Fatigue 6",
-            "effect40": "Fatigue 4",
-            "effect80": "Fatigue 2",
-            "effect120": "Fatigue 1",
-            "effect140": "+30° F /1-mile radius",
-            "effect180": "+50° F /3-mile radius",
-            "effect240": "+60° F /5-mile radius",
-            "effect280": "+70° F /15-mile radius",
-            "effect320": "+85° F /30-mile radius",
-            "effect440": "+100° F /60-mile radius",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 6",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 6
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "Fatigue 4",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 4
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "Fatigue 2",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 2
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "Fatigue 1",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 1
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "+30° F /1-mile radius",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "+50° F /3-mile radius",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "+60° F /5-mile radius",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "+70° F /15-mile radius",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "+85° F /30-mile radius",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "+100° F /60-mile radius",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": true
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         },
         {
           "_id": "9UpKlvk85YErlx9w",
           "name": "Control Fire",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "Control the spread, intensity, colour, and shape of fires within the area, to the limit of the Intensities listed. If used against a Fire Elemental being, they muse pass a PhR check to avoid being controlled.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "1",
-            "action": "1",
-            "maint": "Yes",
-            "effect20": "Fatigue 2",
-            "effect40": "Fatigue 1",
-            "effect80": "4 Intensities / 80 PhR",
-            "effect120": "6 Intensities / 100 PhR",
-            "effect140": "8 Intensities / 120 PhR",
-            "effect180": "12 Intensities / 140 PhR",
-            "effect240": "16 Intensities / 160 PhR",
-            "effect280": "20 Intensities / 180 PhR",
-            "effect320": "25 Intensities / 200 PhR",
-            "effect440": "30 Intensities / 240 PhR",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 2",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 2
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "Fatigue 1",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 1
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "4 Intensities / 80 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "6 Intensities / 100 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "8 Intensities / 120 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "12 Intensities / 140 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "16 Intensities / 160 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "20 Intensities / 180 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "25 Intensities / 200 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "30 Intensities / 240 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": true
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         },
         {
           "_id": "SNdp7rIE3zsrQgRB",
           "name": "Fire Immunity",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "The psychic or designated target gains immunity to heat Intensities; reducing the base damage of heat attacks by 5 per Intensity, and raising Resistances by +5 per Intensity.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "2",
-            "action": "0",
-            "maint": "Yes",
-            "effect20": "Fatigue 4",
-            "effect40": "Fatigue 2",
-            "effect80": "Fatigue 1",
-            "effect120": "5 Intensities",
-            "effect140": "10 Intensities",
-            "effect180": "15 Intensities",
-            "effect240": "20 Intensities",
-            "effect280": "30 Intensities",
-            "effect320": "40 Intensities",
-            "effect440": "50 Intensities",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 4",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 4
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "Fatigue 2",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 2
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "Fatigue 1",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 1
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "5 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "10 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "15 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "20 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "30 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "40 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "50 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": true
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         },
         {
           "_id": "TtQbC3fiLWcDdRid",
           "name": "Create Fire",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "Create or strengthen flames. If used on a naturally flammable source, this does not require Maintenance to keep the flame burning.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "1",
-            "action": "1",
-            "maint": "Yes",
-            "effect20": "Fatigue 1",
-            "effect40": "1 Intensity",
-            "effect80": "3 Intensities",
-            "effect120": "5 Intensities",
-            "effect140": "7 Intensities",
-            "effect180": "10 Intensities",
-            "effect240": "13 Intensities",
-            "effect280": "16 Intensities",
-            "effect320": "20 Intensities",
-            "effect440": "25 Intensities",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 1",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 1
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "1 Intensity",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "3 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "5 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "7 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "10 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "13 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "16 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "20 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "25 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": true
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         },
         {
           "_id": "TxlMeDrL16G22Stv",
           "name": "Immolate",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "Wide area attack that the Psychic cannot designate targets for. Even the psychic is not immune, and the attack is clearly visible.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "1",
-            "action": "1",
-            "maint": "No",
-            "effect20": "Fatigue 4",
-            "effect40": "Fatigue 2",
-            "effect80": "Fatigue 1",
-            "effect120": "Damage 60 / 15-foot radius",
-            "effect140": "Damage 80 / 30-foot radius",
-            "effect180": "Damage 100 / 60-foot radius",
-            "effect240": "Damage 120 / 100-foot radius",
-            "effect280": "Damage 150 / 150-foot radius",
-            "effect320": "Damage 200 / 300-foot radius",
-            "effect440": "Damage 250 / 650-foot radius",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 4",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 4
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "Fatigue 2",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 2
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "Fatigue 1",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 1
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "Damage 60 / 15-foot radius",
+                "damage": {
+                  "value": 60
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "Damage 80 / 30-foot radius",
+                "damage": {
+                  "value": 80
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "Damage 100 / 60-foot radius",
+                "damage": {
+                  "value": 100
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "Damage 120 / 100-foot radius",
+                "damage": {
+                  "value": 120
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "Damage 150 / 150-foot radius",
+                "damage": {
+                  "value": 150
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "Damage 200 / 300-foot radius",
+                "damage": {
+                  "value": 200
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "Damage 250 / 650-foot radius",
+                "damage": {
+                  "value": 250
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": false
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         },
         {
           "_id": "fOConDz3MR6quL94",
           "name": "Consume",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "Cause the target to be burned internally, reducing it to ashes. Creatures failing their PhR check take automatic damage. DR creatures multiply this by 5. Objects that fail their PhR are destroyed, or lose a level of Quality in the case of Quality items.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "3",
-            "action": "1",
-            "maint": "No",
-            "effect20": "Fatigue 16",
-            "effect40": "Fatigue 12",
-            "effect80": "Fatigue 8",
-            "effect120": "Fatigue 6",
-            "effect140": "Fatigue 4",
-            "effect180": "120 PhR / Automatic Damage 80",
-            "effect240": "140 PhR / Automatic Damage 120",
-            "effect280": "160 PhR / Automatic Damage 160",
-            "effect320": "180 PhR / Automatic Damage 200",
-            "effect440": "220 PhR / Automatic Damage 250",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 16",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 16
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "Fatigue 12",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 12
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "Fatigue 8",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 8
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "Fatigue 6",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 6
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "Fatigue 4",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 4
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "120 PhR / Automatic Damage 80",
+                "damage": {
+                  "value": 80
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "140 PhR / Automatic Damage 120",
+                "damage": {
+                  "value": 120
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "160 PhR / Automatic Damage 160",
+                "damage": {
+                  "value": 160
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "180 PhR / Automatic Damage 200",
+                "damage": {
+                  "value": 200
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "220 PhR / Automatic Damage 250",
+                "damage": {
+                  "value": 250
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": false
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         },
         {
           "_id": "oWR14J4LRqeRGFej",
           "name": "Major Fire",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "Create or strengthen flames to a greater degree. If used on a naturally flammable source, this does not require Maintenance to keep the flame burning.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "3",
-            "action": "1",
-            "maint": "Yes",
-            "effect20": "Fatigue 20",
-            "effect40": "Fatigue 16",
-            "effect80": "Fatigue 12",
-            "effect120": "Fatigue 8",
-            "effect140": "Fatigue 6",
-            "effect180": "Fatigue 4",
-            "effect240": "30 Intensities",
-            "effect280": "40 Intensities",
-            "effect320": "50 Intensities",
-            "effect440": "60 Intensities",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 20",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 20
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "Fatigue 16",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 16
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "Fatigue 12",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 12
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "Fatigue 8",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 8
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "Fatigue 6",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 6
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "Fatigue 4",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 4
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "30 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "40 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "50 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "60 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": true
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         },
         {
           "_id": "qSniGBn75c5jvFfr",
           "name": "Igneous Maintenance",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "Supernaturally bolster an existing fire, making it unable to be extinguished by any natural method whilst sustained, including lack of fuel.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "2",
-            "action": "1",
-            "maint": "Yes",
-            "effect20": "Fatigue 4",
-            "effect40": "Fatigue 2",
-            "effect80": "Fatigue 1",
-            "effect120": "5 Intensities",
-            "effect140": "10 Intensities",
-            "effect180": "15 Intensities",
-            "effect240": "20 Intensities",
-            "effect280": "30 Intensities",
-            "effect320": "40 Intensities",
-            "effect440": "50 Intensities",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 4",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 4
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "Fatigue 2",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 2
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "Fatigue 1",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 1
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "5 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "10 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "15 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "20 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "30 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "40 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "50 Intensities",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": true
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         },
         {
           "_id": "qubia0AaF1rq1aNE",
           "name": "Nova",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "Allows the Psychic to trade LP for Psychic Potential at a 1:2 ratio. This Potential lasts until the end of the turn. DR creatures multiply this LP loss by 5. The maximum LP that can be sacrificed per turn is limited by the achieved result. The damage is fire based, and heals at half the natural rate.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "3",
-            "action": "1",
-            "maint": "Yes",
-            "effect20": "Fatigue 16",
-            "effect40": "Fatigue 12",
-            "effect80": "Fatigue 8",
-            "effect120": "10 Life Points",
-            "effect140": "20 Life Points",
-            "effect180": "30 Life Points",
-            "effect240": "40 Life Points",
-            "effect280": "60 Life Points",
-            "effect320": "80 Life Points",
-            "effect440": "120 Life Points",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 16",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 16
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "Fatigue 12",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 12
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "Fatigue 8",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 8
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "10 Life Points",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "20 Life Points",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "30 Life Points",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "40 Life Points",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "60 Life Points",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "80 Life Points",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "120 Life Points",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": true
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         },
         {
           "_id": "tT8zXOBZq2bhNCMb",
           "name": "Extinguish Fire",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "Destroy intensities of flame. This does 5 LP per intensity damage to fire based creatures that fail their Resistance, multiplied by five for DR creatures.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "1",
-            "action": "1",
-            "maint": "No",
-            "effect20": "Fatigue 1",
-            "effect40": "– 1 Intensity / 80 PhR",
-            "effect80": "– 3 Intensities / 100 PhR",
-            "effect120": "– 5 Intensities / 120 PhR",
-            "effect140": "– 7 Intensities / 140 PhR",
-            "effect180": "– 10 Intensities / 160 PhR",
-            "effect240": "– 15 Intensities / 180 PhR",
-            "effect280": "– 20 Intensities / 200 PhR",
-            "effect320": "– 30 Intensities / 220 PhR",
-            "effect440": "– 40 Intensities / 260 PhR",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 1",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 1
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "– 1 Intensity / 80 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "– 3 Intensities / 100 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "– 5 Intensities / 120 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "– 7 Intensities / 140 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "– 10 Intensities / 160 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "– 15 Intensities / 180 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "– 20 Intensities / 200 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "– 30 Intensities / 220 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "– 40 Intensities / 260 PhR",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": false
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         },
         {
           "_id": "uGLrlcaBboSP2QR0",
           "name": "Igneous Barrier",
           "type": "psychicPower",
+          "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "system": {
-            "description": "Create a barrier of flames. Those crossing it are attacked (using the Psychic's Projection) with the HEAT attack type. The shape is up to the caster, but the barrier cannot be brought into being already affecting any target.",
-            "shortDesc": "",
-            "quantity": 1,
-            "expand": false,
-            "bonus": 0,
-            "level": "2",
-            "action": "1",
-            "maint": "Yes",
-            "effect20": "Fatigue 6",
-            "effect40": "Fatigue 4",
-            "effect80": "Fatigue 2",
-            "effect120": "Fatigue 1",
-            "effect140": "Base Damage 60 / 15 feet long",
-            "effect180": "Base Damage 80 / 30 feet long",
-            "effect240": "Base Damage 120 / 60 feet long",
-            "effect280": "Base Damage 160 / 100 feet long",
-            "effect320": "Base Damage 200 / 130 feet long",
-            "effect440": "Base Damage 240 / 150 feet long",
+            "level": {
+              "value": 0
+            },
+            "effects": {
+              "20": {
+                "value": "Fatigue 6",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 6
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "40": {
+                "value": "Fatigue 4",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 4
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "80": {
+                "value": "Fatigue 2",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 2
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "120": {
+                "value": "Fatigue 1",
+                "damage": {
+                  "value": 0
+                },
+                "fatigue": {
+                  "value": 1
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "140": {
+                "value": "Base Damage 60 / 15 feet long",
+                "damage": {
+                  "value": 60
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "180": {
+                "value": "Base Damage 80 / 30 feet long",
+                "damage": {
+                  "value": 80
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "240": {
+                "value": "Base Damage 120 / 60 feet long",
+                "damage": {
+                  "value": 120
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "280": {
+                "value": "Base Damage 160 / 100 feet long",
+                "damage": {
+                  "value": 160
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "320": {
+                "value": "Base Damage 200 / 130 feet long",
+                "damage": {
+                  "value": 200
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              },
+              "440": {
+                "value": "Base Damage 240 / 150 feet long",
+                "damage": {
+                  "value": 240
+                },
+                "fatigue": {
+                  "value": 0
+                },
+                "shieldPoints": {
+                  "value": 0
+                },
+                "affectsInmaterial": {
+                  "value": false
+                }
+              }
+            },
+            "actionType": {
+              "value": "active"
+            },
+            "combatType": {
+              "value": "attack"
+            },
             "discipline": {
-              "value": "Pyrokinesis"
+              "value": "pyrokinesis"
+            },
+            "critic": {
+              "value": "-"
+            },
+            "hasMaintenance": {
+              "value": true
+            },
+            "visible": false,
+            "bonus": {
+              "value": 0
             }
-          },
-          "img": "icons/magic/fire/blast-jet-stream-splash.webp"
+          }
         }
       ],
       "effects": [],

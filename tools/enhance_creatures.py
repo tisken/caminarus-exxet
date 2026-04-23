@@ -7,6 +7,7 @@ Mejora las criaturas del compendio:
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -274,19 +275,92 @@ def assign_spells_to_creature(doc, all_spells, vias):
     return added_spells
 
 
-def assign_psychic_to_creature(doc, all_powers, disciplines):
-    """Add psychic powers to creature based on disciplines."""
+def convert_alt_power_to_animabf(power, discipline_name):
+    """Convert a psychicMatrix (alt format) to psychicPower (animabf format)."""
+    sys = power.get("system", {})
+    
+    # Map effectNN fields to animabf effects structure
+    effects = {}
+    for threshold in ["20", "40", "80", "120", "140", "180", "240", "280", "320", "440"]:
+        alt_key = f"effect{threshold}"
+        alt_val = sys.get(alt_key, "")
+        # Parse damage from effect text
+        damage = 0
+        fatigue = 0
+        import re
+        dmg_m = re.search(r"Damage\s+(\d+)", str(alt_val))
+        fat_m = re.search(r"Fatigue\s+(\d+)", str(alt_val))
+        if dmg_m:
+            damage = int(dmg_m.group(1))
+        if fat_m:
+            fatigue = int(fat_m.group(1))
+        effects[threshold] = {
+            "value": str(alt_val),
+            "damage": {"value": damage},
+            "fatigue": {"value": fatigue},
+            "shieldPoints": {"value": 0},
+            "affectsInmaterial": {"value": False},
+        }
+    
+    # Map discipline name to animabf key
+    disc_key_map = {
+        "Psychokinesis": "telekinesis", "Pyrokinesis": "pyrokinesis",
+        "Cryokinesis": "cryokinesis", "Telepathy": "telepathy",
+        "Physical Increase": "physicalIncrease", "Sentience": "sentient",
+        "Telemetry": "telemetry", "Teleportation": "teleportation",
+        "Energy": "energy", "Electromagnetism": "electromagnetism",
+        "Causality": "causality", "Light": "light",
+        "Hypersensitivity": "hypersensitivity",
+        "Matrix Powers": "matrixPowers",
+    }
+    
+    return {
+        "_id": power["_id"],
+        "name": power["name"],
+        "type": "psychicPower",
+        "img": power.get("img", "icons/svg/eye.svg"),
+        "system": {
+            "level": {"value": sys.get("level", 0) if isinstance(sys.get("level"), int) else 0},
+            "effects": effects,
+            "actionType": {"value": "active" if sys.get("action") else "passive"},
+            "combatType": {"value": "attack"},
+            "discipline": {"value": disc_key_map.get(discipline_name, "matrixPowers")},
+            "critic": {"value": "-"},
+            "hasMaintenance": {"value": str(sys.get("maint", "No")).lower() not in ("no", "0", "", "none")},
+            "visible": False,
+            "bonus": {"value": sys.get("bonus", 0) if isinstance(sys.get("bonus"), int) else 0},
+        },
+    }
+
+
+def assign_psychic_to_creature(doc, all_powers, disciplines, all_folders):
+    """Add psychic disciplines and powers to creature."""
     if not disciplines:
-        return []
+        return [], []
 
-    added = []
+    added_disciplines = []
+    added_powers = []
+    
+    # Create discipline items
+    for disc_name in disciplines:
+        disc_item = {
+            "_id": hashlib.sha1(f"disc:{disc_name}:{doc['name']}".encode()).hexdigest()[:16],
+            "name": disc_name,
+            "type": "psychicDiscipline",
+            "img": "icons/svg/eye.svg",
+            "system": {"imbalance": False},
+        }
+        added_disciplines.append(disc_item)
+    
+    # Add powers from matching disciplines
+    folder_map = {f["_id"]: f["name"] for f in all_folders}
     for power in all_powers:
-        disc = power.get("system", {}).get("discipline", {})
-        disc_name = disc.get("value", "") if isinstance(disc, dict) else str(disc)
+        disc_name = folder_map.get(power.get("folder"), "")
         if disc_name in disciplines:
-            added.append(power)
+            converted = convert_alt_power_to_animabf(power, disc_name)
+            added_powers.append(converted)
 
-    return added
+    return added_disciplines, added_powers
 
 
 def main():
@@ -296,7 +370,7 @@ def main():
 
     print("\n=== Step 2: Loading spells and psychic powers ===")
     all_spells, _ = load_spells()
-    all_powers, _ = load_psychic_powers()
+    all_powers, psychic_folders = load_psychic_powers()
     print(f"Spells: {len(all_spells)}, Psychic powers: {len(all_powers)}")
 
     print("\n=== Step 3: Processing creatures ===")
@@ -368,18 +442,16 @@ def main():
             # --- Psychic power assignment ---
             disciplines = get_creature_psychic_info(doc)
             if disciplines:
-                creature_powers = assign_psychic_to_creature(doc, all_powers, disciplines)
-                for power in creature_powers:
-                    power_item = {
-                        "_id": power["_id"],
-                        "name": power["name"],
-                        "type": "psychicPower",
-                        "system": power.get("system", {}),
-                        "img": power.get("img", "icons/svg/eye.svg"),
-                    }
-                    existing_names = {i["name"] for i in doc.get("items", [])}
-                    if power_item["name"] not in existing_names:
-                        doc.setdefault("items", []).append(power_item)
+                disc_items, power_items = assign_psychic_to_creature(doc, all_powers, disciplines, psychic_folders)
+                existing_names = {i["name"] for i in doc.get("items", [])}
+                for disc in disc_items:
+                    if disc["name"] not in existing_names:
+                        doc.setdefault("items", []).append(disc)
+                        existing_names.add(disc["name"])
+                for power in power_items:
+                    if power["name"] not in existing_names:
+                        doc.setdefault("items", []).append(power)
+                        existing_names.add(power["name"])
                         psychic_added += 1
 
         # Save updated JSON
