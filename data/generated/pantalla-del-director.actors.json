@@ -11494,6 +11494,342 @@
             "lastModifiedBy": "animuExxetGen001"
           },
           "_key": "!actors.items!10ead0ee88e0a65f.9e24aa902238add5"
+        },
+        {
+          "_id": "Ac7zLSKYsdSAAtrE",
+          "name": "Visual Illusion",
+          "type": "spell",
+          "system": {
+            "description": "Create a static false image over an area that affects those designated who view it and fail their MR check.",
+            "expand": false,
+            "path": "Illusion",
+            "level": 12,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Automatic",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "100 MR, 60ft Radius"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 70,
+              "maint": 5,
+              "rollDesc": "120 MR, 80ft Radius"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "140 MR, 165ft Radius"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "160 MR, 330ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Illusion.webp"
+        },
+        {
+          "_id": "IQsvldQhdMUJAIPZ",
+          "name": "Sweet Talk",
+          "type": "spell",
+          "system": {
+            "description": "Target received a bonus to their Leadership and Persuasion secondaries. ",
+            "expand": false,
+            "path": "Illusion",
+            "level": 20,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Automatic",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "+50 to abilities"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "+80 to abilities"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "+100 to abilities"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "+120 to abilities "
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Illusion.webp"
+        },
+        {
+          "_id": "UnpMjfB7dJW4NcXb",
+          "name": "Illusory Touch",
+          "type": "spell",
+          "system": {
+            "description": "Create an illusion to alter the touch or taste of the target to be as the caster wishes. ",
+            "expand": false,
+            "path": "Illusion",
+            "level": 10,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Automatic",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "100 MR, 65ft Radius"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "120 MR, 165ft Radius"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "140 MR, 330ft Radius"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "160 MR, 800ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Illusion.webp"
+        },
+        {
+          "_id": "VNVB6MiG0KRseADu",
+          "name": "Illusory Smell",
+          "type": "spell",
+          "system": {
+            "description": "Create an illusory smell within an area.",
+            "expand": false,
+            "path": "Illusion",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Automatic",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "100 MR, 65ft Radius"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "120 MR, 165ft Radius"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "140 MR, 330ft Radius"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "160 MR, 800ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Illusion.webp"
+        },
+        {
+          "_id": "dlMTQ33QW66InDnc",
+          "name": "Illusory Sound",
+          "type": "spell",
+          "system": {
+            "description": "Create any illusionary sound, including voices, within the area. The caster may choose those who can hear the illusion.",
+            "expand": false,
+            "path": "Illusion",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Automatic",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "100 MR, 65ft Radius"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "120 MR, 165ft Radius"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "140 MR, 330ft Radius"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "160 MR, 800ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Illusion.webp"
+        },
+        {
+          "_id": "lWmNsjT5KqYsmgE4",
+          "name": "Detect Illusions",
+          "type": "spell",
+          "system": {
+            "description": "Automatically reveal illusion spells within the area around the caster.",
+            "expand": false,
+            "path": "Illusion",
+            "level": 16,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Automatic",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "Affects Base level spells"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "Affects Intermediate level spells"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "Affects Advanced level spells "
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "Affects Arcane level spells"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Illusion.webp"
+        },
+        {
+          "_id": "oN7DOQm066ez5NJ0",
+          "name": "Undisturbed Sleep",
+          "type": "spell",
+          "system": {
+            "description": "Grants the target a bonus to Resistance checks against effects that relate to dreaming and movement to the Wake.",
+            "expand": false,
+            "path": "Dreams",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "+40 to MR or PsyR."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "+40 to MR or PsyR."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 5,
+              "rollDesc": "+40 to MR or PsyR."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "+40 to MR or PsyR."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Dreams.webp"
+        },
+        {
+          "_id": "ukQ6kgHtQfJAoQjG",
+          "name": "Sense Dreams",
+          "type": "spell",
+          "system": {
+            "description": "This spell allows the caster to locate the dream energies of everyone sleeping around him. In addition, he can tell by the energies they give off whether they are having peaceful dreams or terrible nightmares. To resist this spell, sleepers must pass a MR check with a difficulty determined by the level of the spell.",
+            "expand": false,
+            "path": "Dreams",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Detection",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "MR 120 / 150 foot radius."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "MR 160 / 500 foot radius"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "MR 200 / 650 foot radius."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "MR 240 / 1,500 foot radius. "
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Dreams.webp"
         }
       ],
       "effects": [],

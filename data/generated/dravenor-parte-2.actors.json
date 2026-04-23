@@ -6755,6 +6755,267 @@
             "lastModifiedBy": "animuExxetGen001"
           },
           "_key": "!actors.items!671678c4f1c7bd92.297db08d75eb9cb8"
+        },
+        {
+          "_id": "0MqrKrz0srwD5Cju",
+          "name": "Control Electrical Impulses",
+          "type": "psychicMatrix",
+          "system": {
+            "description": "Interfere with another being by manipulating nerve impulses, disrupting their movement or allowing actual control. This can only affect physical beings.",
+            "shortDesc": "",
+            "quantity": 1,
+            "expand": false,
+            "bonus": 0,
+            "level": "3",
+            "action": "1",
+            "maint": "No",
+            "effect20": "Fatigue 12",
+            "effect40": "Fatigue 10",
+            "effect80": "Fatigue 8",
+            "effect120": "Fatigue 6",
+            "effect140": "Fatigue 4",
+            "effect180": "Fatigue 2",
+            "effect240": "PhR 120 / –40 to All Actions",
+            "effect280": "PhR 140 / –80 to All Actions",
+            "effect320": "PhR 160 / Partial control of the target’s body",
+            "effect440": "PhR 180 / Full control of the target’s body",
+            "discipline": {
+              "value": "Electromagnetism"
+            }
+          },
+          "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp"
+        },
+        {
+          "_id": "3btudJu2gN448XwZ",
+          "name": "Read Electrical Impulses",
+          "type": "psychicMatrix",
+          "system": {
+            "description": "This power allows the Psychic to read electrical impulses in muscles and predict movements. The Psychic gains +30 to all physical actions opposed by any target in range who fails Resistance. This bonus increases to +60 versus beings of Electricity.",
+            "shortDesc": "",
+            "quantity": 1,
+            "expand": false,
+            "bonus": 0,
+            "level": "2",
+            "action": "1",
+            "maint": "Yes",
+            "effect20": "Fatigue 4",
+            "effect40": "Fatigue 2",
+            "effect80": "Fatigue 1",
+            "effect120": "PhR 100 / 30 foot radius",
+            "effect140": "PhR 120 / 80 foot radius",
+            "effect180": "PhR 140 / 150 foot radius",
+            "effect240": "PhR 160 / 300 foot radius",
+            "effect280": "PhR 180 / 500 foot radius",
+            "effect320": "PhR 200 / 800 foot radius",
+            "effect440": "PhR 220 / 1 mile radius",
+            "discipline": {
+              "value": "Electromagnetism"
+            }
+          },
+          "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp"
+        },
+        {
+          "_id": "CUZPjyDpMmUIBXvq",
+          "name": "Magnetic Shield",
+          "type": "psychicMatrix",
+          "system": {
+            "description": "Supernatural shield that can protect against attacks by metal, or ELE. Completely metal or electric attacks take a -20 penalty to the wielders attack ability; and at higher levels, other physical attacks may also be stopped.",
+            "shortDesc": "",
+            "quantity": 1,
+            "expand": false,
+            "bonus": 0,
+            "level": "2",
+            "action": "0",
+            "maint": "Yes",
+            "effect20": "Fatigue 4",
+            "effect40": "Fatigue 2",
+            "effect80": "Fatigue 1",
+            "effect120": "600 LP",
+            "effect140": "800 LP",
+            "effect180": "1,200 LP",
+            "effect240": "1,800 Life Points / Can block any kind of physical attack",
+            "effect280": "2,500 Life Points / Can block any kind of physical attack",
+            "effect320": "4,000 Life Points / Can block any kind of physical attack",
+            "effect440": "6,000 Life Points / Can block any kind of physical attack",
+            "discipline": {
+              "value": "Electromagnetism"
+            }
+          },
+          "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp"
+        },
+        {
+          "_id": "P9sNIASnQHKDqgER",
+          "name": "Magnetic Manipulation",
+          "type": "psychicMatrix",
+          "system": {
+            "description": "Manipulate magnetic forces to move objects at will. Moving objects through the air halves the allowable weight.",
+            "shortDesc": "",
+            "quantity": 1,
+            "expand": false,
+            "bonus": 0,
+            "level": "1",
+            "action": "1",
+            "maint": "Yes",
+            "effect20": "Fatigue 4",
+            "effect40": "Fatigue 2",
+            "effect80": "Fatigue 1",
+            "effect120": "5 lbs",
+            "effect140": "10 lbs",
+            "effect180": "25 lbs",
+            "effect240": "50 lbs",
+            "effect280": "100 lbs",
+            "effect320": "200 lbs",
+            "effect440": "1,000 lbs",
+            "discipline": {
+              "value": "Electromagnetism"
+            }
+          },
+          "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp"
+        },
+        {
+          "_id": "Q1Qr9KqerD7CQExx",
+          "name": "Electricity Arc",
+          "type": "psychicMatrix",
+          "system": {
+            "description": "Fire an electric bolt, using the ELE attack type. This attack is visible to everyone.",
+            "shortDesc": "",
+            "quantity": 1,
+            "expand": false,
+            "bonus": 0,
+            "level": "2",
+            "action": "1",
+            "maint": "No",
+            "effect20": "Fatigue 4",
+            "effect40": "Fatigue 2",
+            "effect80": "Fatigue 1",
+            "effect120": "60 Base Damage",
+            "effect140": "80 Base Damage",
+            "effect180": "120 Base Damage",
+            "effect240": "140 Base Damage",
+            "effect280": "160 Base Damage",
+            "effect320": "180 Base Damage",
+            "effect440": "200 Base Damage",
+            "discipline": {
+              "value": "Electromagnetism"
+            }
+          },
+          "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp"
+        },
+        {
+          "_id": "SeySzokc9ZDypUez",
+          "name": "Electricity Control",
+          "type": "psychicMatrix",
+          "system": {
+            "description": "Control the direction and behavior of Electricity or an elemental creature of Electricity. Such a creature is entitled to a PhR check.",
+            "shortDesc": "",
+            "quantity": 1,
+            "expand": false,
+            "bonus": 0,
+            "level": "1",
+            "action": "1",
+            "maint": "Yes",
+            "effect20": "Fatigue 2",
+            "effect40": "Fatigue 1",
+            "effect80": "PhR 80 / 4 Intensities",
+            "effect120": "PhR 100 / 6 Intensities",
+            "effect140": "PhR 120 / 8 Intensities",
+            "effect180": "PhR 140 / 12 Intensities",
+            "effect240": "PhR 160 / 16 Intensities",
+            "effect280": "PhR 180 / 20 Intensities",
+            "effect320": "PhR 200 / 25 Intensities",
+            "effect440": "PhR 240 / 30 Intensities",
+            "discipline": {
+              "value": "Electromagnetism"
+            }
+          },
+          "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp"
+        },
+        {
+          "_id": "T03Raorflk6LsYpq",
+          "name": "Perceive Electricity",
+          "type": "psychicMatrix",
+          "system": {
+            "description": "The Psychic can detect electricity within the area, including through walls (but not insulating materials). At higher levels, beings within must check vs PhR to avoid having their own electrical impulses detected. If they fail, the Psychic is aware of their location and size, but no further information.",
+            "shortDesc": "",
+            "quantity": 1,
+            "expand": false,
+            "bonus": 0,
+            "level": "1",
+            "action": "1",
+            "maint": "No",
+            "effect20": "Fatigue 4",
+            "effect40": "Fatigue 2",
+            "effect80": "Fatigue 1",
+            "effect120": "30 foot radius",
+            "effect140": "80 foot radius",
+            "effect180": "150 foot radius",
+            "effect240": "PhR 120 / 300 foot radius",
+            "effect280": "PhR 140 / 1,500 foot radius",
+            "effect320": "PhR 160 / 1 mile radius",
+            "effect440": "PhR 180 / 3 mile radius",
+            "discipline": {
+              "value": "Electromagnetism"
+            }
+          },
+          "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp"
+        },
+        {
+          "_id": "VZ2xjcJLgZnkQwVR",
+          "name": "Create Electricity",
+          "type": "psychicMatrix",
+          "system": {
+            "description": "Create Intensities of Electricity.",
+            "shortDesc": "",
+            "quantity": 1,
+            "expand": false,
+            "bonus": 0,
+            "level": "1",
+            "action": "1",
+            "maint": "Yes",
+            "effect20": "Fatigue 2",
+            "effect40": "Fatigue 1",
+            "effect80": "1 Intensity",
+            "effect120": "3 Intensities",
+            "effect140": "5 Intensities",
+            "effect180": "7 Intensities",
+            "effect240": "10 Intensities",
+            "effect280": "13 Intensities",
+            "effect320": "16 Intensities",
+            "effect440": "20 Intensities",
+            "discipline": {
+              "value": "Electromagnetism"
+            }
+          },
+          "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp"
+        },
+        {
+          "_id": "sV8oPCLbgK2k1UED",
+          "name": "Magnetic Acceleration Attack",
+          "type": "psychicMatrix",
+          "system": {
+            "description": "Launch a metal object as a projectile. This deals double the objects Base Damage with the THR and HEAT damage types, plus a bonus dependent on the Potential achieved. The projectile reduces the targets AT by 2. The projectile attacks all targets in a line until its maximum range. The ammunition must pass a Fortitude check or be destroyed.",
+            "shortDesc": "",
+            "quantity": 1,
+            "expand": false,
+            "bonus": 0,
+            "level": "3",
+            "action": "1",
+            "maint": "No",
+            "effect20": "Fatigue 12",
+            "effect40": "Fatigue 10",
+            "effect80": "Fatigue 8",
+            "effect120": "Fatigue 6",
+            "effect140": "Fatigue 4",
+            "effect180": "Fatigue 2",
+            "effect240": "+20 Base Damage / Breakage 14 / 1 lb maximum / 150 foot line",
+            "effect280": "+40 Base Damage / Breakage 18 / 5 lb maximum / 300 foot line",
+            "effect320": "+60 Base Damage / Breakage 26 / 25 lb maximum / 450 foot line",
+            "effect440": "+120 Base Damage / Breakage 30 / 250 lb maximum / 1,000 foot line",
+            "discipline": {
+              "value": "Electromagnetism"
+            }
+          },
+          "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp"
         }
       ],
       "effects": [],
