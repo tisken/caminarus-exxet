@@ -81,6 +81,15 @@ def normalize_for_match(name):
     return re.sub(r"[^a-z0-9]", "", name.lower())
 
 
+def normalize_no_particles(name):
+    """Normalize removing common Spanish particles for looser matching."""
+    name = unicodedata.normalize("NFD", name)
+    name = "".join(c for c in name if unicodedata.category(c) != "Mn")
+    name = name.lower()
+    name = re.sub(r"\b(de|del|la|las|los|el)\b", "", name)
+    return re.sub(r"[^a-z0-9]", "", name)
+
+
 def build_token_index():
     """Index all available images from /tmp/tokens."""
     index = {}  # normalized_name -> (token_path, portrait_path)
@@ -106,31 +115,71 @@ def build_token_index():
     return index
 
 
+# Manual overrides: creature_name_normalized -> token_key_normalized
+# For cases where automatic matching fails or would produce false positives
+TOKEN_OVERRIDES = {
+    "omega": "omegaelsenordelinfinito",
+    "senordelaspesadillasdementia": "dementia",
+    "harekawasenordelosbosques": "harekawa",
+    "dragondegairalasimientedelastinieblas": "dragondegaira",
+    "selinelunasenoradelaspesadillas": "selineluna",
+    "hringhamreydelanovida": "hringham",
+    "guerrerofrostkoliercomun": "frostkolier",
+    "zombi": "zombie",
+    "emethdecombatedesolomon": "emeth",
+    "caballopurasangredebaho": "purasangre",
+    "nobledelacorte": "noble",
+    "nobledalense": "noble",
+    "nobletogarense": "noble",
+    "nobledealtaalcurnia": "noble",
+    "noblelocal": "noble",
+    "damanobledealtaalcurnia": "noble",
+    "burguesarlarense": "burgues",
+    "maestroburgues": "burgues",
+    "burguesdehaufman": "burgues",
+    "portadorleviatan": "portador",
+    "viajeroleszigeuner": "viajerodeleszigeuner",
+}
+
+
 def find_best_match(creature_name, token_index):
     """Find the best matching token for a creature name."""
-    # Try exact match
     key = normalize_for_match(creature_name)
     if key in token_index:
         return token_index[key]
 
-    # Try base name without variant
+    # Check manual overrides
+    if key in TOKEN_OVERRIDES and TOKEN_OVERRIDES[key] in token_index:
+        return token_index[TOKEN_OVERRIDES[key]]
+
     base = re.sub(r"\s*\(.*\)", "", creature_name).strip()
     key_base = normalize_for_match(base)
     if key_base in token_index:
         return token_index[key_base]
 
-    # Try variant only
+    if key_base in TOKEN_OVERRIDES and TOKEN_OVERRIDES[key_base] in token_index:
+        return token_index[TOKEN_OVERRIDES[key_base]]
+
     paren = re.search(r"\((.+)\)", creature_name)
     if paren:
         key_variant = normalize_for_match(paren.group(1))
         if key_variant in token_index:
             return token_index[key_variant]
 
-    # Try partial match (creature name contained in token name or vice versa)
+    # Try matching without particles (de/del/la/las/los/el)
+    key_np = normalize_no_particles(creature_name)
+    key_base_np = normalize_no_particles(base)
     for tk, paths in token_index.items():
-        if len(tk) > 4 and (tk in key or key in tk):
+        tk_np = normalize_no_particles(tk)
+        if not tk_np or len(tk_np) < 4:
+            continue
+        # Exact match without particles
+        if tk_np == key_np or tk_np == key_base_np:
             return paths
-        if len(key_base) > 4 and (tk in key_base or key_base in tk):
+        # Token contained in creature (token is simpler name, >50% length)
+        if tk_np in key_np and len(tk_np) > len(key_np) * 0.5:
+            return paths
+        if tk_np in key_base_np and len(tk_np) > len(key_base_np) * 0.5:
             return paths
 
     return None
