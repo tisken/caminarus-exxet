@@ -373,7 +373,7 @@ def main():
                     power_item = {
                         "_id": power["_id"],
                         "name": power["name"],
-                        "type": power.get("type", "psychicPower"),
+                        "type": "psychicPower",
                         "system": power.get("system", {}),
                         "img": power.get("img", "icons/svg/eye.svg"),
                     }
