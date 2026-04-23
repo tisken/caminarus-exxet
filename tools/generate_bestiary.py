@@ -551,6 +551,10 @@ UI_SETTING_KEYWORDS = {
 }
 
 RECORD_OVERRIDES = {
+    ("core-exxet", "Lagor", 3, 320, 1): {
+        "source_heading": "Luminaria",
+        "variant": "Elemental Menor de Luz",
+    },
     ("core-exxet", "Nezuacuatil", 5, 321, 1): {
         "variant": "Enjambre de cucarachas",
     },
