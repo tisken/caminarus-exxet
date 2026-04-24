@@ -418,18 +418,26 @@ export function parseExcelToActorData(workbook, fileName) {
   }
 
 
-  // Read Místicos sheet for magic sphere levels
+  // Read Místicos sheet for magic sphere levels and sub-paths
   const misticosSheet = workbook.Sheets['Místicos'];
   const sphereMap = {esencia:'essence',agua:'water',tierra:'earth',creacion:'creation',oscuridad:'darkness',nigromancia:'necromancy',luz:'light',destruccion:'destruction',aire:'air',fuego:'fire',ilusion:'illusion'};
+  const subpathMap = {guerra:'war',caos:'chaos',paz:'peace',conocimiento:'knowledge',literae:'literae',musica:'musical',musical:'musical',pecado:'sin',umbral:'threshold',vacio:'emptiness',nobleza:'nobility',tiempo:'time',muerte:'death',sangre:'blood',suenos:'dreams',piedra:'earth'};
   const parsedSpheres = {};
+  const parsedSubpaths = {}; // subpath_key -> level (from parent via)
   if (misticosSheet) {
     for (let row = 15; row <= 25; row++) {
       const viaName = safeStr(cellAt(misticosSheet, row, 3)); // C = Vía
+      const subviaName = safeStr(cellAt(misticosSheet, row, 5)); // E = Sub-Vía
       const nivel = safeInt(cellAt(misticosSheet, row, 8));    // H = Nivel
       if (!viaName || !nivel) continue;
       const key = normalizeSkillName(viaName);
       const mapped = sphereMap[key];
       if (mapped) parsedSpheres[mapped] = Math.max(parsedSpheres[mapped] || 0, nivel);
+      if (subviaName) {
+        const subKey = normalizeSkillName(subviaName);
+        const subMapped = subpathMap[subKey];
+        if (subMapped) parsedSubpaths[subMapped] = nivel;
+      }
     }
   }
 
@@ -649,17 +657,6 @@ export function parseExcelToActorData(workbook, fileName) {
   };
 }
 
-// Sub-path to parent sphere mapping for spell assignment
-const SUBPATH_TO_SPHERE = {
-  war: 'destruction', chaos: 'destruction',
-  peace: 'creation', knowledge: 'creation', literae: 'creation', musical: 'creation',
-  sin: 'darkness', threshold: 'darkness', emptiness: 'darkness',
-  nobility: 'light',
-  time: 'essence',
-  death: 'necromancy', blood: 'necromancy',
-  dreams: 'illusion',
-};
-
 // Spanish discipline name to animabf discipline key
 const DISC_NAME_TO_KEY = {
   'telequinesis': 'telekenisis', 'piroquinesis': 'pyrokinesis',
@@ -688,7 +685,7 @@ async function loadSystemPacks() {
   return result;
 }
 
-function assignSpellsFromPacks(actorData, allSpells) {
+function assignSpellsFromPacks(actorData, allSpells, subpaths) {
   const spheres = actorData.system?.mystic?.magicLevel?.spheres || {};
   const spellItems = [];
   const added = new Set();
@@ -698,25 +695,16 @@ function assignSpellsFromPacks(actorData, allSpells) {
     if (!via || via === 'freeAccess') continue;
     // Direct sphere match
     const sphereVal = spheres[via]?.value || 0;
-    // Sub-path match
-    const parentSphere = SUBPATH_TO_SPHERE[via];
-    const parentVal = parentSphere ? (spheres[parentSphere]?.value || 0) : 0;
-    const maxLevel = Math.max(sphereVal, parentVal);
-    if (maxLevel > 0 && level <= maxLevel && !added.has(spell.name)) {
+    if (sphereVal > 0 && level <= sphereVal && !added.has(spell.name)) {
       added.add(spell.name);
       spellItems.push({ _id: foundry.utils.randomID(), name: spell.name, type: 'spell', img: spell.img, system: spell.system.toObject ? spell.system.toObject() : { ...spell.system } });
+      continue;
     }
-  }
-  // Free access spells up to highest sphere level
-  const maxAny = Math.max(...Object.values(spheres).map(s => s?.value || 0), 0);
-  if (maxAny > 0) {
-    for (const spell of allSpells) {
-      const via = spell.system?.via?.value;
-      const level = parseInt(spell.system?.level?.value) || 999;
-      if (via === 'freeAccess' && level <= maxAny && !added.has(spell.name)) {
-        added.add(spell.name);
-        spellItems.push({ _id: foundry.utils.randomID(), name: spell.name, type: 'spell', img: spell.img, system: spell.system.toObject ? spell.system.toObject() : { ...spell.system } });
-      }
+    // Specific sub-path match (only the one chosen by the player)
+    const subLevel = subpaths[via] || 0;
+    if (subLevel > 0 && level <= subLevel && !added.has(spell.name)) {
+      added.add(spell.name);
+      spellItems.push({ _id: foundry.utils.randomID(), name: spell.name, type: 'spell', img: spell.img, system: spell.system.toObject ? spell.system.toObject() : { ...spell.system } });
     }
   }
   return spellItems;
@@ -761,7 +749,7 @@ export async function importExcelFiles(files, targetFolder) {
       actorData.folder = targetFolder?.id ?? null;
 
       // Assign spells from system pack based on sphere levels
-      const spellItems = assignSpellsFromPacks(actorData, allSpells);
+      const spellItems = assignSpellsFromPacks(actorData, allSpells, parsedSubpaths);
       if (spellItems.length) {
         actorData.items.push(...spellItems);
         actorData.system.mystic.spells = [...(actorData.system.mystic.spells || []), ...spellItems];
