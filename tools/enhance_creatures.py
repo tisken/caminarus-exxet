@@ -201,33 +201,23 @@ def convert_to_webp(src_path, dst_path, size=None):
     img.save(str(dst_path), "WEBP", quality=85)
 
 
+ANIMABF_SPELLS_DIR = Path("/tmp/animabf/src/packs/magic")
+
+
 def load_spells():
-    """Load spells from the alt compendium."""
-    import plyvel
-    spells_dir = TOKENS_SOURCE / "anima-beyond-fantasy-alt-public-compendia/packs/spells"
-    if not spells_dir.exists():
+    """Load spells from the animabf system pack (native format)."""
+    if not ANIMABF_SPELLS_DIR.exists():
         return [], []
 
-    db = plyvel.DB(str(spells_dir), create_if_missing=False)
     spells = []
     folders = []
-    for key, value in db:
-        k = key.decode("utf-8")
-        obj = json.loads(value.decode("utf-8"))
-        if k.startswith("!folders!"):
+    for fn in ANIMABF_SPELLS_DIR.iterdir():
+        with open(fn) as f:
+            obj = json.load(f)
+        if fn.name.startswith("folders_"):
             folders.append(obj)
-        elif k.startswith("!items!"):
+        elif fn.name.startswith("spell_"):
             spells.append(obj)
-    db.close()
-
-    # Map folder_id -> folder_name
-    folder_map = {f["_id"]: f["name"] for f in folders}
-
-    # Assign path from folder name if not set
-    for s in spells:
-        if not s.get("system", {}).get("path"):
-            folder_name = folder_map.get(s.get("folder"), "")
-            s["system"]["path"] = folder_name
 
     return spells, folders
 
@@ -296,30 +286,31 @@ def get_creature_psychic_info(doc):
 
 
 def assign_spells_to_creature(doc, all_spells, vias):
-    """Add spells to creature based on magic via levels."""
+    """Add spells to creature based on magic via levels (animabf format)."""
     if not vias:
         return []
 
     added_spells = []
     for spell in all_spells:
-        spell_path = spell.get("system", {}).get("path", "").lower()
-        spell_level = spell.get("system", {}).get("level", 999)
-        if isinstance(spell_level, dict):
-            spell_level = spell_level.get("value", 999)
+        sys = spell.get("system", {})
+        spell_via = sys.get("via", {}).get("value", "").lower()
+        spell_level = sys.get("level", {}).get("value", 999)
+        if spell_level is None:
+            spell_level = 999
 
         # Check main paths
         for via_en, max_level in vias.items():
-            if spell_path.lower() == via_en.lower() and spell_level <= max_level:
+            if spell_via == via_en.lower() and spell_level <= max_level:
                 added_spells.append(spell)
                 break
-
-        # Check sub-paths
-        for sub_en, parent_en in SUBPATH_MAP.items():
-            if spell_path.lower() == sub_en.lower():
-                parent_level = vias.get(parent_en, 0)
-                if parent_level > 0 and spell_level <= parent_level:
-                    added_spells.append(spell)
-                    break
+        else:
+            # Check sub-paths
+            for sub_en, parent_en in SUBPATH_MAP.items():
+                if spell_via == sub_en.lower():
+                    parent_level = vias.get(parent_en, 0)
+                    if parent_level > 0 and spell_level <= parent_level:
+                        added_spells.append(spell)
+                        break
 
     return added_spells
 
