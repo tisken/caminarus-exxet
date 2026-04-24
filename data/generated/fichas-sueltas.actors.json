@@ -6,7 +6,7 @@
   "packPath": "packs/creatures-exxet",
   "folderName": "Fichas Sueltas",
   "count": 11,
-  "generatedAt": "2026-04-23T23:56:26.412058+00:00",
+  "generatedAt": "2026-04-24T00:05:32.254061+00:00",
   "documents": [
     {
       "_id": "433c82eeaada00df",
@@ -6751,6 +6751,2274 @@
             "lastModifiedBy": "animuExxetGen001"
           },
           "_key": "!actors.items!50b32db4998857bb.369bc1d578cc9af7"
+        },
+        {
+          "_id": "079KIITmxd7UqtB4",
+          "name": "Destroy Capabilities",
+          "type": "spell",
+          "system": {
+            "description": "Caster freely removes up to specified DP from the target forever. This may target creatures powers using the DP costs for Creation of Beings as reference. Advantages may be destroyed at a cost of 100 DP per CP removed. If the resist check is failed, the loss is permanent. ",
+            "expand": false,
+            "path": "Destruction",
+            "level": 78,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": " -50 DP, 120 MR"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 250,
+              "maint": 0,
+              "rollDesc": "-100 DP, 160 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 350,
+              "maint": 0,
+              "rollDesc": "-150 DP, 200 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 500,
+              "maint": 0,
+              "rollDesc": "-200 DP, 240 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "1CiOGK3oUMhSqCmC",
+          "name": "Alter Luck",
+          "type": "spell",
+          "system": {
+            "description": "Grants the target improbable luck, either good or bad as chosen by the caster. Characters with the Good Luck or Bad Luck Advantage/Disadvantage take exponentially increased effect.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 34,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "MR 120"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 140,
+              "maint": 10,
+              "rollDesc": "MR 140"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 15,
+              "rollDesc": "MR 160 / The good luck or bad luck granted approaches the absurd."
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 400,
+              "maint": 15,
+              "rollDesc": "MR 180 / As Advanced level, but unless dealing with supernatural beings with a higher Gnosis or Natura, the character will always win or lose against anyone in anything that might have a luck-related outcome."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "3RBS9eKosKdZHikM",
+          "name": "Forbid",
+          "type": "spell",
+          "system": {
+            "description": "Veto a specific action for the target, which cannot even be attempted if they fail the resistance check. Very general restrictions such as \"Attack\" or \"Move\" may gain +10 to +30 bonus to resist at the GMs discretion.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 58,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 180,
+              "maint": 15,
+              "rollDesc": "160 MR"
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "200 MR"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "240 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "4IgZRvk78RSsNPBT",
+          "name": "Produce Damage",
+          "type": "spell",
+          "system": {
+            "description": "Target suffers specified damage if they do not pass an MR check. This is applied directly to their LP total. DR creatures multiply the damage by their DR multiple.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 30,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "120 MR, 50 Damage"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "140 MR, 100 Damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "160 MR, 180 Damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "200 MR, 250 Damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "4QCc0ZGpYSXjh0cv",
+          "name": "Block Learning",
+          "type": "spell",
+          "system": {
+            "description": "The target may not gain XP or develop new abilities or powers; or acquire new knowledge. An unsuccessful check may be reattempted once per day.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 56,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 15,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "160 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 25,
+              "rollDesc": "200 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 500,
+              "maint": 30,
+              "rollDesc": "240 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "4qNcQBz4QxCJOfLZ",
+          "name": "Zone of Weakness",
+          "type": "spell",
+          "system": {
+            "description": "Damage produced within the spells stationary area is automatically doubled, and creatures entire bodies are treated as vulnerable points for the purposes of criticals. Structures lose their Damage Barriers, and objects suffer -5 Fortitude. A failed check may be repeated once per day, but leaving the area removes the spells effect immediately.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 68,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Automatic",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 9,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "140 MR, 80ft Radius"
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "160 MR, 325ft Radius"
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 400,
+              "maint": 40,
+              "rollDesc": "180 MR, 800fft Radius"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 500,
+              "maint": 50,
+              "rollDesc": "200 MR, 1650ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "5Z9gNmEnUuQWSZ09",
+          "name": "Paths of Chaos",
+          "type": "spell",
+          "system": {
+            "description": "Allows the caster to reroll a number of rolls per turn. Fumbles may not be rerolled, and a given roll may only be rerolled once.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 44,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 120,
+              "maint": 20,
+              "rollDesc": "One roll per turn."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "wo rolls per turn."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 280,
+              "maint": 25,
+              "rollDesc": "Three rolls per turn."
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 400,
+              "maint": 30,
+              "rollDesc": "Four rolls per turn or one that is a Fumble."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "7WgyinkLTOtWTgMo",
+          "name": "Aggravate Damage",
+          "type": "spell",
+          "system": {
+            "description": "Increase the base damage of an attack by the given value. This spell must be cast before any dice are rolled for the associated attack.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 20,
+            "action": "Passive",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "+30 Base Damage"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "+50 Base Damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "+90 Base Damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "+120 Base Damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "86bL8TVmt6jdxWkr",
+          "name": "Mystic Bolt",
+          "type": "spell",
+          "system": {
+            "description": "Supernatural energy attack.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 36,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "100 Base Damage"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "150 Base Damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 220,
+              "maint": 0,
+              "rollDesc": "200 Base Damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "250 Base Damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "8EbY1KKEZWsIv19D",
+          "name": "Void",
+          "type": "spell",
+          "system": {
+            "description": "This spell creates a point that sucks in anyone entering the area with a Strength value of 14. Anyone failing an opposed check is pulled 30m per point of failure towards the center. Anyone in contact with the center must make two MR checks each turn - the first MR, or lose Zeon equal to the failure; and the second PhR, or lose LP equal to the failure. If Zeon reaches zero, the target loses 1 permanent point of POW per 100 zeon they would lose. If a being is reduced to 0 POW or dies to LP damage, it is absorbed by the nothingness. The caster is not affected by the attracting effect, but is subject to consequences if they touch the center point.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 90,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "165ft Radius Vortex, 120 MR and PhR, 15ft Radius Nucleus"
+            },
+            "intermediate": {
+              "intReq": 14,
+              "zeonCost": 350,
+              "maint": 40,
+              "rollDesc": "1650ft Radius Vortex, 160 MR and PhR, 50ft Radius Nucleus\n"
+            },
+            "advanced": {
+              "intReq": 16,
+              "zeonCost": 500,
+              "maint": 45,
+              "rollDesc": "3300ft Radius Vortex, 200 MR and PhR, 80ft Radius Nucleus\n"
+            },
+            "arcane": {
+              "intReq": 18,
+              "zeonCost": 800,
+              "maint": 55,
+              "rollDesc": "2 Mile Radius Vortex, 240 MR and PhR, 165ft Radius Nucleus\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "9iDF9kfB7313rixO",
+          "name": "Final Protection",
+          "type": "spell",
+          "system": {
+            "description": "Grants all nearby allies increased Resistances and AT.",
+            "expand": false,
+            "path": "War",
+            "level": 44,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "30 foot radius / +10 to All Resistances / +1 Armor Type."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "150 foot radius / +10 to All Resistances / +2 Armor Type."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "800 foot radius / +20 to All Resistances / +2 Armor Type."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "1,500 foot radius / +30 to All Resistances / +3 Armor Type."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "CvNlISWhfiOs3xF6",
+          "name": "Dome of Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Supernatural AoE Energy attack.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 46,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "30ft Radius, 80 Base damage"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "165ft Radius, 120 Base damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 0,
+              "rollDesc": "325ft Radius, 160 Base damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "500ft Radius, 200 Base damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "GpRh9FckI8x4QJI8",
+          "name": "Sphere of Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Create one or more spheres with base Energy damage 30. These may be targeted on one or multiple targets, chosen when the spell is cast.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 12,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "1 Sphere"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "3 Spheres"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "5 Spheres"
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "7 Spheres"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "Kke6x7MI6VA1uEPS",
+          "name": "Aura of Chaos",
+          "type": "spell",
+          "system": {
+            "description": "The caster makes events more chaotic. All affected individuals with Natura lower than +10 are treated as though they had +10; and unusual events occur constantly. The caster may choose for this area to be fixed, or an aura that follows them.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 15,
+              "rollDesc": "MR 80 / 30 foot radius / Maximum Presence affected is 100."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 20,
+              "rollDesc": "MR 100 / 60 foot radius / Maximum Presence affected is 120."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 25,
+              "rollDesc": "MR 120 / 120 foot radius / Maximum Presence affected is 140."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 150,
+              "maint": 30,
+              "rollDesc": "MR 140 / 140 foot radius / Maximum Presence affected is 160."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "KqmpWd8vKA8nbO9G",
+          "name": "Destroy Energy",
+          "type": "spell",
+          "system": {
+            "description": "Destroy intensities of an energy type. Creatures based on energy take 5 damage per intensity destroyed on a failed MR check.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 8,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "1 Intensity, 100 MR"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "5 Intensities, 120 MR"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "10 Intensities, 140 MR"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "20 Intensities, 160 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "MvCRECKj24FVMN51",
+          "name": "Fragility",
+          "type": "spell",
+          "system": {
+            "description": "Affected object loses its Damage Barrier, and if cast on a weapon or armour, it gains the Fortitude Penalty. May affect multiple objects, up to the combined Presence limit.\n",
+            "expand": false,
+            "path": "Destruction",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": " -2 Fortitude, 30 Presence limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": " -4 Fortitude, 60 Presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": " -8 Fortitude, 90 Presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": " -12 Fortitude, 120 Presence limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "NYNd2qht37vl2B3y",
+          "name": "Speed in Battle",
+          "type": "spell",
+          "system": {
+            "description": "Grants the casters nearby allies increased speed.",
+            "expand": false,
+            "path": "War",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "30 foot radius / +10 to Initiative."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "150 foot radius / +10 to Initiative."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "800 foot radius / +20 to Initiative."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "1,500 foot radius / +20 to Initiative."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "NdpwkXiMTbBkwd3F",
+          "name": "Increase Weakness",
+          "type": "spell",
+          "system": {
+            "description": "Double the targets penalties for a pre-existing weakness or vulnerability. For example, elemental weaknesses would deal quadruple damage, and characters weak to poison would reduce their VR to 1/4 of their value. A new resistance check is permitted when the target is affected by their weakness.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 16,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Spiritual",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "140 MR"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "160 MR"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "180 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "OBwiqgvBFESrJ5hV",
+          "name": "Sense Chaos",
+          "type": "spell",
+          "system": {
+            "description": "The caster may detect unnatural events within the area of the spell. The caster does not learn the exact location of the event, but does intuitively know how much influence is being exerted on reality.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Detection",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "150 foot radius."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "300 foot radius"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "800 foot radius."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "2,000 foot radius / The wizard detects the presence of any being with greater than Gnosis 20 or with greater than Natura +10 that is within the spell’s area of effect unless the being passes a MR 160 check."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "PPX6c80bhDaEu3Eg",
+          "name": "Destroy Ki",
+          "type": "spell",
+          "system": {
+            "description": "Target checks MR, or loses a number of ki points equal to their level of failure.\n",
+            "expand": false,
+            "path": "Destruction",
+            "level": 28,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "140 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "160 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 220,
+              "maint": 0,
+              "rollDesc": "180 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "220 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "PW3WSGUJVThaqBr6",
+          "name": "Unleashed Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Increases the damage of allies near the caster.",
+            "expand": false,
+            "path": "War",
+            "level": 34,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "30 foot radius / +20 to Base Damage."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "150 foot radius / +20 to Base Damage."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "800 foot radius / +30 to Base Damage."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "1,500 foot radius / +40 to Base Damage."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "ReMKyQdvR9ZWMNQs",
+          "name": "Morale",
+          "type": "spell",
+          "system": {
+            "description": "Grants allies within range a bonus to their Composure Secondary Ability until the combat ends, or 10 minutes expire.",
+            "expand": false,
+            "path": "War",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "30 foot radius / +40 to Composure."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "150 foot radius / +80 to Composure."
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "800 foot radius / +120 to Composure."
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "1,500 foot radius / +180 to Composure."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "U5mTvCV9ComX6ora",
+          "name": "Unravel Ties",
+          "type": "spell",
+          "system": {
+            "description": "May be targeted on a summoner or their summoned creature; though always the summoners MR is rolled. If failed, the casters Bind to the creature is severed, and if targeted on the Summoner, an additional Bind per 10 failure. A Familiar's bond gets +40 to the MR check.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 38,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "140 MR"
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "160 MR"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 500,
+              "maint": 0,
+              "rollDesc": "180 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "UfssZMFUR5kIH1c3",
+          "name": "Relentless March",
+          "type": "spell",
+          "system": {
+            "description": "This spell grants the casters allies within range the benefits of the Use of Necessary Energy and Elimination of Necessities Ki Abilities.",
+            "expand": false,
+            "path": "War",
+            "level": 54,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 150,
+              "maint": 30,
+              "rollDesc": "30 foot radius."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 200,
+              "maint": 40,
+              "rollDesc": "150 foot radius."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 50,
+              "rollDesc": " 300 foot radius."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 100,
+              "rollDesc": "1,500 foot radius."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "XhEdbfvbfFnu1Uuk",
+          "name": "Accurate Orders",
+          "type": "spell",
+          "system": {
+            "description": "The caster may transfer orders directly to the minds of their allies, without need for speech. The caster can choose who hears or does not hear the order, and may transmit multiple orders to multiple targets with a single thought.",
+            "expand": false,
+            "path": "War",
+            "level": 74,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "75 foot radius."
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "300 foot radius."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 0,
+              "rollDesc": "800 foot radius."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "1,500 foot radius."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "awym4827k3dmNGrx",
+          "name": "Chaotic Mutation",
+          "type": "spell",
+          "system": {
+            "description": "Target gains DP to buy Powers like a Being Between Worlds with Gnosis 25. They may only spend half of the DP, the rest is determined randomly by the GM. These DP increase the targets level as normal; and may only affect a target once. This spell almost always leaves physical changes.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 74,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "MR 100 / 100 Development Points."
+            },
+            "intermediate": {
+              "intReq": 11,
+              "zeonCost": 400,
+              "maint": 0,
+              "rollDesc": "MR 120 / 200 Development Points."
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 800,
+              "maint": 0,
+              "rollDesc": "MR 140 / 300 Development Points."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 1200,
+              "maint": 0,
+              "rollDesc": "MR 160 / 400 Development Points / Gnosis 30."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "bLUreI7EdBvnLmH0",
+          "name": "Death",
+          "type": "spell",
+          "system": {
+            "description": "Target must pass a Resistance check or die.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 72,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "120 MR or PhR"
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 0,
+              "rollDesc": "140 MR or PhR"
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "160 MR or PhR"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 350,
+              "maint": 0,
+              "rollDesc": "180 MR or PhR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "bmeoBaC8OxTskjSP",
+          "name": "Ancestral Rage",
+          "type": "spell",
+          "system": {
+            "description": "Allies near the caster gain the Rage state, and a +10 bonus to Attack. The magic protects them from one another - they cannot lose control or attack one another whilst under this spell.",
+            "expand": false,
+            "path": "War",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "30 foot radius."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 70,
+              "maint": 10,
+              "rollDesc": "150 foot radius."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "800 foot radius."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 130,
+              "maint": 15,
+              "rollDesc": "1,500 foot radius."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "dxiGeBpu4JwKodPn",
+          "name": "Destroy Powers",
+          "type": "spell",
+          "system": {
+            "description": "Target is unable to use magical, psychic or Ki powers, and mystic beings lose Powers (but not natural abilities).",
+            "expand": false,
+            "path": "Destruction",
+            "level": 60,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Spiritual",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "180 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "220 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "eOAgYBEmx7nmgTr7",
+          "name": "Destroy Magic",
+          "type": "spell",
+          "system": {
+            "description": "Destroy target spell of Zeon value or less. This may be used to destroy a spell as it is cast, before it resolves.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 18,
+            "action": "Passive",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "50 Zeon Limit"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "120 Zeon Limit"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "200 Zeon Limit"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 500,
+              "maint": 0,
+              "rollDesc": "350 Zeon Limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "eaAol6T1j5Uo5YCy",
+          "name": "Essence of Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Target becomes incorporeal, immune to attacks that cannot affect energy.  Anyone coming into contact with the target must make a MR check, with a difficulty equal to double the target creatures Presence. The failure effects are determined by spell level.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 70,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 9,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "Damage equal to the failure level."
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "Damage and All Action Penalty equal to the failure level."
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "As Intermediate, but Damage is equal to twice the failure level."
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "Damage and All Action Penalty equal to twice the failure level.\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "ghKFgRWTjXka5AkR",
+          "name": "Destroy Resistances",
+          "type": "spell",
+          "system": {
+            "description": "Target has all resistances penalized by degree of failure of the MR check.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 40,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "160 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "200 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "240 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "guFaGkAxwjgxFBFW",
+          "name": "Sever Existance",
+          "type": "spell",
+          "system": {
+            "description": "Caster creates a line or single point of destruction. If the target(s) fail their MR check, they are destroyed physically and spiritually, and do not return to the flow of souls. If cast on a single target, the MR check is 20 higher. This spell is visible to all, even those incapable of seeing magic.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 80,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 12,
+              "zeonCost": 350,
+              "maint": 0,
+              "rollDesc": "120 MR, 30ft Line"
+            },
+            "intermediate": {
+              "intReq": 14,
+              "zeonCost": 500,
+              "maint": 0,
+              "rollDesc": "160 MR, 325ft Line"
+            },
+            "advanced": {
+              "intReq": 16,
+              "zeonCost": 600,
+              "maint": 0,
+              "rollDesc": "200 MR, 800ft Line"
+            },
+            "arcane": {
+              "intReq": 18,
+              "zeonCost": 800,
+              "maint": 0,
+              "rollDesc": "240 MR, 3300ft Line\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "hEJE3sY9FNh0kBUK",
+          "name": "Devouring Zone",
+          "type": "spell",
+          "system": {
+            "description": "Creatures or objects within the zone make a Resistance check each day, or have their Presence reduced by 5. Living beings take an AAP equal to double their missing presence, decomposing with little to no trace if they reach 0 Presence. This damage is akin to a Sacrifice, and recovers at 5/day once outside the zone.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 76,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Automatic",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 9,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "1650ft Radius, 140 MR or PhR"
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 360,
+              "maint": 40,
+              "rollDesc": "3 Mile Radius, 200 MR or PhR"
+            },
+            "advanced": {
+              "intReq": 15,
+              "zeonCost": 450,
+              "maint": 45,
+              "rollDesc": "6 Mile Radius, 240 MR or PhR"
+            },
+            "arcane": {
+              "intReq": 17,
+              "zeonCost": 600,
+              "maint": 55,
+              "rollDesc": "8 Mile Radius, 270 MR or PhR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "iV9KBgCPWKGtegN2",
+          "name": "Dismantle",
+          "type": "spell",
+          "system": {
+            "description": "Dismantles an object into its various pieces. This spell only affects inanimate objects within a limit set by the level of the spell.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "20 Presence limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "40 Presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "60 Presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "80 presence limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "kAOvNJHPoN3KQIqM",
+          "name": "Chaotic Aberration",
+          "type": "spell",
+          "system": {
+            "description": "The caster creates a being that behaves unpredictably (but usually violently). This is built as a Being Between Worlds with Gnosis scaling with the level of the spell to a maximum of 20. The caster may only spend half the  DP, the other half is determined randomly by the GM. The creature cannot be higher level than the caster, and chaos entities do not have the capacity to receive a soul.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 54,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "Level 2"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "Level 4"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "Level 8"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 700,
+              "maint": 0,
+              "rollDesc": "Level 12\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "kKN8io12Pb6QkJ65",
+          "name": "Zone of Decay",
+          "type": "spell",
+          "system": {
+            "description": "Covers a fixed area in entropy. Those within must pass an MR check each turn, or lose 10% of their total LP.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 48,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Automatic",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "100 MR, 30ft Radius"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "120 MR, 100ft Radius"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "160 MR, 200ft Radius"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "200 MR, 325ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "kuEaINXE9VuMFlV0",
+          "name": "Destroy Memories",
+          "type": "spell",
+          "system": {
+            "description": "Affects the memories of an individual, making them forget whatever the caster wishes. The spell does not affect a person’s abilities, only their conscious memories. Avoiding the effect requires a successful MR or PsR check. ",
+            "expand": false,
+            "path": "Destruction",
+            "level": 52,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "100 MR or PsyR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "120 MR or PsyR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 0,
+              "rollDesc": "160 MR or PsyR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "200 MR or PsyR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "l8bpGz2m7eCjTebS",
+          "name": "Destruction of Zeon",
+          "type": "spell",
+          "system": {
+            "description": "Reduce the Zeon value of an active spell by the specified amount. If this reduces it below the requirement for a level of spell, it is reduced in effect to that level. If reduced below base cost, the spell is dismissed.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 86,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "Affects Base level spells, -50 Zeon"
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 400,
+              "maint": 0,
+              "rollDesc": "Affects Intermediate level spells, -150 Zeon"
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 600,
+              "maint": 0,
+              "rollDesc": "Affects Advanced level spells, -250 Zeon"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 700,
+              "maint": 0,
+              "rollDesc": "Affects Arcane level spells, -350 Zeon"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "lNEo2IHzfdFq08g1",
+          "name": "Champion",
+          "type": "spell",
+          "system": {
+            "description": "This spell chooses one or more champions from a group. Only one in ten may receive these bonuses; and they must be fighting alongside their peers to receive them.",
+            "expand": false,
+            "path": "War",
+            "level": 64,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "+10 to All Actions / +10 to Base Damage / +10 to Initiative / +2 to Armor Type / Maximum group size 50."
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 180,
+              "maint": 15,
+              "rollDesc": "+10 to All Actions / +20 to Base Damage / +20 to Initiative / +3 to Armor Type / Maximum group size 100."
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 240,
+              "maint": 20,
+              "rollDesc": "+20 to All Actions / +20 to Base Damage / +20 to Initiative / +4 to Armor Type / Maximum group size 200."
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 350,
+              "maint": 30,
+              "rollDesc": "+30 to All Actions / +30 to Base Damage / +30 to Initiative / +5 to Armor Type / Maximum group size 400.\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "lortNdYNszVSFe3P",
+          "name": "Destroy Will",
+          "type": "spell",
+          "system": {
+            "description": "Targets affected cannot make Active actions, even movement, except in cases of necessity.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 66,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "120 MR, 30ft Radius"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "140 MR, 80ft Radius"
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "160 MR, 165ft Radius"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 280,
+              "maint": 30,
+              "rollDesc": "180 MR, 325ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "mJ3nyljWUy3GhhiZ",
+          "name": "Aura of Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Anyone touching or entering the place or object targeted must make an MR check, or lose LP equal to the level of failure.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 50,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "80 MR, 60 Presence limit, 3ft Radius"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "100 MR, 90 Presence limit, 15ft Radius"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "80 MR, 60 Presence limit, 45ft Radius"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 350,
+              "maint": 30,
+              "rollDesc": "80 MR, 60 Presence limit, 80ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "nQN3K2QfmYkS6GAp",
+          "name": "Minor Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Affects the essence of a lifeless material object, destroying it completely, as long as it’s presence is within the limit set by the level of the spell.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 10,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 0,
+              "rollDesc": "20 Presence Limit"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "40 Presence Limit"
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "60 Presence Limit"
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "80 Presence Limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "oz1Fl8yONZugjelN",
+          "name": "Greater Mystic Bolt",
+          "type": "spell",
+          "system": {
+            "description": "Energy projectile attack.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 62,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "150 Damage"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "300 Damage"
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 450,
+              "maint": 0,
+              "rollDesc": "450 Damage"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 600,
+              "maint": 0,
+              "rollDesc": "600 Damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "pj9dxY8xqXrH288F",
+          "name": "Sweep from the Heavens",
+          "type": "spell",
+          "system": {
+            "description": "Reduces targets Gnosis value, potentially limiting access to powers or abilities. The Resistance check cannot be repeated whilst the spell is maintained.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 88,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Spiritual",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 15,
+              "rollDesc": "-5 Gnosis, 120 MR"
+            },
+            "intermediate": {
+              "intReq": 14,
+              "zeonCost": 600,
+              "maint": 30,
+              "rollDesc": "-10 Gnosis, 160 MR"
+            },
+            "advanced": {
+              "intReq": 16,
+              "zeonCost": 1000,
+              "maint": 50,
+              "rollDesc": "-15 Gnosis, 200 MR"
+            },
+            "arcane": {
+              "intReq": 18,
+              "zeonCost": 2000,
+              "maint": 100,
+              "rollDesc": "-20 Gnosis, 260 MR\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "qTOWUNf7SeFEZbcQ",
+          "name": "Control Chaos",
+          "type": "spell",
+          "system": {
+            "description": "The caster manipulates causality, allowing them to choose effect (such as a chair breaking or a portal opening) and the cause will happen through the effects of chaos. The power of this spell scales on how chaotic the area is - very orderly areas this spell can do very little, whereas in an area saturated with chaos almost anything could happen. The caster gains the Gnosis benefits \"Influence Reality\" and \"Auspice\", with a value detemmined by the spell level. Chaos based beings may be dominated as an active action, though if it passes its MR check it is immune for the duration of the power.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 84,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 11,
+              "zeonCost": 300,
+              "maint": 50,
+              "rollDesc": "MR 120 / Up to Gnosis 30."
+            },
+            "intermediate": {
+              "intReq": 13,
+              "zeonCost": 500,
+              "maint": 60,
+              "rollDesc": "MR 160 / Up to Gnosis 35."
+            },
+            "advanced": {
+              "intReq": 15,
+              "zeonCost": 800,
+              "maint": 65,
+              "rollDesc": "MR 200 / Up to Gnosis 40."
+            },
+            "arcane": {
+              "intReq": 17,
+              "zeonCost": 1200,
+              "maint": 75,
+              "rollDesc": "MR 260 / Up to Gnosis 45."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "qgFY4G0acyNFNonn",
+          "name": "Manipulate Chaos",
+          "type": "spell",
+          "system": {
+            "description": "This spell may be cast immediately after an action; making the target reroll the action unless they pass an MR check. Creatures with Gnosis 35+/Natura +20 are aware of the change to reality, others are not.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 64,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Automatic",
+            "maintType": "None",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "MR 140."
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "MR 180 / The wizard can force a single roll to be rerolled up to two times."
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "MR 220 / The wizard can force a single roll to be rerolled up to three times."
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 400,
+              "maint": 0,
+              "rollDesc": "MR 260 / The wizard can force a single roll to be rerolled up to four times."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "qgh8cBWFyBChSNvl",
+          "name": "Undo States",
+          "type": "spell",
+          "system": {
+            "description": "Removes a State from a target (or equivalent effect). May affect multiple targets up to Presence limit. This cannot undo physical deficiencies caused by critical attacks.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 42,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "120 Presence Limit, 120 MR"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "200 Presence Limit, 140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 0,
+              "rollDesc": "300 Presence Limit, 160 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "400 Presence Limit, 200 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "r7AOCc7TB03jcGTG",
+          "name": "Probability Alteration",
+          "type": "spell",
+          "system": {
+            "description": "Target has their Open Roll and Fumble ranges expanded. ",
+            "expand": false,
+            "path": "Chaos",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 20,
+              "rollDesc": "+2 to Fumble range / –5 to Open Roll range."
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 20,
+              "rollDesc": "+4 to Fumble range / –10 to Open Roll range."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 25,
+              "rollDesc": "+6 to Fumble range / –15 to Open Roll range."
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 140,
+              "maint": 30,
+              "rollDesc": "+8 to Fumble range / –20 to Open Roll range."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "s6hGTjbwVhyXYwQS",
+          "name": "Rain of Destruction",
+          "type": "spell",
+          "system": {
+            "description": "AoE Energy attack. Those damaged must pass an MR check or take additional LP loss equal to the failure level.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 82,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 250,
+              "maint": 0,
+              "rollDesc": "50m Radius, 200 Damage, 140 MR"
+            },
+            "intermediate": {
+              "intReq": 13,
+              "zeonCost": 350,
+              "maint": 0,
+              "rollDesc": "150m Radius, 250 Damage, 180 MR"
+            },
+            "advanced": {
+              "intReq": 15,
+              "zeonCost": 450,
+              "maint": 0,
+              "rollDesc": "500m Radius, 300 Damage, 220 MR"
+            },
+            "arcane": {
+              "intReq": 17,
+              "zeonCost": 600,
+              "maint": 0,
+              "rollDesc": "1km Radius, 400 Damage, 260 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "w3UHVjqiNEUF6UMI",
+          "name": "Master of War",
+          "type": "spell",
+          "system": {
+            "description": "The caster may use their Magic Projection in place of Attack or Defense to the limits specified, with any weapon.",
+            "expand": false,
+            "path": "War",
+            "level": 84,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 10,
+              "rollDesc": "Up to 200 Ability."
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 15,
+              "rollDesc": "Up to 250 Ability."
+            },
+            "advanced": {
+              "intReq": 15,
+              "zeonCost": 400,
+              "maint": 20,
+              "rollDesc": "Up to 300 Ability."
+            },
+            "arcane": {
+              "intReq": 18,
+              "zeonCost": 500,
+              "maint": 25,
+              "rollDesc": "No limit."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "wHAGZP0uRQ2FtdIm",
+          "name": "Destruction of Senses",
+          "type": "spell",
+          "system": {
+            "description": "Cuts off the senses of an individual unless they pass an MR check. The caster may choose which senses to eliminate in this way.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 32,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 100,
+              "maint": 5,
+              "rollDesc": "100 MR"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 140,
+              "maint": 10,
+              "rollDesc": "140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 15,
+              "rollDesc": "200 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 280,
+              "maint": 15,
+              "rollDesc": "280 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "xbkPrnHhAaBmKLZe",
+          "name": "Wound",
+          "type": "spell",
+          "system": {
+            "description": "Produces damage on a target equal to a percentage of their current (not max) LP.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 26,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "20% Life Points, 120 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "40% Life Points, 140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "60% Life Points, 160 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "80% Life Points, 200 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "y1p6L1aTMEP1lLws",
+          "name": "Destruction of Matrices",
+          "type": "spell",
+          "system": {
+            "description": "Destroys any active matrix of specified difficulty level or lower. This may cancel a power as it is manifested, before it takes effect.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 22,
+            "action": "Passive",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "Medium (80)"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "Very Difficult (140)"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 0,
+              "rollDesc": "Almost Impossible (240)"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 320,
+              "maint": 0,
+              "rollDesc": "Inhuman (320)"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
         }
       ],
       "effects": [],
@@ -7671,7 +9939,7 @@
                 "value": 0
               },
               "destruction": {
-                "value": 0
+                "value": 90
               },
               "air": {
                 "value": 0
@@ -10347,6 +12615,48 @@
           "_key": "!actors.items!566b89dd333190f5.6caf35ae5ac9f3b8"
         },
         {
+          "_id": "079KIITmxd7UqtB4",
+          "name": "Destroy Capabilities",
+          "type": "spell",
+          "system": {
+            "description": "Caster freely removes up to specified DP from the target forever. This may target creatures powers using the DP costs for Creation of Beings as reference. Advantages may be destroyed at a cost of 100 DP per CP removed. If the resist check is failed, the loss is permanent. ",
+            "expand": false,
+            "path": "Destruction",
+            "level": 78,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": " -50 DP, 120 MR"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 250,
+              "maint": 0,
+              "rollDesc": "-100 DP, 160 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 350,
+              "maint": 0,
+              "rollDesc": "-150 DP, 200 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 500,
+              "maint": 0,
+              "rollDesc": "-200 DP, 240 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "07N2nxCA25BHORgV",
           "name": "Natural Imitation",
           "type": "spell",
@@ -10431,6 +12741,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
         },
         {
+          "_id": "1CiOGK3oUMhSqCmC",
+          "name": "Alter Luck",
+          "type": "spell",
+          "system": {
+            "description": "Grants the target improbable luck, either good or bad as chosen by the caster. Characters with the Good Luck or Bad Luck Advantage/Disadvantage take exponentially increased effect.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 34,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "MR 120"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 140,
+              "maint": 10,
+              "rollDesc": "MR 140"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 15,
+              "rollDesc": "MR 160 / The good luck or bad luck granted approaches the absurd."
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 400,
+              "maint": 15,
+              "rollDesc": "MR 180 / As Advanced level, but unless dealing with supernatural beings with a higher Gnosis or Natura, the character will always win or lose against anyone in anything that might have a luck-related outcome."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
           "_id": "2DVtvrB6B5xeSSNm",
           "name": "Create Light",
           "type": "spell",
@@ -10473,6 +12825,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
         },
         {
+          "_id": "3RBS9eKosKdZHikM",
+          "name": "Forbid",
+          "type": "spell",
+          "system": {
+            "description": "Veto a specific action for the target, which cannot even be attempted if they fail the resistance check. Very general restrictions such as \"Attack\" or \"Move\" may gain +10 to +30 bonus to resist at the GMs discretion.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 58,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 180,
+              "maint": 15,
+              "rollDesc": "160 MR"
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "200 MR"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "240 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "3lVOQryImBrPTvWh",
           "name": "Seeking Sphere",
           "type": "spell",
@@ -10513,6 +12907,90 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "4IgZRvk78RSsNPBT",
+          "name": "Produce Damage",
+          "type": "spell",
+          "system": {
+            "description": "Target suffers specified damage if they do not pass an MR check. This is applied directly to their LP total. DR creatures multiply the damage by their DR multiple.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 30,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "120 MR, 50 Damage"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "140 MR, 100 Damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "160 MR, 180 Damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "200 MR, 250 Damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "4QCc0ZGpYSXjh0cv",
+          "name": "Block Learning",
+          "type": "spell",
+          "system": {
+            "description": "The target may not gain XP or develop new abilities or powers; or acquire new knowledge. An unsuccessful check may be reattempted once per day.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 56,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 15,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "160 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 25,
+              "rollDesc": "200 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 500,
+              "maint": 30,
+              "rollDesc": "240 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
         },
         {
           "_id": "4R4P2rD0DbWO3UmX",
@@ -10641,6 +13119,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
         },
         {
+          "_id": "4qNcQBz4QxCJOfLZ",
+          "name": "Zone of Weakness",
+          "type": "spell",
+          "system": {
+            "description": "Damage produced within the spells stationary area is automatically doubled, and creatures entire bodies are treated as vulnerable points for the purposes of criticals. Structures lose their Damage Barriers, and objects suffer -5 Fortitude. A failed check may be repeated once per day, but leaving the area removes the spells effect immediately.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 68,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Automatic",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 9,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "140 MR, 80ft Radius"
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "160 MR, 325ft Radius"
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 400,
+              "maint": 40,
+              "rollDesc": "180 MR, 800fft Radius"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 500,
+              "maint": 50,
+              "rollDesc": "200 MR, 1650ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "54MfF2CFZnwylCff",
           "name": "Control Light",
           "type": "spell",
@@ -10723,6 +13243,48 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "5Z9gNmEnUuQWSZ09",
+          "name": "Paths of Chaos",
+          "type": "spell",
+          "system": {
+            "description": "Allows the caster to reroll a number of rolls per turn. Fumbles may not be rerolled, and a given roll may only be rerolled once.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 44,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 120,
+              "maint": 20,
+              "rollDesc": "One roll per turn."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "wo rolls per turn."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 280,
+              "maint": 25,
+              "rollDesc": "Three rolls per turn."
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 400,
+              "maint": 30,
+              "rollDesc": "Four rolls per turn or one that is a Fumble."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
         },
         {
           "_id": "5i1PMvTsDsvGMahr",
@@ -10809,6 +13371,90 @@
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
         },
         {
+          "_id": "7WgyinkLTOtWTgMo",
+          "name": "Aggravate Damage",
+          "type": "spell",
+          "system": {
+            "description": "Increase the base damage of an attack by the given value. This spell must be cast before any dice are rolled for the associated attack.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 20,
+            "action": "Passive",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "+30 Base Damage"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "+50 Base Damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "+90 Base Damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "+120 Base Damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "86bL8TVmt6jdxWkr",
+          "name": "Mystic Bolt",
+          "type": "spell",
+          "system": {
+            "description": "Supernatural energy attack.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 36,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "100 Base Damage"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "150 Base Damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 220,
+              "maint": 0,
+              "rollDesc": "200 Base Damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "250 Base Damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "8998GH2tyIwax38n",
           "name": "Slow Time",
           "type": "spell",
@@ -10849,6 +13495,90 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Time.webp"
+        },
+        {
+          "_id": "8EbY1KKEZWsIv19D",
+          "name": "Void",
+          "type": "spell",
+          "system": {
+            "description": "This spell creates a point that sucks in anyone entering the area with a Strength value of 14. Anyone failing an opposed check is pulled 30m per point of failure towards the center. Anyone in contact with the center must make two MR checks each turn - the first MR, or lose Zeon equal to the failure; and the second PhR, or lose LP equal to the failure. If Zeon reaches zero, the target loses 1 permanent point of POW per 100 zeon they would lose. If a being is reduced to 0 POW or dies to LP damage, it is absorbed by the nothingness. The caster is not affected by the attracting effect, but is subject to consequences if they touch the center point.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 90,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "165ft Radius Vortex, 120 MR and PhR, 15ft Radius Nucleus"
+            },
+            "intermediate": {
+              "intReq": 14,
+              "zeonCost": 350,
+              "maint": 40,
+              "rollDesc": "1650ft Radius Vortex, 160 MR and PhR, 50ft Radius Nucleus\n"
+            },
+            "advanced": {
+              "intReq": 16,
+              "zeonCost": 500,
+              "maint": 45,
+              "rollDesc": "3300ft Radius Vortex, 200 MR and PhR, 80ft Radius Nucleus\n"
+            },
+            "arcane": {
+              "intReq": 18,
+              "zeonCost": 800,
+              "maint": 55,
+              "rollDesc": "2 Mile Radius Vortex, 240 MR and PhR, 165ft Radius Nucleus\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "9iDF9kfB7313rixO",
+          "name": "Final Protection",
+          "type": "spell",
+          "system": {
+            "description": "Grants all nearby allies increased Resistances and AT.",
+            "expand": false,
+            "path": "War",
+            "level": 44,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "30 foot radius / +10 to All Resistances / +1 Armor Type."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "150 foot radius / +10 to All Resistances / +2 Armor Type."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "800 foot radius / +20 to All Resistances / +2 Armor Type."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "1,500 foot radius / +30 to All Resistances / +3 Armor Type."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
         },
         {
           "_id": "AFMInDHePCVFWJk5",
@@ -11103,6 +13833,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
         },
         {
+          "_id": "CvNlISWhfiOs3xF6",
+          "name": "Dome of Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Supernatural AoE Energy attack.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 46,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "30ft Radius, 80 Base damage"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "165ft Radius, 120 Base damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 0,
+              "rollDesc": "325ft Radius, 160 Base damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "500ft Radius, 200 Base damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "DGI2bWnUYpzJK0By",
           "name": "Lordship Over Dreams",
           "type": "spell",
@@ -11355,6 +14127,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Time.webp"
         },
         {
+          "_id": "GpRh9FckI8x4QJI8",
+          "name": "Sphere of Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Create one or more spheres with base Energy damage 30. These may be targeted on one or multiple targets, chosen when the spell is cast.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 12,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "1 Sphere"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "3 Spheres"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "5 Spheres"
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "7 Spheres"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "ILP9nPDWqslfvBmM",
           "name": "Banish Shadows",
           "type": "spell",
@@ -11565,6 +14379,90 @@
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
         },
         {
+          "_id": "Kke6x7MI6VA1uEPS",
+          "name": "Aura of Chaos",
+          "type": "spell",
+          "system": {
+            "description": "The caster makes events more chaotic. All affected individuals with Natura lower than +10 are treated as though they had +10; and unusual events occur constantly. The caster may choose for this area to be fixed, or an aura that follows them.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 15,
+              "rollDesc": "MR 80 / 30 foot radius / Maximum Presence affected is 100."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 20,
+              "rollDesc": "MR 100 / 60 foot radius / Maximum Presence affected is 120."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 25,
+              "rollDesc": "MR 120 / 120 foot radius / Maximum Presence affected is 140."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 150,
+              "maint": 30,
+              "rollDesc": "MR 140 / 140 foot radius / Maximum Presence affected is 160."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "KqmpWd8vKA8nbO9G",
+          "name": "Destroy Energy",
+          "type": "spell",
+          "system": {
+            "description": "Destroy intensities of an energy type. Creatures based on energy take 5 damage per intensity destroyed on a failed MR check.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 8,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "1 Intensity, 100 MR"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "5 Intensities, 120 MR"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "10 Intensities, 140 MR"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "20 Intensities, 160 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "LBGGWahP9IvUJXVF",
           "name": "Hologram",
           "type": "spell",
@@ -11691,6 +14589,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
         },
         {
+          "_id": "MvCRECKj24FVMN51",
+          "name": "Fragility",
+          "type": "spell",
+          "system": {
+            "description": "Affected object loses its Damage Barrier, and if cast on a weapon or armour, it gains the Fortitude Penalty. May affect multiple objects, up to the combined Presence limit.\n",
+            "expand": false,
+            "path": "Destruction",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": " -2 Fortitude, 30 Presence limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": " -4 Fortitude, 60 Presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": " -8 Fortitude, 90 Presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": " -12 Fortitude, 120 Presence limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "N1IZKnfZqDulmnDN",
           "name": "Healing",
           "type": "spell",
@@ -11731,6 +14671,90 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
+        },
+        {
+          "_id": "NYNd2qht37vl2B3y",
+          "name": "Speed in Battle",
+          "type": "spell",
+          "system": {
+            "description": "Grants the casters nearby allies increased speed.",
+            "expand": false,
+            "path": "War",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "30 foot radius / +10 to Initiative."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "150 foot radius / +10 to Initiative."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "800 foot radius / +20 to Initiative."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "1,500 foot radius / +20 to Initiative."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "NdpwkXiMTbBkwd3F",
+          "name": "Increase Weakness",
+          "type": "spell",
+          "system": {
+            "description": "Double the targets penalties for a pre-existing weakness or vulnerability. For example, elemental weaknesses would deal quadruple damage, and characters weak to poison would reduce their VR to 1/4 of their value. A new resistance check is permitted when the target is affected by their weakness.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 16,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Spiritual",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "140 MR"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "160 MR"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "180 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
         },
         {
           "_id": "NllCqHqUP9vE5XBs",
@@ -11775,6 +14799,132 @@
           "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Nobility.webp"
         },
         {
+          "_id": "OBwiqgvBFESrJ5hV",
+          "name": "Sense Chaos",
+          "type": "spell",
+          "system": {
+            "description": "The caster may detect unnatural events within the area of the spell. The caster does not learn the exact location of the event, but does intuitively know how much influence is being exerted on reality.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Detection",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "150 foot radius."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "300 foot radius"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "800 foot radius."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "2,000 foot radius / The wizard detects the presence of any being with greater than Gnosis 20 or with greater than Natura +10 that is within the spell’s area of effect unless the being passes a MR 160 check."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "PPX6c80bhDaEu3Eg",
+          "name": "Destroy Ki",
+          "type": "spell",
+          "system": {
+            "description": "Target checks MR, or loses a number of ki points equal to their level of failure.\n",
+            "expand": false,
+            "path": "Destruction",
+            "level": 28,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "140 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "160 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 220,
+              "maint": 0,
+              "rollDesc": "180 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "220 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "PW3WSGUJVThaqBr6",
+          "name": "Unleashed Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Increases the damage of allies near the caster.",
+            "expand": false,
+            "path": "War",
+            "level": 34,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "30 foot radius / +20 to Base Damage."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "150 foot radius / +20 to Base Damage."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "800 foot radius / +30 to Base Damage."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "1,500 foot radius / +40 to Base Damage."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
           "_id": "QtK5eDlQHC7gWKAG",
           "name": "Win Hearts",
           "type": "spell",
@@ -11815,6 +14965,48 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Nobility.webp"
+        },
+        {
+          "_id": "ReMKyQdvR9ZWMNQs",
+          "name": "Morale",
+          "type": "spell",
+          "system": {
+            "description": "Grants allies within range a bonus to their Composure Secondary Ability until the combat ends, or 10 minutes expire.",
+            "expand": false,
+            "path": "War",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "30 foot radius / +40 to Composure."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "150 foot radius / +80 to Composure."
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "800 foot radius / +120 to Composure."
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "1,500 foot radius / +180 to Composure."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
         },
         {
           "_id": "SYe5mDdexexzXsBj",
@@ -11985,6 +15177,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
         },
         {
+          "_id": "U5mTvCV9ComX6ora",
+          "name": "Unravel Ties",
+          "type": "spell",
+          "system": {
+            "description": "May be targeted on a summoner or their summoned creature; though always the summoners MR is rolled. If failed, the casters Bind to the creature is severed, and if targeted on the Summoner, an additional Bind per 10 failure. A Familiar's bond gets +40 to the MR check.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 38,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "140 MR"
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "160 MR"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 500,
+              "maint": 0,
+              "rollDesc": "180 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "UT4ojlPKl80pFFMX",
           "name": "Spy of Light",
           "type": "spell",
@@ -12027,6 +15261,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
         },
         {
+          "_id": "UfssZMFUR5kIH1c3",
+          "name": "Relentless March",
+          "type": "spell",
+          "system": {
+            "description": "This spell grants the casters allies within range the benefits of the Use of Necessary Energy and Elimination of Necessities Ki Abilities.",
+            "expand": false,
+            "path": "War",
+            "level": 54,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 150,
+              "maint": 30,
+              "rollDesc": "30 foot radius."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 200,
+              "maint": 40,
+              "rollDesc": "150 foot radius."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 50,
+              "rollDesc": " 300 foot radius."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 100,
+              "rollDesc": "1,500 foot radius."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
           "_id": "VPGYKhbDM7iILxSx",
           "name": "Natural Affinity",
           "type": "spell",
@@ -12067,6 +15343,48 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
+        },
+        {
+          "_id": "XhEdbfvbfFnu1Uuk",
+          "name": "Accurate Orders",
+          "type": "spell",
+          "system": {
+            "description": "The caster may transfer orders directly to the minds of their allies, without need for speech. The caster can choose who hears or does not hear the order, and may transmit multiple orders to multiple targets with a single thought.",
+            "expand": false,
+            "path": "War",
+            "level": 74,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "75 foot radius."
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "300 foot radius."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 0,
+              "rollDesc": "800 foot radius."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "1,500 foot radius."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
         },
         {
           "_id": "Y6KtXipaDM18LYD3",
@@ -12279,6 +15597,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
         },
         {
+          "_id": "awym4827k3dmNGrx",
+          "name": "Chaotic Mutation",
+          "type": "spell",
+          "system": {
+            "description": "Target gains DP to buy Powers like a Being Between Worlds with Gnosis 25. They may only spend half of the DP, the rest is determined randomly by the GM. These DP increase the targets level as normal; and may only affect a target once. This spell almost always leaves physical changes.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 74,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "MR 100 / 100 Development Points."
+            },
+            "intermediate": {
+              "intReq": 11,
+              "zeonCost": 400,
+              "maint": 0,
+              "rollDesc": "MR 120 / 200 Development Points."
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 800,
+              "maint": 0,
+              "rollDesc": "MR 140 / 300 Development Points."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 1200,
+              "maint": 0,
+              "rollDesc": "MR 160 / 400 Development Points / Gnosis 30."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
           "_id": "az5QsOleKRBStA4n",
           "name": "Modify Essence",
           "type": "spell",
@@ -12363,6 +15723,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
         },
         {
+          "_id": "bLUreI7EdBvnLmH0",
+          "name": "Death",
+          "type": "spell",
+          "system": {
+            "description": "Target must pass a Resistance check or die.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 72,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "120 MR or PhR"
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 0,
+              "rollDesc": "140 MR or PhR"
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "160 MR or PhR"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 350,
+              "maint": 0,
+              "rollDesc": "180 MR or PhR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "bLWuiy4QOOoqzgqC",
           "name": "Supernatural Control",
           "type": "spell",
@@ -12403,6 +15805,48 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
+        },
+        {
+          "_id": "bmeoBaC8OxTskjSP",
+          "name": "Ancestral Rage",
+          "type": "spell",
+          "system": {
+            "description": "Allies near the caster gain the Rage state, and a +10 bonus to Attack. The magic protects them from one another - they cannot lose control or attack one another whilst under this spell.",
+            "expand": false,
+            "path": "War",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "30 foot radius."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 70,
+              "maint": 10,
+              "rollDesc": "150 foot radius."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "800 foot radius."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 130,
+              "maint": 15,
+              "rollDesc": "1,500 foot radius."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
         },
         {
           "_id": "bxLQk5atHidJ2PjR",
@@ -12615,6 +16059,90 @@
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
         },
         {
+          "_id": "dxiGeBpu4JwKodPn",
+          "name": "Destroy Powers",
+          "type": "spell",
+          "system": {
+            "description": "Target is unable to use magical, psychic or Ki powers, and mystic beings lose Powers (but not natural abilities).",
+            "expand": false,
+            "path": "Destruction",
+            "level": 60,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Spiritual",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "180 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "220 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "eOAgYBEmx7nmgTr7",
+          "name": "Destroy Magic",
+          "type": "spell",
+          "system": {
+            "description": "Destroy target spell of Zeon value or less. This may be used to destroy a spell as it is cast, before it resolves.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 18,
+            "action": "Passive",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "50 Zeon Limit"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "120 Zeon Limit"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "200 Zeon Limit"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 500,
+              "maint": 0,
+              "rollDesc": "350 Zeon Limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "eXopjbJXMQ3YlXzS",
           "name": "Time Jump",
           "type": "spell",
@@ -12655,6 +16183,48 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Time.webp"
+        },
+        {
+          "_id": "eaAol6T1j5Uo5YCy",
+          "name": "Essence of Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Target becomes incorporeal, immune to attacks that cannot affect energy.  Anyone coming into contact with the target must make a MR check, with a difficulty equal to double the target creatures Presence. The failure effects are determined by spell level.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 70,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 9,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "Damage equal to the failure level."
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "Damage and All Action Penalty equal to the failure level."
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "As Intermediate, but Damage is equal to twice the failure level."
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "Damage and All Action Penalty equal to twice the failure level.\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
         },
         {
           "_id": "f5cjygSwhvxblI45",
@@ -12741,6 +16311,90 @@
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
         },
         {
+          "_id": "ghKFgRWTjXka5AkR",
+          "name": "Destroy Resistances",
+          "type": "spell",
+          "system": {
+            "description": "Target has all resistances penalized by degree of failure of the MR check.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 40,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "120 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "160 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "200 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "240 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "guFaGkAxwjgxFBFW",
+          "name": "Sever Existance",
+          "type": "spell",
+          "system": {
+            "description": "Caster creates a line or single point of destruction. If the target(s) fail their MR check, they are destroyed physically and spiritually, and do not return to the flow of souls. If cast on a single target, the MR check is 20 higher. This spell is visible to all, even those incapable of seeing magic.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 80,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 12,
+              "zeonCost": 350,
+              "maint": 0,
+              "rollDesc": "120 MR, 30ft Line"
+            },
+            "intermediate": {
+              "intReq": 14,
+              "zeonCost": 500,
+              "maint": 0,
+              "rollDesc": "160 MR, 325ft Line"
+            },
+            "advanced": {
+              "intReq": 16,
+              "zeonCost": 600,
+              "maint": 0,
+              "rollDesc": "200 MR, 800ft Line"
+            },
+            "arcane": {
+              "intReq": 18,
+              "zeonCost": 800,
+              "maint": 0,
+              "rollDesc": "240 MR, 3300ft Line\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "h1pVlDOmHOi3cM2C",
           "name": "Stop Time",
           "type": "spell",
@@ -12781,6 +16435,48 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Time.webp"
+        },
+        {
+          "_id": "hEJE3sY9FNh0kBUK",
+          "name": "Devouring Zone",
+          "type": "spell",
+          "system": {
+            "description": "Creatures or objects within the zone make a Resistance check each day, or have their Presence reduced by 5. Living beings take an AAP equal to double their missing presence, decomposing with little to no trace if they reach 0 Presence. This damage is akin to a Sacrifice, and recovers at 5/day once outside the zone.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 76,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 16,
+            "type": "Automatic",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 9,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "1650ft Radius, 140 MR or PhR"
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 360,
+              "maint": 40,
+              "rollDesc": "3 Mile Radius, 200 MR or PhR"
+            },
+            "advanced": {
+              "intReq": 15,
+              "zeonCost": 450,
+              "maint": 45,
+              "rollDesc": "6 Mile Radius, 240 MR or PhR"
+            },
+            "arcane": {
+              "intReq": 17,
+              "zeonCost": 600,
+              "maint": 55,
+              "rollDesc": "8 Mile Radius, 270 MR or PhR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
         },
         {
           "_id": "hIGM5VrsIwiyH7S6",
@@ -12909,6 +16605,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Nobility.webp"
         },
         {
+          "_id": "iV9KBgCPWKGtegN2",
+          "name": "Dismantle",
+          "type": "spell",
+          "system": {
+            "description": "Dismantles an object into its various pieces. This spell only affects inanimate objects within a limit set by the level of the spell.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "20 Presence limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "40 Presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "60 Presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "80 presence limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "jK8xsfmGAbgfO8Lb",
           "name": "Alter Growth",
           "type": "spell",
@@ -12951,6 +16689,132 @@
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
         },
         {
+          "_id": "kAOvNJHPoN3KQIqM",
+          "name": "Chaotic Aberration",
+          "type": "spell",
+          "system": {
+            "description": "The caster creates a being that behaves unpredictably (but usually violently). This is built as a Being Between Worlds with Gnosis scaling with the level of the spell to a maximum of 20. The caster may only spend half the  DP, the other half is determined randomly by the GM. The creature cannot be higher level than the caster, and chaos entities do not have the capacity to receive a soul.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 54,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "Level 2"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "Level 4"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "Level 8"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 700,
+              "maint": 0,
+              "rollDesc": "Level 12\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "kKN8io12Pb6QkJ65",
+          "name": "Zone of Decay",
+          "type": "spell",
+          "system": {
+            "description": "Covers a fixed area in entropy. Those within must pass an MR check each turn, or lose 10% of their total LP.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 48,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Automatic",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "100 MR, 30ft Radius"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "120 MR, 100ft Radius"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "160 MR, 200ft Radius"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "200 MR, 325ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "kuEaINXE9VuMFlV0",
+          "name": "Destroy Memories",
+          "type": "spell",
+          "system": {
+            "description": "Affects the memories of an individual, making them forget whatever the caster wishes. The spell does not affect a person’s abilities, only their conscious memories. Avoiding the effect requires a successful MR or PsR check. ",
+            "expand": false,
+            "path": "Destruction",
+            "level": 52,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 12,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "100 MR or PsyR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "120 MR or PsyR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 0,
+              "rollDesc": "160 MR or PsyR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "200 MR or PsyR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "l23olwgVKEdKOl3p",
           "name": "Acquire Natural Capacities",
           "type": "spell",
@@ -12991,6 +16855,216 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
+        },
+        {
+          "_id": "l8bpGz2m7eCjTebS",
+          "name": "Destruction of Zeon",
+          "type": "spell",
+          "system": {
+            "description": "Reduce the Zeon value of an active spell by the specified amount. If this reduces it below the requirement for a level of spell, it is reduced in effect to that level. If reduced below base cost, the spell is dismissed.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 86,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "Affects Base level spells, -50 Zeon"
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 400,
+              "maint": 0,
+              "rollDesc": "Affects Intermediate level spells, -150 Zeon"
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 600,
+              "maint": 0,
+              "rollDesc": "Affects Advanced level spells, -250 Zeon"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 700,
+              "maint": 0,
+              "rollDesc": "Affects Arcane level spells, -350 Zeon"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "lNEo2IHzfdFq08g1",
+          "name": "Champion",
+          "type": "spell",
+          "system": {
+            "description": "This spell chooses one or more champions from a group. Only one in ten may receive these bonuses; and they must be fighting alongside their peers to receive them.",
+            "expand": false,
+            "path": "War",
+            "level": 64,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "+10 to All Actions / +10 to Base Damage / +10 to Initiative / +2 to Armor Type / Maximum group size 50."
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 180,
+              "maint": 15,
+              "rollDesc": "+10 to All Actions / +20 to Base Damage / +20 to Initiative / +3 to Armor Type / Maximum group size 100."
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 240,
+              "maint": 20,
+              "rollDesc": "+20 to All Actions / +20 to Base Damage / +20 to Initiative / +4 to Armor Type / Maximum group size 200."
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 350,
+              "maint": 30,
+              "rollDesc": "+30 to All Actions / +30 to Base Damage / +30 to Initiative / +5 to Armor Type / Maximum group size 400.\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "lortNdYNszVSFe3P",
+          "name": "Destroy Will",
+          "type": "spell",
+          "system": {
+            "description": "Targets affected cannot make Active actions, even movement, except in cases of necessity.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 66,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "120 MR, 30ft Radius"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "140 MR, 80ft Radius"
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "160 MR, 165ft Radius"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 280,
+              "maint": 30,
+              "rollDesc": "180 MR, 325ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "mJ3nyljWUy3GhhiZ",
+          "name": "Aura of Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Anyone touching or entering the place or object targeted must make an MR check, or lose LP equal to the level of failure.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 50,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "80 MR, 60 Presence limit, 3ft Radius"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "100 MR, 90 Presence limit, 15ft Radius"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "80 MR, 60 Presence limit, 45ft Radius"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 350,
+              "maint": 30,
+              "rollDesc": "80 MR, 60 Presence limit, 80ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "nQN3K2QfmYkS6GAp",
+          "name": "Minor Destruction",
+          "type": "spell",
+          "system": {
+            "description": "Affects the essence of a lifeless material object, destroying it completely, as long as it’s presence is within the limit set by the level of the spell.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 10,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 0,
+              "rollDesc": "20 Presence Limit"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "40 Presence Limit"
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "60 Presence Limit"
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "80 Presence Limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
         },
         {
           "_id": "nVIsjW5fk085DbLH",
@@ -13077,6 +17151,90 @@
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
         },
         {
+          "_id": "oz1Fl8yONZugjelN",
+          "name": "Greater Mystic Bolt",
+          "type": "spell",
+          "system": {
+            "description": "Energy projectile attack.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 62,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "150 Damage"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "300 Damage"
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 450,
+              "maint": 0,
+              "rollDesc": "450 Damage"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 600,
+              "maint": 0,
+              "rollDesc": "600 Damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "pj9dxY8xqXrH288F",
+          "name": "Sweep from the Heavens",
+          "type": "spell",
+          "system": {
+            "description": "Reduces targets Gnosis value, potentially limiting access to powers or abilities. The Resistance check cannot be repeated whilst the spell is maintained.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 88,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Spiritual",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 15,
+              "rollDesc": "-5 Gnosis, 120 MR"
+            },
+            "intermediate": {
+              "intReq": 14,
+              "zeonCost": 600,
+              "maint": 30,
+              "rollDesc": "-10 Gnosis, 160 MR"
+            },
+            "advanced": {
+              "intReq": 16,
+              "zeonCost": 1000,
+              "maint": 50,
+              "rollDesc": "-15 Gnosis, 200 MR"
+            },
+            "arcane": {
+              "intReq": 18,
+              "zeonCost": 2000,
+              "maint": 100,
+              "rollDesc": "-20 Gnosis, 260 MR\n"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "qNS0iXEFmb21J4RD",
           "name": "Grandeur",
           "type": "spell",
@@ -13117,6 +17275,216 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Nobility.webp"
+        },
+        {
+          "_id": "qTOWUNf7SeFEZbcQ",
+          "name": "Control Chaos",
+          "type": "spell",
+          "system": {
+            "description": "The caster manipulates causality, allowing them to choose effect (such as a chair breaking or a portal opening) and the cause will happen through the effects of chaos. The power of this spell scales on how chaotic the area is - very orderly areas this spell can do very little, whereas in an area saturated with chaos almost anything could happen. The caster gains the Gnosis benefits \"Influence Reality\" and \"Auspice\", with a value detemmined by the spell level. Chaos based beings may be dominated as an active action, though if it passes its MR check it is immune for the duration of the power.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 84,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 11,
+              "zeonCost": 300,
+              "maint": 50,
+              "rollDesc": "MR 120 / Up to Gnosis 30."
+            },
+            "intermediate": {
+              "intReq": 13,
+              "zeonCost": 500,
+              "maint": 60,
+              "rollDesc": "MR 160 / Up to Gnosis 35."
+            },
+            "advanced": {
+              "intReq": 15,
+              "zeonCost": 800,
+              "maint": 65,
+              "rollDesc": "MR 200 / Up to Gnosis 40."
+            },
+            "arcane": {
+              "intReq": 17,
+              "zeonCost": 1200,
+              "maint": 75,
+              "rollDesc": "MR 260 / Up to Gnosis 45."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "qgFY4G0acyNFNonn",
+          "name": "Manipulate Chaos",
+          "type": "spell",
+          "system": {
+            "description": "This spell may be cast immediately after an action; making the target reroll the action unless they pass an MR check. Creatures with Gnosis 35+/Natura +20 are aware of the change to reality, others are not.",
+            "expand": false,
+            "path": "Chaos",
+            "level": 64,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 14,
+            "type": "Automatic",
+            "maintType": "None",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "MR 140."
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "MR 180 / The wizard can force a single roll to be rerolled up to two times."
+            },
+            "advanced": {
+              "intReq": 14,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "MR 220 / The wizard can force a single roll to be rerolled up to three times."
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 400,
+              "maint": 0,
+              "rollDesc": "MR 260 / The wizard can force a single roll to be rerolled up to four times."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "qgh8cBWFyBChSNvl",
+          "name": "Undo States",
+          "type": "spell",
+          "system": {
+            "description": "Removes a State from a target (or equivalent effect). May affect multiple targets up to Presence limit. This cannot undo physical deficiencies caused by critical attacks.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 42,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 10,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "120 Presence Limit, 120 MR"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "200 Presence Limit, 140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 0,
+              "rollDesc": "300 Presence Limit, 160 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "400 Presence Limit, 200 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "r7AOCc7TB03jcGTG",
+          "name": "Probability Alteration",
+          "type": "spell",
+          "system": {
+            "description": "Target has their Open Roll and Fumble ranges expanded. ",
+            "expand": false,
+            "path": "Chaos",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 20,
+              "rollDesc": "+2 to Fumble range / –5 to Open Roll range."
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 20,
+              "rollDesc": "+4 to Fumble range / –10 to Open Roll range."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 25,
+              "rollDesc": "+6 to Fumble range / –15 to Open Roll range."
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 140,
+              "maint": 30,
+              "rollDesc": "+8 to Fumble range / –20 to Open Roll range."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Chaos.webp"
+        },
+        {
+          "_id": "s6hGTjbwVhyXYwQS",
+          "name": "Rain of Destruction",
+          "type": "spell",
+          "system": {
+            "description": "AoE Energy attack. Those damaged must pass an MR check or take additional LP loss equal to the failure level.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 82,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 250,
+              "maint": 0,
+              "rollDesc": "50m Radius, 200 Damage, 140 MR"
+            },
+            "intermediate": {
+              "intReq": 13,
+              "zeonCost": 350,
+              "maint": 0,
+              "rollDesc": "150m Radius, 250 Damage, 180 MR"
+            },
+            "advanced": {
+              "intReq": 15,
+              "zeonCost": 450,
+              "maint": 0,
+              "rollDesc": "500m Radius, 300 Damage, 220 MR"
+            },
+            "arcane": {
+              "intReq": 17,
+              "zeonCost": 600,
+              "maint": 0,
+              "rollDesc": "1km Radius, 400 Damage, 260 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
         },
         {
           "_id": "tHIzpPctdhSH9otK",
@@ -13287,6 +17655,90 @@
           "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
         },
         {
+          "_id": "w3UHVjqiNEUF6UMI",
+          "name": "Master of War",
+          "type": "spell",
+          "system": {
+            "description": "The caster may use their Magic Projection in place of Attack or Defense to the limits specified, with any weapon.",
+            "expand": false,
+            "path": "War",
+            "level": 84,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 18,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 10,
+              "rollDesc": "Up to 200 Ability."
+            },
+            "intermediate": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 15,
+              "rollDesc": "Up to 250 Ability."
+            },
+            "advanced": {
+              "intReq": 15,
+              "zeonCost": 400,
+              "maint": 20,
+              "rollDesc": "Up to 300 Ability."
+            },
+            "arcane": {
+              "intReq": 18,
+              "zeonCost": 500,
+              "maint": 25,
+              "rollDesc": "No limit."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/War.webp"
+        },
+        {
+          "_id": "wHAGZP0uRQ2FtdIm",
+          "name": "Destruction of Senses",
+          "type": "spell",
+          "system": {
+            "description": "Cuts off the senses of an individual unless they pass an MR check. The caster may choose which senses to eliminate in this way.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 32,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 100,
+              "maint": 5,
+              "rollDesc": "100 MR"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 140,
+              "maint": 10,
+              "rollDesc": "140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 15,
+              "rollDesc": "200 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 280,
+              "maint": 15,
+              "rollDesc": "280 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
           "_id": "wRTtLixxdWye0S0d",
           "name": "Create Good Feelings",
           "type": "spell",
@@ -13369,6 +17821,90 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "xbkPrnHhAaBmKLZe",
+          "name": "Wound",
+          "type": "spell",
+          "system": {
+            "description": "Produces damage on a target equal to a percentage of their current (not max) LP.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 26,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "20% Life Points, 120 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "40% Life Points, 140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "60% Life Points, 160 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "80% Life Points, 200 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
+        },
+        {
+          "_id": "y1p6L1aTMEP1lLws",
+          "name": "Destruction of Matrices",
+          "type": "spell",
+          "system": {
+            "description": "Destroys any active matrix of specified difficulty level or lower. This may cancel a power as it is manifested, before it takes effect.",
+            "expand": false,
+            "path": "Destruction",
+            "level": 22,
+            "action": "Passive",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "Medium (80)"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "Very Difficult (140)"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 0,
+              "rollDesc": "Almost Impossible (240)"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 320,
+              "maint": 0,
+              "rollDesc": "Inhuman (320)"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Destruction.webp"
         }
       ],
       "effects": [],
@@ -14259,7 +18795,7 @@
                 "value": 80
               },
               "destruction": {
-                "value": 0
+                "value": 90
               },
               "air": {
                 "value": 0

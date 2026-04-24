@@ -6,7 +6,7 @@
   "packPath": "packs/creatures-exxet",
   "folderName": "Pantalla del Director",
   "count": 33,
-  "generatedAt": "2026-04-23T23:56:25.738237+00:00",
+  "generatedAt": "2026-04-24T00:05:31.587179+00:00",
   "documents": [
     {
       "_id": "0c2e619f3a1b71e8",
@@ -11496,6 +11496,90 @@
           "_key": "!actors.items!10ead0ee88e0a65f.9e24aa902238add5"
         },
         {
+          "_id": "1JYYLxVkJ22eWzyw",
+          "name": "Move",
+          "type": "spell",
+          "system": {
+            "description": "Caster may move target inanimate objects with a Flight Value of 10.",
+            "expand": false,
+            "path": "Air",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "20 lbs Weight limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "110 lbs Weight limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "220 lbs Weight limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "550 lbs Weight limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Air.webp"
+        },
+        {
+          "_id": "5pElpIdmHtFHUJpx",
+          "name": "Weight Reduction",
+          "type": "spell",
+          "system": {
+            "description": "Reduces targets weight by specified degree, to a minimum of 2lbs.",
+            "expand": false,
+            "path": "Air",
+            "level": 10,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "-45 lbs"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "-330 lbs"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "-660 lbs"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 350,
+              "maint": 35,
+              "rollDesc": "-1100 lbs"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Air.webp"
+        },
+        {
           "_id": "Ac7zLSKYsdSAAtrE",
           "name": "Visual Illusion",
           "type": "spell",
@@ -11538,6 +11622,48 @@
           "img": "systems/abfalter/img/Magic%20Circles/Illusion.webp"
         },
         {
+          "_id": "Ex9bzSfa6faxeXfK",
+          "name": "Air Blow",
+          "type": "spell",
+          "system": {
+            "description": "Single target or AoE IMP attack. Causes damage equal to twice the STR bonus of the attack (Single target attacks are at +2 to listed STR). Targets must pass a 180 difficulty Notice check, or see magic, to perceive this attack.",
+            "expand": false,
+            "path": "Air",
+            "level": 20,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "15ft width, 6 Strength"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "65ft width, 9 Strength"
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "100ft width, 12 Strength"
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "165ft width, 14 Strength"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Air.webp"
+        },
+        {
           "_id": "IQsvldQhdMUJAIPZ",
           "name": "Sweet Talk",
           "type": "spell",
@@ -11578,6 +11704,48 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Illusion.webp"
+        },
+        {
+          "_id": "L2ZEpfJs6e8fBf69",
+          "name": "Stop Breathing",
+          "type": "spell",
+          "system": {
+            "description": "Affected targets no longer need to breath.",
+            "expand": false,
+            "path": "Air",
+            "level": 12,
+            "action": "Passive",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "80 Presence limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "150 Presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 110,
+              "maint": 10,
+              "rollDesc": "200 Presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "350 Presence limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Air.webp"
         },
         {
           "_id": "UnpMjfB7dJW4NcXb",
@@ -11704,6 +11872,90 @@
             }
           },
           "img": "systems/abfalter/img/Magic%20Circles/Illusion.webp"
+        },
+        {
+          "_id": "eRW5oC0eCtivjBhg",
+          "name": "Free Motion",
+          "type": "spell",
+          "system": {
+            "description": "Subject(s) of spell may walk along any solid or liquid surface, regardless of gravity.\n\n",
+            "expand": false,
+            "path": "Air",
+            "level": 16,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "80 Presence limit\n"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "120 Presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 110,
+              "maint": 10,
+              "rollDesc": "160 Presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "240 Presence limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Air.webp"
+        },
+        {
+          "_id": "gN0JvTG3tT0mFsgb",
+          "name": "Raise Wind",
+          "type": "spell",
+          "system": {
+            "description": "Create wind in an area that could naturally experience such weather. The length of the draft is ten times the width.",
+            "expand": false,
+            "path": "Air",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "10 Mile/hour, 80ft Maximum width"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "25 Mile/hour, 165ft Maximum width"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "50 Mile/hour, 250ft Maximum width"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "65 Mile/hour, 325ft Maximum width"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Air.webp"
         },
         {
           "_id": "lWmNsjT5KqYsmgE4",
@@ -12729,7 +12981,7 @@
                 "value": 0
               },
               "air": {
-                "value": 0
+                "value": 20
               },
               "fire": {
                 "value": 0
@@ -16482,6 +16734,342 @@
             "lastModifiedBy": "animuExxetGen001"
           },
           "_key": "!actors.items!90f72f9e9ef319c1.100c264f426f811f"
+        },
+        {
+          "_id": "8ZPkmfCscZkGTF0r",
+          "name": "Protection Bubble",
+          "type": "spell",
+          "system": {
+            "description": "Creates a supernatural shield that negates any attack of specified base damage or lower; any higher damage attack instantly shatters the bubble.",
+            "expand": false,
+            "path": "Water",
+            "level": 16,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Defense",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "40 Base Damage"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 5,
+              "rollDesc": "90 Base Damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 140,
+              "maint": 10,
+              "rollDesc": "120 Base Damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 220,
+              "maint": 10,
+              "rollDesc": "160 Base Damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Water.webp"
+        },
+        {
+          "_id": "GeBkiRXClh2f91zX",
+          "name": "Aquatic Capability",
+          "type": "spell",
+          "system": {
+            "description": "Target(s) may breathe and move freely in aquatic environs, using their regular movement value.",
+            "expand": false,
+            "path": "Water",
+            "level": 10,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 50,
+              "maint": 10,
+              "rollDesc": "Max Presence 50"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 70,
+              "maint": 20,
+              "rollDesc": "Max Presence 100"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 20,
+              "rollDesc": "Max Presence 200"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 140,
+              "maint": 25,
+              "rollDesc": "Max Presence 350"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Water.webp"
+        },
+        {
+          "_id": "MXLWS5zjgoWR9esj",
+          "name": "Spring",
+          "type": "spell",
+          "system": {
+            "description": "Draw natural liquids from an underground source within range to the surface. This cannot overcome energy barriers.",
+            "expand": false,
+            "path": "Water",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "325 Feet"
+            },
+            "intermediate": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "800 Feet"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "1650 Feet"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "3300 Feet"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Water.webp"
+        },
+        {
+          "_id": "bogLToAzDHmEkyRE",
+          "name": "Cold Immunity",
+          "type": "spell",
+          "system": {
+            "description": "Target gains immunity to a number of Cold intensities, reducing the damage of Cold or Ice attacks by 5 per intensity, and similarly granting +5 to Resistance checks against the same effects per Intensity.",
+            "expand": false,
+            "path": "Water",
+            "level": 12,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "5 Intensities"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "12 Intensities"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "20 Intensities"
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 130,
+              "maint": 15,
+              "rollDesc": "30 Intensities"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Water.webp"
+        },
+        {
+          "_id": "lSuYkcBU74xq9N5x",
+          "name": "Water Impact",
+          "type": "spell",
+          "system": {
+            "description": "IMP type attack which can damage energy. Produces an Impact with a given STR value.",
+            "expand": false,
+            "path": "Water",
+            "level": 20,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 50,
+              "maint": 0,
+              "rollDesc": "40 Base Damage, 8 Str"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "60 Base Damage, 10 Str"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "80 Base Damage, 12 Str"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "100 Base Damage, 14 Str"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Water.webp"
+        },
+        {
+          "_id": "o8VcJj1eRXOC0dm3",
+          "name": "Freeze Emotions",
+          "type": "spell",
+          "system": {
+            "description": "Target gains immunity to psychological states (both positive and negative). At Base level, does not prevent pain or supernatural effects.",
+            "expand": false,
+            "path": "Water",
+            "level": 26,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "Affects natural psychological states."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 5,
+              "rollDesc": "As Base, but also stops pain."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "As intermediate, but also stops supernatural states."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 10,
+              "rollDesc": "As advanced, but the caster may choose which emotions and states are stopped, while allowing others."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Water.webp"
+        },
+        {
+          "_id": "zBPmAMxBeHa3GAqc",
+          "name": "Liquid Control",
+          "type": "spell",
+          "system": {
+            "description": "Caster gains complete control over a quantity of liquid, being able to change its colour, clarity and solidity; or move it without contact. Water based creatures may make an MR check to resist control. The caster may target a creatures bloodstream, in which case the target may make an MR or PhR check with a +40 bonus; or take an AAP and damage equal to half the level of failure each turn. A new resistance roll is allowed every 5 turns.",
+            "expand": false,
+            "path": "Water",
+            "level": 22,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "5 L, 100 MR or PhR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "50 L, 120 MR or PhR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "500 L, 140 MR or PhR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 220,
+              "maint": 15,
+              "rollDesc": "5000 L, 180 MR or PhR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Water.webp"
+        },
+        {
+          "_id": "zVG0Gk3A3uMBTcY1",
+          "name": "Create Chill",
+          "type": "spell",
+          "system": {
+            "description": "This spell creates one ice or cold intensity. The temperature will remain stable for as long as the mage maintains the spell.",
+            "expand": false,
+            "path": "Water",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "1 Intensity"
+            },
+            "intermediate": {
+              "intReq": 7,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "3 Intensities"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "5 Intensities"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "8 Intensities"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Water.webp"
         }
       ],
       "effects": [],
@@ -17360,7 +17948,7 @@
                 "value": 0
               },
               "water": {
-                "value": 0
+                "value": 26
               },
               "earth": {
                 "value": 0
@@ -21476,6 +22064,300 @@
             "lastModifiedBy": "animuExxetGen001"
           },
           "_key": "!actors.items!fde86d1ff0307454.3874681a4bbc8f1f"
+        },
+        {
+          "_id": "87SN2jbh6jvLXIwj",
+          "name": "Eyes of the Other Side",
+          "type": "spell",
+          "system": {
+            "description": "This spell gives the caster the ability to sense fears and madness. Those who can see spirits perceive the casters eyes as black pools whilst under this spell. ",
+            "expand": false,
+            "path": "Umbra",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Detection",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "MR or PsyR 120 / The character can sense if a person is afraid or not."
+            },
+            "intermediate": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "MR or PsyR 140 / The character can perceive not only whether a person is or is not scared at the moment, but also the cause and where it comes from."
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 90,
+              "maint": 5,
+              "rollDesc": "MR or PsyR 160 / The character can perceive people’s general fears and problems, even when they do not look scared."
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "MR or PsyR 180 / The character perceives both disorders and imagined fears, and sees visual representations of those fears walk beside their hosts."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Umbra.webp"
+        },
+        {
+          "_id": "FWfwtqN2DUdsuO89",
+          "name": "See in Darkness",
+          "type": "spell",
+          "system": {
+            "description": "Designated individuals can see perfectly in natural darkness.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 8,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "80 presence limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "100 presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "120 presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "140 presence limit, and the effect works in supernatural Darkness."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "R5qJcuF6ELs4GQe9",
+          "name": "Shadow Void",
+          "type": "spell",
+          "system": {
+            "description": "All in the area must Resist or lose a point of Fatigue, or two intensities if they were an Elemental.",
+            "expand": false,
+            "path": "Void",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "MR 80 / 15 foot radius"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "MR 100 / 30 foot radius"
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": " MR 120 / 50 foot radius.\n"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "MR 150 / 100 foot radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Void.webp"
+        },
+        {
+          "_id": "chsAFZSvHTYLzw51",
+          "name": "Shield of Darkness",
+          "type": "spell",
+          "system": {
+            "description": "Supernatural shield, only damaged by abilities that affect energy. Takes double damage from Light based effects.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 10,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Defense",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "300 Life Points"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "1000 Life Points"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 180,
+              "maint": 10,
+              "rollDesc": "1800 Life Points"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "3000 Life Points"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "k7mwpYStKlq8sofs",
+          "name": "Induce Fear",
+          "type": "spell",
+          "system": {
+            "description": "Temporarily causes the state of fear in all people within the area. The caster decides what the victims are afraid of. The effects can be avoided with a successful MR or PsyR check.\n",
+            "expand": false,
+            "path": "Darkness",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "30ft Radius, 80 MR or PsyR"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "150ft Radius, 100 MR or PsyR"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "300ft Radius, 120 MR or PsyR"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "750ft Radius, 140 MR or PsyR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "lqXysoxXzTfNd8FZ",
+          "name": "Create Darkness",
+          "type": "spell",
+          "system": {
+            "description": "Completely darkens an area within the specified radius. Everything within the area is perceived as though on a dark and moonless night.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 20,
+              "maint": 5,
+              "rollDesc": "15ft Radius"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "75ft Radius"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "300ft Radius"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 15,
+              "rollDesc": "1500ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "uKUv2kutsywZFzlw",
+          "name": "Detect Sin",
+          "type": "spell",
+          "system": {
+            "description": "The caster gains knowledge of the targets greatest sins, gaining vague information (the type of sin, the time since, and the severity thereof) starting with the most recent. Multiple sins of the same kind may be detected.",
+            "expand": false,
+            "path": "Sin",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Detection",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "MR 120."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "MR 140."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "MR 160."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "MR 180."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Sin.webp"
         }
       ],
       "effects": [],
@@ -22369,7 +23251,7 @@
                 "value": 0
               },
               "darkness": {
-                "value": 0
+                "value": 10
               },
               "necromancy": {
                 "value": 0
@@ -22906,6 +23788,930 @@
             "lastModifiedBy": "animuExxetGen001"
           },
           "_key": "!actors.items!93bc82d4eb8525cb.f1c966b33c364905"
+        },
+        {
+          "_id": "3rLzlmfw67U42oUx",
+          "name": "Create Energy",
+          "type": "spell",
+          "system": {
+            "description": "Creates a number of intensities of the caster’s choice – either Fire, Cold, or Electricity.",
+            "expand": false,
+            "path": "Creation",
+            "level": 8,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "1 Intensity"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "5 Intensity"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "10 Intensity"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "20 Intensity"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Creation.webp"
+        },
+        {
+          "_id": "3yTLQz1nJtadPof9",
+          "name": "Heal",
+          "type": "spell",
+          "system": {
+            "description": "Target recovers LP, and half of that value as Critical Penalty Reduction.",
+            "expand": false,
+            "path": "Creation",
+            "level": 20,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "50 Life Points"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "150 Life Points"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "250 Life Points"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "350 Life Points"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Creation.webp"
+        },
+        {
+          "_id": "55AmE8xmmF5ijttc",
+          "name": "Tempo",
+          "type": "spell",
+          "system": {
+            "description": "Caster gains a bonus to sound based Search checks for the next 10 minutes.",
+            "expand": false,
+            "path": "Music",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "+40 to Search."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 50,
+              "maint": 0,
+              "rollDesc": "+60 to Search."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 70,
+              "maint": 0,
+              "rollDesc": "+80 to Search."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "+100 to Search."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Music.webp"
+        },
+        {
+          "_id": "7k1o4TnuxQZ1EbI8",
+          "name": "Royal Shield",
+          "type": "spell",
+          "system": {
+            "description": "Basic Magical Shield.",
+            "expand": false,
+            "path": "Creation",
+            "level": 18,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Defense",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "500 Life Points"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "3000 Life Points"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 260,
+              "maint": 15,
+              "rollDesc": "5000 Life Points"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 400,
+              "maint": 15,
+              "rollDesc": "10000 Life Points"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Creation.webp"
+        },
+        {
+          "_id": "9mCiJMqeY1lP5OV3",
+          "name": "Reconstruct",
+          "type": "spell",
+          "system": {
+            "description": "Restore an inorganic object using either parts that remain, or new material; else it will be restored to a partial form.",
+            "expand": false,
+            "path": "Creation",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "20 Presence limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "60 Presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "100 Presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 280,
+              "maint": 0,
+              "rollDesc": "120 Presence limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Creation.webp"
+        },
+        {
+          "_id": "CfXvssHMNTU8ffgq",
+          "name": "Categorize",
+          "type": "spell",
+          "system": {
+            "description": "Caster gains approximate knowledge of an object, such as the recipe for a meal, or the materials and composition (but not the ability to recreate) a device. Highly complex objects or those with great presence may be immune to this spell.",
+            "expand": false,
+            "path": "Knowledge",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "The caster knows which field of study includes the object – cooking, mechanisms, clockwork, ironworking, etc. – but gains no further information."
+            },
+            "intermediate": {
+              "intReq": 7,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "The caster learns about the materials that compose the object and gains a rough idea of the percentage of each in the final object."
+            },
+            "advanced": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "The caster gains a vague idea of how the object works, but not how it was made."
+            },
+            "arcane": {
+              "intReq": 11,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "The caster learns vaguely how the object was created, but not well enough to recreate it himself."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Knowledge.webp"
+        },
+        {
+          "_id": "Faz3P4cjRwTEVgLd",
+          "name": "Know Weakness",
+          "type": "spell",
+          "system": {
+            "description": "The caster learns the weaknesses, vulnerabilities and imperfections of the target; such as the weak points of a DR creature. The target must be in the vicinity of the caster.",
+            "expand": false,
+            "path": "Knowledge",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Detection",
+            "maintType": "None",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "MR 120."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "MR 140."
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "MR 160."
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "MR 180."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Knowledge.webp"
+        },
+        {
+          "_id": "IEp41h07ZwN7UXlM",
+          "name": "Internal Balance",
+          "type": "spell",
+          "system": {
+            "description": "Target becomes peaceful, immune to emotional effects.",
+            "expand": false,
+            "path": "Peace",
+            "level": 14,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "The character becomes immune to negative psychological states."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "As Basic level, but the character also gains +40 to resistance checks against any effects that try to alter his emotions."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "As Intermediate level, but the bonus to Resistance checks is +80."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "The character cannot be affected by any effect that would alter his behavior against his will."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Peace.webp"
+        },
+        {
+          "_id": "Msg29nK98ucmYdlH",
+          "name": "Increase Resistances",
+          "type": "spell",
+          "system": {
+            "description": "Increase all of a targets Resistance, may only be affected by one such spell at a time.",
+            "expand": false,
+            "path": "Creation",
+            "level": 16,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 15,
+              "rollDesc": "+10 to resistances"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 20,
+              "rollDesc": "+20 to resistances"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 30,
+              "rollDesc": "+30 to resistances"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 200,
+              "maint": 40,
+              "rollDesc": "+40 to resistances"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Creation.webp"
+        },
+        {
+          "_id": "OEoGNrNCAboTG8hb",
+          "name": "Damage Barrier",
+          "type": "spell",
+          "system": {
+            "description": "Grants target a Damage Barrier.",
+            "expand": false,
+            "path": "Creation",
+            "level": 22,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "Damage Barrier 30"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "Damage Barrier 50"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "Damage Barrier 80"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "Damage Barrier 100"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Creation.webp"
+        },
+        {
+          "_id": "P7Ee26baq7qn31d1",
+          "name": "Knowledge",
+          "type": "spell",
+          "system": {
+            "description": "Caster gains a temporary knowledge of a given Secondary Ability. This replaces the casters base value. This knowledge is forgotten when the spell ends. A caster may be under multiple of such a spell, targeting different Secondaries.",
+            "expand": false,
+            "path": "Knowledge",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "40 in the chosen knowledge-related ability."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "60 in the chosen knowledge-related ability."
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "80 in the chosen knowledge-related ability."
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "100 in the chosen knowledge-related ability."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Knowledge.webp"
+        },
+        {
+          "_id": "RtkBYPoLOW629oN2",
+          "name": "Minor Creation",
+          "type": "spell",
+          "system": {
+            "description": "Create a simple object or objects each within the presence limit determined by the level of the spell.",
+            "expand": false,
+            "path": "Creation",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "1 object with 25 Presence limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "5 objects with 25 Presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "1 object with 30 Presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "5 objects with 30 presence limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Creation.webp"
+        },
+        {
+          "_id": "XSvutnuLGebykB95",
+          "name": "Defender",
+          "type": "spell",
+          "system": {
+            "description": "Grants multiple targets a bonus to their Defense when taking the Pure Defense maneuver.",
+            "expand": false,
+            "path": "Peace",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "+20 to Defense Ability / Maximum Presence 60."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "+20 to Defense Ability / Maximum Presence 100."
+            },
+            "advanced": {
+              "intReq": 1,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "+30 to Defense Ability / Maximum Presence 150."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "+40 to Defense Ability / Maximum Presence 250."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Peace.webp"
+        },
+        {
+          "_id": "ZGXmPb1Jzh6iNeJ2",
+          "name": "Travel Diary",
+          "type": "spell",
+          "system": {
+            "description": "Enchants a normal book to record details of the casters travels and experiences, as per a detailed diary. The level of this spell determines how long the spell may be maintained.",
+            "expand": false,
+            "path": "Literature",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 100,
+              "maint": 5,
+              "rollDesc": "1 day."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "1 week."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "1 month."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "1 year."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Literature.webp"
+        },
+        {
+          "_id": "cfTnMoebayjprJDF",
+          "name": "Create Homunculus",
+          "type": "spell",
+          "system": {
+            "description": "Create a number of level 0 [500 DP] beings with the following limitations under the control of the caster:\n\nMaximum Gnosis of 5; No Characteristic Exceeding 5, No Primary or Secondary exceeding 50, no Intellectual or Mystical abilities higher than their creator, no Gift, a special -2 size penalty and an inability to take the \"Uncommon Size\" advantage.",
+            "expand": false,
+            "path": "Creation",
+            "level": 26,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "1 Homunculus"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 80,
+              "maint": 20,
+              "rollDesc": "10 Homunculus"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "25 Homunculi"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 350,
+              "maint": 35,
+              "rollDesc": "100 Homunculi"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Creation.webp"
+        },
+        {
+          "_id": "fOM1fkTHhTPNGJut",
+          "name": "Inorganic Modification",
+          "type": "spell",
+          "system": {
+            "description": "Transform an inorganic object into a completely different object of equal or lesser presence.",
+            "expand": false,
+            "path": "Creation",
+            "level": 12,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "20 Presence limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 90,
+              "maint": 5,
+              "rollDesc": "30 Presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 5,
+              "rollDesc": "40 Presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 10,
+              "rollDesc": "50 Presence limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Creation.webp"
+        },
+        {
+          "_id": "jiJNhbVaN1y2G1qh",
+          "name": "Cantabile",
+          "type": "spell",
+          "system": {
+            "description": "Caster may project their voice or a melody from any location within the spells range.",
+            "expand": false,
+            "path": "Music",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "300 foot radius."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "800 foot radius."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "1,500 foot radius."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "3,000 foot radius."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Music.webp"
+        },
+        {
+          "_id": "kszFpP9diVA1DPVU",
+          "name": "Plagiarism",
+          "type": "spell",
+          "system": {
+            "description": "Allows the caster to perform any music which they have heard before, or know with the given Secondary Ability level.",
+            "expand": false,
+            "path": "Music",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "Music 120."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 70,
+              "maint": 5,
+              "rollDesc": "Music 180."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 5,
+              "rollDesc": "Music 240."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "Music 280."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Music.webp"
+        },
+        {
+          "_id": "qNOvrXIiO1V34HWZ",
+          "name": "Missive",
+          "type": "spell",
+          "system": {
+            "description": "The caster sends a written message directly to an individual they personally know. The letter disappears, and appears beside the recipient. This may enter any enchanted area provided the presence of the area is less than that of the caster. ",
+            "expand": false,
+            "path": "Literature",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "6 miles."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "60 miles."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "600 miles."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 280,
+              "maint": 0,
+              "rollDesc": "Anywhere."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Literature.webp"
+        },
+        {
+          "_id": "sQOXitKmhKt5BjY8",
+          "name": "Reality Pen",
+          "type": "spell",
+          "system": {
+            "description": "Caster creates a supernatural pen that - when used - reduces the base Zeon cost of Literature spells by half.",
+            "expand": false,
+            "path": "Literature",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "Affects Basic level Literature spells."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "Affects Intermediate level Literature spells."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "Affects Advanced level Literature spells."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "Affects Arcane level Literature spells."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Literature.webp"
+        },
+        {
+          "_id": "shPRizBLXmmZpJHS",
+          "name": "Regeneration",
+          "type": "spell",
+          "system": {
+            "description": "Replace the targets base Regeneration value with that provided by the spell.",
+            "expand": false,
+            "path": "Creation",
+            "level": 10,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "Regeneration 4"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "Regeneration 8"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "Regeneration 12"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "Regeneration 16"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Creation.webp"
+        },
+        {
+          "_id": "yjXhU3dTaC5simdI",
+          "name": "Shield of Salvation",
+          "type": "spell",
+          "system": {
+            "description": "Creates a supernatural shield that may protect those within range the caster wishes without suffering additional penalties or damage, to the limits given in the spell level.",
+            "expand": false,
+            "path": "Peace",
+            "level": 4,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Defense",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "60 foot radius / The shield has 300 Life Points / It can protect up to two people without penalty"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 100,
+              "maint": 15,
+              "rollDesc": "150 foot radius / The shield has 900 Life Points / It can protect up to five people without penalty."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "300 foot radius / The shield has 1,500 Life Points / It can protect up to eight people without penalty."
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "500 foot radius / The shield has 3,000 Life Points / It can protect up to 12 people without penalty"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Peace.webp"
         }
       ],
       "effects": [],
@@ -23796,7 +25602,7 @@
                 "value": 0
               },
               "creation": {
-                "value": 0
+                "value": 26
               },
               "darkness": {
                 "value": 0
@@ -24336,6 +26142,342 @@
             "lastModifiedBy": "animuExxetGen001"
           },
           "_key": "!actors.items!ad55e59fd870cef6.35142c601345152a"
+        },
+        {
+          "_id": "FZmaBZy2MYagVX9k",
+          "name": "Temporal Knowledge",
+          "type": "spell",
+          "system": {
+            "description": "The caster gains a preternatural sense for time. ",
+            "expand": false,
+            "path": "Time",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "Allows the caster to supernaturally perceive the time and date at the moment of casting according to a calendar known to the caster."
+            },
+            "intermediate": {
+              "intReq": 7,
+              "zeonCost": 50,
+              "maint": 0,
+              "rollDesc": "As Basic level, but the caster perceives the time with absolute accuracy down to seconds and milliseconds. It also allows him to feel if there is some kind of supernatural disturbance in the flow of time close to him."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 70,
+              "maint": 0,
+              "rollDesc": "As Intermediate level, but the character can set an alarm at the moment of casting and automatically feel when the chosen moment has arrived. For example, he might set an alarm to notify himself when a period of four hours, 12 minutes, and seven seconds has passed since the spell was cast."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "As Advanced level, but the caster can calculate the period of time an event will take to finish, for example how long it would take for a person walking at constant speed to cross a beach or for a melody to finish."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Time.webp"
+        },
+        {
+          "_id": "LBxykqvECj7tBf2R",
+          "name": "Soul Barrier",
+          "type": "spell",
+          "system": {
+            "description": "Create a barrier that can protect only from arracks that force an MR or PsR check equal to the specified value or lower. This is not capable of stopping attacks that would have such an effect and also cause damage. ",
+            "expand": false,
+            "path": "Essence",
+            "level": 20,
+            "action": "Active",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Defense",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "140 Resistance limit"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "160 Resistance limit"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "200 Resistance limit"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "240 Resistance limit"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
+        },
+        {
+          "_id": "N1IZKnfZqDulmnDN",
+          "name": "Healing",
+          "type": "spell",
+          "system": {
+            "description": "Target restores the specified percentage of their lost LP, halved for DR creatures. This does not recover lost limbs, or the penalties from criticals; but will stop bleeding.",
+            "expand": false,
+            "path": "Essence",
+            "level": 16,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "20% Life Points"
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "40% Life Points"
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "60% Life Points"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "80% Life Points"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
+        },
+        {
+          "_id": "VPGYKhbDM7iILxSx",
+          "name": "Natural Affinity",
+          "type": "spell",
+          "system": {
+            "description": "Grant a creature an innate bond with specified group of creatures, who recognize them as their own. ",
+            "expand": false,
+            "path": "Essence",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "Natural animals"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "All natural beings"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "All natural beings and beings between worlds"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "All creatures including supernatural beings of high existential power"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
+        },
+        {
+          "_id": "b2HEXdWVwUJKabxb",
+          "name": "Communication Through Essence",
+          "type": "spell",
+          "system": {
+            "description": "Communicate with target living creature, without the need for language or sound.",
+            "expand": false,
+            "path": "Essence",
+            "level": 10,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Automatic",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 30,
+              "maint": 10,
+              "rollDesc": "Affects animals and plants"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 70,
+              "maint": 20,
+              "rollDesc": "Affects all natural beings"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 20,
+              "rollDesc": "Affects natural beings and beings between worlds"
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 150,
+              "maint": 25,
+              "rollDesc": "Affects any class of being"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
+        },
+        {
+          "_id": "gV6Pww2wroErGjyF",
+          "name": "Natural Knowledge",
+          "type": "spell",
+          "system": {
+            "description": "Analyze the spirit of a natural being, learning about special properties such as toxicity.",
+            "expand": false,
+            "path": "Essence",
+            "level": 12,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "Base properties of animals or plants"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "All properties of animals or plants"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "All properties of a natural race"
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "Base properties and supernatural powers of a natural being"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
+        },
+        {
+          "_id": "hIGM5VrsIwiyH7S6",
+          "name": "Detect Essence",
+          "type": "spell",
+          "system": {
+            "description": "Identify the base essence of beings within an area around the caster. This information is limited, the caster learns only their elemental binding, but may recognize beings with the same essence or race. The caster must be aware of the presence of someone to read their essence, but spiritual or immaterial creatures may be affected.",
+            "expand": false,
+            "path": "Essence",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Automatic",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "30ft Radius, 100 MR"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "80ft Radius, 140 MR"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "165ft Radius, 160 MR"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "330ft Radius, 200 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Essence.webp"
+        },
+        {
+          "_id": "tHIzpPctdhSH9otK",
+          "name": "Temporal Acceleration",
+          "type": "spell",
+          "system": {
+            "description": "The target of this spell accelerates in time, gaining the listed buffs.",
+            "expand": false,
+            "path": "Time",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "+10 to All Actions / Movement Value +1 / +20 to Initiative."
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "+15 to All Actions / Movement Value +2 / +30 to Initiative."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "+20 to All Actions / Movement Value +2 / +40 to Initiative"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "+25 to All Actions / Movement Value +3 / +50 to Initiative."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Time.webp"
         }
       ],
       "effects": [],
@@ -25211,7 +27353,7 @@
           "magicLevel": {
             "spheres": {
               "essence": {
-                "value": 0
+                "value": 20
               },
               "water": {
                 "value": 0
@@ -28611,6 +30753,216 @@
             "lastModifiedBy": "animuExxetGen001"
           },
           "_key": "!actors.items!d6f84fa1095b6e7b.2a177f44d5a8ee41"
+        },
+        {
+          "_id": "77UrnfiXCrUa64vc",
+          "name": "Create Fire",
+          "type": "spell",
+          "system": {
+            "description": "Create a number of Fire intensities. Fires which would naturally continue to burn do so after the spell has ended.",
+            "expand": false,
+            "path": "Fire",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "1 Intensity"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "5 Intensities"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "8 Intensities"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "10 Intensities"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/FIre.webp"
+        },
+        {
+          "_id": "FqeT7X27vXlKYnyy",
+          "name": "Fire Immunity",
+          "type": "spell",
+          "system": {
+            "description": "Target gains immunity to a number of Fire intensities, reducing base damage from Fire based attacks by 5 per Intensity; and increasing resistance vs Fire based effects by +5 per Intensity.",
+            "expand": false,
+            "path": "Fire",
+            "level": 10,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 0,
+              "rollDesc": "5 Intensities"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 140,
+              "maint": 0,
+              "rollDesc": "12 Intensities"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "20 Intensities"
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 300,
+              "maint": 0,
+              "rollDesc": "30 Intensities"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/FIre.webp"
+        },
+        {
+          "_id": "Le5cnqTUzPE7Og7M",
+          "name": "Put Out Fire",
+          "type": "spell",
+          "system": {
+            "description": "Reduce a fire by a number of intensities. Fire based creatures take 5 damage per intensity removed if they fail their MR check. DR creatures take 25 per Intensity instead.",
+            "expand": false,
+            "path": "Fire",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "-1 Intensity, 100 MR"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "-5 Intensities, 120 MR"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "-10 Intensities, 140 MR"
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "-15 Intensities, 180 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/FIre.webp"
+        },
+        {
+          "_id": "hGC2AJ3TI1PxfMBZ",
+          "name": "Fire Ball",
+          "type": "spell",
+          "system": {
+            "description": "AoE HEAT attack.",
+            "expand": false,
+            "path": "Fire",
+            "level": 16,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Attack",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "15ft Radius, 50 Base damage"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 5,
+              "rollDesc": "80ft Radius, 100 Base damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 160,
+              "maint": 10,
+              "rollDesc": "260ft Radius, 140 Base damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 250,
+              "maint": 10,
+              "rollDesc": "500ft Radius, 160 Base damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/FIre.webp"
+        },
+        {
+          "_id": "ncuKXJl8CNhYagDR",
+          "name": "Control Fire",
+          "type": "spell",
+          "system": {
+            "description": "Control a number of intensities of fire, including their colour and smoke. Fire based creatures must pass an MR check or fall under the casters control. A repeat check is only allowed when given an order against their nature.",
+            "expand": false,
+            "path": "Fire",
+            "level": 20,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "5 Intensities, 100 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "8 Intensities, 120 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "12 Intensities, 140 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "15 Intensities, 180 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/FIre.webp"
         }
       ],
       "effects": [],
@@ -29513,7 +31865,7 @@
                 "value": 0
               },
               "fire": {
-                "value": 0
+                "value": 20
               },
               "illusion": {
                 "value": 0
@@ -37858,6 +40210,846 @@
             "lastModifiedBy": "animuExxetGen001"
           },
           "_key": "!actors.items!9a63f1d815927b6b.99cb63c8525e65d1"
+        },
+        {
+          "_id": "2DVtvrB6B5xeSSNm",
+          "name": "Create Light",
+          "type": "spell",
+          "system": {
+            "description": "Create light within the specified radius.",
+            "expand": false,
+            "path": "Light",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 20,
+              "maint": 5,
+              "rollDesc": "15ft Radius"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "80ft Radius"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "325ft Radius"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 15,
+              "rollDesc": "1650ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "4Z0KlTdjK1mp8NpD",
+          "name": "Perfume",
+          "type": "spell",
+          "system": {
+            "description": "Adjust the targets body odor, making it a pleasant, smooth fragrance that evokes pleasant feelings in those in range.",
+            "expand": false,
+            "path": "Nobility",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "60 foot radius / The spell functions as described above"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "100 foot radius / As Basic level, but when the target makes a Style check that might be influenced by his body odor, he can increase the result of the check by one level."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 5,
+              "rollDesc": "120 foot radius / As Intermediate level, but the spell increases the result of the check by two levels."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "150 foot radius / As Advanced level, and anyone who smells the perfume for more than 5 turns must pass a MR 100 check or fall into a state of Fascination, becoming stupefied with pleasure and more receptive to the target’s words"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Nobility.webp"
+        },
+        {
+          "_id": "54MfF2CFZnwylCff",
+          "name": "Control Light",
+          "type": "spell",
+          "system": {
+            "description": "Modify form, colour or intensity of light within an area. Light based beings must pass an MR check, or be controlled by the caster; being allowed a repeat check if made to act against  their nature.",
+            "expand": false,
+            "path": "Light",
+            "level": 30,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "65ft Radius, 80 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 150,
+              "maint": 20,
+              "rollDesc": "500ft Radius, 140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "1000ft Radius, 180 MR"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 350,
+              "maint": 30,
+              "rollDesc": "1650ft Radius, 220 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "5UMNuxmCivzAg672",
+          "name": "Armor of Light",
+          "type": "spell",
+          "system": {
+            "description": "Gain mystical AT, which counts as a layer of armour, but does not apply multiple layer penalties for initiative.",
+            "expand": false,
+            "path": "Light",
+            "level": 16,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "1 Physical AT, 2 Energy AT"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "2 Physical AT, 5 Energy AT"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "4 Physical AT, 8 Energy AT"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 150,
+              "maint": 20,
+              "rollDesc": "6 Physical AT, 12 Energy AT"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "B39iy1WrDTqNoUWF",
+          "name": "Light Beam",
+          "type": "spell",
+          "system": {
+            "description": "Energy damage Light attack.",
+            "expand": false,
+            "path": "Light",
+            "level": 22,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 0,
+              "rollDesc": "60 Base Damage"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "90 Base Damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "120 Base Damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 0,
+              "maint": 0,
+              "rollDesc": "150 Base Damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "BWSHoiNGIFk5yXpG",
+          "name": "Ectasy",
+          "type": "spell",
+          "system": {
+            "description": "Targets take a -20 All Action Penalty, but become immune to pain or other affliction based penalties except for physical incapacitation.",
+            "expand": false,
+            "path": "Light",
+            "level": 38,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "30ft area, 80 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "165ft area, 100 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "325ft area, 120 MR"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "800ft area, 160 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "C7zg6856mcDACPRY",
+          "name": "Shield of Light",
+          "type": "spell",
+          "system": {
+            "description": "Supernatural shield, only damaged by supernatural attacks. Takes double damage from Darkness based attacks.",
+            "expand": false,
+            "path": "Light",
+            "level": 10,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Defense",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "300 Life Points"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "1000 Life Points"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "1800 Life Points"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "3000 Life Points"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "DOeF6vlsGUgU7ft8",
+          "name": "Detect Life",
+          "type": "spell",
+          "system": {
+            "description": "Detects targets within the area, learning the number and exact location of beings that fail MR checks.",
+            "expand": false,
+            "path": "Light",
+            "level": 32,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Detection",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "80ft Radius, 140 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "165ft Radius, 180 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "500ft Radius, 220 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "1650ft Radius, 280 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "ILP9nPDWqslfvBmM",
+          "name": "Banish Shadows",
+          "type": "spell",
+          "system": {
+            "description": "Darkness based creatures in target area must pass MR or lose double the failure level as LP damage. DR creatures multiply this loss by their DR multiple. Creatures must re-check each turn as long as the spell persists.",
+            "expand": false,
+            "path": "Light",
+            "level": 18,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "30ft Radius, 140 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "330ft Radius, 180 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "800ft Radius, 220 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "1600ft Radius, 280 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "IToCt7BZQXIjUFzN",
+          "name": "Blinding Flash",
+          "type": "spell",
+          "system": {
+            "description": "Anyone looking at the target area must make a PhR check, or be blinded by the level of failure divided by 10 turns. Targets cannot be designated, but those actively avoiding looking receive +40 to the resist roll.",
+            "expand": false,
+            "path": "Light",
+            "level": 8,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Automatic",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 0,
+              "rollDesc": "30ft Radius, 140 PhR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "80ft Radius, 140 PhR"
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "165ft Radius, 140 PhR"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 200,
+              "maint": 0,
+              "rollDesc": "325ft Radius, 160 PhR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "Ix0SdEt2sUSHu6iu",
+          "name": "Detect Negative Emotions",
+          "type": "spell",
+          "system": {
+            "description": "Detect negative sentiment (fear, hate, anger etc) or creatures based on them within the area.",
+            "expand": false,
+            "path": "Light",
+            "level": 20,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Detection",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "80ft Radius, 80 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "500ft Radius, 140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 160,
+              "maint": 20,
+              "rollDesc": "1650ft Radius, 160 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 280,
+              "maint": 30,
+              "rollDesc": "3300ft Radius, 200 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "LBGGWahP9IvUJXVF",
+          "name": "Hologram",
+          "type": "spell",
+          "system": {
+            "description": "Create a hologram with appearance as desired. If it is a creature, it mimics the physical abilities of the caster (such as Attack and Dodge). The creature cannot touch or be touched, and is destroyed immediately if it takes damage based on energy. Detecting the hologram is not real requires a 240/140 Notice/Search check.",
+            "expand": false,
+            "path": "Light",
+            "level": 26,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "35ft^2"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 150,
+              "maint": 20,
+              "rollDesc": "500ft^2"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "1800ft^2"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 350,
+              "maint": 30,
+              "rollDesc": "3500ft^2"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "LhOAjEXYEHfyv2xT",
+          "name": "Banish Negative Emotions",
+          "type": "spell",
+          "system": {
+            "description": "Temporarily banishes any negative sentiments such as hatred, fear, or anger within the specified radius of the caster. Resisting the spell requires a successful MR or PsR check.",
+            "expand": false,
+            "path": "Light",
+            "level": 40,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "330ft Radius, 100 MR or PsR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "1650ft Radius, 150 MR or PsR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 0,
+              "rollDesc": "3300ft Radius, 180 MR or PsR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 350,
+              "maint": 0,
+              "rollDesc": "3 Mile Radius, 220 MR or PsR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "Sg6YAeQAByLqYzwD",
+          "name": "Perceive",
+          "type": "spell",
+          "system": {
+            "description": "Increase Notice and Search by the given degree. Also boosts Magic Appraisal, but only for the purposes of detecting/measuring magic potency.",
+            "expand": false,
+            "path": "Light",
+            "level": 12,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "+50 to abilities"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "+150 to abilities"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "+200 to abilities"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "+250 to abilities"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "TvG7YUWy0B3wnsIc",
+          "name": "Bonds of Light",
+          "type": "spell",
+          "system": {
+            "description": "Make a Trapping attack with no penalty for use of maneuver. Bonds are treated as an energy attack with Fortitude 25.",
+            "expand": false,
+            "path": "Light",
+            "level": 28,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Attack",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "8 Strength"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "12 Strength"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "15 Strength, Fortitude increases to 30."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 180,
+              "maint": 15,
+              "rollDesc": "18 Strength, Fortitude increases to 35."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "UT4ojlPKl80pFFMX",
+          "name": "Spy of Light",
+          "type": "spell",
+          "system": {
+            "description": "Create a small Light based spy with Mystical Flight 14. Max travel distance and perceptive abilities are determined by the spell level. If attacked, the spy can defend with the casters M.Proj, though if it receives any damage capable of affecting energy, it is destroyed. The caster can only use their own senses, or those at the location of the spy, chosen each turn.",
+            "expand": false,
+            "path": "Light",
+            "level": 36,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 100,
+              "maint": 20,
+              "rollDesc": "100 Notice and Search, 3000ft distance"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 200,
+              "maint": 40,
+              "rollDesc": "150 Notice and Search, 6miles distance"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 300,
+              "maint": 60,
+              "rollDesc": "200 Notice and Search, 31miles distance"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 400,
+              "maint": 80,
+              "rollDesc": "250 Notice and Search, 310miles distance"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "Yc3YW0mwiKITRG1s",
+          "name": "Wardrobe",
+          "type": "spell",
+          "system": {
+            "description": "Transform the targets clothes such they are of great quality, at all times clean and pressed; with dirt and damage fixing itself in seconds.",
+            "expand": false,
+            "path": "Nobility",
+            "level": 34,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "The spell functions as described above."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 5,
+              "rollDesc": "As Basic level, but while wearing the clothes, the character gains a +50 bonus to his Style Secondary Ability"
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 120,
+              "maint": 5,
+              "rollDesc": "As Intermediate level, but the clothes vary in shape and color on their own to best suit the location and time, while always looking glorious and impressive."
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 150,
+              "maint": 10,
+              "rollDesc": "As Advanced level, but the clothes grant Armor Type 4 against any kind of attack, and they repair immediately if they suffer any kind of damage that is not of a supernatural nature."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Nobility.webp"
+        },
+        {
+          "_id": "c5NbTiWFgwxluYfd",
+          "name": "Visage",
+          "type": "spell",
+          "system": {
+            "description": "This spell applies magical cosmetics to the target, covering any imperfections, eliminating any skin conditions, and providing a healthy and vibrant air.",
+            "expand": false,
+            "path": "Nobility",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": " The spell functions as described above."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "As Basic level, but the target gains 1 point of Appearance (up to 9) and looks several years younger."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "As Intermediate level, but the spell increases Appearance by 2 points (up to 10)."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": " As Advanced level, but the spell increases Appearance by 3 points (up to 10)."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Nobility.webp"
+        },
+        {
+          "_id": "cFfApyvjwlEQ6UJw",
+          "name": "Induce Calm",
+          "type": "spell",
+          "system": {
+            "description": "Ends Fear, Terror or Rage states, unless resisted with MR or PsyR.",
+            "expand": false,
+            "path": "Light",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "30ft Radius, 80 MR or PsyR"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "80ft Radius, 100 MR or PsyR"
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "165ft Radius, 120 MR or PsyR"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 160,
+              "maint": 0,
+              "rollDesc": "325ft Radius, 140 MR or PsyR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Light.webp"
+        },
+        {
+          "_id": "hp9xnRfGFinnJpny",
+          "name": "Musa",
+          "type": "spell",
+          "system": {
+            "description": "Grants the caster a fixed value to the Art, Dance or Music Secondary Ability, or half the value as a bonus to a pre-existing base ability. Whilst this spell has no maintenance, it only lasts long enough to complete a single work, or a day at most.",
+            "expand": false,
+            "path": "Nobility",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "Music, Dance, and Art Ability 120."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "Music, Dance, and Art Ability 180."
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "Music, Dance, and Art Ability 240."
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "Music, Dance, and Art Ability 280."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Nobility.webp"
         }
       ],
       "effects": [],
@@ -38745,7 +41937,7 @@
                 "value": 0
               },
               "light": {
-                "value": 0
+                "value": 40
               },
               "destruction": {
                 "value": 0
@@ -50413,6 +53605,1182 @@
             "lastModifiedBy": "animuExxetGen001"
           },
           "_key": "!actors.items!928f630ab5d4773d.b239eded78eac051"
+        },
+        {
+          "_id": "0FTGjRI0Ar256bhG",
+          "name": "Gluttony",
+          "type": "spell",
+          "system": {
+            "description": "Caster gains a portion of all Zeon and Ki spent within the spells radius. This has no effect on Innate spells or abilities that do not consume Zeon or Ki. This cannot affect the casters own abilities. ",
+            "expand": false,
+            "path": "Sin",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "30 foot radius / Absorbs 10%."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 5,
+              "rollDesc": "60 foot radius / Absorbs 20%."
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 140,
+              "maint": 10,
+              "rollDesc": "130 foot radius / Absorbs 30%."
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 180,
+              "maint": 10,
+              "rollDesc": "200 foot radius / Absorbs 50%."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Sin.webp"
+        },
+        {
+          "_id": "1NBjlhB6J0AEGgB7",
+          "name": "Banish Light",
+          "type": "spell",
+          "system": {
+            "description": "Destroy light in target area. Lightbased creatures in target area must pass MR or lose double the failure level as LP damage. DR creatures multiply this loss by their DR multiple. Creatures must re-check each turn as long as the spell persists.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 18,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "30ft Radius, 140 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "330ft Radius, 180 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "800ft Radius, 220 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "1650ft Radius, 280 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "1guixyyjwpq6ZQTX",
+          "name": "Armor of Darkness",
+          "type": "spell",
+          "system": {
+            "description": "Gain mystical AT, which counts as a layer of armour, but does not apply multiple layer penalties for initiative.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 16,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "1AT, 2 Energy AT"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "2AT, 5 Energy AT"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "4AT, 8 Energy AT"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 150,
+              "maint": 20,
+              "rollDesc": "6 AT, 12 Energy AT"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "5DtCb7n8S83cbZZY",
+          "name": "Dark Beam",
+          "type": "spell",
+          "system": {
+            "description": "Energy damage Darkness attack.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 22,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 0,
+              "rollDesc": "60 base damage"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "90 base damage"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "120 base damage"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 150,
+              "maint": 0,
+              "rollDesc": "150 base damage"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "6OyMl41h6njYebGJ",
+          "name": "Lust",
+          "type": "spell",
+          "system": {
+            "description": "The target of this spell becomes a nexus of lust. Anyone who may be attracted to the target who looks upon them must pass an MR check. Those who fail feel immense attraction, and those who fail by more than 40 results in an unhealthy obsession, abandoning all reason. Affected individuals, and the target themselves, may repeat the check each hour.",
+            "expand": false,
+            "path": "Sin",
+            "level": 34,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "MR 140."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 5,
+              "rollDesc": "MR 160."
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "MR 180."
+            },
+            "arcane": {
+              "intReq": 13,
+              "zeonCost": 150,
+              "maint": 10,
+              "rollDesc": "MR 200."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Sin.webp"
+        },
+        {
+          "_id": "87SN2jbh6jvLXIwj",
+          "name": "Eyes of the Other Side",
+          "type": "spell",
+          "system": {
+            "description": "This spell gives the caster the ability to sense fears and madness. Those who can see spirits perceive the casters eyes as black pools whilst under this spell. ",
+            "expand": false,
+            "path": "Umbra",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Detection",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 5,
+              "rollDesc": "MR or PsyR 120 / The character can sense if a person is afraid or not."
+            },
+            "intermediate": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "MR or PsyR 140 / The character can perceive not only whether a person is or is not scared at the moment, but also the cause and where it comes from."
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 90,
+              "maint": 5,
+              "rollDesc": "MR or PsyR 160 / The character can perceive people’s general fears and problems, even when they do not look scared."
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "MR or PsyR 180 / The character perceives both disorders and imagined fears, and sees visual representations of those fears walk beside their hosts."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Umbra.webp"
+        },
+        {
+          "_id": "Dlq7VB36Ph2xxWQr",
+          "name": "Shadow of Fear",
+          "type": "spell",
+          "system": {
+            "description": "This spell affects an area, making it gloomy and fearful to all who witness it. Those affected may perceive it differently, but all will see it as a solemn place.",
+            "expand": false,
+            "path": "Umbra",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "150 foot radius."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 70,
+              "maint": 0,
+              "rollDesc": "800 foot radius."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 100,
+              "maint": 0,
+              "rollDesc": "1500 foot radius."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 130,
+              "maint": 0,
+              "rollDesc": "1 mile radius."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Umbra.webp"
+        },
+        {
+          "_id": "EDkJUkxoKNQ4RBDf",
+          "name": "Banish Positive Emotions",
+          "type": "spell",
+          "system": {
+            "description": "Temporarily banishes any positive sentiments such as inner peace, calm, or joy within the specified radius of the caster. Resisting the spell requires a successful MR or PsR check.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 40,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "330ft Radius, 100 MR or PsyR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "1650ft Radius, 150 MR or PsyR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 0,
+              "rollDesc": "3300ft Radius, 180 MR or PsyR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 350,
+              "maint": 0,
+              "rollDesc": "3 Mile Radius, 220 MR or PsyR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "FWfwtqN2DUdsuO89",
+          "name": "See in Darkness",
+          "type": "spell",
+          "system": {
+            "description": "Designated individuals can see perfectly in natural darkness.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 8,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 5,
+              "rollDesc": "80 presence limit"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 10,
+              "rollDesc": "100 presence limit"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "120 presence limit"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "140 presence limit, and the effect works in supernatural Darkness."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "GsRtfsavp1ta36jy",
+          "name": "Whispers from the Other Side",
+          "type": "spell",
+          "system": {
+            "description": "Those within range of this spell for 5 or more turns must check Resistance or suffer Fear.",
+            "expand": false,
+            "path": "Umbra",
+            "level": 24,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Automatic",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "MR or PsyR 80 / 30 foot radius."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 5,
+              "rollDesc": "MR or PsyR 100 / 80 foot radius."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 160,
+              "maint": 10,
+              "rollDesc": "MR or PsyR 120 / 150 foot radius."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 200,
+              "maint": 10,
+              "rollDesc": "MR or PsyR 140 / 300 foot radius."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Umbra.webp"
+        },
+        {
+          "_id": "Kfs9arzfvsIFXWpl",
+          "name": "Concealment",
+          "type": "spell",
+          "system": {
+            "description": "Increases Resistance to detection abilities (magic or psychic) and Ki Concealment of target.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 32,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "+50 to resistances and Ki Concealment"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "+140 to resistances, +150 to Ki Concealment"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "+220 to resistances, +200 to Ki Concealment"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "+280 to resistances, +250 to Ki Concealment"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "MLsvIPliiGxD4qI3",
+          "name": "Hide Magic",
+          "type": "spell",
+          "system": {
+            "description": "Hides a specific magical effect or the properties of an object from detection, penallizing Magic Appraisal checks to detect or identify it. Hide Magic is likewise protected.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 20,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "-100 Magic Appraisal"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 20,
+              "rollDesc": "-180 Magic Appraisal"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "-240 Magic Appraisal"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 30,
+              "rollDesc": "-320 Magic Appraisal"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "R5qJcuF6ELs4GQe9",
+          "name": "Shadow Void",
+          "type": "spell",
+          "system": {
+            "description": "All in the area must Resist or lose a point of Fatigue, or two intensities if they were an Elemental.",
+            "expand": false,
+            "path": "Void",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "MR 80 / 15 foot radius"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "MR 100 / 30 foot radius"
+            },
+            "advanced": {
+              "intReq": 11,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": " MR 120 / 50 foot radius.\n"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "MR 150 / 100 foot radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Void.webp"
+        },
+        {
+          "_id": "S8gmpU595tQPH3rq",
+          "name": "Control Darkness",
+          "type": "spell",
+          "system": {
+            "description": "Modify and control intensity/form of darkness within the area. Darkness based beings must make an MR check or be controlled, with another check allowed if ordered to take actions against their nature.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 30,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "65ft area, 80 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 150,
+              "maint": 20,
+              "rollDesc": "500ft area, 140 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "1000ft area, 180 MR"
+            },
+            "arcane": {
+              "intReq": 16,
+              "zeonCost": 350,
+              "maint": 30,
+              "rollDesc": "1650ft area, 220 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "SRTFVIwxFl8Qx65y",
+          "name": "Void Wave",
+          "type": "spell",
+          "system": {
+            "description": "This spell launches a wave that deals no damage, but devastates supernatural shields. This spell is invisible to those who cannot see magic.",
+            "expand": false,
+            "path": "Void",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Attack",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 30,
+              "maint": 0,
+              "rollDesc": "120 Base Damage against shields"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "250 Base Damage against shields"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "400 Base Damage against shields"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "600 Base Damage against shields"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Void.webp"
+        },
+        {
+          "_id": "SeEPadb5FK3WVi4V",
+          "name": "Shadow",
+          "type": "spell",
+          "system": {
+            "description": "Increase Stealth and Hide Secondaries, as well as Magic Appraisal for the purposes of concealing magical potency.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 12,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "+50 to abilities"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "+150 to abilities"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "+200 to abilities"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 240,
+              "maint": 25,
+              "rollDesc": "+250 to abilities"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "b8nAHIbYeHauMYym",
+          "name": "Void Shield",
+          "type": "spell",
+          "system": {
+            "description": "Creates a Supernatural Shield. This shield cancels any supernatural power that strikes it unless the attacker passes a WIL or POW check whose difficulty is determined by the level of the spell. Likewise, inanimate objects which strike the shield must pass PhR or be destroyed instantly.",
+            "expand": false,
+            "path": "Void",
+            "level": 24,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Defense",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "PhR 100 / 200 Life Points / Difficulty 14."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 20,
+              "rollDesc": "PhR 120 / 300 Life Points / Difficulty 16."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 25,
+              "rollDesc": "PhR 140 / 400 Life Points / Difficulty 18."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 150,
+              "maint": 30,
+              "rollDesc": " PhR 160 / 500 Life Points / Difficulty 20."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Void.webp"
+        },
+        {
+          "_id": "bFSNA3YeTcMP1XCA",
+          "name": "Imbue with Sin",
+          "type": "spell",
+          "system": {
+            "description": "The target is compelled to commit whichever of the cardinal sins they are most aligned with. They may get a new check each time they are confronted with something that gives them a chance to indulge this sin. Even if they pass, their regular inclinations may cause them to sin anyway.",
+            "expand": false,
+            "path": "Sin",
+            "level": 14,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 4,
+            "type": "Spiritual",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "MR 120."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 70,
+              "maint": 10,
+              "rollDesc": "MR 140."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "MR 160."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "MR 180."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Sin.webp"
+        },
+        {
+          "_id": "chsAFZSvHTYLzw51",
+          "name": "Shield of Darkness",
+          "type": "spell",
+          "system": {
+            "description": "Supernatural shield, only damaged by abilities that affect energy. Takes double damage from Light based effects.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 10,
+            "action": "Passive",
+            "projection": "Defensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Defense",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "300 Life Points"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "1000 Life Points"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 180,
+              "maint": 10,
+              "rollDesc": "1800 Life Points"
+            },
+            "arcane": {
+              "intReq": 14,
+              "zeonCost": 250,
+              "maint": 25,
+              "rollDesc": "3000 Life Points"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "cnybHMMMDSMxJyMt",
+          "name": "Reality Vortex",
+          "type": "spell",
+          "system": {
+            "description": "This spell creates a stationary area full of microscopic voids. Those within the area for more than a turn must check MR or suffer damage equal to half the degree of failure, lose Ki points equal to half the degree of failure, and lose Zeon points equal to the degree of failure. This spell affects all equally, including the caster.\n",
+            "expand": false,
+            "path": "Void",
+            "level": 34,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Automatic",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "MR 100 / 15 foot radius."
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 10,
+              "rollDesc": "MR 120 / 30 foot radius."
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 180,
+              "maint": 15,
+              "rollDesc": "MR 140 / 60 foot radius."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 240,
+              "maint": 20,
+              "rollDesc": "MR 160 / 130 foot radius."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Void.webp"
+        },
+        {
+          "_id": "dKhsYquempfzLqTW",
+          "name": "Darkzone",
+          "type": "spell",
+          "system": {
+            "description": "Area affected increases difficulty of perceptive checks by two stages, as well as affecting Ki Detection, as well as Magic and Psychic Detection abilities. ",
+            "expand": false,
+            "path": "Darkness",
+            "level": 26,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Effect",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 5,
+              "rollDesc": "65ft area"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 10,
+              "rollDesc": "800ft area"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 15,
+              "rollDesc": "1650ft area"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 15,
+              "rollDesc": "3300ft area"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "esT5j0oQBs2JoFtp",
+          "name": "Obfuscate",
+          "type": "spell",
+          "system": {
+            "description": "Target may replace their Stealth, Hide and Ki Concealment values with the flat values stated, even if Ki Concealment has not been developed.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 36,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 100,
+              "maint": 20,
+              "rollDesc": "Base ability 100."
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 180,
+              "maint": 40,
+              "rollDesc": "Base ability 150."
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 240,
+              "maint": 50,
+              "rollDesc": "Base ability 200."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 300,
+              "maint": 60,
+              "rollDesc": "Base ability 250."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "fOXpmMm2qPk39XiO",
+          "name": "Enrage",
+          "type": "spell",
+          "system": {
+            "description": "Targets in area must pass an MR check or suffer Rage (+10 to offensive abilities/actions; -30 to any other)",
+            "expand": false,
+            "path": "Darkness",
+            "level": 38,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "15ft Radius, 80 MR"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 90,
+              "maint": 10,
+              "rollDesc": "65ft Radius, 100 MR"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 150,
+              "maint": 15,
+              "rollDesc": "165ft Radius, 120 MR"
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 200,
+              "maint": 20,
+              "rollDesc": "330ft Radius, 140 MR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "fWBhuZsuZcltYyjc",
+          "name": "Trail of Madness",
+          "type": "spell",
+          "system": {
+            "description": "The target must pass a Resistance check or suffer a temporary insanity. Those affected may repeat their check once each day.",
+            "expand": false,
+            "path": "Umbra",
+            "level": 34,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 8,
+            "type": "Spiritual",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 7,
+              "zeonCost": 80,
+              "maint": 5,
+              "rollDesc": "MR or PsyR 120."
+            },
+            "intermediate": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "MR or PsyR 140."
+            },
+            "advanced": {
+              "intReq": 13,
+              "zeonCost": 120,
+              "maint": 15,
+              "rollDesc": "MR or PsyR 160."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 140,
+              "maint": 20,
+              "rollDesc": "MR or PsyR 180."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Umbra.webp"
+        },
+        {
+          "_id": "k1yhYX4jtal7936O",
+          "name": "Bonds of Darkness",
+          "type": "spell",
+          "system": {
+            "description": "Trapping attack, treated as an Energy type with Fortitude 25.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 28,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 6,
+            "type": "Attack",
+            "maintType": "Turn",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 60,
+              "maint": 10,
+              "rollDesc": "8 Strength"
+            },
+            "intermediate": {
+              "intReq": 9,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "12 Strength"
+            },
+            "advanced": {
+              "intReq": 12,
+              "zeonCost": 140,
+              "maint": 15,
+              "rollDesc": "15 Strength, Fortitude increases to 30."
+            },
+            "arcane": {
+              "intReq": 15,
+              "zeonCost": 180,
+              "maint": 15,
+              "rollDesc": "18 Strength, Fortitude increases to 35."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "k7mwpYStKlq8sofs",
+          "name": "Induce Fear",
+          "type": "spell",
+          "system": {
+            "description": "Temporarily causes the state of fear in all people within the area. The caster decides what the victims are afraid of. The effects can be avoided with a successful MR or PsyR check.\n",
+            "expand": false,
+            "path": "Darkness",
+            "level": 6,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Spiritual",
+            "maintType": "None",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "30ft Radius, 80 MR or PsyR"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 80,
+              "maint": 0,
+              "rollDesc": "150ft Radius, 100 MR or PsyR"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "300ft Radius, 120 MR or PsyR"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 180,
+              "maint": 0,
+              "rollDesc": "750ft Radius, 140 MR or PsyR"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "lqXysoxXzTfNd8FZ",
+          "name": "Create Darkness",
+          "type": "spell",
+          "system": {
+            "description": "Completely darkens an area within the specified radius. Everything within the area is perceived as though on a dark and moonless night.",
+            "expand": false,
+            "path": "Darkness",
+            "level": 2,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Effect",
+            "maintType": "Daily",
+            "basic": {
+              "intReq": 5,
+              "zeonCost": 20,
+              "maint": 5,
+              "rollDesc": "15ft Radius"
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 50,
+              "maint": 5,
+              "rollDesc": "75ft Radius"
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 100,
+              "maint": 10,
+              "rollDesc": "300ft Radius"
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 200,
+              "maint": 15,
+              "rollDesc": "1500ft Radius"
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Darkness.webp"
+        },
+        {
+          "_id": "uKUv2kutsywZFzlw",
+          "name": "Detect Sin",
+          "type": "spell",
+          "system": {
+            "description": "The caster gains knowledge of the targets greatest sins, gaining vague information (the type of sin, the time since, and the severity thereof) starting with the most recent. Multiple sins of the same kind may be detected.",
+            "expand": false,
+            "path": "Sin",
+            "level": 4,
+            "action": "Active",
+            "projection": "Offensive",
+            "bought": "SpellPath",
+            "cost": 2,
+            "type": "Detection",
+            "maintType": "None",
+            "basic": {
+              "intReq": 6,
+              "zeonCost": 40,
+              "maint": 0,
+              "rollDesc": "MR 120."
+            },
+            "intermediate": {
+              "intReq": 8,
+              "zeonCost": 60,
+              "maint": 0,
+              "rollDesc": "MR 140."
+            },
+            "advanced": {
+              "intReq": 10,
+              "zeonCost": 90,
+              "maint": 0,
+              "rollDesc": "MR 160."
+            },
+            "arcane": {
+              "intReq": 12,
+              "zeonCost": 120,
+              "maint": 0,
+              "rollDesc": "MR 180."
+            }
+          },
+          "img": "systems/abfalter/img/Magic%20Circles/Sub%20Paths/Sin.webp"
         }
       ],
       "effects": [],
@@ -51309,7 +55677,7 @@
                 "value": 0
               },
               "darkness": {
-                "value": 0
+                "value": 40
               },
               "necromancy": {
                 "value": 0

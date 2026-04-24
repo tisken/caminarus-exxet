@@ -1658,18 +1658,54 @@ def set_secondary_value(system: dict, path: tuple[str, ...], value: int) -> None
     node["base"] = {"value": value}
 
 
+# Sub-path labels that map to a parent sphere
+SUBPATH_SPHERE_MAP = {
+    "pecado": "darkness", "umbral": "darkness", "vacio": "darkness",
+    "caos": "destruction", "guerra": "destruction",
+    "conocimiento": "creation", "musica": "creation", "paz": "creation",
+    "tiempo": "essence",
+    "muerte": "necromancy", "sangre": "necromancy",
+    "suenos": "illusion", "sueños": "illusion",
+    "piedra": "earth",
+}
+
+
 def infer_sphere_levels(raw_value: str | None) -> dict[str, int]:
     if not raw_value:
         return {}
+    normalized = normalize_key(raw_value)
     found: dict[str, int] = {}
-    for sphere_label, sphere_key in MAGIC_SPHERES.items():
-        match = re.search(
-            rf"{sphere_label}\s*(-?\d+(?:\.\d+)?)",
-            normalize_key(raw_value),
-            flags=re.IGNORECASE,
-        )
-        if match:
-            found[sphere_key] = parse_int(match.group(1)) or 0
+    all_labels = {**MAGIC_SPHERES, **{normalize_key(k): v for k, v in SUBPATH_SPHERE_MAP.items()}}
+
+    for sphere_label, sphere_key in all_labels.items():
+        # Pattern: SPHERE (sub-path) NUMBER (e.g. "oscuridad (caos) 90")
+        m = re.search(rf"{sphere_label}\s*(?:\([^)]*\)\s*)?(\d+)", normalized)
+        if m:
+            val = parse_int(m.group(1)) or 0
+            if val > 0:
+                found[sphere_key] = max(found.get(sphere_key, 0), val)
+                continue
+        # Pattern: NUMBER (conjuros de)? SPHERE (e.g. "80 aire")
+        m = re.search(rf"(\d+)\s*(?:conjuros\s+de\s+)?{sphere_label}", normalized)
+        if m:
+            val = parse_int(m.group(1)) or 0
+            if val > 0:
+                found[sphere_key] = max(found.get(sphere_key, 0), val)
+                continue
+        # Pattern: "entre X y Y de SPHERE"
+        m = re.search(rf"entre\s+(\d+)\s+y\s+(\d+)\s+(?:de\s+)?{sphere_label}", normalized)
+        if m:
+            val = parse_int(m.group(2)) or 0
+            if val > 0:
+                found[sphere_key] = max(found.get(sphere_key, 0), val)
+                continue
+        # Pattern: "X a Y en SPHERE" (e.g. "10 a 40 en ilusion")
+        m = re.search(rf"(\d+)\s+a\s+(\d+)\s+en\s+{sphere_label}", normalized)
+        if m:
+            val = parse_int(m.group(2)) or 0
+            if val > 0:
+                found[sphere_key] = max(found.get(sphere_key, 0), val)
+
     return found
 
 
