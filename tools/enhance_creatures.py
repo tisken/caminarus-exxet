@@ -58,6 +58,8 @@ DISCIPLINE_ES_TO_EN = {
     "crioquinesis": "Cryokinesis", "telepatia": "Telepathy",
     "telepatía": "Telepathy", "incremento fisico": "Physical Increase",
     "incremento físico": "Physical Increase",
+    "incrementación física": "Physical Increase",
+    "incrementacion fisica": "Physical Increase",
     "sentir": "Sentience", "sentidos": "Sentience",
     "telemetria": "Telemetry", "telemetría": "Telemetry",
     "teletransporte": "Teleportation", "energia": "Energy",
@@ -276,6 +278,11 @@ def get_creature_psychic_info(doc):
     if disc_match:
         raw += " " + disc_match.group(1)
 
+    # Also search in OCR raw text
+    ocr_match = re.search(r"<pre[^>]*>(.*?)</pre>", desc, re.DOTALL)
+    if ocr_match:
+        raw += " " + ocr_match.group(1)
+
     disciplines = set()
     raw_lower = raw.lower()
     for es_name, en_name in DISCIPLINE_ES_TO_EN.items():
@@ -480,7 +487,11 @@ def main():
                         spells_added += 1
 
             # --- Psychic power assignment ---
-            disciplines = get_creature_psychic_info(doc)
+            pp = doc.get("system", {}).get("psychic", {}).get("psychicPotential", {}).get("base", {}).get("value", 0)
+            if pp > 0:
+                disciplines = get_creature_psychic_info(doc)
+            else:
+                disciplines = set()
             if disciplines:
                 disc_items, power_items = assign_psychic_to_creature(doc, all_powers, disciplines, psychic_folders)
                 existing_names = {i["name"] for i in doc.get("items", [])}
