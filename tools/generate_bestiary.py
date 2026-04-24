@@ -1495,6 +1495,38 @@ STANDARD_ARMOR_TA = {
 }
 
 
+def build_technique_items(raw: str | None) -> list[dict]:
+    if not raw:
+        return []
+    cleaned = raw.strip().rstrip(".")
+    if not cleaned or cleaned.lower() in ("ninguna", "ninguno", "no", "-"):
+        return []
+    names = re.split(r"[,;]", cleaned)
+    items = []
+    for name in names:
+        name = name.strip().rstrip(".")
+        if not name or len(name) < 2:
+            continue
+        items.append({
+            "name": name,
+            "type": "technique",
+            "img": "icons/skills/melee/strike-flail-glowing-yellow.webp",
+            "effects": [],
+            "system": {
+                "description": {"value": ""},
+                "level": {"value": 0},
+                "strength": {"value": 0},
+                "agility": {"value": 0},
+                "dexterity": {"value": 0},
+                "constitution": {"value": 0},
+                "willPower": {"value": 0},
+                "power": {"value": 0},
+                "martialKnowledge": {"value": 0},
+            },
+        })
+    return items
+
+
 def build_armor_item(name: str, ta_raw: str | None) -> dict | None:
     values = parse_ta_values(ta_raw)
     if not values and ta_raw:
@@ -1941,6 +1973,7 @@ def build_actor_document(record: dict, template: dict) -> dict:
         if weapon["name"] not in seen_weapons:
             seen_weapons.add(weapon["name"])
             items.append(build_weapon_item(weapon))
+    items.extend(build_technique_items(record.get("techniques")))
 
     prepared_items = []
     for index, item in enumerate(items):
