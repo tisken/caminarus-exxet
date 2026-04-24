@@ -649,12 +649,107 @@ export function parseExcelToActorData(workbook, fileName) {
   };
 }
 
+// Sub-path to parent sphere mapping for spell assignment
+const SUBPATH_TO_SPHERE = {
+  war: 'destruction', chaos: 'destruction',
+  peace: 'creation', knowledge: 'creation', literae: 'creation', musical: 'creation',
+  sin: 'darkness', threshold: 'darkness', emptiness: 'darkness',
+  nobility: 'light',
+  time: 'essence',
+  death: 'necromancy', blood: 'necromancy',
+  dreams: 'illusion',
+};
+
+// Spanish discipline name to animabf discipline key
+const DISC_NAME_TO_KEY = {
+  'telequinesis': 'telekenisis', 'piroquinesis': 'pyrokinesis',
+  'crioquinesis': 'cryokinesis', 'telepatia': 'telepathy',
+  'telepatía': 'telepathy', 'incremento fisico': 'physicalIncrease',
+  'incremento físico': 'physicalIncrease', 'incrementación física': 'physicalIncrease',
+  'sentiente': 'sentient', 'sentir': 'sentient',
+  'telemetria': 'telemetry', 'telemetría': 'telemetry',
+  'teletransporte': 'teleportation', 'energia': 'energy',
+  'energía': 'energy', 'electromagnetismo': 'electromagnetism',
+  'causalidad': 'causality', 'luz': 'light',
+  'hipersensibilidad': 'hypersensitivity',
+  'poderes matriciales': 'matrixPowers',
+};
+
+async function loadSystemPacks() {
+  const result = { spells: [], powers: [] };
+  try {
+    const magicPack = game.packs.get('animabf.magic');
+    if (magicPack) result.spells = await magicPack.getDocuments();
+    const psiPack = game.packs.get('animabf.psychic');
+    if (psiPack) result.powers = await psiPack.getDocuments();
+  } catch (e) {
+    console.warn(`${MODULE_ID} | Could not load system packs:`, e);
+  }
+  return result;
+}
+
+function assignSpellsFromPacks(actorData, allSpells) {
+  const spheres = actorData.system?.mystic?.magicLevel?.spheres || {};
+  const spellItems = [];
+  const added = new Set();
+  for (const spell of allSpells) {
+    const via = spell.system?.via?.value;
+    const level = parseInt(spell.system?.level?.value) || 999;
+    if (!via || via === 'freeAccess') continue;
+    // Direct sphere match
+    const sphereVal = spheres[via]?.value || 0;
+    // Sub-path match
+    const parentSphere = SUBPATH_TO_SPHERE[via];
+    const parentVal = parentSphere ? (spheres[parentSphere]?.value || 0) : 0;
+    const maxLevel = Math.max(sphereVal, parentVal);
+    if (maxLevel > 0 && level <= maxLevel && !added.has(spell.name)) {
+      added.add(spell.name);
+      spellItems.push({ _id: foundry.utils.randomID(), name: spell.name, type: 'spell', img: spell.img, system: spell.system.toObject ? spell.system.toObject() : { ...spell.system } });
+    }
+  }
+  // Free access spells up to highest sphere level
+  const maxAny = Math.max(...Object.values(spheres).map(s => s?.value || 0), 0);
+  if (maxAny > 0) {
+    for (const spell of allSpells) {
+      const via = spell.system?.via?.value;
+      const level = parseInt(spell.system?.level?.value) || 999;
+      if (via === 'freeAccess' && level <= maxAny && !added.has(spell.name)) {
+        added.add(spell.name);
+        spellItems.push({ _id: foundry.utils.randomID(), name: spell.name, type: 'spell', img: spell.img, system: spell.system.toObject ? spell.system.toObject() : { ...spell.system } });
+      }
+    }
+  }
+  return spellItems;
+}
+
+function assignPsychicFromPacks(actorData, allPowers) {
+  const discItems = actorData.system?.psychic?.psychicDisciplines || [];
+  if (!discItems.length) return [];
+  const discKeys = new Set();
+  for (const d of discItems) {
+    const normalized = d.name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+    const key = DISC_NAME_TO_KEY[normalized];
+    if (key) discKeys.add(key);
+  }
+  const powerItems = [];
+  const added = new Set();
+  for (const power of allPowers) {
+    const disc = power.system?.discipline?.value;
+    if (disc && discKeys.has(disc) && !added.has(power.name)) {
+      added.add(power.name);
+      powerItems.push({ _id: foundry.utils.randomID(), name: power.name, type: 'psychicPower', img: power.img, system: power.system.toObject ? power.system.toObject() : { ...power.system } });
+    }
+  }
+  return powerItems;
+}
+
 export async function importExcelFiles(files, targetFolder) {
   if (typeof XLSX === 'undefined') {
     ui.notifications.error('La librer\u00eda XLSX no est\u00e1 cargada.');
     return 0;
   }
 
+  const { spells: allSpells, powers: allPowers } = await loadSystemPacks();
   let imported = 0;
   const errors = [];
 
@@ -664,9 +759,24 @@ export async function importExcelFiles(files, targetFolder) {
       const workbook = XLSX.read(data, { type: 'array' });
       const actorData = parseExcelToActorData(workbook, file.name);
       actorData.folder = targetFolder?.id ?? null;
+
+      // Assign spells from system pack based on sphere levels
+      const spellItems = assignSpellsFromPacks(actorData, allSpells);
+      if (spellItems.length) {
+        actorData.items.push(...spellItems);
+        actorData.system.mystic.spells = [...(actorData.system.mystic.spells || []), ...spellItems];
+      }
+
+      // Assign psychic powers from system pack based on disciplines
+      const powerItems = assignPsychicFromPacks(actorData, allPowers);
+      if (powerItems.length) {
+        actorData.items.push(...powerItems);
+        actorData.system.psychic.psychicPowers = [...(actorData.system.psychic.psychicPowers || []), ...powerItems];
+      }
+
       await Actor.create(actorData);
       imported++;
-      ui.notifications.info(`${file.name}: ${actorData.name} importado`);
+      ui.notifications.info(`${file.name}: ${actorData.name} importado (${spellItems.length} conjuros, ${powerItems.length} poderes)`);
     } catch (e) {
       console.error(`${MODULE_ID} | Error importing ${file.name}:`, e);
       errors.push(`${file.name}: ${e.message}`);
