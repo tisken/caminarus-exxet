@@ -418,6 +418,63 @@ export function parseExcelToActorData(workbook, fileName) {
   }
 
 
+  // Read Místicos sheet for magic sphere levels
+  const misticosSheet = workbook.Sheets['Místicos'];
+  const sphereMap = {esencia:'essence',agua:'water',tierra:'earth',creacion:'creation',oscuridad:'darkness',nigromancia:'necromancy',luz:'light',destruccion:'destruction',aire:'air',fuego:'fire',ilusion:'illusion'};
+  const parsedSpheres = {};
+  if (misticosSheet) {
+    for (let row = 15; row <= 25; row++) {
+      const viaName = safeStr(cellAt(misticosSheet, row, 3)); // C = Vía
+      const nivel = safeInt(cellAt(misticosSheet, row, 8));    // H = Nivel
+      if (!viaName || !nivel) continue;
+      const key = normalizeSkillName(viaName);
+      const mapped = sphereMap[key];
+      if (mapped) parsedSpheres[mapped] = Math.max(parsedSpheres[mapped] || 0, nivel);
+    }
+  }
+
+  // Read Ki sheet for ki skills and CM
+  const kiSkillItems = [];
+  if (kiSheet) {
+    for (let row = 10; row <= 55; row++) {
+      const active = cellAt(kiSheet, row, 18); // R = True/False
+      if (active !== true && String(active).trim() !== 'True') continue;
+      let name = '';
+      for (const col of [11, 12, 13, 14]) {
+        const v = safeStr(cellAt(kiSheet, row, col));
+        if (v && !['├','│','└','└ '].includes(v.trim())) name = v.trim();
+      }
+      if (!name) continue;
+      const cost = safeInt(cellAt(kiSheet, row, 17)); // Q
+      kiSkillItems.push({ _id: foundry.utils.randomID(), name, type: 'kiSkill', img: 'icons/svg/lightning.svg', system: { description: { value: '' }, cost: { value: cost } } });
+    }
+  }
+
+  // Read Creación de Técnicas sheet
+  const techniqueItems = [];
+  const techSheet = workbook.Sheets['Creación de Técnicas'];
+  if (techSheet) {
+    for (let row = 9; row <= 120; row++) {
+      const label = safeStr(cellAt(techSheet, row, 3)); // C = 'Técnica N'
+      const techName = safeStr(cellAt(techSheet, row, 4)); // D = name
+      if (!label.includes('Técnica') || !techName) continue;
+      const nivel = safeInt(cellAt(techSheet, row, 16)); // P
+      const cm = safeInt(cellAt(techSheet, row, 21)); // U
+      techniqueItems.push({ _id: foundry.utils.randomID(), name: techName, type: 'technique', img: 'icons/skills/melee/strike-flail-glowing-yellow.webp', system: { description: { value: '' }, level: { value: nivel }, strength: { value: 0 }, agility: { value: 0 }, dexterity: { value: 0 }, constitution: { value: 0 }, willPower: { value: 0 }, power: { value: 0 }, martialKnowledge: { value: cm } } });
+    }
+  }
+
+  // Read Psíquicos sheet for disciplines
+  const psychicDiscItems = [];
+  const psiSheet = workbook.Sheets['Psíquicos'];
+  if (psiSheet) {
+    for (let row = 25; row <= 37; row++) {
+      const discName = safeStr(cellAt(psiSheet, row, 3)); // C
+      if (!discName) continue;
+      psychicDiscItems.push({ _id: foundry.utils.randomID(), name: discName, type: 'psychicDiscipline', img: 'icons/svg/eye.svg', system: { imbalance: false } });
+    }
+  }
+
     // Build the actor data
 
   // We'll let Foundry/animabf fill the template, just set the values we have
@@ -430,9 +487,9 @@ export function parseExcelToActorData(workbook, fileName) {
       ui: {
         contractibleItems: {},
         tabVisibility: {
-          mystic: { value: !!(safeInt(findValue(sheet, 'Zeón:', 40, 60) || findValue(sheet, 'Zeon:', 40, 60)) || safeInt(findValue(sheet, 'ACT:', 40, 60)) || safeInt(findValue(sheet, 'Proyección Mágica:', 40, 60) || findValue(sheet, 'Proyección mágica:', 40, 60))) },
-          domine: { value: !!(safeStr(findValue(sheet, 'Habilidades de Ki:', 35, 45)) || safeStr(findValue(sheet, 'Técnicas:', 40, 50))) },
-          psychic: { value: !!(safeInt(findValue(sheet, 'Potencial Psíquico:', 55, 70)) || safeInt(findValue(sheet, 'CV Libres:', 55, 70))) },
+          mystic: { value: !!(Object.keys(parsedSpheres).length || safeInt(findValue(sheet, 'Zeón:', 40, 60) || findValue(sheet, 'Zeon:', 40, 60)) || safeInt(findValue(sheet, 'ACT:', 40, 60)) || safeInt(findValue(sheet, 'Proyección Mágica:', 40, 60) || findValue(sheet, 'Proyección mágica:', 40, 60))) },
+          domine: { value: !!(kiSkillItems.length || techniqueItems.length || safeStr(findValue(sheet, 'Habilidades de Ki:', 35, 45)) || safeStr(findValue(sheet, 'Técnicas:', 40, 50))) },
+          psychic: { value: !!(psychicDiscItems.length || safeInt(findValue(sheet, 'Potencial Psíquico:', 55, 70)) || safeInt(findValue(sheet, 'CV Libres:', 55, 70))) },
         }
       },
       general: {
@@ -505,13 +562,17 @@ export function parseExcelToActorData(workbook, fileName) {
           return { base: { value: mpBase }, final: { value: 0 }, imbalance: { offensive: { base: { value: mpOff }, final: { value: 0 } }, defensive: { base: { value: mpDef }, final: { value: 0 } } } };
         })(),
         magicLevel: (() => {
-          const mlRaw = safeStr(findValue(sheet, 'Nivel de Magia:', 45, 60) || findValue(sheet, 'Nivel de magia:', 45, 60)).toLowerCase();
-          const sphereMap = {esencia:'essence',agua:'water',tierra:'earth',creacion:'creation',oscuridad:'darkness',nigromancia:'necromancy',luz:'light',destruccion:'destruction',aire:'air',fuego:'fire',ilusion:'illusion',vacio:'destruction'};
           const spheres = Object.fromEntries(['essence','water','earth','creation','darkness','necromancy','light','destruction','air','fire','illusion'].map(k => [k, {value: 0}]));
-          for (const [es, en] of Object.entries(sphereMap)) {
-            const m = mlRaw.match(new RegExp(es + '[^,]*?(\\d+)'));
-            if (!m) { const m2 = mlRaw.match(new RegExp('(\\d+)\\s*' + es)); if (m2) spheres[en].value = parseInt(m2[1]); }
-            else spheres[en].value = parseInt(m[1]);
+          // Prefer Místicos sheet data, fall back to Resumen text
+          if (Object.keys(parsedSpheres).length) {
+            for (const [en, val] of Object.entries(parsedSpheres)) spheres[en].value = val;
+          } else {
+            const mlRaw = safeStr(findValue(sheet, 'Nivel de Magia:', 45, 60) || findValue(sheet, 'Nivel de magia:', 45, 60)).toLowerCase();
+            const sMap = {esencia:'essence',agua:'water',tierra:'earth',creacion:'creation',oscuridad:'darkness',nigromancia:'necromancy',luz:'light',destruccion:'destruction',aire:'air',fuego:'fire',ilusion:'illusion'};
+            for (const [es, en] of Object.entries(sMap)) {
+              const m = mlRaw.match(new RegExp('(\\d+)\\s*' + es)) || mlRaw.match(new RegExp(es + '[^,]*?(\\d+)'));
+              if (m) spheres[en].value = parseInt(m[1]);
+            }
           }
           const total = Object.values(spheres).reduce((s, v) => s + v.value, 0);
           return { spheres, total: { value: total }, used: { value: total } };
@@ -525,7 +586,7 @@ export function parseExcelToActorData(workbook, fileName) {
         spells: [], spellMaintenances: [], selectedSpells: [], summons: [], metamagics: [],
       },
       domine: {
-        kiSkills: [], nemesisSkills: [], arsMagnus: [], martialArts: [], creatures: [], specialSkills: [], techniques: [],
+        kiSkills: kiSkillItems, nemesisSkills: [], arsMagnus: [], martialArts: [], creatures: [], specialSkills: [], techniques: techniqueItems,
         seals: { minor: Object.fromEntries(['earth', 'metal', 'wind', 'water', 'wood'].map(k => [k, { isActive: { value: false } }])), major: Object.fromEntries(['earth', 'metal', 'wind', 'water', 'wood'].map(k => [k, { isActive: { value: false } }])) },
         martialKnowledge: { used: { value: 0 }, max: { value: 0 } },
         kiAccumulation: (() => {
@@ -565,7 +626,7 @@ export function parseExcelToActorData(workbook, fileName) {
           return { base: { value: ppBase }, final: { value: 0 }, imbalance: { offensive: { base: { value: ppOff }, final: { value: 0 } }, defensive: { base: { value: ppDef }, final: { value: 0 } } } };
         })(),
         psychicPoints: { value: safeInt(findValue(sheet, 'CV Libres:', 55, 70)), max: safeInt(findValue(sheet, 'CV Libres:', 55, 70)) },
-        psychicPowers: [], psychicDisciplines: [], mentalPatterns: [],
+        psychicPowers: [], psychicDisciplines: psychicDiscItems, mentalPatterns: [],
         innatePsychicPower: { amount: { value: safeInt(findValue(sheet, 'Innatos:', 55, 70)) } },
         // psychicLevel not directly mapped in animabf system
         innatePsychicPowers: [],
@@ -583,7 +644,7 @@ export function parseExcelToActorData(workbook, fileName) {
       sight: { angle: 360, enabled: primaries.perception > 0, range: primaries.perception * 20, brightness: 1, visionMode: 'basic', attenuation: 0.1, saturation: 0, contrast: 0 },
       appendNumber: false, prependAdjective: false, detectionModes: [],
     },
-    items,
+    items: [...items, ...kiSkillItems, ...techniqueItems, ...psychicDiscItems],
     effects: [],
   };
 }
