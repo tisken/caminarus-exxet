@@ -491,6 +491,7 @@ export function parseExcelToActorData(workbook, fileName) {
   // We'll let Foundry/animabf fill the template, just set the values we have
   return {
     _parsedSubpaths: parsedSubpaths,
+    _rawPsychicPowers: safeStr(findValue(sheet, 'Poderes Psíquicos:', 60, 75)),
     name,
     type: 'character',
     img: 'icons/svg/mystery-man.svg',
@@ -714,24 +715,50 @@ function assignSpellsFromPacks(actorData, allSpells, subpaths) {
   return spellItems;
 }
 
-function assignPsychicFromPacks(actorData, allPowers) {
+function assignPsychicFromPacks(actorData, allPowers, rawPowerNames) {
   const discItems = actorData.system?.psychic?.psychicDisciplines || [];
-  if (!discItems.length) return [];
-  const discKeys = new Set();
-  for (const d of discItems) {
-    const normalized = d.name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
-    const key = DISC_NAME_TO_KEY[normalized];
-    if (key) discKeys.add(key);
-  }
   const powerItems = [];
   const added = new Set();
-  for (const power of allPowers) {
-    const disc = power.system?.discipline?.value;
-    if (disc && discKeys.has(disc) && !added.has(power.name)) {
-      added.add(power.name);
-      powerItems.push({ _id: foundry.utils.randomID(), name: power.name, type: 'psychicPower', img: power.img, system: power.system.toObject ? power.system.toObject() : { ...power.system } });
+
+  // Match by discipline from pack
+  if (discItems.length) {
+    const discKeys = new Set();
+    for (const d of discItems) {
+      const normalized = d.name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+      const key = DISC_NAME_TO_KEY[normalized];
+      if (key) discKeys.add(key);
+    }
+    for (const power of allPowers) {
+      const disc = power.system?.discipline?.value;
+      if (disc && discKeys.has(disc) && !added.has(power.name)) {
+        added.add(power.name);
+        powerItems.push({ _id: foundry.utils.randomID(), name: power.name, type: 'psychicPower', img: power.img, system: power.system.toObject ? power.system.toObject() : { ...power.system } });
+      }
     }
   }
+
+  // Add named powers from Resumen that weren't matched from pack
+  if (rawPowerNames) {
+    const packNameIndex = new Map();
+    for (const p of allPowers) packNameIndex.set(p.name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim(), p);
+    for (const name of rawPowerNames.split(',')) {
+      const trimmed = name.trim();
+      if (!trimmed || added.has(trimmed)) continue;
+      const norm = trimmed.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+      const fromPack = packNameIndex.get(norm);
+      if (fromPack && !added.has(fromPack.name)) {
+        added.add(fromPack.name);
+        powerItems.push({ _id: foundry.utils.randomID(), name: fromPack.name, type: 'psychicPower', img: fromPack.img, system: fromPack.system.toObject ? fromPack.system.toObject() : { ...fromPack.system } });
+      } else if (!added.has(trimmed)) {
+        added.add(trimmed);
+        powerItems.push({ _id: foundry.utils.randomID(), name: trimmed, type: 'psychicPower', img: 'icons/svg/eye.svg', system: {
+          level: { value: 0 }, effects: {}, actionType: { value: 'active' }, combatType: { value: 'attack' },
+          discipline: { value: '' }, critic: { value: '-' }, macro: '', hasMaintenance: { value: false }, visible: false, bonus: { value: 0 },
+        } });
+      }
+    }
+  }
+
   return powerItems;
 }
 
@@ -751,7 +778,9 @@ export async function importExcelFiles(files, targetFolder) {
       const workbook = XLSX.read(data, { type: 'array' });
       const actorData = parseExcelToActorData(workbook, file.name);
       const subpaths = actorData._parsedSubpaths || {};
+      const rawPsychicPowers = actorData._rawPsychicPowers || '';
       delete actorData._parsedSubpaths;
+      delete actorData._rawPsychicPowers;
       actorData.folder = targetFolder?.id ?? null;
 
       // Assign spells from system pack based on sphere levels
@@ -762,7 +791,7 @@ export async function importExcelFiles(files, targetFolder) {
       }
 
       // Assign psychic powers from system pack based on disciplines
-      const powerItems = assignPsychicFromPacks(actorData, allPowers);
+      const powerItems = assignPsychicFromPacks(actorData, allPowers, rawPsychicPowers);
       if (powerItems.length) {
         actorData.items.push(...powerItems);
         actorData.system.psychic.psychicPowers = [...(actorData.system.psychic.psychicPowers || []), ...powerItems];
