@@ -317,89 +317,79 @@ export function parseExcelToActorData(workbook, fileName) {
     }
 
     // Weapons from slots (rows 20-60, each weapon block is ~7 rows)
-    const weaponSlots = [20, 27, 34, 41, 48, 57];
-    for (const startRow of weaponSlots) {
-      const weaponName = safeStr(cellAt(combateSheet, startRow, 3)); // C column
-      if (!weaponName || weaponName === 'Artes Marciales') {
-        // Check if Artes Marciales has data
-        if (weaponName === 'Artes Marciales') {
-          const turno = safeInt(cellAt(combateSheet, startRow + 1, 8));
-          const ataque = safeInt(cellAt(combateSheet, startRow + 1, 9));
-          const defensa = safeInt(cellAt(combateSheet, startRow + 1, 10));
-          const dmg = safeInt(cellAt(combateSheet, startRow + 1, 12));
-          const crit1 = safeStr(cellAt(combateSheet, startRow + 3, 3)).toLowerCase();
-          const crit2 = safeStr(cellAt(combateSheet, startRow + 3, 4)).toLowerCase();
-          const critMap = {fil:'cut',con:'impact',pen:'thrust',cal:'heat',ele:'electricity',fri:'cold',ene:'energy'};
-          if (ataque > 0 || dmg > 0) {
-            items.push({
-              name: 'Artes Marciales', type: 'weapon',
-              img: 'icons/creatures/claws/claw-hooked-curved.webp',
-              system: {
-                special: { value: '' },
-                integrity: { base: { value: safeInt(cellAt(combateSheet, startRow + 3, 5)) }, final: { value: 0 }, special: { value: 0 } },
-                breaking: { base: { value: safeInt(cellAt(combateSheet, startRow + 3, 6)) }, final: { value: 0 }, special: { value: 0 } },
-                attack: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
-                block: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
-                damage: { base: { value: dmg }, final: { value: 0 }, special: { value: 0 } },
-                initiative: { base: { value: turno }, final: { value: 0 }, special: { value: 0 } },
-                presence: { base: { value: safeInt(cellAt(combateSheet, startRow + 3, 7)) }, final: { value: 0 }, special: { value: 0 } },
-                size: { value: 'medium' },
-                strRequired: { oneHand: { base: { value: 0 }, final: { value: 0 } }, twoHands: { base: { value: 0 }, final: { value: 0 } } },
-                quality: { value: 0 }, oneOrTwoHanded: { value: '' },
-                knowledgeType: { value: 'known' }, manageabilityType: { value: 'one_hand' },
-                shotType: { value: 'throw' }, isRanged: { value: false },
-                range: { base: { value: 0 }, final: { value: 0 } },
-                cadence: { value: '' }, reload: { base: { value: 0 }, final: { value: 0 } },
-                sizeProportion: { value: 'normal' },
-                weaponStrength: { base: { value: 0 }, final: { value: 0 } },
-                critic: { primary: { value: critMap[crit1] || '-' }, secondary: { value: critMap[crit2] || '-' } },
-                isShield: { value: false }, equipped: { value: true },
-              },
-            });
-          }
+    const critMap = {fil:'cut',con:'impact',pen:'thrust',cal:'heat',ele:'electricity',fri:'cold',ene:'energy'};
+    function buildWeaponItem(name, turno, dmg, crit1, crit2, entereza, rotura, presencia, calidad, img) {
+      return {
+        name, type: 'weapon', img: img || 'icons/weapons/swords/greatsword-crossguard-steel.webp',
+        system: {
+          special: { value: '' },
+          integrity: { base: { value: entereza }, final: { value: 0 }, special: { value: 0 } },
+          breaking: { base: { value: rotura }, final: { value: 0 }, special: { value: 0 } },
+          attack: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
+          block: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
+          damage: { base: { value: dmg }, final: { value: 0 }, special: { value: 0 } },
+          initiative: { base: { value: turno }, final: { value: 0 }, special: { value: 0 } },
+          presence: { base: { value: presencia }, final: { value: 0 }, special: { value: 0 } },
+          size: { value: 'medium' },
+          strRequired: { oneHand: { base: { value: 0 }, final: { value: 0 } }, twoHands: { base: { value: 0 }, final: { value: 0 } } },
+          quality: { value: calidad }, oneOrTwoHanded: { value: '' },
+          knowledgeType: { value: 'known' }, manageabilityType: { value: 'one_hand' },
+          shotType: { value: 'throw' }, isRanged: { value: false },
+          range: { base: { value: 0 }, final: { value: 0 } },
+          cadence: { value: '' }, reload: { base: { value: 0 }, final: { value: 0 } },
+          sizeProportion: { value: 'normal' },
+          weaponStrength: { base: { value: 0 }, final: { value: 0 } },
+          critic: { primary: { value: critMap[crit1] || '-' }, secondary: { value: critMap[crit2] || '-' } },
+          isShield: { value: false }, equipped: { value: true },
+        },
+      };
+    }
+
+    // Artes Marciales (row 20)
+    const amTurno = safeInt(cellAt(combateSheet, 21, 8));
+    const amDmg = safeInt(cellAt(combateSheet, 21, 12));
+    if (amTurno || amDmg) {
+      items.push(buildWeaponItem('Artes Marciales', amTurno, amDmg,
+        safeStr(cellAt(combateSheet, 23, 3)).toLowerCase(),
+        safeStr(cellAt(combateSheet, 23, 4)).toLowerCase(),
+        safeInt(cellAt(combateSheet, 23, 5)),
+        safeInt(cellAt(combateSheet, 23, 6)),
+        safeInt(cellAt(combateSheet, 23, 7)),
+        safeInt(cellAt(combateSheet, 23, 9)),
+        'icons/creatures/claws/claw-hooked-curved.webp'));
+    }
+
+    // Weapon pairs (rows 27, 34, 41, 48): left in cols C-L, right in cols N-S
+    for (const startRow of [27, 34, 41, 48]) {
+      // Left weapon
+      const lName = safeStr(cellAt(combateSheet, startRow, 4)); // D
+      if (lName) {
+        const lTurno = safeInt(cellAt(combateSheet, startRow + 2, 8));
+        const lDmg = safeInt(cellAt(combateSheet, startRow + 2, 12));
+        if (lTurno || lDmg) {
+          items.push(buildWeaponItem(lName, lTurno, lDmg,
+            safeStr(cellAt(combateSheet, startRow + 4, 3)).toLowerCase(),
+            safeStr(cellAt(combateSheet, startRow + 4, 4)).toLowerCase(),
+            safeInt(cellAt(combateSheet, startRow + 4, 5)),
+            safeInt(cellAt(combateSheet, startRow + 4, 6)),
+            safeInt(cellAt(combateSheet, startRow + 4, 7)),
+            safeInt(cellAt(combateSheet, startRow + 4, 10))));
         }
-        continue;
       }
-
-      // Named weapon
-      const wName = safeStr(cellAt(combateSheet, startRow + 1, 5)) || weaponName; // E has full name
-      const turno = safeInt(cellAt(combateSheet, startRow + 1, 8));
-      const ataque = safeInt(cellAt(combateSheet, startRow + 1, 9));
-      const dmg = safeInt(cellAt(combateSheet, startRow + 1, 12));
-      const crit1 = safeStr(cellAt(combateSheet, startRow + 3, 3)).toLowerCase();
-      const crit2 = safeStr(cellAt(combateSheet, startRow + 3, 4)).toLowerCase();
-      const entereza = safeInt(cellAt(combateSheet, startRow + 3, 5));
-      const rotura = safeInt(cellAt(combateSheet, startRow + 3, 6));
-      const presencia = safeInt(cellAt(combateSheet, startRow + 3, 7));
-      const calidad = safeInt(cellAt(combateSheet, startRow + 4, 8));
-      const critMap = {fil:'cut',con:'impact',pen:'thrust',cal:'heat',ele:'electricity',fri:'cold',ene:'energy'};
-
-      if (ataque > 0 || dmg > 0) {
-        items.push({
-          name: wName || weaponName, type: 'weapon',
-          img: 'icons/weapons/swords/greatsword-crossguard-steel.webp',
-          system: {
-            special: { value: '' },
-            integrity: { base: { value: entereza }, final: { value: 0 }, special: { value: 0 } },
-            breaking: { base: { value: rotura }, final: { value: 0 }, special: { value: 0 } },
-            attack: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
-            block: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
-            damage: { base: { value: dmg }, final: { value: 0 }, special: { value: 0 } },
-            initiative: { base: { value: turno }, final: { value: 0 }, special: { value: 0 } },
-            presence: { base: { value: presencia }, final: { value: 0 }, special: { value: 0 } },
-            size: { value: 'medium' },
-            strRequired: { oneHand: { base: { value: 0 }, final: { value: 0 } }, twoHands: { base: { value: 0 }, final: { value: 0 } } },
-            quality: { value: calidad }, oneOrTwoHanded: { value: '' },
-            knowledgeType: { value: 'known' }, manageabilityType: { value: 'one_hand' },
-            shotType: { value: 'throw' }, isRanged: { value: false },
-            range: { base: { value: 0 }, final: { value: 0 } },
-            cadence: { value: '' }, reload: { base: { value: 0 }, final: { value: 0 } },
-            sizeProportion: { value: 'normal' },
-            weaponStrength: { base: { value: 0 }, final: { value: 0 } },
-            critic: { primary: { value: critMap[crit1] || '-' }, secondary: { value: critMap[crit2] || '-' } },
-            isShield: { value: false }, equipped: { value: true },
-          },
-        });
+      // Right weapon
+      const rName = safeStr(cellAt(combateSheet, startRow, 15)); // O
+      if (rName) {
+        const rTurno = safeInt(cellAt(combateSheet, startRow + 2, 19));
+        const rDmg = safeInt(cellAt(combateSheet, startRow + 2, 23));
+        if (rTurno || rDmg) {
+          items.push(buildWeaponItem(rName, rTurno, rDmg,
+            safeStr(cellAt(combateSheet, startRow + 4, 14)).toLowerCase(),
+            safeStr(cellAt(combateSheet, startRow + 4, 15)).toLowerCase(),
+            safeInt(cellAt(combateSheet, startRow + 4, 16)),
+            safeInt(cellAt(combateSheet, startRow + 4, 17)),
+            safeInt(cellAt(combateSheet, startRow + 4, 18)),
+            safeInt(cellAt(combateSheet, startRow + 4, 21))));
+        }
       }
     }
   }
@@ -496,9 +486,9 @@ export function parseExcelToActorData(workbook, fileName) {
       ui: {
         contractibleItems: {},
         tabVisibility: {
-          mystic: { value: !!(Object.keys(parsedSpheres).length || safeInt(findValue(sheet, 'Zeón:', 40, 60) || findValue(sheet, 'Zeon:', 40, 60)) || safeInt(findValue(sheet, 'ACT:', 40, 60)) || safeInt(findValue(sheet, 'Proyección Mágica:', 40, 60) || findValue(sheet, 'Proyección mágica:', 40, 60))) },
-          domine: { value: !!(kiSkillItems.length || techniqueItems.length || safeStr(findValue(sheet, 'Habilidades de Ki:', 35, 45)) || safeStr(findValue(sheet, 'Técnicas:', 40, 50))) },
-          psychic: { value: !!(psychicDiscItems.length || safeInt(findValue(sheet, 'Potencial Psíquico:', 55, 70)) || safeInt(findValue(sheet, 'CV Libres:', 55, 70))) },
+          mystic: { value: !!Object.keys(parsedSpheres).length },
+          domine: { value: !!(kiSkillItems.length || techniqueItems.length) },
+          psychic: { value: !!psychicDiscItems.length },
         }
       },
       general: {
