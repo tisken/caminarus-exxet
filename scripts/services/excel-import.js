@@ -454,7 +454,7 @@ export function parseExcelToActorData(workbook, fileName) {
       }
       if (!name) continue;
       const cost = safeInt(cellAt(kiSheet, row, 17)); // Q
-      kiSkillItems.push({ _id: foundry.utils.randomID(), name, type: 'kiSkill', img: 'icons/svg/lightning.svg', system: { description: { value: '' }, cost: { value: cost } } });
+      kiSkillItems.push({ _id: foundry.utils.randomID(), name, type: 'kiSkill' });
     }
   }
 
@@ -653,7 +653,7 @@ export function parseExcelToActorData(workbook, fileName) {
       sight: { angle: 360, enabled: primaries.perception > 0, range: primaries.perception * 20, brightness: 1, visionMode: 'basic', attenuation: 0.1, saturation: 0, contrast: 0 },
       appendNumber: false, prependAdjective: false, detectionModes: [],
     },
-    items: [...items, ...kiSkillItems, ...techniqueItems, ...psychicDiscItems],
+    items: [...items, ...techniqueItems, ...psychicDiscItems],
     effects: [],
   };
 }
