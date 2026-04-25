@@ -345,11 +345,12 @@ export function parseExcelToActorData(workbook, fileName) {
       };
     }
 
-    // Artes Marciales (row 20)
+    // Unarmed / Artes Marciales (row 20)
+    const unarmedName = safeStr(cellAt(combateSheet, 20, 3)) || 'Desarmado';
     const amTurno = safeInt(cellAt(combateSheet, 21, 8));
     const amDmg = safeInt(cellAt(combateSheet, 21, 12));
     if (amTurno || amDmg) {
-      items.push(buildWeaponItem('Artes Marciales', amTurno, amDmg,
+      items.push(buildWeaponItem(unarmedName, amTurno, amDmg,
         safeStr(cellAt(combateSheet, 23, 3)).toLowerCase(),
         safeStr(cellAt(combateSheet, 23, 4)).toLowerCase(),
         safeInt(cellAt(combateSheet, 23, 5)),
