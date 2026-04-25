@@ -435,17 +435,29 @@ export function parseExcelToActorData(workbook, fileName) {
   // Read Ki sheet for ki skills and CM
   const kiSkillItems = [];
   if (kiSheet) {
-    for (let row = 10; row <= 55; row++) {
+    // Standard ki skills (col K-R, R=True)
+    for (let row = 10; row <= 70; row++) {
       const active = cellAt(kiSheet, row, 18); // R = True/False
       if (active !== true && String(active).trim() !== 'True') continue;
       let name = '';
-      for (const col of [11, 12, 13, 14]) {
+      for (const col of [11, 12, 13, 14, 15]) {
+        const v = safeStr(cellAt(kiSheet, row, col));
+        if (v && !['├','│','└','└ ','│'].includes(v.trim()) && !v.includes('        ')) name = v.trim();
+      }
+      if (!name) continue;
+      kiSkillItems.push({ _id: foundry.utils.randomID(), name, type: 'kiSkill' });
+    }
+    // Némesis skills (col B=True, names in C-E, Akuma/Dominus sheets)
+    for (let row = 43; row <= 75; row++) {
+      const active = cellAt(kiSheet, row, 2); // B = True/False
+      if (active !== true && String(active).trim() !== 'True') continue;
+      let name = '';
+      for (const col of [3, 4, 5]) {
         const v = safeStr(cellAt(kiSheet, row, col));
         if (v && !['├','│','└','└ '].includes(v.trim())) name = v.trim();
       }
       if (!name) continue;
-      const cost = safeInt(cellAt(kiSheet, row, 17)); // Q
-      kiSkillItems.push({ _id: foundry.utils.randomID(), name, type: 'kiSkill' });
+      kiSkillItems.push({ _id: foundry.utils.randomID(), name: `Némesis: ${name}`, type: 'kiSkill' });
     }
   }
 
