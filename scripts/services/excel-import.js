@@ -487,6 +487,7 @@ export function parseExcelToActorData(workbook, fileName) {
 
   // We'll let Foundry/animabf fill the template, just set the values we have
   return {
+    _parsedSubpaths: parsedSubpaths,
     name,
     type: 'character',
     img: 'icons/svg/mystery-man.svg',
@@ -746,10 +747,12 @@ export async function importExcelFiles(files, targetFolder) {
       const data = await file.arrayBuffer();
       const workbook = XLSX.read(data, { type: 'array' });
       const actorData = parseExcelToActorData(workbook, file.name);
+      const subpaths = actorData._parsedSubpaths || {};
+      delete actorData._parsedSubpaths;
       actorData.folder = targetFolder?.id ?? null;
 
       // Assign spells from system pack based on sphere levels
-      const spellItems = assignSpellsFromPacks(actorData, allSpells, parsedSubpaths);
+      const spellItems = assignSpellsFromPacks(actorData, allSpells, subpaths);
       if (spellItems.length) {
         actorData.items.push(...spellItems);
         actorData.system.mystic.spells = [...(actorData.system.mystic.spells || []), ...spellItems];
