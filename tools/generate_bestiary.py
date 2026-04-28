@@ -1949,7 +1949,7 @@ def build_actor_document(record: dict, template: dict) -> dict:
         accum_value = defense_value if defense_value is not None else attack_value
         if accum_value is not None:
             system["combat"]["block"]["base"]["value"] = accum_value
-        system["general"]["settings"].setdefault("defenseType", {})["value"] = "accumulation"
+        system["general"]["settings"].setdefault("defenseType", {})["value"] = "resistance"
     system["combat"]["wearArmor"]["value"] = wear_armor
 
     act_value = record.get("act")
