@@ -1528,6 +1528,8 @@ def build_technique_items(raw: str | None) -> list[dict]:
 
 
 def build_armor_item(name: str, ta_raw: str | None) -> dict | None:
+    if not ta_raw or normalize_key(ta_raw).startswith("ninguna") or normalize_key(ta_raw) in {"na", "no", ""}:
+        return None
     values = parse_ta_values(ta_raw)
     if not values and ta_raw:
         standard = STANDARD_ARMOR_TA.get(ta_raw.lower().strip())
