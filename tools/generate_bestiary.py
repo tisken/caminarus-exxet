@@ -1838,7 +1838,7 @@ def build_actor_document(record: dict, template: dict) -> dict:
     system["characteristics"]["secondaries"]["fatigue"]["max"] = fatigue
     system["characteristics"]["secondaries"]["initiative"]["base"]["value"] = initiative
     system["characteristics"]["secondaries"]["movementType"]["mod"]["value"] = (
-        movement - stats.get("agility", 0)
+        (movement - stats.get("agility", 0)) if movement > 0 else 0
     )
     system["characteristics"]["secondaries"]["regenerationType"]["mod"]["value"] = (
         regeneration - calculate_regeneration_type_from_constitution(stats.get("constitution", 0))

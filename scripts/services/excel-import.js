@@ -531,7 +531,7 @@ export function parseExcelToActorData(workbook, fileName) {
           fatigue: { value: dynFatigue || getInt(CELLS.fatigue), max: dynFatigue || getInt(CELLS.fatigue) },
           regenerationType: { mod: { value: dynRegen || getInt(CELLS.regeneration) }, final: { value: 0 } },
           regeneration: { normal: { value: 0, period: '' }, resting: { value: 0, period: '' }, recovery: { value: 0, period: '' } },
-          movementType: { mod: { value: (dynMovement || getInt(CELLS.movement)) - primaries.agility }, final: { value: 0 } },
+          movementType: { mod: { value: (() => { const m = dynMovement || getInt(CELLS.movement); return m > 0 ? m - primaries.agility : 0; })() }, final: { value: 0 } },
           movement: { maximum: { value: 0 }, running: { value: 0 } },
           resistances: {
             physical: { base: { value: getInt(CELLS.rf) }, final: { value: 0 } },
