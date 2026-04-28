@@ -1807,15 +1807,83 @@ def build_actor_document(record: dict, template: dict) -> dict:
         system["characteristics"]["primaries"][key]["value"] = value
         system["characteristics"]["primaries"][key]["mod"] = calculate_attribute_modifier(value)
 
-    system["general"]["levels"] = [
-        {
-            "_id": stable_id(record["id"], "level"),
-            "type": "level",
-            "name": record["name"],
-            "flags": {"version": 1},
-            "system": {"level": level},
-        }
-    ]
+    VALID_CATEGORIES = {
+        "guerrero", "guerrero acrobata", "paladin", "paladin oscuro",
+        "maestro en armas", "tecnicista", "tao", "explorador", "sombra",
+        "ladron", "asesino", "hechicero", "conjurador", "convocador",
+        "warlock", "ilusionista", "mentalista", "guerrero mentalista",
+        "guerrero conjurador", "novel",
+    }
+    CATEGORY_FIXES = {
+        "nobel": "Novel", "t ao": "Tao", "ta o": "Tao",
+        "maestro de armas": "Maestro en Armas",
+        "guerrero acrobata": "Guerrero Acróbata",
+        "guerreroacrobata": "Guerrero Acróbata",
+        "paladin": "Paladín",
+        "paladin oscuro": "Paladín Oscuro",
+        "ladron": "Ladrón",
+        "asesina": "Asesino",
+        "guerrero mentalista": "Guerrero Mentalista",
+        "guerrero conjurador": "Guerrero Conjurador",
+        "maestro en armas": "Maestro en Armas",
+        "hechiz mentalista": "Hechicero / Mentalista",
+    }
+
+    def fix_single_category(raw_name):
+        nk = normalize_key(raw_name)
+        if nk in CATEGORY_FIXES:
+            return CATEGORY_FIXES[nk]
+        if nk in VALID_CATEGORIES:
+            return raw_name.strip()
+        for vc in sorted(VALID_CATEGORIES, key=len, reverse=True):
+            if vc in nk:
+                return raw_name.strip()
+        return None
+
+    category_raw = re.split(
+        r"\s+Fue\s*:", record.get("category") or ""
+    )[0].strip()
+    category_raw = re.sub(r"\s+\d+\s*$", "", category_raw).strip()
+
+    # Multi-category with explicit levels: "Tecnicista / Guerrero (10 / 4)"
+    multi_match = re.match(r"(.+?)\s*/\s*(.+?)\s*\((\d+)\s*/\s*(\d+)\)", category_raw)
+    if multi_match:
+        cat1 = fix_single_category(multi_match.group(1)) or multi_match.group(1).strip()
+        cat2 = fix_single_category(multi_match.group(2)) or multi_match.group(2).strip()
+        lv1 = int(multi_match.group(3))
+        lv2 = int(multi_match.group(4))
+        system["general"]["levels"] = [
+            {"_id": stable_id(record["id"], "level", "0"), "type": "level",
+             "name": cat1, "flags": {"version": 1}, "system": {"level": lv1}},
+            {"_id": stable_id(record["id"], "level", "1"), "type": "level",
+             "name": cat2, "flags": {"version": 1}, "system": {"level": lv2}},
+        ]
+    # Multi-category without levels: "Paladín / Maestro en Armas"
+    elif "/" in category_raw and not category_raw.lower().startswith("entre"):
+        parts = [p.strip() for p in category_raw.split("/")]
+        fixed = [fix_single_category(p) or p for p in parts]
+        valid_parts = [f for f in fixed if fix_single_category(f)]
+        if valid_parts:
+            per_level = max(1, level // len(valid_parts))
+            remainder = level - per_level * len(valid_parts)
+            system["general"]["levels"] = []
+            for i, cat in enumerate(valid_parts):
+                lv = per_level + (remainder if i == 0 else 0)
+                system["general"]["levels"].append(
+                    {"_id": stable_id(record["id"], "level", str(i)), "type": "level",
+                     "name": cat, "flags": {"version": 1}, "system": {"level": lv}}
+                )
+        else:
+            system["general"]["levels"] = [
+                {"_id": stable_id(record["id"], "level"), "type": "level",
+                 "name": "Novel", "flags": {"version": 1}, "system": {"level": level}}
+            ]
+    else:
+        category_clean = fix_single_category(category_raw) or "Novel"
+        system["general"]["levels"] = [
+            {"_id": stable_id(record["id"], "level"), "type": "level",
+             "name": category_clean, "flags": {"version": 1}, "system": {"level": level}}
+        ]
     system["general"]["presence"]["base"] = {"value": presence_base}
     system["general"]["aspect"]["race"]["value"] = (
         record.get("race") or record.get("creature_class") or ""
