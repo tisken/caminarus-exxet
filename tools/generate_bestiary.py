@@ -1817,7 +1817,7 @@ def build_actor_document(record: dict, template: dict) -> dict:
         "guerrero conjurador", "novel",
     }
     CATEGORY_FIXES = {
-        "nobel": "Novel", "t ao": "Tao", "ta o": "Tao",
+        "nobel": "Novel", "novel": "Novel", "t ao": "Tao", "ta o": "Tao",
         "maestro de armas": "Maestro en Armas",
         "guerrero acrobata": "Guerrero Acróbata",
         "guerreroacrobata": "Guerrero Acróbata",
@@ -1881,7 +1881,16 @@ def build_actor_document(record: dict, template: dict) -> dict:
                  "name": "Novel", "flags": {"version": 1}, "system": {"level": level}}
             ]
     else:
-        category_clean = fix_single_category(category_raw) or "Novel"
+        category_clean = fix_single_category(category_raw)
+        # If category is a creature type, try to get real class from creature_class field
+        if not category_clean or category_clean == "Novel":
+            cc = re.split(r"\s+Fue\s*:", record.get("creature_class") or "")[0].strip()
+            cc = re.sub(r"\s+\d+\s*$", "", cc).strip()
+            cc_fixed = fix_single_category(cc) if cc else None
+            if cc_fixed:
+                category_clean = cc_fixed
+            else:
+                category_clean = "Novel"
         system["general"]["levels"] = [
             {"_id": stable_id(record["id"], "level"), "type": "level",
              "name": category_clean, "flags": {"version": 1}, "system": {"level": level}}
