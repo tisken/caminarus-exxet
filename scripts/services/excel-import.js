@@ -318,7 +318,9 @@ export function parseExcelToActorData(workbook, fileName) {
 
     // Weapons from slots (rows 20-60, each weapon block is ~7 rows)
     const critMap = {fil:'cut',con:'impact',pen:'thrust',cal:'heat',ele:'electricity',fri:'cold',ene:'energy'};
+    const strBonus = calcMod(primaries.strength);
     function buildWeaponItem(name, turno, dmg, crit1, crit2, entereza, rotura, presencia, calidad, img) {
+      const adjustedDmg = Math.max(0, dmg - strBonus);
       return {
         name, type: 'weapon', img: img || 'icons/weapons/swords/greatsword-crossguard-steel.webp',
         system: {
@@ -327,7 +329,7 @@ export function parseExcelToActorData(workbook, fileName) {
           breaking: { base: { value: rotura }, final: { value: 0 }, special: { value: 0 } },
           attack: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
           block: { base: { value: 0 }, final: { value: 0 }, special: { value: 0 } },
-          damage: { base: { value: dmg }, final: { value: 0 }, special: { value: 0 } },
+          damage: { base: { value: adjustedDmg }, final: { value: 0 }, special: { value: 0 } },
           initiative: { base: { value: turno }, final: { value: 0 }, special: { value: 0 } },
           presence: { base: { value: presencia }, final: { value: 0 }, special: { value: 0 } },
           size: { value: 'medium' },

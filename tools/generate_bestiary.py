@@ -1436,7 +1436,8 @@ def parse_weapons_from_damage(damage_raw: str | None) -> list[dict]:
     return weapons
 
 
-def build_weapon_item(weapon: dict) -> dict:
+def build_weapon_item(weapon: dict, str_bonus: int = 0) -> dict:
+    adjusted_damage = max(0, weapon["damage"] - str_bonus)
     return {
         "name": weapon["name"],
         "type": "weapon",
@@ -1448,7 +1449,7 @@ def build_weapon_item(weapon: dict) -> dict:
             "breaking": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
             "attack": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
             "block": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
-            "damage": {"base": {"value": weapon["damage"]}, "final": {"value": 0}, "special": {"value": 0}},
+            "damage": {"base": {"value": adjusted_damage}, "final": {"value": 0}, "special": {"value": 0}},
             "initiative": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
             "presence": {"base": {"value": 0}, "final": {"value": 0}, "special": {"value": 0}},
             "size": {"value": "medium"},
@@ -2047,11 +2048,12 @@ def build_actor_document(record: dict, template: dict) -> dict:
     armor_item = build_armor_item(record["name"], record.get("ta_raw"))
     if armor_item:
         items.append(armor_item)
+    str_bonus = calculate_attribute_modifier(stats.get("strength", 0))
     seen_weapons = set()
     for weapon in parse_weapons_from_damage(record.get("damage_raw")):
         if weapon["name"] not in seen_weapons:
             seen_weapons.add(weapon["name"])
-            items.append(build_weapon_item(weapon))
+            items.append(build_weapon_item(weapon, str_bonus))
     items.extend(build_technique_items(record.get("techniques")))
 
     prepared_items = []
